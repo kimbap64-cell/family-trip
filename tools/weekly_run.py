@@ -18,6 +18,11 @@ def run(args, code_map=None):
         sys.exit((code_map or {}).get(r.returncode, r.returncode))
 
 
+if "--notify-only" in sys.argv:  # 알림 경로만 검증할 때(점검·사이트 갱신 생략)
+    run([PY, T("notify_kakao.py"), "--send"])
+    print("\n[알림만 실행 완료]")
+    sys.exit(0)
+
 run([PY, T("refresh_status.py")], {2: 2})
 run([PY, T("pilot_score.py")])
 run([PY, T("pilot_score.py"), "--raw", "data/daytrip/raw.json", "--yt", "data/daytrip/youtube.json", "--out", "data/daytrip/places.json",

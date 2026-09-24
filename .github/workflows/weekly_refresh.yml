@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '0 23 * * 4'
   workflow_dispatch:
+    inputs:
+      notify_only:
+        description: '카톡 알림 경로만 시험 (점검·사이트 갱신 생략)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -37,6 +42,7 @@ jobs:
         run: |
           python tools/test_quota_guard.py
           python tools/test_score_robust.py
+          python tools/test_notify_flow.py
 
       - name: 카카오 토큰 준비 (Secrets 가 등록돼 있을 때만)
         env:
@@ -51,7 +57,7 @@ jobs:
           fi
 
       - name: 주간 점검 -> 점수화 -> 사이트 -> 검증 -> 알림
-        run: python tools/weekly_run.py --notify
+        run: python tools/weekly_run.py --notify ${{ github.event.inputs.notify_only == 'true' && '--notify-only' || '' }}
 
       - name: 변경 사항 커밋·푸시 (성공했을 때만)
         if: success()

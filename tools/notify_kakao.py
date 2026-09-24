@@ -80,11 +80,18 @@ def build():
 
 
 def send(tpl):
-    tok = ska.load_token()
-    if not tok or not tok.get("access_token"):
-        print("[중단] kakao_token.json 없음/토큰 없음"); return False
+    tok = ska.load_token() or {}
+    access = tok.get("access_token")
+    if not access:
+        # 클라우드(Actions)는 Secrets 로 만든 토큰 파일에 access_token 이 비어 있다 -> 먼저 refresh_token 으로 발급
+        if tok.get("rest_api_key") and tok.get("refresh_token"):
+            print("[알림] access_token 이 비어 있어 refresh_token 으로 먼저 발급합니다")
+            access = ska.refresh_access_token(tok["rest_api_key"], tok["refresh_token"])
+        if not access:
+            print("[중단] 카카오 토큰 없음 또는 재발급 실패 (Secrets/refresh_token 확인)"); return False
     url = "https://kapi.kakao.com/v2/api/talk/memo/default/send"
     payload = {"template_object": json.dumps(tpl, ensure_ascii=False)}
+    tok["access_token"] = access
     r = requests.post(url, headers={"Authorization": f"Bearer {tok['access_token']}"}, data=payload, timeout=20)
     if r.status_code == 401 and tok.get("rest_api_key") and tok.get("refresh_token"):
         new = ska.refresh_access_token(tok["rest_api_key"], tok["refresh_token"])
