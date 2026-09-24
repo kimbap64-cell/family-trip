@@ -68,6 +68,7 @@
   <div class="seg" id="segTab"><button data-v="local" aria-pressed="true">동네 식당·카페</button><button data-v="trip" aria-pressed="false">당일 나들이</button><button data-v="camp" aria-pressed="false" id="tabCamp">키즈캠핑</button></div>
   <div class="seg" id="segKind"><button data-v="restaurant" aria-pressed="true">식당</button><button data-v="cafe" aria-pressed="false">카페</button></div>
   <div class="seg" id="segMode"><button data-v="a" aria-pressed="true">4인 가족</button><button data-v="b" aria-pressed="false">6인(부모님)</button></div>
+  <div class="seg" id="segType" style="display:none"><button data-v="all" aria-pressed="true">전체</button><button data-v="auto" aria-pressed="false">오토캠핑</button><button data-v="glamp" aria-pressed="false">글램핑·카라반</button></div>
   <select id="sort"><option value="s">추천순</option><option value="dr">가까운순</option></select>
 </div></div>
 <main>
@@ -84,7 +85,7 @@
 <script id="D" type="application/json">__DATA__</script>
 <script>
 const D = JSON.parse(document.getElementById('D').textContent);
-const st = {tab:'local', kind:'restaurant', mode:'a', sort:'s'};
+const st = {tab:'local', kind:'restaurant', mode:'a', sort:'s', ctype:'all'};
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = n => n == null ? '-' : Number(n).toLocaleString('ko-KR');
 (function () {
@@ -139,6 +140,7 @@ function card(p) {
   if (p.rs && !p.rs.startsWith('네이버')) pills.push(`<span class="pill w">별점: ${esc(p.rs)}</span>`);
   // '영업 중/오늘 휴무'는 수집 시점의 스냅샷이라 표시하지 않는다(가는 날 상태는 네이버 지도에서 확인). 폐업 신호만 표시.
   p.flags.filter(f => /웨이팅|폐업|입장료.*4인|걷는 거리|사전 예약|휴관/.test(f)).forEach(f => pills.push(`<span class="pill w">${esc(f)}</span>`));
+  if (p.ctype) pills.unshift(`<span class="pill ${p.ctype === '오토캠핑' ? 'g' : ''}">${esc(p.ctype)}</span>`);
   if (p.rp == null) pills.push('<span class="pill b">별점 확인 불가</span>');
   if (p.flags.some(f => /카카오 교차검증 실패/.test(f))) pills.push('<span class="pill w">카카오 미확인</span>');
   if (p.flags.some(f => /읽은 독립 출처 0/.test(f))) pills.push('<span class="pill w">근거 수집 부족</span>');
@@ -183,7 +185,9 @@ function render() {
   setNote();
   document.getElementById('segKind').style.display = st.tab === 'local' ? '' : 'none';
   document.getElementById('tabCamp').style.display = D.camps && D.camps.length ? '' : 'none';
-  const base = st.tab === 'trip' ? D.trips : st.tab === 'camp' ? (D.camps || []) : D.places.filter(p => p.kind === st.kind);
+  document.getElementById('segType').style.display = st.tab === 'camp' ? '' : 'none';
+  let base = st.tab === 'trip' ? D.trips : st.tab === 'camp' ? (D.camps || []) : D.places.filter(p => p.kind === st.kind);
+  if (st.tab === 'camp' && st.ctype !== 'all') base = base.filter(p => (p.ctype === '오토캠핑') === (st.ctype === 'auto'));
   let arr = base;
   if (st.mode === 'b') arr = arr.filter(p => !p.bv.startsWith('부적합'));
   const main = arr.filter(p => p.tier === '추천' || p.tier === '조건부');
@@ -197,7 +201,7 @@ function render() {
   document.getElementById('exclList').innerHTML = '<ul>' + excl.map(p => `<li><b>${esc(p.n)}</b>: ${esc(p.fails.join(' / '))}</li>`).join('') + '</ul>';
   document.getElementById('excl').style.display = excl.length ? '' : 'none';
 }
-for (const [id, key] of [['segTab', 'tab'], ['segKind', 'kind'], ['segMode', 'mode']]) {
+for (const [id, key] of [['segTab', 'tab'], ['segKind', 'kind'], ['segMode', 'mode'], ['segType', 'ctype']]) {
   document.getElementById(id).addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
     st[key] = b.dataset.v;

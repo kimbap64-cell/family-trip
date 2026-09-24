@@ -47,14 +47,19 @@ def main():
         print("[캡]", e)
     print(f"[1] 캠핑장 후보 {len(cands)}개 ({time.time()-t0:.0f}s)")
 
+    from camp_types import camp_type
     pool = []
     for c in cands.values():
         c["straight_m"] = round(geo.haversine_m(hx, hy, c["x"], c["y"]))
         if c["straight_m"] <= 55000 and (c.get("visitor_review_count") or 0) + (c.get("blog_review_count") or 0) // 10 >= 40:
+            c["ctype"] = camp_type(c["name"], c.get("promo") or "", c.get("category") or "")
             pool.append(c)
-    pool.sort(key=lambda c: -((c.get("visitor_review_count") or 0) + (c.get("blog_review_count") or 0) // 10))
-    pool = pool[:45]
-    print(f"[2] 직선 55km·리뷰 기준 통과 {len(pool)}개")
+    rk = lambda c: -((c.get("visitor_review_count") or 0) + (c.get("blog_review_count") or 0) // 10)
+    # 사용자 요청은 '키즈 오토캠핑장' — 리뷰순으로만 뽑으면 예약이 쉬운 글램핑이 앞서므로 유형별로 나눠 뽑는다(오토캠핑 최대 30 + 그 외 20)
+    auto = sorted([c for c in pool if c["ctype"] == "오토캠핑"], key=rk)[:30]
+    rest = sorted([c for c in pool if c["ctype"] != "오토캠핑"], key=rk)[:20]
+    pool = auto + rest
+    print(f"[2] 직선 55km·리뷰 기준 통과 {len(pool)}개 (오토캠핑 {len(auto)} · 글램핑/카라반 등 {len(rest)})")
 
     near = []
     for c in pool:
@@ -66,6 +71,10 @@ def main():
             near.append(c)
     print(f"[3] 차량 {a.max_drive:.0f}분 이내 {len(near)}개 ({time.time()-t0:.0f}s)")
 
+    # 수집 대상: 오토캠핑을 우선(최대 top*0.6), 나머지로 채움
+    n_auto = int(a.top * 0.6)
+    near = [c for c in near if c["ctype"] == "오토캠핑"][:n_auto] + [c for c in near if c["ctype"] != "오토캠핑"]
+    print(f"    수집 대상 순서: 오토캠핑 {sum(1 for c in near[:a.top] if c['ctype'] == '오토캠핑')}곳 포함")
     results, rawp = [], os.path.join(OUT, "raw.json")
     for i, c in enumerate(near[: a.top], 1):
         try:

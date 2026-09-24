@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24 16:57",
+ "generated": "2026-09-25 01:17",
  "queries": [
   "서울 근교 아이랑 당일치기 체험 경기도",
   "남양주 가평 양평 아이랑 가볼만한곳",
@@ -212,7 +212,7 @@
     "info_density": 6,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 14.0
+    "months_old": 14.1
    },
    "mentioned_places": [],
    "top_comments_n": 40
@@ -360,7 +360,7 @@
     "info_density": 0,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 14.6
+    "months_old": 14.7
    },
    "mentioned_places": [],
    "top_comments_n": 40
@@ -605,7 +605,7 @@
     "info_density": 3,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 12.1
+    "months_old": 12.2
    },
    "mentioned_places": []
   },
@@ -694,16 +694,18 @@
    "comments": 88,
    "subscribers": 16700,
    "credibility": {
-    "total": 56.1,
+    "total": 60.1,
     "recency": 12,
     "engagement": 15.1,
     "channel": 17.0,
-    "info_density": 12,
+    "info_density": 16,
     "sponsor": 0,
     "sponsored_hint": [],
     "months_old": 14.9
    },
-   "mentioned_places": []
+   "mentioned_places": [
+    "12845525"
+   ]
   },
   {
    "id": "1oJSwK4iAFM",
@@ -725,7 +727,7 @@
     "info_density": 3,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 3.8
+    "months_old": 3.9
    },
    "mentioned_places": []
   },
@@ -845,7 +847,7 @@
     "info_density": 3,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 15.6
+    "months_old": 15.7
    },
    "mentioned_places": []
   },
@@ -966,7 +968,7 @@
     "info_density": 0,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 20.6
+    "months_old": 20.7
    },
    "mentioned_places": []
   },
@@ -1038,7 +1040,7 @@
     "info_density": 3,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 13.9
+    "months_old": 14.0
    },
    "mentioned_places": []
   },
@@ -1062,7 +1064,7 @@
     "info_density": 12,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 16.3
+    "months_old": 16.4
    },
    "mentioned_places": [],
    "top_comments_n": 40
@@ -1111,7 +1113,7 @@
     "info_density": 0,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 12.2
+    "months_old": 12.3
    },
    "mentioned_places": [],
    "top_comments_n": 40
@@ -1136,7 +1138,7 @@
     "info_density": 0,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 17.2
+    "months_old": 17.3
    },
    "mentioned_places": [],
    "top_comments_n": 40
@@ -1437,7 +1439,8 @@
     "months_old": 3.7
    },
    "mentioned_places": [
-    "11622274"
+    "11622274",
+    "1225532960"
    ]
   },
   {
@@ -1874,7 +1877,7 @@
     "info_density": 0,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 14.9
+    "months_old": 15.0
    },
    "mentioned_places": []
   },
@@ -1929,7 +1932,8 @@
    "mentioned_places": [
     "11574457",
     "12115604",
-    "19713256"
+    "19713256",
+    "12845525"
    ]
   }
  ],
@@ -1975,6 +1979,14 @@
    "where": "description"
   },
   {
+   "place_id": "12845525",
+   "video_id": "DtDxcNtClVE",
+   "t": 444,
+   "quote": "07:24 인천대공원",
+   "link": "https://www.youtube.com/watch?v=DtDxcNtClVE&t=444",
+   "where": "description"
+  },
+  {
    "place_id": "11622274",
    "video_id": "g7IZn0gzluQ",
    "t": null,
@@ -2003,6 +2015,14 @@
    "video_id": "1UpLNTno7CY",
    "t": null,
    "quote": "근처 아침고요수목원과 코스로 묶기 좋아요.",
+   "link": "https://www.youtube.com/watch?v=1UpLNTno7CY",
+   "where": "description"
+  },
+  {
+   "place_id": "1225532960",
+   "video_id": "1UpLNTno7CY",
+   "t": null,
+   "quote": "🐑 가평 양떼목장",
    "link": "https://www.youtube.com/watch?v=1UpLNTno7CY",
    "where": "description"
   },
@@ -2052,6 +2072,14 @@
    "t": 751,
    "quote": "12:31. 하남 미사경정공원",
    "link": "https://www.youtube.com/watch?v=kBEihWxDht8&t=751",
+   "where": "description"
+  },
+  {
+   "place_id": "12845525",
+   "video_id": "kBEihWxDht8",
+   "t": 678,
+   "quote": "11:18 인천 인천대공원",
+   "link": "https://www.youtube.com/watch?v=kBEihWxDht8&t=678",
    "where": "description"
   },
   {
@@ -2175,6 +2203,16 @@
    "likes": 275
   },
   {
+   "place_id": "13491272",
+   "video_id": "U9rwVeMwTLM",
+   "t": null,
+   "quote": "ㅋㅋㅋㅋㅋㅋㅋㅋ 뭐가 나올까 지켜봤더니 에버랜드 나오네ㅋㅋ 전 두물머리 가고 싶네요~",
+   "link": "https://www.youtube.com/watch?v=U9rwVeMwTLM",
+   "where": "comment",
+   "comment_date": "2025-02-07",
+   "likes": 275
+  },
+  {
    "place_id": "11574457",
    "video_id": "U9rwVeMwTLM",
    "t": null,
@@ -2243,6 +2281,16 @@
    "where": "comment",
    "comment_date": "2025-02-07",
    "likes": 219
+  },
+  {
+   "place_id": "13491272",
+   "video_id": "U9rwVeMwTLM",
+   "t": null,
+   "quote": "양평 두물머리   ㅋㅋㅋㅋㅋ",
+   "link": "https://www.youtube.com/watch?v=U9rwVeMwTLM",
+   "where": "comment",
+   "comment_date": "2025-02-06",
+   "likes": 111
   },
   {
    "place_id": "11574457",

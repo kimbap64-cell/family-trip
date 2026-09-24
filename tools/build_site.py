@@ -83,9 +83,13 @@ cpp = os.path.join(ROOT, "data", "camping", "places.json")
 if os.path.exists(cpp):
     csrc = json.load(open(cpp, encoding="utf-8"))
     rawmap.update({p["naver"]["id"]: p for p in json.load(open(os.path.join(ROOT, "data", "camping", "raw.json"), encoding="utf-8"))["places"]})
+    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    from camp_types import camp_type
     for p in csrc["places"]:
         s = slim(p)
         s["kind"] = "camping"
+        rp = rawmap[p["naver"]["place_id"]]["naver"]
+        s["ctype"] = camp_type(p["name"], rp.get("promo") or "", p["naver"].get("category") or "")
         s["costb"] = (p["price"]["est_meal_4p"] or {}).get("basis")
         s["plan"] = [{"l": e["label"], "q": e["quote"], "k": ev(e)["k"], "u": ev(e)["u"], "d": e.get("date")} for e in p.get("plan_notes", [])]
         s["near"] = None

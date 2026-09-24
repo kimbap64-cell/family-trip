@@ -10,7 +10,7 @@ PY = sys.executable
 T = lambda s: os.path.join(ROOT, "tools", s)
 steps = [
     [PY, T("pilot_local.py"), "--max-detail", "45", "--max-drive", "12"],
-    [PY, T("daytrip_collect.py"), "--top", "30", "--blogs", "2"],
+    [PY, T("daytrip_collect.py"), "--top", "45", "--blogs", "2"],
     [PY, T("pilot_youtube.py")],
     [PY, T("pilot_youtube.py"), "--set", "daytrip", "--raw", "data/daytrip/raw.json", "--out", "data/daytrip/youtube.json", "--cache", "data/cache/yt_daytrip_raw.json"],
     [PY, T("pilot_score.py")],
