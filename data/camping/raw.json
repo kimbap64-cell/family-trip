@@ -1,0 +1,4648 @@
+{
+ "generated": "2026-09-24 17:49",
+ "home": [
+  127.1925648,
+  37.5580056
+ ],
+ "places": [
+  {
+   "naver": {
+    "id": "1973246258",
+    "name": "양주르 글램핑 캠핑장",
+    "category": "캠핑,야영장",
+    "road_address": "경기 양주시 장흥면 가마골로 188-50",
+    "address": "부곡리 24",
+    "x": 126.9800313,
+    "y": 37.7349975,
+    "phone": "0507-1335-9901",
+    "visitor_review_count": 14959,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 1100,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": null,
+    "promo": "서울근교 당일글램핑 키즈캠핑장",
+    "micro_review": "신나는 액티비티로 가득한 가족 여행지"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 27156,
+   "drive": {
+    "min": 30.7,
+    "km": 34.98,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "놀다 왔는데 이만큼이나 미꾸라지를 잡아놨네요 바베큐 장을 제외하고는 바닥이 인조잔디라 안심이였어요 넘어져도 까지지 않아요~ 이런 에어바운서 풀장이 곳곳에 많아요 사",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
+      "date": "2026.09.09."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "면 당근  받을 수 있는데요 양들이 아주 좋아해요 돼지 도 있어요 귀엽네요 이런 체험들이 냄새 나고 구질구질하면 하고싶지 않을텐데요 왠만한 애완강아지들보다도 잘 관리",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
+      "date": "2026.09.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "외하고는 바닥이 인조잔디라 안심이였어요 넘어져도 까지지 않아요~ 이런 에어바운서 풀장이 곳곳에 많아요 사이즈별로 풀장이 많아요 모래놀이도 있구요 날이 쌀쌀해서 두꺼운",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
+      "date": "2026.09.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "였어요 넘어져도 까지지 않아요~ 이런 에어바운서 풀장이 곳곳에 많아요 사이즈별로 풀장이 많아요 모래놀이도 있구요 날이 쌀쌀해서 두꺼운 담요 가져가니 쉴 때 좋았어요",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
+      "date": "2026.09.09."
+     },
+     {
+      "label": "아이동반",
+      "quote": "양주르 물놀이 당일 글램핑 아이랑 양주 가볼만한곳 솔직 후기 안녕하세요 솔이마밍이에요! 아이 여름방학에 아이랑 양",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     },
+     {
+      "label": "아이동반",
+      "quote": "핑 아이랑 양주 가볼만한곳 솔직 후기 안녕하세요 솔이마밍이에요! 아이 여름방학에 아이랑 양주 가볼만한곳으로 유명한 양주르를 다녀왔어요. 양주르는 당일 글램핑이 가능한",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "양주르 물놀이 당일 글램핑 아이랑 양주 가볼만한곳 솔직 후기 안녕하세요 솔이마밍이에요! 아이",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "으로 반갑게 맞아주세요! 아이랑 양주 가볼만한곳으로 추천을 하는 이유는 여름에는 물놀이를 마음껏 할 수 있어서도 있지만 그 밖에도 동물 먹이주기, 미꾸라지 낚지, 모래",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "놀이를 마음껏 할 수 있어서도 있지만 그 밖에도 동물 먹이주기, 미꾸라지 낚지, 모래놀이, 다양한 에어바운스 등등 아이들 놀거리가 정말 많아요. 출처 : 양주르 네이버",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "수 있어서도 있지만 그 밖에도 동물 먹이주기, 미꾸라지 낚지, 모래놀이, 다양한 에어바운스 등등 아이들 놀거리가 정말 많아요. 출처 : 양주르 네이버 플레이스 이용 요금에",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "는 후기 ‼️ 물놀이가 없어도 동물 먹이주기/모래놀이/미꾸라지 잡기 /에어바운서 놀이터/무료 비눗방울 다양한 체험이 있어 즐길거리 많아요 ✨️ 그래서 영유아들에게도 추",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "부음식 반입 안되고 마켓에서 다 구매하셔야 해요 고로 준비물도 필요없다는 점.. 장난감이 많으니 아기랑 방문하지않게 주의하긔.... 지갑 털릴 수 있어요 ;;; 아이스",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "아이동반",
+      "quote": "고 마켓에서 다 구매하셔야 해요 고로 준비물도 필요없다는 점.. 장난감이 많으니 아기랑 방문하지않게 주의하긔.... 지갑 털릴 수 있어요 ;;; 아이스크림, 컵과일 같",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "비싼만큼 확실한 퀄리티 보장! 유명한 이유가 있는 셀프바베큐장 양주르 후기 물놀이 가능한 셀프바베큐장으로 넘나 유명한 양주르 키즈 글램핑 캠핑장에 다녀왔어요! 물",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "이 가능한 셀프바베큐장으로 넘나 유명한 양주르 키즈 글램핑 캠핑장에 다녀왔어요! 물놀이가 메인인 것 같은데 물놀이 없어도 재미있을까? 라고 고민하시는 분들을 위해 써보",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "? 라고 고민하시는 분들을 위해 써보는 후기 ‼️ 물놀이가 없어도 동물 먹이주기/모래놀이/미꾸라지 잡기 /에어바운서 놀이터/무료 비눗방울 다양한 체험이 있어 즐길거리 많",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "엘리베이터/1층/평지",
+      "quote": "비누방울 선물 받음 오리야 안녕 우리구역 도착 양주르는 구역이 나누어져 있어요 평지 아니구요 경사여서 위로 점점 올라가야해요 저희는 10번을 배정 받았어요 딱히 좋",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
+      "date": "2026.09.09."
+     },
+     {
+      "label": "주차",
+      "quote": "를 남겨보려고해요 :) 양주르 글램핑 캠핑장 전화번호 0507-1335-9901 주차가능(무료) 이용시간 평일·주말 3시간, 6시간, 9시간 등등 이용시간 상이 이용 요",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19."
+     }
+    ],
+    "b_neg": [],
+    "plan": [
+     {
+      "label": "사전 예약",
+      "quote": "1시/3시 예약가능 네이버예약, 캐치테이블 예약 필수 세 살, 용띠친구들 가족모임으로 다녀왔던",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16."
+     }
+    ],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": [
+     "제로페이"
+    ],
+    "opening_hours": null,
+    "micro_reviews": [
+     "신나는 액티비티로 가득한 가족 여행지"
+    ],
+    "menus": [
+     {
+      "name": "성인 1인 패키지 (기본 3시간)",
+      "price": "55000",
+      "description": "중학생이상",
+      "recommend": false
+     },
+     {
+      "name": "초등학생 (기본 3시간)",
+      "price": "39000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "미취학아동 무료입장",
+      "price": "0",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "3시간 추가 이용권",
+      "price": "110000",
+      "description": "바베큐 500g 추가 제공",
+      "recommend": false
+     },
+     {
+      "name": "불멍세트",
+      "price": "30000",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": false,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "[양주] 양주르 아이와 함께 생각보다 더 좋았던 곳 _ 1회차 방문",
+      "url": "https://m.blog.naver.com/yayamie/224405937013",
+      "date": "2026.09.09.",
+      "authorName": "돌프"
+     },
+     {
+      "title": "양주르 물놀이 당일 글램핑 아이랑 양주 가볼만한곳 솔직 후기",
+      "url": "https://m.blog.naver.com/lovetoky13/224383766113",
+      "date": "2026.08.19.",
+      "authorName": "솔이마밍"
+     },
+     {
+      "title": "세살아기랑 양주르 키즈 글램핑캠핑장 물놀이 없이도 즐길거리 가득해요",
+      "url": "https://m.blog.naver.com/ha__nna/224379884204",
+      "date": "2026.08.16.",
+      "authorName": "나나씨"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1031240390",
+    "name": "에버랜드 포레스트캠프",
+    "category": "캠핑,야영장",
+    "road_address": " ",
+    "address": "경기도 용인시 처인구 포곡읍 유운리 600",
+    "x": 127.2007362,
+    "y": 37.3071241,
+    "phone": "031-320-5000",
+    "visitor_review_count": 9634,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 211,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": null,
+    "promo": "",
+    "micro_review": "다양한 즐길거리와 맛있는 메뉴의 향연"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:용인 캠핑장"
+   ],
+   "straight_m": 27906,
+   "drive": {
+    "min": 46.4,
+    "km": 36.24,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "용하게 쉬기 좋았어요~~ 입장을 하면 웰컴패키지와 도시락과 음료수 수령권, 각종 장난감을 받을 수 있는 쿠폰을...",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/doona224/223994253590",
+      "date": "2025.09.05."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "넓고 여유",
+      "quote": "위쪽에 있는 텐트를 선택했어요! 저희가 고른 쪽에는 텐트가 4개 정도 있었나?! 넓은 공간에 텐트가 빼곡히 있지 않아서 조용하게 쉬기 좋았어요~~ 입장을 하면 웰컴패키지와",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/doona224/223994253590",
+      "date": "2025.09.05."
+     },
+     {
+      "label": "주차",
+      "quote": "행사장 바로 옆 주차 가능, 행사장에서 조금 떨어진 주차장 이용 가능",
+      "src": "kakao-info:1267384149",
+      "date": null
+     },
+     {
+      "label": "주차",
+      "quote": "행사장 바로 옆 주차 가능, 행사장에서 조금 떨어진 주차장 이용 가능",
+      "src": "kakao-info:1267384149",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [
+     {
+      "label": "사전 예약",
+      "quote": "4~6월. 공휴일 및 주말. 인원 제한. 예약제로 진행. 에버랜드 포레스트 캠프 기쁨의 교회",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/joyfulchuchkorea/18021?query=%EA%B8%B0%EC%81%A8%EC%9D%98%EA%B5%90%ED%9A%8C%20%5B%EA%B8%B0%EC%81%A8%EC%9D%B4%20%EC%8F%9F%EC%95%84%EC%A7%80%EB%8A%94%20%EA%B8%B0%EC%81%A8%EC%9D%98%EA%B5%90%ED%9A%8C%5D",
+      "date": "2021.05.22."
+     }
+    ],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": null,
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "다양한 즐길거리와 맛있는 메뉴의 향연"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": true,
+     "isDescriptionMissing": true,
+     "isConveniencesMissing": true,
+     "needLargeSuggestionBanner": true,
+     "isBoss": true
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "skt 숲캉스 에버랜드 포레스트캠프 대만족",
+      "url": "https://m.blog.naver.com/doona224/223994253590",
+      "date": "2025.09.05.",
+      "authorName": "행복바이러스"
+     },
+     {
+      "title": "에버랜드 비밀의 은행나무 숲",
+      "url": "https://m.blog.naver.com/dynamicduck/224071598593",
+      "date": "2025.11.10.",
+      "authorName": "좋은사람 이지"
+     },
+     {
+      "title": "막둥이 돌 기념사진 찍었어요 2탄 + 용인 에버랜드 포레스트 캠프",
+      "url": "https://m.cafe.naver.com/joyfulchuchkorea/18021?query=%EA%B8%B0%EC%81%A8%EC%9D%98%EA%B5%90%ED%9A%8C%20%5B%EA%B8%B0%EC%81%A8%EC%9D%B4%20%EC%8F%9F%EC%95%84%EC%A7%80%EB%8A%94%20%EA%B8%B0%EC%81%A8%EC%9D%98%EA%B5%90%ED%9A%8C%5D",
+      "date": "2021.05.22.",
+      "authorName": "리브가4 강지혜"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1267384149",
+    "kakao_name": "에버랜드 포레스트캠프",
+    "kakao_url": "http://place.map.kakao.com/1267384149",
+    "kakao_road_address": "",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장",
+    "phone": "031-320-9615",
+    "dist_m": 1,
+    "name_sim": 1.0,
+    "x": 127.200727694327,
+    "y": 37.3071183199823,
+    "status": "Y",
+    "rating": 5.0,
+    "review_count": 5,
+    "headline": "곧 영업 마감",
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "행사장 바로 옆 주차 가능, 행사장에서 조금 떨어진 주차장 이용 가능"
+     }
+    ],
+    "tags": [
+     "산책로",
+     "우중캠핑",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1779393568",
+    "name": "트라움풀빌라글램핑&카라반",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 상면 왕대벌길 60 트라움 풀빌라글램핑&카라반",
+    "address": "임초리 92-2",
+    "x": 127.3778758,
+    "y": 37.7698305,
+    "phone": "0507-1398-3223",
+    "visitor_review_count": 8421,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 402,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 129000,
+    "promo": "'신축글램핑' 특별한날을 위한 플렉스",
+    "micro_review": "우수한 시설과 아름다운 뷰가 있는 힐링 공간"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:남양주 캠핑장",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 28651,
+   "drive": {
+    "min": 44.4,
+    "km": 43.23,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다 보면 정말 다양한 숙소들이 나옵니다. 카라반 숙소도 있고 숲속 글램핑도 있고 수영장이 있는 글램핑도 있습니다. 그래서 예약을 할 때 어디가 괜찮을지 고민을 많이 하",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+      "date": "2026.03.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다릅니다. 보통 글램핑장은 텐트들이 줄지어 있는 느낌이 강한데 이곳은 중앙에 큰 수영장이 있고 그 주변으로 글램핑 동들이 둥글게 배치되어 있습니다. 그래서 전체 분위기",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+      "date": "2026.03.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다양한 숙소가 보입니다. 카라반 형태의 숙소도 있고 숲속에 위치한 글램핑도 있고 수영장이 있는 글램핑도 있습니다. 하지만 실제로 방문해 보면 사진과 느낌이 조금 다른",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/jscompany79/224209588441",
+      "date": "2026.03.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "줄지어 있는 형태가 많은데 이곳은 리조트 같은 느낌이 먼저 듭니다. 중앙에는 큰 수영장이 있고 그 주변으로 독특한 모양의 글램핑 동들이 예쁘게 배치되어 있습니다. 처음",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/jscompany79/224209588441",
+      "date": "2026.03.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "니티풀은 수질이 좋았지만 아무래도 야외라는 어쩔 수 없는 환경으로 인해 카라반쪽 수영장은 날벌레가 너무 많았다. 더운 날씨로 인해 물이 굉장이 뜨거웠음. 찬 물이 공급",
+      "src": "kakao-review:13315349",
+      "date": "2025-07-27"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "운 날씨로 인해 물이 굉장이 뜨거웠음. 찬 물이 공급되는 위치를 확인해 보았지만 풀장 규모에 비해 거의 한두군데에서 나오는 수준이라 저 넓은 풀을 커버하기엔 무리였다",
+      "src": "kakao-review:13315349",
+      "date": "2025-07-27"
+     },
+     {
+      "label": "체험·동물",
+      "quote": "딸이 물놀이 좋아해서  원없이 즐기다 왔네요  밤하늘의 별도 보이고 목성이 보이더군요  좋은",
+      "src": "kakao-review:10971435",
+      "date": "2024-09-10"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "화장실 가까움",
+      "quote": "불편함이 거의 없습니다. 특히 화장실이 깔끔해서 좋았습니다. 여행을 할 때 숙소 화장실이 깨끗한지 생각보다 중요한 부분입니다. 가평 글램핑 트라움풀빌라글램핑&카라반은 실내 분",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+      "date": "2026.03.09."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "불편함이 거의 없습니다. 특히 화장실이 깔끔해서 좋았습니다. 여행을 할 때 숙소 화장실이 깨끗한지 생각보다 중요한 부분입니다. 가평 글램핑 트라움풀빌라글램핑&카라반은 실내 분",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+      "date": "2026.03.09."
+     },
+     {
+      "label": "주차",
+      "quote": "글램핑 객실 바로 뒤에 각 호실별 1대 무료 주차 가능, 추가 1대당 1만원 유료 주차",
+      "src": "kakao-info:1443793836",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "우수한 시설과 아름다운 뷰가 있는 힐링 공간"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "오랜만에 쓰는 일상 블로그",
+      "url": "https://m.blog.naver.com/ockphotos/224212683696",
+      "date": "2026.03.11.",
+      "authorName": "ockphotos"
+     },
+     {
+      "title": "주말에 다녀온 가평 글램핑 트라움풀빌라글램핑카라반 하루가 너무 여유로웠던 이야기",
+      "url": "https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+      "date": "2026.03.09.",
+      "authorName": "마성관리자 김량장씨"
+     },
+     {
+      "title": "가평 글램핑 트라움풀빌라글램핑카라반 처음 가본 사람도 감탄하는 이유",
+      "url": "https://m.blog.naver.com/jscompany79/224209588441",
+      "date": "2026.03.09.",
+      "authorName": "JS Trend Lab"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1443793836",
+    "kakao_name": "트라움풀빌라글램핑&카라반",
+    "kakao_url": "http://place.map.kakao.com/1443793836",
+    "kakao_road_address": "경기 가평군 상면 왕대벌길 60",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 글램핑장",
+    "phone": "010-4573-3222",
+    "dist_m": 34,
+    "name_sim": 1.0,
+    "x": 127.37794818020534,
+    "y": 37.76953077244281,
+    "status": "Y",
+    "rating": 3.9,
+    "review_count": 12,
+    "headline": null,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "글램핑 객실 바로 뒤에 각 호실별 1대 무료 주차 가능, 추가 1대당 1만원 유료 주차"
+     }
+    ],
+    "tags": [
+     "글램핑",
+     "럭셔리글램핑",
+     "물놀이",
+     "바베큐장",
+     "불멍",
+     "온수수영장",
+     "카라반",
+     "캠프파이어장",
+     "캠핑",
+     "파우더룸"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1603157357",
+    "name": "글램파크 글램핑 카라반",
+    "category": "캠핑,야영장",
+    "road_address": "경기 포천시 이동면 화동로 1925-47 글램파크 글램핑",
+    "address": "연곡리 935",
+    "x": 127.3645183,
+    "y": 38.0189834,
+    "phone": "0507-1390-0941",
+    "visitor_review_count": 6208,
+    "visitor_review_score": 4.93,
+    "blog_review_count": 934,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 109000,
+    "promo": "사계절 온수 수영장과 핀란드 사우나",
+    "micro_review": "따뜻한 온수풀과 친절한 서비스로 힐링"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:글램핑 키즈 수영장",
+    "q:키즈 캠핑장",
+    "q:포천 캠핑장"
+   ],
+   "straight_m": 53439,
+   "drive": {
+    "min": 63.6,
+    "km": 65.65,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "는데 우리가 1박을 한 곳은 포천 글램파크 글램핑 카라반이었다. 이곳은 포천 백운계곡을 끼고 있는 카라반 전용 캠핑장으로 사계절 온수 수영장과 핀란드 사우나가 있고",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/dssa1020/224414531546",
+      "date": "2026.09.17."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "반이었다. 이곳은 포천 백운계곡을 끼고 있는 카라반 전용 캠핑장으로 사계절 온수 수영장과 핀란드 사우나가 있고 각종 아이들 놀이시설이 있으며 거실 스퀘어뷰, 침실 시네",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/dssa1020/224414531546",
+      "date": "2026.09.17."
+     },
+     {
+      "label": "아이동반",
+      "quote": "저녁으로는 제법 선선해진 것 같지만 낮에는 여전히 더운 날씨가 이어지고 있어요. 아이들과 아직 물놀이도 실컷 즐기고 싶고, 그렇다고 주말에 멀리 여행을 떠나기에는 부담스",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "아이동반",
+      "quote": "포천 글램파크 글램핑 카라반에 다녀왔어요:) 포천은 서울에서 접근하기도 괜찮아서 아이들과 짧게 다녀오기 좋은 곳을 찾을 때 자주 생각나는 여행지예요 숙소에서 물놀이부터",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "선선해진 것 같지만 낮에는 여전히 더운 날씨가 이어지고 있어요. 아이들과 아직 물놀이도 실컷 즐기고 싶고, 그렇다고 주말에 멀리 여행을 떠나기에는 부담스러워서 서울근",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "서 아이들과 짧게 다녀오기 좋은 곳을 찾을 때 자주 생각나는 여행지예요 숙소에서 물놀이부터 계곡, 다양한 체험까지 한 번에 즐길 수 있는 곳이라 더 마음에 들었어요 특",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "©러브 #서울근교글램핑 #온수풀수영장글램핑 #글램파크 #포천글램핑계곡 아침저녁으로는 제법 선선해진 것 같지만 낮에는",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "©러브 #서울근교글램핑 #온수풀수영장글램핑 #글램파크 #포천글램핑계곡 아침저녁으로는 제법 선선해진 것 같지만 낮에는 여전히 더운 날씨가 이어지고 있어",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "카라반 글·사진 ⓒ 슈니로그 포천에서 캠핑 2일차는 서울 근교에서 사계절 온수 수영장과 핀란드 사우나를 함께 이용할 수 있는 글램파크 글램핑에 다녀왔다. 가는 길에",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224405271892",
+      "date": "2026.09.08."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "사우나를 함께 이용할 수 있는 글램파크 글램핑에 다녀왔다. 가는 길에 포천 백운계곡도 들러보고, 조금 일찍 도착해 주변 마을도 천천히 둘러봤다. 산과 들판이 이어지",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224405271892",
+      "date": "2026.09.08."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "기본적으로 식기와 냄비, 전자레인지, 전기포트, 냉장고 모두 마련되어 있었고요 화장실 온수도 잘 나오고, 수건과 드라이기도 있어 편했어요 입실하자마자 아이들은 수영장으로",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08."
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "따뜻한 온수풀과 친절한 서비스로 힐링"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "포천 여행) 서울 근교 글램핑 포천 글램파크 글램핑 카라반",
+      "url": "https://m.blog.naver.com/dssa1020/224414531546",
+      "date": "2026.09.17.",
+      "authorName": "파니핑크23"
+     },
+     {
+      "title": "서울근교 글램핑 사계절 온수풀수영장 포천 글램파크",
+      "url": "https://m.blog.naver.com/idlke/224404755573",
+      "date": "2026.09.08.",
+      "authorName": "러브"
+     },
+     {
+      "title": "포천 글램파크 글램핑 카라반 - 서울 근교 글램핑, 온수풀부터 핀란드 사우나까지",
+      "url": "https://m.blog.naver.com/iamfree-/224405271892",
+      "date": "2026.09.08.",
+      "authorName": "슈니로그"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "36516869",
+    "name": "새연 카라반 글램핑 현리1호점",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 조종면 운악청계로333번길 86",
+    "address": "신상리 475-3",
+    "x": 127.3465517,
+    "y": 37.846748,
+    "phone": null,
+    "visitor_review_count": 5640,
+    "visitor_review_score": 4.58,
+    "blog_review_count": 534,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 69000,
+    "promo": "💛4월18일부터 수영장 오픈💛",
+    "micro_review": "아름다운 자연 속 넓고 깔끔한 카라반"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:캠핑장 계곡",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 34848,
+   "drive": {
+    "min": 52.0,
+    "km": 52.34,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "글램핑 외에도 카라반까지 있다고 합니다! 가평의 자연과 글램핑장 바로 앞에 있는 계곡을 보면서 힐링을 해보아요 깔끔한 시설과 내부에 개별 화장실도 있으니 불편할 수",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/themoredream/36824?query=%ED%8F%AC%ED%8A%BC%EA%B0%80%EB%A8%BC%ED%8A%B8%20Bespoke%20tailor%20shop",
+      "date": "2020.08.02."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "숙소마다 거리가 다 멀리 있으니 코로나로부터 안전해요!! 이곳들 다 바로 앞에 계곡이랑 바다가 있지만.. 다들 코로나로부터 안전하려면 아시죠~!? 프라이빗하게 안전",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/themoredream/36824?query=%ED%8F%AC%ED%8A%BC%EA%B0%80%EB%A8%BC%ED%8A%B8%20Bespoke%20tailor%20shop",
+      "date": "2020.08.02."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "11시에 체크아웃하고 다음 목적지로 출발했어요 이번 여행의 두 번째 일정은 가평 레일바이크! 날씨가 진짜 너무 좋았어요 가을 하늘 느껴졌던 그런 날씨 하늘도 예쁘고 바람도",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tbrk5722/224419058886",
+      "date": "3일 전"
+     },
+     {
+      "label": "체험·동물",
+      "quote": "진짜 너무 좋았어요 가을 하늘 느껴졌던 그런 날씨 하늘도 예쁘고 바람도 선선해서 레일바이크 타기 딱 좋은 날씨였음!!!! 예전에 타봤을 땐 폐달 열심히 굴려야 했었는데 이",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tbrk5722/224419058886",
+      "date": "3일 전"
+     },
+     {
+      "label": "놀이시설",
+      "quote": "같아요. 그래도 일찍 도착한 저희를 배려해 주셔서 기다리는 동안 내부에 있는 실내놀이터는 먼저 이용할 수 있게 해주셨어요.  아이가 제일 좋아했던 수영장  수영장은 미",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "아이동반",
+      "quote": "된 우리 가족의 급 여행이었습니다.  주말 급 여행, 새연 카라반 글램핑장으로  아이와 함께 가는 여행이라 숙소만 있는 곳보다는 한곳에서 놀고 쉬면서 시간을 보낼 수",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "아이동반",
+      "quote": "분히 즐기고 싶다면 체크인 후부터 시간을 잘 활용하는 게 좋을 것 같아요. 특히 아이와 함께...",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "터는 먼저 이용할 수 있게 해주셨어요.  아이가 제일 좋아했던 수영장  수영장은 미끄럼틀이 있는 풀장이 있고, 바로 옆에는 일반 수영장도 따로 마련되어 있었어요. 사진으",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "을 것 같아요.  수온도 너무 차갑지 않고 적당해서 오래 놀기 괜찮았고, 아이는 미끄럼틀이랑 일반풀장을 왔다 갔다 하면서 정말 신나게 놀았답니다. 그리고 한 가지 참고하",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "부에 있는 실내놀이터는 먼저 이용할 수 있게 해주셨어요.  아이가 제일 좋아했던 수영장  수영장은 미끄럼틀이 있는 풀장이 있고, 바로 옆에는 일반 수영장도 따로 마련되",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "실내놀이터는 먼저 이용할 수 있게 해주셨어요.  아이가 제일 좋아했던 수영장  수영장은 미끄럼틀이 있는 풀장이 있고, 바로 옆에는 일반 수영장도 따로 마련되어 있었어",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14."
+     }
+    ],
+    "b_pos": [],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "아름다운 자연 속 넓고 깔끔한 카라반"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "코로나로부터 안전한 휴가를 떠나요!",
+      "url": "https://m.cafe.naver.com/themoredream/36824?query=%ED%8F%AC%ED%8A%BC%EA%B0%80%EB%A8%BC%ED%8A%B8%20Bespoke%20tailor%20shop",
+      "date": "2020.08.02.",
+      "authorName": "박우형"
+     },
+     {
+      "title": "가평 글램핑 1박 2일｜바베큐 불멍하고 레일바이크까지 탄 커플 여행",
+      "url": "https://m.blog.naver.com/tbrk5722/224419058886",
+      "date": "3일 전",
+      "authorName": "여행일기"
+     },
+     {
+      "title": "아이와 다녀온 새연 카라반 글램핑 현리1호점｜맑은 계곡에서 보낸 여유로운 하루",
+      "url": "https://m.blog.naver.com/soodaily_0104/224411773418",
+      "date": "2026.09.14.",
+      "authorName": "soodaily0104"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "38010414",
+    "name": "새연 카라반 글램핑 설악2호점",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 설악면 유명로 1939 새연리조트 설악2호점",
+    "address": "회곡리 23",
+    "x": 127.4704171,
+    "y": 37.6834684,
+    "phone": null,
+    "visitor_review_count": 5459,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 392,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 49000,
+    "promo": "♡ 만족할만한 특별한 하루 ♡",
+    "micro_review": "깔끔한 시설과 조용한 환경에서의 힐링"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:캠핑장 계곡"
+   ],
+   "straight_m": 28169,
+   "drive": {
+    "min": 33.5,
+    "km": 39.61,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "아이동반",
+      "quote": "아이와 함께 자연 속에서 하루 푹 쉬고 올 수 있는 곳을 찾고 있었어요. 멀리 가지 않",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "아이동반",
+      "quote": "스 ✔️ 준비물로는 수건 직접 챙겨가야 해요. 못 챙겼다면 유료 대여 가능하고, 아이와 함께하는 여름 여행이라면 모기 기피제, 패치 챙기시길 추천합니다. 체크인부터 기",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "왜 가족여행 숙소로 많이 찾는지 알겠더라고요. 카라반에서 하루 머물며 계곡에서 물놀이 즐기고 귀여운 고양이들과 힐링 되는 시간을 보내고 온 후기 리뷰할게요. 가평카라",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "이랑 저녁 시간 잘 보냈습니다. 1인 4마리까지 금붕어 잡기 가능했고, 계곡에서 물놀이 할 그물망, 배드민턴 등 다양하게 준비되어 있어 머무르는 내내 심심할 틈 없었어",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "연 속에서 하루 푹 쉬고 올 수 있는 곳을 찾고 있었어요. 멀리 가지 않으면서도 계곡이 있고 바베큐도 즐기고, 이왕이면 아이가 좋아하는 고양이도 있는 곳이면 좋겠다",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다녀와보니 왜 가족여행 숙소로 많이 찾는지 알겠더라고요. 카라반에서 하루 머물며 계곡에서 물놀이 즐기고 귀여운 고양이들과 힐링 되는 시간을 보내고 온 후기 리뷰할게요",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "가 안쪽 글램핑 이쪽 인포메이션 오른쪽 안으로 들어가면 바로 앞 계곡으로 내려가 물놀이를 할 수 있는 곳!! 얕아서 걱정 없음!!! 입실시간은 타 글램핑장과 다르게 1",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/purplebora1018/224418522694",
+      "date": "3일 전"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "#가평글램핑 #가평카라반 #가평펜션 #가평계곡글램핑 #가평수영장글램핑 #가평계곡카라반 #가평펜션 #가평한옥 #새연글램핑설악점",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/purplebora1018/224418522694",
+      "date": "3일 전"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "#가평글램핑 #가평카라반 #가평펜션 #가평계곡글램핑 #가평수영장글램핑 #가평계곡카라반 #가평펜션 #가평한옥 #새연글램핑설악점 안녕하세요 오늘은",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/purplebora1018/224418522694",
+      "date": "3일 전"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "넓고 여유",
+      "quote": "캠핑 글램핑 중요한 건 분리수거 아시죠?ㅋㅋㅋ 이 안쪽으로 한옥펜션도 있어 정말 넓은 공간인 새연글램핑장!! 사장님 부자다!!! 우리는 수영장도 구경!! 아이들 놀기 딱.",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/purplebora1018/224418522694",
+      "date": "3일 전"
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "깔끔한 시설과 조용한 환경에서의 힐링"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "가평카라반 추천 새연글램핑 설악2호점에서 계곡도 즐기고 바베큐까지 완벽했던 아이랑 가족여행 후기",
+      "url": "https://m.blog.naver.com/cara1226/224352386474",
+      "date": "2026.07.20.",
+      "authorName": "커피향기"
+     },
+     {
+      "title": "가평글램핑 새연글램핑 설악2호점 불멍 가을캠핑",
+      "url": "https://m.blog.naver.com/purplebora1018/224418522694",
+      "date": "3일 전",
+      "authorName": "PurpleBoRa"
+     },
+     {
+      "title": "서울에서 가까운 가평카라반 새연카라반글램핑 설악 2호점",
+      "url": "https://m.blog.naver.com/tayafan89/224251288455",
+      "date": "2026.04.13.",
+      "authorName": "벼리"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1665394852",
+    "name": "채움카라반글램핑리조트",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 조종면 운악청계로 898",
+    "address": "운악리 542-1",
+    "x": 127.352229,
+    "y": 37.8891034,
+    "phone": null,
+    "visitor_review_count": 4805,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 534,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 69000,
+    "promo": "💜넓은잔디운동장,전객실호텔식침구💜",
+    "micro_review": "아름다운 뷰와 쾌적한 환경 속 휴식"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:캠핑장 계곡"
+   ],
+   "straight_m": 39404,
+   "drive": {
+    "min": 56.1,
+    "km": 57.1,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "도. 채움 카라반 글램핑이 아이와 놀기 좋은 점은 야외 수영장과 에어바운스, 인종잔디놀이터가 있다는 점이다. 그리고 가평 계곡에 자리잡은 펜션이라 바로 앞이 계곡이다",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "채움 카라반 글램핑이 아이와 놀기 좋은 점은 야외 수영장과 에어바운스, 인종잔디놀이터가 있다는 점이다. 그리고 가평 계곡에 자리잡은 펜션이라 바로 앞이 계곡이다. 언",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07."
+     },
+     {
+      "label": "아이동반",
+      "quote": "다보니 욕실 또한 작다. 간단히 샤워하고 볼일을 볼 정도. 채움 카라반 글램핑이 아이와 놀기 좋은 점은 야외 수영장과 에어바운스, 인종잔디놀이터가 있다는 점이다. 그리",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "이다. 그리고 가평 계곡에 자리잡은 펜션이라 바로 앞이 계곡이다. 언제든지 계곡 물놀이를 즐길 수 있는 건 여름철 투숙에 가장 큰 장점이다. 지금쯤이면 이제 계곡물이",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "아고다로부터 일정의 수수료를 받습니다. 가평 캠핑장 카라반 글램핑 가평 계곡 펜션 추천 이번 여름 휴가는 리하의 의견을 반영하여 카라반 글램핑 캠핑장을 다녀",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "은 채움 카라반 글램핑 리조트다. 캠핑카인 카라반과 글램핑이 접목되어있으며 가평 계곡을 끼고 있어서 가평 계곡 펜션으로 추천하고 싶은 곳이다. 처음 펜션에 도착하면",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "동물 존으로 만들면 참 좋을텐데 말이죠..?  어린이 친화 리조트라 이렇게 넓은 잔디밭과 놀이시설들이 가득 차 있어요. 풀장도 운영하고 있는데 딱 다음주부터 개장을",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "원하는 가족수와 건너편으로 예약하면 지인, 모임들끼리도 예약 가능 ! 단, 반려동물 동반은 안돼요 ㅠ 사이트가 엄청 크던데 한 구역만 반려동물 존으로 만들면 참 좋",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "약 가능 ! 단, 반려동물 동반은 안돼요 ㅠ 사이트가 엄청 크던데 한 구역만 반려동물 존으로 만들면 참 좋을텐데 말이죠..?  어린이 친화 리조트라 이렇게 넓은 잔디",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "가평 계곡 카라반 글램핑장 추천 채움 카라반 글램핑 후기 글.사진 ⓒ 맹주 혹시 캠핑은 가",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": ".?  어린이 친화 리조트라 이렇게 넓은 잔디밭과 놀이시설들이 가득 차 있어요. 풀장도 운영하고 있는데 딱 다음주부터 개장을 하더라고요 ! 계곡 갔다가 풀장 갔다가",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24."
+     },
+     {
+      "label": "아이동반",
+      "quote": "표정부터가 달라지네요 ㅋㅋㅋ 사진에는 잘 안담겼지만.. 계곡이 바로앞에 있어서 아기랑 내려가서 잠시 돌던지기도 하고요. 단풍구경은 덤으로 하고왔네요! 그다지 깊지않아",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/ilovegm1/1922003?query=%EB%82%98%EB%88%94%EC%B9%B4%ED%8E%98%20%5B%EA%B5%AC%5D%EA%B4%91%EB%AA%85%EB%A7%98%26%EB%8C%80%EB%94%94%20-%EA%B4%91%EB%AA%85%EC%8B%9C%2C%EA%B4%91%EB%AA%85%EB%8F%99%2C%EC%B2%A0%EC%82%B0%EB%8F%99%2C%EC%86%8C%ED%95%98%EB%8F%99%2C%ED%95%98%EC%95%88%EB%8F%99",
+      "date": "2020.10.19."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "나하네요 진작갈걸..ㅠㅠ 표정부터가 달라지네요 ㅋㅋㅋ 사진에는 잘 안담겼지만.. 계곡이 바로앞에 있어서 아기랑 내려가서 잠시 돌던지기도 하고요. 단풍구경은 덤으로 하",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/ilovegm1/1922003?query=%EB%82%98%EB%88%94%EC%B9%B4%ED%8E%98%20%5B%EA%B5%AC%5D%EA%B4%91%EB%AA%85%EB%A7%98%26%EB%8C%80%EB%94%94%20-%EA%B4%91%EB%AA%85%EC%8B%9C%2C%EA%B4%91%EB%AA%85%EB%8F%99%2C%EC%B2%A0%EC%82%B0%EB%8F%99%2C%EC%86%8C%ED%95%98%EB%8F%99%2C%ED%95%98%EC%95%88%EB%8F%99",
+      "date": "2020.10.19."
+     }
+    ],
+    "b_pos": [],
+    "b_neg": [
+     {
+      "label": "계단",
+      "quote": "또 나가봅니다. 채움 카라반 리조트 바로 앞에 맑은 계곡이 ! 바로 앞에 있는 돌계단으로 천천히 내려가서 맑은 자연...",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24."
+     }
+    ],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": null,
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "아름다운 뷰와 쾌적한 환경 속 휴식"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": true,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "가평 캠핑장 카라반 글램핑 가평 계곡 펜션 추천",
+      "url": "https://m.blog.naver.com/munani0918/224330915610",
+      "date": "2026.07.07.",
+      "authorName": "여행작가 김문환"
+     },
+     {
+      "title": "가평카라반 채움카라반글램핑 친구랑 알차게 즐긴 솔직 후기",
+      "url": "https://m.blog.naver.com/keetomm/224262792556",
+      "date": "2026.04.24.",
+      "authorName": "맹주"
+     },
+     {
+      "title": "3살 아기랑 카라반 여행 하고왔어요",
+      "url": "https://m.cafe.naver.com/ilovegm1/1922003?query=%EB%82%98%EB%88%94%EC%B9%B4%ED%8E%98%20%5B%EA%B5%AC%5D%EA%B4%91%EB%AA%85%EB%A7%98%26%EB%8C%80%EB%94%94%20-%EA%B4%91%EB%AA%85%EC%8B%9C%2C%EA%B4%91%EB%AA%85%EB%8F%99%2C%EC%B2%A0%EC%82%B0%EB%8F%99%2C%EC%86%8C%ED%95%98%EB%8F%99%2C%ED%95%98%EC%95%88%EB%8F%99",
+      "date": "2020.10.19.",
+      "authorName": "여름맘2018"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1358507181",
+    "name": "가평원더풀카라반&글램핑",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 상면 임초밤안골로 117-27",
+    "address": "임초리 202-1",
+    "x": 127.3725464,
+    "y": 37.7591409,
+    "phone": null,
+    "visitor_review_count": 4715,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 472,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 89000,
+    "promo": "가평신축 리뉴얼 오픈 원더풀카라반",
+    "micro_review": "깔끔한 시설과 아름다운 경치의 조화"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 27408,
+   "drive": {
+    "min": 47.6,
+    "km": 45.78,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "영장) 시그니처 감성글램핑-2동(공용수영장) 편의용품 및 시설 야외 수영장+계곡+잔디광장+미니축구+배드민턴 대형 놀이시설 객실 구비 품목 - TV, 더블침대, 커피포",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "물건 나르는데 불편함은 없었다 시설 둘러보기 매점지나 들어가면 가운데 뛰어놀 인조잔디 운동장과 가평 카라반들이 양 옆으로 꽤나 많이 있다 원더풀글램핑장은 개인풀이 있",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "아이동반",
+      "quote": "드디어 초등학생 여름방학이 시작되었다 아이랑 가평 카라반 1박 2일하러 원더풀 글램핑에 방문했다 요즘 가평글램핑 찾아보면 시",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "아이동반",
+      "quote": "무쇠그리들 : 20,000원 - 숯 불멍 set : 40,000원 위치 및 주차 아이들과 가기 좋은 가평키즈글램핑 가는 길 내내 시원한 가평의 자연을 고스란히 볼수 있어",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "면 시설은 좋은데 놀거리가 아쉬운 곳도 많은데 여기는 아이들 뛰어놀 공간도 넓고 수영장에 바베큐, 불멍까지 호우주의보여도 이모든걸 즐길 수 있었던 원더풀 글램핑& 카라",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "주소 경기 가평군 상면 임초밤안골로 117-27 구조 프라이빗풀카라반-5동(개별수영장) 시그니처 그랑베이 카라반-5동(공용수영장) 시그니처 감성글램핑-2동(공용수영장",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "아이동반",
+      "quote": "의 경우 좀더 따뜻하고 편리하며, 오픈한지 얼마안되 시설까지 깨끗해보여 37개월 아기랑 함께 도전해보았는데요~~ 시설이 좋아 다른분들도 아기와 함께 다녀오심 좋을거 같",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/miznett/3942640?query=%EB%AF%B8%EC%A6%88%EB%84%B7-%ED%95%AB%EB%94%9C%20%EC%9C%A1%EC%95%84%20%EA%B5%90%EC%9C%A1%20%EC%9E%84%EC%8B%A0%20%EC%9E%84%EC%82%B0%EB%B6%80%20%EB%B7%B0%ED%8B%B0%20%EC%B2%B4%ED%97%98%EB%8B%A8%20%EB%A6%AC%EB%B7%B0%20%EB%A7%98%EC%B9%B4%ED%8E%98",
+      "date": "2023.11.01."
+     },
+     {
+      "label": "아이동반",
+      "quote": "까지 깨끗해보여 37개월 아기랑 함께 도전해보았는데요~~ 시설이 좋아 다른분들도 아기와 함께 다녀오심 좋을거 같았어요!! 그 후기 바로 들려드릴게요! ㅎㅎ & 위치 :",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/miznett/3942640?query=%EB%AF%B8%EC%A6%88%EB%84%B7-%ED%95%AB%EB%94%9C%20%EC%9C%A1%EC%95%84%20%EA%B5%90%EC%9C%A1%20%EC%9E%84%EC%8B%A0%20%EC%9E%84%EC%82%B0%EB%B6%80%20%EB%B7%B0%ED%8B%B0%20%EC%B2%B4%ED%97%98%EB%8B%A8%20%EB%A6%AC%EB%B7%B0%20%EB%A7%98%EC%B9%B4%ED%8E%98",
+      "date": "2023.11.01."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "수 옵션) · 찜질방  부대시설 : 바비큐 · 불멍 · 매점  놀이시설 : 중앙 잔디광장 · 그네 · 원형 그물그네 · 미니 축구 골대 · 포토존  추천 : 가족여행",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224354489725",
+      "date": "2026.07.22."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "도 기분좋게 문자로 자세히 알려줘서 편하게 숙지하고 왔다. 캠핑장 중앙에는 넓은 잔디광장이 조성되어 있어 답답함 없이 탁 트인 분위기를 느낄 수 있었고, 아이들이 마",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224354489725",
+      "date": "2026.07.22."
+     },
+     {
+      "label": "아이동반",
+      "quote": "품도 구매할 수 있어 편리했다. 찜질방과 인형뽑기 등 즐길 거리도 마련되어 있어 아이들과 함께...",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224354489725",
+      "date": "2026.07.22."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "한 번쯤 눈여겨볼 만하다. 산으로 둘러싸인 자연 속에서 카라반 감성과 넓은 공용 수영장, 프라이빗 내추럴풀카라반, 바비큐, 불멍까지 한 번에 즐길 수 있어 가족 여행은",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224354489725",
+      "date": "2026.07.22."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다. 근처 가볼 만한 여행지도 많고, 장마철 비가 내렸지만 날씨 요정의 도움으로 수영장과 바비큐, 불멍을 즐길 때는 비가 그쳐 더욱 여유로운 시간을 보낼 수 있었다.",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224354489725",
+      "date": "2026.07.22."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "이동수단",
+      "quote": "보드 , 아이들용 자동차부터 그네도 있었는데 아래쪽으로 내려가 주차장쪽으로 가면 트램펄린 , 아이들 놀이시설 등이 있다 비만 안오면 아이들 놀공간이 굉장히 많아서 좋",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23."
+     },
+     {
+      "label": "주차",
+      "quote": "말~ 많았는데요! 37개월 저희 아이도 저 그네 스스로 타며 엄청 즐거워했어요! 주차장 바로앞에 체크인 하는곳이면서 매점입니다. 사장님이 친절하셨어요~ 사실 저희는 풀이 있",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/miznett/3942640?query=%EB%AF%B8%EC%A6%88%EB%84%B7-%ED%95%AB%EB%94%9C%20%EC%9C%A1%EC%95%84%20%EA%B5%90%EC%9C%A1%20%EC%9E%84%EC%8B%A0%20%EC%9E%84%EC%82%B0%EB%B6%80%20%EB%B7%B0%ED%8B%B0%20%EC%B2%B4%ED%97%98%EB%8B%A8%20%EB%A6%AC%EB%B7%B0%20%EB%A7%98%EC%B9%B4%ED%8E%98",
+      "date": "2023.11.01."
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": null,
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "깔끔한 시설과 아름다운 경치의 조화"
+    ],
+    "menus": [
+     {
+      "name": "프라이빗 풀 카라반",
+      "price": "",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": true,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "가평 카라반 아이랑 원더풀 글램핑 이용 후기",
+      "url": "https://m.blog.naver.com/duoshan_sz/224355964589",
+      "date": "2026.07.23.",
+      "authorName": "쏨쏨"
+     },
+     {
+      "title": "아이와 함께 가평글램핑 카라반 다녀왔어요~",
+      "url": "https://m.cafe.naver.com/miznett/3942640?query=%EB%AF%B8%EC%A6%88%EB%84%B7-%ED%95%AB%EB%94%9C%20%EC%9C%A1%EC%95%84%20%EA%B5%90%EC%9C%A1%20%EC%9E%84%EC%8B%A0%20%EC%9E%84%EC%82%B0%EB%B6%80%20%EB%B7%B0%ED%8B%B0%20%EC%B2%B4%ED%97%98%EB%8B%A8%20%EB%A6%AC%EB%B7%B0%20%EB%A7%98%EC%B9%B4%ED%8E%98",
+      "date": "2023.11.01.",
+      "authorName": "지지지지22"
+     },
+     {
+      "title": "가평원더풀카라반&amp;글램핑 - 가평 카라반 키즈글램핑 수영장 캠핑장 추천",
+      "url": "https://m.blog.naver.com/iamfree-/224354489725",
+      "date": "2026.07.22.",
+      "authorName": "슈니로그"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": "222673449",
+    "kakao_name": "원더풀 글램핑 앤 카라반",
+    "kakao_url": "http://place.map.kakao.com/222673449",
+    "kakao_road_address": "경기 가평군 상면 임초밤안골로 117-27",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 카라반",
+    "phone": "010-4405-8678",
+    "dist_m": 3,
+    "name_sim": 0.545,
+    "x": 127.37251728486493,
+    "y": 37.759121245477814
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "35559736",
+    "name": "올덴카라반캠핑장 가평점",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 청평면 고재길 262-64 올덴 카라반&펜션",
+    "address": "고성리 23",
+    "x": 127.5168522,
+    "y": 37.7019939,
+    "phone": null,
+    "visitor_review_count": 4428,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 980,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 10000,
+    "promo": "가평 리버뷰 애견동반 카라반글램핑🐾",
+    "micro_review": "애견과 함께 아름다운 경치를 즐기는 힐링 공간"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장"
+   ],
+   "straight_m": 32740,
+   "drive": {
+    "min": 42.7,
+    "km": 44.46,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "카라반이었다 강아지를 자유롭게 풀어놓을 수 있어서 좋았다 반려견 수영장, 반려견 놀이터 반려견 수영장이 있는 반려견 놀이터! 놀러가니 이미 젖어있는 강아지들ㅋㅋㅋ 다들",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tayafan89/224346266387",
+      "date": "2026.07.14."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "을 수 있어서 좋았다 반려견 수영장, 반려견 놀이터 반려견 수영장이 있는 반려견 놀이터! 놀러가니 이미 젖어있는 강아지들ㅋㅋㅋ 다들 신나게 논 것 같았다 ㅋㅋㅋ 수영장",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tayafan89/224346266387",
+      "date": "2026.07.14."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "친구랑 캠핑가려다가 강아지도 데려가려고 찾아본 가평 카라반 캠핑장 반려동물 동반인게 가장 중요했었고 기왕이면 수영장이 있었으면 했다 그래서 고른게 바로 올",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tayafan89/224346266387",
+      "date": "2026.07.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "데려가려고 찾아본 가평 카라반 캠핑장 반려동물 동반인게 가장 중요했었고 기왕이면 수영장이 있었으면 했다 그래서 고른게 바로 올덴카라반캠핑장이었다 올덴카라반캠핑장 경기",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tayafan89/224346266387",
+      "date": "2026.07.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "드가 있고 인원추가되면 침구도 추가로 주시니 여러명 잘 수 있을 것 같다 우리는 수영장뷰였다 엄청나게 많은분들이 수영하고 계셨다 진짜 엄청나게 더운날이었어서... 오실",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/tayafan89/224346266387",
+      "date": "2026.07.14."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "더 좋았다. 원래 은단이는 펫드라이룸..기갑하는데 왠일인지 얌젼~ㅋ 편안한가봄. 물놀이 후 저녁을 짜파게티를 끓여먹고 저녁 산책도 하고 셋다 일찍 숙면을 했다. 특가를",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yetram/224337746826",
+      "date": "2026.07.06."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "도안듣고 천방지축.... 누규? 여름에 온건 이번이 첨이였는데 올덴애견운동장에는 수영장까지 있어서 더 ~ 마음에 들었다. 간단한 어질리티도 할수있고 뛰뛰도 할수있는 충",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yetram/224337746826",
+      "date": "2026.07.06."
+     }
+    ],
+    "b_pos": [],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "애견과 함께 아름다운 경치를 즐기는 힐링 공간"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "수영장이 있는 반려동물 동반 올덴카라반캠핑장 가평점 내돈내산 후기",
+      "url": "https://m.blog.naver.com/tayafan89/224346266387",
+      "date": "2026.07.14.",
+      "authorName": "벼리"
+     },
+     {
+      "title": "가평 올덴카라반&펜션 할인 받는 팁!",
+      "url": "https://m.cafe.naver.com/donghakjung/14141?query=%EB%8F%99%ED%83%84%ED%95%99%EC%9B%90%EC%9D%BC%EA%B8%89%EC%A0%95%EB%B3%B4(%EB%8F%99%ED%95%99%EC%9D%BC%EB%B3%B4)",
+      "date": "2026.08.24.",
+      "authorName": "문득름"
+     },
+     {
+      "title": "올덴카라반 캠핑장 가평점 (애견동반가능)",
+      "url": "https://m.blog.naver.com/yetram/224337746826",
+      "date": "2026.07.06.",
+      "authorName": "꼬마짱"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1205002942",
+    "name": "바이올린 글램핑&카라반",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 가평읍 북한강변로 443 바이올린 글램핑",
+    "address": "금대리 266",
+    "x": 127.5396739,
+    "y": 37.7672092,
+    "phone": "0507-1476-2115",
+    "visitor_review_count": 3772,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 2128,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 99000,
+    "promo": "북한강 감성 가득, 자연 속 힐링",
+    "micro_review": "넓은 카라반에서 즐기는 편리한 바베큐"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장"
+   ],
+   "straight_m": 38402,
+   "drive": {
+    "min": 44.7,
+    "km": 50.69,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "체험·동물",
+      "quote": "기말고사가 끝난 중2 청소년은 바람을 쐬고 싶어 했다. 정확히...체험학습이라는 이름의 공식적인 결석을 원했다. 중2란 정말;;; 그냥 노는 건 안되고",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyne81/224352218917",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "보고 뒹굴거리면서 그냥 힐링~ 날씨가 너무 덥고 습한 관계로 불멍은 패스~ 야외 수영장과 편의점 편의점에 고기와 버섯을 비롯한 각종 간식거리들을 살 수 있어서 진짜 빈",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyne81/224352218917",
+      "date": "2026.07.20."
+     },
+     {
+      "label": "아이동반",
+      "quote": "안녕하세요 뜨거운 여름이 가고 어느덧 선선한 가을이 왔어요. 날씨가 좋으니 아이와 함께 가족여행을 떠나고 싶더라구요! 멀리 떠나기는 어렵고 부담스러워 1시간안팍으",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/puppy89818/224418370051",
+      "date": "3일 전"
+     },
+     {
+      "label": "아이동반",
+      "quote": "입니다. 내부. 인생 첫 카라반 숙박인데 생각보다 넓고 쾌적해서 깜짝 놀랐어요~ 아이와 함께 숙박하다보니 숙소와 침구류의 청결도가 매우 중요한데 바이올린 카라반은 합격",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/puppy89818/224418370051",
+      "date": "3일 전"
+     },
+     {
+      "label": "체험·동물",
+      "quote": "이어서 짧은시간동안 감상했네요 차량은 카라반 바로 옆에 주차가능해요! 그리고 반려동물 동반 가능한 펫카라반도 있어 반려인이 방문하기도 굿입니다. 내부. 인생 첫 카라",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/puppy89818/224418370051",
+      "date": "3일 전"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "도 역과의 거리가 많이 멀지 않아 접근성이 괜찮은 것 같아요ㅎㅎ 바이올린 모양의 수영장 아 이래서 바이올린 글램핑&카라반이었구나 싶었답니다 한여름이 아니라 물이 좀 차",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/puppy89818/224418370051",
+      "date": "3일 전"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "우연히 발견해서 예약하게되었는데 수영장온수풀도 11월중순에 끝나는줄알고 편한마음으로 갔는데  완전완전 대만족 이었어요!",
+      "src": "kakao-review:11592054",
+      "date": "2024-12-10"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "1월중순에 끝나는줄알고 편한마음으로 갔는데  완전완전 대만족 이었어요!!!!!  수영장 온수풀 저녁 8시까지 운영하고 매점 9시 기본커플카라반 완전 깨끗하고 넓고  더",
+      "src": "kakao-review:11592054",
+      "date": "2024-12-10"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "자욱하답니다. 나름 감성적이어서 짧은시간동안 감상했네요 차량은 카라반 바로 옆에 주차가능해요! 그리고 반려동물 동반 가능한 펫카라반도 있어 반려인이 방문하기도 굿입니다.",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/puppy89818/224418370051",
+      "date": "3일 전"
+     },
+     {
+      "label": "주차",
+      "quote": "로비 바로 앞과 카라반 옆에 넉넉한 주차 공간 있음",
+      "src": "kakao-info:1647588493",
+      "date": null
+     }
+    ],
+    "b_neg": [
+     {
+      "label": "계단",
+      "quote": "에서 편하게 지내고 싶어서 '럭셔리 글램핑'으로 골랐다. 뷰가 좋은 이유가... 계단 위라서는 생각을 못 했네 ㅋ 폭염의 날씨에 아이스박스와 캠핑 박스 올리면서 땀은",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyne81/224352218917",
+      "date": "2026.07.20."
+     }
+    ],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "넓은 카라반에서 즐기는 편리한 바베큐"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "내돈내산 | 이른 여름휴가, 가평 바이올린 글램핑 1박 2일 후기",
+      "url": "https://m.blog.naver.com/hyne81/224352218917",
+      "date": "2026.07.20.",
+      "authorName": "유니"
+     },
+     {
+      "title": "가평 바이올린글램핑카라반 할인 받는 팁!",
+      "url": "https://m.cafe.naver.com/donghakjung/14114?query=%EB%8F%99%ED%83%84%ED%95%99%EC%9B%90%EC%9D%BC%EA%B8%89%EC%A0%95%EB%B3%B4(%EB%8F%99%ED%95%99%EC%9D%BC%EB%B3%B4)",
+      "date": "2026.08.24.",
+      "authorName": "문득름"
+     },
+     {
+      "title": "가평 카라반 추천, 바이올린 카라반 내돈내산 후기",
+      "url": "https://m.blog.naver.com/puppy89818/224418370051",
+      "date": "3일 전",
+      "authorName": "찌수콩"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1647588493",
+    "kakao_name": "바이올린글램핑카라반",
+    "kakao_url": "http://place.map.kakao.com/1647588493",
+    "kakao_road_address": "경기 가평군 가평읍 북한강변로 443",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 글램핑장",
+    "phone": "",
+    "dist_m": 3,
+    "name_sim": 0.952,
+    "x": 127.539667927763,
+    "y": 37.7671848121251,
+    "status": "Y",
+    "rating": 4.9,
+    "review_count": 19,
+    "headline": null,
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "로비 바로 앞과 카라반 옆에 넉넉한 주차 공간 있음"
+     }
+    ],
+    "tags": [
+     "글램핑",
+     "럭셔리글램핑",
+     "물놀이",
+     "바베큐장",
+     "산책로",
+     "카라반",
+     "캠프파이어장",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1861819247",
+    "name": "인더풀 글램핑",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 조종면 운악청계로 1038-9 인더풀 글램핑",
+    "address": "운악리 550",
+    "x": 127.3467722,
+    "y": 37.89905,
+    "phone": "0507-1479-3047",
+    "visitor_review_count": 3686,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 914,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 50000,
+    "promo": "신축 오픈 명품 인더풀 글램핑입니다.",
+    "micro_review": "넓고 따뜻한 수영장 & 깨끗한 시설의 조화"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 40274,
+   "drive": {
+    "min": 57.6,
+    "km": 58.5,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "체험·동물",
+      "quote": "있어서 몸만 가볍게 출발해도 될 것 같다 도착하자마자 수영복으로 후다닥 갈아입고 물놀이 시작 튜브와 비치볼, 구명조끼도 있어서 급하게 오는 사람들도 문제없다 (사진에",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cunning04/224373451367",
+      "date": "2026.08.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "첫째주 남편과 나는 자기전 예약이 가능한 서울 근교의 글램핑 장을 뒤졌다. + 수영장이 함께 있는 곳으로.. 아니 미리미리좀 하지 그게 그렇게 안되나 ?ㅋ 즐겨찾기",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cunning04/224373451367",
+      "date": "2026.08.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "해놨던 \"인더풀\"에 마침 예약가능한 캠핑카 자리가 있었고, 다른데 더 찾아봤지만 수영장과 글램핑 그리고 아기가 있기 때문에 어느정도 깨끗함을 만족시키는 곳은 없는거 같",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cunning04/224373451367",
+      "date": "2026.08.10."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "'인더풀 글램핑' 이었습니다. 수영장이 중심에 있는 수영장 글램핑 형태라 휴식과 물놀이를 동시에 즐길 수 있다는 점이 마음에 들어 이번에 직접 방문하게 되었어요. 가평",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rxjtjdwrqv/224225386145",
+      "date": "2026.03.22."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "이번에 그중에서도 스위트 글램핑 객실을 선택했습니다. 객실 안에서 프라이빗하게 물놀이도 즐길 수 있는 구조라 좀 더 특별한 수영장 글램핑 분위기를 경험해 보고 싶었거",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rxjtjdwrqv/224225386145",
+      "date": "2026.03.22."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "가평 글램핑, 수영장까지 즐길 수 있는 인더풀 글램핑 안녕하세요! 요즘 날씨가 점점 좋아지면서 괜히",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rxjtjdwrqv/224225386145",
+      "date": "2026.03.22."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "비교해 보다가 눈에 들어온 곳이 바로 가평 글램핑 '인더풀 글램핑' 이었습니다. 수영장이 중심에 있는 수영장 글램핑 형태라 휴식과 물놀이를 동시에 즐길 수 있다는 점이",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rxjtjdwrqv/224225386145",
+      "date": "2026.03.22."
+     },
+     {
+      "label": "아이동반",
+      "quote": "보다 훨씬 잘되어 있어서 놀랐어요. 이용료도 따로 없고 무료로 이용할 수 있어서 아이랑 시간 가는 줄 모르고 실컷 물놀이를 했고, 야간에도 이용이 가능해서 저녁 먹은",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/coodos9/138695?query=%5B%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%82%A8%EB%A7%98%5D%EB%8C%80%EC%B9%98%2F%EB%8F%84%EA%B3%A1%2F%EA%B0%9C%ED%8F%AC%2F%EC%97%AD%EC%82%BC%2F%EB%85%BC%ED%98%84%2F%EB%A7%9B%EC%A7%91%2F%ED%95%99%EC%9B%90%2F%EB%B6%80%EB%8F%99%EC%82%B0",
+      "date": "2026.08.05."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "이용료도 따로 없고 무료로 이용할 수 있어서 아이랑 시간 가는 줄 모르고 실컷 물놀이를 했고, 야간에도 이용이 가능해서 저녁 먹은 뒤 조명 켜진 수영장에서 또 한참",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/coodos9/138695?query=%5B%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%82%A8%EB%A7%98%5D%EB%8C%80%EC%B9%98%2F%EB%8F%84%EA%B3%A1%2F%EA%B0%9C%ED%8F%AC%2F%EC%97%AD%EC%82%BC%2F%EB%85%BC%ED%98%84%2F%EB%A7%9B%EC%A7%91%2F%ED%95%99%EC%9B%90%2F%EB%B6%80%EB%8F%99%EC%82%B0",
+      "date": "2026.08.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "에서 쉬다 오니까 기분 전환도 제대로 되더라구요ㅎㅎ 도착해서 숙소 구경하고 바로 수영장으로 갔는데 시설이 생각보다 훨씬 잘되어 있어서 놀랐어요. 이용료도 따로 없고 무",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/coodos9/138695?query=%5B%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%82%A8%EB%A7%98%5D%EB%8C%80%EC%B9%98%2F%EB%8F%84%EA%B3%A1%2F%EA%B0%9C%ED%8F%AC%2F%EC%97%AD%EC%82%BC%2F%EB%85%BC%ED%98%84%2F%EB%A7%9B%EC%A7%91%2F%ED%95%99%EC%9B%90%2F%EB%B6%80%EB%8F%99%EC%82%B0",
+      "date": "2026.08.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "모르고 실컷 물놀이를 했고, 야간에도 이용이 가능해서 저녁 먹은 뒤 조명 켜진 수영장에서 또 한참 놀다가 들어왔어요. 아이가 가장 좋아했던 시간이었네유 ㅎㅎ 저녁에는",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/coodos9/138695?query=%5B%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%82%A8%EB%A7%98%5D%EB%8C%80%EC%B9%98%2F%EB%8F%84%EA%B3%A1%2F%EA%B0%9C%ED%8F%AC%2F%EC%97%AD%EC%82%BC%2F%EB%85%BC%ED%98%84%2F%EB%A7%9B%EC%A7%91%2F%ED%95%99%EC%9B%90%2F%EB%B6%80%EB%8F%99%EC%82%B0",
+      "date": "2026.08.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "로 바베큐 불멍 모두 너무 좋아서 하루하루 매일 생각나요 다시가고싶어서 ㅠㅠㅠㅠ 수영장도 무료인데 무려 온수풀인거 미쳤음 튜브도 있어서 걍 가면 됨요 ㅠㅠㅠㅠ 담에 또",
+      "src": "kakao-review:12761722",
+      "date": "2025-05-13"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "*오래간만에 넓은  수영장에서  수영선수 놀음하기  *불멍 특이함 비오는날 너무멋진 불멍가능 .객실앞에서",
+      "src": "kakao-review:10571520",
+      "date": "2024-07-18"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "주차 가능",
+      "src": "kakao-info:326068705",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "넓고 따뜻한 수영장 & 깨끗한 시설의 조화"
+    ],
+    "menus": [
+     {
+      "name": "A-1",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "A-2",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "A-3",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "A-4",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "A-5",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "B-1",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "B-2",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "B-3",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "B-4",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "B-5",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "S-1",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "S-2",
+      "price": "",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "수영장이야 글램핑장이야 : 인더풀 글램핑",
+      "url": "https://m.blog.naver.com/cunning04/224373451367",
+      "date": "2026.08.10.",
+      "authorName": "수부리"
+     },
+     {
+      "title": "가평 글램핑 수영장까지 즐길 수 있는 인더풀 글램핑",
+      "url": "https://m.blog.naver.com/rxjtjdwrqv/224225386145",
+      "date": "2026.03.22.",
+      "authorName": "듀허니"
+     },
+     {
+      "title": "가평 글램핑에서 아이랑 추억 많이 만들고 왔어요",
+      "url": "https://m.cafe.naver.com/coodos9/138695?query=%5B%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%20%EA%B0%95%EB%82%A8%EB%A7%98%5D%EB%8C%80%EC%B9%98%2F%EB%8F%84%EA%B3%A1%2F%EA%B0%9C%ED%8F%AC%2F%EC%97%AD%EC%82%BC%2F%EB%85%BC%ED%98%84%2F%EB%A7%9B%EC%A7%91%2F%ED%95%99%EC%9B%90%2F%EB%B6%80%EB%8F%99%EC%82%B0",
+      "date": "2026.08.05.",
+      "authorName": "대치사는아르미"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "326068705",
+    "kakao_name": "인더풀글램핑",
+    "kakao_url": "http://place.map.kakao.com/326068705",
+    "kakao_road_address": "경기 가평군 조종면 운악청계로 1038-9",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 글램핑장",
+    "phone": "010-5050-3036",
+    "dist_m": 3,
+    "name_sim": 1.0,
+    "x": 127.346759516754,
+    "y": 37.8990284353234,
+    "status": "Y",
+    "rating": 5.0,
+    "review_count": 8,
+    "headline": "영업 중",
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "주차 가능"
+     }
+    ],
+    "tags": [
+     "글램핑장",
+     "독채펜션",
+     "카라반",
+     "풀램핑",
+     "가평글램핑",
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "불멍",
+     "산책로",
+     "우중캠핑",
+     "캠프파이어장",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1054582666",
+    "name": "달빛정원글램핑&카라반",
+    "category": "캠핑,야영장",
+    "road_address": " ",
+    "address": "경기도 가평군 설악면 가일리 234",
+    "x": 127.4872595,
+    "y": 37.5931322,
+    "phone": "0507-1367-4435",
+    "visitor_review_count": 3485,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 2139,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 49000,
+    "promo": "리모델링오픈!! 아메리칸 조식제공!",
+    "micro_review": "청결한 시설과 아름다운 풍경 속에서의 휴식"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:캠핑장 계곡",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 26263,
+   "drive": {
+    "min": 41.1,
+    "km": 47.15,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "아이동반",
+      "quote": "추천 달빛정원글램핑 카라반 경기도 가평 설악면에 위치한 달빛정원글램핑&카라반에서 아이들과 글램핑을 즐기고 왔다 달빛정원글램핑&카라반 체크인 15:00-17:00 체크아웃",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ohbaraba/223730062771",
+      "date": "2025.01.19."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "여행지, 가평 글램핑장에서 알차게 보내고 온 후기를 공유해볼께요! 가평 유명산 계곡 근처 숙소  & & 달빛정원 글램핑&카라반 위치: 경기 가평군 설악면 가일리 2",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/bardyoung/224321985124",
+      "date": "2026.06.20."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "A5번 텐트로 예약했어요. 텐트 바로 앞에 바베큐 그릴과 불멍 화로대, 누워서 쉴 수 있는 해먹도 마련되어 있어요. 여기서 앉아서 바라보면 초록색 가득 산이 보여서 바라",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm4082/223954327204",
+      "date": "2025.07.31."
+     }
+    ],
+    "b_neg": [
+     {
+      "label": "계단",
+      "quote": "비에 찍혀있는지 꼭 확인하고 출발하셔야 합니다. 목적지에 잘 도착하셨다면 달빛동 오르막길에 있는 달빛정원 편의점이 보이는데 여기가 관리동이예요. 여기서 입실 안내도 받",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/bardyoung/224321985124",
+      "date": "2026.06.20."
+     }
+    ],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "청결한 시설과 아름다운 풍경 속에서의 휴식"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "서울근교 가평글램핑 추천 달빛정원글램핑 카라반",
+      "url": "https://m.blog.naver.com/ohbaraba/223730062771",
+      "date": "2025.01.19.",
+      "authorName": "오박"
+     },
+     {
+      "title": "가평 글램핑 장 애견동반 숙소 달빛정원글램핑카라반",
+      "url": "https://m.blog.naver.com/yhm4082/223954327204",
+      "date": "2025.07.31.",
+      "authorName": "미니라이프"
+     },
+     {
+      "title": "가평글램핑 추천 유명산 계곡 근처 커플 여행지 달빛정원글램핑 후기",
+      "url": "https://m.blog.naver.com/bardyoung/224321985124",
+      "date": "2026.06.20.",
+      "authorName": "여블린"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1401697528",
+    "name": "글래머스글램핑",
+    "category": "캠핑,야영장",
+    "road_address": "경기 포천시 일동면 화동로 1544-123 글래머스글램핑",
+    "address": "사직리 292-5",
+    "x": 127.354165,
+    "y": 37.9897026,
+    "phone": null,
+    "visitor_review_count": 3571,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 191,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 109000,
+    "promo": "놀다 지쳐 쓰러지리라 놀거리 한가득!",
+    "micro_review": "우수한 시설과 다양한 즐길거리로 행복한 시간"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:키즈 캠핑장",
+    "q:포천 캠핑장"
+   ],
+   "straight_m": 50060,
+   "drive": {
+    "min": 58.0,
+    "km": 61.37,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "점이 장점으로 느껴질 것 같아요. 수영장만 있었다면 지루했을 수도 있는데, 야외 잔디 공간이 함께 있어 물놀이 전후로도 아이들이 계속 움직이며 놀 수 있어 좋았어요.",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "아이동반",
+      "quote": "포천 글램핑 아기랑 갈만한곳 당일치기 피크닉도 가능한 곳 아이 친구와 함께 주말 1박 2일 여행을",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "아이동반",
+      "quote": "예쁘게 나오고, 아이들도 평소와 다른 공간이라 그런지 더 들떠 보였습니다. 사실 아이와 함께 가는 여행은 숙소 내부가 아무리 좋아도 아이들이 놀 만한 공간이 부족하면",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "번에 다녀온 포천 글램핑장은 이국적인 분위기에 아이들이 마음껏 뛰어놀 수 있고, 물놀이까지 할 수 있는 곳이라 만족도가 꽤 높았던 여행이였어요. 저희가 선택한 포천 글",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "같아요. 수영장만 있었다면 지루했을 수도 있는데, 야외 잔디 공간이 함께 있어 물놀이 전후로도 아이들이 계속 움직이며 놀 수 있어 좋았어요. 아이들은 에너지를 마음껏",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "행인데도 전체적으로 이국적인 정취가 느껴지는 분위기였어요. 카라반과 야외 공간, 수영장 주변 분위기가 어우러져서 사진을 찍어도 예쁘게 나오고, 아이들도 평소와 다른 공",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "박 또는 당일치키 피크닉으로 선택할 수 있다는 점이 장점으로 느껴질 것 같아요. 수영장만 있었다면 지루했을 수도 있는데, 야외 잔디 공간이 함께 있어 물놀이 전후로도",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "아이동반",
+      "quote": "아 주말이나 여름방학 가족여행으로 추천하고 싶은 곳! 자연 속에서 편안하게 쉬며 아이와 추억 만들기에 만족스러운 시간이였다 #포천글래머스글램핑 #포천글램핑 #서울근교글",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     },
+     {
+      "label": "아이동반",
+      "quote": "다 #포천글래머스글램핑 #포천글램핑 #서울근교글램핑 #경기도글램핑 #가족글램핑 #아이와글램핑 #포천여행 #포천가볼만한곳 #여름방학여행 #가족여행 #수영장글램핑 #포천숙",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "X100 ㅋ 도착하자마 오 귀엽당,,, 아이가 가장 좋아했던 곳은 역시 수영장ㅋ 물놀이를 실컷 즐기고 트램펄린에서 시간 가는 줄 몰르게 놀았다 잠은 카라반에서 카라반",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "채소등 기본찬도 제공! 그리고 정말 사장님 모두 친절하시다 아이들 챙기기도 벅찬 물놀이라 우린 장도 안보고 글래머스에서 고기사서 먹었는데  고기굽고 참새들 먹이느라 사",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "어야 뿌듯X100 ㅋ 도착하자마 오 귀엽당,,, 아이가 가장 좋아했던 곳은 역시 수영장ㅋ 물놀이를 실컷 즐기고 트램펄린에서 시간 가는 줄 몰르게 놀았다 잠은 카라반에서",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "오 귀엽당,,, 아이가 가장 좋아했던 곳은 역시 수영장ㅋ 물놀이를 실컷 즐기고 트램펄린에서 시간 가는 줄 몰르게 놀았다 잠은 카라반에서 카라반 안에 한쪽은 이렇게 넓은",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "이동수단",
+      "quote": "오 귀엽당,,, 아이가 가장 좋아했던 곳은 역시 수영장ㅋ 물놀이를 실컷 즐기고 트램펄린에서 시간 가는 줄 몰르게 놀았다 잠은 카라반에서 카라반 안에 한쪽은 이렇게",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31."
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "우수한 시설과 다양한 즐길거리로 행복한 시간"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "포천 글램핑 아기랑 갈만한곳 당일치기 피크닉도 가능한 곳",
+      "url": "https://m.blog.naver.com/hyein1229/224305008389",
+      "date": "2026.06.03.",
+      "authorName": "날라리엄마"
+     },
+     {
+      "title": "포천 글래머스 글램핑장",
+      "url": "https://m.cafe.naver.com/poohstory/327225?query=%EC%9A%94%EC%A6%98%EC%9B%A8%EB%94%A9%2C%20%EA%B2%B0%ED%98%BC%EC%A4%80%EB%B9%84%20%EC%9D%B4%EC%A0%9C%20%EC%9A%94%EC%A6%98%EB%8B%B5%EA%B2%8C%20%3A%EC%9B%A8%EB%94%A9%ED%99%80%2C%EC%8A%A4%EB%93%9C%EB%A9%94%2C%EA%B2%B0%ED%98%BC%EC%A4%80%EB%B9%84%EC%96%B4%ED%94%8C",
+      "date": "2026.06.09.",
+      "authorName": "핼꾸"
+     },
+     {
+      "title": "포천 글래머스글램핑 후기/ 아이와 가기 좋은 수영장 글램핑 추천",
+      "url": "https://m.blog.naver.com/eva0816/224363740879",
+      "date": "2026.07.31.",
+      "authorName": "오늘뭐하지"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "37221674",
+    "name": "석산계곡 코코비발디글램핑 카라반 오토캠핑장",
+    "category": "캠핑,야영장",
+    "road_address": "강원 홍천군 서면 고루개길 37-17 코코비발디",
+    "address": "중방대리 411",
+    "x": 127.5999357,
+    "y": 37.6676644,
+    "phone": "0507-1485-1339",
+    "visitor_review_count": 3505,
+    "visitor_review_score": 4.75,
+    "blog_review_count": 489,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 40000,
+    "promo": "계곡이 감아돌고 산림이 병풍처럼 둘러싼 힐링 글램핑 리조트",
+    "micro_review": "다양한 놀거리와 합리적인 가격의 캠핑장"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:오토캠핑",
+    "q:캠핑장 계곡"
+   ],
+   "straight_m": 37898,
+   "drive": {
+    "min": 49.5,
+    "km": 53.06,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "체험·동물",
+      "quote": "실내수영장 날씨가 더워서 그런지 노는 사람들 좀 있었다. 야외수영장도 재밌겠다! 미끄럼틀도 있음 오 잠시 나는 산책하러 코코글램핑의 좋은 점은 바로 옆이 계곡이라는 점",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/sweetssoli/224292038103",
+      "date": "2026.05.21."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "방 도착했다. 뭐좀 먹을 겸 근처 카페에서 쉬다가 체크인 시간 맞춰서 도착  석산계곡 코코비발디글램핑 카라반 코코비발디 예전에 왔을 때랑 똑같다. 조식도 여전히 주시",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/sweetssoli/224292038103",
+      "date": "2026.05.21."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "게 분리되어 있어서 더 좋은 듯 내부도 커서 샤워하는데 불편함 없었다. 짐 풀고 수영장으로 밖에도 있고 실내 온수풀도 있다. 아이만 신나게 놀았음 여기가 실내수영장 날",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/sweetssoli/224292038103",
+      "date": "2026.05.21."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "게임도 했어요!ㅎㅎ 자전거도 무료대여해주시는데 저는 자전거를 못타고ㅠㅠ 여름에는 수영장도 있어서 또 오려구요!!",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/gimmatdong/36268?query=%EA%B9%80%ED%8F%AC%EB%A7%9B%EC%A7%91%EB%8F%99%ED%98%B8%ED%9A%8C",
+      "date": "2023.04.25."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "서 감사했습니다 산이라 모기랑 나방 같은 게 있어요 점심으로 간단히 배를 채우고 물놀이장 구경을 갑니다 매점 앞에 카라 반 사이트 있고요 그 옆으로 글램핑 사이트들이",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/haw7014/224384070096",
+      "date": "2026.08.20."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "서 감사했습니다 산이라 모기랑 나방 같은 게 있어요 점심으로 간단히 배를 채우고 물놀이장 구경을 갑니다 매점 앞에 카라 반 사이트 있고요 그 옆으로 글램핑 사이트들이 쫘",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/haw7014/224384070096",
+      "date": "2026.08.20."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "요 그 옆으로 글램핑 사이트들이 쫘 ~~~악 줄지어 있어요 글램핑 옆으로 나가면 계곡이 있어요 계곡이 느무 자그마해서 실망스러웠어요 계곡이 아니라 개울이라고 해야 하",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/haw7014/224384070096",
+      "date": "2026.08.20."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "고요 도착해서 매점에서 체크인 매점 안 모습 우선 이곳은 종류가 많더라고요 캠핑 파쇄석 카라반 15시 입실 ~11시 퇴실 글램핑 15시 ~11시 펜션 독채 15시~11",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/haw7014/224384070096",
+      "date": "2026.08.20."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "스럽고만요 그리고 다시 매점 앞으로 오면 전기 충전할 수 있는 곳 위로 올라가면 파쇄석 사이트 가 있어요 사이트가 9개 정도 있는 것 같아요 조용하게 캠핑하기 좋은 것",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/haw7014/224384070096",
+      "date": "2026.08.20."
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차",
+     "발렛파킹"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "다양한 놀거리와 합리적인 가격의 캠핑장"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": false,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "홍천 글램핑 석산계곡 코코비발디 글램핑 내돈내산 VIP룸 후기",
+      "url": "https://m.blog.naver.com/sweetssoli/224292038103",
+      "date": "2026.05.21.",
+      "authorName": "쇼리"
+     },
+     {
+      "title": "홍천으로 글램핑 다녀오기!!",
+      "url": "https://m.cafe.naver.com/gimmatdong/36268?query=%EA%B9%80%ED%8F%AC%EB%A7%9B%EC%A7%91%EB%8F%99%ED%98%B8%ED%9A%8C",
+      "date": "2023.04.25.",
+      "authorName": "초코엄마"
+     },
+     {
+      "title": "홍천 코코비발디글램핑",
+      "url": "https://m.blog.naver.com/haw7014/224384070096",
+      "date": "2026.08.20.",
+      "authorName": "힐링캠핑댁"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "33445436",
+    "name": "힐링별밤수목원캠핑장",
+    "category": "캠핑,야영장",
+    "road_address": "경기 남양주시 수동면 비룡로 1516-19",
+    "address": "내방리 236-1",
+    "x": 127.2737431,
+    "y": 37.7496494,
+    "phone": null,
+    "visitor_review_count": 3386,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 708,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 40000,
+    "promo": "",
+    "micro_review": "가까운 계곡과 아름다운 자연의 아름다움"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:남양주 캠핑장",
+    "q:오토캠핑",
+    "q:캠핑장 계곡"
+   ],
+   "straight_m": 22476,
+   "drive": {
+    "min": 31.0,
+    "km": 34.18,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "발견한 곳은 힐링별밤수목원캠핑장~ 남양주에 위치해 있어서 집에서 그리 멀지 않고 계곡과 산이 있어 너무 좋아 보였다. 그런데 남은 자리가... 차박 3... 이랑 차",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/connie333/224410999343",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "가라는 안내 문구가 나왔다. 오옷~ 신기방기~ 나는 안내에 따라 차를 몰았다. 계곡존을 지나 언덕길을 올라가니 바로 차박존이 나왔다. 차를 우리 사이트 옆에 잠깐",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/connie333/224410999343",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "생각이 드는 멋진 곳이었죠. 지금부터 아주 솔직한 후기 시작해 볼게요~! 남양주 계곡 캠핑장 추천, 최고의 놀거리 힐링별밤수목원캠핑장 힐링별밤수목원 캠핑장은 이름이랑",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cutetnwls/224372813625",
+      "date": "2026.08.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "름이랑 정말 어울리는 멋진 곳에 위치해 있었어요. 텐트를 칠 수 있는 곳 주변에 계곡도 많을 뿐 아니라, 가는 길에 괜찮은 카페들도 많고 무엇보다 밤에는 선명한 별들",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cutetnwls/224372813625",
+      "date": "2026.08.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "번 백패킹사이트만 이용했는데, 다른 곳들도 산책하면서 구경해보면 꽤 좋아보인다. 계곡이 있어서 여름에도 좋을 것 같고, 차박 가능한 사이트가 있다는 것 또한 장점이다",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "앞쪽에 위치한 힐링존은 큰 텐트가지고 가족들끼리 방문할 때 너무 좋을 것 같고, 계곡존은 여름에 좋을 것 같은데 우리가 갔을 때는 아직 물이 별로 없었음 이제 있겠지",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "적없다. (진짜 힘들거같음) 백패킹 A구역 주차는 계곡을 따라 쭉 올라가면 따로 주차공간이 있어서 그쪽에다가 주차를 해야한다. 사이트랑 거리가 있기 때문에 짐은 정말 최",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30."
+     },
+     {
+      "label": "화장실 가까움",
+      "quote": "트 확인하고 쓰레기봉투 셀프로 가져가면된다. 이 캠핑장 좋아하는 이유 중 하나가 화장실이 깨끗하다는 점인데, 샤워실과 화장실이 한 칸으로 붙어있어서 샤워할 때도 좋고 화장실도",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "트 확인하고 쓰레기봉투 셀프로 가져가면된다. 이 캠핑장 좋아하는 이유 중 하나가 화장실이 깨끗하다는 점인데, 샤워실과 화장실이 한 칸으로 붙어있어서 샤워할 때도 좋고 화장실도",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30."
+     }
+    ],
+    "b_neg": [
+     {
+      "label": "계단",
+      "quote": "다고 하셨다. 우리는 윗쪽으로 발걸음을 옮겼다. 위로 올라가니 숲속으로 들어가는 계단이 있었다. 계단을 올라가니 숲길 옆으로 백패킹존이 나왔다. 빽빽한 나무들 사이에",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/connie333/224410999343",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "계단",
+      "quote": "리는 윗쪽으로 발걸음을 옮겼다. 위로 올라가니 숲속으로 들어가는 계단이 있었다. 계단을 올라가니 숲길 옆으로 백패킹존이 나왔다. 빽빽한 나무들 사이에 위치한 백패킹존은",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/connie333/224410999343",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "계단",
+      "quote": ", A사이트가 아래쪽이고 B사이트는 더 위로 올라가야하는 구간이다. 생각보다 꽤 경사가 가파르기때문에 진짜 등산을 하는 기분을 내고싶다면 B로 가시면되지만 우리는 한번",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30."
+     }
+    ],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "가까운 계곡과 아름다운 자연의 아름다움"
+    ],
+    "menus": [
+     {
+      "name": "비용",
+      "price": "50000",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "힐링별밤수목원캠핑장 - 차박 3",
+      "url": "https://m.blog.naver.com/connie333/224410999343",
+      "date": "2026.09.14.",
+      "authorName": "connie"
+     },
+     {
+      "title": "남양주 계곡 캠핑장 추천, 최고의 놀거리 &lt;힐링별밤수목원캠핑장&gt;",
+      "url": "https://m.blog.naver.com/cutetnwls/224372813625",
+      "date": "2026.08.10.",
+      "authorName": "여행작가 Sue"
+     },
+     {
+      "title": "경기도 남양주 캠핑장 추천 계곡 차박 가능한 힐링별밤수목원 백패킹사이트 후기",
+      "url": "https://m.blog.naver.com/cherrylove22/224330921974",
+      "date": "2026.06.30.",
+      "authorName": "니나"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1029773706",
+    "name": "가평 글램스테이 글램핑 카라반 펜션",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 조종면 연인산로474번길 91-82 가평 글램스테이 글램핑 카라반 펜션",
+    "address": "마일리 296-9",
+    "x": 127.3870113,
+    "y": 37.8444898,
+    "phone": null,
+    "visitor_review_count": 3388,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 667,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 90000,
+    "promo": "음표와 쉼표가 공존하는 상큼한 글램핑",
+    "micro_review": "아름다운 풍경 속 청결한 포근한 침구의 휴식"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:글램핑 키즈 수영장",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 36158,
+   "drive": {
+    "min": 56.3,
+    "km": 53.94,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "(골든베이스테이) 210,000원 → 185,000원 기준 2인 · 최대 4인 잔디뷰 · 관리동, 매점 앞 공용주차장 이용 독채 글램핑 (풀스테이) 240,000원",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224410948568",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다녀봤는데요. 그 중 찾은게 글램스테이예요. 독채마다 개별 바비큐장이 딸려 있고 수영장은 예약만 하면 무료로 쓸 수 있거든요. 하반기 가평 여행 다녀오실 분들은 이번",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224410948568",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "2.위치와 주차는? 3.글램스테이 객실은 어떻게 나뉘나요? 4.가평 글램스테이 수영장과 바비큐 안내 5.예약 전 알아두실 것 1.가평 글램스테이 가격·할인쿠폰·추가금",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224410948568",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "셔서 첫인상부터 마음에 쏙 들었답니다. 수영 좋아하는 아이들 저희 아이들이 워낙 물놀이를 좋아하거든요. 그래서 가평글램핑장의 수영장이 제일 기대됐는데, 기대 이상이었어",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ezroc4beat/224316628228",
+      "date": "2026.06.15."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "놀 수 있어서 정말 편하더라고요. 아직 살짝 쌀쌀한가 싶었는데, 막상 들어가니 물놀이하기 딱 좋았어요. 대형 수영장은 가장자리에서 물줄기가 시원하게 뿜어져 나오는데,",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ezroc4beat/224316628228",
+      "date": "2026.06.15."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "발견한 곳이 바로 가평글램핑장, 가평 글램스테이 글램핑 카라반 펜션이었답니다! 수영장이 두 개나 있다는 후기를 보고 여기다! 싶어서 바로 예약했어요. 스위스 감성 신",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ezroc4beat/224316628228",
+      "date": "2026.06.15."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "좋아하는 아이들 저희 아이들이 워낙 물놀이를 좋아하거든요. 그래서 가평글램핑장의 수영장이 제일 기대됐는데, 기대 이상이었어요! 수영장이 두 개로 나뉘어 있는데, 하나는",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ezroc4beat/224316628228",
+      "date": "2026.06.15."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "있으면 아빠와 아들이 둘다 신나게 놀아요 테무에서 저렴하게 구매한 축구 골대는 놀이터, 여행, 공원 등등 들고다니며 요긴하게 쓰고 있어요 글램핑 숙소 전체 풍경이에요",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/75232441?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2025.05.05."
+     },
+     {
+      "label": "아이동반",
+      "quote": "나는 노래들이라 대화하는데 불편함은 없었어요 아이들있는 집들도 많아서 주변 숙소 아이들과도 같이 놀았어요 놀러온 앞집 형아~~ 저는 뒤에서 캠프파이어 했어요ㅋ 여기는..",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/75232441?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2025.05.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "덜 춥긴한가봐요 글램핑 숙소 2층에서 본 풍경이에요 아직 가평 날씨가 춥긴했는데 수영장이 좋아서 다들 신나게 놀더라고요 아참. 사진은 못찍었는데 여기 수영장 옆에 찜질",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/75232441?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2025.05.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "춥긴했는데 수영장이 좋아서 다들 신나게 놀더라고요 아참. 사진은 못찍었는데 여기 수영장 옆에 찜질방 있어요ㅋㅋㅋ 물에서 나와서 바로 가운 입히고 찜질방으로 뛰어가서 말",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/75232441?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2025.05.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "신규오픈 이라 모든시설이 꺠끗하고 좋아요. 수영장 물도 넘넘 깨끗하고요 엄청 넓어요. 수영장도 2개나 되고요 밤에 조명이 넘넘 예",
+      "src": "kakao-review:10555302",
+      "date": "2024-07-15"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "픈 이라 모든시설이 꺠끗하고 좋아요. 수영장 물도 넘넘 깨끗하고요 엄청 넓어요. 수영장도 2개나 되고요 밤에 조명이 넘넘 예뻐요. 포토존도 많아요 적극추천 합니다.",
+      "src": "kakao-review:10555302",
+      "date": "2024-07-15"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "곳곳에 야자수랑 포토존이 있어서 마치 휴양지에 왔나? 하는 생각까지 들더라구요! 주차 공간도 넉넉해서 짐 내리기 편했고, 체크인하면서 사장님이 시설 이용 방법이랑 주변 안",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/ezroc4beat/224316628228",
+      "date": "2026.06.15."
+     },
+     {
+      "label": "주차",
+      "quote": "개별 글램핑동 가까운 지정 주차 공간에 주차 가능",
+      "src": "kakao-info:570957674",
+      "date": null
+     },
+     {
+      "label": "주차",
+      "quote": "개별 글램핑동 가까운 지정 주차 공간에 주차 가능",
+      "src": "kakao-info:570957674",
+      "date": null
+     }
+    ],
+    "b_neg": [
+     {
+      "label": "계단",
+      "quote": "날만 좋으면 먹다가 놀다가 할텐데 아쉽네여 고기 먹고 산책겸 주변을 더 둘러보니 계단만 내려오면 계곡이 있더라고요 돌다리 한번 걸어보고 왔어요~ 계곡물이 깨끗했는데",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/75232441?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2025.05.05."
+     }
+    ],
+    "plan": [
+     {
+      "label": "사전 예약",
+      "quote": "추가는 12개월 이상, 1박 기준 바비큐는 사전 예약 필수 얼리체크인·레이트체크아웃 시간당 20,00",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224410948568",
+      "date": "2026.09.14."
+     }
+    ],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "아름다운 풍경 속 청결한 포근한 침구의 휴식"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "가평 글램스테이 글램핑 카라반 할인 꿀팁 4인 펜션 추천",
+      "url": "https://m.blog.naver.com/from____ming/224410948568",
+      "date": "2026.09.14.",
+      "authorName": "밍짱이"
+     },
+     {
+      "title": "가평글램핑장, 즉흥으로 떠났지만 만족했던 곳!",
+      "url": "https://m.blog.naver.com/ezroc4beat/224316628228",
+      "date": "2026.06.15.",
+      "authorName": "ezroc"
+     },
+     {
+      "title": "황금연휴 가평 글램핑 다녀왔어요~",
+      "url": "https://m.cafe.naver.com/imsanbu/75232441?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2025.05.05.",
+      "authorName": "dorosh"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "570957674",
+    "kakao_name": "글램스테이 글램핑 카라반펜션 가평",
+    "kakao_url": "http://place.map.kakao.com/570957674",
+    "kakao_road_address": "경기 가평군 조종면 연인산로474번길 91-82",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장",
+    "phone": "031-584-7755",
+    "dist_m": 1,
+    "name_sim": 0.867,
+    "x": 127.38700134640833,
+    "y": 37.84448778705533,
+    "status": "Y",
+    "rating": 3.4,
+    "review_count": 7,
+    "headline": null,
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "개별 글램핑동 가까운 지정 주차 공간에 주차 가능"
+     }
+    ],
+    "tags": [
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "사우나",
+     "카라반",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1841805582",
+    "name": "사노리숲",
+    "category": "캠핑,야영장",
+    "road_address": "경기 구리시 동구릉로459번길 181 사노리숲",
+    "address": "사노동 536-38",
+    "x": 127.1310079,
+    "y": 37.6363024,
+    "phone": null,
+    "visitor_review_count": 3366,
+    "visitor_review_score": 4.78,
+    "blog_review_count": 423,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": null,
+    "promo": "외부음식,주류반입가능.에언컨설치!",
+    "micro_review": "좋은 위치와 청결한 시설로 편안한 방문"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:구리 캠핑장",
+    "q:하남 캠핑장"
+   ],
+   "straight_m": 10257,
+   "drive": {
+    "min": 14.3,
+    "km": 14.85,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "아이동반",
+      "quote": "받은 별도 주차장에 주차를 했어요. 서울근교 구리 사노리숲 캠핑장은 특히 주말에 아이들과 가볼만한 곳으로 추천드리고 싶은데요. 왜냐하면 이렇게 아이들과 모래놀이하면서 즐",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05."
+     },
+     {
+      "label": "아이동반",
+      "quote": "장은 특히 주말에 아이들과 가볼만한 곳으로 추천드리고 싶은데요. 왜냐하면 이렇게 아이들과 모래놀이하면서 즐길 수 있는 스팟이 너무 잘 되어있고, 특히 모래놀이가 핑크모래",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "은 당일치기 캠핑장 소개해드릴게요! 여름에 가시기 정말 더 좋은 것이 모내놀이에 물놀이까지 즐길 수 이가 있어서 아이들이 정말 너무 좋아해요! 바로 소개해드릴게요. 바",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "들이 재밌게 놀더라고요. 또한 여름에 사노리숲 캠핑장의 치트키 바로 에어바운스와 물놀이장도 있어서 어른들 바베큐해먹으며 캠핑감성 즐기는 동안에 아이들끼리 물놀이도하고",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "주말에 아이들과 가볼만한 곳으로 추천드리고 싶은데요. 왜냐하면 이렇게 아이들과 모래놀이하면서 즐길 수 있는 스팟이 너무 잘 되어있고, 특히 모래놀이가 핑크모래라서 사진",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "면 이렇게 아이들과 모래놀이하면서 즐길 수 있는 스팟이 너무 잘 되어있고, 특히 모래놀이가 핑크모래라서 사진 찍으면 너무 예쁘게 잘 나와요! 소꿉놀이 하면서 애들이 재밌",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "어주시자 마자 우리는 바로 고기를 굽기 시작했다. 야외에서 먹는 고기맛 꿀맛 모래놀이터 우리가 방문했던 시간은 정오쯤이라 햇빛이 짱짱한데 아이는 너무 좋아했다. 오후3",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mihee8510/224304712431",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "아이동반",
+      "quote": "먹을 수있는것으로 바뀐것이다. 5월 중순인데도 날씨도 갑자기 더워지고 출산직전 아이와 뭐 할까 고민하다가 이날 방문해 보았다. 우리집에서 약 10분거리에 위치하고 있",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mihee8510/224304712431",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "넣어주시자 마자 우리는 바로 고기를 굽기 시작했다. 야외에서 먹는 고기맛 꿀맛 모래놀이터 우리가 방문했던 시간은 정오쯤이라 햇빛이 짱짱한데 아이는 너무 좋아했다. 오후",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mihee8510/224304712431",
+      "date": "2026.06.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "라 햇빛이 짱짱한데 아이는 너무 좋아했다. 오후3시가 넘어가니 해가 좀 넘어가서 모래놀이하기 딱 좋은시간 같았다. 수영장&에어바운스 캠핑장 한쪽에는 수영장과 에어바운스",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mihee8510/224304712431",
+      "date": "2026.06.03."
+     }
+    ],
+    "b_pos": [],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "좋은 위치와 청결한 시설로 편안한 방문"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "모래놀이 물놀이까지 가능한 당일치기 가성비 캠핑장 구리 사노리숲",
+      "url": "https://m.blog.naver.com/yhm529/224337272102",
+      "date": "2026.07.05.",
+      "authorName": "슈림프"
+     },
+     {
+      "title": "구리 사노리숲 캠핑장 내돈내산",
+      "url": "https://m.blog.naver.com/mihee8510/224304712431",
+      "date": "2026.06.03.",
+      "authorName": "고양이미꼬"
+     },
+     {
+      "title": "캠핑 가면 생각나는 안주 추천 메뉴 레시피",
+      "url": "https://m.cafe.naver.com/guest4ukr/103?query=%EC%B5%9C%EB%B8%94%EC%97%B0%E3%85%A3%ED%8F%AC%EC%9C%A0%20%EC%97%B0%EA%B5%AC%EC%86%8C%20%5B%EB%B8%94%EB%A1%9C%EA%B7%B8%2C%20%ED%95%98%EA%B0%9D%EC%95%8C%EB%B0%94%2C%20%ED%88%AC%EC%9E%A1%2C%20%EC%93%B0%EB%A6%AC%EC%9E%A1%5D",
+      "date": "2025.07.07.",
+      "authorName": "대구 8기 김주연"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1126871443",
+    "name": "물왕숲캠핑파크",
+    "category": "캠핑,야영장",
+    "road_address": "경기 시흥시 동서로 706-88 물왕숲캠핑파크",
+    "address": "물왕동 산55-3",
+    "x": 126.8273577,
+    "y": 37.3809488,
+    "phone": "0507-1345-4700",
+    "visitor_review_count": 3023,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 553,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 35000,
+    "promo": "사이트예약: 매월1일오후5시 익월오픈",
+    "micro_review": "깔끔한 시설과 좋은 분위기의 캠핑장"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:시흥 캠핑장",
+    "q:오토캠핑"
+   ],
+   "straight_m": 37768,
+   "drive": {
+    "min": 46.7,
+    "km": 45.68,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "체험·동물",
+      "quote": "캠핑을 보내실 수 있을거 같네요. 시설의 경우 화장실과 개수대는 물론 여름에는 물놀이장도 운영을 합니다. 개나리와 목련 벚꽃이 어울려지는 캠핑장이니 봄에 가면 가장",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/musicstar2/36735982?query=%E2%98%85%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%B9%B4%ED%8E%98%5B%EC%9E%AC%ED%8C%AC%EB%A1%9C%EA%B7%B8%5D%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EC%82%BF%ED%8F%AC%EB%A1%9C",
+      "date": "2022.12.19."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "캠핑을 보내실 수 있을거 같네요. 시설의 경우 화장실과 개수대는 물론 여름에는 물놀이장도 운영을 합니다. 개나리와 목련 벚꽃이 어울려지는 캠핑장이니 봄에 가면 가장 이",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/musicstar2/36735982?query=%E2%98%85%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%B9%B4%ED%8E%98%5B%EC%9E%AC%ED%8C%AC%EB%A1%9C%EA%B7%B8%5D%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EC%82%BF%ED%8F%AC%EB%A1%9C",
+      "date": "2022.12.19."
+     },
+     {
+      "label": "아이동반",
+      "quote": "캠핑, 꼭 자야만 하나요? 4살 아이와 '몸만 쏙' 다녀온 물왕숲캠핑장 초대 방문기! 알찬 당일치기 썰! 주소, 영업시",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/helenabonbon/224229910321",
+      "date": "2026.03.26."
+     },
+     {
+      "label": "아이동반",
+      "quote": "임시 저장만 해두고 기록해야지 해야지 했는데,, 어느 덧 시간이..띠로리@,@ 아이들과 함께하기에 정말 '최적화'된 곳이었던 서울근교 아이갈 가볼만한곳 물왕숲캠핑파크",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/helenabonbon/224229910321",
+      "date": "2026.03.26."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "엘리베이터/1층/평지",
+      "quote": "서 내려가것슈 요기가 약 2층(?)정도라고 볼 수 있겠습니다 요기는 매점이 있는 평지~ 카라반도 있고 바베큐장도 있고 섞여있다 네이버로보면 캠핑장 사이트 크기도 정말",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/seventwo/224303211479",
+      "date": "2026.06.01."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "~ 사이트 앞에는 차량 1대만 주차할 수 있고 나머지 차는 주차장을 이용 17번 파쇄석 사이트를 이용합시다 매너타임은 10시부터고 뭐 캠퍼들은 다 아는 기본 수칙들 1",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/seventwo/224303211479",
+      "date": "2026.06.01."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "있고 바베큐장도 있고 섞여있다 네이버로보면 캠핑장 사이트 크기도 정말 다양하고 파쇄석부터 데크, 바베큐존, 카라반(데이, 1박) 구분해서 예약받으시는게 신기할정도 ㅎ",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/seventwo/224303211479",
+      "date": "2026.06.01."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "캠핑지기님이 직접 꾸미신 조경들이 눈을 재밌게 해줍니다. 캠핑사이트는 데크석과 파쇄석으로 나뉘어져 있습니다. 또한 차박존도 있기 때문에 차박하시는분들도 차 끌고 오시",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/musicstar2/36735982?query=%E2%98%85%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%B9%B4%ED%8E%98%5B%EC%9E%AC%ED%8C%AC%EB%A1%9C%EA%B7%B8%5D%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EC%82%BF%ED%8F%AC%EB%A1%9C",
+      "date": "2022.12.19."
+     },
+     {
+      "label": "캠핑 편의(평탄·주차·화장실)",
+      "quote": "의해주시고 만약 지인과 함께 단체로 예약해도 참 좋을거 같네요. 물왕숲캠핑파크의 파쇄석 자리입니다. 파쇄석 자리도 굉장히 넓기 때문에 편하게 캠핑을 보내실 수 있을거",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/musicstar2/36735982?query=%E2%98%85%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%B9%B4%ED%8E%98%5B%EC%9E%AC%ED%8C%AC%EB%A1%9C%EA%B7%B8%5D%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EC%82%BF%ED%8F%AC%EB%A1%9C",
+      "date": "2022.12.19."
+     },
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "이뻐서 추천드리는 곳입니다. 여기가 바로 물왕숲캠핑파크에 멋들어진 벚꽃뷰입니다. 정자밑에서 가족들과 함께 담소를 나누셔도 좋으며 그 옆에 있는 길을 이용하여 짧게 등",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/musicstar2/36735982?query=%E2%98%85%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%B9%B4%ED%8E%98%5B%EC%9E%AC%ED%8C%AC%EB%A1%9C%EA%B7%B8%5D%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EC%82%BF%ED%8F%AC%EB%A1%9C",
+      "date": "2022.12.19."
+     },
+     {
+      "label": "주차",
+      "quote": "파크  경기 시흥시 동서로 706-88  0507-1345-4700  연중무휴, 주차가능 초대받아 캠핑장 가는 길,, 올 땐 남편이 해야하니(나 맥주마실꺼니깐!) 갈 땐",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/helenabonbon/224229910321",
+      "date": "2026.03.26."
+     },
+     {
+      "label": "주차",
+      "quote": "사이트 당 차량 1대 무료 주차 가능, 추가 차량은 별도 주차장 이용 필요, 주차비는 체크인 시 결제",
+      "src": "kakao-info:862550219",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "깔끔한 시설과 좋은 분위기의 캠핑장"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "서울근교 캠핑장 시흥 물왕저수지 물왕숲캠핑파크 17번 파쇄석 사이트",
+      "url": "https://m.blog.naver.com/seventwo/224303211479",
+      "date": "2026.06.01.",
+      "authorName": "밍밍"
+     },
+     {
+      "title": "경기 시흥 물왕숲캠핑파크",
+      "url": "https://m.cafe.naver.com/musicstar2/36735982?query=%E2%98%85%EC%9D%BC%EB%B3%B8%EC%97%AC%ED%96%89%EC%B9%B4%ED%8E%98%5B%EC%9E%AC%ED%8C%AC%EB%A1%9C%EA%B7%B8%5D%EC%98%A4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4%20%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80%20%EC%82%BF%ED%8F%AC%EB%A1%9C",
+      "date": "2022.12.19.",
+      "authorName": "포스트유"
+     },
+     {
+      "title": "아이 데리고 캠핑 고민이라면? 시흥 물왕숲캠핑파크 솔직 후기",
+      "url": "https://m.blog.naver.com/helenabonbon/224229910321",
+      "date": "2026.03.26.",
+      "authorName": "헬레나 응댕"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "862550219",
+    "kakao_name": "물왕숲캠핑파크",
+    "kakao_url": "http://place.map.kakao.com/862550219",
+    "kakao_road_address": "경기 시흥시 동서로 706-90",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장",
+    "phone": "031-486-4700",
+    "dist_m": 161,
+    "name_sim": 1.0,
+    "x": 126.828649124429,
+    "y": 37.3819715153019,
+    "status": "Y",
+    "rating": 2.2,
+    "review_count": 56,
+    "headline": null,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "사이트 당 차량 1대 무료 주차 가능, 추가 차량은 별도 주차장 이용 필요, 주차비는 체크인 시 결제"
+     }
+    ],
+    "tags": [
+     "가족캠핑",
+     "감성캠핑",
+     "글램핑",
+     "바베큐장",
+     "불멍",
+     "솔로캠핑",
+     "야영장",
+     "오토캠핑",
+     "우중캠핑",
+     "차박",
+     "카라반",
+     "캠핑",
+     "커플캠핑",
+     "힐링캠핑장"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1459700349",
+    "name": "무수아취",
+    "category": "캠핑,야영장",
+    "road_address": "서울 도봉구 도봉로169길 249",
+    "address": "도봉동 469-10",
+    "x": 127.0330822,
+    "y": 37.6764256,
+    "phone": "02-954-0249",
+    "visitor_review_count": 2782,
+    "visitor_review_score": 4.71,
+    "blog_review_count": 1228,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": null,
+    "promo": "서울특별시골 무수골 캠핑 바베큐장",
+    "micro_review": "맛있는 고기와 추억 쌓기 좋은 장소"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:캠핑장 계곡"
+   ],
+   "straight_m": 19254,
+   "drive": {
+    "min": 26.3,
+    "km": 27.32,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "아이동반",
+      "quote": "서울 도봉구 무수아취 당일치기 글램핑 바베큐 아기랑 방문 후기 도봉구 무수아취 22개월 아기랑 다녀왔어요 당일치기 글램핑 바베큐 캠",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/dorothy_1114/224418844832",
+      "date": "3일 전"
+     },
+     {
+      "label": "아이동반",
+      "quote": "봉구 무수아취 당일치기 글램핑 바베큐 아기랑 방문 후기 도봉구 무수아취 22개월 아기랑 다녀왔어요 당일치기 글램핑 바베큐 캠핑장이라 따로 가져갈 거 없이 편하게 이용할",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/dorothy_1114/224418844832",
+      "date": "3일 전"
+     },
+     {
+      "label": "아이동반",
+      "quote": "구요 특히 여기 무수아취 캠핑장은 아이들 놀 수 있게 미크럼틀도 있는데 아빠들도 애들이랑 타더라구요 엄청 신나보였어요.. 이번 캠핑은 친구가 전부 준비해서 다녀온건데요",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
+      "date": "2026.08.11."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "어요 요즘 애들 어디서 뛰지도 못하니 이런데서라도 실컷 놀아야죠!! 저는 이렇게 물놀이 준비!! 신발은 슬리퍼보다 이런게 좋은거 같아요! 계곡까지 내려가는 길도 스무스",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
+      "date": "2026.08.11."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "같아요 그런데 서울 끝자락에 에어컨 있는 캠핑장이 있더라구요 하물며 바로 옆이 계곡! 하늘이 그렇게 이쁘더니 가을을 데려왔나봐요~~ 그래도 주말에 엄청 더웠죠?!",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
+      "date": "2026.08.11."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "렇게 이쁘더니 가을을 데려왔나봐요~~ 그래도 주말에 엄청 더웠죠?! 저는 친구랑 계곡으로 캠핑갔었어요! 서울에 이렇게 조용한 곳이 있었다니.. 전철이 닿는 곳인데 이",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
+      "date": "2026.08.11."
+     },
+     {
+      "label": "유아의자",
+      "quote": "토존에서 찰칵쓰 포토존에서도 찍어보았구요 ㅎㅎ 글램핑장이 키즈프랜들리라 유아식기,유아의자 마련되어있고 놀이공간도 있어요 (키즈까페에서 볼수있는 기차가!!뙇!!에어바운스도",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "취 글램핑장을 방문하였습니다~ ✔️일단 멀리가기싫고 ✔️ 아이들도 갈수있고(혹시 놀이방있는지?) ✔️ 캠핑 장비가 마땅치 않고 ✔️캠핑 분위기 내고싶으나 1박은 못하게",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "분 일찍왔어요 ㅎㅎ 그래도 친절한 사장님께서 괜찮다고 캠핑 방 배정해주시고 먼저 잔디밭에서 아이들과 놀았습니다~~ 바로 ㅋㅋㅋ 굽기 배고파유 ㅎㅎ 먹방 즐기다가 ㅎㅎ",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "아이동반",
+      "quote": "안녕하세요. 오늘 아이들과 서울 도봉구에 있는 무수아취 글램핑장을 방문하였습니다~ ✔️일단 멀리가기싫고 ✔",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "아이동반",
+      "quote": "요 ㅎㅎ 그래도 친절한 사장님께서 괜찮다고 캠핑 방 배정해주시고 먼저 잔디밭에서 아이들과 놀았습니다~~ 바로 ㅋㅋㅋ 굽기 배고파유 ㅎㅎ 먹방 즐기다가 ㅎㅎ? 마지막엔 쫀",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "기,유아의자 마련되어있고 놀이공간도 있어요 (키즈까페에서 볼수있는 기차가!!뙇!!에어바운스도요) 기차랑 에어바운스 기차는 성인도 탈수있다고 하셨습니다~ 저도 살짝 타보았어",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "놀이공간도 있어요 (키즈까페에서 볼수있는 기차가!!뙇!!에어바운스도요) 기차랑 에어바운스 기차는 성인도 탈수있다고 하셨습니다~ 저도 살짝 타보았어요 두루미?왜가리? 무수",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "앞에 계곡도 있고 옥상에는 그네도 있어요!",
+      "src": "kakao-review:12806235",
+      "date": "2025-05-19"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "아취 주소 서울특별시 도봉구 도봉로 169길 249 연락처 02-954-0249 주차 무료 가능 내부 모습 미리 예약하고 방문했는데 3번 캠핑장으로 안내받았어요 내부 공간",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/dorothy_1114/224418844832",
+      "date": "3일 전"
+     },
+     {
+      "label": "주차",
+      "quote": "서울에 이렇게 조용한 곳이 있었다니.. 전철이 닿는 곳인데 이렇게 멋진 풍경!! 주차장 넓은 땡볕 이렇게 보니 날씨는 좋았어요 이 날 아마 38도 정도 되었던거 같아용 캠",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
+      "date": "2026.08.11."
+     },
+     {
+      "label": "주차",
+      "quote": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능",
+      "src": "kakao-info:14061000",
+      "date": null
+     },
+     {
+      "label": "주차",
+      "quote": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능",
+      "src": "kakao-info:14061000",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": [
+     "제로페이"
+    ],
+    "opening_hours": null,
+    "micro_reviews": [
+     "맛있는 고기와 추억 쌓기 좋은 장소"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "서울 도봉구 무수아취 당일치기 글램핑 바베큐 아기랑 방문 후기",
+      "url": "https://m.blog.naver.com/dorothy_1114/224418844832",
+      "date": "3일 전",
+      "authorName": "뽀도미"
+     },
+     {
+      "title": "서울 계곡 에어컨 있는 무수아취 캠핑장이 있더라구요",
+      "url": "https://m.blog.naver.com/rubirang/224373352456",
+      "date": "2026.08.11.",
+      "authorName": "신사동그여자"
+     },
+     {
+      "title": "서울에서 글램핑 즐기기(무수아취)",
+      "url": "https://m.cafe.naver.com/wooseongapt/533135?query=%EC%8B%A0%EC%BB%A4%20%5B%20%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%5D",
+      "date": "2025.11.06.",
+      "authorName": "안나안나에요"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "14061000",
+    "kakao_name": "무수아취",
+    "kakao_url": "http://place.map.kakao.com/14061000",
+    "kakao_road_address": "서울 도봉구 도봉로169길 249",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장",
+    "phone": "02-954-0249",
+    "dist_m": 4,
+    "name_sim": 1.0,
+    "x": 127.03308771773605,
+    "y": 37.6763878808172,
+    "status": "Y",
+    "rating": 3.1,
+    "review_count": 28,
+    "headline": "영업 중",
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능"
+     }
+    ],
+    "tags": [
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "야영장",
+     "우중캠핑",
+     "워크샵",
+     "족구장",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1992277916",
+    "name": "스푼 글램핑 카라반",
+    "category": "캠핑,야영장",
+    "road_address": "경기 포천시 군내면 청군로2985번길 202 스푼글램핑",
+    "address": "직두리 190-26",
+    "x": 127.2464364,
+    "y": 37.8561492,
+    "phone": "031-533-3039",
+    "visitor_review_count": 2796,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 295,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 49000,
+    "promo": "조기입실불가 최대 인원 2인 노키즈존",
+    "micro_review": "깔끔한 시설과 아름다운 뷰가 어우러진 힐링 스팟"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:포천 캠핑장"
+   ],
+   "straight_m": 33489,
+   "drive": {
+    "min": 49.0,
+    "km": 51.19,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "숙소도 꽤 다녔는데 그 중, 스푼글램핑은 특별한 점이 있더라구요. 전 객실이 노키즈존에 최대 2인이라 옆자리가 북적이지 않거든요. (완전 커플들을 위한,,그런 곳..",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224411641072",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "조건 카라반 B1 199,000원 → 189,050원 기준 2인 · 최대 2인 노키즈존 · 인원 추가 안 됨 카라반 C1 209,000원 → 198,550원 기준 2인",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224411641072",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "숙소도 꽤 다녔는데 그 중, 스푼글램핑은 특별한 점이 있더라구요. 전 객실이 노키즈존에 최대 2인이라 옆자리가 북적이지 않거든요. (완전 커플들을 위한,,그런 곳..",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224411641072",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "조건 카라반 B1 199,000원 → 189,050원 기준 2인 · 최대 2인 노키즈존 · 인원 추가 안 됨 카라반 C1 209,000원 → 198,550원 기준 2인",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/from____ming/224411641072",
+      "date": "2026.09.14."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "되어있었는데 캠핑장 도착하니 하늘이 맑아져서 다행이였다 왜냐... ! 수영장에서 물놀이 해야되거든요. 수영하기 전에 점심으로 간단하게 야키토리에 맥주 냠. 캠핑요리 중",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "는 글램핑장이라니... 너무 좋다 튜브랑 비치발리볼도 있어서 수영못하는 사람들도 물놀이 쌉가능. 튜브타고 수영도 하고 비치발리볼로 공놀이까지 하니 50분 순삭. 더 놀",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "가 온다고 되어있었는데 캠핑장 도착하니 하늘이 맑아져서 다행이였다 왜냐... ! 수영장에서 물놀이 해야되거든요. 수영하기 전에 점심으로 간단하게 야키토리에 맥주 냠.",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "서 모양이 이상하지만 맛있으면 된거임. 한잔해~~~~~~~ 스피드하게 뒷정리하고 수영장 고고 수영장 있는 글램핑장이라니... 너무 좋다 튜브랑 비치발리볼도 있어서 수영",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "서울근교 노키즈존, 수영장있는 캠핑장 스푼 글램핑 카라반 안녕하세요 오늘은 8월 연휴 맞이 다녀온",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "램핑은 글램핑인 A구역, 카라반인 S구역, B구역, C구역이 있어요. 전 객실 노키즈존으로 운영되어 커플이 방문하기 좋은 캠핑장이에요. 포천 스푼글램핑카라반 글램핑A",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "서울근교 노키즈존, 수영장있는 캠핑장 스푼 글램핑 카라반 안녕하세요 오늘은 8월 연휴 맞이 다녀온",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "서울근교 노키즈존, 수영장있는 캠핑장 스푼 글램핑 카라반 안녕하세요 오늘은 8월 연휴 맞이 다녀온 포천 글",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "엘리베이터/1층/평지",
+      "quote": "탱글탱글하고 존맛. 아쉬운게 있다면 양... 500g이 2인분정도라길래 샀는데 턱없이 모자랐다...... 다음엔 350g짜리 하나 더 사서 가는거로. 소화시킬 겸",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24."
+     },
+     {
+      "label": "평탄·데크길",
+      "quote": "연휴 전날인데도 길이 안막혀서 서울에서 포천까지 1시간 컷. 캠핑장 가는길이 비포장도로 외길이라 험난했지만 고생한만큼 숲뷰가 예뻐서 좋았다 이번에 내가 다녀온 캠핑장은",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24."
+     },
+     {
+      "label": "주차",
+      "quote": "장 공용시설 (수영장/매점/주차/분리수거) 스푼글램핑카라반 주차는 객실당 1대만 주차 가능해요. 입실시간인 오후 3시부터 입차가 가능하구요 글램핑A, 카라반B의 경우 사전",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16."
+     },
+     {
+      "label": "주차",
+      "quote": "식기가 없는 차단기라 별도의 사전등록없이 입차가능해요. 주차는 카라반 바로 옆에 주차가능해서 너무 편하더라구요… ! 주차차단기 입구쪽에 분리수거 공간이 있구요 퇴실 시에",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16."
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "깔끔한 시설과 아름다운 뷰가 어우러진 힐링 스팟"
+    ],
+    "menus": [
+     {
+      "name": "스푼글램핑&카라반",
+      "price": "",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "포천 스푼글램핑 카라반 할인 꿀팁 서울근교 데이트 추천",
+      "url": "https://m.blog.naver.com/from____ming/224411641072",
+      "date": "2026.09.14.",
+      "authorName": "밍짱이"
+     },
+     {
+      "title": "초보캠퍼 캠핑일기 #7 남자친구랑 첫 카라반캠핑, 포천 스푼글램핑카라반, 캠핑요리, 포천 놀거리",
+      "url": "https://m.blog.naver.com/kattun74/224388601611",
+      "date": "2026.08.24.",
+      "authorName": "쎄쎄쎄"
+     },
+     {
+      "title": "포천 스푼글램핑카라반 C5 솔직후기 l 서울근교 수영장있는 캠핑장, 스파카라반, 노키즈존, 당일치기",
+      "url": "https://m.blog.naver.com/kattun74/224380460767",
+      "date": "2026.08.16.",
+      "authorName": "쎄쎄쎄"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1493105303",
+    "name": "가평 풀문캠핑앤글램핑리조트",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 상면 청군로 1487",
+    "address": "원흥리 211-5",
+    "x": 127.328236,
+    "y": 37.819443,
+    "phone": "0507-1313-3562",
+    "visitor_review_count": 2669,
+    "visitor_review_score": 4.79,
+    "blog_review_count": 586,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 69000,
+    "promo": "온수수영장,키즈카페,영화관,선물이벤트",
+    "micro_review": "넓고 깨끗한 글램핑장에서의 최고의 인공 눈과 레크레이션"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:글램핑 키즈 수영장",
+    "q:오토캠핑",
+    "q:키즈 캠핑장"
+   ],
+   "straight_m": 31426,
+   "drive": {
+    "min": 45.2,
+    "km": 49.45,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "아이동반",
+      "quote": ". 미온수 수영장풀은 기본 ! 중간 중간 다양한 이벤트를 진행하는 키즈캠핑장으로 아이와 함께하는 가족캠핑이라면 더욱 추천하고 싶은 가평 풀문캠핑앤글램핑리조트입니다. ☺",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/reshiet/224407684072",
+      "date": "2026.09.10."
+     },
+     {
+      "label": "아이동반",
+      "quote": "만 편하고 깨끗하게 묵고 갈 수 있는 가평글램핑장 풀문캠핑앤글램핑리조트였습니다. 아이와 놀거리 & 이벤트 가득한 가평글램핑장 가평풀문캠핑앤리조트 아이와가기좋은 온수수영",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/reshiet/224407684072",
+      "date": "2026.09.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "안 쪽으로 들어가지 않고 차가지고 방문하기 좋은 가평글램핑장이 있습니다. 미온수 수영장풀은 기본 ! 중간 중간 다양한 이벤트를 진행하는 키즈캠핑장으로 아이와 함께하는",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/reshiet/224407684072",
+      "date": "2026.09.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "다이에는 드라이기와 일회용칫솔 등의 어메니티가 들어있었고, 제일 좋았던 점은 온수수영장이 있는 만큼 수건을 넉넉하게 제공해주신다는 점이였습니다. 실제로 수건이 더 필요",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/reshiet/224407684072",
+      "date": "2026.09.10."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "어가보진 못했지만 ,, 아가들은 정말 씩씩하게 들어가더라구요 ! (여기 여름에는 수영장이래요 ~~) 찜질방부터 영화관 그리고 저희딸처럼 작은 아가들이 놀수있는 정글짐",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/78058034?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2026.02.01."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "작은 아가들이 놀수있는 정글짐 사진엔없지만 인형뽑기 , 인생네컷 , 탁구장 , 방방존 엄청 다양했어요 밤되면 또 다른 매력이 있구 저는 낮보다 밤이 훨 이뻤어요 !",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/imsanbu/78058034?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2026.02.01."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "었다. 이 식탁테이블에 버너도 있어서 굳이 실내에서 안해먹어도 된다. 여기는 실내놀이방이었다. (뭐가 자꾸 나오쥬?) 키즈 놀이터부터 각종 오락시설까지... 뽑기도 있",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "실내에서 안해먹어도 된다. 여기는 실내놀이방이었다. (뭐가 자꾸 나오쥬?) 키즈 놀이터부터 각종 오락시설까지... 뽑기도 있어서 아이들이 잠깐 쾌락을 즐기기도 하고 엄",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01."
+     },
+     {
+      "label": "아이동반",
+      "quote": "들과 글램핑을 예약했다. 리조트만 다니다가 글램핑은 처음인데... 요즘 글램핑은 아이들이 좋아하는 프로그램도 많다고 하니 부푼 기대를 가지고 드디어, 이 길가에 있는 곳이 바",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "데 자리하고 있고 체크인 전, 후 모두 이용 가능!! 완전 혜자... 에어바운스 물놀이장도 있는데, 초딩이상은 사용 금지다❌ 구경하고 숙소로 들어왔다. 오늘 하루 보낼",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "캠핑존도 있고 글램핑존도 있고 카라반존도 있다. 일단 가자마자 눈에 보이는 온수수영장. 비닐하우스 느낌으로 캠핑리조트 한 가운데 자리하고 있고 체크인 전, 후 모두",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "트 한 가운데 자리하고 있고 체크인 전, 후 모두 이용 가능!! 완전 혜자... 에어바운스 물놀이장도 있는데, 초딩이상은 사용 금지다❌ 구경하고 숙소로 들어왔다. 오늘 하",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01."
+     },
+     {
+      "label": "놀이시설",
+      "quote": "의 친절함은 기본이고 어른들이 놀수있는  빙고놀이와 아기들이 신나게 놀수있는 키즈놀이터 수영장 나이때별로 놀수있게 되어있고 이벤트가 아주 다양하며 사장님이 너무 어른들",
+      "src": "kakao-review:16013310",
+      "date": "2026-07-17"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "장님의 친절함은 기본이고 어른들이 놀수있는  빙고놀이와 아기들이 신나게 놀수있는 키즈놀이터 수영장 나이때별로 놀수있게 되어있고 이벤트가 아주 다양하며 사장님이 너무 어른",
+      "src": "kakao-review:16013310",
+      "date": "2026-07-17"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "함은 기본이고 어른들이 놀수있는  빙고놀이와 아기들이 신나게 놀수있는 키즈놀이터 수영장 나이때별로 놀수있게 되어있고 이벤트가 아주 다양하며 사장님이 너무 어른들을 생각",
+      "src": "kakao-review:16013310",
+      "date": "2026-07-17"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "객실 바로 옆 1대 무료 주차 가능, 추가 시 1대당 1만원, 공용 주차장 별도 구비",
+      "src": "kakao-info:1754038562",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "넓고 깨끗한 글램핑장에서의 최고의 인공 눈과 레크레이션"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "온수수영장과 이벤트가 가득한 가평글램핑장 : 가평 풀문캠핑앤글램핑리조트",
+      "url": "https://m.blog.naver.com/reshiet/224407684072",
+      "date": "2026.09.10.",
+      "authorName": "Reshiet"
+     },
+     {
+      "title": "가평여행으로 키즈글램핑장 진짜좋았어요 !",
+      "url": "https://m.cafe.naver.com/imsanbu/78058034?query=%EB%A7%98%EC%8A%A4%ED%99%80%EB%A6%AD%20%EB%B2%A0%EC%9D%B4%EB%B9%84%20(360%EB%A7%8C%20%EC%97%84%EB%A7%88%EB%93%A4%EC%9D%98%20%EC%9E%84%EC%8B%A0%2C%20%EC%9C%A1%EC%95%84%20%EC%A7%80%EC%8B%9Din%20%EC%B9%B4%ED%8E%98)",
+      "date": "2026.02.01.",
+      "authorName": "이오년생 딸맘"
+     },
+     {
+      "title": "[아이와 가평여행] 풀문캠핑앤글램핑리조트 수영장 버블파티,바베큐까지 포천 그리네오아시스 힐링",
+      "url": "https://m.blog.naver.com/eurluv/224330742088",
+      "date": "2026.07.01.",
+      "authorName": "Jay"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1754038562",
+    "kakao_name": "풀문캠핑앤글램핑리조트",
+    "kakao_url": "http://place.map.kakao.com/1754038562",
+    "kakao_road_address": "경기 가평군 상면 청군로 1487",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 글램핑장",
+    "phone": "010-4904-0529",
+    "dist_m": 2,
+    "name_sim": 0.917,
+    "x": 127.32824338921,
+    "y": 37.8194620999905,
+    "status": "Y",
+    "rating": 5.0,
+    "review_count": 2,
+    "headline": null,
+    "facility_icons": [
+     "반려견동반",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "객실 바로 옆 1대 무료 주차 가능, 추가 시 1대당 1만원, 공용 주차장 별도 구비"
+     }
+    ],
+    "tags": [
+     "가족캠핑",
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "오토캠핑",
+     "온수수영장",
+     "족구장",
+     "카라반",
+     "캠핑",
+     "키즈펜션",
+     "픽업서비스"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1858292095",
+    "name": "캠프게이트 청평 카라반&캠핑",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 청평면 호반로 1025-26",
+    "address": "고성리 578-19",
+    "x": 127.4874792,
+    "y": 37.7124497,
+    "phone": "0507-1375-1744",
+    "visitor_review_count": 2595,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 1205,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 59000,
+    "promo": "2022년 신규오픈! 청평호수 뷰",
+    "micro_review": "넓은 카라반 내부에서 즐기는 맛있는 바베큐"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:오토캠핑"
+   ],
+   "straight_m": 31134,
+   "drive": {
+    "min": 36.5,
+    "km": 42.25,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "아이동반",
+      "quote": "가평 가볼만한곳 청평 캠프게이트 수영장 있는 서울근교 카라반 아이와 함께 가까운 곳에서 1박 여행을 하고 싶어 청평 캠프게이트를 찾았어요. 별도의",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "내려다보는 풍경이 시원하게 펼쳐졌습니다. 야외 수영장에서는 가족 단위 방문객들이 물놀이를 즐기고 있었고, 숙박과 물놀이를 한곳에서 해결할수 있어 여름철 가평 가볼만한곳",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "습니다. 야외 수영장에서는 가족 단위 방문객들이 물놀이를 즐기고 있었고, 숙박과 물놀이를 한곳에서 해결할수 있어 여름철 가평 가볼만한곳을 찾는 분들에게 잘 어울리는 곳",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "가평 가볼만한곳 청평 캠프게이트 수영장 있는 서울근교 카라반 아이와 함께 가까운 곳에서 1박 여행을 하고 싶어 청평 캠",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "이트를 찾았어요. 별도의 캠핑 장비를 준비하지 않아도 편하게 머물수 있고, 야외 수영장과 개별 바비큐 공간까지 갖춘 곳이었습니다. 무엇보다 높은 곳에서 내려다보는 청평",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "답답할수 있는데 그럴 걱정하지 않아도 되고, 캠핑 장비를 설치하지 않고 곧바로 쉴수 있다는 점이 서울근교 카라반의 매력이었어요. 데크에서 바라본 청평호 풍경은 감탄사를",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     }
+    ],
+    "b_neg": [
+     {
+      "label": "계단",
+      "quote": "있어 여름철 가평 가볼만한곳을 찾는 분들에게 잘 어울리는 곳이었습니다. 진입로는 경사가 있는 편이라 천천히 이동하는 것이 좋아요. 언덕을 올라가면 ‘CAMP GATE’",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17."
+     }
+    ],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": null,
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "넓은 카라반 내부에서 즐기는 맛있는 바베큐"
+    ],
+    "menus": [
+     {
+      "name": "캠프게이트 청평",
+      "price": "",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": true,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "캠핑/Camping) 캠프게이트 청평 with 차박&amp;개별화장실",
+      "url": "https://m.blog.naver.com/skan5422/224377748210",
+      "date": "2026.08.13.",
+      "authorName": "꿈모시"
+     },
+     {
+      "title": "가평 가볼만한곳 청평 캠프게이트 수영장 있는 서울근교 카라반",
+      "url": "https://m.blog.naver.com/godhunting/224381502249",
+      "date": "2026.08.17.",
+      "authorName": "시골아저씨"
+     },
+     {
+      "title": "가평 청평캠프게이트카라반 할인 받는 팁!",
+      "url": "https://m.cafe.naver.com/donghakjung/14451?query=%EB%8F%99%ED%83%84%ED%95%99%EC%9B%90%EC%9D%BC%EA%B8%89%EC%A0%95%EB%B3%B4(%EB%8F%99%ED%95%99%EC%9D%BC%EB%B3%B4)",
+      "date": "2026.08.24.",
+      "authorName": "문득름"
+     }
+    ]
+   },
+   "kakao": {
+    "found": false
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1203920209",
+    "name": "핀란드캠핑성 글램핑",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 상면 물골길 102 핀란드캠핑성",
+    "address": "봉수리 14",
+    "x": 127.3162789,
+    "y": 37.8363952,
+    "phone": "0507-1308-7621",
+    "visitor_review_count": 2489,
+    "visitor_review_score": 4.81,
+    "blog_review_count": 649,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 89000,
+    "promo": "계곡속 4계절 온수풀글램핑 리모델완료",
+    "micro_review": "깔끔한 시설에서 만나는 아름다운 뷰"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:가평 캠핑장",
+    "q:글램핑 키즈 수영장",
+    "q:캠핑장 계곡"
+   ],
+   "straight_m": 32813,
+   "drive": {
+    "min": 48.4,
+    "km": 49.77,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "고기냄새 풀풀 여기는 온수풀입니다 바깥으로는 야외 수영장도 있음!! 아이들 위한 놀이터도 있음 #핀란드캠핑성온수풀 #핀란드캠핑성수영장 저녁이 되면 본격 바베큐 타임인데",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/xshinji/224300144835",
+      "date": "2026.06.04."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "핑성 #가평글램핑 #글램핑장 #글램핑추천 #가평숙소 #가평펜션 #가평캠핑 여기가 계곡과 맞닿은 글램핑장 핀란드캠핑성입니다 조종면 시내에서 안으로 조금만 들어가면 됩니",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/xshinji/224300144835",
+      "date": "2026.06.04."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "과 화로대, 석유 난로 등 별도 요금이 있을 수 있음! 이곳 글램핑장은 거의 다 계곡과 닿아있습니다 저 바깥으로 계곡임 예전에는 작은 물고기도 보였는데 며칠전 비가",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/xshinji/224300144835",
+      "date": "2026.06.04."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "입장합니다 탁트이고 산속이라 공기맑고 초록초록 눈정화되네요 로니는 들어오자마자 수영장보고 눈이 띠용 근데 물만져보고 차가워서 안할래 했다가 미온수풀보고 바로 풍덩했답",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/s2roni/224420054307",
+      "date": "2일 전"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "보고 차가워서 안할래 했다가 미온수풀보고 바로 풍덩했답니다 글램핑장 가운데 있는 풀장인데 물이 차가워서 여름에는 아주 재밋게 수영할수있엇을것같아요 우리집 물개 로니맘",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/s2roni/224420054307",
+      "date": "2일 전"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "찾게 되는데 너무 좋아요. 사장님 친절하시고 개별 화장실 있어 편리합니다.옆에 계곡이 흐르고 있어 여름엔 발 담구고 멍하니 바라만 보고 있어도  정말 힐링하기 좋아",
+      "src": "kakao-review:12296257",
+      "date": "2025-03-10"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "조용한 계곡이 바로 옆. 직원들 친절함 텐트안에 샤워시설 좋음",
+      "src": "kakao-review:10864436",
+      "date": "2024-08-26"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "계곡뷰 방이었는데 운치있고 좋았어요  수영장, 사우나, 방마다 개별화장실에 온수도 잘",
+      "src": "kakao-review:7968152",
+      "date": "2023-06-29"
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "계곡뷰 방이었는데 운치있고 좋았어요  수영장, 사우나, 방마다 개별화장실에 온수도 잘나오고 아쉬운거 없이 다 갖춰져있네요 ☺",
+      "src": "kakao-review:7968152",
+      "date": "2023-06-29"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "하나로마트, 플러스마트 등 굉장히 붐비는데 다른 곳에서 미리 준비해오시는걸 추천 주차 공간은 나만 알고 싶은 공영주차장이 있긴 한데 하나로마트 주차장은 빡십니다 전용 주차",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/xshinji/224300144835",
+      "date": "2026.06.04."
+     },
+     {
+      "label": "주차",
+      "quote": "캠핑장 앞 주차 가능, 캠핑장 입구 주차 후 카트 이용, 근처 공영주차장 이용 가능",
+      "src": "kakao-info:1856084906",
+      "date": null
+     },
+     {
+      "label": "주차",
+      "quote": "캠핑장 앞 주차 가능, 캠핑장 입구 주차 후 카트 이용, 근처 공영주차장 이용 가능",
+      "src": "kakao-info:1856084906",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "깔끔한 시설에서 만나는 아름다운 뷰"
+    ],
+    "menus": [
+     {
+      "name": "당일권",
+      "price": "100000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "평일숙박권",
+      "price": "120000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "주말숙박권",
+      "price": "170000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "숯+그릴",
+      "price": "15000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "장작+화로대",
+      "price": "10000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "석유난로 반통(4시간)",
+      "price": "12000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "석유난로 한통(8시간)",
+      "price": "20000",
+      "description": "",
+      "recommend": false
+     }
+    ],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": false,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "가평 핀란드캠핑성펜션&글램핑 할인 받는 팁!",
+      "url": "https://m.cafe.naver.com/donghakjung/14519?query=%EB%8F%99%ED%83%84%ED%95%99%EC%9B%90%EC%9D%BC%EA%B8%89%EC%A0%95%EB%B3%B4(%EB%8F%99%ED%95%99%EC%9D%BC%EB%B3%B4)",
+      "date": "2026.08.24.",
+      "authorName": "지재누"
+     },
+     {
+      "title": "[가평 글램핑 : 핀란드캠핑성] 가평 조종면  글램핑 추천 장소 | 재방문 글램핑장 | 글램핑 수영장 바베큐 | 가평 숙소 가평 펜션 가평 캠핑장 + 조종면 하나로마트",
+      "url": "https://m.blog.naver.com/xshinji/224300144835",
+      "date": "2026.06.04.",
+      "authorName": "루이스"
+     },
+     {
+      "title": "가평글램핑 감성글램핑장 [핀란드캠핑성 글램핑]",
+      "url": "https://m.blog.naver.com/s2roni/224420054307",
+      "date": "2일 전",
+      "authorName": "로니맘S2"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1856084906",
+    "kakao_name": "핀란드캠핑성",
+    "kakao_url": "http://place.map.kakao.com/1856084906",
+    "kakao_road_address": "경기 가평군 상면 물골길 102",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장",
+    "phone": "010-9639-7621",
+    "dist_m": 2,
+    "name_sim": 0.85,
+    "x": 127.316274537322,
+    "y": 37.8364147323056,
+    "status": "Y",
+    "rating": 4.7,
+    "review_count": 31,
+    "headline": "영업 중",
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "캠핑장 앞 주차 가능, 캠핑장 입구 주차 후 카트 이용, 근처 공영주차장 이용 가능"
+     }
+    ],
+    "tags": [
+     "감성캠핑",
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "불멍",
+     "사우나",
+     "솔로캠핑",
+     "실외수영장",
+     "온수수영장",
+     "우중캠핑",
+     "캠프파이어장",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "35854046",
+    "name": "캠프오후4시",
+    "category": "캠핑,야영장",
+    "road_address": "경기 포천시 군내면 청군로2864번길 22",
+    "address": "직두리 13",
+    "x": 127.2510903,
+    "y": 37.8693511,
+    "phone": "0507-1401-8306",
+    "visitor_review_count": 2347,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 950,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 120000,
+    "promo": "빈티지카라반 포천 감성글램핑 독채풀",
+    "micro_review": "빈티지한 아름다운 인테리어의 카라반"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:포천 캠핑장"
+   ],
+   "straight_m": 35001,
+   "drive": {
+    "min": 45.8,
+    "km": 49.62,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "체험·동물",
+      "quote": "큐 & 모닥불 : 50,000원  개인지참 : 세면도구, 수건, 종량제봉투  반려동물 : 객실별 이용 가능 여부 확인 필요  이용요금 : 카라반 종류와 시즌에 따라",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224403952754",
+      "date": "2026.09.07."
+     },
+     {
+      "label": "아이동반",
+      "quote": "엔 어디 가까? 뭐 하고 놀까?매일 고민하게 되더라고요. 이번에는 조금 특별하게 아이와 함께하는 첫 카라반 여행을 계획해봤어요. 멀리 떠나는 여행은 부담스럽고, 그렇다",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/qhtiti33/224373363484",
+      "date": "2026.08.09."
+     },
+     {
+      "label": "아이동반",
+      "quote": "13시부터 19시까지 예약했답니다. 다음에는 꼭 1박 2일로 오자고!! 할정도로 아이와 저 둘 다 완전 만족했던 곳이라 소개해봅니다. 포천 캠프오후4시 체크인 입구에서",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/qhtiti33/224373363484",
+      "date": "2026.08.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "마자 아이가 어디론가 냅다 뛰어가길래 따라가 보니… 사진으로만 보던 캠프오후4시 수영장이 딱! 사진보다 더 예뻤던 캠프오후4시 수영장 사실 방문 전부터 수영장 사진을",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/qhtiti33/224373363484",
+      "date": "2026.08.09."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "니… 사진으로만 보던 캠프오후4시 수영장이 딱! 사진보다 더 예뻤던 캠프오후4시 수영장 사실 방문 전부터 수영장 사진을 많이 봤는데 엄마인 저도 감성이 너무 예뻐서 기",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/qhtiti33/224373363484",
+      "date": "2026.08.09."
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "주차",
+      "quote": "쪽으로 들어가면 다양한 빈티지 카라반들이 자리하고 있다. 차는 카라반 옆 공간에 주차 가능하다. 그리고 재미있는 에피소드 하나.  울신랑 이름이 캠프오후4시라서 입실 시간",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/iamfree-/224403952754",
+      "date": "2026.09.07."
+     },
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "모습 구경하는 것만으로도 힐링이더라고요. 아이와 함께하는 여행에서 엄마가 편하게 쉴 수 있는 공간이 있다는 게 은근 중요하잖아요.ㅎㅎ 사진도 예쁘게 나와서 인생샷 남기기",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/qhtiti33/224373363484",
+      "date": "2026.08.09."
+     },
+     {
+      "label": "주차",
+      "quote": "카라반 바로 옆에 주차 가능, 숙소 앞 주차공간 있음",
+      "src": "kakao-info:1776717273",
+      "date": null
+     },
+     {
+      "label": "주차",
+      "quote": "카라반 바로 옆에 주차 가능, 숙소 앞 주차공간 있음",
+      "src": "kakao-info:1776717273",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": null,
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "빈티지한 아름다운 인테리어의 카라반"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": true,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "캠프오후4시 - 포천 가을 감성글램핑, 이색적인 빈티지 카라반 캠핑",
+      "url": "https://m.blog.naver.com/iamfree-/224403952754",
+      "date": "2026.09.07.",
+      "authorName": "슈니로그"
+     },
+     {
+      "title": "서울근교 포천글램핑 캠프오후4시 감성 빈티지카라반",
+      "url": "https://m.blog.naver.com/qhtiti33/224373363484",
+      "date": "2026.08.09.",
+      "authorName": "또유니"
+     },
+     {
+      "title": "서울에서 한시간! 서울 근교 감성캠핑 포천 &quot;캠프오후4시&quot;",
+      "url": "https://m.blog.naver.com/jinagandda/224372313672",
+      "date": "2026.08.08.",
+      "authorName": "지구별여행"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1776717273",
+    "kakao_name": "캠프오후4시",
+    "kakao_url": "http://place.map.kakao.com/1776717273",
+    "kakao_road_address": "경기 포천시 군내면 청군로2864번길 22",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 글램핑장",
+    "phone": "010-8945-8306",
+    "dist_m": 3,
+    "name_sim": 1.0,
+    "x": 127.25109971395365,
+    "y": 37.869328458758275,
+    "status": "Y",
+    "rating": 1.5,
+    "review_count": 14,
+    "headline": null,
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "카라반 바로 옆에 주차 가능, 숙소 앞 주차공간 있음"
+     }
+    ],
+    "tags": [
+     "감성캠핑",
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "불멍",
+     "애견글램핑",
+     "애견동반",
+     "오토캠핑",
+     "카라반",
+     "캠프파이어장",
+     "캠핑",
+     "커플여행"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  },
+  {
+   "naver": {
+    "id": "1060098042",
+    "name": "핫도그342 애견글램핑카라반",
+    "category": "캠핑,야영장",
+    "road_address": "경기 포천시 일동면 수입로 342",
+    "address": "수입리 700-1",
+    "x": 127.3153599,
+    "y": 37.9957131,
+    "phone": null,
+    "visitor_review_count": 2286,
+    "visitor_review_score": 0.0,
+    "blog_review_count": 405,
+    "business_status": null,
+    "business_desc": null,
+    "min_price": 60000,
+    "promo": "포천 에르메스급 애견카라반&글램핑",
+    "micro_review": "넓은 공간에서 반려견과 함께 편안한 시간"
+   },
+   "kind": "camping",
+   "queries": [
+    "q:포천 캠핑장"
+   ],
+   "straight_m": 49853,
+   "drive": {
+    "min": 57.7,
+    "km": 61.28,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "evidence": {
+    "kids": [
+     {
+      "label": "놀이시설",
+      "quote": "가시 소형견 2만원, 대형견5만원 ) *부대시설 야외 수영장 개별 BBQ장 개별 잔디운동장 반려동물 전용드라이룸 탁구 & 배드맨턴 매점 목적한 날보다 2주 일찍 검색",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "초과시 1인당 3만원 (영유아 포함) 바베큐 시설 2만5천원 불멍 2만5천원 반려동물 1마리는 무료 ( 추가시 소형견 2만원, 대형견5만원 ) *부대시설 야외 수영장",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03."
+     },
+     {
+      "label": "체험·동물",
+      "quote": "만원, 대형견5만원 ) *부대시설 야외 수영장 개별 BBQ장 개별 잔디운동장 반려동물 전용드라이룸 탁구 & 배드맨턴 매점 목적한 날보다 2주 일찍 검색을 시작했다.",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "[포천 애견동반 글램핑 핫도그342] 개별 수영장이 있는 애견 카라반 내돈내산 방문후기 강아지를 데리고 여행을 하는 일은 생각보다",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": ". 위치 : 경기도 포천시 일동면 수입으로 342 소형견 VIP 카라반 + 개별 수영장 이용. 일반객실, 기준 2인 (최대 4인) 침실1, 침대2, 욕실1 입실 오후3",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "크고 귀여우니깐ㅎ 왕크왕귀! 여긴 짜장이랑 갓던 핫도그 342 굉장히 좋앗습니당 수영장도잇고!",
+      "src": "naver-blog-excerpt:https://m.cafe.naver.com/shibasesang/120?query=%EC%8B%9C%EB%B0%94%EC%84%B8%EC%83%81%20(%20%EC%8B%9C%EB%B0%94%EC%99%80%20%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%20%EC%84%B8%EC%83%81%20)",
+      "date": "2025.11.04."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "좋았답니다. 핫도그342 글램핑장 -글램핑 or 카라반 선택 가능 -공용 온수 풀장있음 (강아지 입수 가능) -소형견/대형견존 나뉘어져 있음 -개별 울타리 & 전체",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/empty0829/224420665725",
+      "date": "1일 전"
+     }
+    ],
+    "b_pos": [
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "?? 입실시간보다 15여 분 일찍 도착했다. 초록마당이 넓은.. 평온하고 조용한 쉼터 같은 느낌. 어느 댓글에서 일찍 들여보내주지 않는다는 내용을 숙지하였으나 그래도",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03."
+     },
+     {
+      "label": "주차",
+      "quote": "박 2일로 빌렸습니다. 금액은 주말이라서 19만원 정도, 차량은 각 글램핑동 옆 주차 가능하며, 애견 운동장이 크고 울타리가 다 설치되어 있어서 정말 좋았어요. 저희도 초",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/empty0829/224420665725",
+      "date": "1일 전"
+     },
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "라구요. 그래서 저희 강아지 산책 시킬겸 찌뿌둥한 몸 풀겸 가다가 처음으로 만난 휴게소에 들렀어요. 휴게소 가려고 차선을 바꾸는데 익숙한 번호판의 차가 보이더라구요?",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/empty0829/224420665725",
+      "date": "1일 전"
+     },
+     {
+      "label": "쉼터·벤치·그늘",
+      "quote": "강아지 산책 시킬겸 찌뿌둥한 몸 풀겸 가다가 처음으로 만난 휴게소에 들렀어요. 휴게소 가려고 차선을 바꾸는데 익숙한 번호판의 차가 보이더라구요? ㅋㅋ 헉 진짜로 약속",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/empty0829/224420665725",
+      "date": "1일 전"
+     },
+     {
+      "label": "주차",
+      "quote": "각 객실 바로 앞 주차 가능",
+      "src": "kakao-info:1935053143",
+      "date": null
+     }
+    ],
+    "b_neg": [],
+    "plan": [],
+    "closure": []
+   },
+   "notes": [
+    "블로그 본문 캡(내일 재실행 시 보강)"
+   ],
+   "seeds": [],
+   "naver_detail": {
+    "conveniences": [
+     "주차"
+    ],
+    "payment": null,
+    "opening_hours": null,
+    "micro_reviews": [
+     "넓은 공간에서 반려견과 함께 편안한 시간"
+    ],
+    "menus": [],
+    "missing_info": {
+     "__typename": "MissingInfo",
+     "businessType": "accommodation",
+     "isBizHourMissing": true,
+     "isMenuImageMissing": true,
+     "isAccessorMissing": false,
+     "isDescriptionMissing": false,
+     "isConveniencesMissing": false,
+     "needLargeSuggestionBanner": true,
+     "isBoss": false
+    },
+    "blog_reviews_listed": [
+     {
+      "title": "[포천 애견동반 글램핑 핫도그342] 개별 수영장이 있는 애견 카라반 내돈내산 방문후기",
+      "url": "https://m.blog.naver.com/mmm7658/224366209350",
+      "date": "2026.08.03.",
+      "authorName": "김봉틀"
+     },
+     {
+      "title": "강아지는 주인이랑 닮는다는데•••",
+      "url": "https://m.cafe.naver.com/shibasesang/120?query=%EC%8B%9C%EB%B0%94%EC%84%B8%EC%83%81%20(%20%EC%8B%9C%EB%B0%94%EC%99%80%20%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%20%EC%84%B8%EC%83%81%20)",
+      "date": "2025.11.04.",
+      "authorName": "짜장언니ㅣ240922"
+     },
+     {
+      "title": "26년 9월 포천 1박 2일 | 핫도그 342 글램핑 내돈내산 (애견동반)(글램핑장 추천)",
+      "url": "https://m.blog.naver.com/empty0829/224420665725",
+      "date": "1일 전",
+      "authorName": "비우다"
+     }
+    ]
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1935053143",
+    "kakao_name": "핫도그342 애견글램핑카라반",
+    "kakao_url": "http://place.map.kakao.com/1935053143",
+    "kakao_road_address": "경기 포천시 일동면 수입로 342",
+    "kakao_category": "여행 > 숙박 > 야영,캠핑장 > 글램핑장",
+    "phone": "010-4685-3420",
+    "dist_m": 0,
+    "name_sim": 1.0,
+    "x": 127.315360097107,
+    "y": 37.9957131114143,
+    "status": "Y",
+    "rating": 1.7,
+    "review_count": 11,
+    "headline": null,
+    "facility_icons": [
+     "주차가능",
+     "반려견동반",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "각 객실 바로 앞 주차 가능"
+     }
+    ],
+    "tags": [
+     "가족실",
+     "글램핑",
+     "물놀이",
+     "바베큐장",
+     "불멍",
+     "애견글램핑",
+     "애견수영장",
+     "카라반",
+     "캠핑"
+    ],
+    "subway": null
+   },
+   "blogs_read": []
+  }
+ ]
+}

@@ -65,7 +65,7 @@
   <p class="sub" id="sub"></p>
 </header>
 <div class="bar"><div class="bar-in">
-  <div class="seg" id="segTab"><button data-v="local" aria-pressed="true">동네 식당·카페</button><button data-v="trip" aria-pressed="false">당일 나들이</button></div>
+  <div class="seg" id="segTab"><button data-v="local" aria-pressed="true">동네 식당·카페</button><button data-v="trip" aria-pressed="false">당일 나들이</button><button data-v="camp" aria-pressed="false" id="tabCamp">키즈캠핑</button></div>
   <div class="seg" id="segKind"><button data-v="restaurant" aria-pressed="true">식당</button><button data-v="cafe" aria-pressed="false">카페</button></div>
   <div class="seg" id="segMode"><button data-v="a" aria-pressed="true">4인 가족</button><button data-v="b" aria-pressed="false">6인(부모님)</button></div>
   <select id="sort"><option value="s">추천순</option><option value="dr">가까운순</option></select>
@@ -99,6 +99,11 @@ const fmt = n => n == null ? '-' : Number(n).toLocaleString('ko-KR');
 })();
 function setNote() {
   const t = st.tab === 'trip';
+  if (st.tab === 'camp') {
+    const c = D.ccounts;
+    document.getElementById('note').innerHTML = `키즈 오토캠핑장 후보 <b>${D.camps.length}곳</b>(편도 65분 이내)을 실제 후기·별점으로 검증했어요 (추천 ${c['추천']} · 조건부 ${c['조건부']} · 근거부족 ${c['근거부족']} · 제외 ${c['제외']}). <b>시범판</b>이고, 요금은 네이버에 등록된 가격의 추정치예요. 예약·이용 조건은 꼭 캠핑장에 확인하세요.`;
+    return;
+  }
   const n = t ? D.trips.length : D.places.length, c = t ? D.tcounts : D.counts;
   document.getElementById('note').innerHTML = t
     ? `당일 나들이 후보 <b>${n}곳</b>(편도 90분 이내)을 실제 후기·별점으로 검증했어요 (추천 ${c['추천']} · 조건부 ${c['조건부']} · 근거부족 ${c['근거부족']} · 제외 ${c['제외']}). <b>시범판</b>이라 유명 장소 위주이고, 주변 식당·카페는 <b>간이 검증</b>(네이버 별점·리뷰 + 카카오 존재 확인)이에요.`
@@ -138,8 +143,9 @@ function card(p) {
   if (p.flags.some(f => /카카오 교차검증 실패/.test(f))) pills.push('<span class="pill w">카카오 미확인</span>');
   if (p.flags.some(f => /읽은 독립 출처 0/.test(f))) pills.push('<span class="pill w">근거 수집 부족</span>');
   const kids = st.mode === 'a' && p.kids.length ? `<p class="q">👶 아이 관련 근거: ${esc(p.kids.join(' · '))}</p>` : '';
-  const isT = p.kind === 'attraction';
-  const cost = p.cost ? `<span title="${esc(p.costb || '')}">${isT ? '입장료 4인 약 ' : '4인 약 '}${fmt(Math.round(p.cost / 1000) * 1000)}원 <small style="color:var(--muted)">(${isT ? '성인2·어린이2' : '메뉴판 추정'})</small></span>` : '';
+  const isC = p.kind === 'camping';
+  const isT = p.kind === 'attraction' || isC;
+  const cost = p.cost ? `<span title="${esc(p.costb || '')}">${isC ? '이용요금 약 ' : isT ? '입장료 4인 약 ' : '4인 약 '}${fmt(Math.round(p.cost / 1000) * 1000)}원 <small style="color:var(--muted)">(${isC ? '1박·등록가 추정' : isT ? '성인2·어린이2' : '메뉴판 추정'})</small></span>` : '';
   const plan = (isT && p.plan && p.plan.length) ? `<div class="plan"><h4>📌 가기 전 확인 (후기 발췌 — 공식 사이트로 재확인)</h4>` +
     p.plan.slice(0, 3).map(e => `<p class="q">${esc(e.l)}: “${esc(e.q)}” <span>(${esc(e.k)}${e.d ? ', ' + esc(e.d) : ''})</span></p>`).join('') +
     (new Set(p.plan.filter(e => e.l === '휴관·휴무일').map(e => (e.q.match(/[월화수목금토일]요일/) || [''])[0])).size > 1 ? `<p class="q"><b>⚠️ 휴관 요일이 글마다 달라요. 꼭 공식 안내를 확인하세요.</b></p>` : '') + `</div>` : '';
@@ -175,8 +181,9 @@ function card(p) {
 
 function render() {
   setNote();
-  document.getElementById('segKind').style.display = st.tab === 'trip' ? 'none' : '';
-  const base = st.tab === 'trip' ? D.trips : D.places.filter(p => p.kind === st.kind);
+  document.getElementById('segKind').style.display = st.tab === 'local' ? '' : 'none';
+  document.getElementById('tabCamp').style.display = D.camps && D.camps.length ? '' : 'none';
+  const base = st.tab === 'trip' ? D.trips : st.tab === 'camp' ? (D.camps || []) : D.places.filter(p => p.kind === st.kind);
   let arr = base;
   if (st.mode === 'b') arr = arr.filter(p => !p.bv.startsWith('부적합'));
   const main = arr.filter(p => p.tier === '추천' || p.tier === '조건부');

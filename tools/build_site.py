@@ -77,9 +77,31 @@ if os.path.exists(tp):
         s["near"] = {"meals": near(c["meals"]), "cafes": near(c["cafes"])} if c else None
         trips.append(s)
 
-data = {"generated": src["generated"], "verified": time.strftime("%Y-%m-%d"), "places": places, "trips": trips,
-        "counts": {t: sum(1 for x in places if x["tier"] == t) for t in ("추천", "조건부", "근거부족", "제외")},
-        "tcounts": {t: sum(1 for x in trips if x["tier"] == t) for t in ("추천", "조건부", "근거부족", "제외")}}
+# ---- 키즈캠핑(있으면) ----
+camps = []
+cpp = os.path.join(ROOT, "data", "camping", "places.json")
+if os.path.exists(cpp):
+    csrc = json.load(open(cpp, encoding="utf-8"))
+    rawmap.update({p["naver"]["id"]: p for p in json.load(open(os.path.join(ROOT, "data", "camping", "raw.json"), encoding="utf-8"))["places"]})
+    for p in csrc["places"]:
+        s = slim(p)
+        s["kind"] = "camping"
+        s["costb"] = (p["price"]["est_meal_4p"] or {}).get("basis")
+        s["plan"] = [{"l": e["label"], "q": e["quote"], "k": ev(e)["k"], "u": ev(e)["u"], "d": e.get("date")} for e in p.get("plan_notes", [])]
+        s["near"] = None
+        camps.append(s)
+
+# 게시 조건: 추천·조건부가 3곳 미만이면(근거 수집 중) 캠핑 탭을 내보내지 않는다 — 빈 탭/근거 없는 목록 노출 방지
+if sum(1 for x in camps if x["tier"] in ("추천", "조건부")) < 3:
+    if camps:
+        print(f"[캠핑 탭 보류] 추천·조건부 {sum(1 for x in camps if x['tier'] in ('추천', '조건부'))}곳 < 3 — 근거 수집(블로그 읽기) 후 자동으로 열림")
+    camps = []
+
+CT = ("추천", "조건부", "근거부족", "제외")
+data = {"generated": src["generated"], "verified": time.strftime("%Y-%m-%d"), "places": places, "trips": trips, "camps": camps,
+        "counts": {t: sum(1 for x in places if x["tier"] == t) for t in CT},
+        "tcounts": {t: sum(1 for x in trips if x["tier"] == t) for t in CT},
+        "ccounts": {t: sum(1 for x in camps if x["tier"] == t) for t in CT}}
 
 sp = os.path.join(ROOT, "data", "status_log.json")
 if os.path.exists(sp):
@@ -91,4 +113,4 @@ else:
 TEMPLATE = open(os.path.join(ROOT, "tools", "site_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
-print(f"index.html 생성: {len(html)/1024:.0f}KB | 동네 {len(places)}곳 {data['counts']} | 나들이 {len(trips)}곳 {data['tcounts']}")
+print(f"index.html 생성: {len(html)/1024:.0f}KB | 동네 {len(places)}곳 {data['counts']} | 나들이 {len(trips)}곳 {data['tcounts']} | 캠핑 {len(camps)}곳 {data['ccounts']}")

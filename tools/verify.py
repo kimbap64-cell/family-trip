@@ -55,7 +55,7 @@ def check_place(p, hx, hy):
             km = geo.haversine_m(hx, hy, x, y) / 1000
             if km > 1 and not (km / 100 * 60 <= dr <= km / 12 * 60 + 8):
                 warns.append(f"이동시간 {dr}분이 직선 {km:.1f}km 대비 비정상")
-    lim = 1500 if p.get("kind") == "attraction" else 250
+    lim = 1500 if p.get("kind") == "attraction" else 800 if p.get("kind") == "camping" else 250
     if k.get("found") and k.get("dist_m") is not None and k["dist_m"] > lim:
         errs.append(f"네이버-카카오 좌표 차 {k['dist_m']}m > {lim}m")
     if not k.get("found"):
@@ -82,7 +82,7 @@ def check_place(p, hx, hy):
 
 
 def main():
-    files = sys.argv[1:] or [os.path.join(ROOT, "data", d, f) for d, f in (("pilot", "misa_places.json"), ("daytrip", "places.json")) if os.path.exists(os.path.join(ROOT, "data", d, f))]
+    files = sys.argv[1:] or [os.path.join(ROOT, "data", d, f) for d, f in (("pilot", "misa_places.json"), ("daytrip", "places.json"), ("camping", "places.json")) if os.path.exists(os.path.join(ROOT, "data", d, f))]
     hx, hy = geo.home()
     tot_e = tot_w = 0
     for f in files:

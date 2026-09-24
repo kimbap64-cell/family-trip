@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24 16:57",
+ "generated": "2026-09-24 17:45",
  "home": [
   127.1925648,
   37.5580056
@@ -16,7 +16,7 @@
     "y": 37.5669532,
     "phone": "0507-1424-6226",
     "visitor_review_count": 12735,
-    "visitor_review_score": 4.88,
+    "visitor_review_score": null,
     "blog_review_count": 17434,
     "business_status": "영업 중",
     "business_desc": "20:30에 라스트오더"
@@ -176,8 +176,8 @@
     "x": 127.183153,
     "y": 37.5690009,
     "phone": "0507-1355-1898",
-    "visitor_review_count": 23925,
-    "visitor_review_score": 4.82,
+    "visitor_review_count": 23911,
+    "visitor_review_score": null,
     "blog_review_count": 1556,
     "business_status": "영업 중",
     "business_desc": "20:30에 라스트오더"
@@ -364,9 +364,9 @@
     "x": 127.1746004,
     "y": 37.5175308,
     "phone": "0507-1428-9095",
-    "visitor_review_count": 16668,
-    "visitor_review_score": 4.8,
-    "blog_review_count": 1062,
+    "visitor_review_count": 16656,
+    "visitor_review_score": null,
+    "blog_review_count": 1061,
     "business_status": "영업 중",
     "business_desc": "02:30에 라스트오더"
    },
@@ -387,43 +387,43 @@
       "label": "유아의자",
       "quote": "고민하다가 고른 곳이 온더브레드 하남점이다. 왜냐면 후기에 보니 주차장이 넓고 아기의자도 넉넉하게 있다고 했기 때문. 아이 데리고 다니는 입장에선 이것만큼 중요한 게",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "유아의자",
       "quote": ": 음료 5,500~7,500원 브런치 9,000~21,000원 ✔️ 기타 : 아기의자 있음, 포장·예약·단체룸 가능 온더브레드 하남점은 한옥 외관과 내부 인테리어가",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "놀이시설",
       "quote": "하남 키즈카페에 다녀오고서 아이들이랑 간식먹고 좀 더 놀기 위해서 주변에 대형카페를 찾아보게",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "아이동반",
       "quote": "여기는 한옥 외관의 대형 베이커리 카페라 빵이랑 브런치를 한 번에 해결하기 좋고 아이랑 느긋하게 앉아 있기에도 딱이다. 아이랑 잠깐 쉬면서 간식먹고 주변에 산책하기 좋",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "아이동반",
       "quote": "빵이랑 브런치를 한 번에 해결하기 좋고 아이랑 느긋하게 앉아 있기에도 딱이다. 아이랑 잠깐 쉬면서 간식먹고 주변에 산책하기 좋은 곳이었다. 1. 온더브레드 하남점 매",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "유모차",
       "quote": "음료가 제일 무난해 보인다. 3. 아이랑 가기 괜찮을까? 주말 주차, 아기의자 유모차 반입은? 주차와 아기의자는 걱정하지 않아도 된다. 주차장이 넓은 편이라 아이 짐",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "유모차",
       "quote": "비치되어 있다. 생각보다 아기의자가 많아서 편하게 이용 가능하다. 통로가 넓어 유모차 진입도 가능하다는 후기가 있었지만 얼핏 보기에는 실제로는 유모차는 들어가기 어렵",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "아이동반",
@@ -435,43 +435,43 @@
       "label": "유아의자",
       "quote": "민하다가 고른 곳이 온더브레드 하남점이다. ​ 왜냐면 후기에 보니 주차장이 넓고 아기의자도 넉넉하게 있다고 했기 때문. ​ 아이 데리고 다니는 입장에선 이것만큼 중요한",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "유아의자",
       "quote": ": 음료 5,500~7,500원 브런치 9,000~21,000원 ✔️ 기타 : 아기의자 있음, 포장·예약·단체룸 가능 ​ 온더브레드 하남점은 한옥 외관과 내부 인테리어",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "놀이시설",
       "quote": "하남점 경기도 하남시 광암동 205-7 더보기 2026.09. 영수증 ​ 하남 키즈카페에 다녀오고서 아이들이랑 간식먹고 좀 더 놀기 위해서 주변에 대형카페를 찾아보게",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "아이동반",
       "quote": "여기는 한옥 외관의 대형 베이커리 카페라 빵이랑 브런치를 한 번에 해결하기 좋고 아이랑 느긋하게 앉아 있기에도 딱이다. ​ 아이랑 잠깐 쉬면서 간식먹고 주변에 산책하기",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "아이동반",
       "quote": "이랑 브런치를 한 번에 해결하기 좋고 아이랑 느긋하게 앉아 있기에도 딱이다. ​ 아이랑 잠깐 쉬면서 간식먹고 주변에 산책하기 좋은 곳이었다. ​ ​ 1. 온더브레드 하",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "유모차",
       "quote": "음료가 제일 무난해 보인다. 3. 아이랑 가기 괜찮을까? 주말 주차, 아기의자 유모차 반입은? 주차와 아기의자는 걱정하지 않아도 된다. 주차장이 넓은 편이라 아이 짐",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "유모차",
       "quote": "비치되어 있다. 생각보다 아기의자가 많아서 편하게 이용 가능하다. 통로가 넓어 유모차 진입도 가능하다는 후기가 있었지만 얼핏 보기에는 실제로는 유모차는 들어가기 어렵",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "아이동반",
@@ -485,13 +485,13 @@
       "label": "주차",
       "quote": "아보게 되었다. 고민하다가 고른 곳이 온더브레드 하남점이다. 왜냐면 후기에 보니 주차장이 넓고 아기의자도 넉넉하게 있다고 했기 때문. 아이 데리고 다니는 입장에선 이것만큼",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "주차",
       "quote": "시간 : 매일 10:00 ~ 03:00 (라스트오더 02:30)  주차 : 전용 주차장 무료  전화 : 0507-1428-9095  가격대 : 음료 5,500~7,500원",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "입식/테이블",
@@ -527,13 +527,13 @@
       "label": "주차",
       "quote": "게 되었다. 고민하다가 고른 곳이 온더브레드 하남점이다. ​ 왜냐면 후기에 보니 주차장이 넓고 아기의자도 넉넉하게 있다고 했기 때문. ​ 아이 데리고 다니는 입장에선 이것만",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "주차",
       "quote": "간 : 매일 10:00 ~ 03:00 (라스트오더 02:30) 🔸 주차 : 전용 주차장 무료 🔸 전화 : 0507-1428-9095 💵 가격대 : 음료 5,500~7,500",
       "src": "naver-blog:https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전"
+      "date": "1일 전"
      },
      {
       "label": "입식/테이블",
@@ -621,7 +621,7 @@
      {
       "title": "아이랑 하남 베이커리카페 온더브레드 하남점 주차 아기의자 정리",
       "url": "https://m.blog.naver.com/rikuming/224421005317",
-      "date": "20시간 전",
+      "date": "1일 전",
       "authorName": "리쿠밍"
      },
      {
@@ -681,8 +681,8 @@
     {
      "url": "https://m.blog.naver.com/rikuming/224421005317",
      "title": "아이랑 하남 베이커리카페 온더브레드 하남점 주차 아기의자 정리",
-     "date": "20시간 전",
-     "days_ago": 0,
+     "date": "1일 전",
+     "days_ago": 1,
      "author": "리쿠밍",
      "chars": 1987,
      "sponsored": false
@@ -708,9 +708,9 @@
     "x": 127.1926798,
     "y": 37.5609913,
     "phone": "0507-1430-3063",
-    "visitor_review_count": 16491,
+    "visitor_review_count": 16477,
     "visitor_review_score": 4.92,
-    "blog_review_count": 309,
+    "blog_review_count": 306,
     "business_status": "영업 중",
     "business_desc": "22:30에 라스트오더"
    },
@@ -1014,7 +1014,7 @@
     "x": 127.2090788,
     "y": 37.5548793,
     "phone": "0507-1401-9663",
-    "visitor_review_count": 14496,
+    "visitor_review_count": 14495,
     "visitor_review_score": 4.65,
     "blog_review_count": 1102,
     "business_status": "영업 중",
@@ -1274,9 +1274,9 @@
     "x": 127.1760925,
     "y": 37.5873233,
     "phone": "0507-1352-5550",
-    "visitor_review_count": 14124,
-    "visitor_review_score": 4.63,
-    "blog_review_count": 1359,
+    "visitor_review_count": 14116,
+    "visitor_review_score": 4.62,
+    "blog_review_count": 1358,
     "business_status": "영업 중",
     "business_desc": "21:30에 라스트오더"
    },
@@ -1460,8 +1460,8 @@
     "x": 127.2088551,
     "y": 37.5541059,
     "phone": "031-792-3788",
-    "visitor_review_count": 837,
-    "visitor_review_score": 4.04,
+    "visitor_review_count": 836,
+    "visitor_review_score": null,
     "blog_review_count": 14632,
     "business_status": "영업 중",
     "business_desc": "22:00에 영업 종료"
@@ -1570,11 +1570,7 @@
     "dist_m": 4,
     "name_sim": 0.0,
     "x": 127.208847475055,
-    "y": 37.5541382955457,
-    "status": "Y",
-    "rating": null,
-    "review_count": null,
-    "facility_icons": []
+    "y": 37.5541382955457
    },
    "blogs_read": [
     {
@@ -1607,9 +1603,9 @@
     "x": 127.1898217,
     "y": 37.5629356,
     "phone": "0507-1393-3969",
-    "visitor_review_count": 1325,
-    "visitor_review_score": 4.88,
-    "blog_review_count": 11246,
+    "visitor_review_count": 1326,
+    "visitor_review_score": null,
+    "blog_review_count": 11245,
     "business_status": "영업 중",
     "business_desc": "22:00에 라스트오더"
    },
@@ -1777,9 +1773,9 @@
     "x": 127.1895149,
     "y": 37.5633807,
     "phone": "0507-1475-3363",
-    "visitor_review_count": 8949,
-    "visitor_review_score": 4.81,
-    "blog_review_count": 1498,
+    "visitor_review_count": 8946,
+    "visitor_review_score": null,
+    "blog_review_count": 1497,
     "business_status": "영업 중",
     "business_desc": "22:10에 라스트오더"
    },
@@ -1973,8 +1969,8 @@
     "y": 37.5543544,
     "phone": "0507-1485-0023",
     "visitor_review_count": 8393,
-    "visitor_review_score": 4.73,
-    "blog_review_count": 1416,
+    "visitor_review_score": null,
+    "blog_review_count": 1414,
     "business_status": "영업 중",
     "business_desc": "20:50에 라스트오더"
    },
@@ -2199,7 +2195,7 @@
     "x": 127.2081075,
     "y": 37.5522169,
     "phone": "0507-1322-6602",
-    "visitor_review_count": 8336,
+    "visitor_review_count": 8335,
     "visitor_review_score": 4.7,
     "blog_review_count": 972,
     "business_status": "영업 중",
@@ -2449,8 +2445,8 @@
     "y": 37.5533051,
     "phone": "031-795-0330",
     "visitor_review_count": 5661,
-    "visitor_review_score": 4.31,
-    "blog_review_count": 3364,
+    "visitor_review_score": null,
+    "blog_review_count": 3362,
     "business_status": "영업 중",
     "business_desc": "21:00에 영업 종료"
    },
@@ -2626,7 +2622,7 @@
     "x": 127.1895898,
     "y": 37.5629082,
     "phone": "0507-1336-5627",
-    "visitor_review_count": 7681,
+    "visitor_review_count": 7680,
     "visitor_review_score": 4.86,
     "blog_review_count": 1033,
     "business_status": "영업 중",
@@ -2811,7 +2807,7 @@
     "x": 127.1917483,
     "y": 37.5613315,
     "phone": "0507-1395-3236",
-    "visitor_review_count": 8156,
+    "visitor_review_count": 8155,
     "visitor_review_score": 4.85,
     "blog_review_count": 527,
     "business_status": "영업 중",
@@ -2835,7 +2831,26 @@
     "method": "OSM foot"
    },
    "evidence": {
-    "kids": [],
+    "kids": [
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "어가는 중이에요! 맛찬들 하남미사점에 방문한 유명인들 사인도 전시되어 있더라구요 방방곡곡에서 찾아오는 맛집인가봐요 삼겹살과 목살이에요! 365시간 이상 숙성되어 풍부",
+      "src": "naver-blog-excerpt:https://m.blog.naver.com/zonever7/224328489718",
+      "date": "2026.06.27."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "어가는 중이에요! 맛찬들 하남미사점에 방문한 유명인들 사인도 전시되어 있더라구요 방방곡곡에서 찾아오는 맛집인가봐요 ​ 삼겹살과 목살이에요! 365시간 이상 숙성되어",
+      "src": "naver-blog:https://m.blog.naver.com/zonever7/224328489718",
+      "date": "2026.06.27."
+     },
+     {
+      "label": "캠핑 키즈시설",
+      "quote": "는데 다양한 토핑?을 얹어먹으니 질리지도 않고 단연 최고였다고 말하고 싶네요ㅋㅋ 방방곡곡에서 맛찬들 왕 소금구이를 찾아오는 이유가 있었어요! 인정 완전 인정입니다ㅋㅋ",
+      "src": "naver-blog:https://m.blog.naver.com/zonever7/224328489718",
+      "date": "2026.06.27."
+     }
+    ],
     "b_pos": [
      {
       "label": "주차",
@@ -3019,9 +3034,9 @@
     "x": 127.2363594,
     "y": 37.5564136,
     "phone": "0507-1300-6625",
-    "visitor_review_count": 5481,
-    "visitor_review_score": 4.31,
-    "blog_review_count": 3163,
+    "visitor_review_count": 5480,
+    "visitor_review_score": null,
+    "blog_review_count": 3162,
     "business_status": "영업 중",
     "business_desc": "02:30에 영업 종료"
    },
@@ -3253,9 +3268,9 @@
     "x": 127.2098905,
     "y": 37.5535897,
     "phone": "0507-1417-9234",
-    "visitor_review_count": 6847,
+    "visitor_review_count": 6846,
     "visitor_review_score": 4.6,
-    "blog_review_count": 1439,
+    "blog_review_count": 1440,
     "business_status": "영업 중",
     "business_desc": "21:15에 라스트오더"
    },
@@ -3518,7 +3533,7 @@
     "x": 127.2071759,
     "y": 37.5506506,
     "phone": "0507-1434-5592",
-    "visitor_review_count": 6537,
+    "visitor_review_count": 6535,
     "visitor_review_score": 4.84,
     "blog_review_count": 1662,
     "business_status": "영업 중",
@@ -3740,8 +3755,8 @@
     "y": 37.5493134,
     "phone": "031-793-9317",
     "visitor_review_count": 5982,
-    "visitor_review_score": 4.46,
-    "blog_review_count": 1851,
+    "visitor_review_score": null,
+    "blog_review_count": 1852,
     "business_status": "오늘 휴무",
     "business_desc": "추석 연휴 휴무"
    },
@@ -3946,7 +3961,7 @@
     "y": 37.5216582,
     "phone": "031-795-1005",
     "visitor_review_count": 6642,
-    "visitor_review_score": 4.45,
+    "visitor_review_score": null,
     "blog_review_count": 1118,
     "business_status": "영업 중",
     "business_desc": "21:00에 영업 종료"
@@ -4145,7 +4160,7 @@
     "y": 37.5635547,
     "phone": "031-796-8123",
     "visitor_review_count": 2762,
-    "visitor_review_score": 4.32,
+    "visitor_review_score": null,
     "blog_review_count": 4561,
     "business_status": "영업 중",
     "business_desc": "20:30에 라스트오더"
@@ -4357,9 +4372,9 @@
     "x": 127.2026635,
     "y": 37.5726029,
     "phone": "0507-1374-2299",
-    "visitor_review_count": 6569,
+    "visitor_review_count": 6551,
     "visitor_review_score": 4.85,
-    "blog_review_count": 451,
+    "blog_review_count": 450,
     "business_status": "영업 중",
     "business_desc": "21:00에 라스트오더"
    },
@@ -4562,9 +4577,9 @@
     "x": 127.2077541,
     "y": 37.5548214,
     "phone": "0507-1317-9305",
-    "visitor_review_count": 6424,
+    "visitor_review_count": 6414,
     "visitor_review_score": 4.86,
-    "blog_review_count": 582,
+    "blog_review_count": 579,
     "business_status": "영업 중",
     "business_desc": "21:00에 라스트오더"
    },
@@ -4783,7 +4798,7 @@
     "y": 37.5547232336063,
     "status": "Y",
     "rating": 4.9,
-    "review_count": 1229,
+    "review_count": 1228,
     "headline": "영업 중",
     "facility_icons": [
      "주차가능",
@@ -4850,8 +4865,8 @@
     "x": 127.1934202,
     "y": 37.5633999,
     "phone": "0507-1384-7140",
-    "visitor_review_count": 4532,
-    "visitor_review_score": 4.9,
+    "visitor_review_count": 4530,
+    "visitor_review_score": null,
     "blog_review_count": 1584,
     "business_status": "영업 중",
     "business_desc": "01:40에 라스트오더"
@@ -5054,8 +5069,8 @@
     "y": 37.5538854,
     "phone": "031-796-0636",
     "visitor_review_count": 4392,
-    "visitor_review_score": 4.44,
-    "blog_review_count": 1445,
+    "visitor_review_score": null,
+    "blog_review_count": 1444,
     "business_status": "오늘 휴무",
     "business_desc": "09/24 휴무"
    },
@@ -5508,7 +5523,7 @@
     "x": 127.1703955,
     "y": 37.5863789,
     "phone": "0507-1413-9207",
-    "visitor_review_count": 4959,
+    "visitor_review_count": 4958,
     "visitor_review_score": 4.58,
     "blog_review_count": 808,
     "business_status": "영업 중",
@@ -5743,7 +5758,7 @@
     "y": 37.5858914,
     "phone": "031-557-1839",
     "visitor_review_count": 5096,
-    "visitor_review_score": 4.23,
+    "visitor_review_score": null,
     "blog_review_count": 607,
     "business_status": "영업 중",
     "business_desc": "22:00에 영업 종료"
@@ -5936,7 +5951,7 @@
     "y": 37.5696117,
     "phone": "1522-3232",
     "visitor_review_count": 5546,
-    "visitor_review_score": 4.46,
+    "visitor_review_score": null,
     "blog_review_count": 141,
     "business_status": "영업 중",
     "business_desc": "22:00에 영업 종료"
@@ -6070,9 +6085,9 @@
     "x": 127.2014249,
     "y": 37.560866,
     "phone": "0507-1360-5695",
-    "visitor_review_count": 5282,
-    "visitor_review_score": 4.72,
-    "blog_review_count": 389,
+    "visitor_review_count": 5274,
+    "visitor_review_score": null,
+    "blog_review_count": 385,
     "business_status": "영업 중",
     "business_desc": "20:30에 라스트오더"
    },
@@ -6279,9 +6294,9 @@
     "x": 127.1897332,
     "y": 37.5664362,
     "phone": "0507-1345-7301",
-    "visitor_review_count": 4155,
+    "visitor_review_count": 4154,
     "visitor_review_score": 4.8,
-    "blog_review_count": 1502,
+    "blog_review_count": 1503,
     "business_status": "영업 중",
     "business_desc": "02:00에 영업 종료"
    },
@@ -6458,7 +6473,7 @@
     "y": 37.5486583,
     "phone": "0507-1424-0009",
     "visitor_review_count": 3107,
-    "visitor_review_score": 4.33,
+    "visitor_review_score": null,
     "blog_review_count": 2532,
     "business_status": "오늘 휴무",
     "business_desc": "추석 연휴 휴무"
@@ -6640,8 +6655,8 @@
     "x": 127.203493,
     "y": 37.5678576,
     "phone": "0507-1387-9220",
-    "visitor_review_count": 4447,
-    "visitor_review_score": 4.35,
+    "visitor_review_count": 4446,
+    "visitor_review_score": null,
     "blog_review_count": 1166,
     "business_status": "영업 중",
     "business_desc": "21:20에 라스트오더"
@@ -6867,8 +6882,8 @@
     "x": 127.1931705,
     "y": 37.563937,
     "phone": "0507-1392-1017",
-    "visitor_review_count": 5448,
-    "visitor_review_score": 5,
+    "visitor_review_count": 5443,
+    "visitor_review_score": 5.0,
     "blog_review_count": 148,
     "business_status": "영업 중",
     "business_desc": "21:00에 라스트오더"
@@ -7046,9 +7061,9 @@
     "x": 127.189629,
     "y": 37.5637641,
     "phone": "0507-1417-1268",
-    "visitor_review_count": 4672,
+    "visitor_review_count": 4661,
     "visitor_review_score": 4.85,
-    "blog_review_count": 925,
+    "blog_review_count": 926,
     "business_status": "영업 중",
     "business_desc": "21:00에 영업 종료"
    },
@@ -7294,8 +7309,8 @@
     "y": 37.5855983,
     "phone": "0507-1388-7318",
     "visitor_review_count": 4079,
-    "visitor_review_score": 4.3,
-    "blog_review_count": 1449,
+    "visitor_review_score": null,
+    "blog_review_count": 1447,
     "business_status": "오늘 휴무",
     "business_desc": "추석 연휴 휴무"
    },
@@ -7472,7 +7487,7 @@
     "x": 127.1937643,
     "y": 37.5767812,
     "phone": "0507-1490-2317",
-    "visitor_review_count": 5346,
+    "visitor_review_count": 5342,
     "visitor_review_score": 4.84,
     "blog_review_count": 161,
     "business_status": "영업 중",
@@ -7645,9 +7660,9 @@
     "x": 127.1922486,
     "y": 37.560894,
     "phone": "0507-1390-0358",
-    "visitor_review_count": 4860,
+    "visitor_review_count": 4859,
     "visitor_review_score": 4.9,
-    "blog_review_count": 570,
+    "blog_review_count": 569,
     "business_status": "영업 중",
     "business_desc": "22:00에 영업 종료"
    },
@@ -7774,8 +7789,8 @@
     "x": 127.1930366,
     "y": 37.5509999,
     "phone": "0507-1404-9230",
-    "visitor_review_count": 4935,
-    "visitor_review_score": 4.71,
+    "visitor_review_count": 4933,
+    "visitor_review_score": null,
     "blog_review_count": 476,
     "business_status": "영업 중",
     "business_desc": "22:00에 라스트오더"
@@ -7960,9 +7975,9 @@
     "x": 127.1756387,
     "y": 37.5869335,
     "phone": "0507-1438-1586",
-    "visitor_review_count": 3428,
-    "visitor_review_score": 4.76,
-    "blog_review_count": 1965,
+    "visitor_review_count": 3422,
+    "visitor_review_score": 4.77,
+    "blog_review_count": 1966,
     "business_status": "영업 중",
     "business_desc": "21:30에 라스트오더"
    },
@@ -8149,8 +8164,8 @@
     "x": 127.1987428,
     "y": 37.5650019,
     "phone": "031-794-9566",
-    "visitor_review_count": 4643,
-    "visitor_review_score": 4.43,
+    "visitor_review_count": 4641,
+    "visitor_review_score": null,
     "blog_review_count": 559,
     "business_status": "영업 중",
     "business_desc": "20:50에 라스트오더"
@@ -8381,7 +8396,7 @@
     "phone": "0507-1329-2396",
     "visitor_review_count": 3340,
     "visitor_review_score": 4.76,
-    "blog_review_count": 1855,
+    "blog_review_count": 1854,
     "business_status": "오늘 휴무",
     "business_desc": "추석 연휴 휴무"
    },
@@ -8552,8 +8567,8 @@
     "x": 127.1901817,
     "y": 37.5644627,
     "phone": "0507-1493-8041",
-    "visitor_review_count": 3535,
-    "visitor_review_score": 4.86,
+    "visitor_review_count": 3536,
+    "visitor_review_score": null,
     "blog_review_count": 1596,
     "business_status": "영업 중",
     "business_desc": "22:20에 라스트오더"
@@ -8763,7 +8778,7 @@
     "y": 37.5700154,
     "phone": "0507-1320-4226",
     "visitor_review_count": 1390,
-    "visitor_review_score": 4.45,
+    "visitor_review_score": null,
     "blog_review_count": 3688,
     "business_status": "영업 중",
     "business_desc": "21:00에 영업 종료"
@@ -8965,9 +8980,9 @@
     "x": 127.1906183,
     "y": 37.5611436,
     "phone": "0507-1368-5318",
-    "visitor_review_count": 4841,
+    "visitor_review_count": 4826,
     "visitor_review_score": 4.89,
-    "blog_review_count": 236,
+    "blog_review_count": 235,
     "business_status": "영업 중",
     "business_desc": "20:30에 라스트오더"
    },
@@ -9195,8 +9210,8 @@
     "y": 37.5625434,
     "phone": "031-796-0980",
     "visitor_review_count": 4652,
-    "visitor_review_score": 4.5,
-    "blog_review_count": 325,
+    "visitor_review_score": null,
+    "blog_review_count": 324,
     "business_status": "영업 중",
     "business_desc": "14:00에 브레이크타임"
    },

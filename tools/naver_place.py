@@ -110,6 +110,20 @@ def list_places(query, x=None, y=None):
             "business_status": bh.get("status"), "business_desc": bh.get("description"),
             "distance": v.get("distance"),
         })
+    # 캠핑·숙박 검색은 다른 형식(AccommodationSearchItem)으로 응답한다: 별점/리뷰/좌표/최저요금이 다른 필드명
+    for k, v in st.items():
+        if not k.startswith("AccommodationSearchItem:") or not v.get("id"):
+            continue
+        rc = v.get("placeReviewCount")
+        out.append({
+            "id": v.get("id"), "name": v.get("name"), "category": "캠핑,야영장" if v.get("businessCategory") == "camping" else (v.get("category") or v.get("businessCategory")),
+            "road_address": (v.get("commonAddress") or "") + " " + (v.get("roadAddress") or ""), "address": v.get("address"),
+            "x": _num(v.get("x")), "y": _num(v.get("y")), "phone": v.get("phone") or v.get("virtualPhone"),
+            "visitor_review_count": int(rc) if rc else None, "visitor_review_score": _num(v.get("placeReviewScore")),
+            "blog_review_count": int(_num(v.get("blogCafeReviewCount")) or 0) if v.get("blogCafeReviewCount") else None,
+            "business_status": None, "business_desc": None, "distance": v.get("distance"),
+            "min_price": int(_num(v.get("matchRoomMinPrice")) or 0) or None, "promo": v.get("promotionTitle"), "micro_review": v.get("microReview"),
+        })
     return out
 
 

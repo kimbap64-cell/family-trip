@@ -7,7 +7,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 tmp = tempfile.mkdtemp()
 ok = True
 for name, raw_rel, yt_rel, scope, kinds in (("동네", "data/pilot/misa_raw.json", "data/pilot/misa_youtube.json", "local", "restaurant,cafe"),
-                                              ("나들이", "data/daytrip/raw.json", "data/daytrip/youtube.json", "day_trip", "attraction")):
+                                              ("나들이", "data/daytrip/raw.json", "data/daytrip/youtube.json", "day_trip", "attraction"),
+                                              ("캠핑", "data/camping/raw.json", "data/camping/youtube.json", "camping", "camping")):
+    if not os.path.exists(os.path.join(ROOT, raw_rel)):
+        continue
     doc = json.load(open(os.path.join(ROOT, raw_rel), encoding="utf-8"))
     for i, p in enumerate(doc["places"]):
         kk = p.get("kakao") or {}

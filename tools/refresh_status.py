@@ -17,7 +17,7 @@ import naver_place as npl
 import kakao_local as kl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FILES = ["data/pilot/misa_raw.json", "data/daytrip/raw.json"]
+FILES = ["data/pilot/misa_raw.json", "data/daytrip/raw.json", "data/camping/raw.json"]
 RATE_DELTA = 0.15
 
 
@@ -28,6 +28,7 @@ def main():
     a = ap.parse_args()
     docs = {f: json.load(open(os.path.join(ROOT, f), encoding="utf-8")) for f in FILES if os.path.exists(os.path.join(ROOT, f))}
     changes, failures, closures, n, fail_streak = [], [], [], 0, 0
+    kakao_capped = False
     t0 = time.time()
     for f, doc in docs.items():
         for rec in doc["places"]:
@@ -60,11 +61,15 @@ def main():
                 if d.get(k) is not None:
                     nd[k] = d[k]
             kk = rec.get("kakao") or {}
-            if kk.get("kakao_id"):
+            if kk.get("kakao_id") and not kakao_capped:
                 try:
                     p = kl.panel(kk["kakao_id"])
                 except qg.QuotaExceeded as e:
-                    print(f"[중단] 카카오 캡: {e} — 저장하지 않음"); sys.exit(2)
+                    # 카카오 패널 캡 도달: 전체를 중단하지 않고 남은 장소는 네이버만 점검(카카오 값은 이전 확인값 유지) + 로그에 기록
+                    kakao_capped = True
+                    failures.append({"name": name, "why": f"카카오 패널 캡 도달 — 이후 장소는 네이버만 점검 ({e})"})
+                    print(f"[경고] 카카오 캡 도달 — 이후는 네이버만 점검: {e}")
+                    p = None
                 except Exception as e:
                     print(f"[중단] 카카오 패널 차단/오류: {str(e)[:80]} — 저장하지 않음"); sys.exit(2)
                 if p:

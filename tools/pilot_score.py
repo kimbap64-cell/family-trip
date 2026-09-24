@@ -18,10 +18,21 @@ CFG = json.load(open(os.path.join(ROOT, "config", "criteria.json"), encoding="ut
 G, PS = CFG["gates"], CFG["place_score"]
 
 B_WEIGHT = {"입식/테이블": 4, "주차": 3, "엘리베이터/1층/평지": 3, "넓고 여유": 2, "화장실 가까움": 1,
-            "이동수단": 3, "쉼터·벤치·그늘": 2, "평탄·데크길": 3}
-KIDS_LABELS = ["유아의자", "키즈메뉴", "놀이시설", "아이동반", "유모차", "체험·동물"]
+            "이동수단": 3, "쉼터·벤치·그늘": 2, "평탄·데크길": 3, "캠핑 편의(평탄·주차·화장실)": 4}
+KIDS_LABELS = ["유아의자", "키즈메뉴", "놀이시설", "아이동반", "유모차", "체험·동물", "캠핑 키즈시설"]
+OUTDOOR = ("attraction", "camping")  # 야외 이동·경사·쉼터가 핵심인 종류
 SOFT_FOOD = re.compile(r"두부|순두부|죽|솥밥|찜|국밥|곰탕|설렁탕|칼국수|샤브|백숙|전골|수제비|국수|찌개|탕")
-KIND_TITLE = {"restaurant": "식당", "cafe": "카페", "attraction": "체험·나들이"}
+KIND_TITLE = {"restaurant": "식당", "cafe": "카페", "attraction": "체험·나들이", "camping": "키즈캠핑"}
+
+
+def est_camp(menus):
+    """캠핑장 1박 이용요금 추정: 네이버 등록 요금 항목의 중앙값(사이트·부대시설 요금이 섞일 수 있어 신뢰도 낮음)."""
+    prices = [to_int(m.get("price")) for m in (menus or [])[:12]]
+    prices = [p for p in prices if p and 10000 <= p <= 400000]
+    if not prices:
+        return None
+    return {"krw": int(round(statistics.median(prices), -3)), "basis": f"등록된 이용 요금 {len(prices)}개의 중앙값 (사이트·시설 요금 혼재 가능, 추정)",
+            "sample": [(m.get("name"), to_int(m.get("price"))) for m in (menus or [])[:5]]}
 
 
 def pts_from(table, value, hi_is_good=True):
@@ -117,18 +128,18 @@ def score_place(p, yt, scope="local"):
     if "주차" in (nd.get("conveniences") or []) or "주차가능" in fac:
         pos.add("주차")
     neg = {e["label"] for e in ev["b_neg"]}
-    if kind == "attraction":
+    if kind in OUTDOOR:
         neg.discard("웨이팅")  # 나들이 장소의 '대기번호'는 온라인 예약 대기(서 있는 부담 아님)
     b_raw = sum(B_WEIGHT.get(l, 0) for l in pos) - (5 if "좌식" in neg else 0) - (3 if "계단" in neg else 0) \
         - (3 if "엘리베이터 없음" in neg else 0) - (3 if "긴 보행" in neg else 0)
     mode_b = max(0, min(PS["mode_b_max"], b_raw))
     menu_names = " ".join((m.get("name") or "") for m in nd.get("menus") or [])
-    soft = bool(SOFT_FOOD.search(menu_names + " " + (n.get("category") or ""))) and kind != "attraction"
+    soft = bool(SOFT_FOOD.search(menu_names + " " + (n.get("category") or ""))) and kind in ("restaurant", "cafe")
     hard_neg = {"좌식", "계단", "엘리베이터 없음", "긴 보행"} & neg
     if "좌식" in neg and "입식/테이블" not in pos:
         verdict = "부적합(좌식 근거)"
-    elif kind == "attraction":
-        ok_move = {"이동수단", "평탄·데크길", "엘리베이터/1층/평지"} & pos
+    elif kind in OUTDOOR:
+        ok_move = {"이동수단", "평탄·데크길", "엘리베이터/1층/평지", "캠핑 편의(평탄·주차·화장실)"} & pos
         if ok_move and not hard_neg:
             verdict = "적합 근거"
         elif hard_neg:
@@ -142,8 +153,8 @@ def score_place(p, yt, scope="local"):
     else:
         verdict = "확인 필요"
     unknown = []
-    if kind == "attraction":
-        if not ({"이동수단", "평탄·데크길", "엘리베이터/1층/평지", "계단", "긴 보행"} & (pos | neg)):
+    if kind in OUTDOOR:
+        if not ({"이동수단", "평탄·데크길", "엘리베이터/1층/평지", "캠핑 편의(평탄·주차·화장실)", "계단", "긴 보행"} & (pos | neg)):
             unknown.append("경사·계단·걷는 거리")
         if "쉼터·벤치·그늘" not in pos:
             unknown.append("쉼터·벤치")
@@ -159,7 +170,9 @@ def score_place(p, yt, scope="local"):
     # 실용성
     dm = (p.get("drive") or {}).get("min")
     drive_pts = pts_from(PS["drive_points"], dm, hi_is_good=False) if dm is not None else 0
-    cost = est_admission(nd.get("menus")) if kind == "attraction" else est_cost(nd.get("menus"))
+    cost = est_admission(nd.get("menus")) if kind == "attraction" else est_camp(nd.get("menus")) if kind == "camping" else est_cost(nd.get("menus"))
+    if kind == "camping" and not cost and n.get("min_price"):
+        cost = {"krw": int(n["min_price"]), "basis": "네이버 예약 최저 사이트 요금(1박, 최저가 기준 — 성수기·주말은 더 높을 수 있음)", "sample": []}
     cost_pts = PS["cost_unknown_points"]
     if cost:
         cost_pts = pts_from(PS["cost_points"], cost["krw"], hi_is_good=False)
@@ -204,7 +217,7 @@ def score_place(p, yt, scope="local"):
         flags.append("고평점(≥4.5)")
     if soft:
         flags.append("부드러운 음식 메뉴 있음")
-    if "웨이팅" in neg and kind != "attraction":
+    if "웨이팅" in neg and kind not in OUTDOOR:
         flags.append("웨이팅 언급(오래 서 있기 부담)")
     if "긴 보행" in neg:
         flags.append("걷는 거리 긺 언급")

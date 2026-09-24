@@ -27,6 +27,9 @@ run([PY, T("refresh_status.py")], {2: 2})
 run([PY, T("pilot_score.py")])
 run([PY, T("pilot_score.py"), "--raw", "data/daytrip/raw.json", "--yt", "data/daytrip/youtube.json", "--out", "data/daytrip/places.json",
      "--scope", "day_trip", "--kinds", "attraction", "--doc", "docs/DAYTRIP.md", "--title", "당일 나들이 시범"])
+if os.path.exists(os.path.join(ROOT, "data", "camping", "raw.json")):
+    run([PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
+         "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"])
 run([PY, T("build_site.py")])
 run([PY, T("verify.py")], {1: 3})
 if "--notify" in sys.argv:

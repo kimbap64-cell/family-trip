@@ -16,14 +16,22 @@ python tools/test_quota_guard.py
 개별: pilot_local.py(동네 수집) · daytrip_collect.py(나들이 수집) · pilot_youtube.py(유튜브 API, 캐시 있으면 0회) · pilot_score.py · daytrip_courses.py · build_site.py · show_places.py / show_evidence.py(판독 검증용)
 파이썬: `%LOCALAPPDATA%\Programs\Python\Python312\python.exe`. 키는 `.env`. 커밋 메시지는 파일로 저장 후 `git commit -F`.
 
-## 내일(캡 리셋 후) 바로 할 일
-1. `python tools/daytrip_collect.py --top 45 --blogs 2` — 오늘 블로그 캡(150) 소진으로 **광고 아닌 글 2편을 못 채운 곳**들을 보강하고 후보를 45곳으로 확대. 이후 `run_all.py`
-2. 근거가 약한 상위 후보(국립수목원·주렁주렁 동물원 등)는 **인용문을 직접 읽어 판정 검증**(show_evidence.py). 판독 오판이 실제로 여러 번 있었다.
-3. **키즈캠핑 20선** 파이프라인(나들이 수집기 재사용, kind='camping', 게이트 min_review 30)
+## 내일(캡 리셋, 2026-09-25 00:00 KST 이후) 바로 할 일 — 순서대로
+오늘(9/24) 블로그 읽기 캡 150/150 소진 → 아래 명령은 **캐시 덕에 오늘 이미 받은 건 다시 안 받고**, 블로그 본문·카카오 패널만 새로 채운다.
+1. `python tools/camp_collect.py --top 25 --blogs 2` — 키즈캠핑 후보의 **블로그 본문 읽기(캠핑은 오늘 0편)**·카카오 패널 보강
+2. `python tools/daytrip_collect.py --top 45 --blogs 2` — 나들이 후보 45곳으로 확대 + 광고 아닌 글 2편 미달 장소 보강 (블로그 캡 150 안에서 캠핑 다음)
+3. `python tools/pilot_local.py --blogs-per-place 2` 는 동네용(이미 대부분 채움). 필요 시만
+4. `python tools/run_all.py` → 결과 표(docs/CAMPING.md·DAYTRIP.md)에서 **인용문을 직접 읽어 판정 검증**(show_evidence.py). 판독 오판이 여러 번 있었다.
+5. 블로그 캡이 또 모자라면 다음 날로 이어서(같은 명령 재실행) — 캐시가 진행 상태를 보존한다.
+(참고) 카카오 패널 캡 일 100: 오늘 80 사용. 캠핑 25 + 나들이 45 + 동네 45 = 115 → **캡 상향(150) 승인 필요** 또는 이틀에 나눠 수집. 주간 Actions 점검은 카카오 캡 도달 시 네이버만 점검하고 계속 진행하도록 이미 완화함.
+
+## 그 외 남은 일
 4. **카톡 알림**: `tools/notify_kakao.py` 완성(기본 미리보기, `--send`는 사용자 승인 후). 주간 추천은 네이버 별점이 있거나 카카오 원점수 ≥4.3인 '추천'만. **시험 발송 승인 대기.** 남은 것: 주 1회 상태 점검 자동화 방식 결정(로컬 예약 / Actions / 요청 시 실행) — Actions는 네이버 공개페이지·카카오 패널이 클라우드 IP에서 막힐 수 있고 Secrets 등록이 필요
 5. 동네 확대(반경·카테고리), 유튜브 자막(IP 차단 해제 확인 후 저속, youtube_scrape 캡 승인 필요)
 
 ## 이번에 배운 것 (재발 방지)
+- **네이버 캠핑·숙박 검색은 목록 형식이 다르다**: `○○ 캠핑장` → `AccommodationSearchItem`(placeReviewScore·placeReviewCount·좌표·`matchRoomMinPrice` 최저 사이트 요금). `○○ 오토캠핑장`은 0건. list_places 가 두 형식을 모두 파싱한다.
+- Actions 첫 실행에서 발견: 비어 있는 값(None)에 죽는 버그(test_score_robust 로 재현·방지), 클라우드 카톡은 access_token 이 빈 채로 시작해 재발급부터 해야 함(test_notify_flow 로 방지).
 - **정규식 판독은 자주 틀린다**: 부분시설 폐업·추측성 폐업, "엘리베이터나 계단", "많이 걸었는데"(본인 산책), "걷기 힘든 어른도 좋아요"(긍정), 온라인 예약 대기번호(웨이팅), 전기차 요금(이동수단), 그늘 주차(쉼터) 등을 오판했고 패턴·문맥 규칙으로 고쳤다. **점수·판정은 반드시 인용문을 읽어 표본 검증.**
 - 근거 수집 부족(광고성 글만 읽음)은 '제외'가 아니라 '근거부족'. 입장료 4인 15만원 초과는 추천 상한 조건부.
 - 카카오 별점은 네이버보다 평균 0.8 낮고 표본이 작다 → 네이버 별점 없을 때만 +0.8 보정·기준 0.3 완화(화면 표시).
