@@ -16,7 +16,7 @@
     "naver_place":        {"daily": 400,  "monthly": 6000},
     "naver_blog":         {"daily": 150,  "monthly": 2000, "_note": "네이버 블로그 본문 읽기(공개 페이지, 요청 간 >=2초)"},
     "kakao_local":        {"daily": 300,  "monthly": 5000, "_note": "카카오 로컬 API(공식). 앱 무료 쿼터 안"},
-    "kakao_place_page":   {"daily": 100,  "monthly": 1500, "_note": "카카오맵 장소 페이지의 별점(비공식 공개 엔드포인트) — 소량만"},
+    "kakao_place_page":   {"daily": 150,  "monthly": 2500, "_note": "카카오맵 장소 페이지의 별점(비공식 공개 엔드포인트). 위험은 돈이 아니라 IP 차단. 2026-09-24 사용자 승인으로 100->150 (오늘 로컬 88건·클라우드 75건 무차단 확인). 403/429 첫 신호에 즉시 중단"},
     "osrm_drive":         {"daily": 300,  "monthly": 5000},
     "osm_foot":           {"daily": 300,  "monthly": 5000}
   },
