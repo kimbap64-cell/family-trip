@@ -1,0 +1,71 @@
+name: 주간 상태 점검 (별점·폐업)
+
+# 매주 금요일 08:00 KST(= 목요일 23:00 UTC). Actions 탭에서 [Run workflow] 로 수동 실행도 가능.
+# 하는 일: 이미 검증된 장소의 별점·리뷰수·영업상태(폐업)를 새로 조회 -> 점수화 -> 사이트 갱신 -> 검증 -> 커밋/푸시 -> (Secrets 있으면) 카톡.
+# 안전: 네이버/카카오가 클라우드 IP를 막으면(차단·캡·연속 실패) **아무것도 저장하지 않고 중단**하고 실패를 알린다(낡은 데이터를 새것처럼 두지 않음).
+# 유료 API·비밀키 없이 공개 페이지만 저속·소량(~75곳)으로 조회한다. 외부 호출 한도는 config/limits.json(quota_guard).
+
+on:
+  schedule:
+    - cron: '0 23 * * 4'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 라이브러리 설치
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: 카카오 토큰 준비 (Secrets 가 등록돼 있을 때만)
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+        run: |
+          if [ -n "$KAKAO_REST_API_KEY" ] && [ -n "$KAKAO_REFRESH_TOKEN" ]; then
+            python -c "import json,os; json.dump({'rest_api_key':os.environ['KAKAO_REST_API_KEY'],'access_token':'','refresh_token':os.environ['KAKAO_REFRESH_TOKEN']}, open('kakao_token.json','w'))"
+            echo "카카오 토큰 준비됨 (알림 발송 가능)"
+          else
+            echo "카카오 Secrets 없음 — 알림은 미리보기만 (점검·사이트 갱신은 정상 진행)"
+          fi
+
+      - name: 주간 점검 -> 점수화 -> 사이트 -> 검증 -> 알림
+        run: python tools/weekly_run.py --notify
+
+      - name: 변경 사항 커밋·푸시 (성공했을 때만)
+        if: success()
+        run: |
+          git config user.name "TripBot"
+          git config user.email "tripbot@users.noreply.github.com"
+          git add data index.html docs
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "chore: 주간 상태 점검 $(date -u +%F)"
+            git push
+          fi
+
+      - name: 실패 알림 (카톡, Secrets 있을 때)
+        if: failure()
+        run: |
+          if [ -f kakao_token.json ]; then
+            python tools/notify_kakao.py --send --text "⚠️ 주간 자동 점검 실패(차단/검증 오류). 사이트는 이전 상태를 유지해요. 점검일 표시를 확인해 주세요."
+          else
+            echo "카카오 Secrets 없음 — 실패 알림 생략(Actions 탭 로그 확인)"
+          fi

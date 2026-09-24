@@ -87,7 +87,16 @@ const D = JSON.parse(document.getElementById('D').textContent);
 const st = {tab:'local', kind:'restaurant', mode:'a', sort:'s'};
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = n => n == null ? '-' : Number(n).toLocaleString('ko-KR');
-document.getElementById('sub').textContent = `근거 링크가 있는 곳만 · 확인일 ${D.verified} · 집(미사강변아란티움) 기준`;
+(function () {
+  const s = D.status;
+  let t = `근거 링크가 있는 곳만 · 확인일 ${D.verified} · 집(미사강변아란티움) 기준`;
+  if (s) {
+    const age = Math.floor((Date.now() - new Date(s.date + 'T00:00:00+09:00').getTime()) / 86400000);
+    t += ` · 자동 점검 ${s.date}(${s.checked}곳${s.closures ? ', 폐업 의심 ' + s.closures : ''})`;
+    if (age > 10) t += ` ⚠️ 점검이 ${age}일 전이라 오래됐어요`;
+  } else { t += ' · 자동 점검 전(별점·영업은 확인일 기준)'; }
+  document.getElementById('sub').textContent = t;
+})();
 function setNote() {
   const t = st.tab === 'trip';
   const n = t ? D.trips.length : D.places.length, c = t ? D.tcounts : D.counts;

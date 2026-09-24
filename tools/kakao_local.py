@@ -37,7 +37,7 @@ def keyword(query, x=None, y=None, radius=None, size=5):
 def panel(kakao_id):
     """카카오맵 장소 패널(별점·리뷰·메뉴·영업시간). 비공식 공개 엔드포인트라 소량만(kakao_place_page 캡), 캐시."""
     cp = os.path.join(CACHE, f"panel_{kakao_id}.json")
-    if os.path.exists(cp):
+    if os.path.exists(cp) and os.environ.get("TRIP_FRESH") != "1":
         return json.load(open(cp, encoding="utf-8"))
     qg.charge("kakao_place_page", 1)
     import time

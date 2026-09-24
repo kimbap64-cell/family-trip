@@ -81,6 +81,13 @@ data = {"generated": src["generated"], "verified": time.strftime("%Y-%m-%d"), "p
         "counts": {t: sum(1 for x in places if x["tier"] == t) for t in ("추천", "조건부", "근거부족", "제외")},
         "tcounts": {t: sum(1 for x in trips if x["tier"] == t) for t in ("추천", "조건부", "근거부족", "제외")}}
 
+sp = os.path.join(ROOT, "data", "status_log.json")
+if os.path.exists(sp):
+    sl = json.load(open(sp, encoding="utf-8"))
+    data["status"] = {"date": sl["date"], "checked": sl["checked"], "changes": len(sl["changes"]), "closures": len(sl["closures"])}
+else:
+    data["status"] = None
+
 TEMPLATE = open(os.path.join(ROOT, "tools", "site_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)

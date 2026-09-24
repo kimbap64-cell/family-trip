@@ -19,6 +19,7 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 H = {"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9", "Referer": "https://m.place.naver.com/"}
 APPNAME = "kr.familytrip.misa"
 _last = [0.0]
+FRESH = os.environ.get("TRIP_FRESH") == "1"  # 1이면 캐시를 읽지 않고 새로 조회(주간 상태 점검용). 결과는 캐시에 다시 저장
 
 
 class NaverBlocked(Exception):
@@ -30,7 +31,7 @@ def _get(url, params=None, cache_key=None):
     cp = None
     if cache_key:
         cp = os.path.join(CACHE, hashlib.md5(cache_key.encode()).hexdigest() + ".html")
-        if os.path.exists(cp):
+        if os.path.exists(cp) and not FRESH:
             return open(cp, encoding="utf-8").read()
     import quota_guard as qg  # 캐시 미스일 때만 하드캡 차감
     qg.charge("naver_place", 1)

@@ -58,12 +58,25 @@ def line(p, i):
     return f"{i}. {p['name'][:12]} 🚗{round(p['drive']['min'])}분 ★{r}{c}{note}".replace("★카카오", "카카오★")
 
 
+def tpl_text(text, button="근거·내비 보기"):
+    return {"object_type": "text", "text": text[:200], "link": {"web_url": SITE, "mobile_web_url": SITE}, "button_title": button}
+
+
 def build():
     ps = pick()
     if not ps:
         return None
-    text = "🚗 이번 주말 추천 (미사 출발)\n" + "\n".join(line(p, i + 1) for i, p in enumerate(ps)) + "\n※ 휴관·예약은 가기 전 확인"
-    return {"object_type": "text", "text": text[:200], "link": {"web_url": SITE, "mobile_web_url": SITE}, "button_title": "근거·내비 보기"}
+    text = "🚗 이번 주말 추천 (미사 출발)\n" + "\n".join(line(p, i + 1) for i, p in enumerate(ps))
+    # 주간 점검 결과가 있으면 한 줄 요약(폐업 의심은 이름까지)
+    sp = os.path.join(ROOT, "data", "status_log.json")
+    if os.path.exists(sp):
+        sl = json.load(open(sp, encoding="utf-8"))
+        if sl["closures"]:
+            text += "\n⚠️ 폐업 의심: " + ", ".join(c["name"][:8] for c in sl["closures"][:3])
+        elif sl["changes"]:
+            text += f"\n별점 변동 {len(sl['changes'])}곳 점검됨"
+    text += "\n※ 휴관·예약은 가기 전 확인"
+    return tpl_text(text)
 
 
 def send(tpl):
@@ -84,8 +97,9 @@ def send(tpl):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--send", action="store_true")
+    ap.add_argument("--text", help="추천 대신 이 문구를 보낸다(예: 자동 점검 실패 알림)")
     a = ap.parse_args()
-    tpl = build()
+    tpl = tpl_text(a.text, "사이트 열기") if a.text else build()
     if not tpl:
         print("추천 조건을 만족하는 곳이 없어 알림을 만들지 않았어요."); sys.exit(0)
     print("[미리보기]\n" + tpl["text"] + f"\n(글자수 {len(tpl['text'])}/200)  버튼: {tpl['button_title']} -> {SITE}")
