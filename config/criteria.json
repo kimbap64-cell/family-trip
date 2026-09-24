@@ -18,7 +18,7 @@
     "preferred_drive_min": 60,
     "min_naver_rating": {"attraction": 4.2, "restaurant": 4.3, "cafe": 4.3, "camping": 4.2},
     "high_rating_badge": 4.5,
-    "min_review_count": {"attraction": 100, "restaurant": 100, "cafe": 100, "camping": 30},
+    "min_review_count": {"attraction": 300, "restaurant": 300, "cafe": 300, "camping": 50},
     "max_meal_cost_4p_krw": 100000,
     "require_open": true,
     "require_min_sources": 1,
