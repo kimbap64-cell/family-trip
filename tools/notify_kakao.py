@@ -104,6 +104,8 @@ if __name__ == "__main__":
         print("추천 조건을 만족하는 곳이 없어 알림을 만들지 않았어요."); sys.exit(0)
     print("[미리보기]\n" + tpl["text"] + f"\n(글자수 {len(tpl['text'])}/200)  버튼: {tpl['button_title']} -> {SITE}")
     if a.send:
-        send(tpl)
+        if not send(tpl):
+            # 알림 실패가 사이트 갱신을 막으면 안 되므로 종료코드는 0. 대신 Actions 화면에 경고 주석을 남긴다.
+            print("::warning title=카톡 발송 실패::토큰 만료/Secrets 확인 필요 (docs/ACTIONS_SETUP.md). 점검·사이트 갱신은 정상 처리됨")
     else:
         print("\n(미리보기만 — 발송하지 않았어요. 실제 발송은 사용자 승인 후 --send)")

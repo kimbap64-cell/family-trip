@@ -14,6 +14,11 @@ GitHub 저장소 → Settings → Secrets and variables → Actions → New repo
 | `KAKAO_REFRESH_TOKEN` | `refresh_token` 값 |
 ※ 비밀번호·토큰 입력은 Claude가 대신할 수 없다(직접 붙여넣기). 메모장으로 `kakao_token.json` 을 열어 값만 복사하면 된다.
 
+## 실제 검증 결과 (2026-09-24)
+- 1차 실행: 클라우드 IP에서 **네이버·카카오 75곳 점검 성공**(차단 없음, 5분 반). 이후 점수화에서 `kakao.facility_icons=None` 버그로 중단 → 저장 없이 종료(안전 설계 동작 확인).
+- 수정 후 2차 실행: **전 단계 성공**, TripBot 이 `data/`·`index.html`·`docs/` 를 자동 커밋(e8c6c63), 사이트에 "자동 점검 2026-09-24(75곳)" 반영.
+- 카톡 알림은 성공/실패와 무관하게 점검을 막지 않는다. 실패하면 Actions 요약에 **경고 주석 "카톡 발송 실패"** 가 뜬다.
+
 ## 한계 (숨기지 않는다)
 - **클라우드 IP 차단 위험**: 네이버 공개 페이지·카카오맵 패널을 GitHub 서버 IP에서 부르면 막힐 수 있다. 막히면 워크플로가 **저장 없이 중단**(exit 2)하고 실패 알림을 보낸다. 이 경우 로컬(집 PC)에서 `python tools/weekly_run.py` 로 대신 돌린다.
 - **카카오 refresh_token 만료(약 2개월)**: 카카오가 새 refresh_token 을 발급하면 Actions는 Secrets를 스스로 갱신할 수 없다. 알림이 갑자기 실패하면 Secrets 의 `KAKAO_REFRESH_TOKEN` 을 새 값으로 다시 넣는다(점검·사이트 갱신은 영향 없음).
