@@ -1080,19 +1080,19 @@
             </div>
 
             <div class="card-actions">
-              <a href="${item.navi_kakao}" target="_blank" class="btn-navi btn-kakao">
-                🟡 카카오맵 목적지 길찾기
+              <a href="https://map.kakao.com/link/search/${encodeURIComponent(item.spot1.name)}" target="_blank" class="btn-navi btn-kakao">
+                🟡 카카오맵 길찾기
               </a>
-              <a href="${item.navi_naver}" target="_blank" class="btn-navi btn-naver">
-                🟢 네이버지도 목적지 길찾기
+              <a href="https://search.naver.com/search.naver?query=${encodeURIComponent(item.spot1.name + ' ' + item.area_name)}" target="_blank" class="btn-navi btn-naver">
+                🟢 네이버지도 검색
               </a>
             </div>
 
             <div class="link-row">
-              <a href="${item.youtube_url}" target="_blank">
+              <a href="${item.youtube_url || ('https://www.youtube.com/results?search_query=' + encodeURIComponent(item.course_title))}" target="_blank">
                 ▶️ ${item.area_name} 유튜브 추천영상
               </a>
-              <a href="${item.naver_blog_url}" target="_blank">
+              <a href="${item.naver_blog_url || ('https://search.naver.com/search.naver?query=' + encodeURIComponent(item.course_title + ' 후기'))}" target="_blank">
                 📝 네이버 맘카페·블로그 실후기
               </a>
             </div>
@@ -1212,19 +1212,19 @@
             </div>
 
             <div class="card-actions">
-              <a href="${item.navi_kakao}" target="_blank" class="btn-navi btn-kakao">
-                🟡 카카오맵 캠핑장 길찾기
+              <a href="https://map.kakao.com/link/search/${encodeURIComponent(item.name)}" target="_blank" class="btn-navi btn-kakao">
+                🟡 카카오맵 길찾기
               </a>
-              <a href="https://map.naver.com/v5/search/${encodeURIComponent(item.name)}" target="_blank" class="btn-navi btn-naver">
-                🟢 네이버지도 길찾기
+              <a href="https://search.naver.com/search.naver?query=${encodeURIComponent(item.name + ' ' + item.region)}" target="_blank" class="btn-navi btn-naver">
+                🟢 네이버지도 검색
               </a>
             </div>
 
             <div class="link-row">
-              <a href="${item.youtube_url}" target="_blank">
+              <a href="${item.youtube_url || ('https://www.youtube.com/results?search_query=' + encodeURIComponent(item.name + ' 아이랑'))}" target="_blank">
                 ▶️ 유튜브 캠핑 브이로그
               </a>
-              <a href="${item.naver_blog_url}" target="_blank">
+              <a href="${item.naver_blog_url || ('https://search.naver.com/search.naver?query=' + encodeURIComponent(item.name + ' 후기'))}" target="_blank">
                 📝 네이버 블로그/카페 실후기
               </a>
             </div>
@@ -1284,8 +1284,11 @@
             </div>
 
             <div class="card-actions" style="margin-top: 10px;">
-              <a href="${s.navi_kakao}" target="_blank" class="btn-navi btn-kakao" style="grid-column: span 2;">
-                🟡 카카오맵 바로 길찾기 (${s.distance})
+              <a href="https://map.kakao.com/link/search/${encodeURIComponent(s.name)}" target="_blank" class="btn-navi btn-kakao">
+                🟡 카카오맵 길찾기 (${s.distance})
+              </a>
+              <a href="https://search.naver.com/search.naver?query=${encodeURIComponent(s.name + ' 하남미사')}" target="_blank" class="btn-navi btn-naver">
+                🟢 네이버 지도 검색
               </a>
             </div>
 
