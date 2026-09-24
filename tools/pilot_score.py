@@ -1,9 +1,11 @@
-"""파일럿 3단계: 게이트 -> 점수 -> 등급 (docs/SCORING.md, config/criteria.json 기준).
+"""게이트 -> 점수 -> 등급 (docs/SCORING.md, config/criteria.json 기준). 동네(local)와 당일 나들이(day_trip) 공용.
 
-입력: data/pilot/misa_raw.json, (선택) data/pilot/misa_youtube.json
-출력: data/pilot/misa_places.json (DATA_MODEL 구조), docs/PILOT_MISA.md (사람이 검토하는 표)
+사용:
+  python tools/pilot_score.py                                   # 동네 식당·카페 (기본)
+  python tools/pilot_score.py --raw data/daytrip/raw.json --yt data/daytrip/youtube.json \
+        --out data/daytrip/places.json --scope day_trip --kinds attraction --doc docs/DAYTRIP.md --title "당일 나들이"
 """
-import json, math, os, re, statistics, sys, time
+import argparse, json, math, os, re, statistics, sys, time
 from datetime import date
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -12,13 +14,14 @@ import naver_place as npl
 from pilot_local import rel_days
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PIL = os.path.join(ROOT, "data", "pilot")
 CFG = json.load(open(os.path.join(ROOT, "config", "criteria.json"), encoding="utf-8"))
 G, PS = CFG["gates"], CFG["place_score"]
 
-B_WEIGHT = {"입식/테이블": 4, "주차": 3, "엘리베이터/1층/평지": 3, "넓고 여유": 2, "화장실 가까움": 1}
-KIDS_LABELS = ["유아의자", "키즈메뉴", "놀이시설", "아이동반", "유모차"]
+B_WEIGHT = {"입식/테이블": 4, "주차": 3, "엘리베이터/1층/평지": 3, "넓고 여유": 2, "화장실 가까움": 1,
+            "이동수단": 3, "쉼터·벤치·그늘": 2, "평탄·데크길": 3}
+KIDS_LABELS = ["유아의자", "키즈메뉴", "놀이시설", "아이동반", "유모차", "체험·동물"]
 SOFT_FOOD = re.compile(r"두부|순두부|죽|솥밥|찜|국밥|곰탕|설렁탕|칼국수|샤브|백숙|전골|수제비|국수|찌개|탕")
+KIND_TITLE = {"restaurant": "식당", "cafe": "카페", "attraction": "체험·나들이"}
 
 
 def pts_from(table, value, hi_is_good=True):
@@ -44,9 +47,35 @@ def est_cost(menus):
             "sample": [(m.get("name"), to_int(m.get("price"))) for m in (menus or [])[:5]]}
 
 
-def score_place(p, yt):
+def est_admission(menus):
+    """입장료 4인 추정: 성인 2 + 어린이 2 (네이버 메뉴/가격 항목의 성인·어린이 가격). 근거 없으면 None."""
+    adult = child = None
+    for m in menus or []:
+        nm, pr = m.get("name") or "", to_int(m.get("price"))
+        if not pr or pr <= 0:
+            continue
+        if adult is None and re.search(r"성인|어른|대인|일반", nm):
+            adult = pr
+        if child is None and re.search(r"어린이|소인|유아|초등", nm):
+            child = pr
+    if adult is None:
+        return None
+    ch = child if child is not None else adult
+    return {"krw": 2 * adult + 2 * ch, "basis": f"입장료 성인 {adult:,}원 x2 + 어린이 {ch:,}원 x2 (네이버 등록 가격, 체험·식사 별도)",
+            "sample": [(m.get("name"), to_int(m.get("price"))) for m in (menus or [])[:5]]}
+
+
+def _d(e):
+    dt = e.get("date")
+    if not dt:
+        return None
+    return rel_days(dt if not re.match(r"\d{4}-", dt) else dt.replace("-", "."))
+
+
+def score_place(p, yt, scope="local"):
     n, k, nd = p["naver"], p["kakao"], p.get("naver_detail") or {}
     kind = p["kind"]
+    max_drive = CFG["scopes"][scope]["max_drive_min"]
     nr, nn = n.get("visitor_review_score"), n.get("visitor_review_count") or 0
     kr, kn = k.get("rating"), k.get("review_count") or 0
     # 별점 출처: 네이버 우선. 없으면 카카오+보정(카카오가 평균 0.8 낮고 표본이 작음 — 파일럿 측정)
@@ -87,31 +116,49 @@ def score_place(p, yt):
     if "주차" in (nd.get("conveniences") or []) or "주차가능" in k.get("facility_icons", []):
         pos.add("주차")
     neg = {e["label"] for e in ev["b_neg"]}
-    b_raw = sum(B_WEIGHT.get(l, 0) for l in pos) - (5 if "좌식" in neg else 0) - (3 if "계단" in neg else 0) - (3 if "엘리베이터 없음" in neg else 0)
+    if kind == "attraction":
+        neg.discard("웨이팅")  # 나들이 장소의 '대기번호'는 온라인 예약 대기(서 있는 부담 아님)
+    b_raw = sum(B_WEIGHT.get(l, 0) for l in pos) - (5 if "좌식" in neg else 0) - (3 if "계단" in neg else 0) \
+        - (3 if "엘리베이터 없음" in neg else 0) - (3 if "긴 보행" in neg else 0)
     mode_b = max(0, min(PS["mode_b_max"], b_raw))
     menu_names = " ".join((m.get("name") or "") for m in nd.get("menus") or [])
-    soft = bool(SOFT_FOOD.search(menu_names + " " + (n.get("category") or "")))
+    soft = bool(SOFT_FOOD.search(menu_names + " " + (n.get("category") or ""))) and kind != "attraction"
+    hard_neg = {"좌식", "계단", "엘리베이터 없음", "긴 보행"} & neg
     if "좌식" in neg and "입식/테이블" not in pos:
         verdict = "부적합(좌식 근거)"
-    elif "입식/테이블" in pos and not ({"좌식", "계단", "엘리베이터 없음"} & neg):
+    elif kind == "attraction":
+        ok_move = {"이동수단", "평탄·데크길", "엘리베이터/1층/평지"} & pos
+        if ok_move and not hard_neg:
+            verdict = "적합 근거"
+        elif hard_neg:
+            verdict = "조건부(주의 근거)"
+        else:
+            verdict = "확인 필요"
+    elif "입식/테이블" in pos and not hard_neg:
         verdict = "적합 근거"
-    elif {"계단", "엘리베이터 없음", "좌식"} & neg:
+    elif hard_neg:
         verdict = "조건부(주의 근거)"
     else:
         verdict = "확인 필요"
     unknown = []
-    if not ({"입식/테이블", "좌식"} & (pos | neg)):
-        unknown.append("좌석 형태(입식/좌식)")
+    if kind == "attraction":
+        if not ({"이동수단", "평탄·데크길", "엘리베이터/1층/평지", "계단", "긴 보행"} & (pos | neg)):
+            unknown.append("경사·계단·걷는 거리")
+        if "쉼터·벤치·그늘" not in pos:
+            unknown.append("쉼터·벤치")
+    else:
+        if not ({"입식/테이블", "좌식"} & (pos | neg)):
+            unknown.append("좌석 형태(입식/좌식)")
+        if not ({"엘리베이터/1층/평지", "계단", "엘리베이터 없음"} & (pos | neg)):
+            unknown.append("층·계단·엘리베이터")
     if "주차" not in pos:
         unknown.append("주차")
-    if not ({"엘리베이터/1층/평지", "계단", "엘리베이터 없음"} & (pos | neg)):
-        unknown.append("층·계단·엘리베이터")
     family = min(PS["family_fit_max"], mode_a + mode_b)
 
     # 실용성
     dm = (p.get("drive") or {}).get("min")
     drive_pts = pts_from(PS["drive_points"], dm, hi_is_good=False) if dm is not None else 0
-    cost = est_cost(nd.get("menus"))
+    cost = est_admission(nd.get("menus")) if kind == "attraction" else est_cost(nd.get("menus"))
     cost_pts = PS["cost_unknown_points"]
     if cost:
         cost_pts = pts_from(PS["cost_points"], cost["krw"], hi_is_good=False)
@@ -121,14 +168,7 @@ def score_place(p, yt):
 
     # 게이트
     fails, flags = [], []
-    days_limit = 90
-    closure = []
-    for e in ev["closure"]:
-        d = None
-        if e.get("date"):
-            d = rel_days(e["date"]) if not re.match(r"\d{4}-", e["date"]) else rel_days(e["date"].replace("-", "."))
-        if d is None or d <= days_limit:
-            closure.append(e)
+    closure = [e for e in ev["closure"] if (_d(e) is None or _d(e) <= 90)]
     kst = k.get("status")
     if kst not in (None, "Y"):
         fails.append(f"카카오 영업상태 '{kst}'")
@@ -136,8 +176,7 @@ def score_place(p, yt):
         fails.append(f"네이버 영업상태 '{n.get('business_status')}'")
     if closure:
         flags.append(f"폐업·이전 언급 {len(closure)}건 — 직접 확인 필요")
-        # 제외는 '서로 다른 출처 2건 이상의 사실 언급'일 때만. 1건은 표시만(오판 방지: 추측·부분시설 언급이 섞임)
-        if len({e["src"] for e in closure}) >= 2:
+        if len({e["src"] for e in closure}) >= 2:  # 제외는 서로 다른 출처 2건 이상의 사실 언급일 때만
             fails.append("최근 90일 내 폐업/이전 사실 언급 2건 이상")
     min_rate = G["min_naver_rating"].get(kind, 4.2)
     if rate_src and rate_src != "네이버":
@@ -149,20 +188,36 @@ def score_place(p, yt):
         fails.append(f"별점({rate_src}) {pooled:.2f} < {min_rate}")
     if total_rev < G["min_review_count"].get(kind, 100):
         fails.append(f"리뷰 {total_rev} < {G['min_review_count'].get(kind, 100)}")
-    if dm is None or dm > CFG["scopes"]["local"]["max_drive_min"]:
-        fails.append(f"차량 {dm}분 > {CFG['scopes']['local']['max_drive_min']}분")
-    if src_count < G["require_min_sources"]:
-        fails.append("독립 출처 0")
+    if dm is None or dm > max_drive:
+        fails.append(f"차량 {dm}분 > {max_drive}분")
+    no_source = src_count < G["require_min_sources"]
+    if no_source:
+        flags.append("읽은 독립 출처 0 — 근거 수집 부족(품질 문제 아님), 추가 수집 필요")
     if not k.get("found"):
         flags.append("카카오 교차검증 실패(확인 필요)")
-    if cost and cost["krw"] > G["max_meal_cost_4p_krw"] and kind == "restaurant":
+    if cost and kind == "restaurant" and cost["krw"] > G["max_meal_cost_4p_krw"]:
         flags.append(f"4인 추정 {cost['krw']:,}원 > 10만원(추정치)")
+    if cost and kind == "attraction" and cost["krw"] > 60000:
+        flags.append(f"입장료만 4인 약 {cost['krw']:,}원")
     if pooled and pooled >= G["high_rating_badge"]:
         flags.append("고평점(≥4.5)")
-    if kind == "restaurant" and soft:
+    if soft:
         flags.append("부드러운 음식 메뉴 있음")
-    if "웨이팅" in neg:
+    if "웨이팅" in neg and kind != "attraction":
         flags.append("웨이팅 언급(오래 서 있기 부담)")
+    if "긴 보행" in neg:
+        flags.append("걷는 거리 긺 언급")
+    if dm is not None and dm > CFG["scopes"][scope].get("preferred_drive_min", 10**6):
+        flags.append(f"차량 {round(dm)}분(선호 {CFG['scopes'][scope]['preferred_drive_min']}분 초과)")
+
+    plan_notes, seen_pl = [], set()
+    for e in ev.get("plan", []):
+        key = (e["label"], e["quote"][:20])
+        if key not in seen_pl:
+            seen_pl.add(key)
+            plan_notes.append(e)
+    for lb in sorted({e["label"] for e in plan_notes}):
+        flags.append(f"{lb} 언급 — 가기 전 확인")
 
     tier_cfg = CFG["recommend_tiers"]
     if fails:
@@ -175,15 +230,13 @@ def score_place(p, yt):
         tier = "근거부족"
     if tier == "추천" and (pooled is None or not k.get("found")):
         tier = "조건부"  # 별점/교차검증이 빠졌으면 추천 상한 = 조건부
+    if tier in ("추천", "조건부") and no_source:
+        tier = "근거부족"  # 읽은 독립 출처가 없으면 추천/조건부로 올리지 않음(제외도 아님)
+    if tier == "추천" and kind == "attraction" and cost and cost["krw"] > 150000:
+        tier = "조건부"  # 입장료 4인 15만원 초과는 예산 주의 -> 추천 상한 조건부
+        flags.append("입장료 4인 15만원 초과 → 추천 상한 조건부")
 
-    # 최신 근거 날짜
-    ds = []
-    for grp in ev.values():
-        for e in grp:
-            if e.get("date"):
-                d = rel_days(e["date"] if not re.match(r"\d{4}-", e["date"]) else e["date"].replace("-", "."))
-                if d is not None:
-                    ds.append(d)
+    ds = [d for grp in ev.values() for e in grp if (d := _d(e)) is not None]
     ev_days = min(ds) if ds else None
 
     return {
@@ -191,18 +244,18 @@ def score_place(p, yt):
         "naver": {"place_id": n["id"], "category": n.get("category"), "road_address": n.get("road_address"),
                   "x": n.get("x"), "y": n.get("y"), "score": nr, "reviews": nn, "blog_reviews": n.get("blog_review_count"),
                   "status": n.get("business_status"), "conveniences": nd.get("conveniences"), "phone": n.get("phone")},
-        "kakao": {k_: k.get(k_) for k_ in ("found", "kakao_id", "kakao_url", "kakao_road_address", "rating", "review_count", "status", "dist_m", "facility_icons", "store_infos", "headline")},
+        "kakao": {k_: k.get(k_) for k_ in ("found", "kakao_id", "kakao_url", "kakao_road_address", "rating", "review_count", "status", "dist_m", "facility_icons", "store_infos", "headline", "phone")},
         "rating": {"pooled": round(pooled, 2) if pooled else None, "bayes": round(bayes, 2) if bayes else None, "total_reviews": total_rev, "source": rate_src},
         "nav": npl.nav_links(n["name"], n["x"], n["y"], n["id"]),
         "drive": p.get("drive"), "walk": p.get("walk"),
         "price": {"est_meal_4p": cost, "menus_sample": (nd.get("menus") or [])[:6]},
-        "family": {"mode_a": sorted(kids), "mode_b": {"positive": [e for e in ev["b_pos"]], "negative": [e for e in ev["b_neg"]],
+        "family": {"mode_a": sorted(kids), "mode_b": {"positive": list(ev["b_pos"]), "negative": list(ev["b_neg"]),
                                                       "verdict": verdict, "unknown": unknown, "soft_food": soft}},
         "sources": {"blogs": p.get("blogs_read", []), "youtube": [{"video_id": m["video_id"], "link": m["link"], "t": m["t"], "quote": m["quote"], "where": m["where"]} for m in ymentions]},
         "scores": {"total": total, "tier": tier, "breakdown": {"reputation": reputation, "evidence": round(evidence_pts, 1), "family_fit": family, "practicality": practical},
                    "detail": {"rating_pts": rating_pts, "review_pts": round(review_pts, 1), "source_count": src_count, "mode_a": mode_a, "mode_b": mode_b, "drive_pts": drive_pts, "cost_pts": cost_pts},
                    "gates": {"pass": not fails, "failed": fails}},
-        "flags": flags, "evidence_days_ago": ev_days, "verified_at": str(date.today()),
+        "flags": flags, "plan_notes": plan_notes[:4], "evidence_days_ago": ev_days, "verified_at": str(date.today()),
     }
 
 
@@ -210,38 +263,48 @@ def md_row(r):
     s, n, k = r["scores"], r["naver"], r["kakao"]
     dr, wk = r.get("drive") or {}, r.get("walk") or {}
     cost = (r["price"]["est_meal_4p"] or {}).get("krw")
+    walk_txt = " · 도보 %s분" % wk["min"] if wk and wk.get("min") is not None else ""
+    cost_txt = "{:,}원".format(cost) if cost else "-"
     return (f"| {s['tier']} {s['total']} | **{r['name']}** | {n['score'] or '-'}({n['reviews']}) / {k.get('rating') or '-'}({k.get('review_count') or '-'}) "
-            f"| {dr.get('min', '-')}분 · 도보 {wk.get('min', '-')}분 | {f'{cost:,}원' if cost else '-'} | {r['family']['mode_b']['verdict']} |")
+            f"| {dr.get('min', '-')}분{walk_txt} | {cost_txt} | {r['family']['mode_b']['verdict']} |")
 
 
 def main():
-    raw = json.load(open(os.path.join(PIL, "misa_raw.json"), encoding="utf-8"))["places"]
-    yp = os.path.join(PIL, "misa_youtube.json")
-    yt = json.load(open(yp, encoding="utf-8")) if os.path.exists(yp) else {}
-    res = [score_place(p, yt) for p in raw]
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--raw", default="data/pilot/misa_raw.json")
+    ap.add_argument("--yt", default="data/pilot/misa_youtube.json")
+    ap.add_argument("--out", default="data/pilot/misa_places.json")
+    ap.add_argument("--scope", default="local")
+    ap.add_argument("--kinds", default="restaurant,cafe")
+    ap.add_argument("--doc", default="docs/PILOT_MISA.md")
+    ap.add_argument("--title", default="파일럿: 우리 동네 식당·카페")
+    a = ap.parse_args()
+    P = lambda x: os.path.join(ROOT, x)
+    raw = json.load(open(P(a.raw), encoding="utf-8"))["places"]
+    yt = json.load(open(P(a.yt), encoding="utf-8")) if os.path.exists(P(a.yt)) else {}
+    res = [score_place(p, yt, a.scope) for p in raw]
     res.sort(key=lambda r: (-(r["scores"]["gates"]["pass"]), -r["scores"]["total"]))
-    json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"), "scope": "local(차량 12분 이내)", "places": res},
-              open(os.path.join(PIL, "misa_places.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.makedirs(os.path.dirname(P(a.out)), exist_ok=True)
+    json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"), "scope": a.scope, "places": res}, open(P(a.out), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-    # ---- 마크다운 검토표 ----
-    L = ["# 파일럿: 우리 동네 식당·카페 (자동 생성 — 사람이 검토용)", "",
-         f"- 생성: {time.strftime('%Y-%m-%d %H:%M')} · 기준: docs/SCORING.md · 집: 미사강변아란티움 · 범위: 차량 12분 이내",
+    L = [f"# {a.title} (자동 생성 — 사람이 검토용)", "",
+         f"- 생성: {time.strftime('%Y-%m-%d %H:%M')} · 기준: docs/SCORING.md · 집: 미사강변아란티움 · 범위: {a.scope} (차량 {CFG['scopes'][a.scope]['max_drive_min']}분 이내)",
          f"- 수집 {len(res)}곳 → 게이트 통과 {sum(r['scores']['gates']['pass'] for r in res)}곳 "
          f"(추천 {sum(r['scores']['tier']=='추천' for r in res)} · 조건부 {sum(r['scores']['tier']=='조건부' for r in res)} · 근거부족 {sum(r['scores']['tier']=='근거부족' for r in res)} · 제외 {sum(r['scores']['tier']=='제외' for r in res)})", ""]
-    for kind, title in (("restaurant", "식당"), ("cafe", "카페")):
+    for kind in a.kinds.split(","):
+        title = KIND_TITLE.get(kind, kind)
         rows = [r for r in res if r["kind"] == kind]
         L += [f"## {title} ({len(rows)}곳)", "", "| 등급·점수 | 이름 | ★네이버(리뷰) / ★카카오(리뷰) | 차량·도보 | 4인 추정 | 모드B(파킨슨) |", "|---|---|---|---|---|---|"]
-        L += [md_row(r) for r in rows]
-        L += [""]
-        for r in [x for x in rows if x["scores"]["gates"]["pass"]][:10]:
+        L += [md_row(r) for r in rows] + [""]
+        for r in [x for x in rows if x["scores"]["gates"]["pass"]][:12]:
             L += [f"### {r['name']} — {r['scores']['tier']} {r['scores']['total']}점",
                   f"- 분해: 평판 {r['scores']['breakdown']['reputation']} · 근거 {r['scores']['breakdown']['evidence']} · 가족적합 {r['scores']['breakdown']['family_fit']} · 실용 {r['scores']['breakdown']['practicality']}",
-                  f"- 위치: {r['naver']['road_address']} · 네이버 상태 {r['naver']['status']} · 카카오 상태 {r['kakao'].get('status')} ({r['kakao'].get('headline')})",
+                  f"- 위치: {r['naver']['road_address']}",
                   f"- 내비: [네이버 내비]({r['nav']['app_navigation']}) · [네이버 장소]({r['nav']['web_place']}) · [카카오맵]({r['kakao'].get('kakao_url')})"]
             fam = r["family"]["mode_b"]
-            for e in (fam["positive"][:3]):
+            for e in fam["positive"][:3]:
                 L.append(f"- ✅ {e['label']}: “{e['quote']}” ({e['src'].split(':')[0]}, {e.get('date')})")
-            for e in (fam["negative"][:3]):
+            for e in fam["negative"][:3]:
                 L.append(f"- ⚠️ {e['label']}: “{e['quote']}” ({e['src'].split(':')[0]}, {e.get('date')})")
             if fam["unknown"]:
                 L.append(f"- ❓ 확인 필요: {', '.join(fam['unknown'])}")
@@ -254,13 +317,10 @@ def main():
             L.append("")
         ex = [r for r in rows if not r["scores"]["gates"]["pass"]]
         if ex:
-            L += [f"#### 제외된 {title} ({len(ex)}곳) — 사유", ""]
-            for r in ex:
-                L.append(f"- {r['name']}: {' / '.join(r['scores']['gates']['failed'])}")
-            L.append("")
-    open(os.path.join(ROOT, "docs", "PILOT_MISA.md"), "w", encoding="utf-8").write("\n".join(L))
-    print(f"[완료] {len(res)}곳 점수화 -> data/pilot/misa_places.json, docs/PILOT_MISA.md")
+            L += [f"#### 제외된 {title} ({len(ex)}곳) — 사유", ""] + [f"- {r['name']}: {' / '.join(r['scores']['gates']['failed'])}" for r in ex] + [""]
+    open(P(a.doc), "w", encoding="utf-8").write("\n".join(L))
     from collections import Counter
+    print(f"[완료] {len(res)}곳 점수화 -> {a.out}, {a.doc}")
     print("등급 분포:", dict(Counter(r["scores"]["tier"] for r in res)))
 
 

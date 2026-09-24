@@ -50,6 +50,13 @@
   .empty { text-align:center; color:var(--muted); padding:30px 0; }
   footer { max-width:640px; margin:0 auto; padding:0 16px 40px; color:var(--muted); font-size:.78rem; }
   .tel { font-weight:600; }
+  .plan { margin-top:10px; padding:9px 11px; border-radius:10px; background:var(--warn-bg); color:var(--ink); font-size:.83rem; }
+  .plan h4 { margin:0 0 3px; font-size:.85rem; color:var(--warn); }
+  .near { margin-top:10px; border-top:1px dashed var(--line); padding-top:8px; font-size:.84rem; }
+  .near h4 { margin:0 0 4px; font-size:.86rem; }
+  .near .it { display:flex; justify-content:space-between; gap:8px; align-items:center; margin:5px 0; }
+  .near .it small { color:var(--muted); display:block; }
+  .mini { flex:none; font-size:.78rem; padding:5px 9px; border-radius:8px; border:1px solid var(--accent); color:var(--accent); text-decoration:none; background:transparent; cursor:pointer; }
 </style>
 </head>
 <body>
@@ -58,6 +65,7 @@
   <p class="sub" id="sub"></p>
 </header>
 <div class="bar"><div class="bar-in">
+  <div class="seg" id="segTab"><button data-v="local" aria-pressed="true">동네 식당·카페</button><button data-v="trip" aria-pressed="false">당일 나들이</button></div>
   <div class="seg" id="segKind"><button data-v="restaurant" aria-pressed="true">식당</button><button data-v="cafe" aria-pressed="false">카페</button></div>
   <div class="seg" id="segMode"><button data-v="a" aria-pressed="true">4인 가족</button><button data-v="b" aria-pressed="false">6인(부모님)</button></div>
   <select id="sort"><option value="s">추천순</option><option value="dr">가까운순</option></select>
@@ -76,12 +84,17 @@
 <script id="D" type="application/json">__DATA__</script>
 <script>
 const D = JSON.parse(document.getElementById('D').textContent);
-const st = {kind:'restaurant', mode:'a', sort:'s'};
+const st = {tab:'local', kind:'restaurant', mode:'a', sort:'s'};
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = n => n == null ? '-' : Number(n).toLocaleString('ko-KR');
 document.getElementById('sub').textContent = `근거 링크가 있는 곳만 · 확인일 ${D.verified} · 집(미사강변아란티움) 기준`;
-document.getElementById('note').innerHTML =
-  `동네 식당·카페 <b>${D.places.length}곳</b>을 실제 후기·별점으로 검증했어요 (추천 ${D.counts['추천']} · 조건부 ${D.counts['조건부']} · 근거부족 ${D.counts['근거부족']} · 제외 ${D.counts['제외']}). 지금은 <b>시범판</b>이라 이 동네만 있어요.`;
+function setNote() {
+  const t = st.tab === 'trip';
+  const n = t ? D.trips.length : D.places.length, c = t ? D.tcounts : D.counts;
+  document.getElementById('note').innerHTML = t
+    ? `당일 나들이 후보 <b>${n}곳</b>(편도 90분 이내)을 실제 후기·별점으로 검증했어요 (추천 ${c['추천']} · 조건부 ${c['조건부']} · 근거부족 ${c['근거부족']} · 제외 ${c['제외']}). <b>시범판</b>이라 유명 장소 위주이고, 주변 식당·카페는 <b>간이 검증</b>(네이버 별점·리뷰 + 카카오 존재 확인)이에요.`
+    : `동네 식당·카페 <b>${n}곳</b>을 실제 후기·별점으로 검증했어요 (추천 ${c['추천']} · 조건부 ${c['조건부']} · 근거부족 ${c['근거부족']} · 제외 ${c['제외']}). <b>시범판</b>이라 이 동네만 있어요.`;
+}
 
 function go(app, web) {
   const t = Date.now(); location.href = app;
@@ -111,9 +124,19 @@ function card(p) {
   if (p.rp && p.rp >= 4.5) pills.push('<span class="pill g">고평점</span>');
   if (p.rs && !p.rs.startsWith('네이버')) pills.push(`<span class="pill w">별점: ${esc(p.rs)}</span>`);
   // '영업 중/오늘 휴무'는 수집 시점의 스냅샷이라 표시하지 않는다(가는 날 상태는 네이버 지도에서 확인). 폐업 신호만 표시.
-  p.flags.filter(f => /웨이팅|폐업/.test(f)).forEach(f => pills.push(`<span class="pill w">${esc(f)}</span>`));
+  p.flags.filter(f => /웨이팅|폐업|입장료.*4인|걷는 거리|사전 예약|휴관/.test(f)).forEach(f => pills.push(`<span class="pill w">${esc(f)}</span>`));
+  if (p.rp == null) pills.push('<span class="pill b">별점 확인 불가</span>');
+  if (p.flags.some(f => /카카오 교차검증 실패/.test(f))) pills.push('<span class="pill w">카카오 미확인</span>');
+  if (p.flags.some(f => /읽은 독립 출처 0/.test(f))) pills.push('<span class="pill w">근거 수집 부족</span>');
   const kids = st.mode === 'a' && p.kids.length ? `<p class="q">👶 아이 관련 근거: ${esc(p.kids.join(' · '))}</p>` : '';
-  const cost = p.cost ? `<span>4인 약 ${fmt(Math.round(p.cost / 1000) * 1000)}원 <small style="color:var(--muted)">(메뉴판 추정)</small></span>` : '';
+  const isT = p.kind === 'attraction';
+  const cost = p.cost ? `<span title="${esc(p.costb || '')}">${isT ? '입장료 4인 약 ' : '4인 약 '}${fmt(Math.round(p.cost / 1000) * 1000)}원 <small style="color:var(--muted)">(${isT ? '성인2·어린이2' : '메뉴판 추정'})</small></span>` : '';
+  const plan = (isT && p.plan && p.plan.length) ? `<div class="plan"><h4>📌 가기 전 확인 (후기 발췌 — 공식 사이트로 재확인)</h4>` +
+    p.plan.slice(0, 3).map(e => `<p class="q">${esc(e.l)}: “${esc(e.q)}” <span>(${esc(e.k)}${e.d ? ', ' + esc(e.d) : ''})</span></p>`).join('') +
+    (new Set(p.plan.filter(e => e.l === '휴관·휴무일').map(e => (e.q.match(/[월화수목금토일]요일/) || [''])[0])).size > 1 ? `<p class="q"><b>⚠️ 휴관 요일이 글마다 달라요. 꼭 공식 안내를 확인하세요.</b></p>` : '') + `</div>` : '';
+  const nearT = (isT && p.near) ? `<div class="near"><h4>🍽️ 이 나들이와 함께 가기 좋은 식당·카페 <small style="font-weight:400;color:var(--muted)">(간이 검증)</small></h4>` +
+    [...p.near.meals, ...p.near.cafes].map(m => `<div class="it"><div><b>${esc(m.role)}</b> · ${esc(m.n)}<small>${esc(m.cat || '')} · ${m.sc ? '★' + m.sc : '별점 미확인'}${m.rv ? ' (' + fmt(m.rv) + ')' : ''} · ${m.dk}km${m.kok ? '' : ' · 카카오 미확인'}${m.tel ? ` · <a href="tel:${esc(m.tel)}">${esc(m.tel)}</a>` : ''}</small></div>` +
+      `<a class="mini" href="${esc(m.nav.app)}" onclick="go('${esc(m.nav.app)}','${esc(m.nav.web)}');return false;">내비</a></div>`).join('') + `</div>` : '';
   const src = [];
   p.blogs.filter(b => !b.sp).forEach(b => src.push(`<li>블로그 <a href="${esc(b.u)}" target="_blank" rel="noopener">${esc((b.t || '').slice(0, 44))}</a> — ${esc(b.a || '')} · ${esc(b.d || '')}</li>`));
   p.yt.forEach(y => src.push(`<li>유튜브 ${y.w === 'comment' ? '댓글' : '설명'} <a href="${esc(y.l)}" target="_blank" rel="noopener">${esc((y.q || '').slice(0, 44))}</a></li>`));
@@ -123,12 +146,14 @@ function card(p) {
       <div class="badge t-${esc(p.tier)}">${esc(p.tier)}<b>${p.s}</b></div></div>
     <div class="row"><span>🚗 ${p.dr != null ? Math.round(p.dr) + '분' : '-'}</span>${p.wk != null ? `<span>🚶 ${Math.round(p.wk)}분</span>` : ''}${rate.map(r => `<span>${r}</span>`).join('')}${cost}</div>
     <div style="margin-top:6px">${pills.join('')}</div>
+    ${plan}
     ${st.mode === 'b' ? modeB(p) : kids}
     <div class="btns">
       <a class="btn pri" href="${esc(p.nav.app)}" onclick="go('${esc(p.nav.app)}','${esc(p.nav.web)}');return false;">🧭 네이버 내비 시작</a>
       <a class="btn" href="${esc(p.nav.web)}" target="_blank" rel="noopener">네이버 지도</a>
       ${p.nav.kakao ? `<a class="btn" href="${esc(p.nav.kakao)}" target="_blank" rel="noopener">카카오맵</a>` : ''}
     </div>
+    ${nearT}
     <details><summary>점수 근거·후기 링크</summary>
       <ul><li>평판 ${p.bd.reputation} · 근거 ${p.bd.evidence} · 가족적합 ${p.bd.family_fit} · 실용 ${p.bd.practicality} (합계 ${p.s})</li>
       ${menus ? `<li>메뉴: ${menus}</li>` : ''}
@@ -140,11 +165,14 @@ function card(p) {
 }
 
 function render() {
-  let arr = D.places.filter(p => p.kind === st.kind);
+  setNote();
+  document.getElementById('segKind').style.display = st.tab === 'trip' ? 'none' : '';
+  const base = st.tab === 'trip' ? D.trips : D.places.filter(p => p.kind === st.kind);
+  let arr = base;
   if (st.mode === 'b') arr = arr.filter(p => !p.bv.startsWith('부적합'));
   const main = arr.filter(p => p.tier === '추천' || p.tier === '조건부');
   const weak = arr.filter(p => p.tier === '근거부족');
-  const excl = D.places.filter(p => p.kind === st.kind && p.tier === '제외');
+  const excl = base.filter(p => p.tier === '제외');
   const key = st.sort === 'dr' ? (a, b) => (a.dr ?? 99) - (b.dr ?? 99) : (a, b) => b.s - a.s;
   main.sort(key); weak.sort(key);
   document.getElementById('list').innerHTML = main.length ? main.map(card).join('') : '<div class="empty">조건에 맞는 곳이 아직 없어요</div>';
@@ -153,7 +181,7 @@ function render() {
   document.getElementById('exclList').innerHTML = '<ul>' + excl.map(p => `<li><b>${esc(p.n)}</b>: ${esc(p.fails.join(' / '))}</li>`).join('') + '</ul>';
   document.getElementById('excl').style.display = excl.length ? '' : 'none';
 }
-for (const [id, key] of [['segKind', 'kind'], ['segMode', 'mode']]) {
+for (const [id, key] of [['segTab', 'tab'], ['segKind', 'kind'], ['segMode', 'mode']]) {
   document.getElementById(id).addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
     st[key] = b.dataset.v;

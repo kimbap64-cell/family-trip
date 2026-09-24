@@ -8,7 +8,8 @@
   },
 
   "scopes": {
-    "local": {"max_drive_min": 12, "_note": "우리 동네(도보·차량 10분 안팎) 식당·카페. 차량 12분까지 허용"}
+    "local": {"max_drive_min": 12, "_note": "우리 동네(도보·차량 10분 안팎) 식당·카페. 차량 12분까지 허용"},
+    "day_trip": {"max_drive_min": 90, "preferred_drive_min": 60, "_note": "당일 나들이. 편도 90분 이내(선호 60분)"}
   },
 
   "gates": {

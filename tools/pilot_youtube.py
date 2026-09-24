@@ -16,6 +16,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "pilot")
 SPONSOR_RE = re.compile(r"(유료\s*광고|광고\s*포함|협찬|제공\s*받|제공받|원고료|체험단|소정의|서포터즈|PPL|sponsored|#ad\b|파트너십|초청)", re.I)
 QUERIES = ["하남 미사 맛집", "미사 카페 추천", "하남 미사 아이랑 맛집 가족 외식", "하남 미사 부모님 모시고 맛집"]
+QUERY_SETS = {
+    "local": QUERIES,
+    "daytrip": ["서울 근교 아이랑 당일치기 체험 경기도", "남양주 가평 양평 아이랑 가볼만한곳", "인천 송도 영종도 강화 아이랑 당일치기",
+                "시흥 광주 용인 이천 아이와 가볼만한곳", "부모님 모시고 평지 산책 당일치기 경기도", "동물 먹이주기 체험 수목원 아이랑",
+                "아이랑 자연체험 숲놀이터 무장애 나들이", "하남 미사 출발 당일치기 드라이브 나들이"],
+}
 
 
 def core_name(name):
@@ -65,22 +71,30 @@ def source_score(v, ch, n_place_mentions):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--raw", default="data/pilot/misa_raw.json")
+    ap.add_argument("--out", default="data/pilot/misa_youtube.json")
+    ap.add_argument("--cache", default="data/cache/yt_pilot_raw.json")
+    ap.add_argument("--set", default="local")
+    ap.add_argument("--refresh", action="store_true")
+    a = ap.parse_args()
     qg.ensure_available("youtube_api_units")
-    raw = json.load(open(os.path.join(OUT, "misa_raw.json"), encoding="utf-8"))["places"]
+    raw = json.load(open(os.path.join(ROOT, a.raw), encoding="utf-8"))["places"]
     places = [{"id": p["naver"]["id"], "name": p["naver"]["name"], "core": core_name(p["naver"]["name"])} for p in raw]
     places = [p for p in places if len(norm(p["core"])) >= 3]
     print(f"매칭 대상 장소 {len(places)}곳")
 
     # 원본 API 응답 캐시: 재실행(장소 목록이 바뀐 재매칭)은 API를 다시 부르지 않는다. --refresh 로만 재수집.
-    rawp = os.path.join(ROOT, "data", "cache", "yt_pilot_raw.json")
-    if os.path.exists(rawp) and "--refresh" not in sys.argv:
+    rawp = os.path.join(ROOT, a.cache)
+    if os.path.exists(rawp) and not a.refresh:
         cache = json.load(open(rawp, encoding="utf-8"))
         vids, chs, comments_by = cache["vids"], cache["chs"], cache["comments"]
         print(f"캐시 사용: 영상 {len(vids)}개 (API 호출 0)")
     else:
         since = "2024-09-24T00:00:00Z"
         ids, seen = [], set()
-        for q in QUERIES:
+        for q in QUERY_SETS[a.set]:
             for it in yt_api.search(q, max_results=15, published_after=since):
                 vid = it["id"]["videoId"]
                 if vid not in seen:
@@ -89,7 +103,7 @@ def main():
         vids = yt_api.videos(ids)
         chs = {c["id"]: c for c in yt_api.channels(sorted({v["snippet"]["channelId"] for v in vids}))}
         # 댓글: 지역 관련(미사/하남) 영상 중 조회수 상위 12개만 (장소와 무관하게 고정 -> 캐시 안정)
-        rel = [v for v in vids if re.search(r"미사|하남", v["snippet"]["title"] + v["snippet"].get("description", "")[:300])]
+        rel = [v for v in vids if a.set != "local" or re.search(r"미사|하남", v["snippet"]["title"] + v["snippet"].get("description", "")[:300])]
         rel.sort(key=lambda v: -int(v["statistics"].get("viewCount", 0)))
         comments_by = {}
         for v in rel[:12]:
@@ -124,8 +138,8 @@ def main():
                     m = re.search(r"\b(\d{1,2}):(\d{2})(?::(\d{2}))?\b", ln)
                     quote = ln.strip()[:120]
                     if m:
-                        a, b, c = m.groups()
-                        t_sec = int(a) * 3600 + int(b) * 60 + int(c) if c else int(a) * 60 + int(b)
+                        t1, t2, t3 = m.groups()
+                        t_sec = int(t1) * 3600 + int(t2) * 60 + int(t3) if t3 else int(t1) * 60 + int(t2)
                     break
             if quote is None:
                 i = nt.find(norm(p["core"]))
@@ -147,8 +161,10 @@ def main():
                     mentions.append({"place_id": p["id"], "video_id": r["id"], "t": None, "quote": c["text"][:140].replace("\n", " "),
                                      "link": r["url"], "where": "comment", "comment_date": c["published"][:10], "likes": c["likes"]})
 
-    json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"), "queries": QUERIES, "videos": out_videos, "mentions": mentions},
-              open(os.path.join(OUT, "misa_youtube.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    outp = os.path.join(ROOT, a.out)
+    os.makedirs(os.path.dirname(outp), exist_ok=True)
+    json.dump({"generated": time.strftime("%Y-%m-%d %H:%M"), "queries": QUERY_SETS[a.set], "videos": out_videos, "mentions": mentions},
+              open(outp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"\n[완료] 영상 {len(out_videos)}개, 장소 언급 {len(mentions)}건 (장소 {len({m['place_id'] for m in mentions})}곳)")
     for c, u in qg.usage().items():
         if c.startswith("youtube_api") and u["today"]:

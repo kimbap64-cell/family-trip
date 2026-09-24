@@ -1,0 +1,1506 @@
+{
+ "generated": "2026-09-24 16:57",
+ "note": "간이 검증(네이버 목록 별점·리뷰 + 카카오 존재 확인). 상세·블로그 본문은 미확인",
+ "courses": [
+  {
+   "attraction_id": "1932878505",
+   "attraction": "서울식물원",
+   "region": "",
+   "drive_min": 37.2,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1404947841",
+     "name": "솥내음 마곡 발산역점",
+     "category": "한식",
+     "road_address": "마곡중앙6로 66 퀸즈파크텐 A동 1층 103호",
+     "x": 126.8341474,
+     "y": 37.5600644,
+     "score": 4.89,
+     "reviews": 20429,
+     "blog_reviews": 2337,
+     "dist_km": 1.0,
+     "phone": "0507-1424-9893",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1223864627",
+      "kakao_url": "http://place.map.kakao.com/1223864627",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5600644&dlng=126.8341474&dname=%EC%86%A5%EB%82%B4%EC%9D%8C%20%EB%A7%88%EA%B3%A1%20%EB%B0%9C%EC%82%B0%EC%97%AD%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5600644&dlng=126.8341474&dname=%EC%86%A5%EB%82%B4%EC%9D%8C%20%EB%A7%88%EA%B3%A1%20%EB%B0%9C%EC%82%B0%EC%97%AD%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5600644&lng=126.8341474&name=%EC%86%A5%EB%82%B4%EC%9D%8C%20%EB%A7%88%EA%B3%A1%20%EB%B0%9C%EC%82%B0%EC%97%AD%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1404947841",
+      "mobile_place": "https://m.place.naver.com/place/1404947841/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "1621429182",
+     "name": "라우라",
+     "category": "양식",
+     "road_address": "마곡중앙6로 63 마곡테크노타워 2층 202호",
+     "x": 126.8344482,
+     "y": 37.5604094,
+     "score": 4.9,
+     "reviews": 2339,
+     "blog_reviews": 1148,
+     "dist_km": 1.0,
+     "phone": "0507-1385-0978",
+     "kakao": {
+      "found": true,
+      "kakao_id": "34919348",
+      "kakao_url": "http://place.map.kakao.com/34919348",
+      "dist_m": 6
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5604094&dlng=126.8344482&dname=%EB%9D%BC%EC%9A%B0%EB%9D%BC&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5604094&dlng=126.8344482&dname=%EB%9D%BC%EC%9A%B0%EB%9D%BC&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5604094&lng=126.8344482&name=%EB%9D%BC%EC%9A%B0%EB%9D%BC&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1621429182",
+      "mobile_place": "https://m.place.naver.com/place/1621429182/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1435847745",
+     "name": "옥된장 마곡점",
+     "category": "한식",
+     "road_address": "마곡동로 62",
+     "x": 126.8337841,
+     "y": 37.5604676,
+     "score": 4.88,
+     "reviews": 7926,
+     "blog_reviews": 3738,
+     "dist_km": 1.0,
+     "phone": "0507-1331-6210",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1026091947",
+      "kakao_url": "http://place.map.kakao.com/1026091947",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5604676&dlng=126.8337841&dname=%EC%98%A5%EB%90%9C%EC%9E%A5%20%EB%A7%88%EA%B3%A1%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5604676&dlng=126.8337841&dname=%EC%98%A5%EB%90%9C%EC%9E%A5%20%EB%A7%88%EA%B3%A1%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5604676&lng=126.8337841&name=%EC%98%A5%EB%90%9C%EC%9E%A5%20%EB%A7%88%EA%B3%A1%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1435847745",
+      "mobile_place": "https://m.place.naver.com/place/1435847745/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1680520410",
+     "name": "콜트클럽 마곡",
+     "category": "카페,디저트",
+     "road_address": "마곡중앙8로 86 2층 콜트클럽",
+     "x": 126.8369577,
+     "y": 37.5606184,
+     "score": 4.88,
+     "reviews": 2992,
+     "blog_reviews": 541,
+     "dist_km": 1.0,
+     "phone": "0507-1424-8050",
+     "kakao": {
+      "found": true,
+      "kakao_id": "961407699",
+      "kakao_url": "http://place.map.kakao.com/961407699",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5606184&dlng=126.8369577&dname=%EC%BD%9C%ED%8A%B8%ED%81%B4%EB%9F%BD%20%EB%A7%88%EA%B3%A1&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5606184&dlng=126.8369577&dname=%EC%BD%9C%ED%8A%B8%ED%81%B4%EB%9F%BD%20%EB%A7%88%EA%B3%A1&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5606184&lng=126.8369577&name=%EC%BD%9C%ED%8A%B8%ED%81%B4%EB%9F%BD%20%EB%A7%88%EA%B3%A1&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1680520410",
+      "mobile_place": "https://m.place.naver.com/place/1680520410/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "2097322971",
+     "name": "비바디앙",
+     "category": "베이커리",
+     "road_address": "강서로 391 1층, 2층 104호, 105호, 203호",
+     "x": 126.8386233,
+     "y": 37.5606022,
+     "score": 4.89,
+     "reviews": 2218,
+     "blog_reviews": 178,
+     "dist_km": 1.0,
+     "phone": "0507-1410-7122",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1673225955",
+      "kakao_url": "http://place.map.kakao.com/1673225955",
+      "dist_m": 5
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5606022&dlng=126.8386233&dname=%EB%B9%84%EB%B0%94%EB%94%94%EC%95%99&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5606022&dlng=126.8386233&dname=%EB%B9%84%EB%B0%94%EB%94%94%EC%95%99&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5606022&lng=126.8386233&name=%EB%B9%84%EB%B0%94%EB%94%94%EC%95%99&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/2097322971",
+      "mobile_place": "https://m.place.naver.com/place/2097322971/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "1280289689",
+   "attraction": "쥬벅스",
+   "region": "",
+   "drive_min": 48.1,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1274882956",
+     "name": "백소정 서창점",
+     "category": "돈가스",
+     "road_address": "서창남순환로 223 B동 1층 105호, 106호",
+     "x": 126.7482904,
+     "y": 37.4246749,
+     "score": 4.86,
+     "reviews": 6367,
+     "blog_reviews": 1534,
+     "dist_km": 0.2,
+     "phone": null,
+     "kakao": {
+      "found": true,
+      "kakao_id": "1287549757",
+      "kakao_url": "http://place.map.kakao.com/1287549757",
+      "dist_m": 61
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.4246749&dlng=126.7482904&dname=%EB%B0%B1%EC%86%8C%EC%A0%95%20%EC%84%9C%EC%B0%BD%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.4246749&dlng=126.7482904&dname=%EB%B0%B1%EC%86%8C%EC%A0%95%20%EC%84%9C%EC%B0%BD%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.4246749&lng=126.7482904&name=%EB%B0%B1%EC%86%8C%EC%A0%95%20%EC%84%9C%EC%B0%BD%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1274882956",
+      "mobile_place": "https://m.place.naver.com/place/1274882956/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "1922286277",
+     "name": "브런치앤딘치",
+     "category": "양식",
+     "road_address": "서창남순환로10번길 53 2층",
+     "x": 126.7513334,
+     "y": 37.4229265,
+     "score": 4.88,
+     "reviews": 1308,
+     "blog_reviews": 84,
+     "dist_km": 0.2,
+     "phone": "032-466-4073",
+     "kakao": {
+      "found": true,
+      "kakao_id": "2084680187",
+      "kakao_url": "http://place.map.kakao.com/2084680187",
+      "dist_m": 1
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.4229265&dlng=126.7513334&dname=%EB%B8%8C%EB%9F%B0%EC%B9%98%EC%95%A4%EB%94%98%EC%B9%98&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.4229265&dlng=126.7513334&dname=%EB%B8%8C%EB%9F%B0%EC%B9%98%EC%95%A4%EB%94%98%EC%B9%98&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.4229265&lng=126.7513334&name=%EB%B8%8C%EB%9F%B0%EC%B9%98%EC%95%A4%EB%94%98%EC%B9%98&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1922286277",
+      "mobile_place": "https://m.place.naver.com/place/1922286277/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "37430056",
+     "name": "소담촌 인천서창점",
+     "category": "샤브샤브",
+     "road_address": "서창남순환로216번길 12 월드타워 7층",
+     "x": 126.7485716,
+     "y": 37.4235218,
+     "score": 4.45,
+     "reviews": 1882,
+     "blog_reviews": 299,
+     "dist_km": 0.0,
+     "phone": "032-468-6888",
+     "kakao": {
+      "found": true,
+      "kakao_id": "27545099",
+      "kakao_url": "http://place.map.kakao.com/27545099",
+      "dist_m": 12
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.4235218&dlng=126.7485716&dname=%EC%86%8C%EB%8B%B4%EC%B4%8C%20%EC%9D%B8%EC%B2%9C%EC%84%9C%EC%B0%BD%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.4235218&dlng=126.7485716&dname=%EC%86%8C%EB%8B%B4%EC%B4%8C%20%EC%9D%B8%EC%B2%9C%EC%84%9C%EC%B0%BD%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.4235218&lng=126.7485716&name=%EC%86%8C%EB%8B%B4%EC%B4%8C%20%EC%9D%B8%EC%B2%9C%EC%84%9C%EC%B0%BD%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/37430056",
+      "mobile_place": "https://m.place.naver.com/place/37430056/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1592597510",
+     "name": "온더테라스",
+     "category": "카페,디저트",
+     "road_address": "서창남로 16-38 지민프라자 4층",
+     "x": 126.7520387,
+     "y": 37.4221359,
+     "score": 4.86,
+     "reviews": 3833,
+     "blog_reviews": 233,
+     "dist_km": 0.3,
+     "phone": "070-8808-8828",
+     "kakao": {
+      "found": true,
+      "kakao_id": "44619558",
+      "kakao_url": "http://place.map.kakao.com/44619558",
+      "dist_m": 1
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.4221359&dlng=126.7520387&dname=%EC%98%A8%EB%8D%94%ED%85%8C%EB%9D%BC%EC%8A%A4&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.4221359&dlng=126.7520387&dname=%EC%98%A8%EB%8D%94%ED%85%8C%EB%9D%BC%EC%8A%A4&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.4221359&lng=126.7520387&name=%EC%98%A8%EB%8D%94%ED%85%8C%EB%9D%BC%EC%8A%A4&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1592597510",
+      "mobile_place": "https://m.place.naver.com/place/1592597510/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1608021257",
+     "name": "파리바게뜨 서창로데오점",
+     "category": "베이커리",
+     "road_address": "서창남순환로 223 (서창동) 1층 A-122~123호",
+     "x": 126.7487969,
+     "y": 37.4246495,
+     "score": 4.5,
+     "reviews": 3008,
+     "blog_reviews": 6,
+     "dist_km": 0.2,
+     "phone": "032-465-0927",
+     "kakao": {
+      "found": true,
+      "kakao_id": "239666627",
+      "kakao_url": "http://place.map.kakao.com/239666627",
+      "dist_m": 9
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.4246495&dlng=126.7487969&dname=%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8%20%EC%84%9C%EC%B0%BD%EB%A1%9C%EB%8D%B0%EC%98%A4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.4246495&dlng=126.7487969&dname=%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8%20%EC%84%9C%EC%B0%BD%EB%A1%9C%EB%8D%B0%EC%98%A4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.4246495&lng=126.7487969&name=%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8%20%EC%84%9C%EC%B0%BD%EB%A1%9C%EB%8D%B0%EC%98%A4%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1608021257",
+      "mobile_place": "https://m.place.naver.com/place/1608021257/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "19928010",
+   "attraction": "제이드가든",
+   "region": "",
+   "drive_min": 54.0,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "37278349",
+     "name": "호원가든",
+     "category": "닭갈비",
+     "road_address": "북한강변길 344 남이섬 호원가든 1,2층",
+     "x": 127.5522813,
+     "y": 37.8433815,
+     "score": 4.74,
+     "reviews": 5072,
+     "blog_reviews": 4690,
+     "dist_km": 1.5,
+     "phone": "033-263-9235",
+     "kakao": {
+      "found": true,
+      "kakao_id": "905810884",
+      "kakao_url": "http://place.map.kakao.com/905810884",
+      "dist_m": 0
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.8433815&dlng=127.5522813&dname=%ED%98%B8%EC%9B%90%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.8433815&dlng=127.5522813&dname=%ED%98%B8%EC%9B%90%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.8433815&lng=127.5522813&name=%ED%98%B8%EC%9B%90%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/37278349",
+      "mobile_place": "https://m.place.naver.com/place/37278349/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "1719484356",
+     "name": "삼교리동치미막국수 가평점",
+     "category": "막국수",
+     "road_address": "가화로 162 삼교리동치미막국수",
+     "x": 127.5116156,
+     "y": 37.8338425,
+     "score": 4.66,
+     "reviews": 3605,
+     "blog_reviews": 496,
+     "dist_km": 2.7,
+     "phone": "0507-1322-3922",
+     "kakao": {
+      "found": true,
+      "kakao_id": "2074552269",
+      "kakao_url": "http://place.map.kakao.com/2074552269",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.8338425&dlng=127.5116156&dname=%EC%82%BC%EA%B5%90%EB%A6%AC%EB%8F%99%EC%B9%98%EB%AF%B8%EB%A7%89%EA%B5%AD%EC%88%98%20%EA%B0%80%ED%8F%89%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.8338425&dlng=127.5116156&dname=%EC%82%BC%EA%B5%90%EB%A6%AC%EB%8F%99%EC%B9%98%EB%AF%B8%EB%A7%89%EA%B5%AD%EC%88%98%20%EA%B0%80%ED%8F%89%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.8338425&lng=127.5116156&name=%EC%82%BC%EA%B5%90%EB%A6%AC%EB%8F%99%EC%B9%98%EB%AF%B8%EB%A7%89%EA%B5%AD%EC%88%98%20%EA%B0%80%ED%8F%89%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1719484356",
+      "mobile_place": "https://m.place.naver.com/place/1719484356/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1594705640",
+     "name": "미당샤브샤브 그리고 낙곱새",
+     "category": "한식",
+     "road_address": "연인2길 12-9 2층",
+     "x": 127.5118863,
+     "y": 37.8302991,
+     "score": 4.77,
+     "reviews": 680,
+     "blog_reviews": 642,
+     "dist_km": 2.7,
+     "phone": "0507-1388-8212",
+     "kakao": {
+      "found": false,
+      "kakao_id": null,
+      "kakao_url": null,
+      "dist_m": null
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.8302991&dlng=127.5118863&dname=%EB%AF%B8%EB%8B%B9%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EB%82%99%EA%B3%B1%EC%83%88&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.8302991&dlng=127.5118863&dname=%EB%AF%B8%EB%8B%B9%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EB%82%99%EA%B3%B1%EC%83%88&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.8302991&lng=127.5118863&name=%EB%AF%B8%EB%8B%B9%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EB%82%99%EA%B3%B1%EC%83%88&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1594705640",
+      "mobile_place": "https://m.place.naver.com/place/1594705640/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "2013558439",
+     "name": "보납정",
+     "category": "카페,디저트",
+     "road_address": "장터길 5 1층",
+     "x": 127.5148682,
+     "y": 37.828764,
+     "score": 4.85,
+     "reviews": 3554,
+     "blog_reviews": 551,
+     "dist_km": 2.4,
+     "phone": "0507-1365-0010",
+     "kakao": {
+      "found": true,
+      "kakao_id": "389213196",
+      "kakao_url": "http://place.map.kakao.com/389213196",
+      "dist_m": 1
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.828764&dlng=127.5148682&dname=%EB%B3%B4%EB%82%A9%EC%A0%95&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.828764&dlng=127.5148682&dname=%EB%B3%B4%EB%82%A9%EC%A0%95&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.828764&lng=127.5148682&name=%EB%B3%B4%EB%82%A9%EC%A0%95&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/2013558439",
+      "mobile_place": "https://m.place.naver.com/place/2013558439/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1343120600",
+     "name": "키지",
+     "category": "베이커리",
+     "road_address": "석봉로 165 1층",
+     "x": 127.5106313,
+     "y": 37.8298985,
+     "score": 4.94,
+     "reviews": 862,
+     "blog_reviews": 42,
+     "dist_km": 2.8,
+     "phone": "0507-1379-8550",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1533193263",
+      "kakao_url": "http://place.map.kakao.com/1533193263",
+      "dist_m": 4
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.8298985&dlng=127.5106313&dname=%ED%82%A4%EC%A7%80&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.8298985&dlng=127.5106313&dname=%ED%82%A4%EC%A7%80&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.8298985&lng=127.5106313&name=%ED%82%A4%EC%A7%80&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1343120600",
+      "mobile_place": "https://m.place.naver.com/place/1343120600/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "1487924989",
+   "attraction": "주렁주렁 동물원 동탄점",
+   "region": "",
+   "drive_min": 44.6,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1772490716",
+     "name": "테오쿠진 동탄호수공원점",
+     "category": "양갈비",
+     "road_address": "동탄대로5길 32 1층 107, 108호",
+     "x": 127.1039613,
+     "y": 37.1669982,
+     "score": 4.9,
+     "reviews": 2449,
+     "blog_reviews": 2308,
+     "dist_km": 0.1,
+     "phone": "0507-1393-8956",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1227846030",
+      "kakao_url": "http://place.map.kakao.com/1227846030",
+      "dist_m": 30
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1669982&dlng=127.1039613&dname=%ED%85%8C%EC%98%A4%EC%BF%A0%EC%A7%84%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1669982&dlng=127.1039613&dname=%ED%85%8C%EC%98%A4%EC%BF%A0%EC%A7%84%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1669982&lng=127.1039613&name=%ED%85%8C%EC%98%A4%EC%BF%A0%EC%A7%84%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1772490716",
+      "mobile_place": "https://m.place.naver.com/place/1772490716/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "2045246642",
+     "name": "삼동소바 동탄호수공원점",
+     "category": "우동,소바",
+     "road_address": "동탄대로5길 32 1층 111, 112호 삼동소바 동탄호수공원점",
+     "x": 127.1039484,
+     "y": 37.1669987,
+     "score": 4.86,
+     "reviews": 2674,
+     "blog_reviews": 820,
+     "dist_km": 0.1,
+     "phone": "0507-1320-8148",
+     "kakao": {
+      "found": true,
+      "kakao_id": "2066482723",
+      "kakao_url": "http://place.map.kakao.com/2066482723",
+      "dist_m": 5
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1669987&dlng=127.1039484&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1669987&dlng=127.1039484&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1669987&lng=127.1039484&name=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/2045246642",
+      "mobile_place": "https://m.place.naver.com/place/2045246642/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1719078327",
+     "name": "남도연프리미엄",
+     "category": "한식",
+     "road_address": "동탄대로5길 9 5층(호수 가까운 곳)",
+     "x": 127.1058207,
+     "y": 37.1676057,
+     "score": 4.82,
+     "reviews": 1549,
+     "blog_reviews": 7089,
+     "dist_km": 0.1,
+     "phone": "0507-1347-1653",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1681119842",
+      "kakao_url": "http://place.map.kakao.com/1681119842",
+      "dist_m": 41
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1676057&dlng=127.1058207&dname=%EB%82%A8%EB%8F%84%EC%97%B0%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1676057&dlng=127.1058207&dname=%EB%82%A8%EB%8F%84%EC%97%B0%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1676057&lng=127.1058207&name=%EB%82%A8%EB%8F%84%EC%97%B0%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1719078327",
+      "mobile_place": "https://m.place.naver.com/place/1719078327/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1959246437",
+     "name": "읍천리382 동탄호수공원점",
+     "category": "카페",
+     "road_address": "동탄대로6길 9 지2층 B211호",
+     "x": 127.1079087,
+     "y": 37.1687953,
+     "score": 4.87,
+     "reviews": 1738,
+     "blog_reviews": 143,
+     "dist_km": 0.4,
+     "phone": "0507-1365-3823",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1679035546",
+      "kakao_url": "http://place.map.kakao.com/1679035546",
+      "dist_m": 18
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1687953&dlng=127.1079087&dname=%EC%9D%8D%EC%B2%9C%EB%A6%AC382%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1687953&dlng=127.1079087&dname=%EC%9D%8D%EC%B2%9C%EB%A6%AC382%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1687953&lng=127.1079087&name=%EC%9D%8D%EC%B2%9C%EB%A6%AC382%20%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1959246437",
+      "mobile_place": "https://m.place.naver.com/place/1959246437/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1661146375",
+     "name": "소라베이글 베이커리카페",
+     "category": "베이커리",
+     "road_address": "동탄대로5길 29 대방엘리움레이크파크 판매시설 2층 230, 231호",
+     "x": 127.1037419,
+     "y": 37.1659225,
+     "score": 4.94,
+     "reviews": 629,
+     "blog_reviews": 37,
+     "dist_km": 0.1,
+     "phone": "0507-1326-0454",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1595092248",
+      "kakao_url": "http://place.map.kakao.com/1595092248",
+      "dist_m": 4
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1659225&dlng=127.1037419&dname=%EC%86%8C%EB%9D%BC%EB%B2%A0%EC%9D%B4%EA%B8%80%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1659225&dlng=127.1037419&dname=%EC%86%8C%EB%9D%BC%EB%B2%A0%EC%9D%B4%EA%B8%80%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1659225&lng=127.1037419&name=%EC%86%8C%EB%9D%BC%EB%B2%A0%EC%9D%B4%EA%B8%80%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1661146375",
+      "mobile_place": "https://m.place.naver.com/place/1661146375/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "11574457",
+   "attraction": "에버랜드",
+   "region": "",
+   "drive_min": 36.2,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1849276333",
+     "name": "윤호네솥뚜껑닭볶음탕",
+     "category": "닭볶음탕",
+     "road_address": "마성로 356 윤호네솥뚜껑닭볶음탕",
+     "x": 127.2091648,
+     "y": 37.2844681,
+     "score": 4.79,
+     "reviews": 4998,
+     "blog_reviews": 457,
+     "dist_km": 1.2,
+     "phone": null,
+     "kakao": {
+      "found": true,
+      "kakao_id": "1360505682",
+      "kakao_url": "http://place.map.kakao.com/1360505682",
+      "dist_m": 2
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.2844681&dlng=127.2091648&dname=%EC%9C%A4%ED%98%B8%EB%84%A4%EC%86%A5%EB%9A%9C%EA%BB%91%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.2844681&dlng=127.2091648&dname=%EC%9C%A4%ED%98%B8%EB%84%A4%EC%86%A5%EB%9A%9C%EA%BB%91%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.2844681&lng=127.2091648&name=%EC%9C%A4%ED%98%B8%EB%84%A4%EC%86%A5%EB%9A%9C%EA%BB%91%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1849276333",
+      "mobile_place": "https://m.place.naver.com/place/1849276333/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "37812424",
+     "name": "성경만두요리전문점 에버랜드점",
+     "category": "칼국수,만두",
+     "road_address": "성산로692번길 16 건물 2층",
+     "x": 127.216063,
+     "y": 37.2877922,
+     "score": 4.59,
+     "reviews": 707,
+     "blog_reviews": 198,
+     "dist_km": 1.4,
+     "phone": "031-333-4480",
+     "kakao": {
+      "found": true,
+      "kakao_id": "469529015",
+      "kakao_url": "http://place.map.kakao.com/469529015",
+      "dist_m": 2
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.2877922&dlng=127.216063&dname=%EC%84%B1%EA%B2%BD%EB%A7%8C%EB%91%90%EC%9A%94%EB%A6%AC%EC%A0%84%EB%AC%B8%EC%A0%90%20%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.2877922&dlng=127.216063&dname=%EC%84%B1%EA%B2%BD%EB%A7%8C%EB%91%90%EC%9A%94%EB%A6%AC%EC%A0%84%EB%AC%B8%EC%A0%90%20%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.2877922&lng=127.216063&name=%EC%84%B1%EA%B2%BD%EB%A7%8C%EB%91%90%EC%9A%94%EB%A6%AC%EC%A0%84%EB%AC%B8%EC%A0%90%20%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/37812424",
+      "mobile_place": "https://m.place.naver.com/place/37812424/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1972393377",
+     "name": "한가람",
+     "category": "한식",
+     "road_address": "에버랜드로 199",
+     "x": 127.2010968,
+     "y": 37.2905423,
+     "score": null,
+     "reviews": 1869,
+     "blog_reviews": 258,
+     "dist_km": 0.3,
+     "phone": null,
+     "kakao": {
+      "found": true,
+      "kakao_id": "17573715",
+      "kakao_url": "http://place.map.kakao.com/17573715",
+      "dist_m": 19
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.2905423&dlng=127.2010968&dname=%ED%95%9C%EA%B0%80%EB%9E%8C&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.2905423&dlng=127.2010968&dname=%ED%95%9C%EA%B0%80%EB%9E%8C&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.2905423&lng=127.2010968&name=%ED%95%9C%EA%B0%80%EB%9E%8C&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1972393377",
+      "mobile_place": "https://m.place.naver.com/place/1972393377/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1208854285",
+     "name": "커스텀커피 더하우스",
+     "category": "카페",
+     "road_address": "석성로888번길 1",
+     "x": 127.1946962,
+     "y": 37.2775108,
+     "score": 4.82,
+     "reviews": 2566,
+     "blog_reviews": 400,
+     "dist_km": 1.9,
+     "phone": "031-334-1116",
+     "kakao": {
+      "found": true,
+      "kakao_id": "168238153",
+      "kakao_url": "http://place.map.kakao.com/168238153",
+      "dist_m": 1
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.2775108&dlng=127.1946962&dname=%EC%BB%A4%EC%8A%A4%ED%85%80%EC%BB%A4%ED%94%BC%20%EB%8D%94%ED%95%98%EC%9A%B0%EC%8A%A4&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.2775108&dlng=127.1946962&dname=%EC%BB%A4%EC%8A%A4%ED%85%80%EC%BB%A4%ED%94%BC%20%EB%8D%94%ED%95%98%EC%9A%B0%EC%8A%A4&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.2775108&lng=127.1946962&name=%EC%BB%A4%EC%8A%A4%ED%85%80%EC%BB%A4%ED%94%BC%20%EB%8D%94%ED%95%98%EC%9A%B0%EC%8A%A4&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1208854285",
+      "mobile_place": "https://m.place.naver.com/place/1208854285/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1190269653",
+     "name": "카페침니랜드",
+     "category": "베이커리",
+     "road_address": "곡현로 108 침니랜드",
+     "x": 127.2226012,
+     "y": 37.2961858,
+     "score": 4.88,
+     "reviews": 1357,
+     "blog_reviews": 229,
+     "dist_km": 1.9,
+     "phone": "031-322-0017",
+     "kakao": {
+      "found": true,
+      "kakao_id": "845353110",
+      "kakao_url": "http://place.map.kakao.com/845353110",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.2961858&dlng=127.2226012&dname=%EC%B9%B4%ED%8E%98%EC%B9%A8%EB%8B%88%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.2961858&dlng=127.2226012&dname=%EC%B9%B4%ED%8E%98%EC%B9%A8%EB%8B%88%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.2961858&lng=127.2226012&name=%EC%B9%B4%ED%8E%98%EC%B9%A8%EB%8B%88%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1190269653",
+      "mobile_place": "https://m.place.naver.com/place/1190269653/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "1587308093",
+   "attraction": "주렁주렁 동물원 하남점",
+   "region": "",
+   "drive_min": 6.2,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1280475169",
+     "name": "수인인사동닭한마리 스타필드 하남점",
+     "category": "닭요리",
+     "road_address": "미사대로 750 3F",
+     "x": 127.2254435,
+     "y": 37.5456688,
+     "score": 4.82,
+     "reviews": 4565,
+     "blog_reviews": 399,
+     "dist_km": 0.3,
+     "phone": null,
+     "kakao": {
+      "found": true,
+      "kakao_id": "1427091479",
+      "kakao_url": "http://place.map.kakao.com/1427091479",
+      "dist_m": 7
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5456688&dlng=127.2254435&dname=%EC%88%98%EC%9D%B8%EC%9D%B8%EC%82%AC%EB%8F%99%EB%8B%AD%ED%95%9C%EB%A7%88%EB%A6%AC%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5456688&dlng=127.2254435&dname=%EC%88%98%EC%9D%B8%EC%9D%B8%EC%82%AC%EB%8F%99%EB%8B%AD%ED%95%9C%EB%A7%88%EB%A6%AC%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5456688&lng=127.2254435&name=%EC%88%98%EC%9D%B8%EC%9D%B8%EC%82%AC%EB%8F%99%EB%8B%AD%ED%95%9C%EB%A7%88%EB%A6%AC%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1280475169",
+      "mobile_place": "https://m.place.naver.com/place/1280475169/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "2049545198",
+     "name": "제이드앤워터 스타필드 하남점",
+     "category": "양식",
+     "road_address": "미사대로 750 엘2층 1288호",
+     "x": 127.2229531,
+     "y": 37.545012,
+     "score": 4.79,
+     "reviews": 3666,
+     "blog_reviews": 142,
+     "dist_km": 0.2,
+     "phone": "031-8072-8556",
+     "kakao": {
+      "found": true,
+      "kakao_id": "532722941",
+      "kakao_url": "http://place.map.kakao.com/532722941",
+      "dist_m": 9
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.545012&dlng=127.2229531&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EC%95%A4%EC%9B%8C%ED%84%B0%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.545012&dlng=127.2229531&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EC%95%A4%EC%9B%8C%ED%84%B0%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.545012&lng=127.2229531&name=%EC%A0%9C%EC%9D%B4%EB%93%9C%EC%95%A4%EC%9B%8C%ED%84%B0%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/2049545198",
+      "mobile_place": "https://m.place.naver.com/place/2049545198/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "2061585217",
+     "name": "지강한식당 신세계백화점 스타필드하남점",
+     "category": "한식",
+     "road_address": "미사대로 750 신세계백화점 지하1층",
+     "x": 127.2218632,
+     "y": 37.5457098,
+     "score": 4.81,
+     "reviews": 4508,
+     "blog_reviews": 102,
+     "dist_km": 0.3,
+     "phone": "0507-1333-1885",
+     "kakao": {
+      "found": true,
+      "kakao_id": "2108172026",
+      "kakao_url": "http://place.map.kakao.com/2108172026",
+      "dist_m": 186
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5457098&dlng=127.2218632&dname=%EC%A7%80%EA%B0%95%ED%95%9C%EC%8B%9D%EB%8B%B9%20%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5457098&dlng=127.2218632&dname=%EC%A7%80%EA%B0%95%ED%95%9C%EC%8B%9D%EB%8B%B9%20%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5457098&lng=127.2218632&name=%EC%A7%80%EA%B0%95%ED%95%9C%EC%8B%9D%EB%8B%B9%20%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/2061585217",
+      "mobile_place": "https://m.place.naver.com/place/2061585217/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1063431994",
+     "name": "카페수우 본점",
+     "category": "카페,디저트",
+     "road_address": "신장동로29번안길 25 수우 하남본점",
+     "x": 127.2119323,
+     "y": 37.5443002,
+     "score": 4.83,
+     "reviews": 3614,
+     "blog_reviews": 1058,
+     "dist_km": 1.0,
+     "phone": "0507-1338-3024",
+     "kakao": {
+      "found": true,
+      "kakao_id": "713239634",
+      "kakao_url": "http://place.map.kakao.com/713239634",
+      "dist_m": 4
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5443002&dlng=127.2119323&dname=%EC%B9%B4%ED%8E%98%EC%88%98%EC%9A%B0%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5443002&dlng=127.2119323&dname=%EC%B9%B4%ED%8E%98%EC%88%98%EC%9A%B0%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5443002&lng=127.2119323&name=%EC%B9%B4%ED%8E%98%EC%88%98%EC%9A%B0%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1063431994",
+      "mobile_place": "https://m.place.naver.com/place/1063431994/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "808697612",
+     "name": "카페웨더 브런치 앤 다이닝",
+     "category": "브런치카페",
+     "road_address": "검단산로 228-8 카페웨더",
+     "x": 127.2286635,
+     "y": 37.5350263,
+     "score": 4.56,
+     "reviews": 9802,
+     "blog_reviews": 3517,
+     "dist_km": 1.1,
+     "phone": "0507-1368-0356",
+     "kakao": {
+      "found": false,
+      "kakao_id": null,
+      "kakao_url": null,
+      "dist_m": null
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5350263&dlng=127.2286635&dname=%EC%B9%B4%ED%8E%98%EC%9B%A8%EB%8D%94%20%EB%B8%8C%EB%9F%B0%EC%B9%98%20%EC%95%A4%20%EB%8B%A4%EC%9D%B4%EB%8B%9D&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5350263&dlng=127.2286635&dname=%EC%B9%B4%ED%8E%98%EC%9B%A8%EB%8D%94%20%EB%B8%8C%EB%9F%B0%EC%B9%98%20%EC%95%A4%20%EB%8B%A4%EC%9D%B4%EB%8B%9D&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5350263&lng=127.2286635&name=%EC%B9%B4%ED%8E%98%EC%9B%A8%EB%8D%94%20%EB%B8%8C%EB%9F%B0%EC%B9%98%20%EC%95%A4%20%EB%8B%A4%EC%9D%B4%EB%8B%9D&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/808697612",
+      "mobile_place": "https://m.place.naver.com/place/808697612/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "11622274",
+   "attraction": "아침고요수목원",
+   "region": "",
+   "drive_min": 51.7,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1043680222",
+     "name": "계화원",
+     "category": "닭갈비",
+     "road_address": "수목원로 276 1층",
+     "x": 127.3607279,
+     "y": 37.7542605,
+     "score": 4.84,
+     "reviews": 6751,
+     "blog_reviews": 1301,
+     "dist_km": 1.5,
+     "phone": "0507-1394-7405",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1310710996",
+      "kakao_url": "http://place.map.kakao.com/1310710996",
+      "dist_m": 0
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.7542605&dlng=127.3607279&dname=%EA%B3%84%ED%99%94%EC%9B%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.7542605&dlng=127.3607279&dname=%EA%B3%84%ED%99%94%EC%9B%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.7542605&lng=127.3607279&name=%EA%B3%84%ED%99%94%EC%9B%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1043680222",
+      "mobile_place": "https://m.place.naver.com/place/1043680222/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "1381131991",
+     "name": "엠스조이",
+     "category": "종합분식",
+     "road_address": "수목원로 427",
+     "x": 127.352525,
+     "y": 37.742726,
+     "score": null,
+     "reviews": 692,
+     "blog_reviews": 1,
+     "dist_km": 0.0,
+     "phone": null,
+     "kakao": {
+      "found": false,
+      "kakao_id": null,
+      "kakao_url": null,
+      "dist_m": null
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.742726&dlng=127.352525&dname=%EC%97%A0%EC%8A%A4%EC%A1%B0%EC%9D%B4&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.742726&dlng=127.352525&dname=%EC%97%A0%EC%8A%A4%EC%A1%B0%EC%9D%B4&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.742726&lng=127.352525&name=%EC%97%A0%EC%8A%A4%EC%A1%B0%EC%9D%B4&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1381131991",
+      "mobile_place": "https://m.place.naver.com/place/1381131991/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "36336512",
+     "name": "나린띄움",
+     "category": "한식",
+     "road_address": "수목원로 236",
+     "x": 127.360694,
+     "y": 37.7574374,
+     "score": 4.66,
+     "reviews": 806,
+     "blog_reviews": 415,
+     "dist_km": 1.8,
+     "phone": "0507-1343-7288",
+     "kakao": {
+      "found": true,
+      "kakao_id": "26517021",
+      "kakao_url": "http://place.map.kakao.com/26517021",
+      "dist_m": 5
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.7574374&dlng=127.360694&dname=%EB%82%98%EB%A6%B0%EB%9D%84%EC%9B%80&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.7574374&dlng=127.360694&dname=%EB%82%98%EB%A6%B0%EB%9D%84%EC%9B%80&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.7574374&lng=127.360694&name=%EB%82%98%EB%A6%B0%EB%9D%84%EC%9B%80&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/36336512",
+      "mobile_place": "https://m.place.naver.com/place/36336512/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1352504324",
+     "name": "구름산카페",
+     "category": "카페,디저트",
+     "road_address": "수목원로 238-81 1동",
+     "x": 127.3582955,
+     "y": 37.7577365,
+     "score": 4.85,
+     "reviews": 3032,
+     "blog_reviews": 769,
+     "dist_km": 1.7,
+     "phone": "0507-1485-2277",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1872277121",
+      "kakao_url": "http://place.map.kakao.com/1872277121",
+      "dist_m": 51
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.7577365&dlng=127.3582955&dname=%EA%B5%AC%EB%A6%84%EC%82%B0%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.7577365&dlng=127.3582955&dname=%EA%B5%AC%EB%A6%84%EC%82%B0%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.7577365&lng=127.3582955&name=%EA%B5%AC%EB%A6%84%EC%82%B0%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1352504324",
+      "mobile_place": "https://m.place.naver.com/place/1352504324/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1575845049",
+     "name": "암파스타레 가평",
+     "category": "브런치카페",
+     "road_address": "수목원로 183 더플래츠카페 2F ,야외 펍 및 셀렉샵 1F",
+     "x": 127.3630148,
+     "y": 37.762016,
+     "score": 4.53,
+     "reviews": 1989,
+     "blog_reviews": 1455,
+     "dist_km": 2.3,
+     "phone": "0507-1317-5529",
+     "kakao": {
+      "found": false,
+      "kakao_id": "1838196623",
+      "kakao_url": "http://place.map.kakao.com/1838196623",
+      "dist_m": 6
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.762016&dlng=127.3630148&dname=%EC%95%94%ED%8C%8C%EC%8A%A4%ED%83%80%EB%A0%88%20%EA%B0%80%ED%8F%89&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.762016&dlng=127.3630148&dname=%EC%95%94%ED%8C%8C%EC%8A%A4%ED%83%80%EB%A0%88%20%EA%B0%80%ED%8F%89&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.762016&lng=127.3630148&name=%EC%95%94%ED%8C%8C%EC%8A%A4%ED%83%80%EB%A0%88%20%EA%B0%80%ED%8F%89&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1575845049",
+      "mobile_place": "https://m.place.naver.com/place/1575845049/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "1770068822",
+   "attraction": "주렁주렁 동물원 영등포점",
+   "region": "",
+   "drive_min": 29.8,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1957250941",
+     "name": "육수정 영등포역본점",
+     "category": "한식",
+     "road_address": "영중로4길 3-1 1층",
+     "x": 126.9068686,
+     "y": 37.517214,
+     "score": 4.86,
+     "reviews": 4807,
+     "blog_reviews": 1590,
+     "dist_km": 0.2,
+     "phone": "0507-1418-6673",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1812805618",
+      "kakao_url": "http://place.map.kakao.com/1812805618",
+      "dist_m": 18
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.517214&dlng=126.9068686&dname=%EC%9C%A1%EC%88%98%EC%A0%95%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%97%AD%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.517214&dlng=126.9068686&dname=%EC%9C%A1%EC%88%98%EC%A0%95%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%97%AD%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.517214&lng=126.9068686&name=%EC%9C%A1%EC%88%98%EC%A0%95%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%97%AD%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1957250941",
+      "mobile_place": "https://m.place.naver.com/place/1957250941/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "1284127567",
+     "name": "하이웨이서울 영등포 타임스퀘어점",
+     "category": "양식",
+     "road_address": "영중로 15 영등포 타임스퀘어 4층 409호",
+     "x": 126.9036564,
+     "y": 37.5173851,
+     "score": 4.83,
+     "reviews": 4943,
+     "blog_reviews": 496,
+     "dist_km": 0.1,
+     "phone": "0507-1319-9280",
+     "kakao": {
+      "found": true,
+      "kakao_id": "557418525",
+      "kakao_url": "http://place.map.kakao.com/557418525",
+      "dist_m": 63
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5173851&dlng=126.9036564&dname=%ED%95%98%EC%9D%B4%EC%9B%A8%EC%9D%B4%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5173851&dlng=126.9036564&dname=%ED%95%98%EC%9D%B4%EC%9B%A8%EC%9D%B4%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5173851&lng=126.9036564&name=%ED%95%98%EC%9D%B4%EC%9B%A8%EC%9D%B4%EC%84%9C%EC%9A%B8%20%EC%98%81%EB%93%B1%ED%8F%AC%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1284127567",
+      "mobile_place": "https://m.place.naver.com/place/1284127567/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1986271524",
+     "name": "봉혜자네주방 타임스퀘어점",
+     "category": "한식",
+     "road_address": "영중로 15 타임스퀘어 지하1층 138-0호",
+     "x": 126.9040454,
+     "y": 37.5171541,
+     "score": 4.75,
+     "reviews": 5803,
+     "blog_reviews": 611,
+     "dist_km": 0.0,
+     "phone": "0507-1402-0761",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1887941519",
+      "kakao_url": "http://place.map.kakao.com/1887941519",
+      "dist_m": 34
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5171541&dlng=126.9040454&dname=%EB%B4%89%ED%98%9C%EC%9E%90%EB%84%A4%EC%A3%BC%EB%B0%A9%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5171541&dlng=126.9040454&dname=%EB%B4%89%ED%98%9C%EC%9E%90%EB%84%A4%EC%A3%BC%EB%B0%A9%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5171541&lng=126.9040454&name=%EB%B4%89%ED%98%9C%EC%9E%90%EB%84%A4%EC%A3%BC%EB%B0%A9%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1986271524",
+      "mobile_place": "https://m.place.naver.com/place/1986271524/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1150077011",
+     "name": "멜라 타임스퀘어점",
+     "category": "브런치카페",
+     "road_address": "영중로 15 103-9호 1층 멜라 타임스퀘어점",
+     "x": 126.9025629,
+     "y": 37.5172145,
+     "score": 4.84,
+     "reviews": 2766,
+     "blog_reviews": 999,
+     "dist_km": 0.2,
+     "phone": "0507-1361-4416",
+     "kakao": {
+      "found": true,
+      "kakao_id": "892801179",
+      "kakao_url": "http://place.map.kakao.com/892801179",
+      "dist_m": 102
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5172145&dlng=126.9025629&dname=%EB%A9%9C%EB%9D%BC%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5172145&dlng=126.9025629&dname=%EB%A9%9C%EB%9D%BC%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5172145&lng=126.9025629&name=%EB%A9%9C%EB%9D%BC%20%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1150077011",
+      "mobile_place": "https://m.place.naver.com/place/1150077011/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "35563006",
+     "name": "안스베이커리 롯데백화점 영등포점",
+     "category": "베이커리",
+     "road_address": "경인로 846 지하 1층",
+     "x": 126.9071345,
+     "y": 37.5161435,
+     "score": null,
+     "reviews": 9831,
+     "blog_reviews": 229,
+     "dist_km": 0.3,
+     "phone": "02-2164-5001",
+     "kakao": {
+      "found": true,
+      "kakao_id": "27340152",
+      "kakao_url": "http://place.map.kakao.com/27340152",
+      "dist_m": 5
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.5161435&dlng=126.9071345&dname=%EC%95%88%EC%8A%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.5161435&dlng=126.9071345&dname=%EC%95%88%EC%8A%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.5161435&lng=126.9071345&name=%EC%95%88%EC%8A%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/35563006",
+      "mobile_place": "https://m.place.naver.com/place/35563006/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "35708336",
+   "attraction": "화담숲",
+   "region": "",
+   "drive_min": 33.9,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "1995663191",
+     "name": "삼본식당 곤지암본점",
+     "category": "한식",
+     "road_address": "도척윗로 205 1층",
+     "x": 127.3197183,
+     "y": 37.3366573,
+     "score": 4.91,
+     "reviews": 2137,
+     "blog_reviews": 2081,
+     "dist_km": 2.7,
+     "phone": "0507-1340-2209",
+     "kakao": {
+      "found": false,
+      "kakao_id": null,
+      "kakao_url": null,
+      "dist_m": null
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.3366573&dlng=127.3197183&dname=%EC%82%BC%EB%B3%B8%EC%8B%9D%EB%8B%B9%20%EA%B3%A4%EC%A7%80%EC%95%94%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.3366573&dlng=127.3197183&dname=%EC%82%BC%EB%B3%B8%EC%8B%9D%EB%8B%B9%20%EA%B3%A4%EC%A7%80%EC%95%94%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.3366573&lng=127.3197183&name=%EC%82%BC%EB%B3%B8%EC%8B%9D%EB%8B%B9%20%EA%B3%A4%EC%A7%80%EC%95%94%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1995663191",
+      "mobile_place": "https://m.place.naver.com/place/1995663191/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "35949217",
+     "name": "곤지암리조트 카페테리아",
+     "category": "양식",
+     "road_address": "도척윗로 278",
+     "x": 127.2935863,
+     "y": 37.3368455,
+     "score": 4.53,
+     "reviews": 2998,
+     "blog_reviews": 43,
+     "dist_km": 0.6,
+     "phone": "031-8026-5540",
+     "kakao": {
+      "found": true,
+      "kakao_id": "21471050",
+      "kakao_url": "http://place.map.kakao.com/21471050",
+      "dist_m": 17
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.3368455&dlng=127.2935863&dname=%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8%20%EC%B9%B4%ED%8E%98%ED%85%8C%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.3368455&dlng=127.2935863&dname=%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8%20%EC%B9%B4%ED%8E%98%ED%85%8C%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.3368455&lng=127.2935863&name=%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8%20%EC%B9%B4%ED%8E%98%ED%85%8C%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/35949217",
+      "mobile_place": "https://m.place.naver.com/place/35949217/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1702200244",
+     "name": "풍년옥",
+     "category": "한식",
+     "road_address": "도척윗로 290-2 1층",
+     "x": 127.3114351,
+     "y": 37.3336165,
+     "score": 4.87,
+     "reviews": 652,
+     "blog_reviews": 142,
+     "dist_km": 2.1,
+     "phone": "0507-1490-9992",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1388878801",
+      "kakao_url": "http://place.map.kakao.com/1388878801",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.3336165&dlng=127.3114351&dname=%ED%92%8D%EB%85%84%EC%98%A5&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.3336165&dlng=127.3114351&dname=%ED%92%8D%EB%85%84%EC%98%A5&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.3336165&lng=127.3114351&name=%ED%92%8D%EB%85%84%EC%98%A5&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1702200244",
+      "mobile_place": "https://m.place.naver.com/place/1702200244/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1568162597",
+     "name": "카페엘림",
+     "category": "카페,디저트",
+     "road_address": "독고개길 382",
+     "x": 127.3118933,
+     "y": 37.3350896,
+     "score": 5.0,
+     "reviews": 330,
+     "blog_reviews": 88,
+     "dist_km": 2.1,
+     "phone": "0507-1357-9420",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1607305774",
+      "kakao_url": "http://place.map.kakao.com/1607305774",
+      "dist_m": 4
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.3350896&dlng=127.3118933&dname=%EC%B9%B4%ED%8E%98%EC%97%98%EB%A6%BC&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.3350896&dlng=127.3118933&dname=%EC%B9%B4%ED%8E%98%EC%97%98%EB%A6%BC&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.3350896&lng=127.3118933&name=%EC%B9%B4%ED%8E%98%EC%97%98%EB%A6%BC&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1568162597",
+      "mobile_place": "https://m.place.naver.com/place/1568162597/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1713578780",
+     "name": "화담숲카페",
+     "category": "카페,디저트",
+     "road_address": "도척윗로 278",
+     "x": 127.2898051,
+     "y": 37.3397315,
+     "score": null,
+     "reviews": 1245,
+     "blog_reviews": 42,
+     "dist_km": 0.1,
+     "phone": null,
+     "kakao": {
+      "found": true,
+      "kakao_id": "1694062659",
+      "kakao_url": "http://place.map.kakao.com/1694062659",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.3397315&dlng=127.2898051&dname=%ED%99%94%EB%8B%B4%EC%88%B2%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.3397315&dlng=127.2898051&dname=%ED%99%94%EB%8B%B4%EC%88%B2%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.3397315&lng=127.2898051&name=%ED%99%94%EB%8B%B4%EC%88%B2%EC%B9%B4%ED%8E%98&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1713578780",
+      "mobile_place": "https://m.place.naver.com/place/1713578780/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  },
+  {
+   "attraction_id": "1253107551",
+   "attraction": "리프플레이스",
+   "region": "",
+   "drive_min": 45.4,
+   "meals": [
+    {
+     "role": "1순위 대표",
+     "place_id": "2008307993",
+     "name": "삼봉막국수",
+     "category": "한식",
+     "road_address": "모래실로 1 1층, 2층",
+     "x": 127.3097049,
+     "y": 37.1931686,
+     "score": 4.74,
+     "reviews": 296,
+     "blog_reviews": 26,
+     "dist_km": 1.7,
+     "phone": "031-332-3339",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1137615551",
+      "kakao_url": "http://place.map.kakao.com/1137615551",
+      "dist_m": 1
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1931686&dlng=127.3097049&dname=%EC%82%BC%EB%B4%89%EB%A7%89%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1931686&dlng=127.3097049&dname=%EC%82%BC%EB%B4%89%EB%A7%89%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1931686&lng=127.3097049&name=%EC%82%BC%EB%B4%89%EB%A7%89%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/2008307993",
+      "mobile_place": "https://m.place.naver.com/place/2008307993/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 아이 입맛",
+     "place_id": "1625477215",
+     "name": "막국수예원",
+     "category": "막국수",
+     "road_address": "동부로 829 1층",
+     "x": 127.2778395,
+     "y": 37.1897331,
+     "score": null,
+     "reviews": 495,
+     "blog_reviews": 40,
+     "dist_km": 2.4,
+     "phone": "0507-1360-9074",
+     "kakao": {
+      "found": true,
+      "kakao_id": "1950069928",
+      "kakao_url": "http://place.map.kakao.com/1950069928",
+      "dist_m": 0
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1897331&dlng=127.2778395&dname=%EB%A7%89%EA%B5%AD%EC%88%98%EC%98%88%EC%9B%90&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1897331&dlng=127.2778395&dname=%EB%A7%89%EA%B5%AD%EC%88%98%EC%98%88%EC%9B%90&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1897331&lng=127.2778395&name=%EB%A7%89%EA%B5%AD%EC%88%98%EC%98%88%EC%9B%90&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1625477215",
+      "mobile_place": "https://m.place.naver.com/place/1625477215/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "3순위 속 편한 한식",
+     "place_id": "1537364109",
+     "name": "호수샤브칼국수",
+     "category": "한식",
+     "road_address": "원양로 279-8",
+     "x": 127.3042623,
+     "y": 37.1836282,
+     "score": null,
+     "reviews": 227,
+     "blog_reviews": 59,
+     "dist_km": 0.5,
+     "phone": "0507-1337-2588",
+     "kakao": {
+      "found": false,
+      "kakao_id": null,
+      "kakao_url": null,
+      "dist_m": null
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1836282&dlng=127.3042623&dname=%ED%98%B8%EC%88%98%EC%83%A4%EB%B8%8C%EC%B9%BC%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1836282&dlng=127.3042623&dname=%ED%98%B8%EC%88%98%EC%83%A4%EB%B8%8C%EC%B9%BC%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1836282&lng=127.3042623&name=%ED%98%B8%EC%88%98%EC%83%A4%EB%B8%8C%EC%B9%BC%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1537364109",
+      "mobile_place": "https://m.place.naver.com/place/1537364109/home"
+     },
+     "tier": "간이"
+    }
+   ],
+   "cafes": [
+    {
+     "role": "1순위 전망·베이커리",
+     "place_id": "1556804344",
+     "name": "사암그레이커피",
+     "category": "브런치카페",
+     "road_address": "농촌파크로 75 사암그레이커피",
+     "x": 127.3006111,
+     "y": 37.1741601,
+     "score": 4.88,
+     "reviews": 1067,
+     "blog_reviews": 378,
+     "dist_km": 0.6,
+     "phone": "031-333-6165",
+     "kakao": {
+      "found": true,
+      "kakao_id": "170101026",
+      "kakao_url": "http://place.map.kakao.com/170101026",
+      "dist_m": 0
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1741601&dlng=127.3006111&dname=%EC%82%AC%EC%95%94%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%BB%A4%ED%94%BC&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1741601&dlng=127.3006111&dname=%EC%82%AC%EC%95%94%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%BB%A4%ED%94%BC&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1741601&lng=127.3006111&name=%EC%82%AC%EC%95%94%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%BB%A4%ED%94%BC&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1556804344",
+      "mobile_place": "https://m.place.naver.com/place/1556804344/home"
+     },
+     "tier": "간이"
+    },
+    {
+     "role": "2순위 정원·잔디",
+     "place_id": "1445956525",
+     "name": "카페 앙 그랑",
+     "category": "브런치카페",
+     "road_address": "원양로124번길 82",
+     "x": 127.3137092,
+     "y": 37.1757228,
+     "score": null,
+     "reviews": 1857,
+     "blog_reviews": 1414,
+     "dist_km": 1.1,
+     "phone": "0507-1493-0425",
+     "kakao": {
+      "found": true,
+      "kakao_id": "477968209",
+      "kakao_url": "http://place.map.kakao.com/477968209",
+      "dist_m": 3
+     },
+     "nav": {
+      "app_navigation": "nmap://navigation?dlat=37.1757228&dlng=127.3137092&dname=%EC%B9%B4%ED%8E%98%20%EC%95%99%20%EA%B7%B8%EB%9E%91&appname=kr.familytrip.misa",
+      "app_route": "nmap://route/car?dlat=37.1757228&dlng=127.3137092&dname=%EC%B9%B4%ED%8E%98%20%EC%95%99%20%EA%B7%B8%EB%9E%91&appname=kr.familytrip.misa",
+      "app_place": "nmap://place?lat=37.1757228&lng=127.3137092&name=%EC%B9%B4%ED%8E%98%20%EC%95%99%20%EA%B7%B8%EB%9E%91&appname=kr.familytrip.misa",
+      "web_place": "https://map.naver.com/p/entry/place/1445956525",
+      "mobile_place": "https://m.place.naver.com/place/1445956525/home"
+     },
+     "tier": "간이"
+    }
+   ]
+  }
+ ]
+}
