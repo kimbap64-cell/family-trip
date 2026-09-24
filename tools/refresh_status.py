@@ -77,7 +77,7 @@ def main():
                         changes.append({"name": name, "what": f"카카오 별점 {kk['rating']} → {ss['average_score']}"})
                     kk.update({"status": st, "rating": ss.get("average_score", kk.get("rating")), "review_count": ss.get("review_count", kk.get("review_count"))})
                     am = (p.get("place_add_info") or {}).get("ai_mate") or {}
-                    kk["facility_icons"] = [x.get("text") for x in am.get("store_facility_icons", [])] or kk.get("facility_icons")
+                    kk["facility_icons"] = [x.get("text") for x in am.get("store_facility_icons", [])] or (kk.get("facility_icons") or [])
             if n % 10 == 0:
                 print(f"  점검 {n}건 ({time.time()-t0:.0f}s)", flush=True)
     log = {"checked_at": time.strftime("%Y-%m-%d %H:%M"), "date": str(date.today()), "checked": n, "changes": changes, "closures": closures, "failures": failures}

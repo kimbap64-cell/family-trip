@@ -109,11 +109,12 @@ def score_place(p, yt, scope="local"):
     # 가족 적합도
     ev = p["evidence"]
     kids = {e["label"] for e in ev["kids"]}
-    if "유아의자" in (nd.get("conveniences") or []) or any("유아" in (i or "") for i in k.get("facility_icons", [])):
+    fac = k.get("facility_icons") or []  # 키가 있어도 None 일 수 있음(카카오 패널에 편의시설 없음)
+    if "유아의자" in (nd.get("conveniences") or []) or any("유아" in (i or "") for i in fac):
         kids.add("유아의자")
     mode_a = min(PS["mode_a_max"], 3 * len(kids & set(KIDS_LABELS)))
     pos = {e["label"] for e in ev["b_pos"]}
-    if "주차" in (nd.get("conveniences") or []) or "주차가능" in k.get("facility_icons", []):
+    if "주차" in (nd.get("conveniences") or []) or "주차가능" in fac:
         pos.add("주차")
     neg = {e["label"] for e in ev["b_neg"]}
     if kind == "attraction":

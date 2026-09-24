@@ -33,6 +33,11 @@ jobs:
       - name: 라이브러리 설치
         run: pip install requests beautifulsoup4 lxml
 
+      - name: 시험 (안전캡·점수화 내성) — 실패하면 점검을 시작하지 않음
+        run: |
+          python tools/test_quota_guard.py
+          python tools/test_score_robust.py
+
       - name: 카카오 토큰 준비 (Secrets 가 등록돼 있을 때만)
         env:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
