@@ -1,0 +1,63 @@
+{
+  "_doc": "추천 기준 설정. 근거와 설명은 docs/SCORING.md. 값은 조정 가능하며 코드는 이 파일만 읽는다.",
+  "home": {
+    "name": "미사강변아란티움",
+    "address": "경기도 하남시 미사강변중앙로 120",
+    "x": 127.1925648, "y": 37.5580056,
+    "source": "네이버 플레이스(아파트) 좌표. 1차본이 적은 '미사강변루나리움'은 오기"
+  },
+
+  "gates": {
+    "max_drive_min_hard": 90,
+    "preferred_drive_min": 60,
+    "min_naver_rating": {"attraction": 4.2, "restaurant": 4.3, "cafe": 4.3, "camping": 4.2},
+    "high_rating_badge": 4.5,
+    "min_review_count": {"attraction": 100, "restaurant": 100, "cafe": 100, "camping": 30},
+    "max_meal_cost_4p_krw": 100000,
+    "require_open": true,
+    "require_min_sources": 1,
+    "stale_evidence_months": 24
+  },
+
+  "place_score": {
+    "reputation_max": 35,
+    "bayes_prior_rating": 4.2,
+    "bayes_prior_weight": 100,
+    "rating_points": [[4.7, 25], [4.5, 20], [4.3, 12], [4.2, 6]],
+    "review_scale_max": 10,
+    "evidence_max": 25,
+    "source_count_points": {"1": 8, "2": 15, "3": 20},
+    "best_source_bonus_max": 5,
+    "family_fit_max": 25,
+    "mode_a_max": 12,
+    "mode_b_max": 13,
+    "practicality_max": 15,
+    "drive_points": [[30, 8], [60, 6], [90, 2]],
+    "cost_points": [[70000, 7], [100000, 5]],
+    "cost_unknown_points": 2
+  },
+
+  "source_score": {
+    "recency_max": 25,
+    "recency_points_months": [[6, 25], [12, 20], [24, 12], [36, 6]],
+    "engagement_max": 25,
+    "channel_max": 20,
+    "info_density_max": 20,
+    "sponsor_penalty": -10
+  },
+
+  "recommend_tiers": {
+    "recommended": {"min_score": 70, "needs_gate_pass": true},
+    "conditional": {"min_score": 55, "needs_gate_pass": true},
+    "insufficient": {"note": "게이트 통과했으나 근거/리뷰 부족 -> 후보로만 표시, 추천 아님"}
+  },
+
+  "evidence_keywords": {
+    "_mode_b_note": "아버님은 파킨슨병이지만 휠체어는 타지 않고 걸으신다(2026-09-24 확인). 핵심은 낙상 위험 요소: 계단·경사·미끄럽거나 울퉁불퉁한 길·긴 보행거리·앉아 쉴 곳·입식 좌석. 휠체어 접근성 자체는 기준이 아님",
+    "barrier_free_positive": ["무장애", "평지", "유모차", "엘리베이터", "경사 없", "완만", "데크길", "주차장 바로", "입구 바로", "입식", "테이블석", "벤치", "쉼터", "그늘", "쉬어", "짧은 거리", "가까"],
+    "barrier_free_negative": ["계단", "가파", "경사가", "급경사", "좌식", "오르막", "언덕", "자갈", "비포장", "미끄", "많이 걸", "한참 걸", "돌길", "흔들다리"],
+    "kids_positive": ["먹이", "체험", "놀이터", "물놀이", "방방", "트램펄린", "동물", "잔디", "키즈", "썰매", "수확"],
+    "price": ["원", "가격", "만원", "천원", "메뉴"],
+    "closure": ["폐업", "문 닫", "휴업", "이전했", "없어졌", "영업 종료"]
+  }
+}

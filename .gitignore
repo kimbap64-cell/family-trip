@@ -1,5 +1,11 @@
 # 개인 민감 정보 보호
 kakao_token.json
+.env
+*.key
+
+# 대용량 원천 수집물 (재생성 가능) - 큐레이션 결과만 커밋
+data/sources/transcripts/
+data/cache/
 
 # 파이썬 캐시
 __pycache__/

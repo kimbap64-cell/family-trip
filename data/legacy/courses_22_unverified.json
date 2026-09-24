@@ -1,0 +1,1524 @@
+{
+ "_warning": "Antigravity(Gemini) 1차본 22선. 실제 출처 검증 전 후보 목록일 뿐이며 그대로 사용 금지.",
+ "_recovered_from": "antigravity_session/raw/transcript_full.jsonl step 385 (저장 실패했던 명령어)",
+ "courses": [
+  {
+   "id": "course-01",
+   "region": "동부",
+   "area_name": "남양주시",
+   "duration_min": 25,
+   "course_title": "남양주 산들소리수목원 동물교감 & 별내 불고기쌈밥 코스",
+   "theme": "animal",
+   "theme_name": "동물교감",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 60,000원",
+   "tags": [
+    "동물먹이체험",
+    "무장애평지",
+    "당일치기",
+    "초근접"
+   ],
+   "spot1": {
+    "name": "산들소리수목원",
+    "category": "자연·동물체험",
+    "address": "경기 남양주시 불암산로 59번길 48-31",
+    "description": "불암산 자락 토끼·다람쥐 먹이주기, 뗏목 타기, 맨발 산책로 조성된 힐링 수목원",
+    "mode4_tip": "토끼 먹이주기 바구니 들고 탐험! 숲속 해먹 쉼터에서 낮잠 타임까지 즐길 수 있어요.",
+    "mode6_tip": "입구부터 메인 카페까지 완만한 평지길로 어르신 관람에 부담이 없습니다."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "별내 목향원 석쇠불고기쌈밥",
+     "tag": "시그니처",
+     "menu": "유기농 석쇠불고기 쌈밥 정식",
+     "price_4p": "약 60,000원",
+     "seating": "입식 테이블 완비"
+    },
+    {
+     "rank": 2,
+     "name": "별내 황소고집 한우국밥",
+     "tag": "가성비한식",
+     "menu": "한우국밥 + 수육 세트",
+     "price_4p": "약 48,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "별내 금강순두부",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 정식",
+     "price_4p": "약 36,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "보나슈 (수목원 내 힐링베이커리)",
+     "tag": "전망베이커리",
+     "menu": "수제 단팥빵·산들라떼",
+     "features": "수목원 전경 야외 테라스, 휠체어 진입 가능"
+    },
+    {
+     "rank": 2,
+     "name": "카페 라온숨 (잔디정원)",
+     "tag": "야외잔디",
+     "menu": "아인슈페너·에이드",
+     "features": "넓은 잔디마당, 아이 뛰어놀기 가능"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=산들소리수목원+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=산들소리수목원+후기"
+  },
+  {
+   "id": "course-02",
+   "region": "동부",
+   "area_name": "남양주 조안",
+   "duration_min": 35,
+   "course_title": "남양주 물의정원 & 두물머리 물안개 감성 코스",
+   "theme": "water",
+   "theme_name": "바다·리버뷰",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 55,000원",
+   "tags": [
+    "한강뷰",
+    "물안개",
+    "평지데크",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "남양주 물의정원",
+    "category": "강변 생태공원",
+    "address": "경기 남양주시 조안면 북한강로 398",
+    "description": "북한강과 남한강이 합류하는 지점의 아름다운 수생식물 정원. 사계절 물안개 명소.",
+    "mode4_tip": "꽃물결 사이 뛰어다니며 자연 감수성 UP! 자전거 대여도 가능해요.",
+    "mode6_tip": "전 구간 평지 목재 데크길로 휠체어·유모차 이동에 최적입니다."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "조안 능내리 한우숯불갈비",
+     "tag": "시그니처",
+     "menu": "한우 갈비살 + 된장찌개",
+     "price_4p": "약 72,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "능내역 팔당칼국수",
+     "tag": "가성비면류",
+     "menu": "바지락칼국수 + 해물파전",
+     "price_4p": "약 44,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "두물머리 들꽃세상 솥밥",
+     "tag": "속편한한식",
+     "menu": "돌솥밥 정식 + 맑은 된장국",
+     "price_4p": "약 48,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "카페 웨더 (팔당호수뷰 대형베이커리)",
+     "tag": "전망베이커리",
+     "menu": "소금빵·브런치 세트",
+     "features": "팔당호 전망, 엘리베이터, 주차 무료"
+    },
+    {
+     "rank": 2,
+     "name": "두물머리 느린마을 카페",
+     "tag": "강변감성",
+     "menu": "팥빙수·유기농 쑥라떼",
+     "features": "강변 평지 야외석, 유모차 접근 용이"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=남양주+물의정원+두물머리",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=물의정원+두물머리+아이랑+후기"
+  },
+  {
+   "id": "course-03",
+   "region": "동부",
+   "area_name": "남양주 별내",
+   "duration_min": 20,
+   "course_title": "남양주 별내 불암산 생태숲 & 별내 맛집 초근접 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": false,
+   "cost_estimate_4p": "약 52,000원",
+   "tags": [
+    "20분초근접",
+    "숲놀이터",
+    "맨발걷기",
+    "초등추천"
+   ],
+   "spot1": {
+    "name": "불암산 생태숲 놀이터",
+    "category": "숲속 자연 놀이터",
+    "address": "경기 남양주시 별내동 불암산 등산로 입구",
+    "description": "별내 신도시 바로 옆 불암산 자락의 맨발걷기 황토길과 어린이 숲 놀이터.",
+    "mode4_tip": "맨발 황토길 걷기 후 계곡물에 발 씻기, 숲속 나무 그네 타기로 아이들이 좋아해요.",
+    "mode6_tip": "초입 평지 황토길 구간만 이용 가능. 급경사 구간은 피해주세요."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "별내 불굽이 한우·돼지 숯불구이",
+     "tag": "시그니처",
+     "menu": "국내산 돼지목살+냉면 세트",
+     "price_4p": "약 58,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "별내 오리온 칼국수",
+     "tag": "가성비면류",
+     "menu": "들깨칼국수 + 수제비",
+     "price_4p": "약 38,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "별내 두부마을",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 두부전 정식",
+     "price_4p": "약 40,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "별내 그랑카페 (대형복합카페)",
+     "tag": "대형베이커리",
+     "menu": "크루아상·밀크티",
+     "features": "대형 주차장, 1층 단층, 키즈존 완비"
+    },
+    {
+     "rank": 2,
+     "name": "숲카페 나무 (별내숲 인근)",
+     "tag": "야외테라스",
+     "menu": "아메리카노·수제청에이드",
+     "features": "숲속 야외 평상, 아이 뛰어놀기 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=불암산+별내+아이랑+숲놀이터",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=별내+불암산+아이랑+후기"
+  },
+  {
+   "id": "course-04",
+   "region": "동부",
+   "area_name": "가평군",
+   "duration_min": 60,
+   "course_title": "가평 아침고요수목원 & 자라섬 감성 피크닉 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 68,000원",
+   "tags": [
+    "사계절꽃",
+    "자라섬",
+    "피크닉",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "아침고요수목원",
+    "category": "수목원·정원",
+    "address": "경기 가평군 상면 수목원로 432",
+    "description": "한국 최초의 원예수목원. 봄 튤립, 여름 연꽃, 가을 단풍, 겨울 환상 빛 정원으로 유명.",
+    "mode4_tip": "아이와 함께 포토존 투어! 계절마다 다른 꽃 테마로 매번 새로운 경험.",
+    "mode6_tip": "주요 관람로 전 구간 평지 포장도로. 전동 카트 대여 가능(유료)."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "가평 황토현 닭갈비 본점",
+     "tag": "시그니처",
+     "menu": "춘천식 닭갈비 + 막국수",
+     "price_4p": "약 60,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "가평 잣향기 솥밥 정식",
+     "tag": "가성비한식",
+     "menu": "잣 향 솥밥 + 두부조림",
+     "price_4p": "약 48,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "가평 청평 한방 순두부",
+     "tag": "속편한한식",
+     "menu": "한방 순두부찌개 정식",
+     "price_4p": "약 40,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "자라섬 씨앗카페 (섬 내 베이커리)",
+     "tag": "자라섬뷰",
+     "menu": "수제잼 스콘·아이스크림",
+     "features": "자라섬 강변 평지, 유모차 접근 용이"
+    },
+    {
+     "rank": 2,
+     "name": "가평 어비계곡 카페나리 (야외정원)",
+     "tag": "계곡감성",
+     "menu": "수박주스·팥빙수",
+     "features": "넓은 야외 평상, 계곡 소리 힐링"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=가평+아침고요수목원+자라섬",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=아침고요수목원+아이랑+후기"
+  },
+  {
+   "id": "course-05",
+   "region": "동부",
+   "area_name": "가평군",
+   "duration_min": 55,
+   "course_title": "가평 쁘띠프랑스 & 청평호수 유람선 코스",
+   "theme": "craft",
+   "theme_name": "공예·수확",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 72,000원",
+   "tags": [
+    "프랑스마을",
+    "유람선",
+    "호수뷰",
+    "아이체험"
+   ],
+   "spot1": {
+    "name": "쁘띠프랑스",
+    "category": "문화체험·테마파크",
+    "address": "경기 가평군 청평면 호반로 1063",
+    "description": "프랑스 알자스 마을을 재현한 문화마을. 어린왕자 조형물, 마리오네트 인형극 등 체험 풍부.",
+    "mode4_tip": "어린왕자 테마 포토존, 인형극 관람, 승마체험까지! 아이들이 두 눈이 커져요.",
+    "mode6_tip": "마을 내 주요 동선 평지 포장. 경사진 구간 일부 있으니 경사 낮은 코스만 이용 가능."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "청평 산장 닭갈비",
+     "tag": "시그니처",
+     "menu": "숯불 닭갈비 + 물막국수",
+     "price_4p": "약 64,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "청평호 매운탕·쏘가리 매운탕",
+     "tag": "민물생선",
+     "menu": "쏘가리 매운탕 + 메기탕",
+     "price_4p": "약 60,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "청평 콩마루 두부정식",
+     "tag": "속편한한식",
+     "menu": "청국장 + 두부전 + 솥밥",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "청평 에덴파라다이스 호텔 루프탑카페",
+     "tag": "호수뷰전망",
+     "menu": "아메리카노·케이크",
+     "features": "청평호수 파노라마뷰, 엘리베이터 완비"
+    },
+    {
+     "rank": 2,
+     "name": "피노키오 카페 (쁘띠프랑스 인근)",
+     "tag": "유럽풍정원",
+     "menu": "버블티·마카롱",
+     "features": "야외 유럽풍 정원, 유모차 이동 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=가평+쁘띠프랑스+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=쁘띠프랑스+청평+가족여행+후기"
+  },
+  {
+   "id": "course-06",
+   "region": "동부",
+   "area_name": "양평군",
+   "duration_min": 40,
+   "course_title": "양평 두물머리 & 세미원 수국정원 감성 코스",
+   "theme": "water",
+   "theme_name": "바다·리버뷰",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 58,000원",
+   "tags": [
+    "두물머리",
+    "수국",
+    "연꽃",
+    "평지데크"
+   ],
+   "spot1": {
+    "name": "세미원 수생식물원",
+    "category": "수생식물 정원",
+    "address": "경기 양평군 양서면 양수로 93",
+    "description": "한강변에 조성된 수생식물원. 여름 수국·연꽃, 가을 코스모스, 사계절 아름다운 물 정원.",
+    "mode4_tip": "수련과 연꽃 사이 산책로에서 사진 찍기, 야외 물놀이 공간에서 발 담그기!",
+    "mode6_tip": "전 구간 평지 데크·포장로. 입구에서 전동 카트 대여 가능. 화장실 매우 가깝습니다."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "양평 들판 한우 숯불갈비",
+     "tag": "시그니처",
+     "menu": "한우 채끝·갈비 세트",
+     "price_4p": "약 72,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "양평 신내 얼큰이 칼국수",
+     "tag": "가성비면류",
+     "menu": "들깨칼국수 + 파전",
+     "price_4p": "약 40,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "양평 황토방 순두부보리밥",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 보리밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "카페 두물머리 (한강뷰 대형카페)",
+     "tag": "한강뷰베이커리",
+     "menu": "크로플·아이스크림라떼",
+     "features": "한강 파노라마뷰, 넓은 주차장, 1층 단층"
+    },
+    {
+     "rank": 2,
+     "name": "카페 양서면 고래 (야외정원)",
+     "tag": "감성야외",
+     "menu": "팥빙수·매실에이드",
+     "features": "넓은 야외 잔디, 어린이 뛰어놀기 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=양평+두물머리+세미원+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=세미원+두물머리+가족나들이+후기"
+  },
+  {
+   "id": "course-07",
+   "region": "서부",
+   "area_name": "인천 송도",
+   "duration_min": 60,
+   "course_title": "송도 센트럴파크 꽃사슴정원 & 트라이보울 코스",
+   "theme": "animal",
+   "theme_name": "동물교감",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 65,000원",
+   "tags": [
+    "꽃사슴",
+    "센트럴파크",
+    "해수공원",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "송도 센트럴파크 & 꽃사슴 정원",
+    "category": "도심 해수공원·동물교감",
+    "address": "인천 연수구 센트럴로 163",
+    "description": "해수를 채운 인공 수로와 꽃사슴 먹이주기 체험, 수상 택시 탑승이 가능한 도심 속 공원.",
+    "mode4_tip": "꽃사슴 먹이주기, 수상택시 탑승, 공원 자전거 대여까지! 아이들이 하루 종일 즐겨요.",
+    "mode6_tip": "전 구간 평지 포장 보도, 화장실 수시 배치. 엘리베이터 있는 트라이보울에서 쉬실 수 있어요."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "송도 꼬막집 & 생선구이 (해산물전문)",
+     "tag": "시그니처",
+     "menu": "꼬막비빔밥 + 고등어구이 세트",
+     "price_4p": "약 60,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "송도 신포국제시장 만두·닭강정",
+     "tag": "시장먹거리",
+     "menu": "왕만두 + 닭강정 세트",
+     "price_4p": "약 35,000원",
+     "seating": "서서 먹기/포장"
+    },
+    {
+     "rank": 3,
+     "name": "송도 청담 두부전문점",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 솥밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "케이슨24 (센트럴파크 바다뷰 루프탑)",
+     "tag": "전망루프탑",
+     "menu": "아인슈페너·베이글",
+     "features": "해수공원 파노라마뷰, 엘리베이터 완비"
+    },
+    {
+     "rank": 2,
+     "name": "스타벅스 센트럴파크점 (야외테라스)",
+     "tag": "공원테라스",
+     "menu": "아이스라떼·케이크",
+     "features": "공원 직접 연결, 유모차 접근 용이"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=송도+센트럴파크+아이랑+꽃사슴",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=송도+센트럴파크+가족나들이+후기"
+  },
+  {
+   "id": "course-08",
+   "region": "서부",
+   "area_name": "인천 영종도",
+   "duration_min": 70,
+   "course_title": "영종도 을왕리해변 & 마시안해변 갯벌체험 코스",
+   "theme": "water",
+   "theme_name": "바다·리버뷰",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 70,000원",
+   "tags": [
+    "서해바다",
+    "갯벌체험",
+    "낙조명소",
+    "해산물"
+   ],
+   "spot1": {
+    "name": "을왕리해변 & 마시안해변",
+    "category": "서해 해변·갯벌체험",
+    "address": "인천 중구 을왕동 을왕리해변",
+    "description": "수도권에서 가장 가까운 서해 모래사장. 갯벌 조개잡기, 낙조 감상, 해산물 구이 즐기기.",
+    "mode4_tip": "갯벌에서 조개·게 잡기 체험은 아이들 최고의 자연 교육! 장화와 갈아입을 옷 필수.",
+    "mode6_tip": "을왕리 해변 입구에서 해변까지 평지 포장. 갯벌 진입은 어려우므로 해변 산책로 이용 권장."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "을왕리 조개구이 전문점 (대포집)",
+     "tag": "시그니처",
+     "menu": "조개 모듬구이 + 해물탕",
+     "price_4p": "약 70,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "마시안 낙지볶음·해물칼국수",
+     "tag": "가성비해산물",
+     "menu": "낙지볶음 + 바지락칼국수",
+     "price_4p": "약 52,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "영종도 황해 솥밥·된장국",
+     "tag": "속편한한식",
+     "menu": "솥밥 + 맑은 된장국 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "을왕리 오션뷰 카페 노을 (바다전망)",
+     "tag": "낙조뷰카페",
+     "menu": "생딸기라떼·갈레트",
+     "features": "서해 낙조 전망, 1층 단층, 넓은 주차장"
+    },
+    {
+     "rank": 2,
+     "name": "마시안 갯벌카페 (야외테라스)",
+     "tag": "갯벌야외",
+     "menu": "수제 팥빙수·수제에이드",
+     "features": "갯벌 조망 야외 평상, 아이들 모래놀이 가능"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=영종도+을왕리+마시안+갯벌체험",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=을왕리해변+아이랑+갯벌체험+후기"
+  },
+  {
+   "id": "course-09",
+   "region": "서부",
+   "area_name": "시흥시",
+   "duration_min": 50,
+   "course_title": "시흥 갯골생태공원 & 옥구공원 갯벌생태 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 55,000원",
+   "tags": [
+    "갯골생태",
+    "내만갯벌",
+    "자전거",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "시흥 갯골생태공원",
+    "category": "갯벌·생태공원",
+    "address": "경기 시흥시 동서로 287",
+    "description": "수도권 유일 내만갯벌 생태공원. 흔들다리, 수상 데크길, 계절 꽃밭, 생태 탐조 프로그램.",
+    "mode4_tip": "갯벌 수상 데크길 걷기, 흔들다리 건너기, 탐조 쌍안경 체험이 아이들에게 인기!",
+    "mode6_tip": "전 구간 평지 목재 데크 및 포장로. 전동 카트 대여 가능. 화장실 수시 완비."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "시흥 오이도 조개구이·해물찜",
+     "tag": "시그니처",
+     "menu": "모듬 조개구이 + 해물탕",
+     "price_4p": "약 65,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "시흥 정왕동 참치회·초밥",
+     "tag": "일식가성비",
+     "menu": "참치 모듬회 + 우동",
+     "price_4p": "약 58,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "오이도 갯바위 순두부",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 전복죽",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "오이도 빨간 등대 카페 (바다전망)",
+     "tag": "등대뷰베이커리",
+     "menu": "소금빵·핸드드립",
+     "features": "오이도 등대 바다뷰, 1층 단층 입식"
+    },
+    {
+     "rank": 2,
+     "name": "갯골공원 내 피크닉 카페",
+     "tag": "야외피크닉",
+     "menu": "수제 에이드·아이스크림",
+     "features": "공원 내 평지 야외 테이블, 유모차 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=시흥+갯골생태공원+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=시흥+갯골생태공원+가족나들이+후기"
+  },
+  {
+   "id": "course-10",
+   "region": "서부",
+   "area_name": "인천 강화도",
+   "duration_min": 80,
+   "course_title": "강화도 동막해변 & 강화역사박물관 문화체험 코스",
+   "theme": "water",
+   "theme_name": "바다·리버뷰",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 68,000원",
+   "tags": [
+    "서해갯벌",
+    "동막해변",
+    "역사체험",
+    "낙조"
+   ],
+   "spot1": {
+    "name": "강화 동막해변",
+    "category": "서해 해변·갯벌",
+    "address": "인천 강화군 화도면 동막리",
+    "description": "강화도 남단 노을 명소. 썰물 시 광활한 갯벌 체험, 밀물 시 해수욕 즐길 수 있는 사계절 해변.",
+    "mode4_tip": "썰물 때 갯벌에서 조개·갯지렁이 잡기! 물 빠지는 시간 확인 후 방문 권장.",
+    "mode6_tip": "해변 진입부 평지 포장. 갯벌 진입 어려우니 해변 정자와 산책로 활용 권장."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "강화 외포리 젓갈·조개구이",
+     "tag": "시그니처",
+     "menu": "강화 새우젓 + 조개 모둠구이",
+     "price_4p": "약 65,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "강화 순무 비빔밥·된장찌개",
+     "tag": "향토한식",
+     "menu": "강화 순무 비빔밥 + 된장찌개",
+     "price_4p": "약 48,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "강화 두부마을 순두부전골",
+     "tag": "속편한한식",
+     "menu": "두부전골 + 솥밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "강화 조양방직 (감성빈티지카페)",
+     "tag": "빈티지복합카페",
+     "menu": "쑥라떼·크로플",
+     "features": "1940년대 방직공장 개조, 1층 평지, 넓은 공간"
+    },
+    {
+     "rank": 2,
+     "name": "강화 동막 낙조카페 (야외파라솔)",
+     "tag": "낙조야외",
+     "menu": "아메리카노·팥빙수",
+     "features": "서해 낙조 정면, 야외 평지 테이블"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=강화도+동막해변+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=강화도+동막해변+가족여행+후기"
+  },
+  {
+   "id": "course-11",
+   "region": "서부",
+   "area_name": "인천 소래포구",
+   "duration_min": 55,
+   "course_title": "인천 소래포구 & 소래습지생태공원 해산물 코스",
+   "theme": "water",
+   "theme_name": "바다·리버뷰",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 70,000원",
+   "tags": [
+    "소래포구",
+    "수산시장",
+    "갯벌산책",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "소래포구 & 소래습지생태공원",
+    "category": "항구·수산시장·습지공원",
+    "address": "인천 남동구 소래포구 어시장",
+    "description": "경기·인천 최대 수산물 시장과 바로 옆 소래습지생태공원 조합. 갯벌 탐조·데크 산책 가능.",
+    "mode4_tip": "포구 활어회 체험, 습지공원 데크에서 철새 탐조, 수산시장에서 싱싱한 해산물 맛보기!",
+    "mode6_tip": "습지공원 전 구간 평지 목재 데크, 어시장 내 평지 입식 테이블 식당 다수."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "소래포구 꽃게찜·해물탕",
+     "tag": "시그니처",
+     "menu": "꽃게찜 + 해물탕 세트",
+     "price_4p": "약 75,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "소래 새우볶음밥·새우튀김",
+     "tag": "가성비해산물",
+     "menu": "새우볶음밥 + 새우튀김",
+     "price_4p": "약 48,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "소래 낙지연포탕·두부찌개",
+     "tag": "속편한한식",
+     "menu": "낙지연포탕 + 두부찌개",
+     "price_4p": "약 52,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "소래포구 뷰 카페 & 대형 베이커리",
+     "tag": "포구뷰베이커리",
+     "menu": "소금빵·핸드드립",
+     "features": "포구 전망, 1층 단층 입식, 엘리베이터"
+    },
+    {
+     "rank": 2,
+     "name": "소래습지 공원 내 피크닉 광장",
+     "tag": "야외피크닉",
+     "menu": "이동식 아이스크림·음료",
+     "features": "평지 데크 야외 벤치, 유모차·휠체어 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=소래포구+아이랑+해산물",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=소래포구+가족나들이+후기"
+  },
+  {
+   "id": "course-12",
+   "region": "서부",
+   "area_name": "부천시",
+   "duration_min": 45,
+   "course_title": "부천 한국만화박물관 & 원미산 진달래 코스",
+   "theme": "kids",
+   "theme_name": "키즈특화",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 55,000원",
+   "tags": [
+    "만화박물관",
+    "키즈체험",
+    "부천역세권",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "한국만화박물관",
+    "category": "실내 문화체험 박물관",
+    "address": "경기 부천시 길주로 1",
+    "description": "국내 최대 만화 박물관. 옛날 만화방 체험, 4D 영상관, 캐릭터 체험관, 어린이 만화 열람실.",
+    "mode4_tip": "아이들이 직접 캐릭터 그리기, 4D 영상 체험! 비 오는 날 최고의 실내 여행지.",
+    "mode6_tip": "전 구간 엘리베이터, 무장애 평지. 실내 냉난방 완비, 체력 부담 없이 관람 가능."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "부천 중동 뼈해장국 원조집",
+     "tag": "시그니처",
+     "menu": "뼈해장국 + 수육 세트",
+     "price_4p": "약 52,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "부천 역전 아구찜·낙지볶음",
+     "tag": "가성비",
+     "menu": "아구찜 중 + 공깃밥",
+     "price_4p": "약 48,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "부천 순두부 청국장",
+     "tag": "속편한한식",
+     "menu": "청국장 + 순두부 정식",
+     "price_4p": "약 36,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "부천 웰빙 베이커리 카페 (대형)",
+     "tag": "대형베이커리",
+     "menu": "크루아상·핸드드립",
+     "features": "대형 주차, 1층 평지, 키즈 의자 완비"
+    },
+    {
+     "rank": 2,
+     "name": "원미산 진달래 언덕 야외 카페",
+     "tag": "야외산책",
+     "menu": "자판기 커피·수제에이드",
+     "features": "야외 벤치·파라솔, 봄 진달래 포토존"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=부천+한국만화박물관+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=부천+만화박물관+가족여행+후기"
+  },
+  {
+   "id": "course-13",
+   "region": "남부",
+   "area_name": "광주시",
+   "duration_min": 40,
+   "course_title": "광주 화담숲 & 곤지암도자기 체험 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": false,
+   "cost_estimate_4p": "약 75,000원",
+   "tags": [
+    "화담숲",
+    "모노레일",
+    "도자기체험",
+    "계절꽃"
+   ],
+   "spot1": {
+    "name": "화담숲",
+    "category": "수목원·생태숲",
+    "address": "경기 광주시 도척면 도척윗로 278-1",
+    "description": "LG그룹 조성 자연생태수목원. 모노레일로 이동, 4,300종 식물, 야생화 군락지 탐방.",
+    "mode4_tip": "모노레일 타고 숲 탐방! 계절별 야생화·단풍 체험, 곤충 관찰 프로그램.",
+    "mode6_tip": "모노레일 탑승 가능하나 숲 내 일부 오르막 있음. 배리어프리 동선 사전 확인 필요."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "곤지암 화산옥 곱창전골",
+     "tag": "시그니처",
+     "menu": "한우 곱창전골 + 공깃밥",
+     "price_4p": "약 72,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "도척 가마솥 삼계탕",
+     "tag": "가성비보양식",
+     "menu": "토종닭 삼계탕 + 깍두기",
+     "price_4p": "약 56,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "곤지암 두부마을 순두부",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 솥밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "화담숲 내 카페 포레 (숲속 베이커리)",
+     "tag": "숲속베이커리",
+     "menu": "아메리카노·티라미수",
+     "features": "수목원 내 통유리 숲뷰, 1층 평지"
+    },
+    {
+     "rank": 2,
+     "name": "곤지암 도자기마을 갤러리카페",
+     "tag": "도자기감성",
+     "menu": "홍차·수제쿠키",
+     "features": "도자기 전시 공간, 조용한 실내"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=광주+화담숲+아이랑+가족",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=화담숲+아이랑+후기"
+  },
+  {
+   "id": "course-14",
+   "region": "남부",
+   "area_name": "화성시",
+   "duration_min": 70,
+   "course_title": "화성 제부도 모세의길 & 전곡항 조개구이 코스",
+   "theme": "water",
+   "theme_name": "바다·리버뷰",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 72,000원",
+   "tags": [
+    "제부도",
+    "모세의길",
+    "조개구이",
+    "서해낙조"
+   ],
+   "spot1": {
+    "name": "제부도 모세의 길",
+    "category": "서해 섬·갯벌",
+    "address": "경기 화성시 서신면 제부리",
+    "description": "하루 두 번 바닷길이 열리는 신비의 섬. 갯벌 산책, 낙조 감상, 해산물 직접 잡기 체험.",
+    "mode4_tip": "물이 빠지는 시간에 맞춰 갯벌 걸어들어가기! 게·조개 잡기로 아이들 자연 교육.",
+    "mode6_tip": "제부도 내 포장 도로는 평지. 물때 시간 맞춰 차로 입도 가능. 갯벌 진입은 어려움."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "제부도 바지락 칼국수·조개구이",
+     "tag": "시그니처",
+     "menu": "바지락칼국수 + 조개 모듬구이",
+     "price_4p": "약 65,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "전곡항 꽃게찜·해물탕",
+     "tag": "가성비해산물",
+     "menu": "꽃게찜 + 새우구이",
+     "price_4p": "약 70,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "제부도 홍합미역국 솥밥",
+     "tag": "속편한한식",
+     "menu": "홍합미역국 + 솥밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "제부도 에이스카페 (낙조뷰)",
+     "tag": "낙조뷰카페",
+     "menu": "아인슈페너·스콘",
+     "features": "서해 낙조 정면 뷰, 평지 입식"
+    },
+    {
+     "rank": 2,
+     "name": "전곡항 바다뷰 야외카페",
+     "tag": "항구야외",
+     "menu": "아이스크림·수제에이드",
+     "features": "항구 전망 야외 평상, 유모차 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=화성+제부도+아이랑+모세의길",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=제부도+아이랑+가족여행+후기"
+  },
+  {
+   "id": "course-15",
+   "region": "남부",
+   "area_name": "용인시",
+   "duration_min": 50,
+   "course_title": "용인 한택식물원 & 백남준아트센터 문화체험 코스",
+   "theme": "craft",
+   "theme_name": "공예·수확",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 58,000원",
+   "tags": [
+    "한택식물원",
+    "아이체험",
+    "딸기수확",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "한택식물원",
+    "category": "식물원·자연 체험",
+    "address": "경기 용인시 처인구 백암면 옥산로 722-1",
+    "description": "국내 최대 규모 사립 식물원. 사계절 테마 정원, 곤충 관찰, 씨앗 심기 체험 프로그램 운영.",
+    "mode4_tip": "곤충 채집 체험, 씨앗 심기 교육, 식물원 탐험 스탬프 투어로 아이들 흥미 UP!",
+    "mode6_tip": "주요 관람로 평지 포장, 전동 카트 대여 가능. 화장실 수시 배치."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "백암 백암순대·곱창 전문점",
+     "tag": "시그니처",
+     "menu": "순대국밥 + 곱창볶음 세트",
+     "price_4p": "약 52,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "용인 처인 해물칼국수",
+     "tag": "가성비면류",
+     "menu": "해물칼국수 + 만두",
+     "price_4p": "약 40,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "백암 두부마을 순두부전골",
+     "tag": "속편한한식",
+     "menu": "두부전골 + 솥밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "한택식물원 내 가든카페",
+     "tag": "정원뷰카페",
+     "menu": "아메리카노·케이크",
+     "features": "식물원 내 통유리 정원뷰, 평지 입식"
+    },
+    {
+     "rank": 2,
+     "name": "용인 딸기카페 (딸기체험농장 併설)",
+     "tag": "딸기체험",
+     "menu": "딸기아이스크림·딸기빙수",
+     "features": "딸기 수확 체험 연계, 야외 평지 좌석"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=용인+한택식물원+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=한택식물원+아이랑+가족여행+후기"
+  },
+  {
+   "id": "course-16",
+   "region": "남부",
+   "area_name": "이천시",
+   "duration_min": 45,
+   "course_title": "이천 도자기마을 & 설봉공원 자연 힐링 코스",
+   "theme": "craft",
+   "theme_name": "공예·수확",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 62,000원",
+   "tags": [
+    "도자기체험",
+    "설봉공원",
+    "이천쌀밥",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "이천 도자기마을 & 설봉공원",
+    "category": "도자기 체험·공원",
+    "address": "경기 이천시 신둔면 도자예술로",
+    "description": "이천 도예촌에서 물레 성형 체험 후 설봉공원 산책. 봄·가을 꽃밭과 호수 산책코스 유명.",
+    "mode4_tip": "아이와 함께 나만의 도자기 만들기 체험! 설봉공원 분수대와 잔디밭에서 뛰어놀기.",
+    "mode6_tip": "설봉공원 전 구간 평지 포장. 도자기 체험관 1층 단층, 화장실 근접."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "이천 쌀밥 정식 원조집",
+     "tag": "시그니처",
+     "menu": "이천 쌀밥 정식 (12찬)",
+     "price_4p": "약 60,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "이천 부래미마을 청국장·두부",
+     "tag": "가성비한식",
+     "menu": "청국장 + 두부전 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "이천 산수유 순두부전골",
+     "tag": "속편한한식",
+     "menu": "두부전골 + 솥밥",
+     "price_4p": "약 40,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "설봉호수 카페 뷰 (호수뷰 대형카페)",
+     "tag": "호수뷰베이커리",
+     "menu": "소금빵·핸드드립",
+     "features": "설봉호수 전망, 1층 단층 입식, 대형주차"
+    },
+    {
+     "rank": 2,
+     "name": "이천 도자기마을 갤러리 찻집",
+     "tag": "전통찻집",
+     "menu": "전통차·쌀쿠키",
+     "features": "도자기 전시 병설, 조용한 실내 입식"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=이천+도자기체험+설봉공원+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=이천+도자기마을+가족나들이+후기"
+  },
+  {
+   "id": "course-17",
+   "region": "남부",
+   "area_name": "여주시",
+   "duration_min": 55,
+   "course_title": "여주 세종대왕릉 & 신륵사 강변 힐링 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 52,000원",
+   "tags": [
+    "세종대왕릉",
+    "역사체험",
+    "남한강뷰",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "세종대왕릉 & 영릉",
+    "category": "유네스코 세계문화유산",
+    "address": "경기 여주시 능서면 왕대리 산83-1",
+    "description": "유네스코 세계유산 세종대왕릉. 역사 교육 해설 프로그램, 한글 체험관, 넓은 잔디 능역.",
+    "mode4_tip": "한글 창제 스토리텔링 체험! 아이들이 역사 해설사와 함께 능역 탐방.",
+    "mode6_tip": "능역 내 주요 탐방로 전 구간 평지 포장. 전동 카트 대여 가능."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "여주 강천섬 한우갈비 한정식",
+     "tag": "시그니처",
+     "menu": "한우 갈비탕 + 한정식",
+     "price_4p": "약 68,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "여주 시내 진수방앗간 두부전골",
+     "tag": "가성비한식",
+     "menu": "두부전골 + 보리밥 정식",
+     "price_4p": "약 44,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "신륵사 인근 강변 순두부",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 솥밥",
+     "price_4p": "약 40,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "여주 강천 남한강 뷰 카페",
+     "tag": "강뷰베이커리",
+     "menu": "아인슈페너·갈레트",
+     "features": "남한강 파노라마, 1층 단층 입식"
+    },
+    {
+     "rank": 2,
+     "name": "신륵사 입구 전통찻집",
+     "tag": "전통차향",
+     "menu": "쌍화차·약과",
+     "features": "고즈넉한 분위기, 조용한 실내 입식"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=여주+세종대왕릉+신륵사+가족",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=여주+세종대왕릉+아이랑+후기"
+  },
+  {
+   "id": "course-18",
+   "region": "북부",
+   "area_name": "포천시",
+   "duration_min": 70,
+   "course_title": "포천 허브아일랜드 & 산정호수 계절꽃 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 68,000원",
+   "tags": [
+    "허브체험",
+    "산정호수",
+    "계절축제",
+    "배리어프리"
+   ],
+   "spot1": {
+    "name": "포천 허브아일랜드",
+    "category": "허브·식물 테마파크",
+    "address": "경기 포천시 신북면 청신로947번길 35",
+    "description": "사계절 허브 체험 테마파크. 허브 아이스크림, 비누 만들기, 야간 불빛 축제 유명.",
+    "mode4_tip": "허브 손수건 염색 체험, 라벤더 아이스크림, 야간 불빛정원 이벤트 꼭 확인!",
+    "mode6_tip": "주요 관람로 전 구간 평지 포장, 화장실 수시 배치. 전동 카트 운영."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "포천 이동 이동갈비 원조집",
+     "tag": "시그니처",
+     "menu": "이동 왕갈비 + 된장찌개",
+     "price_4p": "약 80,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "산정호수 산채비빔밥·두부전골",
+     "tag": "향토한식",
+     "menu": "산채비빔밥 + 두부전골",
+     "price_4p": "약 52,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "포천 청성 순두부청국장",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 보리밥",
+     "price_4p": "약 40,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "허브아일랜드 내 라벤더 카페",
+     "tag": "허브베이커리",
+     "menu": "라벤더라떼·허브마카롱",
+     "features": "허브 정원 뷰, 1층 단층 평지입식"
+    },
+    {
+     "rank": 2,
+     "name": "산정호수 뷰 카페 (호수전망)",
+     "tag": "호수뷰",
+     "menu": "수제 팥빙수·핸드드립",
+     "features": "산정호수 파노라마, 평지 야외테라스"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=포천+허브아일랜드+산정호수+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=포천+허브아일랜드+가족나들이+후기"
+  },
+  {
+   "id": "course-19",
+   "region": "북부",
+   "area_name": "파주시",
+   "duration_min": 65,
+   "course_title": "파주 임진각 & 평화누리공원 & 헤이리 문화마을 코스",
+   "theme": "camping",
+   "theme_name": "캠핑·피크닉",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 60,000원",
+   "tags": [
+    "평화누리",
+    "임진각",
+    "헤이리",
+    "야외피크닉"
+   ],
+   "spot1": {
+    "name": "평화누리공원 & 임진각",
+    "category": "역사·생태공원",
+    "address": "경기 파주시 문산읍 임진각로 148-40",
+    "description": "넓은 잔디 언덕과 바람개비로 유명한 평화 테마 공원. 통일 역사 교육과 야외 피크닉 명소.",
+    "mode4_tip": "잔디 언덕 굴러내려오기, 바람개비 광장 달리기, 임진각 전망대에서 역사 교육!",
+    "mode6_tip": "공원 내 전 구간 평지 포장 및 목재 데크. 유모차·전동휠체어 이동 편리."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "헤이리 갤러리 레스토랑 (브런치·양식)",
+     "tag": "시그니처",
+     "menu": "파스타 + 갈릭 브레드 세트",
+     "price_4p": "약 72,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "문산 임진각 민물장어구이",
+     "tag": "향토맛집",
+     "menu": "장어구이 + 공깃밥",
+     "price_4p": "약 68,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "파주 장단 콩 두부두루치기",
+     "tag": "속편한한식",
+     "menu": "두부두루치기 + 솥밥",
+     "price_4p": "약 48,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "헤이리 카페 봄 (대형 갤러리카페)",
+     "tag": "갤러리카페",
+     "menu": "헤이즐넛라떼·케이크",
+     "features": "건축물 자체가 예술, 넓은 평지 실내"
+    },
+    {
+     "rank": 2,
+     "name": "평화누리 공원 내 피크닉 카페",
+     "tag": "야외피크닉",
+     "menu": "이동식 음료·아이스크림",
+     "features": "평지 잔디 야외, 유모차·휠체어 OK"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=파주+임진각+평화누리공원+헤이리+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=파주+평화누리공원+가족나들이+후기"
+  },
+  {
+   "id": "course-20",
+   "region": "북부",
+   "area_name": "구리시",
+   "duration_min": 15,
+   "course_title": "구리 한강시민공원 코스모스 & 강변 피크닉 코스",
+   "theme": "camping",
+   "theme_name": "캠핑·피크닉",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 40,000원",
+   "tags": [
+    "15분초근접",
+    "코스모스",
+    "한강뷰",
+    "피크닉"
+   ],
+   "spot1": {
+    "name": "구리 한강시민공원",
+    "category": "한강 생태공원",
+    "address": "경기 구리시 토평동 한강로",
+    "description": "미사에서 단 15분! 가을 코스모스·해바라기 명소. 넓은 잔디광장, 자전거 도로, 강변 산책로.",
+    "mode4_tip": "코스모스 꽃밭 달리기, 한강 자전거 탑승, 잔디에서 돗자리 피크닉!",
+    "mode6_tip": "전 구간 평지 포장 및 한강 자전거도로. 화장실 수시 배치, 유모차·전동휠체어 최적."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "구리 수택동 왕갈비탕",
+     "tag": "시그니처",
+     "menu": "왕갈비탕 + 깍두기",
+     "price_4p": "약 56,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "구리 인창동 국수나무",
+     "tag": "가성비면류",
+     "menu": "잔치국수 + 비빔국수",
+     "price_4p": "약 32,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "구리 토평 순두부 전문점",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 공깃밥",
+     "price_4p": "약 36,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "구리 강변 한강뷰 대형카페",
+     "tag": "한강뷰베이커리",
+     "menu": "크로플·아이스라떼",
+     "features": "한강 전망, 1층 단층, 주차 편리"
+    },
+    {
+     "rank": 2,
+     "name": "구리 한강공원 피크닉 광장",
+     "tag": "야외피크닉",
+     "menu": "이동식 아이스크림·음료",
+     "features": "평지 잔디 야외, 유모차·휠체어 완벽"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=구리+한강시민공원+코스모스+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=구리+한강공원+가족피크닉+후기"
+  },
+  {
+   "id": "course-21",
+   "region": "북부",
+   "area_name": "연천군",
+   "duration_min": 80,
+   "course_title": "연천 재인폭포 & 전곡 선사박물관 역사체험 코스",
+   "theme": "forest",
+   "theme_name": "숲속힐링",
+   "barrier_free": false,
+   "cost_estimate_4p": "약 55,000원",
+   "tags": [
+    "재인폭포",
+    "선사유적",
+    "계곡",
+    "자연탐험"
+   ],
+   "spot1": {
+    "name": "연천 재인폭포",
+    "category": "폭포·계곡 자연",
+    "address": "경기 연천군 연천읍 고문리",
+    "description": "현무암 주상절리 절벽에서 떨어지는 18m 폭포. 주변 고석정 계곡과 탐방로 조성.",
+    "mode4_tip": "폭포 아래 계곡에서 발 담그기, 주상절리 돌 탐험, 고석정 출렁다리 건너기!",
+    "mode6_tip": "재인폭포 입구 평지 주차 후 폭포까지 완만한 내리막. 조부모님은 입구 전망대까지만 권장."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "연천 전곡 민물매운탕·장어구이",
+     "tag": "시그니처",
+     "menu": "잉어 매운탕 + 장어구이",
+     "price_4p": "약 65,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "연천 고문리 촌두부찌개",
+     "tag": "향토한식",
+     "menu": "촌두부찌개 + 보리밥",
+     "price_4p": "약 40,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "전곡 순두부 전문점",
+     "tag": "속편한한식",
+     "menu": "순두부찌개 + 솥밥 정식",
+     "price_4p": "약 36,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "전곡 선사박물관 뮤지엄카페",
+     "tag": "박물관카페",
+     "menu": "아메리카노·케이크",
+     "features": "박물관 내 1층 카페, 평지 입식"
+    },
+    {
+     "rank": 2,
+     "name": "연천 한탄강 뷰 감성카페",
+     "tag": "강뷰야외",
+     "menu": "수제에이드·팥빙수",
+     "features": "한탄강 전망 야외 테라스"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=연천+재인폭포+전곡선사박물관+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=연천+재인폭포+가족여행+후기"
+  },
+  {
+   "id": "course-22",
+   "region": "북부",
+   "area_name": "남양주 더뮤지엄",
+   "duration_min": 30,
+   "course_title": "남양주 더뮤지엄한강 & 능내역 레일바이크 코스",
+   "theme": "kids",
+   "theme_name": "키즈특화",
+   "barrier_free": true,
+   "cost_estimate_4p": "약 65,000원",
+   "tags": [
+    "레일바이크",
+    "키즈박물관",
+    "한강뷰",
+    "30분근거리"
+   ],
+   "spot1": {
+    "name": "더뮤지엄한강 & 능내역 레일바이크",
+    "category": "키즈 박물관·레일바이크",
+    "address": "경기 남양주시 조안면 다산로 756",
+    "description": "4계절 체험형 어린이 박물관과 북한강 변 레일바이크가 결합된 패밀리 명소.",
+    "mode4_tip": "레일바이크로 북한강 뷰 달리기, 박물관 공룡 체험·과학실험 프로그램까지 알차게!",
+    "mode6_tip": "박물관 내 전 구간 엘리베이터, 레일바이크 탑승장 평지. 어르신도 함께 탑승 가능."
+   },
+   "restaurants": [
+    {
+     "rank": 1,
+     "name": "조안 능내리 한우갈비탕",
+     "tag": "시그니처",
+     "menu": "한우 갈비탕 + 수육",
+     "price_4p": "약 68,000원",
+     "seating": "입식 완비"
+    },
+    {
+     "rank": 2,
+     "name": "능내역 팔당 칼국수",
+     "tag": "가성비면류",
+     "menu": "바지락칼국수 + 파전",
+     "price_4p": "약 44,000원",
+     "seating": "입식 테이블"
+    },
+    {
+     "rank": 3,
+     "name": "조안 두물머리 들꽃세상 솥밥",
+     "tag": "속편한한식",
+     "menu": "돌솥밥 + 맑은 된장국",
+     "price_4p": "약 48,000원",
+     "seating": "입식 완비"
+    }
+   ],
+   "cafes": [
+    {
+     "rank": 1,
+     "name": "카페 웨더 (팔당호 대형베이커리)",
+     "tag": "전망베이커리",
+     "menu": "소금빵·브런치",
+     "features": "팔당호수 전망, 엘리베이터, 주차 무료"
+    },
+    {
+     "rank": 2,
+     "name": "능내역 레트로 카페",
+     "tag": "감성레트로",
+     "menu": "달고나라떼·에이드",
+     "features": "레일바이크 출발역 인근, 평지 야외"
+    }
+   ],
+   "youtube_url": "https://www.youtube.com/results?search_query=남양주+레일바이크+더뮤지엄한강+아이랑",
+   "naver_blog_url": "https://search.naver.com/search.naver?query=남양주+레일바이크+능내역+가족여행+후기"
+  }
+ ]
+}
