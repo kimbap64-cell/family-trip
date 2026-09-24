@@ -13,6 +13,8 @@ import argparse, json, math, os, random, re, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.stdout.reconfigure(encoding="utf-8")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import quota_guard as qg  # youtube_scrape 캡 = 0 (2026-09-24 IP 차단 사고 후 금지). 상향은 사용자 승인 후
 import yt_dlp
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -34,6 +36,7 @@ THEMES = [
 
 
 def _search(query, per):
+    qg.charge("youtube_scrape", 1)
     opts = {"quiet": True, "no_warnings": True, "extract_flat": True, "skip_download": True}
     with yt_dlp.YoutubeDL(opts) as y:
         r = y.extract_info(f"ytsearch{per}:{query}", download=False)
@@ -41,7 +44,8 @@ def _search(query, per):
 
 
 def cmd_search(a):
-    jobs = [(f"{reg} {suffix}", reg, key) for reg in REGIONS for key, suffix in THEMES]
+    qg.ensure_available("youtube_scrape")
+    jobs =[(f"{reg} {suffix}", reg, key) for reg in REGIONS for key, suffix in THEMES]
     cand = {}
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=4) as ex:
@@ -88,6 +92,7 @@ class BotBlocked(Exception):
 
 
 def _enrich_one(vid):
+    qg.charge("youtube_scrape", 1)
     with yt_dlp.YoutubeDL({"quiet": True, "no_warnings": True, "skip_download": True}) as y:
         try:
             i = y.extract_info(f"https://www.youtube.com/watch?v={vid}", download=False)
@@ -111,7 +116,8 @@ def _enrich_one(vid):
 
 
 def cmd_enrich(a):
-    data = json.load(open(os.path.join(SRC, "yt_candidates.json"), encoding="utf-8"))
+    qg.ensure_available("youtube_scrape")
+    data =json.load(open(os.path.join(SRC, "yt_candidates.json"), encoding="utf-8"))
     vids = [c for c in data["videos"]
             if 180 <= (c.get("duration") or 0) <= 3000 and (c.get("view_count") or 0) >= a.min_views]
     vids.sort(key=_score, reverse=True)
@@ -141,6 +147,8 @@ def cmd_enrich(a):
                     consecutive_block = 0
                 else:
                     time.sleep(10)
+            except (qg.QuotaExceeded, qg.ForbiddenAPI):
+                raise  # 캡 예외는 삼키지 않는다(캐시에 '실패'로 기록 금지)
             except Exception as e:
                 print(f"[실패] {c['video_id']}: {str(e)[:70]}", flush=True)
                 json.dump({"video_id": c["video_id"], "error": str(e)[:120]}, open(p, "w", encoding="utf-8"))
@@ -170,6 +178,7 @@ def cmd_enrich(a):
 
 
 def cmd_transcripts(a):
+    qg.ensure_available("youtube_scrape")
     from youtube_transcript_api import YouTubeTranscriptApi
     api = YouTubeTranscriptApi()
     if a.ids:
@@ -183,6 +192,7 @@ def cmd_transcripts(a):
         if os.path.exists(p):
             skip += 1
             continue
+        qg.charge("youtube_scrape", 1)  # try 밖: 캡 예외는 그대로 전파
         try:
             t = api.fetch(vid, languages=["ko"])
             raw = t.to_raw_data()

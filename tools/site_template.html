@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>우리 동네 나들이 · 하남 미사</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --bg:#f6f4ef; --card:#fff; --ink:#1d2730; --muted:#5d6975; --line:#e4dfd5; --accent:#2b7a57; --accent-bg:#e3f2ea;
+          --warn:#8a5300; --warn-bg:#fff2dc; --bad:#a3262a; --bad-bg:#fde8e8; --gray-bg:#eceae4; --link:#1a5fb4; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12171a; --card:#1b2226; --ink:#e7ecef; --muted:#9aa7b1; --line:#2a343a;
+          --accent:#6fd0a0; --accent-bg:#1c3a2d; --warn:#ffd08a; --warn-bg:#3a2d12; --bad:#ff9b9e; --bad-bg:#3d1d1e; --gray-bg:#262e33; --link:#8ab8ff; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); line-height:1.55;
+         font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif; }
+  header { padding:20px 16px 8px; max-width:640px; margin:0 auto; }
+  h1 { font-size:1.3rem; margin:0 0 2px; }
+  .sub { color:var(--muted); font-size:.85rem; margin:0; }
+  .bar { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:10px 16px; }
+  .bar-in { max-width:640px; margin:0 auto; display:flex; flex-wrap:wrap; gap:6px 8px; align-items:center; }
+  .seg { display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; background:var(--card); }
+  .seg button { border:0; background:transparent; color:var(--ink); padding:7px 13px; font-size:.88rem; cursor:pointer; }
+  .seg button[aria-pressed="true"] { background:var(--accent); color:#fff; font-weight:600; }
+  select { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:7px 10px; font-size:.85rem; }
+  main { max-width:640px; margin:0 auto; padding:12px 16px 60px; }
+  .note { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; font-size:.82rem; color:var(--muted); margin-bottom:12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 14px 12px; margin-bottom:12px; }
+  .top { display:flex; gap:10px; align-items:flex-start; justify-content:space-between; }
+  .name { font-size:1.05rem; font-weight:700; margin:0; }
+  .cat { color:var(--muted); font-size:.8rem; }
+  .badge { flex:none; text-align:center; border-radius:10px; padding:4px 9px; font-size:.78rem; font-weight:700; background:var(--gray-bg); }
+  .badge b { display:block; font-size:1.05rem; }
+  .t-추천 { background:var(--accent-bg); color:var(--accent); } .t-조건부 { background:var(--warn-bg); color:var(--warn); }
+  .row { display:flex; flex-wrap:wrap; gap:4px 12px; font-size:.86rem; margin:8px 0 0; }
+  .row span { white-space:nowrap; }
+  .pill { display:inline-block; font-size:.76rem; border-radius:999px; padding:1px 8px; margin:0 4px 4px 0; background:var(--gray-bg); }
+  .pill.g { background:var(--accent-bg); color:var(--accent); } .pill.w { background:var(--warn-bg); color:var(--warn); } .pill.b { background:var(--bad-bg); color:var(--bad); }
+  .modeb { margin-top:10px; padding:9px 11px; border-radius:10px; background:var(--gray-bg); font-size:.85rem; }
+  .modeb.ok { background:var(--accent-bg); } .modeb.warn { background:var(--warn-bg); } .modeb.no { background:var(--bad-bg); }
+  .modeb h4 { margin:0 0 4px; font-size:.86rem; }
+  .q { font-size:.8rem; color:var(--muted); margin:3px 0 0; }
+  .q a { color:var(--link); }
+  .btns { display:flex; gap:8px; margin-top:12px; }
+  .btn { flex:1; text-align:center; border-radius:10px; padding:10px 6px; font-size:.9rem; text-decoration:none; border:1px solid var(--line); color:var(--ink); background:var(--card); cursor:pointer; }
+  .btn.pri { background:var(--accent); color:#fff; border-color:var(--accent); font-weight:700; }
+  details { margin-top:8px; font-size:.83rem; }
+  summary { cursor:pointer; color:var(--link); }
+  details ul { padding-left:1.1em; margin:6px 0; } details li { margin:3px 0; }
+  a { color:var(--link); }
+  .empty { text-align:center; color:var(--muted); padding:30px 0; }
+  footer { max-width:640px; margin:0 auto; padding:0 16px 40px; color:var(--muted); font-size:.78rem; }
+  .tel { font-weight:600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>우리 동네 나들이 <span style="font-weight:400;font-size:.9rem">· 하남 미사</span></h1>
+  <p class="sub" id="sub"></p>
+</header>
+<div class="bar"><div class="bar-in">
+  <div class="seg" id="segKind"><button data-v="restaurant" aria-pressed="true">식당</button><button data-v="cafe" aria-pressed="false">카페</button></div>
+  <div class="seg" id="segMode"><button data-v="a" aria-pressed="true">4인 가족</button><button data-v="b" aria-pressed="false">6인(부모님)</button></div>
+  <select id="sort"><option value="s">추천순</option><option value="dr">가까운순</option></select>
+</div></div>
+<main>
+  <div class="note" id="note"></div>
+  <div id="list"></div>
+  <details id="weak"><summary>근거가 부족한 곳 (참고용)</summary><div id="weakList"></div></details>
+  <details id="excl"><summary>기준에 못 미쳐 뺀 곳과 이유</summary><div id="exclList"></div></details>
+</main>
+<footer>
+  별점·영업 상태는 표시된 확인일 기준이에요. 네이버 별점이 없는 곳은 카카오 별점에 +0.8을 보정해 쓰고 표시했어요(카카오가 평균 0.8점 낮아서).
+  이동시간은 실시간 교통이 반영되지 않은 계산값이에요. 좌석 형태·계단 등 <b>"확인 필요"</b>는 방문 전 전화로 확인해 주세요.
+  '네이버 내비 시작'은 폰의 네이버 지도 앱에서 열려요(안 열리면 '네이버 지도').
+</footer>
+<script id="D" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('D').textContent);
+const st = {kind:'restaurant', mode:'a', sort:'s'};
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => n == null ? '-' : Number(n).toLocaleString('ko-KR');
+document.getElementById('sub').textContent = `근거 링크가 있는 곳만 · 확인일 ${D.verified} · 집(미사강변아란티움) 기준`;
+document.getElementById('note').innerHTML =
+  `동네 식당·카페 <b>${D.places.length}곳</b>을 실제 후기·별점으로 검증했어요 (추천 ${D.counts['추천']} · 조건부 ${D.counts['조건부']} · 근거부족 ${D.counts['근거부족']} · 제외 ${D.counts['제외']}). 지금은 <b>시범판</b>이라 이 동네만 있어요.`;
+
+function go(app, web) {
+  const t = Date.now(); location.href = app;
+  setTimeout(() => { if (!document.hidden && Date.now() - t < 2600) location.href = web; }, 1300);
+}
+window.go = go;
+
+function modeB(p) {
+  const v = p.bv;
+  const cls = v.startsWith('적합') ? 'ok' : v.startsWith('부적합') ? 'no' : 'warn';
+  const icon = cls === 'ok' ? '✅' : cls === 'no' ? '⛔' : '❓';
+  let h = `<div class="modeb ${cls}"><h4>${icon} 부모님(걷기·앉기) 관점: ${esc(v)}</h4>`;
+  const seenL = new Set();
+  p.pos.filter(e => !seenL.has(e.l) && seenL.add(e.l)).slice(0, 3).forEach(e => h += `<p class="q">✅ ${esc(e.l)} — “${esc(e.q)}” <span>(${esc(e.k)}${e.d ? ', ' + esc(e.d) : ''})</span></p>`);
+  p.neg.slice(0, 2).forEach(e => h += `<p class="q">⚠️ ${esc(e.l)} — “${esc(e.q)}” <span>(${esc(e.k)}${e.d ? ', ' + esc(e.d) : ''})</span></p>`);
+  if (p.park.length) h += `<p class="q">🅿️ ${esc(p.park[0])} <span>(카카오 안내)</span></p>`;
+  if (p.unk.length) h += `<p class="q">❓ 확인 필요: <b>${esc(p.unk.join(' · '))}</b>${p.tel ? ` — 전화 <a class="tel" href="tel:${esc(p.tel)}">${esc(p.tel)}</a>` : ''}</p>`;
+  if (p.soft) h += `<p class="q">🍲 부드러운 음식 메뉴가 있어요</p>`;
+  return h + '</div>';
+}
+
+function card(p) {
+  const rate = [];
+  if (p.nr) rate.push(`네이버 ★${p.nr} (${fmt(p.nn)})`);
+  if (p.kr) rate.push(`카카오 ★${p.kr} (${fmt(p.kn)})`);
+  const pills = [];
+  if (p.rp && p.rp >= 4.5) pills.push('<span class="pill g">고평점</span>');
+  if (p.rs && !p.rs.startsWith('네이버')) pills.push(`<span class="pill w">별점: ${esc(p.rs)}</span>`);
+  // '영업 중/오늘 휴무'는 수집 시점의 스냅샷이라 표시하지 않는다(가는 날 상태는 네이버 지도에서 확인). 폐업 신호만 표시.
+  p.flags.filter(f => /웨이팅|폐업/.test(f)).forEach(f => pills.push(`<span class="pill w">${esc(f)}</span>`));
+  const kids = st.mode === 'a' && p.kids.length ? `<p class="q">👶 아이 관련 근거: ${esc(p.kids.join(' · '))}</p>` : '';
+  const cost = p.cost ? `<span>4인 약 ${fmt(Math.round(p.cost / 1000) * 1000)}원 <small style="color:var(--muted)">(메뉴판 추정)</small></span>` : '';
+  const src = [];
+  p.blogs.filter(b => !b.sp).forEach(b => src.push(`<li>블로그 <a href="${esc(b.u)}" target="_blank" rel="noopener">${esc((b.t || '').slice(0, 44))}</a> — ${esc(b.a || '')} · ${esc(b.d || '')}</li>`));
+  p.yt.forEach(y => src.push(`<li>유튜브 ${y.w === 'comment' ? '댓글' : '설명'} <a href="${esc(y.l)}" target="_blank" rel="noopener">${esc((y.q || '').slice(0, 44))}</a></li>`));
+  const menus = p.menus.filter(m => m[0]).map(m => `${esc(m[0])} ${m[1] ? fmt(m[1]) + '원' : ''}`).join(' · ');
+  return `<div class="card">
+    <div class="top"><div><h3 class="name">${esc(p.n)}</h3><div class="cat">${esc(p.cat)} · ${esc(p.addr || '')}</div></div>
+      <div class="badge t-${esc(p.tier)}">${esc(p.tier)}<b>${p.s}</b></div></div>
+    <div class="row"><span>🚗 ${p.dr != null ? Math.round(p.dr) + '분' : '-'}</span>${p.wk != null ? `<span>🚶 ${Math.round(p.wk)}분</span>` : ''}${rate.map(r => `<span>${r}</span>`).join('')}${cost}</div>
+    <div style="margin-top:6px">${pills.join('')}</div>
+    ${st.mode === 'b' ? modeB(p) : kids}
+    <div class="btns">
+      <a class="btn pri" href="${esc(p.nav.app)}" onclick="go('${esc(p.nav.app)}','${esc(p.nav.web)}');return false;">🧭 네이버 내비 시작</a>
+      <a class="btn" href="${esc(p.nav.web)}" target="_blank" rel="noopener">네이버 지도</a>
+      ${p.nav.kakao ? `<a class="btn" href="${esc(p.nav.kakao)}" target="_blank" rel="noopener">카카오맵</a>` : ''}
+    </div>
+    <details><summary>점수 근거·후기 링크</summary>
+      <ul><li>평판 ${p.bd.reputation} · 근거 ${p.bd.evidence} · 가족적합 ${p.bd.family_fit} · 실용 ${p.bd.practicality} (합계 ${p.s})</li>
+      ${menus ? `<li>메뉴: ${menus}</li>` : ''}
+      ${p.tel ? `<li>전화 <a href="tel:${esc(p.tel)}">${esc(p.tel)}</a></li>` : ''}
+      ${src.join('')}${st.mode === 'a' ? '' : ''}</ul>
+      ${st.mode === 'a' ? modeB(p) : ''}
+    </details>
+  </div>`;
+}
+
+function render() {
+  let arr = D.places.filter(p => p.kind === st.kind);
+  if (st.mode === 'b') arr = arr.filter(p => !p.bv.startsWith('부적합'));
+  const main = arr.filter(p => p.tier === '추천' || p.tier === '조건부');
+  const weak = arr.filter(p => p.tier === '근거부족');
+  const excl = D.places.filter(p => p.kind === st.kind && p.tier === '제외');
+  const key = st.sort === 'dr' ? (a, b) => (a.dr ?? 99) - (b.dr ?? 99) : (a, b) => b.s - a.s;
+  main.sort(key); weak.sort(key);
+  document.getElementById('list').innerHTML = main.length ? main.map(card).join('') : '<div class="empty">조건에 맞는 곳이 아직 없어요</div>';
+  document.getElementById('weakList').innerHTML = weak.map(card).join('') || '<div class="empty">없음</div>';
+  document.getElementById('weak').style.display = weak.length ? '' : 'none';
+  document.getElementById('exclList').innerHTML = '<ul>' + excl.map(p => `<li><b>${esc(p.n)}</b>: ${esc(p.fails.join(' / '))}</li>`).join('') + '</ul>';
+  document.getElementById('excl').style.display = excl.length ? '' : 'none';
+}
+for (const [id, key] of [['segKind', 'kind'], ['segMode', 'mode']]) {
+  document.getElementById(id).addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    st[key] = b.dataset.v;
+    document.querySelectorAll('#' + id + ' button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    render();
+  });
+}
+document.getElementById('sort').addEventListener('change', e => { st.sort = e.target.value; render(); });
+render();
+</script>
+</body>
+</html>

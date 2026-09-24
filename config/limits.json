@@ -1,0 +1,29 @@
+{
+  "_doc": "외부 API 안전캡. 코드(tools/quota_guard.py)가 호출 직전에 이 값을 검사하고 넘으면 예외로 멈춘다. 사용자 승인 없이 올리지 않는다. 설명은 docs/API_SAFETY.md",
+
+  "google": {
+    "allowed_apis": ["youtube"],
+    "paid_capable_apis": ["places", "maps", "geocoding", "gemini", "vertex", "translate", "vision", "speech", "storage_egress"],
+    "paid_apis_enabled": {},
+    "trial_ends": "2026-11-26",
+    "_note": "allowed_apis 밖의 구글 API는 호출 자체를 거부. 유료 가능 API는 paid_apis_enabled 에 true 로 명시 승인되고 오늘 <= trial_ends 일 때만 허용(무료 체험판 상태에서만 켠다)."
+  },
+
+  "caps": {
+    "youtube_api_units":  {"daily": 3000, "monthly": 60000, "_google_free_limit_daily": 10000},
+    "youtube_api_search": {"daily": 40,   "monthly": 800,   "_google_free_limit_daily": 100},
+    "youtube_scrape":     {"daily": 0,    "monthly": 0,     "_note": "yt-dlp/자막 스크래핑. 2026-09-24 집 IP 구글 차단 사고 이후 0(금지). 차단 해제 확인 + 사용자 승인 후에만 상향(권장 일 100 이하)"},
+    "naver_place":        {"daily": 400,  "monthly": 6000},
+    "naver_blog":         {"daily": 150,  "monthly": 2000, "_note": "네이버 블로그 본문 읽기(공개 페이지, 요청 간 >=2초)"},
+    "kakao_local":        {"daily": 300,  "monthly": 5000, "_note": "카카오 로컬 API(공식). 앱 무료 쿼터 안"},
+    "kakao_place_page":   {"daily": 100,  "monthly": 1500, "_note": "카카오맵 장소 페이지의 별점(비공식 공개 엔드포인트) — 소량만"},
+    "osrm_drive":         {"daily": 300,  "monthly": 5000},
+    "osm_foot":           {"daily": 300,  "monthly": 5000}
+  },
+
+  "unit_costs": {
+    "youtube": {"search.list": 100, "videos.list": 1, "channels.list": 1, "commentThreads.list": 1, "playlistItems.list": 1}
+  },
+
+  "kill_switch_env": "TRIP_API_KILL"
+}

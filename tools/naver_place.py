@@ -32,6 +32,8 @@ def _get(url, params=None, cache_key=None):
         cp = os.path.join(CACHE, hashlib.md5(cache_key.encode()).hexdigest() + ".html")
         if os.path.exists(cp):
             return open(cp, encoding="utf-8").read()
+    import quota_guard as qg  # 캐시 미스일 때만 하드캡 차감
+    qg.charge("naver_place", 1)
     wait = 2.0 + random.random() * 1.5 - (time.time() - _last[0])
     if wait > 0:
         time.sleep(wait)
@@ -162,6 +164,38 @@ def detail(place_id):
         "coordinate": base.get("coordinate"), "menus": menus[:12], "blog_reviews": blogs[:10],
         "missing_info": base.get("missingInfo"),
     }
+
+
+def blog_text(url, max_chars=6000):
+    """네이버 블로그 글 본문(공개 페이지). m.blog.naver.com/{id}/{no} 또는 blog.naver.com/{id}/{no} 지원. 캐시+캡(naver_blog)."""
+    m = re.search(r"blog\.naver\.com/([^/?#]+)/(\d+)", url)
+    if not m:
+        return None
+    bid, no = m.group(1), m.group(2)
+    cp = os.path.join(CACHE, "blog_" + hashlib.md5(f"{bid}/{no}".encode()).hexdigest() + ".txt")
+    if os.path.exists(cp):
+        return open(cp, encoding="utf-8").read()
+    import quota_guard as qg
+    from bs4 import BeautifulSoup
+    qg.charge("naver_blog", 1)
+    wait = 2.0 + random.random() * 1.0 - (time.time() - _last[0])
+    if wait > 0:
+        time.sleep(wait)
+    r = requests.get("https://blog.naver.com/PostView.naver",
+                     params={"blogId": bid, "logNo": no, "redirect": "Dlog", "widgetTypeCall": "true", "directAccess": "false"},
+                     headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9", "Referer": "https://blog.naver.com/"}, timeout=25)
+    _last[0] = time.time()
+    r.encoding = "utf-8"
+    if r.status_code in (403, 429):
+        raise NaverBlocked(f"blog HTTP {r.status_code}")
+    if r.status_code != 200:
+        return None
+    s = BeautifulSoup(r.text, "lxml")
+    body = s.select_one("div.se-main-container") or s.select_one("#postViewArea") or s.select_one("div.post-view")
+    text = re.sub(r"\s+", " ", body.get_text(" ", strip=True)) if body else ""
+    text = text[:max_chars]
+    open(cp, "w", encoding="utf-8").write(text)
+    return text
 
 
 def nav_links(name, x, y, place_id):

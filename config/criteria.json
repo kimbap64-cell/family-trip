@@ -7,6 +7,10 @@
     "source": "네이버 플레이스(아파트) 좌표. 1차본이 적은 '미사강변루나리움'은 오기"
   },
 
+  "scopes": {
+    "local": {"max_drive_min": 12, "_note": "우리 동네(도보·차량 10분 안팎) 식당·카페. 차량 12분까지 허용"}
+  },
+
   "gates": {
     "max_drive_min_hard": 90,
     "preferred_drive_min": 60,
@@ -21,6 +25,9 @@
 
   "place_score": {
     "reputation_max": 35,
+    "kakao_rating_offset": 0.8,
+    "kakao_only_gate_relax": 0.3,
+    "_kakao_note": "파일럿(미사 동네 14쌍) 측정: 네이버-카카오 별점 평균차 0.84·중앙값 0.79, 카카오 리뷰 중앙값 46건(네이버 5,342건). 네이버 별점이 없을 때만 카카오+0.8 로 보정하고 하한을 0.3 완화",
     "bayes_prior_rating": 4.2,
     "bayes_prior_weight": 100,
     "rating_points": [[4.7, 25], [4.5, 20], [4.3, 12], [4.2, 6]],
