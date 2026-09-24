@@ -1,251 +1,7 @@
 {
- "generated": "2026-09-25 01:17",
+ "generated": "2026-09-24 23:19",
  "scope": "day_trip",
  "places": [
-  {
-   "id": "naver-1932878505",
-   "name": "서울식물원",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "1932878505",
-    "category": "식물원,수목원",
-    "road_address": "마곡동로 161 서울식물원",
-    "x": 126.8350312,
-    "y": 37.5694189,
-    "score": null,
-    "reviews": 9560,
-    "blog_reviews": 24753,
-    "status": "운영 중",
-    "conveniences": [
-     "주차",
-     "남/녀 화장실 구분",
-     "장애인 편의시설"
-    ],
-    "phone": "02-2104-9716"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "1164966384",
-    "kakao_url": "http://place.map.kakao.com/1164966384",
-    "kakao_road_address": "서울 강서구 마곡동로 161",
-    "rating": 4.4,
-    "review_count": 677,
-    "status": "Y",
-    "dist_m": 3,
-    "facility_icons": [],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "서울식물원 지하 전용 주차장 이용 가능, 10분당 200원 유료 주차"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "02-2104-9716"
-   },
-   "rating": {
-    "pooled": 5.0,
-    "bayes": 4.9,
-    "total_reviews": 10237,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5694189&dlng=126.8350312&dname=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5694189&dlng=126.8350312&dname=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5694189&lng=126.8350312&name=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1932878505",
-    "mobile_place": "https://m.place.naver.com/place/1932878505/home"
-   },
-   "drive": {
-    "min": 37.2,
-    "km": 39.74,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 14000,
-     "basis": "입장료 성인 5,000원 x2 + 어린이 2,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
-     "sample": [
-      [
-       "어른",
-       5000
-      ],
-      [
-       "청소년(13세~18세)",
-       3000
-      ],
-      [
-       "어린이(6세~12세)",
-       2000
-      ],
-      [
-       "어른 / 할인",
-       3500
-      ],
-      [
-       "청소년 / 할인",
-       2100
-      ]
-     ]
-    },
-    "menus_sample": [
-     {
-      "name": "어른",
-      "price": "5000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "청소년(13세~18세)",
-      "price": "3000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어린이(6세~12세)",
-      "price": "2000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어른 / 할인",
-      "price": "3500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "청소년 / 할인",
-      "price": "2100",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어린이/ 할인",
-      "price": "1400",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "유모차"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "림 보는것같았어요 야외정원걷다가 한옥집이 보이길래 잠깐 쉬어줬어요 대청마루에 잠깐앉아 쉴 수 있어요 나무향이 솔솔 나서 좋았습니다 처마에 달린 물고기 풍경이 운치있어요",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/mimizip/224419761778",
-       "date": "2일 전"
-      },
-      {
-       "label": "평탄·데크길",
-       "quote": "경우 반팔에 아우터를 챙기는게 훨씬 좋을 것 같다. 특별히 울퉁불퉁한 길 없이 평탄한 길로 되어있어 유모차를 끌기 아주 편했고, 그래서 그런지 주변에 아이데리고 온",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/pukicat/224418881530",
-       "date": "3일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "서울식물원 지하 전용 주차장 이용 가능, 10분당 200원 유료 주차",
-       "src": "kakao-info:1164966384",
-       "date": null
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "림 보는것같았어요 야외정원걷다가 한옥집이 보이길래 잠깐 쉬어줬어요 대청마루에 잠깐앉아 쉴 수 있어요 나무향이 솔솔 나서 좋았습니다 ​ ​ 처마에 달린 물고기 풍경이 운치",
-       "src": "naver-blog:https://m.blog.naver.com/mimizip/224419761778",
-       "date": "2일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "수와 커다란 열대식물이 시선을 사로잡더라구요. ​ ​ 온실안에는 다양한 포토존과 쉬어갈 수 있는 벤치, 또 생생한 느낌의 새소리까지 틀어져있어서 여기가 서울맞아? 싶은 느",
-       "src": "naver-blog:https://m.blog.naver.com/trip_ayeonny/224414553432",
-       "date": "2026.09.17."
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "식물이 시선을 사로잡더라구요. ​ ​ 온실안에는 다양한 포토존과 쉬어갈 수 있는 벤치, 또 생생한 느낌의 새소리까지 틀어져있어서 여기가 서울맞아? 싶은 느낌이 들어요",
-       "src": "naver-blog:https://m.blog.naver.com/trip_ayeonny/224414553432",
-       "date": "2026.09.17."
-      }
-     ],
-     "negative": [],
-     "verdict": "적합 근거",
-     "unknown": [],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/mimizip/224419761778",
-      "title": "마곡 서울식물원 가보았다 입장료, 피크닉점심 정보",
-      "date": "2일 전",
-      "days_ago": 2,
-      "author": "심심할때 차 한잔",
-      "chars": 1107,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/trip_ayeonny/224414553432",
-      "title": "&quot;서울에 이런 곳이?&quot; 마곡 서울식물원 호수공원 수목원 나들이",
-      "date": "2026.09.17.",
-      "days_ago": 8,
-      "author": "아연니",
-      "chars": 2931,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 83,
-    "tier": "추천",
-    "breakdown": {
-     "reputation": 35,
-     "evidence": 18,
-     "family_fit": 17,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 10,
-     "source_count": 2,
-     "mode_a": 9,
-     "mode_b": 8,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)",
-    "휴관·휴무일 언급 — 가기 전 확인"
-   ],
-   "plan_notes": [
-    {
-     "label": "휴관·휴무일",
-     "quote": "161 운영시간 매일 09:30-18:00 매주 월요일 휴관 연락처 02-2104-9716 입장료 성인",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/mimizip/224419761778",
-     "date": "2일 전"
-    },
-    {
-     "label": "휴관·휴무일",
-     "quote": "9716 ☎️전화번호 : 화~ 일 운영 : 매주 월요일 휴관 3월~10월 09:30~18:00 입장마감",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/trip_ayeonny/224414553432",
-     "date": "2026.09.17."
-    }
-   ],
-   "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
-  },
   {
    "id": "naver-1280289689",
    "name": "쥬벅스",
@@ -257,7 +13,7 @@
     "x": 126.7488999,
     "y": 37.4231681,
     "score": 4.92,
-    "reviews": 8279,
+    "reviews": 8280,
     "blog_reviews": 2265,
     "status": "운영 중",
     "conveniences": [
@@ -295,7 +51,7 @@
    "rating": {
     "pooled": 4.92,
     "bayes": 4.91,
-    "total_reviews": 8296,
+    "total_reviews": 8297,
     "source": "네이버"
    },
    "nav": {
@@ -482,251 +238,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 14,
-   "verified_at": "2026-09-25"
-  },
-  {
-   "id": "naver-19928010",
-   "name": "제이드가든",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "19928010",
-    "category": "식물원,수목원",
-    "road_address": "햇골길 80",
-    "x": 127.542352,
-    "y": 37.8324653,
-    "score": null,
-    "reviews": 25109,
-    "blog_reviews": 5937,
-    "status": "운영 중",
-    "conveniences": [
-     "주차",
-     "무선 인터넷",
-     "장애인 편의시설",
-     "남/녀 화장실 구분",
-     "유아의자"
-    ],
-    "phone": "033-260-8300"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "11209011",
-    "kakao_url": "http://place.map.kakao.com/11209011",
-    "kakao_road_address": "강원특별자치도 춘천시 남산면 햇골길 80",
-    "rating": 3.9,
-    "review_count": 179,
-    "status": "Y",
-    "dist_m": 36,
-    "facility_icons": [
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "전용 주차장이 넓고 무료로 편리하게 이용 가능"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "033-260-8300"
-   },
-   "rating": {
-    "pooled": 4.7,
-    "bayes": 4.52,
-    "total_reviews": 25288,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.8324653&dlng=127.542352&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.8324653&dlng=127.542352&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.8324653&lng=127.542352&name=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/19928010",
-    "mobile_place": "https://m.place.naver.com/place/19928010/home"
-   },
-   "drive": {
-    "min": 54.0,
-    "km": 52.82,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 34000,
-     "basis": "입장료 성인 11,000원 x2 + 어린이 6,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
-     "sample": [
-      [
-       "성인 Adults",
-       11000
-      ],
-      [
-       "중고생 Youths",
-       6000
-      ],
-      [
-       "어린이 Children",
-       6000
-      ],
-      [
-       "경로/유공자/장애인 (증빙필수)",
-       8000
-      ],
-      [
-       "군인/경찰/소방관 (증빙필수)",
-       8000
-      ]
-     ]
-    },
-    "menus_sample": [
-     {
-      "name": "성인 Adults",
-      "price": "11000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "중고생 Youths",
-      "price": "6000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어린이 Children",
-      "price": "6000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "경로/유공자/장애인 (증빙필수)",
-      "price": "8000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "군인/경찰/소방관 (증빙필수)",
-      "price": "8000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "춘천시민/가평군민 (증빙필수)",
-      "price": "8000",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "유모차",
-     "유아의자",
-     "체험·동물"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "매할 수 있는 스튜디오제이드가 있다  운영시간 : 매일 09:00-18:00 무료주차가능 기프트숍 |기획전시|클래스룸 제이드가든 입구에서 왼쪽은 카페 오른쪽은 가드닝 소",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/hotsky1/224419929493",
-       "date": "2일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "든까지 — 걷는 내내 유럽 어딘가를 여행하는 듯한 기분이 들었다. 중간중간 놓인 벤치에 앉아 땀을 식히기도 하고, 천천히 걸으며 각 테마 정원을 눈에 담기도 했다.",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/mods77/224415971591",
-       "date": "6일 전"
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "시설대비 입장료가 매우 비싸다고 생각됩니다 들어가면 앉아서 쉴곳이 턱없이 부족해요 언덕이 많은데 의자와 그늘은 부족하니 힐링되지 않아요 오랜만에 와이프",
-       "src": "kakao-review:15459830",
-       "date": "2026-05-09"
-      },
-      {
-       "label": "주차",
-       "quote": "전용 주차장이 넓고 무료로 편리하게 이용 가능",
-       "src": "kakao-info:11209011",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "춘천시 남산면 햇골길 80 🍓 ​ 운영시간 : 매일 09:00-18:00 ​ 무료주차가능 기프트숍 |기획전시|클래스룸 ​ ​ 제이드가든 입구에서 왼쪽은 카페 오른쪽은 가",
-       "src": "naver-blog:https://m.blog.naver.com/hotsky1/224419929493",
-       "date": "2일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "든까지 — 걷는 내내 유럽 어딘가를 여행하는 듯한 기분이 들었다. 중간중간 놓인 벤치에 앉아 땀을 식히기도 하고, 천천히 걸으며 각 테마 정원을 눈에 담기도 했다.",
-       "src": "naver-blog:https://m.blog.naver.com/mods77/224415971591",
-       "date": "6일 전"
-      }
-     ],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "나게 놀고 워터브릿지를 향해 다시 고고~ 우리가 간 맨 위쪽 길(A코스)이 약간 경사가 있었는데, 어른들이 다니기엔 힘들지는 않았고 아이들에게도 약간의 운동이 되어서",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/ruthypak/224411495650",
-       "date": "2026.09.14."
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/hotsky1/224419929493",
-      "title": "[춘천]제이드가든 정원문화체험공간-스튜디오제이드",
-      "date": "2일 전",
-      "days_ago": 2,
-      "author": "Always 하늘",
-      "chars": 992,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/mods77/224415971591",
-      "title": "[춘천 제이드가든]8월 ITX-청춘 타고 떠난 당일치기-한적했던 월요일 춘천시티투어 나무내음길 따라 걷는 이국적 수목원, 춘천 제이드가든",
-      "date": "6일 전",
-      "days_ago": 6,
-      "author": "천양",
-      "chars": 1712,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 78,
-    "tier": "추천",
-    "breakdown": {
-     "reputation": 30,
-     "evidence": 18,
-     "family_fit": 17,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 20,
-     "review_pts": 10,
-     "source_count": 2,
-     "mode_a": 12,
-     "mode_b": 5,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 13,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1702474903",
@@ -739,7 +252,7 @@
     "x": 127.3345887,
     "y": 37.197332,
     "score": 4.78,
-    "reviews": 6468,
+    "reviews": 6467,
     "blog_reviews": 1985,
     "status": "운영 중",
     "conveniences": [
@@ -769,7 +282,7 @@
    "rating": {
     "pooled": 4.78,
     "bayes": 4.77,
-    "total_reviews": 6574,
+    "total_reviews": 6573,
     "source": "네이버"
    },
    "nav": {
@@ -937,8 +450,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 12,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 11,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11865000",
@@ -950,7 +463,7 @@
     "road_address": "태허정로 267-54 율봄 정문 매표소",
     "x": 127.2704721,
     "y": 37.4699278,
-    "score": null,
+    "score": 4.49,
     "reviews": 1898,
     "blog_reviews": 2500,
     "status": "운영 중",
@@ -971,6 +484,7 @@
     "status": "Y",
     "dist_m": 7,
     "facility_icons": [
+     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -983,10 +497,10 @@
     "phone": "031-798-3119"
    },
    "rating": {
-    "pooled": 4.7,
-    "bayes": 4.39,
+    "pooled": 4.49,
+    "bayes": 4.48,
     "total_reviews": 1958,
-    "source": "카카오(+0.8 보정)"
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.4699278&dlng=127.2704721&dname=%EC%9C%A8%EB%B4%84%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
@@ -1229,13 +743,10 @@
      "failed": []
     }
    },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
+   "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 30,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 29,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1487924989",
@@ -1248,7 +759,7 @@
     "x": 127.1051005,
     "y": 37.1665187,
     "score": 4.82,
-    "reviews": 11132,
+    "reviews": 11146,
     "blog_reviews": 2126,
     "status": "운영 중",
     "conveniences": [
@@ -1286,7 +797,7 @@
    "rating": {
     "pooled": 4.82,
     "bayes": 4.81,
-    "total_reviews": 11274,
+    "total_reviews": 11288,
     "source": "네이버"
    },
    "nav": {
@@ -1424,7 +935,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11574457",
@@ -1437,7 +948,7 @@
     "x": 127.2013221,
     "y": 37.2933272,
     "score": 4.56,
-    "reviews": 68132,
+    "reviews": 68135,
     "blog_reviews": 57761,
     "status": "영업 중",
     "conveniences": [
@@ -1459,7 +970,7 @@
     "kakao_url": "http://place.map.kakao.com/784414359",
     "kakao_road_address": "경기 용인시 처인구 포곡읍 에버랜드로 199",
     "rating": 4.4,
-    "review_count": 1230,
+    "review_count": 1233,
     "status": "Y",
     "dist_m": 81,
     "facility_icons": [
@@ -1477,7 +988,7 @@
    "rating": {
     "pooled": 4.56,
     "bayes": 4.56,
-    "total_reviews": 69362,
+    "total_reviews": 69368,
     "source": "네이버"
    },
    "nav": {
@@ -1895,7 +1406,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1253107551",
@@ -1908,7 +1419,7 @@
     "x": 127.3021333,
     "y": 37.1795499,
     "score": 4.75,
-    "reviews": 15854,
+    "reviews": 15855,
     "blog_reviews": 1079,
     "status": "운영 중",
     "conveniences": [
@@ -1949,7 +1460,7 @@
    "rating": {
     "pooled": 4.75,
     "bayes": 4.75,
-    "total_reviews": 15872,
+    "total_reviews": 15873,
     "source": "네이버"
    },
    "nav": {
@@ -2087,8 +1598,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 52,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 51,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1764442532",
@@ -2101,7 +1612,7 @@
     "x": 127.466417,
     "y": 37.5309578,
     "score": 4.89,
-    "reviews": 3982,
+    "reviews": 3983,
     "blog_reviews": 698,
     "status": "운영 중",
     "conveniences": [
@@ -2130,7 +1641,7 @@
    "rating": {
     "pooled": 4.89,
     "bayes": 4.87,
-    "total_reviews": 3984,
+    "total_reviews": 3985,
     "source": "네이버"
    },
    "nav": {
@@ -2300,8 +1811,8 @@
      "date": "2026.07.15."
     }
    ],
-   "evidence_days_ago": 30,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 29,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1587308093",
@@ -2314,7 +1825,7 @@
     "x": 127.2236163,
     "y": 37.5436277,
     "score": 4.57,
-    "reviews": 25795,
+    "reviews": 25823,
     "blog_reviews": 3137,
     "status": "운영 중",
     "conveniences": [
@@ -2351,7 +1862,7 @@
    "rating": {
     "pooled": 4.57,
     "bayes": 4.57,
-    "total_reviews": 25957,
+    "total_reviews": 25985,
     "source": "네이버"
    },
    "nav": {
@@ -2501,8 +2012,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 15,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 14,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11622274",
@@ -2790,7 +2301,7 @@
     }
    ],
    "evidence_days_ago": 6,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1770068822",
@@ -2803,7 +2314,7 @@
     "x": 126.9043973,
     "y": 37.5170771,
     "score": 4.53,
-    "reviews": 16311,
+    "reviews": 16327,
     "blog_reviews": 3368,
     "status": "운영 중",
     "conveniences": [
@@ -2842,7 +2353,7 @@
    "rating": {
     "pooled": 4.53,
     "bayes": 4.53,
-    "total_reviews": 16495,
+    "total_reviews": 16511,
     "source": "네이버"
    },
    "nav": {
@@ -2976,115 +2487,125 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 6,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
-   "id": "naver-11620669",
-   "name": "한국만화박물관",
+   "id": "naver-11631797",
+   "name": "벽초지수목원",
    "kind": "attraction",
    "naver": {
-    "place_id": "11620669",
-    "category": "박물관",
-    "road_address": "길주로 1",
-    "x": 126.7421242,
-    "y": 37.5086327,
-    "score": null,
-    "reviews": 774,
-    "blog_reviews": 4122,
-    "status": "오늘 휴무",
+    "place_id": "11631797",
+    "category": "식물원,수목원",
+    "road_address": "부흥로 242",
+    "x": 126.8754409,
+    "y": 37.8005109,
+    "score": 4.35,
+    "reviews": 13637,
+    "blog_reviews": 6373,
+    "status": "운영 중",
     "conveniences": [
      "남/녀 화장실 구분",
-     "무선 인터넷",
-     "단체 이용 가능",
-     "주차"
+     "주차",
+     "장애인 편의시설",
+     "단체 이용 가능"
     ],
-    "phone": "032-310-3090"
+    "phone": "0507-1421-2022"
    },
    "kakao": {
     "found": true,
-    "kakao_id": "11356267",
-    "kakao_url": "http://place.map.kakao.com/11356267",
-    "kakao_road_address": "경기 부천시 원미구 길주로 1",
-    "rating": 4.3,
-    "review_count": 63,
+    "kakao_id": "7892614",
+    "kakao_url": "http://place.map.kakao.com/7892614",
+    "kakao_road_address": "경기 파주시 광탄면 부흥로 242",
+    "rating": 3.2,
+    "review_count": 158,
     "status": "Y",
-    "dist_m": 1,
+    "dist_m": 108,
     "facility_icons": [
      "예약가능"
     ],
     "store_infos": [
      {
       "title": "주차",
-      "summary": "한국만화박물관 전용 주차장 무료 이용 가능, 영상문화단지 부설주차장 30분 400원 10분당 200원 1일 최대 4,000원, 바로 옆 부천영상문화단지 공영주차장 유료 이용 가능"
+      "summary": "벽초지수목원 제1·제2주차장 무료 운영, 넓은 무료 주차장 이용 가능"
      }
     ],
-    "headline": "휴무일",
-    "phone": "032-310-3090"
+    "headline": "영업 중",
+    "phone": "031-957-2004"
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.51,
-    "total_reviews": 837,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.35,
+    "bayes": 4.35,
+    "total_reviews": 13795,
+    "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5086327&dlng=126.7421242&dname=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5086327&dlng=126.7421242&dname=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5086327&lng=126.7421242&name=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/11620669",
-    "mobile_place": "https://m.place.naver.com/place/11620669/home"
+    "app_navigation": "nmap://navigation?dlat=37.8005109&dlng=126.8754409&dname=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.8005109&dlng=126.8754409&dname=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.8005109&lng=126.8754409&name=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/11631797",
+    "mobile_place": "https://m.place.naver.com/place/11631797/home"
    },
    "drive": {
-    "min": 46.0,
-    "km": 48.41,
+    "min": 52.2,
+    "km": 54.04,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
    "price": {
     "est_meal_4p": {
-     "krw": 20000,
-     "basis": "입장료 성인 5,000원 x2 + 어린이 5,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
+     "krw": 36000,
+     "basis": "입장료 성인 10,500원 x2 + 어린이 7,500원 x2 (네이버 등록 가격, 체험·식사 별도)",
      "sample": [
       [
-       "일반권(출생일 기준 36개월 초과)",
-       5000
+       "성인",
+       10500
       ],
       [
-       "3인 가족권(성인2인, 미성년자1인)",
-       12000
+       "청소년",
+       8500
       ],
       [
-       "4인 가족권(성인2인, 미성년자2인)",
-       16000
+       "어린이",
+       7500
       ],
       [
-       "단체권(20명 이상)",
-       4000
+       "경로/장애/국가유공자",
+       8500
+      ],
+      [
+       "36개월 미만 영,유아",
+       0
       ]
      ]
     },
     "menus_sample": [
      {
-      "name": "일반권(출생일 기준 36개월 초과)",
-      "price": "5000",
+      "name": "성인",
+      "price": "10500",
       "description": "",
       "recommend": false
      },
      {
-      "name": "3인 가족권(성인2인, 미성년자1인)",
-      "price": "12000",
+      "name": "청소년",
+      "price": "8500",
       "description": "",
       "recommend": false
      },
      {
-      "name": "4인 가족권(성인2인, 미성년자2인)",
-      "price": "16000",
+      "name": "어린이",
+      "price": "7500",
       "description": "",
       "recommend": false
      },
      {
-      "name": "단체권(20명 이상)",
-      "price": "4000",
+      "name": "경로/장애/국가유공자",
+      "price": "8500",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "36개월 미만 영,유아",
+      "price": "0",
       "description": "",
       "recommend": false
      }
@@ -3092,6 +2613,7 @@
    },
    "family": {
     "mode_a": [
+     "놀이시설",
      "아이동반",
      "유모차",
      "체험·동물"
@@ -3099,77 +2621,153 @@
     "mode_b": {
      "positive": [
       {
-       "label": "넓고 여유",
-       "quote": "관역 5번 출구로 나오면 바로 만나게 되는 장소에 야외 만화카페가 차려져 있었다 넓은 공간에 다양하게 햇빛을 피하면서 책을 볼 수 있는 소품들이 있어서 많이들 앉아 있었다",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/dksaktk/224419618219",
-       "date": "3일 전"
+       "label": "주차",
+       "quote": "00원 / 어린이·경로 7,500원 넓은 전용 주차장에 무료 주차가 가능합니다! 주차장 바로 앞이 입구라 주차하고 한참 걸어갈 필요가 없어서 정말 편했어요. 어린 아이들과",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "평탄·데크길",
+       "quote": "있어요! 벽초지 연못 & 단풍길 가을 운치의 정점! 국화 감상 후 연못 둘레길과 데크길로 발걸음을 옮기면 차분한 동양 정원의 정취가 펼쳐집니다. 저희가 가장 오랜 시간",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
       },
       {
        "label": "주차",
-       "quote": ":00 정기휴무 월요일 성인 입장권 5,000원 전화번호 032 310 3090 주차 가능 주차비용 30분 400원 부천 만화박물관 건물 안으로 들어가기 전부터 아이들이",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/rozyontheroad/224419154909",
-       "date": "3일 전"
+       "quote": "~ 10월 가을꽃, 국화 축제 운영시간 매일 09:00 ~ 18:00 연중무휴 주차 가능 입장료 성인 10,500원 청소년, 경로, 장애인, 유공자 8,500원 어린이",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/jayooni/224418149397",
+       "date": "2일 전"
       },
       {
        "label": "주차",
-       "quote": "한국만화박물관 전용 주차장 무료 이용 가능, 영상문화단지 부설주차장 30분 400원 10분당 200원 1일 최대",
-       "src": "kakao-info:11356267",
+       "quote": "만 6,000여 종이 있습니다. 운영시간 매일 09:00 ~ 18:00 연중무휴 주차 가능 반려동물 입장 불가 입장료 네이버 예약 온라인 입장권 예매 할인 (당일 예약 불",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/jayooni/224418149397",
+       "date": "2일 전"
+      },
+      {
+       "label": "주차",
+       "quote": "벽초지수목원 제1·제2주차장 무료 운영, 넓은 무료 주차장 이용 가능",
+       "src": "kakao-info:7892614",
        "date": null
       },
       {
-       "label": "넓고 여유",
-       "quote": "5번 출구로 나오면 바로 만나게 되는 장소에 야외 만화카페가 차려져 있었다 ​ 넓은 공간에 다양하게 햇빛을 피하면서 책을 볼 수 있는 소품들이 있어서 많이들 앉아 있었다",
-       "src": "naver-blog:https://m.blog.naver.com/dksaktk/224419618219",
+       "label": "주차",
+       "quote": "벽초지수목원 제1·제2주차장 무료 운영, 넓은 무료 주차장 이용 가능",
+       "src": "kakao-info:7892614",
+       "date": null
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "곳도 둘러보기로 하고 반대쪽으로 계속 걸어봤어요. ​ 말리성의 가든을 나와 아리솔쉼터 근처로 가니 분위기가 조금씩 달라졌어요. 높은 소나무와 나무가 많아지면서 정원보",
+       "src": "naver-blog:https://m.blog.naver.com/99833852/224405272611",
        "date": "3일 전"
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "히 달랐어요. ​ 넓은 연못을 중심으로 울창한 나무가 둘러싸고 있고 작은 다리와 정자가 함께 보여서 풍경 자체가 정말 예뻤어요. 특히 이날은 파란 하늘과 하얀 구름이",
+       "src": "naver-blog:https://m.blog.naver.com/99833852/224405272611",
+       "date": "3일 전"
+      },
+      {
+       "label": "주차",
+       "quote": "원 / 어린이·경로 7,500원 ​ 넓은 전용 주차장에 무료 주차가 가능합니다! 주차장 바로 앞이 입구라 주차하고 한참 걸어갈 필요가 없어서 정말 편했어요. 어린 아이들과",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "왔고, 바람은 선선해서 멀리 놀러온 느낌이였어요💛 ​ ​ 유모차·휠체어도 편안한 평지형 산책로 부모님이나 어린아이가 있는 가족 단위 방문객에게 가장 큰 장점은 대부분",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "린아이가 있는 가족 단위 방문객에게 가장 큰 장점은 대부분의 관람 구역이 완만한 평지로 조성되어 있다는 점입니다. ​ ​ 경사가 가파른 산지형 수목원과 달리 길이 고",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "높아 보이는 귀여운 파우치와 노트를 득템 했답니다🤩👍 ​ ​ 기프트샵 & 가족 쉼터 신화의 공간 내 니케의 광장 바로 뒤에에는 테이블과 의자 있는 가족 쉼터가 있어",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "가족 쉼터 신화의 공간 내 니케의 광장 바로 뒤에에는 테이블과 의자 있는 가족 쉼터가 있어요. 간단한 음료와 과일은 반입이 가능하기 때문에 이곳에서 편하게 드실 수",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "평탄·데크길",
+       "quote": "​ ​ 벽초지 연못 & 단풍길 가을 운치의 정점! 국화 감상 후 연못 둘레길과 데크길로 발걸음을 옮기면 차분한 동양 정원의 정취가 펼쳐집니다. 저희가 가장 오랜 시간",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "평탄·데크길",
+       "quote": "수면에 비치는 반영이 무척 운치있습니다! ​ ​ 연못을 가로지르는 수련길과 나무 데크길을 천천히 걸으며 탁 트인 물가 정취를 만끽할 수 있어서 정말 힐링되더라구요! ​",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
       }
      ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "큰 장점은 대부분의 관람 구역이 완만한 평지로 조성되어 있다는 점입니다. ​ ​ 경사가 가파른 산지형 수목원과 달리 길이 고르게 정비되어 있어 유모차나 휠체어를 동반한",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      },
+      {
+       "label": "계단",
+       "quote": "은 대부분의 관람 구역이 완만한 평지로 조성되어 있다는 점입니다. ​ ​ 경사가 가파른 산지형 수목원과 달리 길이 고르게 정비되어 있어 유모차나 휠체어를 동반한 관람객",
+       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
+       "date": "4일 전"
+      }
      ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [],
      "soft_food": false
     }
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/mcstkorea/224417288397",
-      "title": "만화, 부천을 가득 채우다✨│제29회 부천국제만화축제",
-      "date": "5일 전",
-      "days_ago": 5,
-      "author": "문화체육관광부",
-      "chars": 3450,
+      "url": "https://m.blog.naver.com/99833852/224405272611",
+      "title": "[파주 가볼 만한 곳] 벽초지수목원 9월 가을꽃축제 전 방문 후기!",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "해피에코",
+      "chars": 3429,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/dksaktk/224419618219",
-      "title": "제29회 부천국제만화축제 후기",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "강개미",
-      "chars": 3096,
+      "url": "https://m.blog.naver.com/6607144/224418063830",
+      "title": "추석 연휴 어디 갈까? 서울 근교 1시간! 부모님과 아이 모두 대만족한 파주나들이 벽초지수목원",
+      "date": "4일 전",
+      "days_ago": 4,
+      "author": "cookie",
+      "chars": 2538,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 72.3,
+    "total": 73,
     "tier": "추천",
     "breakdown": {
-     "reputation": 27.3,
+     "reputation": 22,
      "evidence": 18,
-     "family_fit": 14,
+     "family_fit": 20,
      "practicality": 13
     },
     "detail": {
-     "rating_pts": 20,
-     "review_pts": 7.3,
+     "rating_pts": 12,
+     "review_pts": 10,
      "source_count": 2,
-     "mode_a": 9,
-     "mode_b": 5,
+     "mode_a": 12,
+     "mode_b": 8,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -3178,13 +2776,10 @@
      "failed": []
     }
    },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
+   "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 3,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 2,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-35708336",
@@ -3504,7 +3099,241 @@
     }
    ],
    "evidence_days_ago": 1,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
+  },
+  {
+   "id": "naver-36505156",
+   "name": "덕평공룡수목원",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "36505156",
+    "category": "식물원,수목원",
+    "road_address": "작촌로 282 덕평공룡수목원",
+    "x": 127.3379533,
+    "y": 37.2314807,
+    "score": 4.41,
+    "reviews": 13278,
+    "blog_reviews": 2163,
+    "status": "운영 중",
+    "conveniences": [
+     "예약",
+     "남/녀 화장실 구분",
+     "단체 이용 가능",
+     "주차"
+    ],
+    "phone": "0507-1304-5029"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "26973926",
+    "kakao_url": "http://place.map.kakao.com/26973926",
+    "kakao_road_address": "경기 이천시 마장면 작촌로 282",
+    "rating": 3.3,
+    "review_count": 53,
+    "status": "Y",
+    "dist_m": 113,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "덕평공룡수목원 전용 넓은 주차장 보유, 주차 무료"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "031-633-5029"
+   },
+   "rating": {
+    "pooled": 4.41,
+    "bayes": 4.41,
+    "total_reviews": 13331,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.2314807&dlng=127.3379533&dname=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.2314807&dlng=127.3379533&dname=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.2314807&lng=127.3379533&name=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/36505156",
+    "mobile_place": "https://m.place.naver.com/place/36505156/home"
+   },
+   "drive": {
+    "min": 44.4,
+    "km": 49.11,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": {
+     "krw": 37000,
+     "basis": "입장료 성인 11,000원 x2 + 어린이 7,500원 x2 (네이버 등록 가격, 체험·식사 별도)",
+     "sample": [
+      [
+       "평일 어른",
+       11000
+      ],
+      [
+       "평일 중고생",
+       7500
+      ],
+      [
+       "평일 어린이",
+       7500
+      ],
+      [
+       "평일 경로/유공자",
+       8000
+      ],
+      [
+       "주말 어른",
+       13000
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "평일 어른",
+      "price": "11000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "평일 중고생",
+      "price": "7500",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "평일 어린이",
+      "price": "7500",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "평일 경로/유공자",
+      "price": "8000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "주말 어른",
+      "price": "13000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "주말 중고생",
+      "price": "8500",
+      "description": "",
+      "recommend": false
+     }
+    ]
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반",
+     "유모차",
+     "체험·동물"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "만한 곳을 찾는 분들을 위해 덕평공룡수목원 방문 후기를 정리해볼게요. 외부&주차 주차장이 넓었고 주말에도 널널해서 가족 나들이 장소를 찾을 때 참고하기 좋아요. 요금 네이버",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/leeseul525/224397206035",
+       "date": "2026.09.01."
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "는 재미에 푹 빠져 더운 줄도 모르고 뛰어다니지만, 어른들은 더위에 지쳐 그늘과 쉼터부터 찾게 됩니다. 카페로 들어가 시원한 음료 마시며 쉬는 동안에도 아이들은 야외",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/2000happy_/224366161095",
+       "date": "2026.08.09."
+      },
+      {
+       "label": "주차",
+       "quote": "덕평공룡수목원 전용 넓은 주차장 보유, 주차 무료",
+       "src": "kakao-info:26973926",
+       "date": null
+      },
+      {
+       "label": "주차",
+       "quote": "위해 덕평공룡수목원 방문 후기를 정리해볼게요. ​ ​ ​ 외부&주차 ​ ​ ​ 주차장이 넓었고 주말에도 널널해서 가족 나들이 장소를 찾을 때 참고하기 좋아요. ​ ​ ​",
+       "src": "naver-blog:https://m.blog.naver.com/leeseul525/224397206035",
+       "date": "2026.09.01."
+      }
+     ],
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "오르막이 많아서 유모차 밀고 다니기 힘들지만 36개월 미만 아이가 있으시면 공짜로 다녀",
+       "src": "kakao-review:8584469",
+       "date": "2023-09-19"
+      }
+     ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/hrim0823/224419652119",
+      "title": "조금은 너를 위해 이기적으로 살 필요도 있어.",
+      "date": "2일 전",
+      "days_ago": 2,
+      "author": "봄소록",
+      "chars": 2258,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/leeseul525/224397206035",
+      "title": "이천 아이와 가볼만한 곳 공룡 좋아하는 아이와  덕평공룡수목원",
+      "date": "2026.09.01.",
+      "days_ago": 24,
+      "author": "박가네육아라이프",
+      "chars": 2626,
+      "sponsored": false
+     }
+    ],
+    "youtube": [
+     {
+      "video_id": "c-w7Y_JMrAQ",
+      "link": "https://www.youtube.com/watch?v=c-w7Y_JMrAQ",
+      "t": null,
+      "quote": "공룡을 좋아하는 우리 아이와 함께 이천 덕평공룡수목원에 다녀왔습니다! 🦕",
+      "where": "description"
+     }
+    ]
+   },
+   "scores": {
+    "total": 72,
+    "tier": "추천",
+    "breakdown": {
+     "reputation": 22,
+     "evidence": 23,
+     "family_fit": 14,
+     "practicality": 13
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 10,
+     "source_count": 3,
+     "mode_a": 12,
+     "mode_b": 2,
+     "drive_pts": 6,
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 2,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11622613",
@@ -3517,7 +3346,7 @@
     "x": 127.1624865,
     "y": 37.7527189,
     "score": 4.55,
-    "reviews": 8802,
+    "reviews": 8804,
     "blog_reviews": 6611,
     "status": "오늘 휴무",
     "conveniences": [
@@ -3549,7 +3378,7 @@
    "rating": {
     "pooled": 4.55,
     "bayes": 4.55,
-    "total_reviews": 9011,
+    "total_reviews": 9013,
     "source": "네이버"
    },
    "nav": {
@@ -3739,147 +3568,464 @@
     }
    ],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
-   "id": "naver-35195643",
-   "name": "물향기수목원",
+   "id": "naver-19928010",
+   "name": "제이드가든",
    "kind": "attraction",
    "naver": {
-    "place_id": "35195643",
+    "place_id": "19928010",
     "category": "식물원,수목원",
-    "road_address": "청학로 211",
-    "x": 127.0570465,
-    "y": 37.1664666,
-    "score": null,
-    "reviews": 3131,
-    "blog_reviews": 2705,
+    "road_address": "햇골길 80",
+    "x": 127.542352,
+    "y": 37.8324653,
+    "score": 4.34,
+    "reviews": 25109,
+    "blog_reviews": 5937,
     "status": "운영 중",
     "conveniences": [
-     "단체 이용 가능",
+     "주차",
+     "무선 인터넷",
+     "장애인 편의시설",
      "남/녀 화장실 구분",
-     "주차"
+     "유아의자"
     ],
-    "phone": "0507-1398-1456"
+    "phone": "033-260-8300"
    },
    "kakao": {
     "found": true,
-    "kakao_id": "11462042",
-    "kakao_url": "http://place.map.kakao.com/11462042",
-    "kakao_road_address": "경기 오산시 청학로 211",
-    "rating": 4.3,
-    "review_count": 184,
+    "kakao_id": "11209011",
+    "kakao_url": "http://place.map.kakao.com/11209011",
+    "kakao_road_address": "강원특별자치도 춘천시 남산면 햇골길 80",
+    "rating": 3.9,
+    "review_count": 179,
     "status": "Y",
-    "dist_m": 221,
+    "dist_m": 36,
     "facility_icons": [
      "예약가능"
     ],
     "store_infos": [
      {
       "title": "주차",
-      "summary": "물향기수목원 내 주차 공간 마련, 3시간 이내 소형·중형 차량 2,000원 부과, 경차 및 이륜차 30분 내 출차 시 무료, 친환경 차량 및 중증 장애인 차량 할인 및 무료 적용"
+      "summary": "전용 주차장이 넓고 무료로 편리하게 이용 가능"
      }
     ],
-    "headline": "영업 전",
-    "phone": "031-378-1261"
+    "headline": "영업 중",
+    "phone": "033-260-8300"
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.72,
-    "total_reviews": 3315,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.34,
+    "bayes": 4.34,
+    "total_reviews": 25288,
+    "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.1664666&dlng=127.0570465&dname=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.1664666&dlng=127.0570465&dname=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.1664666&lng=127.0570465&name=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/35195643",
-    "mobile_place": "https://m.place.naver.com/place/35195643/home"
+    "app_navigation": "nmap://navigation?dlat=37.8324653&dlng=127.542352&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.8324653&dlng=127.542352&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.8324653&lng=127.542352&name=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/19928010",
+    "mobile_place": "https://m.place.naver.com/place/19928010/home"
    },
    "drive": {
-    "min": 50.3,
-    "km": 53.34,
+    "min": 54.0,
+    "km": 52.82,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
    "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
+    "est_meal_4p": {
+     "krw": 34000,
+     "basis": "입장료 성인 11,000원 x2 + 어린이 6,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
+     "sample": [
+      [
+       "성인 Adults",
+       11000
+      ],
+      [
+       "중고생 Youths",
+       6000
+      ],
+      [
+       "어린이 Children",
+       6000
+      ],
+      [
+       "경로/유공자/장애인 (증빙필수)",
+       8000
+      ],
+      [
+       "군인/경찰/소방관 (증빙필수)",
+       8000
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "성인 Adults",
+      "price": "11000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "중고생 Youths",
+      "price": "6000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어린이 Children",
+      "price": "6000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "경로/유공자/장애인 (증빙필수)",
+      "price": "8000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "군인/경찰/소방관 (증빙필수)",
+      "price": "8000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "춘천시민/가평군민 (증빙필수)",
+      "price": "8000",
+      "description": "",
+      "recommend": false
+     }
+    ]
    },
    "family": {
     "mode_a": [
+     "놀이시설",
      "아이동반",
+     "유모차",
+     "유아의자",
      "체험·동물"
     ],
     "mode_b": {
      "positive": [
       {
        "label": "주차",
-       "quote": "물향기수목원 내 주차 공간 마련, 3시간 이내 소형·중형 차량 2,000원 부과, 경차 및 이륜차 30분",
-       "src": "kakao-info:11462042",
+       "quote": "매할 수 있는 스튜디오제이드가 있다  운영시간 : 매일 09:00-18:00 무료주차가능 기프트숍 |기획전시|클래스룸 제이드가든 입구에서 왼쪽은 카페 오른쪽은 가드닝 소",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/hotsky1/224419929493",
+       "date": "2일 전"
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "든까지 — 걷는 내내 유럽 어딘가를 여행하는 듯한 기분이 들었다. 중간중간 놓인 벤치에 앉아 땀을 식히기도 하고, 천천히 걸으며 각 테마 정원을 눈에 담기도 했다.",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/mods77/224415971591",
+       "date": "6일 전"
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "시설대비 입장료가 매우 비싸다고 생각됩니다 들어가면 앉아서 쉴곳이 턱없이 부족해요 언덕이 많은데 의자와 그늘은 부족하니 힐링되지 않아요 오랜만에 와이프",
+       "src": "kakao-review:15459830",
+       "date": "2026-05-09"
+      },
+      {
+       "label": "주차",
+       "quote": "전용 주차장이 넓고 무료로 편리하게 이용 가능",
+       "src": "kakao-info:11209011",
        "date": null
       },
       {
-       "label": "쉼터·벤치·그늘",
-       "quote": "능성식물원, 향토예술의나무원, 토피어리원, 미로원, 분재원, 난대양치식물원, 숲속쉼터 등 각양각색의 공간들이 다채로워서 보는 즐거움부터 가을 감성까지 제대로 즐기기",
-       "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
-       "date": "2026.09.15."
+       "label": "주차",
+       "quote": "춘천시 남산면 햇골길 80 🍓 ​ 운영시간 : 매일 09:00-18:00 ​ 무료주차가능 기프트숍 |기획전시|클래스룸 ​ ​ 제이드가든 입구에서 왼쪽은 카페 오른쪽은 가",
+       "src": "naver-blog:https://m.blog.naver.com/hotsky1/224419929493",
+       "date": "2일 전"
       },
       {
        "label": "쉼터·벤치·그늘",
-       "quote": "기대되는 경기도 여행지였어요. ​ ​ ​ ​ 간단한 간식 싸와서 먹을 수 있는 쉼터 공간도 있어서 숲 안에서 힐링하며 피크닉 감성까지 느낄 수 있어서 굉장히 만족스",
-       "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
-       "date": "2026.09.15."
+       "quote": "든까지 — 걷는 내내 유럽 어딘가를 여행하는 듯한 기분이 들었다. 중간중간 놓인 벤치에 앉아 땀을 식히기도 하고, 천천히 걸으며 각 테마 정원을 눈에 담기도 했다.",
+       "src": "naver-blog:https://m.blog.naver.com/mods77/224415971591",
+       "date": "6일 전"
       }
      ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리"
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "나게 놀고 워터브릿지를 향해 다시 고고~ 우리가 간 맨 위쪽 길(A코스)이 약간 경사가 있었는데, 어른들이 다니기엔 힘들지는 않았고 아이들에게도 약간의 운동이 되어서",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/ruthypak/224411495650",
+       "date": "2026.09.14."
+      }
      ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [],
      "soft_food": false
     }
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/soh109/224412258117",
-      "title": "오산 가볼만한곳 10월 아이와 경기도 가을 여행지 물향기수목원 공원",
-      "date": "2026.09.15.",
-      "days_ago": 10,
-      "author": "오키야옹이",
-      "chars": 3508,
+      "url": "https://m.blog.naver.com/hotsky1/224419929493",
+      "title": "[춘천]제이드가든 정원문화체험공간-스튜디오제이드",
+      "date": "2일 전",
+      "days_ago": 2,
+      "author": "Always 하늘",
+      "chars": 992,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/gwyneth68/224415082581",
-      "title": "오산 경기 도립 &lt;물향기 수목원&gt; 무료입장",
-      "date": "2026.09.17.",
-      "days_ago": 8,
-      "author": "안친절한뽁뽁뽁",
-      "chars": 1205,
+      "url": "https://m.blog.naver.com/mods77/224415971591",
+      "title": "[춘천 제이드가든]8월 ITX-청춘 타고 떠난 당일치기-한적했던 월요일 춘천시티투어 나무내음길 따라 걷는 이국적 수목원, 춘천 제이드가든",
+      "date": "6일 전",
+      "days_ago": 6,
+      "author": "천양",
+      "chars": 1712,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 70.8,
+    "total": 70,
     "tier": "추천",
     "breakdown": {
-     "reputation": 33.8,
+     "reputation": 22,
      "evidence": 18,
-     "family_fit": 11,
-     "practicality": 8
+     "family_fit": 17,
+     "practicality": 13
     },
     "detail": {
-     "rating_pts": 25,
-     "review_pts": 8.8,
+     "rating_pts": 12,
+     "review_pts": 10,
      "source_count": 2,
-     "mode_a": 6,
+     "mode_a": 12,
      "mode_b": 5,
      "drive_pts": 6,
-     "cost_pts": 2
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 2,
+   "verified_at": "2026-09-24"
+  },
+  {
+   "id": "naver-1932878505",
+   "name": "서울식물원",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "1932878505",
+    "category": "식물원,수목원",
+    "road_address": "마곡동로 161 서울식물원",
+    "x": 126.8350312,
+    "y": 37.5694189,
+    "score": 4.48,
+    "reviews": 9561,
+    "blog_reviews": 24753,
+    "status": "운영 중",
+    "conveniences": [
+     "주차",
+     "남/녀 화장실 구분",
+     "장애인 편의시설"
+    ],
+    "phone": "02-2104-9716"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1164966384",
+    "kakao_url": "http://place.map.kakao.com/1164966384",
+    "kakao_road_address": "서울 강서구 마곡동로 161",
+    "rating": 4.4,
+    "review_count": 677,
+    "status": "Y",
+    "dist_m": 3,
+    "facility_icons": [],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "서울식물원 지하 전용 주차장 이용 가능, 10분당 200원 유료 주차"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "02-2104-9716"
+   },
+   "rating": {
+    "pooled": 4.48,
+    "bayes": 4.48,
+    "total_reviews": 10238,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5694189&dlng=126.8350312&dname=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5694189&dlng=126.8350312&dname=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5694189&lng=126.8350312&name=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1932878505",
+    "mobile_place": "https://m.place.naver.com/place/1932878505/home"
+   },
+   "drive": {
+    "min": 37.2,
+    "km": 39.74,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": {
+     "krw": 14000,
+     "basis": "입장료 성인 5,000원 x2 + 어린이 2,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
+     "sample": [
+      [
+       "어른",
+       5000
+      ],
+      [
+       "청소년(13세~18세)",
+       3000
+      ],
+      [
+       "어린이(6세~12세)",
+       2000
+      ],
+      [
+       "어른 / 할인",
+       3500
+      ],
+      [
+       "청소년 / 할인",
+       2100
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "어른",
+      "price": "5000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "청소년(13세~18세)",
+      "price": "3000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어린이(6세~12세)",
+      "price": "2000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어른 / 할인",
+      "price": "3500",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "청소년 / 할인",
+      "price": "2100",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어린이/ 할인",
+      "price": "1400",
+      "description": "",
+      "recommend": false
+     }
+    ]
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반",
+     "유모차"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "림 보는것같았어요 야외정원걷다가 한옥집이 보이길래 잠깐 쉬어줬어요 대청마루에 잠깐앉아 쉴 수 있어요 나무향이 솔솔 나서 좋았습니다 처마에 달린 물고기 풍경이 운치있어요",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/mimizip/224419761778",
+       "date": "2일 전"
+      },
+      {
+       "label": "평탄·데크길",
+       "quote": "경우 반팔에 아우터를 챙기는게 훨씬 좋을 것 같다. 특별히 울퉁불퉁한 길 없이 평탄한 길로 되어있어 유모차를 끌기 아주 편했고, 그래서 그런지 주변에 아이데리고 온",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/pukicat/224418881530",
+       "date": "3일 전"
+      },
+      {
+       "label": "주차",
+       "quote": "서울식물원 지하 전용 주차장 이용 가능, 10분당 200원 유료 주차",
+       "src": "kakao-info:1164966384",
+       "date": null
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "림 보는것같았어요 야외정원걷다가 한옥집이 보이길래 잠깐 쉬어줬어요 대청마루에 잠깐앉아 쉴 수 있어요 나무향이 솔솔 나서 좋았습니다 ​ ​ 처마에 달린 물고기 풍경이 운치",
+       "src": "naver-blog:https://m.blog.naver.com/mimizip/224419761778",
+       "date": "2일 전"
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "수와 커다란 열대식물이 시선을 사로잡더라구요. ​ ​ 온실안에는 다양한 포토존과 쉬어갈 수 있는 벤치, 또 생생한 느낌의 새소리까지 틀어져있어서 여기가 서울맞아? 싶은 느",
+       "src": "naver-blog:https://m.blog.naver.com/trip_ayeonny/224414553432",
+       "date": "2026.09.17."
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "식물이 시선을 사로잡더라구요. ​ ​ 온실안에는 다양한 포토존과 쉬어갈 수 있는 벤치, 또 생생한 느낌의 새소리까지 틀어져있어서 여기가 서울맞아? 싶은 느낌이 들어요",
+       "src": "naver-blog:https://m.blog.naver.com/trip_ayeonny/224414553432",
+       "date": "2026.09.17."
+      }
+     ],
+     "negative": [],
+     "verdict": "적합 근거",
+     "unknown": [],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/mimizip/224419761778",
+      "title": "마곡 서울식물원 가보았다 입장료, 피크닉점심 정보",
+      "date": "2일 전",
+      "days_ago": 2,
+      "author": "심심할때 차 한잔",
+      "chars": 1107,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/trip_ayeonny/224414553432",
+      "title": "&quot;서울에 이런 곳이?&quot; 마곡 서울식물원 호수공원 수목원 나들이",
+      "date": "2026.09.17.",
+      "days_ago": 8,
+      "author": "아연니",
+      "chars": 2931,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 70,
+    "tier": "추천",
+    "breakdown": {
+     "reputation": 22,
+     "evidence": 18,
+     "family_fit": 17,
+     "practicality": 13
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 10,
+     "source_count": 2,
+     "mode_a": 9,
+     "mode_b": 8,
+     "drive_pts": 6,
+     "cost_pts": 7
     },
     "gates": {
      "pass": true,
@@ -3887,12 +4033,24 @@
     }
    },
    "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
+    "휴관·휴무일 언급 — 가기 전 확인"
    ],
-   "plan_notes": [],
-   "evidence_days_ago": 10,
-   "verified_at": "2026-09-25"
+   "plan_notes": [
+    {
+     "label": "휴관·휴무일",
+     "quote": "161 운영시간 매일 09:30-18:00 매주 월요일 휴관 연락처 02-2104-9716 입장료 성인",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/mimizip/224419761778",
+     "date": "2일 전"
+    },
+    {
+     "label": "휴관·휴무일",
+     "quote": "9716 ☎️전화번호 : 화~ 일 운영 : 매주 월요일 휴관 3월~10월 09:30~18:00 입장마감",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/trip_ayeonny/224414553432",
+     "date": "2026.09.17."
+    }
+   ],
+   "evidence_days_ago": 2,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-1225532960",
@@ -3905,7 +4063,7 @@
     "x": 127.4737365,
     "y": 37.6438331,
     "score": 4.45,
-    "reviews": 5782,
+    "reviews": 5784,
     "blog_reviews": 5295,
     "status": "운영 중",
     "conveniences": [
@@ -3930,7 +4088,7 @@
    "rating": {
     "pooled": 4.45,
     "bayes": 4.45,
-    "total_reviews": 5852,
+    "total_reviews": 5854,
     "source": "네이버"
    },
    "nav": {
@@ -4106,163 +4264,7 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 6,
-   "verified_at": "2026-09-25"
-  },
-  {
-   "id": "naver-34590112",
-   "name": "아쿠아플라넷 일산",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "34590112",
-    "category": "아쿠아리움",
-    "road_address": "한류월드로 282 아쿠아플라넷 일산",
-    "x": 126.7555543,
-    "y": 37.663938,
-    "score": null,
-    "reviews": 19657,
-    "blog_reviews": 8080,
-    "status": "운영 중",
-    "conveniences": [
-     "주차",
-     "남/녀 화장실 구분",
-     "장애인 편의시설"
-    ],
-    "phone": "1833-7001"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "23738256",
-    "kakao_url": "http://place.map.kakao.com/23738256",
-    "kakao_road_address": "경기 고양시 일산서구 한류월드로 282",
-    "rating": 4.0,
-    "review_count": 164,
-    "status": "Y",
-    "dist_m": 18,
-    "facility_icons": [
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "아쿠아플라넷 전용 지상 주차장 3시간 무료 주차 혜택, 편의점·카페·식음료 이용 시 최대 4시간 무료, 바로 옆 원마운트 건물 주차장과 분리됨"
-     }
-    ],
-    "headline": "운영 중",
-    "phone": "1833-7001"
-   },
-   "rating": {
-    "pooled": 4.8,
-    "bayes": 4.57,
-    "total_reviews": 19821,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.663938&dlng=126.7555543&dname=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.663938&dlng=126.7555543&dname=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.663938&lng=126.7555543&name=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/34590112",
-    "mobile_place": "https://m.place.naver.com/place/34590112/home"
-   },
-   "drive": {
-    "min": 50.7,
-    "km": 57.23,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": [
-     {
-      "name": "입장권_대소공통",
-      "price": "35000",
-      "description": "아쿠아리움+정글+스카이팜",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "아이동반",
-     "유모차",
-     "체험·동물"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "시 일산서구 한류월드로 282 아쿠아플라넷 일산 전화번호 :1833-7001 • 주차가능 • 단체가능 • 예약가능 서울이나 인천 근교 가볼만한곳을 찾는다면 아기랑 방문하",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/leeah123/224420531014",
-       "date": "1일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "일산서구 한류월드로 282 아쿠아플라넷 일산 전화번호 :1833-7001 ​ • 주차가능 • 단체가능 • 예약가능 ​ 서울이나 인천 근교 가볼만한곳을 찾는다면 아기랑 방",
-       "src": "naver-blog:https://m.blog.naver.com/leeah123/224420531014",
-       "date": "1일 전"
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/kanatazzang/224421098988",
-      "title": "아이랑 일산가볼만한곳 일산아쿠아플라넷 할인 바다코끼리 공연시간",
-      "date": "23시간 전",
-      "days_ago": 0,
-      "author": "이격정",
-      "chars": 3259,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/leeah123/224420531014",
-      "title": "일산 아기랑 방문하기 좋은 실내 데이트장소 아쿠아플라넷",
-      "date": "1일 전",
-      "days_ago": 1,
-      "author": "섀이",
-      "chars": 2491,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 68,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 30,
-     "evidence": 18,
-     "family_fit": 12,
-     "practicality": 8
-    },
-    "detail": {
-     "rating_pts": 20,
-     "review_pts": 10,
-     "source_count": 2,
-     "mode_a": 9,
-     "mode_b": 3,
-     "drive_pts": 6,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 0,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-34301448",
@@ -4274,8 +4276,8 @@
     "road_address": "사나사길 175 더그림",
     "x": 127.4970632,
     "y": 37.5290899,
-    "score": null,
-    "reviews": 22502,
+    "score": 4.63,
+    "reviews": 22504,
     "blog_reviews": 3697,
     "status": "운영 중",
     "conveniences": [
@@ -4311,10 +4313,10 @@
     "phone": "070-4257-2210"
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.65,
-    "total_reviews": 22628,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.63,
+    "bayes": 4.63,
+    "total_reviews": 22630,
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.5290899&dlng=127.4970632&dname=%EB%8D%94%EA%B7%B8%EB%A6%BC&appname=kr.familytrip.misa",
@@ -4480,12 +4482,197 @@
     }
    },
    "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
+  },
+  {
+   "id": "naver-1566642738",
+   "name": "헤븐온어스 동물체험장",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "1566642738",
+    "category": "관람,체험",
+    "road_address": "이원로1116번길 42-4 남용인ic 5분 거리",
+    "x": 127.3084647,
+    "y": 37.1557245,
+    "score": 4.75,
+    "reviews": 4996,
+    "blog_reviews": 1700,
+    "status": "운영 중",
+    "conveniences": [
+     "단체 이용 가능",
+     "반려동물 동반",
+     "남/녀 화장실 구분",
+     "유아의자",
+     "예약",
+     "무선 인터넷",
+     "간편결제",
+     "주차"
+    ],
+    "phone": "0507-1476-8221"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.75,
+    "bayes": 4.74,
+    "total_reviews": 4996,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.1557245&dlng=127.3084647&dname=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.1557245&dlng=127.3084647&dname=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.1557245&lng=127.3084647&name=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1566642738",
+    "mobile_place": "https://m.place.naver.com/place/1566642738/home"
+   },
+   "drive": {
+    "min": 45.2,
+    "km": 53.49,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": [
+     {
+      "name": "추석 연휴 조부모님 무료 *공지참고",
+      "price": "0",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "1인 입장권",
+      "price": "11000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "18개월 미만 1명(무료)",
+      "price": "0",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어린이집 별도문의(평일)",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "❤️이용시간 제한 없습니다.",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "❤️외부 음식 반입 가능합니다.",
+      "price": "",
+      "description": "",
+      "recommend": false
+     }
+    ]
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반",
+     "유아의자",
+     "체험·동물",
+     "캠핑 키즈시설"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "일요일 10:30-18:00 (주말만 운영) 전화번호 0507-1476-8221 주차 무료주차 이용금액 1인 13,000원 (18개월 미만 무료) ✔️ 이용시간 제한없음",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/pink_shower/224409655628",
+       "date": "2026.09.12."
+      },
+      {
+       "label": "주차",
+       "quote": "스는 메인 체험동과 체크인 하는 매표소 건물로 나뉘어 있어요. 제1~3주차장까지 주차공간도 넉넉해 편하게 방문할 수 있었는데요. 체험농장답게 한적하고 여유로운 분위기는",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/pink_shower/224409655628",
+       "date": "2026.09.12."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/pink_shower/224409655628",
+      "title": "용인 아이랑 가볼만한곳 헤븐온어스, 동물 먹이주기부터 감자 수확체험까지",
+      "date": "2026.09.12.",
+      "days_ago": 13,
+      "author": "또또마밍",
+      "chars": 2534,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/amy_jisunny/224365260165",
+      "title": "[용인] 용인 헤븐온어스 아이와 함께 다녀온 블루베리 수확 체험 방문 후기",
+      "date": "2026.08.02.",
+      "days_ago": 54,
+      "author": "지서니",
+      "chars": 1111,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 67.2,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 34.2,
+     "evidence": 10,
+     "family_fit": 15,
+     "practicality": 8
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 9.2,
+     "source_count": 1,
+     "mode_a": 12,
+     "mode_b": 3,
+     "drive_pts": 6,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 12,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-38018698",
@@ -4685,8 +4872,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 12,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 11,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-19713256",
@@ -4860,7 +5047,7 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 5,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-13162124",
@@ -4872,8 +5059,8 @@
     "road_address": "양수로 93",
     "x": 127.322095,
     "y": 37.5387311,
-    "score": null,
-    "reviews": 7751,
+    "score": 4.32,
+    "reviews": 7753,
     "blog_reviews": 8048,
     "status": "운영 중",
     "conveniences": [
@@ -4903,10 +5090,10 @@
     "phone": "031-775-1835"
    },
    "rating": {
-    "pooled": 4.6,
-    "bayes": 4.44,
-    "total_reviews": 7904,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.32,
+    "bayes": 4.32,
+    "total_reviews": 7906,
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.5387311&dlng=127.322095&dname=%EC%84%B8%EB%AF%B8%EC%9B%90&appname=kr.familytrip.misa",
@@ -5079,13 +5266,10 @@
      "failed": []
     }
    },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
+   "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 8,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 7,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-12115604",
@@ -5359,62 +5543,266 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 1,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
-   "id": "naver-36480728",
-   "name": "소래습지생태공원",
+   "id": "naver-11620669",
+   "name": "한국만화박물관",
    "kind": "attraction",
    "naver": {
-    "place_id": "36480728",
-    "category": "자연,생태공원",
-    "road_address": null,
-    "x": 126.7475643,
-    "y": 37.4134966,
-    "score": null,
-    "reviews": 401,
-    "blog_reviews": 3124,
-    "status": null,
-    "conveniences": null,
-    "phone": "032-435-7076"
+    "place_id": "11620669",
+    "category": "박물관",
+    "road_address": "길주로 1",
+    "x": 126.7421242,
+    "y": 37.5086327,
+    "score": 4.39,
+    "reviews": 774,
+    "blog_reviews": 4123,
+    "status": "오늘 휴무",
+    "conveniences": [
+     "남/녀 화장실 구분",
+     "무선 인터넷",
+     "단체 이용 가능",
+     "주차"
+    ],
+    "phone": "032-310-3090"
    },
    "kakao": {
     "found": true,
-    "kakao_id": "8429832",
-    "kakao_url": "http://place.map.kakao.com/8429832",
-    "kakao_road_address": "",
-    "rating": 4.2,
-    "review_count": 60,
+    "kakao_id": "11356267",
+    "kakao_url": "http://place.map.kakao.com/11356267",
+    "kakao_road_address": "경기 부천시 원미구 길주로 1",
+    "rating": 4.3,
+    "review_count": 63,
     "status": "Y",
-    "dist_m": 122,
+    "dist_m": 1,
     "facility_icons": [
      "예약가능"
     ],
     "store_infos": [
      {
       "title": "주차",
-      "summary": "소래습지생태공원앞 주차장 유료 이용 가능, 최초 30분 300원, 이후 15분당 150원"
+      "summary": "한국만화박물관 전용 주차장 무료 이용 가능, 영상문화단지 부설주차장 30분 400원 10분당 200원 1일 최대 4,000원, 바로 옆 부천영상문화단지 공영주차장 유료 이용 가능"
      }
     ],
-    "headline": "영업 전",
-    "phone": "032-435-7076"
+    "headline": "휴무일",
+    "phone": "032-310-3090"
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.5,
-    "total_reviews": 461,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.39,
+    "bayes": 4.37,
+    "total_reviews": 837,
+    "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.4134966&dlng=126.7475643&dname=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.4134966&dlng=126.7475643&dname=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.4134966&lng=126.7475643&name=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/36480728",
-    "mobile_place": "https://m.place.naver.com/place/36480728/home"
+    "app_navigation": "nmap://navigation?dlat=37.5086327&dlng=126.7421242&dname=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5086327&dlng=126.7421242&dname=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5086327&lng=126.7421242&name=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/11620669",
+    "mobile_place": "https://m.place.naver.com/place/11620669/home"
    },
    "drive": {
-    "min": 51.3,
-    "km": 50.26,
+    "min": 46.0,
+    "km": 48.41,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": {
+     "krw": 20000,
+     "basis": "입장료 성인 5,000원 x2 + 어린이 5,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
+     "sample": [
+      [
+       "일반권(출생일 기준 36개월 초과)",
+       5000
+      ],
+      [
+       "3인 가족권(성인2인, 미성년자1인)",
+       12000
+      ],
+      [
+       "4인 가족권(성인2인, 미성년자2인)",
+       16000
+      ],
+      [
+       "단체권(20명 이상)",
+       4000
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "일반권(출생일 기준 36개월 초과)",
+      "price": "5000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "3인 가족권(성인2인, 미성년자1인)",
+      "price": "12000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "4인 가족권(성인2인, 미성년자2인)",
+      "price": "16000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "단체권(20명 이상)",
+      "price": "4000",
+      "description": "",
+      "recommend": false
+     }
+    ]
+   },
+   "family": {
+    "mode_a": [
+     "아이동반",
+     "유모차",
+     "체험·동물"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "넓고 여유",
+       "quote": "관역 5번 출구로 나오면 바로 만나게 되는 장소에 야외 만화카페가 차려져 있었다 넓은 공간에 다양하게 햇빛을 피하면서 책을 볼 수 있는 소품들이 있어서 많이들 앉아 있었다",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/dksaktk/224419618219",
+       "date": "3일 전"
+      },
+      {
+       "label": "주차",
+       "quote": ":00 정기휴무 월요일 성인 입장권 5,000원 전화번호 032 310 3090 주차 가능 주차비용 30분 400원 부천 만화박물관 건물 안으로 들어가기 전부터 아이들이",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/rozyontheroad/224419154909",
+       "date": "3일 전"
+      },
+      {
+       "label": "주차",
+       "quote": "한국만화박물관 전용 주차장 무료 이용 가능, 영상문화단지 부설주차장 30분 400원 10분당 200원 1일 최대",
+       "src": "kakao-info:11356267",
+       "date": null
+      },
+      {
+       "label": "넓고 여유",
+       "quote": "5번 출구로 나오면 바로 만나게 되는 장소에 야외 만화카페가 차려져 있었다 ​ 넓은 공간에 다양하게 햇빛을 피하면서 책을 볼 수 있는 소품들이 있어서 많이들 앉아 있었다",
+       "src": "naver-blog:https://m.blog.naver.com/dksaktk/224419618219",
+       "date": "3일 전"
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/mcstkorea/224417288397",
+      "title": "만화, 부천을 가득 채우다✨│제29회 부천국제만화축제",
+      "date": "5일 전",
+      "days_ago": 5,
+      "author": "문화체육관광부",
+      "chars": 3450,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/dksaktk/224419618219",
+      "title": "제29회 부천국제만화축제 후기",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "강개미",
+      "chars": 3096,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 64.3,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 19.3,
+     "evidence": 18,
+     "family_fit": 14,
+     "practicality": 13
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 7.3,
+     "source_count": 2,
+     "mode_a": 9,
+     "mode_b": 5,
+     "drive_pts": 6,
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 3,
+   "verified_at": "2026-09-24"
+  },
+  {
+   "id": "naver-1053703601",
+   "name": "조인폴리아",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "1053703601",
+    "category": "식물원,수목원",
+    "road_address": "황소바위길 304",
+    "x": 126.8013856,
+    "y": 37.7795341,
+    "score": 4.76,
+    "reviews": 13189,
+    "blog_reviews": 3763,
+    "status": "운영 중",
+    "conveniences": [
+     "무선 인터넷",
+     "반려동물 동반",
+     "포장",
+     "남/녀 화장실 구분",
+     "주차"
+    ],
+    "phone": "0507-1381-8456"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "8067132",
+    "kakao_url": "http://place.map.kakao.com/8067132",
+    "kakao_road_address": "경기 파주시 월롱면 황소바위길 304",
+    "rating": 3.7,
+    "review_count": 59,
+    "status": "Y",
+    "dist_m": 0,
+    "facility_icons": [],
+    "store_infos": [],
+    "headline": "영업 중",
+    "phone": "1566-0310"
+   },
+   "rating": {
+    "pooled": 4.76,
+    "bayes": 4.76,
+    "total_reviews": 13248,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.7795341&dlng=126.8013856&dname=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.7795341&dlng=126.8013856&dname=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.7795341&lng=126.8013856&name=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1053703601",
+    "mobile_place": "https://m.place.naver.com/place/1053703601/home"
+   },
+   "drive": {
+    "min": 52.6,
+    "km": 60.32,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
@@ -5423,47 +5811,27 @@
     "menus_sample": []
    },
    "family": {
-    "mode_a": [
-     "아이동반",
-     "체험·동물"
-    ],
+    "mode_a": [],
     "mode_b": {
      "positive": [
       {
-       "label": "평탄·데크길",
-       "quote": "등 ✅방문 후 느낀 점 늦여름-초가을 사이 방문하니 칠면초가 무척 아름다웠어요. 데크길 따라 인천둘레길을 걸으니 즐거웠어요. 아이와 온다면 갯벌체험, 염전체험 등 다양",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/wansojun/224418790314",
-       "date": "4일 전"
+       "label": "주차",
+       "quote": "간: 매일 09:30~18:00(11~2월 17:30), 명절 휴무 주차: 무료 주차 가능 안녕 오늘은 야매 식집사로써 식물을 안들인지가 꽤 된 것 같아 조인폴리아에 구경",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/kwon5445/224415873745",
+       "date": "6일 전"
       },
       {
-       "label": "평탄·데크길",
-       "quote": "떠올리지만 더 가까이있는 소래습지에서도 이렇게 칠면초 구경이 가능하답니다.! 나무데크길로 산책로도 조성이 잘되어 있는만큼, 가족여행으로 인천둘레길을...",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/wansojun/224418790314",
-       "date": "4일 전"
-      },
-      {
-       "label": "평탄·데크길",
-       "quote": "등 ✅방문 후 느낀 점 늦여름-초가을 사이 방문하니 칠면초가 무척 아름다웠어요. 데크길 따라 인천둘레길을 걸으니 즐거웠어요. 아이와 온다면 갯벌체험, 염전체험 등 다양",
-       "src": "naver-blog:https://m.blog.naver.com/wansojun/224418790314",
-       "date": "4일 전"
-      },
-      {
-       "label": "평탄·데크길",
-       "quote": "가까이있는 소래습지에서도 이렇게 칠면초 구경이 가능하답니다.! ​ ​ ​ ​ 나무데크길로 산책로도 조성이 잘되어 있는만큼, 가족여행으로 인천둘레길을 걷기에 좋은 곳이에",
-       "src": "naver-blog:https://m.blog.naver.com/wansojun/224418790314",
-       "date": "4일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "세요~ 3층에서 바라본 염전 전망대 가볍게 간식 같은 거 먹을수있는 그늘이 있는 벤치가 있었어요~ 하얀색 소금이 가득한 염전을 볼줄알았는데, 물만? 보이는 모습이었습",
-       "src": "naver-blog:https://m.blog.naver.com/dony_zzang/224402449619",
-       "date": "2026.09.06."
+       "label": "주차",
+       "quote": "간: 매일 09:30~18:00(11~2월 17:30), 명절 휴무 주차: 무료 주차 가능 조인폴리아 경기도 파주시 월롱면 황소바위길 304 ​ ​ 안녕 오늘은 야매 식집",
+       "src": "naver-blog:https://m.blog.naver.com/kwon5445/224415873745",
+       "date": "6일 전"
       }
      ],
      "negative": [],
-     "verdict": "적합 근거",
+     "verdict": "확인 필요",
      "unknown": [
-      "주차"
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
      ],
      "soft_food": false
     }
@@ -5471,41 +5839,41 @@
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/wansojun/224418790314",
-      "title": "인천 아이와 가볼만한곳 추천 가족여행지 코스 관광지 소래습지생태공원 칠면초 둘레길 명소 인천 소래포구 바다 근처 갯벌체험",
-      "date": "4일 전",
-      "days_ago": 4,
-      "author": "준또",
-      "chars": 2548,
+      "url": "https://m.blog.naver.com/kwon5445/224415873745",
+      "title": "파주 조인폴리아, 식집사들 눈돌아가는 식물 쇼핑몰, 파주 가볼만한 곳",
+      "date": "6일 전",
+      "days_ago": 6,
+      "author": "람즤",
+      "chars": 1992,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/dony_zzang/224402449619",
-      "title": "가을 인천 아이와 가볼만한곳 농게 체험 소래습지생태공원",
-      "date": "2026.09.06.",
-      "days_ago": 19,
-      "author": "돈블리",
-      "chars": 1927,
+      "url": "https://m.blog.naver.com/moyamoyakr/224412907598",
+      "title": "파주 조인폴리아 나들이┃은쑥과 립살리스, 아스파라거스",
+      "date": "2026.09.15.",
+      "days_ago": 10,
+      "author": "moya",
+      "chars": 1265,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 63.7,
+    "total": 64,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 26.7,
+     "reputation": 35,
      "evidence": 18,
-     "family_fit": 11,
+     "family_fit": 3,
      "practicality": 8
     },
     "detail": {
-     "rating_pts": 20,
-     "review_pts": 6.7,
+     "rating_pts": 25,
+     "review_pts": 10,
      "source_count": 2,
-     "mode_a": 6,
-     "mode_b": 5,
+     "mode_a": 0,
+     "mode_b": 3,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -5515,20 +5883,11 @@
     }
    },
    "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)",
-    "사전 예약 언급 — 가기 전 확인"
+    "고평점(≥4.5)"
    ],
-   "plan_notes": [
-    {
-     "label": "사전 예약",
-     "quote": "가져갔답니다. ​ * 생태프로그램 참여수업 예약제로도 운영이 된다니 인천 시청 사이트 참고하시",
-     "src": "naver-blog:https://m.blog.naver.com/dony_zzang/224402449619",
-     "date": "2026.09.06."
-    }
-   ],
-   "evidence_days_ago": 4,
-   "verified_at": "2026-09-25"
+   "plan_notes": [],
+   "evidence_days_ago": 6,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11583237",
@@ -5541,7 +5900,7 @@
     "x": 127.0190443,
     "y": 37.4338452,
     "score": 4.46,
-    "reviews": 23275,
+    "reviews": 23277,
     "blog_reviews": 17231,
     "status": "영업 중",
     "conveniences": [
@@ -5573,7 +5932,7 @@
    "rating": {
     "pooled": 4.46,
     "bayes": 4.46,
-    "total_reviews": 23747,
+    "total_reviews": 23749,
     "source": "네이버"
    },
    "nav": {
@@ -5790,151 +6149,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-25"
-  },
-  {
-   "id": "naver-20118926",
-   "name": "송도 센트럴파크",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "20118926",
-    "category": "근린공원",
-    "road_address": "컨벤시아대로 160",
-    "x": 126.6406007,
-    "y": 37.3913127,
-    "score": null,
-    "reviews": 2021,
-    "blog_reviews": 10610,
-    "status": null,
-    "conveniences": [
-     "예약",
-     "남/녀 화장실 구분"
-    ],
-    "phone": null
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "13577707",
-    "kakao_url": "http://place.map.kakao.com/13577707",
-    "kakao_road_address": "",
-    "rating": 4.6,
-    "review_count": 300,
-    "status": "Y",
-    "dist_m": 261,
-    "facility_icons": [
-     "반려견동반",
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "송도센트럴파크 지하 공영주차장 유료 운영, 30분당 1000~2000원, 1시간 4000원"
-     }
-    ],
-    "headline": null,
-    "phone": "032-456-2860"
-   },
-   "rating": {
-    "pooled": 5.0,
-    "bayes": 4.8,
-    "total_reviews": 2321,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.3913127&dlng=126.6406007&dname=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.3913127&dlng=126.6406007&dname=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.3913127&lng=126.6406007&name=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/20118926",
-    "mobile_place": "https://m.place.naver.com/place/20118926/home"
-   },
-   "drive": {
-    "min": 58.0,
-    "km": 61.34,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "체험·동물"
-    ],
-    "mode_b": {
-     "positive": [],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치",
-      "주차"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/enabler84/224417260724",
-      "title": "송도 센트럴파크 2026 가을, 수상택시·보트와 야경 산책 동선",
-      "date": "5일 전",
-      "days_ago": 5,
-      "author": "온기",
-      "chars": 2602,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/discoverincheon/224415059791",
-      "title": "피크닉, 전시, 러닝까지! 지루할 틈 없이 꽉 채운 하루 &#39;송도센트럴파크&#39; 당일치기 코스",
-      "date": "1일 전",
-      "days_ago": 1,
-      "author": "DiscoverIncheon",
-      "chars": 2738,
-      "sponsored": true
-     },
-     {
-      "url": "https://m.blog.naver.com/pbsbyung2/224418426001",
-      "title": "혼자 떠난 가을 힐링 산책  송도 혼자 걷기 좋은 길 송도 센트럴파크 힐링 산책",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "혼자떠나는 힐링여행",
-      "chars": 1785,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 62.4,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 33.4,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 8
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 8.4,
-     "source_count": 2,
-     "mode_a": 3,
-     "mode_b": 0,
-     "drive_pts": 6,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 1,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-12845525",
@@ -6132,7 +6347,7 @@
     }
    ],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-35407573",
@@ -6144,7 +6359,7 @@
     "road_address": "반월천북길 139-18",
     "x": 126.8892697,
     "y": 37.3106786,
-    "score": null,
+    "score": 4.42,
     "reviews": 7160,
     "blog_reviews": 1333,
     "status": "운영 중",
@@ -6180,10 +6395,10 @@
     "phone": "031-437-2525"
    },
    "rating": {
-    "pooled": 4.6,
-    "bayes": 4.34,
+    "pooled": 4.42,
+    "bayes": 4.42,
     "total_reviews": 7216,
-    "source": "카카오(+0.8 보정)"
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.3106786&dlng=126.8892697&dname=%EC%9C%A0%EB%8B%88%EC%8A%A4%EC%9D%98%EC%A0%95%EC%9B%90%20%EB%B3%B4%ED%83%80%EB%8B%89%ED%95%98%EC%9A%B0%EC%8A%A4&appname=kr.familytrip.misa",
@@ -6297,8 +6512,6 @@
     }
    },
    "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)",
     "휴관·휴무일 언급 — 가기 전 확인"
    ],
    "plan_notes": [
@@ -6309,8 +6522,8 @@
      "date": "2026.08.28."
     }
    ],
-   "evidence_days_ago": 28,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 27,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-13221909",
@@ -6664,301 +6877,7 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 4,
-   "verified_at": "2026-09-25"
-  },
-  {
-   "id": "naver-11631797",
-   "name": "벽초지수목원",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "11631797",
-    "category": "식물원,수목원",
-    "road_address": "부흥로 242",
-    "x": 126.8754409,
-    "y": 37.8005109,
-    "score": null,
-    "reviews": 13636,
-    "blog_reviews": 6373,
-    "status": "운영 중",
-    "conveniences": [
-     "남/녀 화장실 구분",
-     "주차",
-     "장애인 편의시설",
-     "단체 이용 가능"
-    ],
-    "phone": "0507-1421-2022"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "7892614",
-    "kakao_url": "http://place.map.kakao.com/7892614",
-    "kakao_road_address": "경기 파주시 광탄면 부흥로 242",
-    "rating": 3.2,
-    "review_count": 158,
-    "status": "Y",
-    "dist_m": 108,
-    "facility_icons": [
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "벽초지수목원 제1·제2주차장 무료 운영, 넓은 무료 주차장 이용 가능"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "031-957-2004"
-   },
-   "rating": {
-    "pooled": 4.0,
-    "bayes": 4.08,
-    "total_reviews": 13794,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.8005109&dlng=126.8754409&dname=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.8005109&dlng=126.8754409&dname=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.8005109&lng=126.8754409&name=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/11631797",
-    "mobile_place": "https://m.place.naver.com/place/11631797/home"
-   },
-   "drive": {
-    "min": 52.2,
-    "km": 54.04,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 36000,
-     "basis": "입장료 성인 10,500원 x2 + 어린이 7,500원 x2 (네이버 등록 가격, 체험·식사 별도)",
-     "sample": [
-      [
-       "성인",
-       10500
-      ],
-      [
-       "청소년",
-       8500
-      ],
-      [
-       "어린이",
-       7500
-      ],
-      [
-       "경로/장애/국가유공자",
-       8500
-      ],
-      [
-       "36개월 미만 영,유아",
-       0
-      ]
-     ]
-    },
-    "menus_sample": [
-     {
-      "name": "성인",
-      "price": "10500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "청소년",
-      "price": "8500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어린이",
-      "price": "7500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "경로/장애/국가유공자",
-      "price": "8500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "36개월 미만 영,유아",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "유모차",
-     "체험·동물"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "00원 / 어린이·경로 7,500원 넓은 전용 주차장에 무료 주차가 가능합니다! 주차장 바로 앞이 입구라 주차하고 한참 걸어갈 필요가 없어서 정말 편했어요. 어린 아이들과",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "평탄·데크길",
-       "quote": "있어요! 벽초지 연못 & 단풍길 가을 운치의 정점! 국화 감상 후 연못 둘레길과 데크길로 발걸음을 옮기면 차분한 동양 정원의 정취가 펼쳐집니다. 저희가 가장 오랜 시간",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "~ 10월 가을꽃, 국화 축제 운영시간 매일 09:00 ~ 18:00 연중무휴 주차 가능 입장료 성인 10,500원 청소년, 경로, 장애인, 유공자 8,500원 어린이",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/jayooni/224418149397",
-       "date": "2일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "만 6,000여 종이 있습니다. 운영시간 매일 09:00 ~ 18:00 연중무휴 주차 가능 반려동물 입장 불가 입장료 네이버 예약 온라인 입장권 예매 할인 (당일 예약 불",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/jayooni/224418149397",
-       "date": "2일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "벽초지수목원 제1·제2주차장 무료 운영, 넓은 무료 주차장 이용 가능",
-       "src": "kakao-info:7892614",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "벽초지수목원 제1·제2주차장 무료 운영, 넓은 무료 주차장 이용 가능",
-       "src": "kakao-info:7892614",
-       "date": null
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "곳도 둘러보기로 하고 반대쪽으로 계속 걸어봤어요. ​ 말리성의 가든을 나와 아리솔쉼터 근처로 가니 분위기가 조금씩 달라졌어요. 높은 소나무와 나무가 많아지면서 정원보",
-       "src": "naver-blog:https://m.blog.naver.com/99833852/224405272611",
-       "date": "3일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "히 달랐어요. ​ 넓은 연못을 중심으로 울창한 나무가 둘러싸고 있고 작은 다리와 정자가 함께 보여서 풍경 자체가 정말 예뻤어요. 특히 이날은 파란 하늘과 하얀 구름이",
-       "src": "naver-blog:https://m.blog.naver.com/99833852/224405272611",
-       "date": "3일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "원 / 어린이·경로 7,500원 ​ 넓은 전용 주차장에 무료 주차가 가능합니다! 주차장 바로 앞이 입구라 주차하고 한참 걸어갈 필요가 없어서 정말 편했어요. 어린 아이들과",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "왔고, 바람은 선선해서 멀리 놀러온 느낌이였어요💛 ​ ​ 유모차·휠체어도 편안한 평지형 산책로 부모님이나 어린아이가 있는 가족 단위 방문객에게 가장 큰 장점은 대부분",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "린아이가 있는 가족 단위 방문객에게 가장 큰 장점은 대부분의 관람 구역이 완만한 평지로 조성되어 있다는 점입니다. ​ ​ 경사가 가파른 산지형 수목원과 달리 길이 고",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "높아 보이는 귀여운 파우치와 노트를 득템 했답니다🤩👍 ​ ​ 기프트샵 & 가족 쉼터 신화의 공간 내 니케의 광장 바로 뒤에에는 테이블과 의자 있는 가족 쉼터가 있어",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "가족 쉼터 신화의 공간 내 니케의 광장 바로 뒤에에는 테이블과 의자 있는 가족 쉼터가 있어요. 간단한 음료와 과일은 반입이 가능하기 때문에 이곳에서 편하게 드실 수",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "평탄·데크길",
-       "quote": "​ ​ 벽초지 연못 & 단풍길 가을 운치의 정점! 국화 감상 후 연못 둘레길과 데크길로 발걸음을 옮기면 차분한 동양 정원의 정취가 펼쳐집니다. 저희가 가장 오랜 시간",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "평탄·데크길",
-       "quote": "수면에 비치는 반영이 무척 운치있습니다! ​ ​ 연못을 가로지르는 수련길과 나무 데크길을 천천히 걸으며 탁 트인 물가 정취를 만끽할 수 있어서 정말 힐링되더라구요! ​",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      }
-     ],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "큰 장점은 대부분의 관람 구역이 완만한 평지로 조성되어 있다는 점입니다. ​ ​ 경사가 가파른 산지형 수목원과 달리 길이 고르게 정비되어 있어 유모차나 휠체어를 동반한",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      },
-      {
-       "label": "계단",
-       "quote": "은 대부분의 관람 구역이 완만한 평지로 조성되어 있다는 점입니다. ​ ​ 경사가 가파른 산지형 수목원과 달리 길이 고르게 정비되어 있어 유모차나 휠체어를 동반한 관람객",
-       "src": "naver-blog:https://m.blog.naver.com/6607144/224418063830",
-       "date": "4일 전"
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/99833852/224405272611",
-      "title": "[파주 가볼 만한 곳] 벽초지수목원 9월 가을꽃축제 전 방문 후기!",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "해피에코",
-      "chars": 3429,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/6607144/224418063830",
-      "title": "추석 연휴 어디 갈까? 서울 근교 1시간! 부모님과 아이 모두 대만족한 파주나들이 벽초지수목원",
-      "date": "4일 전",
-      "days_ago": 4,
-      "author": "cookie",
-      "chars": 2538,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 61,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 10,
-     "evidence": 18,
-     "family_fit": 20,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 10,
-     "source_count": 2,
-     "mode_a": 12,
-     "mode_b": 8,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11636039",
@@ -6971,7 +6890,7 @@
     "x": 127.0385663,
     "y": 37.5419644,
     "score": 4.47,
-    "reviews": 1151,
+    "reviews": 1152,
     "blog_reviews": 34776,
     "status": "운영 중",
     "conveniences": [
@@ -7004,7 +6923,7 @@
    "rating": {
     "pooled": 4.47,
     "bayes": 4.45,
-    "total_reviews": 1727,
+    "total_reviews": 1728,
     "source": "네이버"
    },
    "nav": {
@@ -7109,139 +7028,82 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
-   "id": "naver-36505156",
-   "name": "덕평공룡수목원",
+   "id": "naver-34590112",
+   "name": "아쿠아플라넷 일산",
    "kind": "attraction",
    "naver": {
-    "place_id": "36505156",
-    "category": "식물원,수목원",
-    "road_address": "작촌로 282 덕평공룡수목원",
-    "x": 127.3379533,
-    "y": 37.2314807,
-    "score": null,
-    "reviews": 13278,
-    "blog_reviews": 2163,
+    "place_id": "34590112",
+    "category": "아쿠아리움",
+    "road_address": "한류월드로 282 아쿠아플라넷 일산",
+    "x": 126.7555543,
+    "y": 37.663938,
+    "score": 4.37,
+    "reviews": 19657,
+    "blog_reviews": 8080,
     "status": "운영 중",
     "conveniences": [
-     "예약",
+     "주차",
      "남/녀 화장실 구분",
-     "단체 이용 가능",
-     "주차"
+     "장애인 편의시설"
     ],
-    "phone": "0507-1304-5029"
+    "phone": "1833-7001"
    },
    "kakao": {
     "found": true,
-    "kakao_id": "26973926",
-    "kakao_url": "http://place.map.kakao.com/26973926",
-    "kakao_road_address": "경기 이천시 마장면 작촌로 282",
-    "rating": 3.3,
-    "review_count": 53,
+    "kakao_id": "23738256",
+    "kakao_url": "http://place.map.kakao.com/23738256",
+    "kakao_road_address": "경기 고양시 일산서구 한류월드로 282",
+    "rating": 4.0,
+    "review_count": 164,
     "status": "Y",
-    "dist_m": 113,
+    "dist_m": 18,
     "facility_icons": [
      "예약가능"
     ],
     "store_infos": [
      {
       "title": "주차",
-      "summary": "덕평공룡수목원 전용 넓은 주차장 보유, 주차 무료"
+      "summary": "아쿠아플라넷 전용 지상 주차장 3시간 무료 주차 혜택, 편의점·카페·식음료 이용 시 최대 4시간 무료, 바로 옆 원마운트 건물 주차장과 분리됨"
      }
     ],
-    "headline": "영업 중",
-    "phone": "031-633-5029"
+    "headline": "운영 중",
+    "phone": "1833-7001"
    },
    "rating": {
-    "pooled": 4.1,
-    "bayes": 4.17,
-    "total_reviews": 13331,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.37,
+    "bayes": 4.37,
+    "total_reviews": 19821,
+    "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.2314807&dlng=127.3379533&dname=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.2314807&dlng=127.3379533&dname=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.2314807&lng=127.3379533&name=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/36505156",
-    "mobile_place": "https://m.place.naver.com/place/36505156/home"
+    "app_navigation": "nmap://navigation?dlat=37.663938&dlng=126.7555543&dname=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.663938&dlng=126.7555543&dname=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.663938&lng=126.7555543&name=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/34590112",
+    "mobile_place": "https://m.place.naver.com/place/34590112/home"
    },
    "drive": {
-    "min": 44.4,
-    "km": 49.11,
+    "min": 50.7,
+    "km": 57.23,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
    "price": {
-    "est_meal_4p": {
-     "krw": 37000,
-     "basis": "입장료 성인 11,000원 x2 + 어린이 7,500원 x2 (네이버 등록 가격, 체험·식사 별도)",
-     "sample": [
-      [
-       "평일 어른",
-       11000
-      ],
-      [
-       "평일 중고생",
-       7500
-      ],
-      [
-       "평일 어린이",
-       7500
-      ],
-      [
-       "평일 경로/유공자",
-       8000
-      ],
-      [
-       "주말 어른",
-       13000
-      ]
-     ]
-    },
+    "est_meal_4p": null,
     "menus_sample": [
      {
-      "name": "평일 어른",
-      "price": "11000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "평일 중고생",
-      "price": "7500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "평일 어린이",
-      "price": "7500",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "평일 경로/유공자",
-      "price": "8000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "주말 어른",
-      "price": "13000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "주말 중고생",
-      "price": "8500",
-      "description": "",
+      "name": "입장권_대소공통",
+      "price": "35000",
+      "description": "아쿠아리움+정글+스카이팜",
       "recommend": false
      }
     ]
    },
    "family": {
     "mode_a": [
-     "놀이시설",
      "아이동반",
      "유모차",
      "체험·동물"
@@ -7250,102 +7112,76 @@
      "positive": [
       {
        "label": "주차",
-       "quote": "만한 곳을 찾는 분들을 위해 덕평공룡수목원 방문 후기를 정리해볼게요. 외부&주차 주차장이 넓었고 주말에도 널널해서 가족 나들이 장소를 찾을 때 참고하기 좋아요. 요금 네이버",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/leeseul525/224397206035",
-       "date": "2026.09.01."
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "는 재미에 푹 빠져 더운 줄도 모르고 뛰어다니지만, 어른들은 더위에 지쳐 그늘과 쉼터부터 찾게 됩니다. 카페로 들어가 시원한 음료 마시며 쉬는 동안에도 아이들은 야외",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/2000happy_/224366161095",
-       "date": "2026.08.09."
+       "quote": "시 일산서구 한류월드로 282 아쿠아플라넷 일산 전화번호 :1833-7001 • 주차가능 • 단체가능 • 예약가능 서울이나 인천 근교 가볼만한곳을 찾는다면 아기랑 방문하",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/leeah123/224420531014",
+       "date": "1일 전"
       },
       {
        "label": "주차",
-       "quote": "덕평공룡수목원 전용 넓은 주차장 보유, 주차 무료",
-       "src": "kakao-info:26973926",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "위해 덕평공룡수목원 방문 후기를 정리해볼게요. ​ ​ ​ 외부&주차 ​ ​ ​ 주차장이 넓었고 주말에도 널널해서 가족 나들이 장소를 찾을 때 참고하기 좋아요. ​ ​ ​",
-       "src": "naver-blog:https://m.blog.naver.com/leeseul525/224397206035",
-       "date": "2026.09.01."
+       "quote": "일산서구 한류월드로 282 아쿠아플라넷 일산 전화번호 :1833-7001 ​ • 주차가능 • 단체가능 • 예약가능 ​ 서울이나 인천 근교 가볼만한곳을 찾는다면 아기랑 방",
+       "src": "naver-blog:https://m.blog.naver.com/leeah123/224420531014",
+       "date": "1일 전"
       }
      ],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "오르막이 많아서 유모차 밀고 다니기 힘들지만 36개월 미만 아이가 있으시면 공짜로 다녀",
-       "src": "kakao-review:8584469",
-       "date": "2023-09-19"
-      }
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
      ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [],
      "soft_food": false
     }
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/hrim0823/224419652119",
-      "title": "조금은 너를 위해 이기적으로 살 필요도 있어.",
-      "date": "2일 전",
-      "days_ago": 2,
-      "author": "봄소록",
-      "chars": 2258,
+      "url": "https://m.blog.naver.com/kanatazzang/224421098988",
+      "title": "아이랑 일산가볼만한곳 일산아쿠아플라넷 할인 바다코끼리 공연시간",
+      "date": "23시간 전",
+      "days_ago": 0,
+      "author": "이격정",
+      "chars": 3259,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/leeseul525/224397206035",
-      "title": "이천 아이와 가볼만한 곳 공룡 좋아하는 아이와  덕평공룡수목원",
-      "date": "2026.09.01.",
-      "days_ago": 24,
-      "author": "박가네육아라이프",
-      "chars": 2626,
+      "url": "https://m.blog.naver.com/leeah123/224420531014",
+      "title": "일산 아기랑 방문하기 좋은 실내 데이트장소 아쿠아플라넷",
+      "date": "1일 전",
+      "days_ago": 1,
+      "author": "섀이",
+      "chars": 2491,
       "sponsored": false
      }
     ],
-    "youtube": [
-     {
-      "video_id": "c-w7Y_JMrAQ",
-      "link": "https://www.youtube.com/watch?v=c-w7Y_JMrAQ",
-      "t": null,
-      "quote": "공룡을 좋아하는 우리 아이와 함께 이천 덕평공룡수목원에 다녀왔습니다! 🦕",
-      "where": "description"
-     }
-    ]
+    "youtube": []
    },
    "scores": {
     "total": 60,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 10,
-     "evidence": 23,
-     "family_fit": 14,
-     "practicality": 13
+     "reputation": 22,
+     "evidence": 18,
+     "family_fit": 12,
+     "practicality": 8
     },
     "detail": {
-     "rating_pts": 0,
+     "rating_pts": 12,
      "review_pts": 10,
-     "source_count": 3,
-     "mode_a": 12,
-     "mode_b": 2,
+     "source_count": 2,
+     "mode_a": 9,
+     "mode_b": 3,
      "drive_pts": 6,
-     "cost_pts": 7
+     "cost_pts": 2
     },
     "gates": {
      "pass": true,
      "failed": []
     }
    },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화"
-   ],
+   "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 0,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-35506762",
@@ -7359,7 +7195,7 @@
     "y": 37.5567498,
     "score": 4.34,
     "reviews": 416,
-    "blog_reviews": 8415,
+    "blog_reviews": 8418,
     "status": null,
     "conveniences": null,
     "phone": null
@@ -7537,7 +7373,7 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 1,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-13068233",
@@ -7741,8 +7577,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 15,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 14,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-12958532",
@@ -7756,7 +7592,7 @@
     "y": 37.3909834,
     "score": 4.3,
     "reviews": 2988,
-    "blog_reviews": 9820,
+    "blog_reviews": 9828,
     "status": "24시간 운영",
     "conveniences": [
      "주차"
@@ -7955,7 +7791,7 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 1,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11656903",
@@ -7967,9 +7803,9 @@
     "road_address": "청신로947번길 51 허브아일랜드",
     "x": 127.1333352,
     "y": 37.9672025,
-    "score": 4.24,
-    "reviews": 11602,
-    "blog_reviews": 8261,
+    "score": 4.25,
+    "reviews": 11605,
+    "blog_reviews": 8260,
     "status": "운영 중",
     "conveniences": [
      "예약",
@@ -8004,9 +7840,9 @@
     "phone": "031-535-6494"
    },
    "rating": {
-    "pooled": 4.24,
-    "bayes": 4.24,
-    "total_reviews": 11819,
+    "pooled": 4.25,
+    "bayes": 4.25,
+    "total_reviews": 11822,
     "source": "네이버"
    },
    "nav": {
@@ -8209,7 +8045,7 @@
    "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-13542620",
@@ -8221,9 +8057,9 @@
     "road_address": "코스모스길14번길 249",
     "x": 127.1367976,
     "y": 37.574801,
-    "score": null,
+    "score": 4.31,
     "reviews": 3222,
-    "blog_reviews": 5719,
+    "blog_reviews": 5721,
     "status": "24시간 운영",
     "conveniences": null,
     "phone": "031-550-3789"
@@ -8248,10 +8084,10 @@
     "phone": ""
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.45,
+    "pooled": 4.31,
+    "bayes": 4.31,
     "total_reviews": 3267,
-    "source": "카카오(+0.8 보정)"
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.574801&dlng=127.1367976&dname=%EA%B5%AC%EB%A6%AC%ED%95%9C%EA%B0%95%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
@@ -8358,13 +8194,160 @@
      "failed": []
     }
    },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
-   ],
+   "flags": [],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
+  },
+  {
+   "id": "naver-35195643",
+   "name": "물향기수목원",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "35195643",
+    "category": "식물원,수목원",
+    "road_address": "청학로 211",
+    "x": 127.0570465,
+    "y": 37.1664666,
+    "score": 4.45,
+    "reviews": 3131,
+    "blog_reviews": 2705,
+    "status": "운영 중",
+    "conveniences": [
+     "단체 이용 가능",
+     "남/녀 화장실 구분",
+     "주차"
+    ],
+    "phone": "0507-1398-1456"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "11462042",
+    "kakao_url": "http://place.map.kakao.com/11462042",
+    "kakao_road_address": "경기 오산시 청학로 211",
+    "rating": 4.3,
+    "review_count": 184,
+    "status": "Y",
+    "dist_m": 221,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "물향기수목원 내 주차 공간 마련, 3시간 이내 소형·중형 차량 2,000원 부과, 경차 및 이륜차 30분 내 출차 시 무료, 친환경 차량 및 중증 장애인 차량 할인 및 무료 적용"
+     }
+    ],
+    "headline": "영업 전",
+    "phone": "031-378-1261"
+   },
+   "rating": {
+    "pooled": 4.45,
+    "bayes": 4.44,
+    "total_reviews": 3315,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.1664666&dlng=127.0570465&dname=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.1664666&dlng=127.0570465&dname=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.1664666&lng=127.0570465&name=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/35195643",
+    "mobile_place": "https://m.place.naver.com/place/35195643/home"
+   },
+   "drive": {
+    "min": 50.3,
+    "km": 53.34,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "아이동반",
+     "체험·동물"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "물향기수목원 내 주차 공간 마련, 3시간 이내 소형·중형 차량 2,000원 부과, 경차 및 이륜차 30분",
+       "src": "kakao-info:11462042",
+       "date": null
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "능성식물원, 향토예술의나무원, 토피어리원, 미로원, 분재원, 난대양치식물원, 숲속쉼터 등 각양각색의 공간들이 다채로워서 보는 즐거움부터 가을 감성까지 제대로 즐기기",
+       "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
+       "date": "2026.09.15."
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "기대되는 경기도 여행지였어요. ​ ​ ​ ​ 간단한 간식 싸와서 먹을 수 있는 쉼터 공간도 있어서 숲 안에서 힐링하며 피크닉 감성까지 느낄 수 있어서 굉장히 만족스",
+       "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
+       "date": "2026.09.15."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/soh109/224412258117",
+      "title": "오산 가볼만한곳 10월 아이와 경기도 가을 여행지 물향기수목원 공원",
+      "date": "2026.09.15.",
+      "days_ago": 10,
+      "author": "오키야옹이",
+      "chars": 3508,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/gwyneth68/224415082581",
+      "title": "오산 경기 도립 &lt;물향기 수목원&gt; 무료입장",
+      "date": "2026.09.17.",
+      "days_ago": 8,
+      "author": "안친절한뽁뽁뽁",
+      "chars": 1205,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 57.8,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 20.8,
+     "evidence": 18,
+     "family_fit": 11,
+     "practicality": 8
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 8.8,
+     "source_count": 2,
+     "mode_a": 6,
+     "mode_b": 5,
+     "drive_pts": 6,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 9,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-12913212",
@@ -8376,9 +8359,9 @@
     "road_address": "호반로 1063",
     "x": 127.49058,
     "y": 37.715629,
-    "score": null,
-    "reviews": 13269,
-    "blog_reviews": 6410,
+    "score": 4.18,
+    "reviews": 13278,
+    "blog_reviews": 6411,
     "status": "운영 중",
     "conveniences": [
      "예약",
@@ -8409,10 +8392,10 @@
     "phone": "031-584-8200"
    },
    "rating": {
-    "pooled": 3.9,
-    "bayes": 4.02,
-    "total_reviews": 13412,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.18,
+    "bayes": 4.18,
+    "total_reviews": 13421,
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.715629&dlng=127.49058&dname=%EC%81%98%EB%9D%A0%ED%94%84%EB%9E%91%EC%8A%A4&appname=kr.familytrip.misa",
@@ -8552,66 +8535,65 @@
      "failed": []
     }
    },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화"
-   ],
+   "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 10,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 9,
+   "verified_at": "2026-09-24"
   },
   {
-   "id": "naver-1053703601",
-   "name": "조인폴리아",
+   "id": "naver-36480728",
+   "name": "소래습지생태공원",
    "kind": "attraction",
    "naver": {
-    "place_id": "1053703601",
-    "category": "식물원,수목원",
-    "road_address": "황소바위길 304",
-    "x": 126.8013856,
-    "y": 37.7795341,
-    "score": null,
-    "reviews": 13177,
-    "blog_reviews": 3763,
-    "status": "운영 중",
-    "conveniences": [
-     "무선 인터넷",
-     "반려동물 동반",
-     "포장",
-     "남/녀 화장실 구분",
-     "주차"
-    ],
-    "phone": "0507-1381-8456"
+    "place_id": "36480728",
+    "category": "자연,생태공원",
+    "road_address": null,
+    "x": 126.7475643,
+    "y": 37.4134966,
+    "score": 4.31,
+    "reviews": 402,
+    "blog_reviews": 3124,
+    "status": null,
+    "conveniences": null,
+    "phone": "032-435-7076"
    },
    "kakao": {
     "found": true,
-    "kakao_id": "8067132",
-    "kakao_url": "http://place.map.kakao.com/8067132",
-    "kakao_road_address": "경기 파주시 월롱면 황소바위길 304",
-    "rating": 3.7,
-    "review_count": 59,
+    "kakao_id": "8429832",
+    "kakao_url": "http://place.map.kakao.com/8429832",
+    "kakao_road_address": "",
+    "rating": 4.2,
+    "review_count": 60,
     "status": "Y",
-    "dist_m": 0,
-    "facility_icons": [],
-    "store_infos": [],
-    "headline": "영업 중",
-    "phone": "1566-0310"
+    "dist_m": 122,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "소래습지생태공원앞 주차장 유료 이용 가능, 최초 30분 300원, 이후 15분당 150원"
+     }
+    ],
+    "headline": "영업 전",
+    "phone": "032-435-7076"
    },
    "rating": {
-    "pooled": 4.5,
-    "bayes": 4.31,
-    "total_reviews": 13236,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.31,
+    "bayes": 4.29,
+    "total_reviews": 462,
+    "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.7795341&dlng=126.8013856&dname=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.7795341&dlng=126.8013856&dname=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.7795341&lng=126.8013856&name=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1053703601",
-    "mobile_place": "https://m.place.naver.com/place/1053703601/home"
+    "app_navigation": "nmap://navigation?dlat=37.4134966&dlng=126.7475643&dname=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.4134966&dlng=126.7475643&dname=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.4134966&lng=126.7475643&name=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/36480728",
+    "mobile_place": "https://m.place.naver.com/place/36480728/home"
    },
    "drive": {
-    "min": 52.6,
-    "km": 60.32,
+    "min": 51.3,
+    "km": 50.26,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
@@ -8620,27 +8602,47 @@
     "menus_sample": []
    },
    "family": {
-    "mode_a": [],
+    "mode_a": [
+     "아이동반",
+     "체험·동물"
+    ],
     "mode_b": {
      "positive": [
       {
-       "label": "주차",
-       "quote": "간: 매일 09:30~18:00(11~2월 17:30), 명절 휴무 주차: 무료 주차 가능 안녕 오늘은 야매 식집사로써 식물을 안들인지가 꽤 된 것 같아 조인폴리아에 구경",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/kwon5445/224415873745",
-       "date": "6일 전"
+       "label": "평탄·데크길",
+       "quote": "등 ✅방문 후 느낀 점 늦여름-초가을 사이 방문하니 칠면초가 무척 아름다웠어요. 데크길 따라 인천둘레길을 걸으니 즐거웠어요. 아이와 온다면 갯벌체험, 염전체험 등 다양",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/wansojun/224418790314",
+       "date": "4일 전"
       },
       {
-       "label": "주차",
-       "quote": "간: 매일 09:30~18:00(11~2월 17:30), 명절 휴무 주차: 무료 주차 가능 조인폴리아 경기도 파주시 월롱면 황소바위길 304 ​ ​ 안녕 오늘은 야매 식집",
-       "src": "naver-blog:https://m.blog.naver.com/kwon5445/224415873745",
-       "date": "6일 전"
+       "label": "평탄·데크길",
+       "quote": "떠올리지만 더 가까이있는 소래습지에서도 이렇게 칠면초 구경이 가능하답니다.! 나무데크길로 산책로도 조성이 잘되어 있는만큼, 가족여행으로 인천둘레길을...",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/wansojun/224418790314",
+       "date": "4일 전"
+      },
+      {
+       "label": "평탄·데크길",
+       "quote": "등 ✅방문 후 느낀 점 늦여름-초가을 사이 방문하니 칠면초가 무척 아름다웠어요. 데크길 따라 인천둘레길을 걸으니 즐거웠어요. 아이와 온다면 갯벌체험, 염전체험 등 다양",
+       "src": "naver-blog:https://m.blog.naver.com/wansojun/224418790314",
+       "date": "4일 전"
+      },
+      {
+       "label": "평탄·데크길",
+       "quote": "가까이있는 소래습지에서도 이렇게 칠면초 구경이 가능하답니다.! ​ ​ ​ ​ 나무데크길로 산책로도 조성이 잘되어 있는만큼, 가족여행으로 인천둘레길을 걷기에 좋은 곳이에",
+       "src": "naver-blog:https://m.blog.naver.com/wansojun/224418790314",
+       "date": "4일 전"
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "세요~ 3층에서 바라본 염전 전망대 가볍게 간식 같은 거 먹을수있는 그늘이 있는 벤치가 있었어요~ 하얀색 소금이 가득한 염전을 볼줄알았는데, 물만? 보이는 모습이었습",
+       "src": "naver-blog:https://m.blog.naver.com/dony_zzang/224402449619",
+       "date": "2026.09.06."
       }
      ],
      "negative": [],
-     "verdict": "확인 필요",
+     "verdict": "적합 근거",
      "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
+      "주차"
      ],
      "soft_food": false
     }
@@ -8648,41 +8650,41 @@
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/kwon5445/224415873745",
-      "title": "파주 조인폴리아, 식집사들 눈돌아가는 식물 쇼핑몰, 파주 가볼만한 곳",
-      "date": "6일 전",
-      "days_ago": 6,
-      "author": "람즤",
-      "chars": 1992,
+      "url": "https://m.blog.naver.com/wansojun/224418790314",
+      "title": "인천 아이와 가볼만한곳 추천 가족여행지 코스 관광지 소래습지생태공원 칠면초 둘레길 명소 인천 소래포구 바다 근처 갯벌체험",
+      "date": "4일 전",
+      "days_ago": 4,
+      "author": "준또",
+      "chars": 2548,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/moyamoyakr/224412907598",
-      "title": "파주 조인폴리아 나들이┃은쑥과 립살리스, 아스파라거스",
-      "date": "2026.09.15.",
-      "days_ago": 10,
-      "author": "moya",
-      "chars": 1265,
+      "url": "https://m.blog.naver.com/dony_zzang/224402449619",
+      "title": "가을 인천 아이와 가볼만한곳 농게 체험 소래습지생태공원",
+      "date": "2026.09.06.",
+      "days_ago": 19,
+      "author": "돈블리",
+      "chars": 1927,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 51,
+    "total": 49.7,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 22,
+     "reputation": 12.7,
      "evidence": 18,
-     "family_fit": 3,
+     "family_fit": 11,
      "practicality": 8
     },
     "detail": {
-     "rating_pts": 12,
-     "review_pts": 10,
+     "rating_pts": 6,
+     "review_pts": 6.7,
      "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 3,
+     "mode_a": 6,
+     "mode_b": 5,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -8692,12 +8694,159 @@
     }
    },
    "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 3.9로 완화",
-    "고평점(≥4.5)"
+    "사전 예약 언급 — 가기 전 확인"
    ],
+   "plan_notes": [
+    {
+     "label": "사전 예약",
+     "quote": "가져갔답니다. ​ * 생태프로그램 참여수업 예약제로도 운영이 된다니 인천 시청 사이트 참고하시",
+     "src": "naver-blog:https://m.blog.naver.com/dony_zzang/224402449619",
+     "date": "2026.09.06."
+    }
+   ],
+   "evidence_days_ago": 4,
+   "verified_at": "2026-09-24"
+  },
+  {
+   "id": "naver-20118926",
+   "name": "송도 센트럴파크",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "20118926",
+    "category": "근린공원",
+    "road_address": "컨벤시아대로 160",
+    "x": 126.6406007,
+    "y": 37.3913127,
+    "score": 4.39,
+    "reviews": 2021,
+    "blog_reviews": 10613,
+    "status": null,
+    "conveniences": [
+     "예약",
+     "남/녀 화장실 구분"
+    ],
+    "phone": null
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "13577707",
+    "kakao_url": "http://place.map.kakao.com/13577707",
+    "kakao_road_address": "",
+    "rating": 4.6,
+    "review_count": 300,
+    "status": "Y",
+    "dist_m": 261,
+    "facility_icons": [
+     "반려견동반",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "송도센트럴파크 지하 공영주차장 유료 운영, 30분당 1000~2000원, 1시간 4000원"
+     }
+    ],
+    "headline": null,
+    "phone": "032-456-2860"
+   },
+   "rating": {
+    "pooled": 4.39,
+    "bayes": 4.38,
+    "total_reviews": 2321,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.3913127&dlng=126.6406007&dname=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.3913127&dlng=126.6406007&dname=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.3913127&lng=126.6406007&name=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/20118926",
+    "mobile_place": "https://m.place.naver.com/place/20118926/home"
+   },
+   "drive": {
+    "min": 58.0,
+    "km": 61.34,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "체험·동물"
+    ],
+    "mode_b": {
+     "positive": [],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치",
+      "주차"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/enabler84/224417260724",
+      "title": "송도 센트럴파크 2026 가을, 수상택시·보트와 야경 산책 동선",
+      "date": "5일 전",
+      "days_ago": 5,
+      "author": "온기",
+      "chars": 2602,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/discoverincheon/224415059791",
+      "title": "피크닉, 전시, 러닝까지! 지루할 틈 없이 꽉 채운 하루 &#39;송도센트럴파크&#39; 당일치기 코스",
+      "date": "1일 전",
+      "days_ago": 1,
+      "author": "DiscoverIncheon",
+      "chars": 2738,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/pbsbyung2/224418426001",
+      "title": "혼자 떠난 가을 힐링 산책  송도 혼자 걷기 좋은 길 송도 센트럴파크 힐링 산책",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "혼자떠나는 힐링여행",
+      "chars": 1785,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 49.4,
+    "tier": "근거부족",
+    "breakdown": {
+     "reputation": 20.4,
+     "evidence": 18,
+     "family_fit": 3,
+     "practicality": 8
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 8.4,
+     "source_count": 2,
+     "mode_a": 3,
+     "mode_b": 0,
+     "drive_pts": 6,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 6,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 1,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11491629",
@@ -8711,7 +8860,7 @@
     "y": 38.0773466,
     "score": 4.15,
     "reviews": 242,
-    "blog_reviews": 4103,
+    "blog_reviews": 4106,
     "status": "운영 중",
     "conveniences": null,
     "phone": "031-834-3883"
@@ -8879,7 +9028,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-13491272",
@@ -9067,194 +9216,8 @@
      "date": "2026.09.09."
     }
    ],
-   "evidence_days_ago": 8,
-   "verified_at": "2026-09-25"
-  },
-  {
-   "id": "naver-1566642738",
-   "name": "헤븐온어스 동물체험장",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "1566642738",
-    "category": "관람,체험",
-    "road_address": "이원로1116번길 42-4 남용인ic 5분 거리",
-    "x": 127.3084647,
-    "y": 37.1557245,
-    "score": null,
-    "reviews": 4995,
-    "blog_reviews": 1700,
-    "status": "운영 중",
-    "conveniences": [
-     "단체 이용 가능",
-     "반려동물 동반",
-     "남/녀 화장실 구분",
-     "유아의자",
-     "예약",
-     "무선 인터넷",
-     "간편결제",
-     "주차"
-    ],
-    "phone": "0507-1476-8221"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": null,
-    "bayes": null,
-    "total_reviews": 4995,
-    "source": null
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.1557245&dlng=127.3084647&dname=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.1557245&dlng=127.3084647&dname=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.1557245&lng=127.3084647&name=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1566642738",
-    "mobile_place": "https://m.place.naver.com/place/1566642738/home"
-   },
-   "drive": {
-    "min": 45.2,
-    "km": 53.49,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": [
-     {
-      "name": "추석 연휴 조부모님 무료 *공지참고",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "1인 입장권",
-      "price": "11000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "18개월 미만 1명(무료)",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어린이집 별도문의(평일)",
-      "price": "",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "❤️이용시간 제한 없습니다.",
-      "price": "",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "❤️외부 음식 반입 가능합니다.",
-      "price": "",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "유아의자",
-     "체험·동물",
-     "캠핑 키즈시설"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "일요일 10:30-18:00 (주말만 운영) 전화번호 0507-1476-8221 주차 무료주차 이용금액 1인 13,000원 (18개월 미만 무료) ✔️ 이용시간 제한없음",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/pink_shower/224409655628",
-       "date": "2026.09.12."
-      },
-      {
-       "label": "주차",
-       "quote": "스는 메인 체험동과 체크인 하는 매표소 건물로 나뉘어 있어요. 제1~3주차장까지 주차공간도 넉넉해 편하게 방문할 수 있었는데요. 체험농장답게 한적하고 여유로운 분위기는",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/pink_shower/224409655628",
-       "date": "2026.09.12."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/pink_shower/224409655628",
-      "title": "용인 아이랑 가볼만한곳 헤븐온어스, 동물 먹이주기부터 감자 수확체험까지",
-      "date": "2026.09.12.",
-      "days_ago": 13,
-      "author": "또또마밍",
-      "chars": 2534,
-      "sponsored": true
-     },
-     {
-      "url": "https://m.blog.naver.com/amy_jisunny/224365260165",
-      "title": "[용인] 용인 헤븐온어스 아이와 함께 다녀온 블루베리 수확 체험 방문 후기",
-      "date": "2026.08.02.",
-      "days_ago": 54,
-      "author": "지서니",
-      "chars": 1111,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 42.2,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 9.2,
-     "evidence": 10,
-     "family_fit": 15,
-     "practicality": 8
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 9.2,
-     "source_count": 1,
-     "mode_a": 12,
-     "mode_b": 3,
-     "drive_pts": 6,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "별점 없음(네이버·카카오 모두)",
-    "카카오 교차검증 실패(확인 필요)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 13,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 7,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-13491056",
@@ -9395,7 +9358,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 6,
-   "verified_at": "2026-09-25"
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11583652",
@@ -9610,8 +9573,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 42,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 41,
+   "verified_at": "2026-09-24"
   },
   {
    "id": "naver-11491825",
@@ -9859,8 +9822,8 @@
     "차량 68분(선호 60분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 14,
-   "verified_at": "2026-09-25"
+   "evidence_days_ago": 13,
+   "verified_at": "2026-09-24"
   }
  ]
 }
