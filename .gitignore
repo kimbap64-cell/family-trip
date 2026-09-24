@@ -1,0 +1,10 @@
+# 개인 민감 정보 보호
+kakao_token.json
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 운영체제 임시 파일
+Thumbs.db
+.DS_Store
