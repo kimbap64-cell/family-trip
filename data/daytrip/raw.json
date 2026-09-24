@@ -1108,7 +1108,7 @@
     "y": 37.8324653,
     "phone": "033-260-8300",
     "visitor_review_count": 25109,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.34,
     "blog_review_count": 5937,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -1374,7 +1374,7 @@
     "y": 37.663938,
     "phone": "1833-7001",
     "visitor_review_count": 19657,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.37,
     "blog_review_count": 8080,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -1658,7 +1658,7 @@
     "y": 37.5290899,
     "phone": "0507-1419-2210",
     "visitor_review_count": 22502,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.63,
     "blog_review_count": 3697,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -2256,9 +2256,9 @@
     "x": 127.49058,
     "y": 37.715629,
     "phone": "031-584-8200",
-    "visitor_review_count": 13269,
-    "visitor_review_score": null,
-    "blog_review_count": 6410,
+    "visitor_review_count": 13278,
+    "visitor_review_score": 4.18,
+    "blog_review_count": 6411,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
    },
@@ -2511,9 +2511,9 @@
     "x": 127.1333352,
     "y": 37.9672025,
     "phone": "031-535-6494",
-    "visitor_review_count": 11602,
+    "visitor_review_count": 11603,
     "visitor_review_score": 4.24,
-    "blog_review_count": 8261,
+    "blog_review_count": 8260,
     "business_status": "운영 중",
     "business_desc": "22:00에 운영 종료"
    },
@@ -4261,7 +4261,7 @@
     "y": 37.8005109,
     "phone": "0507-1421-2022",
     "visitor_review_count": 13636,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.35,
     "blog_review_count": 6373,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -4615,7 +4615,7 @@
     "y": 37.7795341,
     "phone": "0507-1381-8456",
     "visitor_review_count": 13177,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.76,
     "blog_review_count": 3763,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -4752,7 +4752,7 @@
     "y": 37.2314807,
     "phone": "0507-1304-5029",
     "visitor_review_count": 13278,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.41,
     "blog_review_count": 2163,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -5121,7 +5121,7 @@
     "y": 37.5694189,
     "phone": "02-2104-9716",
     "visitor_review_count": 9560,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.48,
     "blog_review_count": 24753,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -5456,7 +5456,7 @@
     "y": 37.5387311,
     "phone": "031-775-1835",
     "visitor_review_count": 7751,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.32,
     "blog_review_count": 8048,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료"
@@ -6295,7 +6295,7 @@
     "phone": "031-488-6900",
     "visitor_review_count": 2988,
     "visitor_review_score": 4.3,
-    "blog_review_count": 9820,
+    "blog_review_count": 9828,
     "business_status": "24시간 운영",
     "business_desc": "연중무휴"
    },
@@ -6643,8 +6643,8 @@
     "y": 37.574801,
     "phone": "031-550-3789",
     "visitor_review_count": 3222,
-    "visitor_review_score": null,
-    "blog_review_count": 5719,
+    "visitor_review_score": 4.31,
+    "blog_review_count": 5721,
     "business_status": "24시간 운영",
     "business_desc": "연중무휴"
    },
@@ -7095,8 +7095,8 @@
     "y": 37.3913127,
     "phone": null,
     "visitor_review_count": 2021,
-    "visitor_review_score": null,
-    "blog_review_count": 10610,
+    "visitor_review_score": 4.39,
+    "blog_review_count": 10613,
     "business_status": null,
     "business_desc": null
    },
@@ -7799,7 +7799,7 @@
     "y": 37.3106786,
     "phone": "031-437-2525",
     "visitor_review_count": 7160,
-    "visitor_review_score": null,
+    "visitor_review_score": 4.42,
     "blog_review_count": 1333,
     "business_status": "운영 중",
     "business_desc": "21:00에 운영 종료"
@@ -8010,7 +8010,7 @@
     "phone": null,
     "visitor_review_count": 416,
     "visitor_review_score": 4.34,
-    "blog_review_count": 8415,
+    "blog_review_count": 8418,
     "business_status": null,
     "business_desc": null
    },
