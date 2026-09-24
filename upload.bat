@@ -2,21 +2,21 @@
 cd /d "%~dp0"
 cls
 echo ========================================================
-echo   [하남 미사 가족나들이] GitHub 저장소 파일 업로드
+echo   [Misa Family Trip] GitHub Upload Helper
 echo ========================================================
 echo.
-echo   * 깃허브 업로드를 진행합니다...
-echo   * 브라우저 또는 화면에 로그인 창이 뜨면 [Authorize]를 눌러주세요.
+echo   * Starting git push to GitHub...
+echo   * If a browser/screen popup appears, please click [Sign in] or [Authorize].
 echo.
 git push -u origin main
 echo.
 if %ERRORLEVEL% equ 0 (
     echo ========================================================
-    echo   [성공] 깃허브에 모든 파일이 정상적으로 등록되었습니다!
+    echo   [SUCCESS] Upload complete!
     echo ========================================================
 ) else (
     echo ========================================================
-    echo   [오류] 업로드가 취소되었거나 실패했습니다.
+    echo   [NOTICE] Upload failed or was canceled.
     echo ========================================================
 )
 echo.
