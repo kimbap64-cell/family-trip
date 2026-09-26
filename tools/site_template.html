@@ -223,7 +223,7 @@ function renderHist() {
   h += H.pending.length ? H.pending.map(x => `<div class="hit" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><div><b>${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]}</span><small>${esc(x.cat || '')} · 네이버 리뷰 ${fmt(x.rv)}${x.rt ? ' · ★' + x.rt : ''} · 집에서 직선 ${x.km}km · 발견 ${esc(x.ff)}</small></div>${link(x)}</div>`).join('') : '<div class="empty">없음</div>';
   h += `<h3 class="hsec">목록에서 빠진 곳·문 닫은 곳 (이력 보관, ${H.archive.length}곳)</h3>`;
   h += H.archive.length ? H.archive.map(x => `<div class="hit"><b>${x.st === 'closed' ? '⛔' : '📤'} ${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]} · 마지막 확인 ${esc(x.ls)} · 당시 ${esc(x.tier)} ${x.s}점</span><small>${esc(x.why)}</small></div>`).join('') : '<div class="empty">없음</div>';
-  h += `<p class="q">점검 후보 풀: 지금까지 본 후보 ${H.seen}곳 중 ${H.total}곳이 점수화돼 목록에 있어요${H.discovered ? ' · 새 장소 탐색 ' + esc(H.discovered) : ''}.</p>`;
+  h += `<p class="q">점검 현황: 점수화돼 목록에 있는 ${H.total}곳 외에, 아직 점수화하지 않은 후보 ${H.seen}곳을 ‘이미 본 곳’으로 기록해 뒀어요(이 밖에서 새로 나타난 곳만 새 후보)${H.discovered ? ' · 새 장소 탐색 ' + esc(H.discovered) : ''}.</p>`;
   return h;
 }
 
