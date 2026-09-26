@@ -1,232 +1,7 @@
 {
- "generated": "2026-09-24 23:19",
+ "generated": "2026-09-26 10:41",
  "scope": "camping",
  "places": [
-  {
-   "id": "naver-1973246258",
-   "name": "양주르 글램핑 캠핑장",
-   "kind": "camping",
-   "naver": {
-    "place_id": "1973246258",
-    "category": "캠핑,야영장",
-    "road_address": "경기 양주시 장흥면 가마골로 188-50",
-    "x": 126.9800313,
-    "y": 37.7349975,
-    "score": 4.84,
-    "reviews": 14972,
-    "blog_reviews": 1100,
-    "status": null,
-    "conveniences": [
-     "주차"
-    ],
-    "phone": "0507-1335-9901"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 4.84,
-    "bayes": 4.84,
-    "total_reviews": 14972,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.7349975&dlng=126.9800313&dname=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.7349975&dlng=126.9800313&dname=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.7349975&lng=126.9800313&name=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1973246258",
-    "mobile_place": "https://m.place.naver.com/place/1973246258/home"
-   },
-   "drive": {
-    "min": 30.7,
-    "km": 34.98,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 47000,
-     "basis": "등록된 이용 요금 4개의 중앙값 (사이트·시설 요금 혼재 가능, 추정)",
-     "sample": [
-      [
-       "성인 1인 패키지 (기본 3시간)",
-       55000
-      ],
-      [
-       "초등학생 (기본 3시간)",
-       39000
-      ],
-      [
-       "미취학아동 무료입장",
-       0
-      ],
-      [
-       "3시간 추가 이용권",
-       110000
-      ],
-      [
-       "불멍세트",
-       30000
-      ]
-     ]
-    },
-    "menus_sample": [
-     {
-      "name": "성인 1인 패키지 (기본 3시간)",
-      "price": "55000",
-      "description": "중학생이상",
-      "recommend": false
-     },
-     {
-      "name": "초등학생 (기본 3시간)",
-      "price": "39000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "미취학아동 무료입장",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "3시간 추가 이용권",
-      "price": "110000",
-      "description": "바베큐 500g 추가 제공",
-      "recommend": false
-     },
-     {
-      "name": "불멍세트",
-      "price": "30000",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "체험·동물",
-     "캠핑 키즈시설"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "비누방울 선물 받음 오리야 안녕 우리구역 도착 양주르는 구역이 나누어져 있어요 평지 아니구요 경사여서 위로 점점 올라가야해요 저희는 10번을 배정 받았어요 딱히 좋",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
-       "date": "2026.09.09."
-      },
-      {
-       "label": "주차",
-       "quote": "를 남겨보려고해요 :) 양주르 글램핑 캠핑장 전화번호 0507-1335-9901 주차가능(무료) 이용시간 평일·주말 3시간, 6시간, 9시간 등등 이용시간 상이 이용 요",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
-       "date": "2026.08.19."
-      },
-      {
-       "label": "주차",
-       "quote": "양주시 장흥면 가마골로 188-50 📍전화번호 0507-1335-9901 ​ 📍주차가능(무료) ​ 📍이용시간 평일·주말 3시간, 6시간, 9시간 등등 이용시간 상이 ​",
-       "src": "naver-blog:https://m.blog.naver.com/lovetoky13/224383766113",
-       "date": "2026.08.19."
-      }
-     ],
-     "negative": [],
-     "verdict": "적합 근거",
-     "unknown": [
-      "쉼터·벤치"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/yayamie/224405937013",
-      "title": "[양주] 양주르 아이와 함께 생각보다 더 좋았던 곳 _ 1회차 방문",
-      "date": "2026.09.09.",
-      "days_ago": 16,
-      "author": "돌프",
-      "chars": 1760,
-      "sponsored": true
-     },
-     {
-      "url": "https://m.blog.naver.com/lovetoky13/224383766113",
-      "title": "양주르 물놀이 당일 글램핑 아이랑 양주 가볼만한곳 솔직 후기",
-      "date": "2026.08.19.",
-      "days_ago": 37,
-      "author": "솔이마밍",
-      "chars": 3407,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/ha__nna/224379884204",
-      "title": "세살아기랑 양주르 키즈 글램핑캠핑장 물놀이 없이도 즐길거리 가득해요",
-      "date": "2026.08.16.",
-      "days_ago": 40,
-      "author": "나나씨",
-      "chars": 2605,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 83,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 35,
-     "evidence": 17,
-     "family_fit": 18,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 10,
-     "source_count": 2,
-     "mode_a": 12,
-     "mode_b": 6,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "사전 예약 언급 — 가기 전 확인"
-   ],
-   "plan_notes": [
-    {
-     "label": "사전 예약",
-     "quote": "1시/3시 예약가능 네이버예약, 캐치테이블 예약 필수 세 살, 용띠친구들 가족모임으로 다녀왔던",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
-     "date": "2026.08.16."
-    },
-    {
-     "label": "사전 예약",
-     "quote": "/3시 예약가능 ​ 네이버예약, 캐치테이블 예약 필수📞 ​ 세 살, 용띠친구들 가족모임으로 다녀",
-     "src": "naver-blog:https://m.blog.naver.com/ha__nna/224379884204",
-     "date": "2026.08.16."
-    }
-   ],
-   "evidence_days_ago": 15,
-   "verified_at": "2026-09-24"
-  },
   {
    "id": "naver-1841805582",
    "name": "사노리숲",
@@ -238,7 +13,7 @@
     "x": 127.1310079,
     "y": 37.6363024,
     "score": 4.78,
-    "reviews": 3381,
+    "reviews": 3366,
     "blog_reviews": 423,
     "status": null,
     "conveniences": [
@@ -263,7 +38,7 @@
    "rating": {
     "pooled": 4.78,
     "bayes": 4.76,
-    "total_reviews": 3381,
+    "total_reviews": 3366,
     "source": "네이버"
    },
    "nav": {
@@ -314,7 +89,7 @@
       "url": "https://m.blog.naver.com/yhm529/224337272102",
       "title": "모래놀이 물놀이까지 가능한 당일치기 가성비 캠핑장 구리 사노리숲",
       "date": "2026.07.05.",
-      "days_ago": 82,
+      "days_ago": 83,
       "author": "슈림프",
       "chars": 2931,
       "sponsored": false
@@ -323,27 +98,63 @@
       "url": "https://m.blog.naver.com/mihee8510/224304712431",
       "title": "구리 사노리숲 캠핑장 내돈내산",
       "date": "2026.06.03.",
-      "days_ago": 114,
+      "days_ago": 115,
       "author": "고양이미꼬",
       "chars": 1295,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "MFRHkmkhBOs",
+      "link": "https://www.youtube.com/watch?v=MFRHkmkhBOs",
+      "t": null,
+      "quote": "구리 사노리숲 캠핑장에 다녀왔어요~",
+      "where": "description"
+     },
+     {
+      "video_id": "UVlCpS5yMSc",
+      "link": "https://www.youtube.com/watch?v=UVlCpS5yMSc",
+      "t": null,
+      "quote": "오늘은 서울 근교 구리시 별내역에서 가까운 곳에 위치한 당일치기 글램핑장인 사노리숲에 다녀온 영상입니다.",
+      "where": "description"
+     },
+     {
+      "video_id": "lf09zjDYDEs",
+      "link": "https://www.youtube.com/watch?v=lf09zjDYDEs",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "Ra7H9QMNmz8",
+      "link": "https://www.youtube.com/watch?v=Ra7H9QMNmz8",
+      "t": null,
+      "quote": "서울 근교 구리에 위치한 사노리숲 글램핑장에 다녀왔다. 불금에 갔는데 글램핑장 텐트와 풍경을 보고 반해 버렸다. 에어컨도 설치되 있고 큰 선풍기도 있어서 덥지 않고 딱 좋았다. 외부음식 반입도 가능해서 더더욱 좋았고",
+      "where": "description"
+     },
+     {
+      "video_id": "AawT6BzkORQ",
+      "link": "https://www.youtube.com/watch?v=AawT6BzkORQ",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 79.8,
+    "total": 85.0,
     "tier": "조건부",
     "breakdown": {
      "reputation": 33.8,
-     "evidence": 17,
+     "evidence": 22.2,
      "family_fit": 19,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
      "review_pts": 8.8,
-     "source_count": 2,
+     "source_count": 7,
      "mode_a": 12,
      "mode_b": 7,
      "drive_pts": 8,
@@ -359,8 +170,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 81,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 83,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-2057370650",
@@ -504,7 +315,7 @@
       "url": "https://m.blog.naver.com/bertering/224407314648",
       "title": "하남 당일글램핑 추천 아이들과 편하게 즐기는 히든백야드 캠핑",
       "date": "2026.09.10.",
-      "days_ago": 15,
+      "days_ago": 16,
       "author": "어나더제이",
       "chars": 2019,
       "sponsored": false
@@ -513,27 +324,70 @@
       "url": "https://m.blog.naver.com/feelisfox/224408822747",
       "title": "하남 히든백야드 글램핑 바베큐 캠핑장 애견동반 가능 위치 정보 소개",
       "date": "2026.09.12.",
-      "days_ago": 13,
+      "days_ago": 14,
       "author": "로드케이",
       "chars": 3083,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "Xdtph2FR4PM",
+      "link": "https://www.youtube.com/watch?v=Xdtph2FR4PM",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "GrsymIz4mbI",
+      "link": "https://www.youtube.com/watch?v=GrsymIz4mbI",
+      "t": null,
+      "quote": "매장명 : 히든백야드",
+      "where": "description"
+     },
+     {
+      "video_id": "6kT9TZTgZck",
+      "link": "https://www.youtube.com/watch?v=6kT9TZTgZck",
+      "t": null,
+      "quote": "👨‍🍳가게명 : 히든백야드",
+      "where": "description"
+     },
+     {
+      "video_id": "_-7ucjAxDks",
+      "link": "https://www.youtube.com/watch?v=_-7ucjAxDks",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "-v_7pv7PJfQ",
+      "link": "https://www.youtube.com/watch?v=-v_7pv7PJfQ",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "eGyChyGqtmE",
+      "link": "https://www.youtube.com/watch?v=eGyChyGqtmE",
+      "t": null,
+      "quote": "촌놈들이 이번에 방문한곳은 하남시에 위치한 히든백야드 캠핑장에 방문하였습니다!!",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 78.3,
+    "total": 83.3,
     "tier": "추천",
     "breakdown": {
      "reputation": 33.3,
-     "evidence": 18,
+     "evidence": 23.0,
      "family_fit": 17,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
      "review_pts": 8.3,
-     "source_count": 2,
+     "source_count": 8,
      "mode_a": 12,
      "mode_b": 5,
      "drive_pts": 8,
@@ -548,8 +402,233 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 12,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 14,
+   "verified_at": "2026-09-26"
+  },
+  {
+   "id": "naver-1973246258",
+   "name": "양주르 글램핑 캠핑장",
+   "kind": "camping",
+   "naver": {
+    "place_id": "1973246258",
+    "category": "캠핑,야영장",
+    "road_address": "경기 양주시 장흥면 가마골로 188-50",
+    "x": 126.9800313,
+    "y": 37.7349975,
+    "score": 4.84,
+    "reviews": 14959,
+    "blog_reviews": 1100,
+    "status": null,
+    "conveniences": [
+     "주차"
+    ],
+    "phone": "0507-1335-9901"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.84,
+    "bayes": 4.84,
+    "total_reviews": 14959,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.7349975&dlng=126.9800313&dname=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.7349975&dlng=126.9800313&dname=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.7349975&lng=126.9800313&name=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1973246258",
+    "mobile_place": "https://m.place.naver.com/place/1973246258/home"
+   },
+   "drive": {
+    "min": 30.7,
+    "km": 34.98,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": {
+     "krw": 47000,
+     "basis": "등록된 이용 요금 4개의 중앙값 (사이트·시설 요금 혼재 가능, 추정)",
+     "sample": [
+      [
+       "성인 1인 패키지 (기본 3시간)",
+       55000
+      ],
+      [
+       "초등학생 (기본 3시간)",
+       39000
+      ],
+      [
+       "미취학아동 무료입장",
+       0
+      ],
+      [
+       "3시간 추가 이용권",
+       110000
+      ],
+      [
+       "불멍세트",
+       30000
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "성인 1인 패키지 (기본 3시간)",
+      "price": "55000",
+      "description": "중학생이상",
+      "recommend": false
+     },
+     {
+      "name": "초등학생 (기본 3시간)",
+      "price": "39000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "미취학아동 무료입장",
+      "price": "0",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "3시간 추가 이용권",
+      "price": "110000",
+      "description": "바베큐 500g 추가 제공",
+      "recommend": false
+     },
+     {
+      "name": "불멍세트",
+      "price": "30000",
+      "description": "",
+      "recommend": false
+     }
+    ]
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반",
+     "체험·동물",
+     "캠핑 키즈시설"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "비누방울 선물 받음 오리야 안녕 우리구역 도착 양주르는 구역이 나누어져 있어요 평지 아니구요 경사여서 위로 점점 올라가야해요 저희는 10번을 배정 받았어요 딱히 좋",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/yayamie/224405937013",
+       "date": "2026.09.09."
+      },
+      {
+       "label": "주차",
+       "quote": "를 남겨보려고해요 :) 양주르 글램핑 캠핑장 전화번호 0507-1335-9901 주차가능(무료) 이용시간 평일·주말 3시간, 6시간, 9시간 등등 이용시간 상이 이용 요",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/lovetoky13/224383766113",
+       "date": "2026.08.19."
+      },
+      {
+       "label": "주차",
+       "quote": "양주시 장흥면 가마골로 188-50 📍전화번호 0507-1335-9901 ​ 📍주차가능(무료) ​ 📍이용시간 평일·주말 3시간, 6시간, 9시간 등등 이용시간 상이 ​",
+       "src": "naver-blog:https://m.blog.naver.com/lovetoky13/224383766113",
+       "date": "2026.08.19."
+      }
+     ],
+     "negative": [],
+     "verdict": "적합 근거",
+     "unknown": [
+      "쉼터·벤치"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/yayamie/224405937013",
+      "title": "[양주] 양주르 아이와 함께 생각보다 더 좋았던 곳 _ 1회차 방문",
+      "date": "2026.09.09.",
+      "days_ago": 17,
+      "author": "돌프",
+      "chars": 1760,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/lovetoky13/224383766113",
+      "title": "양주르 물놀이 당일 글램핑 아이랑 양주 가볼만한곳 솔직 후기",
+      "date": "2026.08.19.",
+      "days_ago": 38,
+      "author": "솔이마밍",
+      "chars": 3407,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/ha__nna/224379884204",
+      "title": "세살아기랑 양주르 키즈 글램핑캠핑장 물놀이 없이도 즐길거리 가득해요",
+      "date": "2026.08.16.",
+      "days_ago": 41,
+      "author": "나나씨",
+      "chars": 2605,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 83,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 35,
+     "evidence": 17,
+     "family_fit": 18,
+     "practicality": 13
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 10,
+     "source_count": 2,
+     "mode_a": 12,
+     "mode_b": 6,
+     "drive_pts": 6,
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "사전 예약 언급 — 가기 전 확인"
+   ],
+   "plan_notes": [
+    {
+     "label": "사전 예약",
+     "quote": "1시/3시 예약가능 네이버예약, 캐치테이블 예약 필수 세 살, 용띠친구들 가족모임으로 다녀왔던",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/ha__nna/224379884204",
+     "date": "2026.08.16."
+    },
+    {
+     "label": "사전 예약",
+     "quote": "/3시 예약가능 ​ 네이버예약, 캐치테이블 예약 필수📞 ​ 세 살, 용띠친구들 가족모임으로 다녀",
+     "src": "naver-blog:https://m.blog.naver.com/ha__nna/224379884204",
+     "date": "2026.08.16."
+    }
+   ],
+   "evidence_days_ago": 17,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1358507181",
@@ -562,7 +641,7 @@
     "x": 127.3725464,
     "y": 37.7591409,
     "score": 4.96,
-    "reviews": 4716,
+    "reviews": 4715,
     "blog_reviews": 472,
     "status": null,
     "conveniences": null,
@@ -573,11 +652,11 @@
     "kakao_id": "222673449",
     "kakao_url": "http://place.map.kakao.com/222673449",
     "kakao_road_address": "경기 가평군 상면 임초밤안골로 117-27",
-    "rating": 1.0,
-    "review_count": 2,
-    "status": "Y",
+    "rating": null,
+    "review_count": null,
+    "status": null,
     "dist_m": 3,
-    "facility_icons": [],
+    "facility_icons": null,
     "store_infos": null,
     "headline": null,
     "phone": "010-4405-8678"
@@ -585,7 +664,7 @@
    "rating": {
     "pooled": 4.96,
     "bayes": 4.94,
-    "total_reviews": 4718,
+    "total_reviews": 4715,
     "source": "네이버"
    },
    "nav": {
@@ -647,7 +726,7 @@
       "url": "https://m.blog.naver.com/duoshan_sz/224355964589",
       "title": "가평 카라반 아이랑 원더풀 글램핑 이용 후기",
       "date": "2026.07.23.",
-      "days_ago": 64,
+      "days_ago": 65,
       "author": "쏨쏨",
       "chars": 3520,
       "sponsored": false
@@ -656,27 +735,49 @@
       "url": "https://m.blog.naver.com/iamfree-/224354489725",
       "title": "가평원더풀카라반&amp;글램핑 - 가평 카라반 키즈글램핑 수영장 캠핑장 추천",
       "date": "2026.07.22.",
-      "days_ago": 65,
+      "days_ago": 66,
       "author": "슈니로그",
       "chars": 4170,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "AzTaJK0Z8mo",
+      "link": "https://www.youtube.com/watch?v=AzTaJK0Z8mo",
+      "t": null,
+      "quote": "서울근교 아이들과 함께 가볼만한곳 , 가평 원더풀 카라반 글램핑",
+      "where": "description"
+     },
+     {
+      "video_id": "pGm2Y6HAMjc",
+      "link": "https://www.youtube.com/watch?v=pGm2Y6HAMjc",
+      "t": null,
+      "quote": "가평 원더풀 카라반&글램핑입니다. 가족, 친구와 여행하기 좋아서 소개드려요.",
+      "where": "description"
+     },
+     {
+      "video_id": "lK-qf1ZffEw",
+      "link": "https://www.youtube.com/watch?v=lK-qf1ZffEw",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 77.2,
+    "total": 82.2,
     "tier": "조건부",
     "breakdown": {
      "reputation": 34.2,
-     "evidence": 17,
+     "evidence": 22,
      "family_fit": 15,
      "practicality": 11
     },
     "detail": {
      "rating_pts": 25,
      "review_pts": 9.2,
-     "source_count": 2,
+     "source_count": 4,
      "mode_a": 12,
      "mode_b": 3,
      "drive_pts": 6,
@@ -700,8 +801,8 @@
      "date": "2026.07.22."
     }
    ],
-   "evidence_days_ago": 63,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 65,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1861819247",
@@ -714,7 +815,7 @@
     "x": 127.3467722,
     "y": 37.89905,
     "score": 4.96,
-    "reviews": 3679,
+    "reviews": 3686,
     "blog_reviews": 914,
     "status": null,
     "conveniences": [
@@ -747,7 +848,7 @@
    "rating": {
     "pooled": 4.96,
     "bayes": 4.94,
-    "total_reviews": 3687,
+    "total_reviews": 3694,
     "source": "네이버"
    },
    "nav": {
@@ -838,7 +939,7 @@
       "url": "https://m.blog.naver.com/cunning04/224373451367",
       "title": "수영장이야 글램핑장이야 : 인더풀 글램핑",
       "date": "2026.08.10.",
-      "days_ago": 46,
+      "days_ago": 47,
       "author": "수부리",
       "chars": 2080,
       "sponsored": false
@@ -847,7 +948,7 @@
       "url": "https://m.blog.naver.com/rxjtjdwrqv/224225386145",
       "title": "가평 글램핑 수영장까지 즐길 수 있는 인더풀 글램핑",
       "date": "2026.03.22.",
-      "days_ago": 187,
+      "days_ago": 188,
       "author": "듀허니",
       "chars": 3004,
       "sponsored": false
@@ -860,22 +961,64 @@
       "t": null,
       "quote": "여기도 다녀왔지만 저는 여기보다 가평에 인더풀?글램핑이 더 좋았음",
       "where": "comment"
+     },
+     {
+      "video_id": "f_yPxhu6K3I",
+      "link": "https://www.youtube.com/watch?v=f_yPxhu6K3I",
+      "t": null,
+      "quote": "올여름, 시원한 물놀이와 감성 캠핑을 한 번에 즐기고 싶다면 인더풀 글램핑으로 떠나보세요.",
+      "where": "description"
+     },
+     {
+      "video_id": "8YVAB8cI1HI",
+      "link": "https://www.youtube.com/watch?v=8YVAB8cI1HI",
+      "t": null,
+      "quote": "자연 속에서 특별한 하루를 보내고 싶다면 인더풀 글램핑으로 오세요.",
+      "where": "description"
+     },
+     {
+      "video_id": "zYFY8JmEe00",
+      "link": "https://www.youtube.com/watch?v=zYFY8JmEe00",
+      "t": null,
+      "quote": "인더풀글램핑에서는 7월~9월 동안 야간수영을 운영합니다.",
+      "where": "description"
+     },
+     {
+      "video_id": "-9tgInYUlk8",
+      "link": "https://www.youtube.com/watch?v=-9tgInYUlk8",
+      "t": null,
+      "quote": "☆★☆ 가평 인더풀 글램핑 예약 및 주소 ★☆★",
+      "where": "description"
+     },
+     {
+      "video_id": "s1KgC4iW0nY",
+      "link": "https://www.youtube.com/watch?v=s1KgC4iW0nY",
+      "t": null,
+      "quote": "🏕️ KBS VJ특공대에서 소개된 인더풀 글램핑",
+      "where": "description"
+     },
+     {
+      "video_id": "W8rztUUJTvc",
+      "link": "https://www.youtube.com/watch?v=W8rztUUJTvc",
+      "t": null,
+      "quote": "따뜻한 봄바람이 시작되는 3월, 가평 인더풀 글램핑에서 특별한 하루를 보내보세요.",
+      "where": "description"
      }
     ]
    },
    "scores": {
-    "total": 76.3,
+    "total": 81.3,
     "tier": "추천",
     "breakdown": {
      "reputation": 33.9,
-     "evidence": 17.4,
+     "evidence": 22.4,
      "family_fit": 12,
      "practicality": 13
     },
     "detail": {
      "rating_pts": 25,
      "review_pts": 8.9,
-     "source_count": 2,
+     "source_count": 4,
      "mode_a": 9,
      "mode_b": 3,
      "drive_pts": 6,
@@ -891,152 +1034,8 @@
     "차량 58분(선호 50분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 45,
-   "verified_at": "2026-09-24"
-  },
-  {
-   "id": "naver-1665394852",
-   "name": "채움카라반글램핑리조트",
-   "kind": "camping",
-   "naver": {
-    "place_id": "1665394852",
-    "category": "캠핑,야영장",
-    "road_address": "경기 가평군 조종면 운악청계로 898",
-    "x": 127.352229,
-    "y": 37.8891034,
-    "score": 4.87,
-    "reviews": 4805,
-    "blog_reviews": 534,
-    "status": null,
-    "conveniences": null,
-    "phone": null
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 4.87,
-    "bayes": 4.86,
-    "total_reviews": 4805,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.8891034&dlng=127.352229&dname=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.8891034&dlng=127.352229&dname=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.8891034&lng=127.352229&name=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1665394852",
-    "mobile_place": "https://m.place.naver.com/place/1665394852/home"
-   },
-   "drive": {
-    "min": 56.1,
-    "km": 57.1,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 69000,
-     "basis": "네이버 예약 최저 사이트 요금(1박, 최저가 기준 — 성수기·주말은 더 높을 수 있음)",
-     "sample": []
-    },
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "체험·동물",
-     "캠핑 키즈시설"
-    ],
-    "mode_b": {
-     "positive": [],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "또 나가봅니다. 채움 카라반 리조트 바로 앞에 맑은 계곡이 ! 바로 앞에 있는 돌계단으로 천천히 내려가서 맑은 자연...",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
-       "date": "2026.04.24."
-      },
-      {
-       "label": "계단",
-       "quote": "봅니다. ​ 채움 카라반 리조트 바로 앞에 맑은 계곡이 ! ​ 바로 앞에 있는 돌계단으로 천천히 내려가서 맑은 자연 풍경을 감상합니다. ​ ​ ​ ​ 이제 막 봄이 시작",
-       "src": "naver-blog:https://m.blog.naver.com/keetomm/224262792556",
-       "date": "2026.04.24."
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [
-      "쉼터·벤치",
-      "주차"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/munani0918/224330915610",
-      "title": "가평 캠핑장 카라반 글램핑 가평 계곡 펜션 추천",
-      "date": "2026.07.07.",
-      "days_ago": 80,
-      "author": "여행작가 김문환",
-      "chars": 1613,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/keetomm/224262792556",
-      "title": "가평카라반 채움카라반글램핑 친구랑 알차게 즐긴 솔직 후기",
-      "date": "2026.04.24.",
-      "days_ago": 154,
-      "author": "맹주",
-      "chars": 2324,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 76.2,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 34.2,
-     "evidence": 17,
-     "family_fit": 12,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 9.2,
-     "source_count": 2,
-     "mode_a": 12,
-     "mode_b": 0,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "차량 56분(선호 50분 초과)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 79,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 47,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-36516869",
@@ -1049,7 +1048,7 @@
     "x": 127.3465517,
     "y": 37.846748,
     "score": 4.58,
-    "reviews": 5641,
+    "reviews": 5640,
     "blog_reviews": 534,
     "status": null,
     "conveniences": [
@@ -1074,7 +1073,7 @@
    "rating": {
     "pooled": 4.58,
     "bayes": 4.57,
-    "total_reviews": 5641,
+    "total_reviews": 5640,
     "source": "네이버"
    },
    "nav": {
@@ -1131,27 +1130,35 @@
       "url": "https://m.blog.naver.com/soodaily_0104/224411773418",
       "title": "아이와 다녀온 새연 카라반 글램핑 현리1호점｜맑은 계곡에서 보낸 여유로운 하루",
       "date": "2026.09.14.",
-      "days_ago": 11,
+      "days_ago": 12,
       "author": "soodaily0104",
       "chars": 3683,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "9sJnKflB1_Y",
+      "link": "https://www.youtube.com/watch?v=9sJnKflB1_Y",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 75.4,
+    "total": 80.4,
     "tier": "조건부",
     "breakdown": {
      "reputation": 29.4,
-     "evidence": 18,
+     "evidence": 23,
      "family_fit": 15,
      "practicality": 13
     },
     "detail": {
      "rating_pts": 20,
      "review_pts": 9.4,
-     "source_count": 2,
+     "source_count": 3,
      "mode_a": 12,
      "mode_b": 3,
      "drive_pts": 6,
@@ -1169,63 +1176,70 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-24"
+   "verified_at": "2026-09-26"
   },
   {
-   "id": "naver-38010414",
-   "name": "새연 카라반 글램핑 설악2호점",
+   "id": "naver-1779393568",
+   "name": "트라움풀빌라글램핑&카라반",
    "kind": "camping",
    "naver": {
-    "place_id": "38010414",
+    "place_id": "1779393568",
     "category": "캠핑,야영장",
-    "road_address": "경기 가평군 설악면 유명로 1939 새연리조트 설악2호점",
-    "x": 127.4704171,
-    "y": 37.6834684,
-    "score": 4.61,
-    "reviews": 5459,
-    "blog_reviews": 392,
+    "road_address": "경기 가평군 상면 왕대벌길 60 트라움 풀빌라글램핑&카라반",
+    "x": 127.3778758,
+    "y": 37.7698305,
+    "score": 4.97,
+    "reviews": 8423,
+    "blog_reviews": 402,
     "status": null,
     "conveniences": [
      "주차"
     ],
-    "phone": null
+    "phone": "0507-1398-3223"
    },
    "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
+    "found": true,
+    "kakao_id": "1443793836",
+    "kakao_url": "http://place.map.kakao.com/1443793836",
+    "kakao_road_address": "경기 가평군 상면 왕대벌길 60",
+    "rating": 3.9,
+    "review_count": 12,
+    "status": "Y",
+    "dist_m": 34,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "글램핑 객실 바로 뒤에 각 호실별 1대 무료 주차 가능, 추가 1대당 1만원 유료 주차"
+     }
+    ],
     "headline": null,
-    "phone": null
+    "phone": "010-4573-3222"
    },
    "rating": {
-    "pooled": 4.61,
-    "bayes": 4.6,
-    "total_reviews": 5459,
+    "pooled": 4.97,
+    "bayes": 4.96,
+    "total_reviews": 8435,
     "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.6834684&dlng=127.4704171&dname=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.6834684&dlng=127.4704171&dname=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.6834684&lng=127.4704171&name=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/38010414",
-    "mobile_place": "https://m.place.naver.com/place/38010414/home"
+    "app_navigation": "nmap://navigation?dlat=37.7698305&dlng=127.3778758&dname=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.7698305&dlng=127.3778758&dname=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.7698305&lng=127.3778758&name=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1779393568",
+    "mobile_place": "https://m.place.naver.com/place/1779393568/home"
    },
    "drive": {
-    "min": 33.5,
-    "km": 39.61,
+    "min": 44.4,
+    "km": 43.23,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
    "price": {
     "est_meal_4p": {
-     "krw": 49000,
+     "krw": 129000,
      "basis": "네이버 예약 최저 사이트 요금(1박, 최저가 기준 — 성수기·주말은 더 높을 수 있음)",
      "sample": []
     },
@@ -1233,89 +1247,116 @@
    },
    "family": {
     "mode_a": [
-     "아이동반",
      "체험·동물",
      "캠핑 키즈시설"
     ],
     "mode_b": {
      "positive": [
       {
-       "label": "넓고 여유",
-       "quote": "캠핑 글램핑 중요한 건 분리수거 아시죠?ㅋㅋㅋ 이 안쪽으로 한옥펜션도 있어 정말 넓은 공간인 새연글램핑장!! 사장님 부자다!!! 우리는 수영장도 구경!! 아이들 놀기 딱.",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/purplebora1018/224418522694",
-       "date": "3일 전"
+       "label": "화장실 가까움",
+       "quote": "불편함이 거의 없습니다. 특히 화장실이 깔끔해서 좋았습니다. 여행을 할 때 숙소 화장실이 깨끗한지 생각보다 중요한 부분입니다. 가평 글램핑 트라움풀빌라글램핑&카라반은 실내 분",
+       "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+       "date": "2026.03.09."
       },
       {
-       "label": "넓고 여유",
-       "quote": "캠핑 글램핑 중요한 건 분리수거 아시죠?ㅋㅋㅋ 이 안쪽으로 한옥펜션도 있어 정말 넓은 공간인 새연글램핑장!! 사장님 부자다!!! 우리는 수영장도 구경!! 아이들 놀기 딱",
-       "src": "naver-blog:https://m.blog.naver.com/purplebora1018/224418522694",
-       "date": "3일 전"
+       "label": "캠핑 편의(평탄·주차·화장실)",
+       "quote": "불편함이 거의 없습니다. 특히 화장실이 깔끔해서 좋았습니다. 여행을 할 때 숙소 화장실이 깨끗한지 생각보다 중요한 부분입니다. 가평 글램핑 트라움풀빌라글램핑&카라반은 실내 분",
+       "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
+       "date": "2026.03.09."
       },
       {
-       "label": "넓고 여유",
-       "quote": "에어컨 난방 겸용 그리고 장판이 마련되어 있음!!! 깔끔하게 딱 잠자기 좋은 곳 넓은 공간이었습니다. 그리고 내부 박스 샤워실과 화장실 그리고 냉장고, 전자레인지 테이블",
-       "src": "naver-blog:https://m.blog.naver.com/purplebora1018/224418522694",
-       "date": "3일 전"
+       "label": "주차",
+       "quote": "글램핑 객실 바로 뒤에 각 호실별 1대 무료 주차 가능, 추가 1대당 1만원 유료 주차",
+       "src": "kakao-info:1443793836",
+       "date": null
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "다. 역시 원조는 원조야.. 근데 너무 비싼데.. 은비야 곰마워.. ㅠㅠ 왁버거 정자 경기도 성남시 분당구 정자일로 146 제에이동 제1층 112호 여기도 셈니네 집",
+       "src": "naver-blog:https://m.blog.naver.com/ockphotos/224212683696",
+       "date": "2026.03.11."
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "근데 너무 비싼데.. 은비야 곰마워.. ㅠㅠ 왁버거 정자 경기도 성남시 분당구 정자일로 146 제에이동 제1층 112호 여기도 셈니네 집 근처에 생긴 햄버거 집!",
+       "src": "naver-blog:https://m.blog.naver.com/ockphotos/224212683696",
+       "date": "2026.03.11."
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "침대가 불편한 곳도 있는데 이곳은 잠자리가 편했습니다. 그래서 하루 동안 편하게 쉴 수 있었습니다. 가평 글램핑 트라움풀빌라글램핑&카라반 바베큐 시간은 여행의 하이라이트입",
+       "src": "naver-blog:https://m.blog.naver.com/jscompany79/224209588441",
+       "date": "2026.03.09."
       }
      ],
      "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
-     ],
+     "verdict": "적합 근거",
+     "unknown": [],
      "soft_food": false
     }
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/cara1226/224352386474",
-      "title": "가평카라반 추천 새연글램핑 설악2호점에서 계곡도 즐기고 바베큐까지 완벽했던 아이랑 가족여행 후기",
-      "date": "2026.07.20.",
-      "days_ago": 67,
-      "author": "커피향기",
-      "chars": 2629,
-      "sponsored": true
-     },
-     {
-      "url": "https://m.blog.naver.com/purplebora1018/224418522694",
-      "title": "가평글램핑 새연글램핑 설악2호점 불멍 가을캠핑",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "PurpleBoRa",
-      "chars": 3026,
+      "url": "https://m.blog.naver.com/ockphotos/224212683696",
+      "title": "오랜만에 쓰는 일상 블로그",
+      "date": "2026.03.11.",
+      "days_ago": 199,
+      "author": "ockphotos",
+      "chars": 1910,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/tayafan89/224251288455",
-      "title": "서울에서 가까운 가평카라반 새연카라반글램핑 설악 2호점",
-      "date": "2026.04.13.",
-      "days_ago": 165,
-      "author": "벼리",
-      "chars": 2396,
+      "url": "https://m.blog.naver.com/jscompany79/224209588441",
+      "title": "가평 글램핑 트라움풀빌라글램핑카라반 처음 가본 사람도 감탄하는 이유",
+      "date": "2026.03.09.",
+      "days_ago": 201,
+      "author": "JS Trend Lab",
+      "chars": 3061,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "viFk2EfJrzI",
+      "link": "https://www.youtube.com/watch?v=viFk2EfJrzI",
+      "t": null,
+      "quote": "📍 트라움풀빌라글램핑 카라반 *제작지원",
+      "where": "description"
+     },
+     {
+      "video_id": "nUcJxtZrRt4",
+      "link": "https://www.youtube.com/watch?v=nUcJxtZrRt4",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "ZR92p7U6fT0",
+      "link": "https://www.youtube.com/watch?v=ZR92p7U6fT0",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 74.3,
-    "tier": "조건부",
+    "total": 79.8,
+    "tier": "추천",
     "breakdown": {
-     "reputation": 29.3,
-     "evidence": 18,
-     "family_fit": 14,
-     "practicality": 13
+     "reputation": 34.8,
+     "evidence": 23.0,
+     "family_fit": 16,
+     "practicality": 6
     },
     "detail": {
-     "rating_pts": 20,
-     "review_pts": 9.3,
-     "source_count": 2,
-     "mode_a": 9,
-     "mode_b": 5,
+     "rating_pts": 25,
+     "review_pts": 9.8,
+     "source_count": 4,
+     "mode_a": 6,
+     "mode_b": 10,
      "drive_pts": 6,
-     "cost_pts": 7
+     "cost_pts": 0
     },
     "gates": {
      "pass": true,
@@ -1323,12 +1364,11 @@
     }
    },
    "flags": [
-    "카카오 교차검증 실패(확인 필요)",
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 3,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 199,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-37471628",
@@ -1341,7 +1381,7 @@
     "x": 127.3484631,
     "y": 37.7471675,
     "score": 4.6,
-    "reviews": 1946,
+    "reviews": 1945,
     "blog_reviews": 785,
     "status": null,
     "conveniences": [
@@ -1373,7 +1413,7 @@
    "rating": {
     "pooled": 4.6,
     "bayes": 4.58,
-    "total_reviews": 1967,
+    "total_reviews": 1966,
     "source": "네이버"
    },
    "nav": {
@@ -1500,27 +1540,70 @@
       "url": "https://m.blog.naver.com/hi_meimei/224409720597",
       "title": "가평 블루문캠핑장 후기｜숲속 해먹에서 제대로 쉬었던 가평 캠핑장",
       "date": "2026.09.12.",
-      "days_ago": 13,
+      "days_ago": 14,
       "author": "소봉소봉",
       "chars": 1419,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "F5fAbFCg8SI",
+      "link": "https://www.youtube.com/watch?v=F5fAbFCg8SI",
+      "t": null,
+      "quote": "서울 근교에서 자연을 느끼기 좋은 \"블루문 캠핑장\"을 3년 만에 다시 찾았습니다.",
+      "where": "description"
+     },
+     {
+      "video_id": "6XQ1P3Dhccs",
+      "link": "https://www.youtube.com/watch?v=6XQ1P3Dhccs",
+      "t": null,
+      "quote": "너무나 유명한 경기도 가평 \"블루문 캠핑장\"",
+      "where": "description"
+     },
+     {
+      "video_id": "KWLM3rXZiXc",
+      "link": "https://www.youtube.com/watch?v=KWLM3rXZiXc",
+      "t": null,
+      "quote": "'블루문 캠핑장' 솔직하게 정리했습니다.",
+      "where": "description"
+     },
+     {
+      "video_id": "gQ-7qJX1OZw",
+      "link": "https://www.youtube.com/watch?v=gQ-7qJX1OZw",
+      "t": null,
+      "quote": "경기도 가평군 상면에 위치한 블루문캠핑장!",
+      "where": "description"
+     },
+     {
+      "video_id": "sFgvzhuVzOY",
+      "link": "https://www.youtube.com/watch?v=sFgvzhuVzOY",
+      "t": null,
+      "quote": "블루문캠핑장 스테이3 해먹에 누워 초여름 무드를 가득 느끼고 왔어요🌿",
+      "where": "description"
+     },
+     {
+      "video_id": "quhKc_1YBC4",
+      "link": "https://www.youtube.com/watch?v=quhKc_1YBC4",
+      "t": null,
+      "quote": "가평 블루문 캠핑장에 다녀왔습니다.",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 74.2,
+    "total": 79.5,
     "tier": "추천",
     "breakdown": {
      "reputation": 28.2,
-     "evidence": 18,
+     "evidence": 23.3,
      "family_fit": 15,
      "practicality": 13
     },
     "detail": {
      "rating_pts": 20,
      "review_pts": 8.2,
-     "source_count": 2,
+     "source_count": 8,
      "mode_a": 9,
      "mode_b": 6,
      "drive_pts": 6,
@@ -1537,70 +1620,63 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-24"
+   "verified_at": "2026-09-26"
   },
   {
-   "id": "naver-1779393568",
-   "name": "트라움풀빌라글램핑&카라반",
+   "id": "naver-38010414",
+   "name": "새연 카라반 글램핑 설악2호점",
    "kind": "camping",
    "naver": {
-    "place_id": "1779393568",
+    "place_id": "38010414",
     "category": "캠핑,야영장",
-    "road_address": "경기 가평군 상면 왕대벌길 60 트라움 풀빌라글램핑&카라반",
-    "x": 127.3778758,
-    "y": 37.7698305,
-    "score": 4.97,
-    "reviews": 8416,
-    "blog_reviews": 402,
+    "road_address": "경기 가평군 설악면 유명로 1939 새연리조트 설악2호점",
+    "x": 127.4704171,
+    "y": 37.6834684,
+    "score": 4.61,
+    "reviews": 5459,
+    "blog_reviews": 392,
     "status": null,
     "conveniences": [
      "주차"
     ],
-    "phone": "0507-1398-3223"
+    "phone": null
    },
    "kakao": {
-    "found": true,
-    "kakao_id": "1443793836",
-    "kakao_url": "http://place.map.kakao.com/1443793836",
-    "kakao_road_address": "경기 가평군 상면 왕대벌길 60",
-    "rating": 3.9,
-    "review_count": 12,
-    "status": "Y",
-    "dist_m": 34,
-    "facility_icons": [
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "글램핑 객실 바로 뒤에 각 호실별 1대 무료 주차 가능, 추가 1대당 1만원 유료 주차"
-     }
-    ],
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
     "headline": null,
-    "phone": "010-4573-3222"
+    "phone": null
    },
    "rating": {
-    "pooled": 4.97,
-    "bayes": 4.96,
-    "total_reviews": 8428,
+    "pooled": 4.61,
+    "bayes": 4.6,
+    "total_reviews": 5459,
     "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.7698305&dlng=127.3778758&dname=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.7698305&dlng=127.3778758&dname=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.7698305&lng=127.3778758&name=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1779393568",
-    "mobile_place": "https://m.place.naver.com/place/1779393568/home"
+    "app_navigation": "nmap://navigation?dlat=37.6834684&dlng=127.4704171&dname=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.6834684&dlng=127.4704171&dname=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.6834684&lng=127.4704171&name=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/38010414",
+    "mobile_place": "https://m.place.naver.com/place/38010414/home"
    },
    "drive": {
-    "min": 44.4,
-    "km": 43.23,
+    "min": 33.5,
+    "km": 39.61,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
    "price": {
     "est_meal_4p": {
-     "krw": 129000,
+     "krw": 49000,
      "basis": "네이버 예약 최저 사이트 요금(1박, 최저가 기준 — 성수기·주말은 더 높을 수 있음)",
      "sample": []
     },
@@ -1608,94 +1684,314 @@
    },
    "family": {
     "mode_a": [
+     "아이동반",
      "체험·동물",
      "캠핑 키즈시설"
     ],
     "mode_b": {
      "positive": [
       {
-       "label": "화장실 가까움",
-       "quote": "불편함이 거의 없습니다. 특히 화장실이 깔끔해서 좋았습니다. 여행을 할 때 숙소 화장실이 깨끗한지 생각보다 중요한 부분입니다. 가평 글램핑 트라움풀빌라글램핑&카라반은 실내 분",
-       "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
-       "date": "2026.03.09."
+       "label": "넓고 여유",
+       "quote": "캠핑 글램핑 중요한 건 분리수거 아시죠?ㅋㅋㅋ 이 안쪽으로 한옥펜션도 있어 정말 넓은 공간인 새연글램핑장!! 사장님 부자다!!! 우리는 수영장도 구경!! 아이들 놀기 딱.",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/purplebora1018/224418522694",
+       "date": "3일 전"
       },
       {
-       "label": "캠핑 편의(평탄·주차·화장실)",
-       "quote": "불편함이 거의 없습니다. 특히 화장실이 깔끔해서 좋았습니다. 여행을 할 때 숙소 화장실이 깨끗한지 생각보다 중요한 부분입니다. 가평 글램핑 트라움풀빌라글램핑&카라반은 실내 분",
-       "src": "naver-blog-excerpt:https://m.cafe.naver.com/masung2026/1074?query=%EB%A7%9B%EC%A7%91%20%EC%97%AC%ED%96%89%20%EA%BF%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0%20%EC%B9%B4%ED%8E%98%20%EC%9D%B4%20%EC%84%B8%EC%83%81%20%EB%AA%A8%EB%93%A0%20%EB%A7%9B%EC%A7%91%20%EC%A0%80%EC%9E%A5%EC%9A%A9%20%EC%B9%B4%ED%8E%98",
-       "date": "2026.03.09."
+       "label": "넓고 여유",
+       "quote": "캠핑 글램핑 중요한 건 분리수거 아시죠?ㅋㅋㅋ 이 안쪽으로 한옥펜션도 있어 정말 넓은 공간인 새연글램핑장!! 사장님 부자다!!! 우리는 수영장도 구경!! 아이들 놀기 딱",
+       "src": "naver-blog:https://m.blog.naver.com/purplebora1018/224418522694",
+       "date": "3일 전"
       },
       {
-       "label": "주차",
-       "quote": "글램핑 객실 바로 뒤에 각 호실별 1대 무료 주차 가능, 추가 1대당 1만원 유료 주차",
-       "src": "kakao-info:1443793836",
-       "date": null
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "다. 역시 원조는 원조야.. 근데 너무 비싼데.. 은비야 곰마워.. ㅠㅠ 왁버거 정자 경기도 성남시 분당구 정자일로 146 제에이동 제1층 112호 여기도 셈니네 집",
-       "src": "naver-blog:https://m.blog.naver.com/ockphotos/224212683696",
-       "date": "2026.03.11."
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "근데 너무 비싼데.. 은비야 곰마워.. ㅠㅠ 왁버거 정자 경기도 성남시 분당구 정자일로 146 제에이동 제1층 112호 여기도 셈니네 집 근처에 생긴 햄버거 집!",
-       "src": "naver-blog:https://m.blog.naver.com/ockphotos/224212683696",
-       "date": "2026.03.11."
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "침대가 불편한 곳도 있는데 이곳은 잠자리가 편했습니다. 그래서 하루 동안 편하게 쉴 수 있었습니다. 가평 글램핑 트라움풀빌라글램핑&카라반 바베큐 시간은 여행의 하이라이트입",
-       "src": "naver-blog:https://m.blog.naver.com/jscompany79/224209588441",
-       "date": "2026.03.09."
+       "label": "넓고 여유",
+       "quote": "에어컨 난방 겸용 그리고 장판이 마련되어 있음!!! 깔끔하게 딱 잠자기 좋은 곳 넓은 공간이었습니다. 그리고 내부 박스 샤워실과 화장실 그리고 냉장고, 전자레인지 테이블",
+       "src": "naver-blog:https://m.blog.naver.com/purplebora1018/224418522694",
+       "date": "3일 전"
       }
      ],
      "negative": [],
-     "verdict": "적합 근거",
-     "unknown": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
+     ],
      "soft_food": false
     }
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/ockphotos/224212683696",
-      "title": "오랜만에 쓰는 일상 블로그",
-      "date": "2026.03.11.",
-      "days_ago": 198,
-      "author": "ockphotos",
-      "chars": 1910,
+      "url": "https://m.blog.naver.com/cara1226/224352386474",
+      "title": "가평카라반 추천 새연글램핑 설악2호점에서 계곡도 즐기고 바베큐까지 완벽했던 아이랑 가족여행 후기",
+      "date": "2026.07.20.",
+      "days_ago": 68,
+      "author": "커피향기",
+      "chars": 2629,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/purplebora1018/224418522694",
+      "title": "가평글램핑 새연글램핑 설악2호점 불멍 가을캠핑",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "PurpleBoRa",
+      "chars": 3026,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/jscompany79/224209588441",
-      "title": "가평 글램핑 트라움풀빌라글램핑카라반 처음 가본 사람도 감탄하는 이유",
-      "date": "2026.03.09.",
-      "days_ago": 200,
-      "author": "JS Trend Lab",
-      "chars": 3061,
+      "url": "https://m.blog.naver.com/tayafan89/224251288455",
+      "title": "서울에서 가까운 가평카라반 새연카라반글램핑 설악 2호점",
+      "date": "2026.04.13.",
+      "days_ago": 166,
+      "author": "벼리",
+      "chars": 2396,
       "sponsored": false
      }
     ],
-    "youtube": []
+    "youtube": [
+     {
+      "video_id": "9sJnKflB1_Y",
+      "link": "https://www.youtube.com/watch?v=9sJnKflB1_Y",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     }
+    ]
    },
    "scores": {
-    "total": 72.8,
-    "tier": "추천",
+    "total": 79.3,
+    "tier": "조건부",
     "breakdown": {
-     "reputation": 34.8,
-     "evidence": 16,
-     "family_fit": 16,
-     "practicality": 6
+     "reputation": 29.3,
+     "evidence": 23,
+     "family_fit": 14,
+     "practicality": 13
     },
     "detail": {
-     "rating_pts": 25,
-     "review_pts": 9.8,
-     "source_count": 2,
-     "mode_a": 6,
-     "mode_b": 10,
+     "rating_pts": 20,
+     "review_pts": 9.3,
+     "source_count": 3,
+     "mode_a": 9,
+     "mode_b": 5,
      "drive_pts": 6,
-     "cost_pts": 0
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 3,
+   "verified_at": "2026-09-26"
+  },
+  {
+   "id": "naver-1459700349",
+   "name": "무수아취",
+   "kind": "camping",
+   "naver": {
+    "place_id": "1459700349",
+    "category": "캠핑,야영장",
+    "road_address": "서울 도봉구 도봉로169길 249",
+    "x": 127.0330822,
+    "y": 37.6764256,
+    "score": 4.71,
+    "reviews": 2782,
+    "blog_reviews": 1228,
+    "status": null,
+    "conveniences": [
+     "주차"
+    ],
+    "phone": "02-954-0249"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "14061000",
+    "kakao_url": "http://place.map.kakao.com/14061000",
+    "kakao_road_address": "서울 도봉구 도봉로169길 249",
+    "rating": 3.1,
+    "review_count": 28,
+    "status": "Y",
+    "dist_m": 4,
+    "facility_icons": [
+     "주차가능",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "02-954-0249"
+   },
+   "rating": {
+    "pooled": 4.71,
+    "bayes": 4.69,
+    "total_reviews": 2810,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.6764256&dlng=127.0330822&dname=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.6764256&dlng=127.0330822&dname=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.6764256&lng=127.0330822&name=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1459700349",
+    "mobile_place": "https://m.place.naver.com/place/1459700349/home"
+   },
+   "drive": {
+    "min": 26.3,
+    "km": 27.32,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반",
+     "유아의자",
+     "체험·동물",
+     "캠핑 키즈시설"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "아취 주소 서울특별시 도봉구 도봉로 169길 249 연락처 02-954-0249 주차 무료 가능 내부 모습 미리 예약하고 방문했는데 3번 캠핑장으로 안내받았어요 내부 공간",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/dorothy_1114/224418844832",
+       "date": "3일 전"
+      },
+      {
+       "label": "주차",
+       "quote": "서울에 이렇게 조용한 곳이 있었다니.. 전철이 닿는 곳인데 이렇게 멋진 풍경!! 주차장 넓은 땡볕 이렇게 보니 날씨는 좋았어요 이 날 아마 38도 정도 되었던거 같아용 캠",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
+       "date": "2026.08.11."
+      },
+      {
+       "label": "주차",
+       "quote": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능",
+       "src": "kakao-info:14061000",
+       "date": null
+      },
+      {
+       "label": "주차",
+       "quote": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능",
+       "src": "kakao-info:14061000",
+       "date": null
+      },
+      {
+       "label": "주차",
+       "quote": "아취 주소 서울특별시 도봉구 도봉로 169길 249 연락처 02-954-0249 주차 무료 가능 내부 모습 ​ 미리 예약하고 방문했는데 3번 캠핑장으로 안내받았어요 ​ ​",
+       "src": "naver-blog:https://m.blog.naver.com/dorothy_1114/224418844832",
+       "date": "3일 전"
+      },
+      {
+       "label": "주차",
+       "quote": "에 이렇게 조용한 곳이 있었다니.. 전철이 닿는 곳인데 이렇게 멋진 풍경!! ​ 주차장 넓은 땡볕 ​ 이렇게 보니 날씨는 좋았어요 이 날 아마 38도 정도 되었던거 같아용",
+       "src": "naver-blog:https://m.blog.naver.com/rubirang/224373352456",
+       "date": "2026.08.11."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/dorothy_1114/224418844832",
+      "title": "서울 도봉구 무수아취 당일치기 글램핑 바베큐 아기랑 방문 후기",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "뽀도미",
+      "chars": 1699,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/rubirang/224373352456",
+      "title": "서울 계곡 에어컨 있는 무수아취 캠핑장이 있더라구요",
+      "date": "2026.08.11.",
+      "days_ago": 46,
+      "author": "신사동그여자",
+      "chars": 1593,
+      "sponsored": false
+     }
+    ],
+    "youtube": [
+     {
+      "video_id": "cQ3UoXAZqC4",
+      "link": "https://www.youtube.com/watch?v=cQ3UoXAZqC4",
+      "t": null,
+      "quote": "2024.10.28 서울 도봉구 무수아취 캠핑장에 놀러갔다.",
+      "where": "description"
+     },
+     {
+      "video_id": "9OKpFLgu0p0",
+      "link": "https://www.youtube.com/watch?v=9OKpFLgu0p0",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "xXuNREln4Sg",
+      "link": "https://www.youtube.com/watch?v=xXuNREln4Sg",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "i-TZ7x26VTI",
+      "link": "https://www.youtube.com/watch?v=i-TZ7x26VTI",
+      "t": null,
+      "quote": "이번 설날에는 할아버지할머니네랑 외삼촌네랑 같이 무수아취 라는 바베큐장에 가서 신나게 놀고 먹고 했답니다! 여기 너무 좋아요!!! 모두 해피설날!",
+      "where": "description"
+     },
+     {
+      "video_id": "VibCDLHtobE",
+      "link": "https://www.youtube.com/watch?v=VibCDLHtobE",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     },
+     {
+      "video_id": "Lgc9nh6pMJA",
+      "link": "https://www.youtube.com/watch?v=Lgc9nh6pMJA",
+      "t": null,
+      "quote": "(제목/설명에 언급)",
+      "where": "description"
+     }
+    ]
+   },
+   "scores": {
+    "total": 76.6,
+    "tier": "추천",
+    "breakdown": {
+     "reputation": 28.6,
+     "evidence": 23,
+     "family_fit": 15,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 20,
+     "review_pts": 8.6,
+     "source_count": 8,
+     "mode_a": 12,
+     "mode_b": 3,
+     "drive_pts": 8,
+     "cost_pts": 2
     },
     "gates": {
      "pass": true,
@@ -1706,8 +2002,152 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 197,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 3,
+   "verified_at": "2026-09-26"
+  },
+  {
+   "id": "naver-1665394852",
+   "name": "채움카라반글램핑리조트",
+   "kind": "camping",
+   "naver": {
+    "place_id": "1665394852",
+    "category": "캠핑,야영장",
+    "road_address": "경기 가평군 조종면 운악청계로 898",
+    "x": 127.352229,
+    "y": 37.8891034,
+    "score": 4.87,
+    "reviews": 4805,
+    "blog_reviews": 534,
+    "status": null,
+    "conveniences": null,
+    "phone": null
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.87,
+    "bayes": 4.86,
+    "total_reviews": 4805,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.8891034&dlng=127.352229&dname=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.8891034&dlng=127.352229&dname=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.8891034&lng=127.352229&name=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1665394852",
+    "mobile_place": "https://m.place.naver.com/place/1665394852/home"
+   },
+   "drive": {
+    "min": 56.1,
+    "km": 57.1,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": {
+     "krw": 69000,
+     "basis": "네이버 예약 최저 사이트 요금(1박, 최저가 기준 — 성수기·주말은 더 높을 수 있음)",
+     "sample": []
+    },
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반",
+     "체험·동물",
+     "캠핑 키즈시설"
+    ],
+    "mode_b": {
+     "positive": [],
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "또 나가봅니다. 채움 카라반 리조트 바로 앞에 맑은 계곡이 ! 바로 앞에 있는 돌계단으로 천천히 내려가서 맑은 자연...",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/keetomm/224262792556",
+       "date": "2026.04.24."
+      },
+      {
+       "label": "계단",
+       "quote": "봅니다. ​ 채움 카라반 리조트 바로 앞에 맑은 계곡이 ! ​ 바로 앞에 있는 돌계단으로 천천히 내려가서 맑은 자연 풍경을 감상합니다. ​ ​ ​ ​ 이제 막 봄이 시작",
+       "src": "naver-blog:https://m.blog.naver.com/keetomm/224262792556",
+       "date": "2026.04.24."
+      }
+     ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [
+      "쉼터·벤치",
+      "주차"
+     ],
+     "soft_food": false
+    }
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/munani0918/224330915610",
+      "title": "가평 캠핑장 카라반 글램핑 가평 계곡 펜션 추천",
+      "date": "2026.07.07.",
+      "days_ago": 81,
+      "author": "여행작가 김문환",
+      "chars": 1613,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/keetomm/224262792556",
+      "title": "가평카라반 채움카라반글램핑 친구랑 알차게 즐긴 솔직 후기",
+      "date": "2026.04.24.",
+      "days_ago": 155,
+      "author": "맹주",
+      "chars": 2324,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 76.2,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 34.2,
+     "evidence": 17,
+     "family_fit": 12,
+     "practicality": 13
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 9.2,
+     "source_count": 2,
+     "mode_a": 12,
+     "mode_b": 0,
+     "drive_pts": 6,
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "차량 56분(선호 50분 초과)"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 81,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1963218572",
@@ -1856,7 +2296,7 @@
       "url": "https://m.blog.naver.com/forever2131/224383039839",
       "title": "양주 캠프랩 당일치기 서울근교 계곡 준비물 없는 고기 가격",
       "date": "2026.08.19.",
-      "days_ago": 37,
+      "days_ago": 38,
       "author": "져니",
       "chars": 1889,
       "sponsored": false
@@ -1865,7 +2305,7 @@
       "url": "https://m.blog.naver.com/zihye9000/224338977162",
       "title": "위클리 엘리_ 퍼시몬 용산 (feat. 프로파일메리베일) + 연희동 카덴 이자카야 (feat. 정호영쉐프) + 호보갈비 용산점 + 거대곰탕 서초 + 양주 캠프랩 (feat.캠프닉)",
       "date": "2026.07.07.",
-      "days_ago": 80,
+      "days_ago": 81,
       "author": "엘리",
       "chars": 3471,
       "sponsored": false
@@ -1900,181 +2340,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 36,
-   "verified_at": "2026-09-24"
-  },
-  {
-   "id": "naver-1459700349",
-   "name": "무수아취",
-   "kind": "camping",
-   "naver": {
-    "place_id": "1459700349",
-    "category": "캠핑,야영장",
-    "road_address": "서울 도봉구 도봉로169길 249",
-    "x": 127.0330822,
-    "y": 37.6764256,
-    "score": 4.71,
-    "reviews": 2783,
-    "blog_reviews": 1228,
-    "status": null,
-    "conveniences": [
-     "주차"
-    ],
-    "phone": "02-954-0249"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "14061000",
-    "kakao_url": "http://place.map.kakao.com/14061000",
-    "kakao_road_address": "서울 도봉구 도봉로169길 249",
-    "rating": 3.1,
-    "review_count": 28,
-    "status": "Y",
-    "dist_m": 4,
-    "facility_icons": [
-     "주차가능",
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "02-954-0249"
-   },
-   "rating": {
-    "pooled": 4.71,
-    "bayes": 4.69,
-    "total_reviews": 2811,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.6764256&dlng=127.0330822&dname=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.6764256&dlng=127.0330822&dname=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.6764256&lng=127.0330822&name=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1459700349",
-    "mobile_place": "https://m.place.naver.com/place/1459700349/home"
-   },
-   "drive": {
-    "min": 26.3,
-    "km": 27.32,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "유아의자",
-     "체험·동물",
-     "캠핑 키즈시설"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "아취 주소 서울특별시 도봉구 도봉로 169길 249 연락처 02-954-0249 주차 무료 가능 내부 모습 미리 예약하고 방문했는데 3번 캠핑장으로 안내받았어요 내부 공간",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/dorothy_1114/224418844832",
-       "date": "3일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "서울에 이렇게 조용한 곳이 있었다니.. 전철이 닿는 곳인데 이렇게 멋진 풍경!! 주차장 넓은 땡볕 이렇게 보니 날씨는 좋았어요 이 날 아마 38도 정도 되었던거 같아용 캠",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/rubirang/224373352456",
-       "date": "2026.08.11."
-      },
-      {
-       "label": "주차",
-       "quote": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능",
-       "src": "kakao-info:14061000",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "글램핑장 바로 앞에 넓은 주차장 이용 가능, 방문객을 위한 주차 공간 마련, 주말 및 공휴일 혼잡 가능",
-       "src": "kakao-info:14061000",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "아취 주소 서울특별시 도봉구 도봉로 169길 249 연락처 02-954-0249 주차 무료 가능 내부 모습 ​ 미리 예약하고 방문했는데 3번 캠핑장으로 안내받았어요 ​ ​",
-       "src": "naver-blog:https://m.blog.naver.com/dorothy_1114/224418844832",
-       "date": "3일 전"
-      },
-      {
-       "label": "주차",
-       "quote": "에 이렇게 조용한 곳이 있었다니.. 전철이 닿는 곳인데 이렇게 멋진 풍경!! ​ 주차장 넓은 땡볕 ​ 이렇게 보니 날씨는 좋았어요 이 날 아마 38도 정도 되었던거 같아용",
-       "src": "naver-blog:https://m.blog.naver.com/rubirang/224373352456",
-       "date": "2026.08.11."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/dorothy_1114/224418844832",
-      "title": "서울 도봉구 무수아취 당일치기 글램핑 바베큐 아기랑 방문 후기",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "뽀도미",
-      "chars": 1699,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/rubirang/224373352456",
-      "title": "서울 계곡 에어컨 있는 무수아취 캠핑장이 있더라구요",
-      "date": "2026.08.11.",
-      "days_ago": 45,
-      "author": "신사동그여자",
-      "chars": 1593,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 71.6,
-    "tier": "추천",
-    "breakdown": {
-     "reputation": 28.6,
-     "evidence": 18,
-     "family_fit": 15,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 20,
-     "review_pts": 8.6,
-     "source_count": 2,
-     "mode_a": 12,
-     "mode_b": 3,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "고평점(≥4.5)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 3,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 38,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1603157357",
@@ -2087,7 +2354,7 @@
     "x": 127.3645183,
     "y": 38.0189834,
     "score": 4.93,
-    "reviews": 6209,
+    "reviews": 6208,
     "blog_reviews": 934,
     "status": null,
     "conveniences": [
@@ -2112,7 +2379,7 @@
    "rating": {
     "pooled": 4.93,
     "bayes": 4.92,
-    "total_reviews": 6209,
+    "total_reviews": 6208,
     "source": "네이버"
    },
    "nav": {
@@ -2171,7 +2438,7 @@
       "url": "https://m.blog.naver.com/dssa1020/224414531546",
       "title": "포천 여행) 서울 근교 글램핑 포천 글램파크 글램핑 카라반",
       "date": "2026.09.17.",
-      "days_ago": 8,
+      "days_ago": 9,
       "author": "파니핑크23",
       "chars": 3325,
       "sponsored": false
@@ -2180,7 +2447,7 @@
       "url": "https://m.blog.naver.com/idlke/224404755573",
       "title": "서울근교 글램핑 사계절 온수풀수영장 포천 글램파크",
       "date": "2026.09.08.",
-      "days_ago": 17,
+      "days_ago": 18,
       "author": "러브",
       "chars": 2151,
       "sponsored": false
@@ -2217,8 +2484,8 @@
     "차량 64분(선호 50분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 7,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 9,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1126871443",
@@ -2375,7 +2642,7 @@
       "url": "https://m.blog.naver.com/seventwo/224303211479",
       "title": "서울근교 캠핑장 시흥 물왕저수지 물왕숲캠핑파크 17번 파쇄석 사이트",
       "date": "2026.06.01.",
-      "days_ago": 116,
+      "days_ago": 117,
       "author": "밍밍",
       "chars": 2037,
       "sponsored": false
@@ -2384,7 +2651,7 @@
       "url": "https://m.blog.naver.com/helenabonbon/224229910321",
       "title": "아이 데리고 캠핑 고민이라면? 시흥 물왕숲캠핑파크 솔직 후기",
       "date": "2026.03.26.",
-      "days_ago": 183,
+      "days_ago": 184,
       "author": "헬레나 응댕",
       "chars": 2147,
       "sponsored": true
@@ -2417,8 +2684,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 115,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 117,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-35854046",
@@ -2545,7 +2812,7 @@
       "url": "https://m.blog.naver.com/iamfree-/224403952754",
       "title": "캠프오후4시 - 포천 가을 감성글램핑, 이색적인 빈티지 카라반 캠핑",
       "date": "2026.09.07.",
-      "days_ago": 18,
+      "days_ago": 19,
       "author": "슈니로그",
       "chars": 4253,
       "sponsored": false
@@ -2554,7 +2821,7 @@
       "url": "https://m.blog.naver.com/qhtiti33/224373363484",
       "title": "서울근교 포천글램핑 캠프오후4시 감성 빈티지카라반",
       "date": "2026.08.09.",
-      "days_ago": 47,
+      "days_ago": 48,
       "author": "또유니",
       "chars": 3280,
       "sponsored": false
@@ -2589,8 +2856,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 17,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 19,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1205002942",
@@ -2603,7 +2870,7 @@
     "x": 127.5396739,
     "y": 37.7672092,
     "score": 4.95,
-    "reviews": 3774,
+    "reviews": 3772,
     "blog_reviews": 2128,
     "status": null,
     "conveniences": [
@@ -2636,7 +2903,7 @@
    "rating": {
     "pooled": 4.95,
     "bayes": 4.93,
-    "total_reviews": 3793,
+    "total_reviews": 3791,
     "source": "네이버"
    },
    "nav": {
@@ -2708,7 +2975,7 @@
       "url": "https://m.blog.naver.com/hyne81/224352218917",
       "title": "내돈내산 | 이른 여름휴가, 가평 바이올린 글램핑 1박 2일 후기",
       "date": "2026.07.20.",
-      "days_ago": 67,
+      "days_ago": 68,
       "author": "유니",
       "chars": 2050,
       "sponsored": true
@@ -2753,7 +3020,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-24"
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-35559736",
@@ -2765,8 +3032,8 @@
     "road_address": "경기 가평군 청평면 고재길 262-64 올덴 카라반&펜션",
     "x": 127.5168522,
     "y": 37.7019939,
-    "score": 4.49,
-    "reviews": 4437,
+    "score": 4.48,
+    "reviews": 4428,
     "blog_reviews": 980,
     "status": null,
     "conveniences": [
@@ -2789,9 +3056,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.49,
-    "bayes": 4.48,
-    "total_reviews": 4437,
+    "pooled": 4.48,
+    "bayes": 4.47,
+    "total_reviews": 4428,
     "source": "네이버"
    },
    "nav": {
@@ -2838,7 +3105,7 @@
       "url": "https://m.blog.naver.com/tayafan89/224346266387",
       "title": "수영장이 있는 반려동물 동반 올덴카라반캠핑장 가평점 내돈내산 후기",
       "date": "2026.07.14.",
-      "days_ago": 73,
+      "days_ago": 74,
       "author": "벼리",
       "chars": 1179,
       "sponsored": false
@@ -2847,7 +3114,7 @@
       "url": "https://m.blog.naver.com/yetram/224337746826",
       "title": "올덴카라반 캠핑장 가평점 (애견동반가능)",
       "date": "2026.07.06.",
-      "days_ago": 81,
+      "days_ago": 82,
       "author": "꼬마짱",
       "chars": 901,
       "sponsored": false
@@ -2882,8 +3149,8 @@
     "카카오 교차검증 실패(확인 필요)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 72,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 74,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1031240390",
@@ -2896,7 +3163,7 @@
     "x": 127.2007362,
     "y": 37.3071241,
     "score": 4.47,
-    "reviews": 9633,
+    "reviews": 9634,
     "blog_reviews": 211,
     "status": null,
     "conveniences": null,
@@ -2927,7 +3194,7 @@
    "rating": {
     "pooled": 4.47,
     "bayes": 4.47,
-    "total_reviews": 9638,
+    "total_reviews": 9639,
     "source": "네이버"
    },
    "nav": {
@@ -2994,7 +3261,7 @@
       "url": "https://m.blog.naver.com/doona224/223994253590",
       "title": "skt 숲캉스 에버랜드 포레스트캠프 대만족",
       "date": "2025.09.05.",
-      "days_ago": 385,
+      "days_ago": 386,
       "author": "행복바이러스",
       "chars": 3375,
       "sponsored": false
@@ -3003,7 +3270,7 @@
       "url": "https://m.blog.naver.com/dynamicduck/224071598593",
       "title": "에버랜드 비밀의 은행나무 숲",
       "date": "2025.11.10.",
-      "days_ago": 319,
+      "days_ago": 320,
       "author": "좋은사람 이지",
       "chars": 1148,
       "sponsored": false
@@ -3045,8 +3312,8 @@
      "date": "2021.05.22."
     }
    ],
-   "evidence_days_ago": 384,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 386,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1683482854",
@@ -3191,7 +3458,7 @@
       "url": "https://m.blog.naver.com/tinabenny/224375036659",
       "title": "[인천 에제르파크] 친구들과 바베큐와 물놀이 : 파티룸 5시간 이용 후기",
       "date": "2026.08.11.",
-      "days_ago": 45,
+      "days_ago": 46,
       "author": "옥빛바다",
       "chars": 3050,
       "sponsored": true
@@ -3200,7 +3467,7 @@
       "url": "https://m.blog.naver.com/jstar7798/224322098208",
       "title": "펜션 바베큐 준비물 서울 근교 바베큐장 인천파티룸 당일 바베큐 파티 어린이캠핑장",
       "date": "2026.06.20.",
-      "days_ago": 97,
+      "days_ago": 98,
       "author": "다니",
       "chars": 1378,
       "sponsored": false
@@ -3209,7 +3476,7 @@
       "url": "https://m.blog.naver.com/jstar7798/224251322817",
       "title": "인천 가족 아이와 글램핑 무박 키즈 단체 글램핑 당일치기 음식 캠핑장",
       "date": "2026.04.13.",
-      "days_ago": 165,
+      "days_ago": 166,
       "author": "다니",
       "chars": 1402,
       "sponsored": false
@@ -3242,8 +3509,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 44,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 46,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-33445436",
@@ -3388,7 +3655,7 @@
       "url": "https://m.blog.naver.com/connie333/224410999343",
       "title": "힐링별밤수목원캠핑장 - 차박 3",
       "date": "2026.09.14.",
-      "days_ago": 11,
+      "days_ago": 12,
       "author": "connie",
       "chars": 3386,
       "sponsored": false
@@ -3397,7 +3664,7 @@
       "url": "https://m.blog.naver.com/cutetnwls/224372813625",
       "title": "남양주 계곡 캠핑장 추천, 최고의 놀거리 &lt;힐링별밤수목원캠핑장&gt;",
       "date": "2026.08.10.",
-      "days_ago": 46,
+      "days_ago": 47,
       "author": "여행작가 Sue",
       "chars": 2251,
       "sponsored": false
@@ -3432,8 +3699,8 @@
     "카카오 교차검증 실패(확인 필요)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 10,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 12,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-36630874",
@@ -3560,7 +3827,7 @@
       "url": "https://m.blog.naver.com/selgiccm/224249839808",
       "title": "벤츠 GLC 차박 첫 도전, 여자 혼자 캠핑 솔캠 후기 (+다잡 꼬리텐트, 해자연캠핑장 벚꽃 캠핑)",
       "date": "2026.04.12.",
-      "days_ago": 166,
+      "days_ago": 167,
       "author": "Audrey",
       "chars": 3912,
       "sponsored": false
@@ -3569,7 +3836,7 @@
       "url": "https://m.blog.naver.com/saybotem/223579255568",
       "title": "캠핑족들이 꼽는 가을 캠핑 명소는? 초보 캠핑 준비물 이것만은 꼭 챙기자 아나프리 고주파마사지기",
       "date": "2024.09.11.",
-      "days_ago": 744,
+      "days_ago": 745,
       "author": "보탬고주파",
       "chars": 1827,
       "sponsored": false
@@ -3602,8 +3869,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 165,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 167,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-19998427",
@@ -3720,7 +3987,7 @@
       "url": "https://m.blog.naver.com/8114as/224341776527",
       "title": "포천 유식물원 캠핑장 2박 캠핑 내돈내산 / 아이두젠 아마데우스 이너텐트 후기",
       "date": "2026.07.09.",
-      "days_ago": 78,
+      "days_ago": 79,
       "author": "서뉴",
       "chars": 2938,
       "sponsored": false
@@ -3729,7 +3996,7 @@
       "url": "https://m.blog.naver.com/bombybom/224082362312",
       "title": "겨울 캠핑 유식물원캠핑장",
       "date": "2025.11.20.",
-      "days_ago": 309,
+      "days_ago": 310,
       "author": "박숫끼",
       "chars": 1419,
       "sponsored": false
@@ -3764,8 +4031,8 @@
     "차량 59분(선호 50분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 308,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 310,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-38590053",
@@ -3889,7 +4156,7 @@
       "url": "https://m.blog.naver.com/yunsunga07/224350198801",
       "title": "서울 근교 당일치기 나들이 여행 용인 캠프레이크 글램핑 후기 기흥호수 뷰  바베큐",
       "date": "2026.07.18.",
-      "days_ago": 69,
+      "days_ago": 70,
       "author": "붉은 소국",
       "chars": 2947,
       "sponsored": false
@@ -3898,7 +4165,7 @@
       "url": "https://m.blog.naver.com/jscompany79/224155144482",
       "title": "기흥 캠핑장이라는 선택이 하루를 바꿔놓았던 이유 당일치기였지만 기억은 오래 남았다",
       "date": "2026.01.22.",
-      "days_ago": 246,
+      "days_ago": 247,
       "author": "JS Trend Lab",
       "chars": 3138,
       "sponsored": false
@@ -3931,8 +4198,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 245,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 247,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-1896400137",
@@ -4024,7 +4291,7 @@
       "url": "https://m.blog.naver.com/with_zian_/224330967875",
       "title": "인천대공원 캠핑장, 도심에서 가까운 가성비 캠핑, 예약부터 숙박 후기까지",
       "date": "2026.06.29.",
-      "days_ago": 88,
+      "days_ago": 89,
       "author": "지안",
       "chars": 2554,
       "sponsored": false
@@ -4033,7 +4300,7 @@
       "url": "https://m.blog.naver.com/hyelin910526/224319089325",
       "title": "인천대공원 캠핑장 몽골텐트 D구역 특대 / 비용, 그릴",
       "date": "2026.06.17.",
-      "days_ago": 100,
+      "days_ago": 101,
       "author": "혜르미온느",
       "chars": 964,
       "sponsored": false
@@ -4066,8 +4333,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 99,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 101,
+   "verified_at": "2026-09-26"
   },
   {
    "id": "naver-13466661",
@@ -4175,7 +4442,7 @@
       "url": "https://m.blog.naver.com/terryssam/224366540256",
       "title": "미우새 조현아, 이상형 성시경 캠핑장 초대 사심가득한 1:1 팬미팅",
       "date": "2026.08.03.",
-      "days_ago": 53,
+      "days_ago": 54,
       "author": "정이님",
       "chars": 1447,
       "sponsored": false
@@ -4208,8 +4475,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 543,
-   "verified_at": "2026-09-24"
+   "evidence_days_ago": 545,
+   "verified_at": "2026-09-26"
   }
  ]
 }

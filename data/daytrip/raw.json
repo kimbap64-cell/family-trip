@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25 01:17",
+ "generated": "2026-09-26 10:41",
  "home": [
   127.1925648,
   37.5580056
@@ -15,7 +15,7 @@
     "x": 127.2013221,
     "y": 37.2933272,
     "phone": "031-320-5000",
-    "visitor_review_count": 68135,
+    "visitor_review_count": 68132,
     "visitor_review_score": 4.56,
     "blog_review_count": 57761,
     "business_status": "영업 중",
@@ -372,7 +372,7 @@
     "y": 37.293101115700345,
     "status": "Y",
     "rating": 4.4,
-    "review_count": 1233,
+    "review_count": 1230,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -423,7 +423,7 @@
     "x": 127.0190443,
     "y": 37.4338452,
     "phone": "02-509-6000",
-    "visitor_review_count": 23277,
+    "visitor_review_count": 23275,
     "visitor_review_score": 4.46,
     "blog_review_count": 17231,
     "business_status": "영업 중",
@@ -746,7 +746,7 @@
     "x": 127.2236163,
     "y": 37.5436277,
     "phone": "0507-1471-2010",
-    "visitor_review_count": 25823,
+    "visitor_review_count": 25789,
     "visitor_review_score": 4.57,
     "blog_review_count": 3137,
     "business_status": "운영 중",
@@ -1102,7 +1102,7 @@
      "url": "https://m.blog.naver.com/hun_long/224406522362",
      "title": "하남 주렁주렁 할인 받아 방문! 5살아이 먹이주기 체험 후기",
      "date": "2026.09.10.",
-     "days_ago": 15,
+     "days_ago": 16,
      "author": "내품에쁨이꿈이",
      "chars": 5532,
      "sponsored": false
@@ -1111,7 +1111,7 @@
      "url": "https://m.blog.naver.com/jaebungbung/224398690640",
      "title": "리뉴얼된 주렁주렁 하남점, 아이랑 가기 좋은 실내동물원",
      "date": "2026.09.02.",
-     "days_ago": 23,
+     "days_ago": 24,
      "author": "jaebungbung",
      "chars": 3210,
      "sponsored": false
@@ -1128,7 +1128,7 @@
     "x": 127.542352,
     "y": 37.8324653,
     "phone": "033-260-8300",
-    "visitor_review_count": 25109,
+    "visitor_review_count": 25106,
     "visitor_review_score": 4.34,
     "blog_review_count": 5937,
     "business_status": "운영 중",
@@ -1684,7 +1684,7 @@
     "x": 127.4970632,
     "y": 37.5290899,
     "phone": "0507-1419-2210",
-    "visitor_review_count": 22504,
+    "visitor_review_count": 22501,
     "visitor_review_score": 4.63,
     "blog_review_count": 3697,
     "business_status": "운영 중",
@@ -1957,7 +1957,7 @@
     "phone": "0507-1344-6669",
     "visitor_review_count": 11137,
     "visitor_review_score": 4.49,
-    "blog_review_count": 28410,
+    "blog_review_count": 28390,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -2313,7 +2313,7 @@
     "x": 127.49058,
     "y": 37.715629,
     "phone": "031-584-8200",
-    "visitor_review_count": 13278,
+    "visitor_review_count": 13276,
     "visitor_review_score": 4.18,
     "blog_review_count": 6411,
     "business_status": "운영 중",
@@ -2545,7 +2545,7 @@
      "url": "https://m.blog.naver.com/wanny999/224411696000",
      "title": "가평 갈만한 곳 쁘띠프랑스 이탈리아마을 입장료 할인 볼거리 동선",
      "date": "2026.09.15.",
-     "days_ago": 10,
+     "days_ago": 11,
      "author": "와니",
      "chars": 2994,
      "sponsored": false
@@ -2554,7 +2554,7 @@
      "url": "https://m.blog.naver.com/son018/224403281733",
      "title": "가평 가볼만한곳 쁘띠프랑스 입장료 공연 볼거리",
      "date": "2026.09.07.",
-     "days_ago": 18,
+     "days_ago": 19,
      "author": "삐삐아빠",
      "chars": 3893,
      "sponsored": false
@@ -2571,8 +2571,8 @@
     "x": 127.1333352,
     "y": 37.9672025,
     "phone": "031-535-6494",
-    "visitor_review_count": 11605,
-    "visitor_review_score": 4.25,
+    "visitor_review_count": 11602,
+    "visitor_review_score": 4.24,
     "blog_review_count": 8260,
     "business_status": "운영 중",
     "business_desc": "22:00에 운영 종료",
@@ -3252,7 +3252,7 @@
      "url": "https://m.blog.naver.com/annyeong8877/224397942484",
      "title": "가평 비오는날 가기좋은 아침고요수목원 입장료 및 주차",
      "date": "2026.09.04.",
-     "days_ago": 21,
+     "days_ago": 22,
      "author": "고흐",
      "chars": 2631,
      "sponsored": false
@@ -3278,7 +3278,7 @@
     "x": 126.9043973,
     "y": 37.5170771,
     "phone": "0507-1350-2406",
-    "visitor_review_count": 16327,
+    "visitor_review_count": 16305,
     "visitor_review_score": 4.53,
     "blog_review_count": 3368,
     "business_status": "운영 중",
@@ -3644,7 +3644,7 @@
      "url": "https://m.blog.naver.com/hosukhi1/224402842636",
      "title": "[서울] 주렁주렁 동물원 영등포점",
      "date": "2026.09.10.",
-     "days_ago": 15,
+     "days_ago": 16,
      "author": "아리",
      "chars": 2112,
      "sponsored": false
@@ -3661,7 +3661,7 @@
     "x": 127.3021333,
     "y": 37.1795499,
     "phone": "0507-1305-8751",
-    "visitor_review_count": 15855,
+    "visitor_review_count": 15854,
     "visitor_review_score": 4.75,
     "blog_review_count": 1079,
     "business_status": "운영 중",
@@ -3991,7 +3991,7 @@
      "url": "https://m.blog.naver.com/joyloop7/224337143979",
      "title": "용인 리프 플레이스 아이들과 동물 먹이 주고, 파충류 구경, 모래놀이",
      "date": "2026.07.05.",
-     "days_ago": 82,
+     "days_ago": 83,
      "author": "하늘봄",
      "chars": 3240,
      "sponsored": false
@@ -4000,7 +4000,7 @@
      "url": "https://m.blog.naver.com/smc0863/224359713745",
      "title": "용인 가볼만한곳 당일치기 데이트 코스 야경 명소",
      "date": "2026.07.27.",
-     "days_ago": 60,
+     "days_ago": 61,
      "author": "철이",
      "chars": 3352,
      "sponsored": false
@@ -4371,7 +4371,7 @@
     "x": 126.8754409,
     "y": 37.8005109,
     "phone": "0507-1421-2022",
-    "visitor_review_count": 13637,
+    "visitor_review_count": 13636,
     "visitor_review_score": 4.35,
     "blog_review_count": 6373,
     "business_status": "운영 중",
@@ -4728,7 +4728,7 @@
     "x": 126.8013856,
     "y": 37.7795341,
     "phone": "0507-1381-8456",
-    "visitor_review_count": 13189,
+    "visitor_review_count": 13175,
     "visitor_review_score": 4.76,
     "blog_review_count": 3763,
     "business_status": "운영 중",
@@ -4851,7 +4851,7 @@
      "url": "https://m.blog.naver.com/moyamoyakr/224412907598",
      "title": "파주 조인폴리아 나들이┃은쑥과 립살리스, 아스파라거스",
      "date": "2026.09.15.",
-     "days_ago": 10,
+     "days_ago": 11,
      "author": "moya",
      "chars": 1265,
      "sponsored": false
@@ -5223,7 +5223,7 @@
      "url": "https://m.blog.naver.com/leeseul525/224397206035",
      "title": "이천 아이와 가볼만한 곳 공룡 좋아하는 아이와  덕평공룡수목원",
      "date": "2026.09.01.",
-     "days_ago": 24,
+     "days_ago": 25,
      "author": "박가네육아라이프",
      "chars": 2626,
      "sponsored": false
@@ -5240,7 +5240,7 @@
     "x": 126.8350312,
     "y": 37.5694189,
     "phone": "02-2104-9716",
-    "visitor_review_count": 9561,
+    "visitor_review_count": 9560,
     "visitor_review_score": 4.48,
     "blog_review_count": 24753,
     "business_status": "운영 중",
@@ -5561,7 +5561,7 @@
      "url": "https://m.blog.naver.com/trip_ayeonny/224414553432",
      "title": "&quot;서울에 이런 곳이?&quot; 마곡 서울식물원 호수공원 수목원 나들이",
      "date": "2026.09.17.",
-     "days_ago": 8,
+     "days_ago": 9,
      "author": "아연니",
      "chars": 2931,
      "sponsored": false
@@ -5578,7 +5578,7 @@
     "x": 127.322095,
     "y": 37.5387311,
     "phone": "031-775-1835",
-    "visitor_review_count": 7753,
+    "visitor_review_count": 7751,
     "visitor_review_score": 4.32,
     "blog_review_count": 8048,
     "business_status": "운영 중",
@@ -5804,7 +5804,7 @@
      "url": "https://m.blog.naver.com/june_be/224404042146",
      "title": "서울근교 가볼만한곳 양평 세미원 양수역 뚜벅이 여행",
      "date": "2026.09.07.",
-     "days_ago": 18,
+     "days_ago": 19,
      "author": "레몽까까",
      "chars": 2879,
      "sponsored": false
@@ -5821,7 +5821,7 @@
     "x": 127.1051005,
     "y": 37.1665187,
     "phone": "0507-1362-2068",
-    "visitor_review_count": 11146,
+    "visitor_review_count": 11132,
     "visitor_review_score": 4.82,
     "blog_review_count": 2126,
     "business_status": "운영 중",
@@ -6191,7 +6191,7 @@
      "url": "https://m.blog.naver.com/hongsam0123/224358123354",
      "title": "동탄 주렁주렁 할인 근교 실내동물원 아이랑 가볼만한 곳",
      "date": "2026.07.26.",
-     "days_ago": 61,
+     "days_ago": 62,
      "author": "맘시아",
      "chars": 2102,
      "sponsored": false
@@ -6423,7 +6423,7 @@
      "url": "https://m.blog.naver.com/nyjloving/224405686695",
      "title": "남양주 가볼 만한 곳 추천｜가을꽃 명소부터 산책까지 좋은 가을 나들이 3곳",
      "date": "2026.09.10.",
-     "days_ago": 15,
+     "days_ago": 16,
      "author": "남양주시",
      "chars": 2041,
      "sponsored": true
@@ -6432,7 +6432,7 @@
      "url": "https://m.blog.naver.com/nyjloving/224370184270",
      "title": "&#39;산들소리수목원&#39; 여름밤 산책으로 만나는 여름꽃 수국",
      "date": "2026.08.06.",
-     "days_ago": 50,
+     "days_ago": 51,
      "author": "남양주시",
      "chars": 2432,
      "sponsored": true
@@ -7018,7 +7018,7 @@
     "x": 127.1624865,
     "y": 37.7527189,
     "phone": "031-540-2000",
-    "visitor_review_count": 8804,
+    "visitor_review_count": 8802,
     "visitor_review_score": 4.55,
     "blog_review_count": 6611,
     "business_status": "오늘 휴무",
@@ -7284,7 +7284,7 @@
      "url": "https://m.blog.naver.com/free3394/224409624272",
      "title": "포천 가볼만한곳 광릉수목원 한탄강 가든페스타 포천 여행 관광지 추천",
      "date": "2026.09.12.",
-     "days_ago": 13,
+     "days_ago": 14,
      "author": "함꽁맘",
      "chars": 2839,
      "sponsored": false
@@ -7478,7 +7478,7 @@
     "x": 126.7488999,
     "y": 37.4231681,
     "phone": "0507-1339-8118",
-    "visitor_review_count": 8280,
+    "visitor_review_count": 8279,
     "visitor_review_score": 4.92,
     "blog_review_count": 2265,
     "business_status": "운영 중",
@@ -7805,7 +7805,7 @@
      "url": "https://m.blog.naver.com/kangta6239/224403440713",
      "title": "인천 서창 실내 아이와 함께 가볼만한 곳 [실내동물원 쥬벅스]",
      "date": "2026.09.07.",
-     "days_ago": 18,
+     "days_ago": 19,
      "author": "리",
      "chars": 2128,
      "sponsored": false
@@ -7814,7 +7814,7 @@
      "url": "https://m.blog.naver.com/yjpds1737/224407856894",
      "title": "인천아이들과가볼만한곳, 서창동 실내동물원 쥬벅스 후기",
      "date": "2026.09.11.",
-     "days_ago": 14,
+     "days_ago": 15,
      "author": "아몰랑",
      "chars": 2711,
      "sponsored": false
@@ -8028,7 +8028,7 @@
      "url": "https://m.blog.naver.com/dmswl0930/224412111037",
      "title": "한강보다 좋은 서울 근교 피크닉 명소 하남 미사경정공원 차크닉",
      "date": "2026.09.15.",
-     "days_ago": 10,
+     "days_ago": 11,
      "author": "찌가리",
      "chars": 2721,
      "sponsored": false
@@ -8269,7 +8269,7 @@
      "url": "https://m.blog.naver.com/yong_a_/224393224101",
      "title": "안산 가볼만한곳ㅣ반월호수 근처 유니스의 정원 보타닉하우스 밥 먹고 산책하기 좋은 곳",
      "date": "2026.08.28.",
-     "days_ago": 28,
+     "days_ago": 29,
      "author": "델리샤",
      "chars": 2259,
      "sponsored": false
@@ -8278,7 +8278,7 @@
      "url": "https://m.blog.naver.com/chogap/224392874155",
      "title": "안산 유니스의정원 보타닉하우스 기분 전환 장소 식물원 카페",
      "date": "2026.08.28.",
-     "days_ago": 28,
+     "days_ago": 29,
      "author": "빈이아빠",
      "chars": 1689,
      "sponsored": false
@@ -8732,7 +8732,7 @@
      "url": "https://m.blog.naver.com/k-traveler-/224378983561",
      "title": "8월 9월 데이트 코스, 용인 한택식물원 20만 평 산책과 수련",
      "date": "2026.08.14.",
-     "days_ago": 42,
+     "days_ago": 43,
      "author": "여행쟁이",
      "chars": 2910,
      "sponsored": false
@@ -8741,7 +8741,7 @@
      "url": "https://m.blog.naver.com/manhoc2002/224346354514",
      "title": "남아프리카의 꽃, 용인 한택식물원 아프리카식물관에서 만난 희귀한 꽃",
      "date": "2026.07.14.",
-     "days_ago": 73,
+     "days_ago": 74,
      "author": "청솔객 manhoc",
      "chars": 1157,
      "sponsored": false
@@ -8758,7 +8758,7 @@
     "x": 127.3345887,
     "y": 37.197332,
     "phone": "0507-1381-8221",
-    "visitor_review_count": 6467,
+    "visitor_review_count": 6468,
     "visitor_review_score": 4.78,
     "blog_review_count": 1985,
     "business_status": "운영 중",
@@ -9163,7 +9163,7 @@
      "url": "https://m.blog.naver.com/bbyong_girl/224410581583",
      "title": "용인 실내가볼만한곳 동물먹이체험 포레스트벨",
      "date": "2026.09.13.",
-     "days_ago": 12,
+     "days_ago": 13,
      "author": "뿅걸",
      "chars": 2862,
      "sponsored": false
@@ -9172,7 +9172,7 @@
      "url": "https://m.blog.naver.com/after_round/224389659084",
      "title": "용인 포레스트벨 아이와 가기 좋은 체험 농장 추천",
      "date": "2026.08.25.",
-     "days_ago": 31,
+     "days_ago": 32,
      "author": "골드마우스",
      "chars": 2159,
      "sponsored": false
@@ -9372,7 +9372,7 @@
      "url": "https://m.blog.naver.com/soh109/224412258117",
      "title": "오산 가볼만한곳 10월 아이와 경기도 가을 여행지 물향기수목원 공원",
      "date": "2026.09.15.",
-     "days_ago": 10,
+     "days_ago": 11,
      "author": "오키야옹이",
      "chars": 3508,
      "sponsored": false
@@ -9381,7 +9381,7 @@
      "url": "https://m.blog.naver.com/gwyneth68/224415082581",
      "title": "오산 경기 도립 &lt;물향기 수목원&gt; 무료입장",
      "date": "2026.09.17.",
-     "days_ago": 8,
+     "days_ago": 9,
      "author": "안친절한뽁뽁뽁",
      "chars": 1205,
      "sponsored": false
@@ -9558,7 +9558,7 @@
      "url": "https://m.blog.naver.com/qooqoo15/224415407435",
      "title": "양평 두물머리 주차장 정보 애견동반 당일치기 핫도그먹고 온 후기",
      "date": "2026.09.17.",
-     "days_ago": 8,
+     "days_ago": 9,
      "author": "라봉",
      "chars": 2268,
      "sponsored": false
@@ -9567,7 +9567,7 @@
      "url": "https://m.blog.naver.com/tcacyc/224405544873",
      "title": "경기도 가볼만한곳 추석 연휴 서울근교 나들이 여행",
      "date": "2026.09.09.",
-     "days_ago": 16,
+     "days_ago": 17,
      "author": "일상탈출",
      "chars": 3251,
      "sponsored": false
@@ -10195,7 +10195,7 @@
      "url": "https://m.blog.naver.com/pink_shower/224409655628",
      "title": "용인 아이랑 가볼만한곳 헤븐온어스, 동물 먹이주기부터 감자 수확체험까지",
      "date": "2026.09.12.",
-     "days_ago": 13,
+     "days_ago": 14,
      "author": "또또마밍",
      "chars": 2534,
      "sponsored": true
@@ -10204,7 +10204,7 @@
      "url": "https://m.blog.naver.com/amy_jisunny/224365260165",
      "title": "[용인] 용인 헤븐온어스 아이와 함께 다녀온 블루베리 수확 체험 방문 후기",
      "date": "2026.08.02.",
-     "days_ago": 54,
+     "days_ago": 55,
      "author": "지서니",
      "chars": 1111,
      "sponsored": false
@@ -10596,7 +10596,6 @@
     "review_count": 60,
     "headline": "영업 전",
     "facility_icons": [
-     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -10621,7 +10620,7 @@
      "url": "https://m.blog.naver.com/nailstan/224391380404",
      "title": "서울근교 갈만한곳 광주 양평 여행 코스",
      "date": "2026.08.26.",
-     "days_ago": 30,
+     "days_ago": 31,
      "author": "행복물결",
      "chars": 4614,
      "sponsored": false
@@ -10630,7 +10629,7 @@
      "url": "https://m.blog.naver.com/namgyu9299/224389459422",
      "title": "경기도 광주 아이와 가볼만한곳 율봄식물원 왜 추천할까?",
      "date": "2026.08.25.",
-     "days_ago": 31,
+     "days_ago": 32,
      "author": "치토쯔",
      "chars": 2620,
      "sponsored": false
@@ -10873,7 +10872,7 @@
      "url": "https://m.blog.naver.com/5004yurim/224410385868",
      "title": "단풍 터널이 펼쳐 질 인천대공원 가을 단풍 조금 더 기다려야돼요",
      "date": "2026.09.15.",
-     "days_ago": 10,
+     "days_ago": 11,
      "author": "하늘위땅",
      "chars": 2874,
      "sponsored": false
@@ -11227,7 +11226,7 @@
      "url": "https://m.blog.naver.com/yunsy0211/224410214093",
      "title": "용인 곤충테마파크 25개월 아이랑 용인 가볼만한곳",
      "date": "2026.09.13.",
-     "days_ago": 12,
+     "days_ago": 13,
      "author": "유니",
      "chars": 968,
      "sponsored": false
@@ -11236,7 +11235,7 @@
      "url": "https://m.blog.naver.com/isabel0802/224387095340",
      "title": "용인곤충테마파크 후기 | 파충류·곤충 덕후 9살 아이가 반한 곳",
      "date": "2026.08.23.",
-     "days_ago": 33,
+     "days_ago": 34,
      "author": "친절한 자벨씨",
      "chars": 5630,
      "sponsored": false
@@ -11460,7 +11459,7 @@
      "url": "https://m.blog.naver.com/0026_j/224409467283",
      "title": "강화도 가볼만한곳 실시간 낭만 동막해수욕장 캠핑장",
      "date": "2026.09.12.",
-     "days_ago": 13,
+     "days_ago": 14,
      "author": "수띵",
      "chars": 1974,
      "sponsored": false
@@ -12107,7 +12106,7 @@
      "url": "https://m.blog.naver.com/iamfree-/224404526621",
      "title": "포천아트밸리 - 모노레일 타고 천주호, 하늘정원, 포천 가을여행",
      "date": "2026.09.08.",
-     "days_ago": 17,
+     "days_ago": 18,
      "author": "슈니로그",
      "chars": 2367,
      "sponsored": false
@@ -12656,7 +12655,7 @@
      "url": "https://m.blog.naver.com/ysr3789/224402496139",
      "title": "경기도 걷기좋은길 포천 산정호수 둘레길 2026.9.4",
      "date": "2026.09.06.",
-     "days_ago": 19,
+     "days_ago": 20,
      "author": "팔도유람",
      "chars": 2734,
      "sponsored": false
@@ -12665,7 +12664,7 @@
      "url": "https://m.blog.naver.com/whiteyumi11/224408819897",
      "title": "경기도 포천 주말나들이 여행 가볼만한곳 산정호수 둘레길 산책로 소요시간",
      "date": "2026.09.11.",
-     "days_ago": 14,
+     "days_ago": 15,
      "author": "씽또",
      "chars": 2092,
      "sponsored": false
@@ -12979,7 +12978,7 @@
      "url": "https://m.blog.naver.com/ha__nna/224391279496",
      "title": "양평 아이와함께 가볼만한 실내동물원 굼프로곤충체험 추천",
      "date": "2026.08.26.",
-     "days_ago": 30,
+     "days_ago": 31,
      "author": "나나씨",
      "chars": 2639,
      "sponsored": false
@@ -12988,7 +12987,7 @@
      "url": "https://m.blog.naver.com/01695969705/224390137441",
      "title": "양평 아이랑 가볼만한 굼프로 곤충체험장 방문시간",
      "date": "2026.08.25.",
-     "days_ago": 31,
+     "days_ago": 32,
      "author": "김하킴",
      "chars": 2006,
      "sponsored": false
@@ -13005,7 +13004,7 @@
     "x": 126.7475643,
     "y": 37.4134966,
     "phone": "032-435-7076",
-    "visitor_review_count": 402,
+    "visitor_review_count": 401,
     "visitor_review_score": 4.31,
     "blog_review_count": 3124,
     "business_status": null,
@@ -13288,7 +13287,7 @@
      "url": "https://m.blog.naver.com/dony_zzang/224402449619",
      "title": "가을 인천 아이와 가볼만한곳 농게 체험 소래습지생태공원",
      "date": "2026.09.06.",
-     "days_ago": 19,
+     "days_ago": 20,
      "author": "돈블리",
      "chars": 1927,
      "sponsored": false
@@ -13507,7 +13506,7 @@
      "url": "https://m.blog.naver.com/lantern/224409892593",
      "title": "연천 시티투어 예약방법과 코스 총정리! 재인폭포, 호로고루, 요금, 운행정보 한눈에",
      "date": "2026.09.13.",
-     "days_ago": 12,
+     "days_ago": 13,
      "author": "노란딸기",
      "chars": 1268,
      "sponsored": false

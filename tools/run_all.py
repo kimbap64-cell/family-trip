@@ -20,6 +20,13 @@ steps = [
     [PY, T("pilot_youtube.py"), "--set", "camping", "--raw", "data/camping/raw.json", "--out", "data/camping/youtube.json", "--cache", "data/cache/yt_camp_raw.json"],
     [PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
      "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"],
+    # 장소별 맞춤 유튜브 검색(캐시 우선, 새 장소만 API). pilot_youtube 가 youtube.json 을 새로 쓰므로 반드시 그 뒤에 병합 -> 재점수화
+    [PY, T("yt_place_search.py"), "--places", "data/daytrip/places.json", "--yt", "data/daytrip/youtube.json", "--n", "12"],
+    [PY, T("yt_place_search.py"), "--places", "data/camping/places.json", "--yt", "data/camping/youtube.json", "--n", "12", "--suffix", "캠핑"],
+    [PY, T("pilot_score.py"), "--raw", "data/daytrip/raw.json", "--yt", "data/daytrip/youtube.json", "--out", "data/daytrip/places.json",
+     "--scope", "day_trip", "--kinds", "attraction", "--doc", "docs/DAYTRIP.md", "--title", "당일 나들이 시범"],
+    [PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
+     "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"],
     [PY, T("daytrip_courses.py"), "--n", "10"],
     [PY, T("build_site.py")],
     [PY, T("verify.py")],

@@ -22,6 +22,16 @@ def collect_one(c, kind, blogs_per_place=2, kakao_panel=True):
     """실패/캡이면 (rec 또는 None, 사유) 를 돌려준다. 네이버 차단 신호는 예외로 전파."""
     rec = new_rec(c, kind)
     d = npl.detail(c["id"])  # NaverBlocked / QuotaExceeded 는 호출자가 처리
+    # 별점·리뷰 수는 상세 페이지 값이 정확하다(목록은 형식에 따라 0.0/None). 상세에 값이 있으면 덮어쓴다.
+    nv = rec["naver"]
+    if d.get("visitor_review_score"):
+        nv["visitor_review_score"] = d["visitor_review_score"]
+    elif not nv.get("visitor_review_score"):
+        nv["visitor_review_score"] = None
+    if d.get("visitor_review_count"):
+        nv["visitor_review_count"] = d["visitor_review_count"]
+    if d.get("blog_review_count"):
+        nv["blog_review_count"] = d["blog_review_count"]
     rec["naver_detail"] = {k: d.get(k) for k in ("conveniences", "payment", "opening_hours", "micro_reviews", "menus", "missing_info")}
     rec["naver_detail"]["blog_reviews_listed"] = [{k: b.get(k) for k in ("title", "url", "date", "authorName")} for b in d.get("blog_reviews", [])]
     for b in d.get("blog_reviews", []):

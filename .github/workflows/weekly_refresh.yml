@@ -43,6 +43,7 @@ jobs:
           python tools/test_quota_guard.py
           python tools/test_score_robust.py
           python tools/test_notify_flow.py
+          python tools/test_collect_rating.py
 
       - name: 카카오 토큰 준비 (Secrets 가 등록돼 있을 때만)
         env:
