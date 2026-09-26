@@ -81,3 +81,8 @@ yt-dlp·youtube-transcript-api 모두 `Sign in to confirm you're not a bot` / `I
 - 커밋·푸시는 사용자 확인 후. 푸시하면 라이브 사이트(Pages)가 바뀐다.
 - 사용자는 명령어를 다루지 않는다. 작업은 Claude가 수행하고 결과는 웹/카톡으로 전달.
 - 1차본의 팬텀 파일(index.html, trips_data.*, mobile_guide.md, auto_collector.py, weekly_update.yml 등)은 삭제 확정(사용자 승인). 원본은 `../antigravity_원본백업_여행/`과 git 이력에 있음.
+
+## 이력·앱 (2026-09-26)
+- **목록은 지우지 않는다.** 장소는 `data/registry.json`(이력 저장소)에 영구 기록되고 변화(새로 추가·등급/별점·이름변경·빠짐·폐업)는 날짜 이벤트로 남는다. 설계·한계: docs/UPDATE_PLAN.md. 새 장소는 '검토 대기'로만 보이고 근거를 읽어 점수화한 뒤에야 추천된다.
+- 사이트는 PWA(홈 화면 추가): manifest.webmanifest · sw.js · icons/. 사이트 구조를 바꾸면 sw.js의 CACHE 이름을 올릴 필요는 없다(최신 우선 방식).
+- 키즈캠핑은 화장실·샤워실이 핵심 기준(docs/SCORING.md). 캠핏·땡큐캠핑 가격은 이름·지역 일치가 안 돼 데이터로 쓰지 않는다.

@@ -4,7 +4,7 @@
 - 데이터는 HTML 안에 JSON 으로 내장(외부 요청 없음). 근거 링크·네이버 내비 버튼·4인/6인 모드 토글.
 - '제외'된 곳은 목록 대신 접힌 '제외된 곳과 이유'에만 표시(투명성).
 """
-import json, os, re, sys, time
+import json, os, re, sys, time, urllib.parse
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -92,6 +92,17 @@ if os.path.exists(cpp):
         s["ctype"] = camp_type(p["name"], rp.get("promo") or "", p["naver"].get("category") or "")
         s["costb"] = (p["price"]["est_meal_4p"] or {}).get("basis")
         s["plan"] = [{"l": e["label"], "q": e["quote"], "k": ev(e)["k"], "u": ev(e)["u"], "d": e.get("date")} for e in p.get("plan_notes", [])]
+        # 화장실·샤워실 근거(라벨당 1개, 개별 > 청결 > 온수 > 아쉬움 순)
+        order = ["개별 화장실·샤워실", "화장실·샤워실 청결", "온수 잘 나옴", "화장실·샤워실 아쉬움"]
+        seen_b, bath = set(), []
+        for e in sorted(p["family"].get("bath", []), key=lambda e: order.index(e["label"])):
+            if e["label"] not in seen_b:
+                seen_b.add(e["label"])
+                bath.append({"l": e["label"], "q": e["quote"], "k": ev(e)["k"], "u": ev(e)["u"], "d": e.get("date")})
+        s["bath"] = bath
+        s["bp"] = p["scores"]["detail"].get("bath_pts", 0)
+        # 가격 확인용 외부 검색 링크(검색 URL 이므로 '직접 확인' 용도로만 표기 — 가격 데이터로 쓰지 않는다)
+        s["cf"] = "https://camfit.co.kr/search/result?keyword=" + urllib.parse.quote(re.sub(r"\s*(캠핑장|글램핑|카라반).*$", "", p["name"]) or p["name"])
         s["near"] = None
         camps.append(s)
 
@@ -101,8 +112,56 @@ if sum(1 for x in camps if x["tier"] in ("추천", "조건부")) < 3:
         print(f"[캠핑 탭 보류] 추천·조건부 {sum(1 for x in camps if x['tier'] in ('추천', '조건부'))}곳 < 3 — 근거 수집(블로그 읽기) 후 자동으로 열림")
     camps = []
 
+# ---- 이력(registry): 카드 배지 + '이력' 탭 (설계: docs/UPDATE_PLAN.md) ----
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import registry as rg
+from datetime import date as _date
+REGD = rg.load()
+TODAY = _date.today()
+NEW_DAYS, RECENT_DAYS = 30, 60
+
+
+def _age(d):
+    try:
+        return (TODAY - _date.fromisoformat(d)).days
+    except (TypeError, ValueError):
+        return 9999
+
+
+def hist(scope, pid):
+    r = (REGD or {}).get("places", {}).get(f"{scope}:{pid}")
+    if not r:
+        return None
+    ev = [e for e in r["events"] if e["type"] != "baseline"]
+    return {"fs": r["first_seen"], "new": (not r["baseline"]) and _age(r["first_seen"]) <= NEW_DAYS,
+            "ev": [{"d": e["date"], "t": e["type"], "x": e["text"]} for e in ev[-4:]][::-1],
+            "tier_chg": next((e["text"] for e in reversed(ev) if e["type"] == "tier" and _age(e["date"]) <= NEW_DAYS), None)}
+
+
+for _s, _scope in ((places, "local"), (trips, "trip"), (camps, "camp")):
+    for _p in _s:
+        _p["h"] = hist(_scope, _p["id"])
+
+HIST = None
+if REGD:
+    recent, archive, pending = [], [], []
+    for key, r in REGD["places"].items():
+        for e in r["events"]:
+            if e["type"] != "baseline" and _age(e["date"]) <= RECENT_DAYS:
+                recent.append({"d": e["date"], "t": e["type"], "x": e["text"], "n": r["name"], "sc": r["scope"], "app": r["snap"].get("app"), "web": r["snap"].get("web")})
+        if r["status"] in ("missing", "closed"):
+            sn = r["snap"]
+            archive.append({"n": r["name"], "sc": r["scope"], "st": r["status"], "ls": r["last_seen"], "tier": sn.get("tier"), "s": sn.get("score"),
+                            "addr": sn.get("addr"), "web": sn.get("web"), "why": next((e["text"] for e in reversed(r["events"]) if e["type"] in ("missing", "closed")), "")})
+    for key, v in REGD.get("pending", {}).items():
+        pending.append({"n": v["name"], "sc": v["scope"], "cat": v.get("category"), "addr": v.get("addr"), "rv": v.get("reviews"), "rt": v.get("rating"),
+                        "km": v.get("km"), "ff": v.get("first_found"), "web": v.get("web")})
+    recent.sort(key=lambda e: e["d"], reverse=True)
+    HIST = {"since": REGD["baseline"], "recent": recent[:60], "archive": archive, "pending": pending, "discovered": REGD.get("discovered"),
+            "total": len(REGD["places"]), "seen": len(REGD.get("seen", {}))}
+
 CT = ("추천", "조건부", "근거부족", "제외")
-data = {"generated": src["generated"], "verified": time.strftime("%Y-%m-%d"), "places": places, "trips": trips, "camps": camps,
+data = {"generated": src["generated"], "verified": time.strftime("%Y-%m-%d"), "places": places, "trips": trips, "camps": camps, "hist": HIST,
         "counts": {t: sum(1 for x in places if x["tier"] == t) for t in CT},
         "tcounts": {t: sum(1 for x in trips if x["tier"] == t) for t in CT},
         "ccounts": {t: sum(1 for x in camps if x["tier"] == t) for t in CT}}

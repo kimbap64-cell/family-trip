@@ -30,6 +30,12 @@ run([PY, T("pilot_score.py"), "--raw", "data/daytrip/raw.json", "--yt", "data/da
 if os.path.exists(os.path.join(ROOT, "data", "camping", "raw.json")):
     run([PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
          "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"])
+# 이력 갱신(새로 추가·등급/별점 변화·빠짐·폐업 기록) + 새 장소 발굴(목록 검색만). 발굴이 막혀도(차단·캡) 점검·사이트 갱신은 계속한다.
+run([PY, T("registry.py")])
+print("\n$ discover_new.py")
+_r = subprocess.run([PY, T("discover_new.py")], cwd=ROOT)
+if _r.returncode != 0:
+    print(f"::warning title=새 장소 발굴 건너뜀::discover_new.py exit {_r.returncode} (차단·캡·이력 없음). 기존 이력·사이트는 그대로 갱신됩니다")
 run([PY, T("build_site.py")])
 run([PY, T("verify.py")], {1: 3})
 if "--notify" in sys.argv:

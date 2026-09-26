@@ -1,0 +1,3920 @@
+{
+ "baseline": "2026-09-26",
+ "discovered": "2026-09-26",
+ "pending": {},
+ "places": {
+  "camp:1031240390": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 62.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1031240390",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "에버랜드 포레스트캠프",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": " ",
+    "app": "nmap://navigation?dlat=37.3071241&dlng=127.2007362&dname=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C%20%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 46.4,
+    "rating": 4.47,
+    "reviews": 9634,
+    "score": 62.0,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1031240390"
+   },
+   "status": "active"
+  },
+  "camp:1126871443": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 58.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1126871443",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "물왕숲캠핑파크",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 시흥시 동서로 706-88 물왕숲캠핑파크",
+    "app": "nmap://navigation?dlat=37.3809488&dlng=126.8273577&dname=%EB%AC%BC%EC%99%95%EC%88%B2%EC%BA%A0%ED%95%91%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 46.7,
+    "rating": 4.34,
+    "reviews": 3023,
+    "score": 58.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1126871443"
+   },
+   "status": "active"
+  },
+  "camp:1205002942": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 72.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1205002942",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "바이올린 글램핑&카라반",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 가평읍 북한강변로 443 바이올린 글램핑",
+    "app": "nmap://navigation?dlat=37.7672092&dlng=127.5396739&dname=%EB%B0%94%EC%9D%B4%EC%98%AC%EB%A6%B0%20%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 44.7,
+    "rating": 4.95,
+    "reviews": 3772,
+    "score": 72.9,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1205002942"
+   },
+   "status": "active"
+  },
+  "camp:13466661": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 41.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13466661",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "중랑가족캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "서울 중랑구 망우로87길 110",
+    "app": "nmap://navigation?dlat=37.6046663&dlng=127.110393&dname=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 14.0,
+    "rating": 4.3,
+    "reviews": 1860,
+    "score": 41.2,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/13466661"
+   },
+   "status": "active"
+  },
+  "camp:1358507181": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 79.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1358507181",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "가평원더풀카라반&글램핑",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 상면 임초밤안골로 117-27",
+    "app": "nmap://navigation?dlat=37.7591409&dlng=127.3725464&dname=%EA%B0%80%ED%8F%89%EC%9B%90%EB%8D%94%ED%92%80%EC%B9%B4%EB%9D%BC%EB%B0%98%26%EA%B8%80%EB%9E%A8%ED%95%91&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 47.6,
+    "rating": 4.96,
+    "reviews": 4715,
+    "score": 79.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1358507181"
+   },
+   "status": "active"
+  },
+  "camp:1459700349": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 73.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1459700349",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "무수아취",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "서울 도봉구 도봉로169길 249",
+    "app": "nmap://navigation?dlat=37.6764256&dlng=127.0330822&dname=%EB%AC%B4%EC%88%98%EC%95%84%EC%B7%A8&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 26.3,
+    "rating": 4.71,
+    "reviews": 2782,
+    "score": 73.6,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1459700349"
+   },
+   "status": "active"
+  },
+  "camp:1603157357": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 71.5점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1603157357",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "글램파크 글램핑 카라반",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 포천시 이동면 화동로 1925-47 글램파크 글램핑",
+    "app": "nmap://navigation?dlat=38.0189834&dlng=127.3645183&dname=%EA%B8%80%EB%9E%A8%ED%8C%8C%ED%81%AC%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 63.6,
+    "rating": 4.93,
+    "reviews": 6208,
+    "score": 71.5,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1603157357"
+   },
+   "status": "active"
+  },
+  "camp:1665394852": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 73.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1665394852",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "채움카라반글램핑리조트",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 조종면 운악청계로 898",
+    "app": "nmap://navigation?dlat=37.8891034&dlng=127.352229&dname=%EC%B1%84%EC%9B%80%EC%B9%B4%EB%9D%BC%EB%B0%98%EA%B8%80%EB%9E%A8%ED%95%91%EB%A6%AC%EC%A1%B0%ED%8A%B8&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 56.1,
+    "rating": 4.87,
+    "reviews": 4805,
+    "score": 73.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1665394852"
+   },
+   "status": "active"
+  },
+  "camp:1683482854": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 54.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1683482854",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "에제르파크 바베큐장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "인천 남동구 만의골로 155 에제르파크 바베큐장",
+    "app": "nmap://navigation?dlat=37.4568068&dlng=126.7726091&dname=%EC%97%90%EC%A0%9C%EB%A5%B4%ED%8C%8C%ED%81%AC%20%EB%B0%94%EB%B2%A0%ED%81%90%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 49.4,
+    "rating": 4.35,
+    "reviews": 1554,
+    "score": 54.0,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1683482854"
+   },
+   "status": "active"
+  },
+  "camp:1779393568": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 83.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1779393568",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "트라움풀빌라글램핑&카라반",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 상면 왕대벌길 60 트라움 풀빌라글램핑&카라반",
+    "app": "nmap://navigation?dlat=37.7698305&dlng=127.3778758&dname=%ED%8A%B8%EB%9D%BC%EC%9B%80%ED%92%80%EB%B9%8C%EB%9D%BC%EA%B8%80%EB%9E%A8%ED%95%91%26%EC%B9%B4%EB%9D%BC%EB%B0%98&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 44.4,
+    "rating": 4.97,
+    "reviews": 8423,
+    "score": 83.8,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1779393568"
+   },
+   "status": "active"
+  },
+  "camp:1841805582": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 82.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1841805582",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "사노리숲",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 구리시 동구릉로459번길 181 사노리숲",
+    "app": "nmap://navigation?dlat=37.6363024&dlng=127.1310079&dname=%EC%82%AC%EB%85%B8%EB%A6%AC%EC%88%B2&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 14.3,
+    "rating": 4.78,
+    "reviews": 3366,
+    "score": 82.0,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1841805582"
+   },
+   "status": "active"
+  },
+  "camp:1861819247": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 81.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1861819247",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "인더풀 글램핑",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 조종면 운악청계로 1038-9 인더풀 글램핑",
+    "app": "nmap://navigation?dlat=37.89905&dlng=127.3467722&dname=%EC%9D%B8%EB%8D%94%ED%92%80%20%EA%B8%80%EB%9E%A8%ED%95%91&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 57.6,
+    "rating": 4.96,
+    "reviews": 3686,
+    "score": 81.3,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1861819247"
+   },
+   "status": "active"
+  },
+  "camp:1896400137": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 45.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1896400137",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "인천대공원 캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": " ",
+    "app": "nmap://navigation?dlat=37.4552648&dlng=126.7499966&dname=%EC%9D%B8%EC%B2%9C%EB%8C%80%EA%B3%B5%EC%9B%90%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 49.7,
+    "rating": 4.28,
+    "reviews": 1539,
+    "score": 45.0,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1896400137"
+   },
+   "status": "active"
+  },
+  "camp:1963218572": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 72.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1963218572",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "양주 캠프랩 당일치기바베큐장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 양주시 장흥면 권율로 327 캠프랩",
+    "app": "nmap://navigation?dlat=37.7409497&dlng=126.9560547&dname=%EC%96%91%EC%A3%BC%20%EC%BA%A0%ED%94%84%EB%9E%A9%20%EB%8B%B9%EC%9D%BC%EC%B9%98%EA%B8%B0%EB%B0%94%EB%B2%A0%ED%81%90%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 34.9,
+    "rating": 4.9,
+    "reviews": 1574,
+    "score": 72.0,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1963218572"
+   },
+   "status": "active"
+  },
+  "camp:1973246258": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 80점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1973246258",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "양주르 글램핑 캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 양주시 장흥면 가마골로 188-50",
+    "app": "nmap://navigation?dlat=37.7349975&dlng=126.9800313&dname=%EC%96%91%EC%A3%BC%EB%A5%B4%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 30.7,
+    "rating": 4.84,
+    "reviews": 14959,
+    "score": 80,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1973246258"
+   },
+   "status": "active"
+  },
+  "camp:19998427": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 50.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "19998427",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "유식물원캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 포천시 신북면 간자동길 138-100",
+    "app": "nmap://navigation?dlat=37.973174&dlng=127.1502571&dname=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 59.4,
+    "rating": 4.33,
+    "reviews": 2086,
+    "score": 50.3,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/19998427"
+   },
+   "status": "active"
+  },
+  "camp:2057370650": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 85.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2057370650",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "히든백야드",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 하남시 미사동로 102 1층",
+    "app": "nmap://navigation?dlat=37.5754092&dlng=127.2039756&dname=%ED%9E%88%EB%93%A0%EB%B0%B1%EC%95%BC%EB%93%9C&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 4.9,
+    "rating": 4.97,
+    "reviews": 2138,
+    "score": 85.3,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/2057370650"
+   },
+   "status": "active"
+  },
+  "camp:33445436": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 61.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "33445436",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "힐링별밤수목원캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 남양주시 수동면 비룡로 1516-19",
+    "app": "nmap://navigation?dlat=37.7496494&dlng=127.2737431&dname=%ED%9E%90%EB%A7%81%EB%B3%84%EB%B0%A4%EC%88%98%EB%AA%A9%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 31.0,
+    "rating": 4.3,
+    "reviews": 3386,
+    "score": 61.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/33445436"
+   },
+   "status": "active"
+  },
+  "camp:35559736": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 63.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35559736",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "올덴카라반캠핑장 가평점",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 청평면 고재길 262-64 올덴 카라반&펜션",
+    "app": "nmap://navigation?dlat=37.7019939&dlng=127.5168522&dname=%EC%98%AC%EB%8D%B4%EC%B9%B4%EB%9D%BC%EB%B0%98%EC%BA%A0%ED%95%91%EC%9E%A5%20%EA%B0%80%ED%8F%89%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 42.7,
+    "rating": 4.48,
+    "reviews": 4428,
+    "score": 63.1,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/35559736"
+   },
+   "status": "active"
+  },
+  "camp:35854046": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 66.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35854046",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "캠프오후4시",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 포천시 군내면 청군로2864번길 22",
+    "app": "nmap://navigation?dlat=37.8693511&dlng=127.2510903&dname=%EC%BA%A0%ED%94%84%EC%98%A4%ED%9B%844%EC%8B%9C&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 45.8,
+    "rating": 4.57,
+    "reviews": 2347,
+    "score": 66.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/35854046"
+   },
+   "status": "active"
+  },
+  "camp:36516869": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 86.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "36516869",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "새연 카라반 글램핑 현리1호점",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 조종면 운악청계로333번길 86",
+    "app": "nmap://navigation?dlat=37.846748&dlng=127.3465517&dname=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%ED%98%84%EB%A6%AC1%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 52.0,
+    "rating": 4.58,
+    "reviews": 5640,
+    "score": 77.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/36516869"
+   },
+   "status": "active"
+  },
+  "camp:36630874": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 53.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "36630874",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "해자연캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 남양주시 오남읍 팔현로175번길 310-60",
+    "app": "nmap://navigation?dlat=37.7017905&dlng=127.2640635&dname=%ED%95%B4%EC%9E%90%EC%97%B0%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 32.8,
+    "rating": 4.24,
+    "reviews": 2087,
+    "score": 53.3,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/36630874"
+   },
+   "status": "active"
+  },
+  "camp:37471628": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 80.5점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "37471628",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "블루문캠핑장",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 상면 수목원로386번길 48-65",
+    "app": "nmap://navigation?dlat=37.7471675&dlng=127.3484631&dname=%EB%B8%94%EB%A3%A8%EB%AC%B8%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 52.7,
+    "rating": 4.6,
+    "reviews": 1945,
+    "score": 80.5,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/37471628"
+   },
+   "status": "active"
+  },
+  "camp:38010414": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 80.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "38010414",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "새연 카라반 글램핑 설악2호점",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 가평군 설악면 유명로 1939 새연리조트 설악2호점",
+    "app": "nmap://navigation?dlat=37.6834684&dlng=127.4704171&dname=%EC%83%88%EC%97%B0%20%EC%B9%B4%EB%9D%BC%EB%B0%98%20%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%84%A4%EC%95%852%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 33.5,
+    "rating": 4.61,
+    "reviews": 5459,
+    "score": 80.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/38010414"
+   },
+   "status": "active"
+  },
+  "camp:38590053": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 49.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "38590053",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "캠프레이크",
+   "names": [],
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 용인시 기흥구 동탄기흥로785번길 21-5",
+    "app": "nmap://navigation?dlat=37.2273882&dlng=127.1001071&dname=%EC%BA%A0%ED%94%84%EB%A0%88%EC%9D%B4%ED%81%AC&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 40.8,
+    "rating": 4.19,
+    "reviews": 1598,
+    "score": 49.0,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/38590053"
+   },
+   "status": "active"
+  },
+  "local:1028388645": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 49.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1028388645",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "아빠찜 하남본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "월호로 60 1층",
+    "app": "nmap://navigation?dlat=37.5543544&dlng=127.2085414&dname=%EC%95%84%EB%B9%A0%EC%B0%9C%20%ED%95%98%EB%82%A8%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "백반,가정식",
+    "dr": 3.9,
+    "rating": 4.3,
+    "reviews": 8393,
+    "score": 49.8,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1028388645"
+   },
+   "status": "active"
+  },
+  "local:1045452794": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 68점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1045452794",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "카페 뷰66 미호본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "강변북로632번길 66 카페 뷰66 미호점",
+    "app": "nmap://navigation?dlat=37.5873233&dlng=127.1760925&dname=%EC%B9%B4%ED%8E%98%20%EB%B7%B066%20%EB%AF%B8%ED%98%B8%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "브런치카페",
+    "dr": 11.7,
+    "rating": 4.62,
+    "reviews": 14116,
+    "score": 68,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1045452794"
+   },
+   "status": "active"
+  },
+  "local:1054654907": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 45.5점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1054654907",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "건강밥상심마니 하남점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "아리수로 570 효성해링턴타워더퍼스트 102동 3층 3018호",
+    "app": "nmap://navigation?dlat=37.5669532&dlng=127.1905133&dname=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "한정식",
+    "dr": 2.5,
+    "rating": 4.1,
+    "reviews": 12735,
+    "score": 45.5,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1054654907"
+   },
+   "status": "active"
+  },
+  "local:1070507758": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 73.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1070507758",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "회식의달인 미사강변점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 218 성산타워 엠씨티 2층.",
+    "app": "nmap://navigation?dlat=37.5664362&dlng=127.1897332&dname=%ED%9A%8C%EC%8B%9D%EC%9D%98%EB%8B%AC%EC%9D%B8%20%EB%AF%B8%EC%82%AC%EA%B0%95%EB%B3%80%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 2.3,
+    "rating": 4.8,
+    "reviews": 4154,
+    "score": 73.1,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1070507758"
+   },
+   "status": "active"
+  },
+  "local:1073361856": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 61.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1073361856",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "소요일 미사직영점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 200 1층 104호, 105호",
+    "app": "nmap://navigation?dlat=37.5644627&dlng=127.1901817&dname=%EC%86%8C%EC%9A%94%EC%9D%BC%20%EB%AF%B8%EC%82%AC%EC%A7%81%EC%98%81%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 1.6,
+    "rating": 4.6,
+    "reviews": 3536,
+    "score": 61.1,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1073361856"
+   },
+   "status": "active"
+  },
+  "local:1192492733": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 63.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1192492733",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "하쿠야 하남미사 본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변남로 91 2층 213호",
+    "app": "nmap://navigation?dlat=37.560894&dlng=127.1922486&dname=%ED%95%98%EC%BF%A0%EC%95%BC%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "일식당",
+    "dr": 1.5,
+    "rating": 4.9,
+    "reviews": 4859,
+    "score": 63.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1192492733"
+   },
+   "status": "active"
+  },
+  "local:12056876": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 52.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "12056876",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "초대한정식",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "강변북로632번길 6-45 초대한정식",
+    "app": "nmap://navigation?dlat=37.5855983&dlng=127.1715759&dname=%EC%B4%88%EB%8C%80%ED%95%9C%EC%A0%95%EC%8B%9D&appname=kr.familytrip.misa",
+    "cat": "한정식",
+    "dr": 10.8,
+    "rating": 4.5,
+    "reviews": 4079,
+    "score": 52.1,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/12056876"
+   },
+   "status": "active"
+  },
+  "local:1207307033": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 38.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1207307033",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "진대감 하남미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 185",
+    "app": "nmap://navigation?dlat=37.5629356&dlng=127.1898217&dname=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "소고기구이",
+    "dr": 1.6,
+    "rating": null,
+    "reviews": 1326,
+    "score": 38.8,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1207307033"
+   },
+   "status": "active"
+  },
+  "local:1241322191": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 74.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1241322191",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "로쏘폴라레",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 193 3층 310호",
+    "app": "nmap://navigation?dlat=37.5637641&dlng=127.189629&dname=%EB%A1%9C%EC%8F%98%ED%8F%B4%EB%9D%BC%EB%A0%88&appname=kr.familytrip.misa",
+    "cat": "브런치",
+    "dr": 1.6,
+    "rating": 4.85,
+    "reviews": 4661,
+    "score": 74.2,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1241322191"
+   },
+   "status": "active"
+  },
+  "local:1257268837": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 66.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1257268837",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "촌놈집 미사강변점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 189 1층 에코브리지2 촌놈집",
+    "app": "nmap://navigation?dlat=37.5633807&dlng=127.1895149&dname=%EC%B4%8C%EB%86%88%EC%A7%91%20%EB%AF%B8%EC%82%AC%EA%B0%95%EB%B3%80%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 1.7,
+    "rating": 5.0,
+    "reviews": 8946,
+    "score": 66.9,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1257268837"
+   },
+   "status": "active"
+  },
+  "local:1268607672": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 38.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1268607672",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "flos",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "월호로 56",
+    "app": "nmap://navigation?dlat=37.5541059&dlng=127.2088551&dname=flos&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 3.7,
+    "rating": null,
+    "reviews": 836,
+    "score": 38.3,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1268607672"
+   },
+   "status": "active"
+  },
+  "local:1271052786": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 73.5점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1271052786",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "만두집",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 672",
+    "app": "nmap://navigation?dlat=37.5493134&dlng=127.2164159&dname=%EB%A7%8C%EB%91%90%EC%A7%91&appname=kr.familytrip.misa",
+    "cat": "칼국수,만두",
+    "dr": 4.6,
+    "rating": 5.0,
+    "reviews": 5982,
+    "score": 73.5,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1271052786"
+   },
+   "status": "active"
+  },
+  "local:1292936852": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 68.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1292936852",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "맛찬들왕소금구이 하남미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로170번길 10 신성프라자 1층 114~116호",
+    "app": "nmap://navigation?dlat=37.5613315&dlng=127.1917483&dname=%EB%A7%9B%EC%B0%AC%EB%93%A4%EC%99%95%EC%86%8C%EA%B8%88%EA%B5%AC%EC%9D%B4%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 1.5,
+    "rating": 4.85,
+    "reviews": 8155,
+    "score": 68.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1292936852"
+   },
+   "status": "active"
+  },
+  "local:13272354": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 73.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13272354",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "버드나무집 남양주본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "강변북로632번길 60 버드나무집",
+    "app": "nmap://navigation?dlat=37.5869335&dlng=127.1756387&dname=%EB%B2%84%EB%93%9C%EB%82%98%EB%AC%B4%EC%A7%91%20%EB%82%A8%EC%96%91%EC%A3%BC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "해물,생선요리",
+    "dr": 11.6,
+    "rating": 4.77,
+    "reviews": 3422,
+    "score": 73.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/13272354"
+   },
+   "status": "active"
+  },
+  "local:13330268": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 46.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13330268",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "미사리밀빛초계국수 본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 608",
+    "app": "nmap://navigation?dlat=37.5533051&dlng=127.2109484&dname=%EB%AF%B8%EC%82%AC%EB%A6%AC%EB%B0%80%EB%B9%9B%EC%B4%88%EA%B3%84%EA%B5%AD%EC%88%98%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "칼국수,만두",
+    "dr": 3.2,
+    "rating": 5.0,
+    "reviews": 5661,
+    "score": 46.4,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/13330268"
+   },
+   "status": "active"
+  },
+  "local:1339025515": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 제외 41.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1339025515",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "이옥진 시인마을 제빵소",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사동로40번길 74",
+    "app": "nmap://navigation?dlat=37.5678576&dlng=127.203493&dname=%EC%9D%B4%EC%98%A5%EC%A7%84%20%EC%8B%9C%EC%9D%B8%EB%A7%88%EC%9D%84%20%EC%A0%9C%EB%B9%B5%EC%86%8C&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 4.3,
+    "rating": 2.9,
+    "reviews": 4446,
+    "score": 41.1,
+    "tier": "제외",
+    "web": "https://map.naver.com/p/entry/place/1339025515"
+   },
+   "status": "active"
+  },
+  "local:1339736890": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 64.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1339736890",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "삼대고등어명장 남양주본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "강변북로632번길 7 1, 2층",
+    "app": "nmap://navigation?dlat=37.5863789&dlng=127.1703955&dname=%EC%82%BC%EB%8C%80%EA%B3%A0%EB%93%B1%EC%96%B4%EB%AA%85%EC%9E%A5%20%EB%82%A8%EC%96%91%EC%A3%BC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "생선구이",
+    "dr": 10.4,
+    "rating": 4.58,
+    "reviews": 4958,
+    "score": 64.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1339736890"
+   },
+   "status": "active"
+  },
+  "local:1384451031": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 제외 47.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1384451031",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "나인블럭 미음나루 DT점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "강변북로632번길 6-15",
+    "app": "nmap://navigation?dlat=37.5858914&dlng=127.1696676&dname=%EB%82%98%EC%9D%B8%EB%B8%94%EB%9F%AD%20%EB%AF%B8%EC%9D%8C%EB%82%98%EB%A3%A8%20DT%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "카페",
+    "dr": 10.7,
+    "rating": 3.4,
+    "reviews": 5096,
+    "score": 47.3,
+    "tier": "제외",
+    "web": "https://map.naver.com/p/entry/place/1384451031"
+   },
+   "status": "active"
+  },
+  "local:1386170219": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 82.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1386170219",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "정성고등어 하남미사본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "월호로 70 3층 정성고등어",
+    "app": "nmap://navigation?dlat=37.5548214&dlng=127.2077541&dname=%EC%A0%95%EC%84%B1%EA%B3%A0%EB%93%B1%EC%96%B4%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "해물,생선요리",
+    "dr": 4.1,
+    "rating": 4.86,
+    "reviews": 6414,
+    "score": 82.7,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1386170219"
+   },
+   "status": "active"
+  },
+  "local:1450872159": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 55.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1450872159",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "경양카츠 하남미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변북로30번안길 27 1층",
+    "app": "nmap://navigation?dlat=37.5700154&dlng=127.1814655&dname=%EA%B2%BD%EC%96%91%EC%B9%B4%EC%B8%A0%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "돈가스",
+    "dr": 3.7,
+    "rating": 4.7,
+    "reviews": 1390,
+    "score": 55.9,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1450872159"
+   },
+   "status": "active"
+  },
+  "local:1469586789": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 제외 42.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1469586789",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "거궁 하남점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 456 라파르코 4층 거궁하남점",
+    "app": "nmap://navigation?dlat=37.5635547&dlng=127.1996908&dname=%EA%B1%B0%EA%B6%81%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "한정식",
+    "dr": 2.1,
+    "rating": 3.3,
+    "reviews": 2762,
+    "score": 42.6,
+    "tier": "제외",
+    "web": "https://map.naver.com/p/entry/place/1469586789"
+   },
+   "status": "active"
+  },
+  "local:1483001910": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 55.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1483001910",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "우대포 미사직영점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변동로 100-1 판매시설동 1030호",
+    "app": "nmap://navigation?dlat=37.5633999&dlng=127.1934202&dname=%EC%9A%B0%EB%8C%80%ED%8F%AC%20%EB%AF%B8%EC%82%AC%EC%A7%81%EC%98%81%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 1.5,
+    "rating": 5.0,
+    "reviews": 4530,
+    "score": 55.1,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1483001910"
+   },
+   "status": "active"
+  },
+  "local:1491718614": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 40.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1491718614",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "포러데이 팔당",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "경강로926번길 8-7",
+    "app": "nmap://navigation?dlat=37.5564136&dlng=127.2363594&dname=%ED%8F%AC%EB%9F%AC%EB%8D%B0%EC%9D%B4%20%ED%8C%94%EB%8B%B9&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 11.1,
+    "rating": 4.1,
+    "reviews": 5480,
+    "score": 40.4,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1491718614"
+   },
+   "status": "active"
+  },
+  "local:1504823470": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 76.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1504823470",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "소당깨 미사본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 185 골든타임 1층 소당깨 미사본점",
+    "app": "nmap://navigation?dlat=37.5629082&dlng=127.1895898&dname=%EC%86%8C%EB%8B%B9%EA%B9%A8%20%EB%AF%B8%EC%82%AC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "돼지고기구이",
+    "dr": 1.6,
+    "rating": 4.86,
+    "reviews": 7680,
+    "score": 76.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1504823470"
+   },
+   "status": "active"
+  },
+  "local:1544859838": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 64.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1544859838",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "로마옥 리버사이드",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "강변북로632번길 16-13 남양주 한강체육공원 주차장",
+    "app": "nmap://navigation?dlat=37.5856158&dlng=127.1711802&dname=%EB%A1%9C%EB%A7%88%EC%98%A5%20%EB%A6%AC%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C&appname=kr.familytrip.misa",
+    "cat": "양식",
+    "dr": 10.8,
+    "rating": 4.76,
+    "reviews": 3340,
+    "score": 64.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1544859838"
+   },
+   "status": "active"
+  },
+  "local:1603270165": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 76.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1603270165",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "박승광해물손칼국수 하남미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변한강로 135 스카이폴리스 다동 143호",
+    "app": "nmap://navigation?dlat=37.5767812&dlng=127.1937643&dname=%EB%B0%95%EC%8A%B9%EA%B4%91%ED%95%B4%EB%AC%BC%EC%86%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "칼국수,만두",
+    "dr": 5.1,
+    "rating": 4.84,
+    "reviews": 5342,
+    "score": 76.3,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1603270165"
+   },
+   "status": "active"
+  },
+  "local:1650589759": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 53.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1650589759",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "미사국수우동집",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변동로 85 1층 120호 미사국수우동집",
+    "app": "nmap://navigation?dlat=37.5626403&dlng=127.192666&dname=%EB%AF%B8%EC%82%AC%EA%B5%AD%EC%88%98%EC%9A%B0%EB%8F%99%EC%A7%91&appname=kr.familytrip.misa",
+    "cat": "국수",
+    "dr": 1.9,
+    "rating": 4.45,
+    "reviews": 5524,
+    "score": 53.4,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1650589759"
+   },
+   "status": "active"
+  },
+  "local:1868886901": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 47.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1868886901",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "소주물 미사본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 181 106, 107호",
+    "app": "nmap://navigation?dlat=37.5625434&dlng=127.1902033&dname=%EC%86%8C%EC%A3%BC%EB%AC%BC%20%EB%AF%B8%EC%82%AC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 1.2,
+    "rating": 4.5,
+    "reviews": 4652,
+    "score": 47.2,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1868886901"
+   },
+   "status": "active"
+  },
+  "local:1926712732": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 49.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1926712732",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "르빵드비",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "서하남로 436 1,2,3층",
+    "app": "nmap://navigation?dlat=37.5216582&dlng=127.1882122&dname=%EB%A5%B4%EB%B9%B5%EB%93%9C%EB%B9%84&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 10.0,
+    "rating": 4.3,
+    "reviews": 6642,
+    "score": 49.6,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1926712732"
+   },
+   "status": "active"
+  },
+  "local:1961461592": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 63점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1961461592",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "온더브레드 하남점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "서하남로 278-3 1층",
+    "app": "nmap://navigation?dlat=37.5175308&dlng=127.1746004&dname=%EC%98%A8%EB%8D%94%EB%B8%8C%EB%A0%88%EB%93%9C%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 9.3,
+    "rating": 4.3,
+    "reviews": 16656,
+    "score": 63,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1961461592"
+   },
+   "status": "active"
+  },
+  "local:2003229178": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 76.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2003229178",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "다이몬규카츠 하남미사본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변동로 100-1 1층 1018호, 1019호",
+    "app": "nmap://navigation?dlat=37.563937&dlng=127.1931705&dname=%EB%8B%A4%EC%9D%B4%EB%AA%AC%EA%B7%9C%EC%B9%B4%EC%B8%A0%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "일식당",
+    "dr": 1.6,
+    "rating": 5.0,
+    "reviews": 5443,
+    "score": 76.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2003229178"
+   },
+   "status": "active"
+  },
+  "local:2018579107": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 68점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2018579107",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "온돌오리구이 하남미사본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변남로 99 104호, 105호, 106호",
+    "app": "nmap://navigation?dlat=37.5609913&dlng=127.1926798&dname=%EC%98%A8%EB%8F%8C%EC%98%A4%EB%A6%AC%EA%B5%AC%EC%9D%B4%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "오리요리",
+    "dr": 1.7,
+    "rating": 4.92,
+    "reviews": 16477,
+    "score": 68,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2018579107"
+   },
+   "status": "active"
+  },
+  "local:20388227": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 79.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "20388227",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "몽촌토성보리밥손칼국수",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "월호로 48-7",
+    "app": "nmap://navigation?dlat=37.5538854&dlng=127.2098246&dname=%EB%AA%BD%EC%B4%8C%ED%86%A0%EC%84%B1%EB%B3%B4%EB%A6%AC%EB%B0%A5%EC%86%90%EC%B9%BC%EA%B5%AD%EC%88%98&appname=kr.familytrip.misa",
+    "cat": "한식",
+    "dr": 3.5,
+    "rating": 5.0,
+    "reviews": 4392,
+    "score": 79.2,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/20388227"
+   },
+   "status": "active"
+  },
+  "local:2094295419": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 76.5점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2094295419",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "스테이564 미사아일랜드",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사동로 66 스테이564 미사아일랜드",
+    "app": "nmap://navigation?dlat=37.5726029&dlng=127.2026635&dname=%EC%8A%A4%ED%85%8C%EC%9D%B4564%20%EB%AF%B8%EC%82%AC%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+    "cat": "양식",
+    "dr": 4.1,
+    "rating": 4.85,
+    "reviews": 6551,
+    "score": 76.5,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/2094295419"
+   },
+   "status": "active"
+  },
+  "local:2094664339": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 45.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2094664339",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "코지하우스 하남직영점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변한강로 341 2층",
+    "app": "nmap://navigation?dlat=37.560866&dlng=127.2014249&dname=%EC%BD%94%EC%A7%80%ED%95%98%EC%9A%B0%EC%8A%A4%20%ED%95%98%EB%82%A8%EC%A7%81%EC%98%81%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "양식",
+    "dr": 2.2,
+    "rating": 4.0,
+    "reviews": 5274,
+    "score": 45.3,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2094664339"
+   },
+   "status": "active"
+  },
+  "local:2099748636": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 80.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2099748636",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "포글리나",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 161 제1층 114호, 115호 건물뒷편 수변공원라인",
+    "app": "nmap://navigation?dlat=37.5611436&dlng=127.1906183&dname=%ED%8F%AC%EA%B8%80%EB%A6%AC%EB%82%98&appname=kr.familytrip.misa",
+    "cat": "양식",
+    "dr": 1.2,
+    "rating": 4.89,
+    "reviews": 4826,
+    "score": 80.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2099748636"
+   },
+   "status": "active"
+  },
+  "local:34443024": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 51.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "34443024",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "달마당쭈꾸미",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "덕풍천서로 87",
+    "app": "nmap://navigation?dlat=37.5486583&dlng=127.2171865&dname=%EB%8B%AC%EB%A7%88%EB%8B%B9%EC%AD%88%EA%BE%B8%EB%AF%B8&appname=kr.familytrip.misa",
+    "cat": "한식",
+    "dr": 4.7,
+    "rating": 4.7,
+    "reviews": 3107,
+    "score": 51.3,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/34443024"
+   },
+   "status": "active"
+  },
+  "local:35116432": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 67.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35116432",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "제주덕구",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "덕풍로65번길 25 102호",
+    "app": "nmap://navigation?dlat=37.5506506&dlng=127.2071759&dname=%EC%A0%9C%EC%A3%BC%EB%8D%95%EA%B5%AC&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 3.6,
+    "rating": 4.84,
+    "reviews": 6535,
+    "score": 67.6,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/35116432"
+   },
+   "status": "active"
+  },
+  "local:35720246": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 40.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35720246",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "하남돼지집 본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 43 1층",
+    "app": "nmap://navigation?dlat=37.5509999&dlng=127.1930366&dname=%ED%95%98%EB%82%A8%EB%8F%BC%EC%A7%80%EC%A7%91%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "돼지고기구이",
+    "dr": 1.9,
+    "rating": null,
+    "reviews": 4933,
+    "score": 40.2,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/35720246"
+   },
+   "status": "active"
+  },
+  "local:36266336": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 70.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "36266336",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "먹보한우 하남점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "월호로 48-6",
+    "app": "nmap://navigation?dlat=37.5535897&dlng=127.2098905&dname=%EB%A8%B9%EB%B3%B4%ED%95%9C%EC%9A%B0%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "소고기구이",
+    "dr": 3.5,
+    "rating": 4.6,
+    "reviews": 6846,
+    "score": 70.6,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/36266336"
+   },
+   "status": "active"
+  },
+  "local:36932172": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 70점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "36932172",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "갈비도락 미사본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 584",
+    "app": "nmap://navigation?dlat=37.5548793&dlng=127.2090788&dname=%EA%B0%88%EB%B9%84%EB%8F%84%EB%9D%BD%20%EB%AF%B8%EC%82%AC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 3.5,
+    "rating": 4.65,
+    "reviews": 14495,
+    "score": 70,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/36932172"
+   },
+   "status": "active"
+  },
+  "local:37568258": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 74.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "37568258",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "그린플레이트 하남점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "덕풍동로 111-33 푸르지오시티 2층",
+    "app": "nmap://navigation?dlat=37.5522169&dlng=127.2081075&dname=%EA%B7%B8%EB%A6%B0%ED%94%8C%EB%A0%88%EC%9D%B4%ED%8A%B8%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "한식",
+    "dr": 3.9,
+    "rating": 4.7,
+    "reviews": 8335,
+    "score": 74.8,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/37568258"
+   },
+   "status": "active"
+  },
+  "local:38222862": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 51.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "38222862",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "송추가마골 하남미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 438",
+    "app": "nmap://navigation?dlat=37.5650019&dlng=127.1987428&dname=%EC%86%A1%EC%B6%94%EA%B0%80%EB%A7%88%EA%B3%A8%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 3.8,
+    "rating": null,
+    "reviews": 4641,
+    "score": 51.2,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/38222862"
+   },
+   "status": "active"
+  },
+  "local:410878135": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 69점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "410878135",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "리꼬 피자 하남미사 본점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변북로30번길 65 1층",
+    "app": "nmap://navigation?dlat=37.5690009&dlng=127.183153&dname=%EB%A6%AC%EA%BC%AC%20%ED%94%BC%EC%9E%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "이탈리아음식",
+    "dr": 3.3,
+    "rating": 5.0,
+    "reviews": 23911,
+    "score": 69,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/410878135"
+   },
+   "status": "active"
+  },
+  "local:822843515": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 56.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "822843515",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "스타벅스 하남미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변북로30번길 130 (망월동)",
+    "app": "nmap://navigation?dlat=37.5696117&dlng=127.183415&dname=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "카페",
+    "dr": 3.0,
+    "rating": 4.6,
+    "reviews": 5546,
+    "score": 56.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/822843515"
+   },
+   "status": "active"
+  },
+  "trip:1053703601": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 64점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1053703601",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "조인폴리아",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "황소바위길 304",
+    "app": "nmap://navigation?dlat=37.7795341&dlng=126.8013856&dname=%EC%A1%B0%EC%9D%B8%ED%8F%B4%EB%A6%AC%EC%95%84&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 52.6,
+    "rating": 4.76,
+    "reviews": 13175,
+    "score": 64,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1053703601"
+   },
+   "status": "active"
+  },
+  "trip:11491629": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 45.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11491629",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "재인폭포",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": null,
+    "app": "nmap://navigation?dlat=38.0773466&dlng=127.1432502&dname=%EC%9E%AC%EC%9D%B8%ED%8F%AD%ED%8F%AC&appname=kr.familytrip.misa",
+    "cat": "폭포",
+    "dr": 76.6,
+    "rating": 4.15,
+    "reviews": 242,
+    "score": 45.6,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/11491629"
+   },
+   "status": "active"
+  },
+  "trip:11491825": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 제외 48.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11491825",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "산정호수",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "산정호수로411번길 108",
+    "app": "nmap://navigation?dlat=38.0704356&dlng=127.3203121&dname=%EC%82%B0%EC%A0%95%ED%98%B8%EC%88%98&appname=kr.familytrip.misa",
+    "cat": "호수,연못,저수지",
+    "dr": 68.3,
+    "rating": 4.03,
+    "reviews": 266,
+    "score": 48.7,
+    "tier": "제외",
+    "web": "https://map.naver.com/p/entry/place/11491825"
+   },
+   "status": "active"
+  },
+  "trip:11574457": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 74.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11574457",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "에버랜드",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "에버랜드로 199",
+    "app": "nmap://navigation?dlat=37.2933272&dlng=127.2013221&dname=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+    "cat": "테마파크",
+    "dr": 36.2,
+    "rating": 4.56,
+    "reviews": 68132,
+    "score": 74.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/11574457"
+   },
+   "status": "active"
+  },
+  "trip:11583237": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 63점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11583237",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "서울랜드",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "광명로 181",
+    "app": "nmap://navigation?dlat=37.4338452&dlng=127.0190443&dname=%EC%84%9C%EC%9A%B8%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+    "cat": "테마파크",
+    "dr": 29.9,
+    "rating": 4.46,
+    "reviews": 23275,
+    "score": 63,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/11583237"
+   },
+   "status": "active"
+  },
+  "trip:11583652": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 제외 51.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11583652",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "한택식물원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "한택로 2 한택식물원",
+    "app": "nmap://navigation?dlat=37.0945874&dlng=127.4074938&dname=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 53.9,
+    "rating": 4.08,
+    "reviews": 1018,
+    "score": 51.6,
+    "tier": "제외",
+    "web": "https://map.naver.com/p/entry/place/11583652"
+   },
+   "status": "active"
+  },
+  "trip:11620669": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 64.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11620669",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "한국만화박물관",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "길주로 1",
+    "app": "nmap://navigation?dlat=37.5086327&dlng=126.7421242&dname=%ED%95%9C%EA%B5%AD%EB%A7%8C%ED%99%94%EB%B0%95%EB%AC%BC%EA%B4%80&appname=kr.familytrip.misa",
+    "cat": "박물관",
+    "dr": 46.0,
+    "rating": 4.39,
+    "reviews": 774,
+    "score": 64.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/11620669"
+   },
+   "status": "active"
+  },
+  "trip:11622274": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 73.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11622274",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "아침고요수목원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "수목원로 432",
+    "app": "nmap://navigation?dlat=37.7427259&dlng=127.352525&dname=%EC%95%84%EC%B9%A8%EA%B3%A0%EC%9A%94%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 51.7,
+    "rating": 4.43,
+    "reviews": 10172,
+    "score": 73.6,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/11622274"
+   },
+   "status": "active"
+  },
+  "trip:11622613": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 71.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11622613",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "국립수목원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "광릉수목원로 509",
+    "app": "nmap://navigation?dlat=37.7527189&dlng=127.1624865&dname=%EA%B5%AD%EB%A6%BD%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 39.1,
+    "rating": 4.55,
+    "reviews": 8802,
+    "score": 71.9,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/11622613"
+   },
+   "status": "active"
+  },
+  "trip:11631797": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 78점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11631797",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "벽초지수목원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "부흥로 242",
+    "app": "nmap://navigation?dlat=37.8005109&dlng=126.8754409&dname=%EB%B2%BD%EC%B4%88%EC%A7%80%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 52.2,
+    "rating": 4.35,
+    "reviews": 13636,
+    "score": 78,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/11631797"
+   },
+   "status": "active"
+  },
+  "trip:11636039": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 60.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11636039",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "서울숲",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "뚝섬로 273",
+    "app": "nmap://navigation?dlat=37.5419644&dlng=127.0385663&dname=%EC%84%9C%EC%9A%B8%EC%88%B2&appname=kr.familytrip.misa",
+    "cat": "숲,숲길",
+    "dr": 18.0,
+    "rating": 4.47,
+    "reviews": 1152,
+    "score": 60.1,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/11636039"
+   },
+   "status": "active"
+  },
+  "trip:11656903": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 58점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11656903",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "허브아일랜드",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "청신로947번길 51 허브아일랜드",
+    "app": "nmap://navigation?dlat=37.9672025&dlng=127.1333352&dname=%ED%97%88%EB%B8%8C%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C&appname=kr.familytrip.misa",
+    "cat": "테마파크",
+    "dr": 59.9,
+    "rating": 4.24,
+    "reviews": 11602,
+    "score": 58,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/11656903"
+   },
+   "status": "active"
+  },
+  "trip:11865000": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 80.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "11865000",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "율봄식물원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "태허정로 267-54 율봄 정문 매표소",
+    "app": "nmap://navigation?dlat=37.4699278&dlng=127.2704721&dname=%EC%9C%A8%EB%B4%84%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 17.5,
+    "rating": 4.49,
+    "reviews": 1898,
+    "score": 80.7,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/11865000"
+   },
+   "status": "active"
+  },
+  "trip:12115604": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 64.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "12115604",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "서울대공원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "대공원광장로 102",
+    "app": "nmap://navigation?dlat=37.4264494&dlng=127.0198465&dname=%EC%84%9C%EC%9A%B8%EB%8C%80%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "동물원",
+    "dr": 32.5,
+    "rating": 4.44,
+    "reviews": 10662,
+    "score": 64.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/12115604"
+   },
+   "status": "active"
+  },
+  "trip:1225532960": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 68.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1225532960",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "가평양떼목장",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "유명로 1209 가평양떼목장",
+    "app": "nmap://navigation?dlat=37.6438331&dlng=127.4737365&dname=%EA%B0%80%ED%8F%89%EC%96%91%EB%96%BC%EB%AA%A9%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "관광농원,팜스테이",
+    "dr": 33.7,
+    "rating": 4.45,
+    "reviews": 5784,
+    "score": 68.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1225532960"
+   },
+   "status": "active"
+  },
+  "trip:1253107551": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 79점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1253107551",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "리프플레이스",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "농촌파크로 2 리프플레이스",
+    "app": "nmap://navigation?dlat=37.1795499&dlng=127.3021333&dname=%EB%A6%AC%ED%94%84%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4&appname=kr.familytrip.misa",
+    "cat": "체험여행",
+    "dr": 45.4,
+    "rating": 4.75,
+    "reviews": 15854,
+    "score": 79,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1253107551"
+   },
+   "status": "active"
+  },
+  "trip:1280289689": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 85.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1280289689",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "쥬벅스",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "서창남순환로216번길 20 승연프라자 2층 204호, 205호",
+    "app": "nmap://navigation?dlat=37.4231681&dlng=126.7488999&dname=%EC%A5%AC%EB%B2%85%EC%8A%A4&appname=kr.familytrip.misa",
+    "cat": "동물원",
+    "dr": 48.1,
+    "rating": 4.92,
+    "reviews": 8279,
+    "score": 85.8,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1280289689"
+   },
+   "status": "active"
+  },
+  "trip:12845525": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 61.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "12845525",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "인천대공원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": null,
+    "app": "nmap://navigation?dlat=37.4573965&dlng=126.7609822&dname=%EC%9D%B8%EC%B2%9C%EB%8C%80%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "테마공원",
+    "dr": 51.1,
+    "rating": 4.32,
+    "reviews": 808,
+    "score": 61.9,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/12845525"
+   },
+   "status": "active"
+  },
+  "trip:12913212": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 53.1점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "12913212",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "쁘띠프랑스",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "호반로 1063",
+    "app": "nmap://navigation?dlat=37.715629&dlng=127.49058&dname=%EC%81%98%EB%9D%A0%ED%94%84%EB%9E%91%EC%8A%A4&appname=kr.familytrip.misa",
+    "cat": "테마파크",
+    "dr": 36.2,
+    "rating": 4.18,
+    "reviews": 13276,
+    "score": 53.1,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/12913212"
+   },
+   "status": "active"
+  },
+  "trip:12958532": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 58.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "12958532",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "갯골생태공원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "동서로 287",
+    "app": "nmap://navigation?dlat=37.3909834&dlng=126.7811119&dname=%EA%B0%AF%EA%B3%A8%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "자연,생태공원",
+    "dr": 49.2,
+    "rating": 4.3,
+    "reviews": 2988,
+    "score": 58.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/12958532"
+   },
+   "status": "active"
+  },
+  "trip:13068233": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 59.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13068233",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "산들소리",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "불암산로59번길 48-31 산들소리",
+    "app": "nmap://navigation?dlat=37.6503945&dlng=127.0988395&dname=%EC%82%B0%EB%93%A4%EC%86%8C%EB%A6%AC&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 18.7,
+    "rating": 4.17,
+    "reviews": 7595,
+    "score": 59.0,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/13068233"
+   },
+   "status": "active"
+  },
+  "trip:13162124": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 65.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13162124",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "세미원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "양수로 93",
+    "app": "nmap://navigation?dlat=37.5387311&dlng=127.322095&dname=%EC%84%B8%EB%AF%B8%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 18.3,
+    "rating": 4.32,
+    "reviews": 7751,
+    "score": 65.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/13162124"
+   },
+   "status": "active"
+  },
+  "trip:13221909": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 61.3점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13221909",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "포천아트밸리",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "아트밸리로 234",
+    "app": "nmap://navigation?dlat=37.9232113&dlng=127.2372231&dname=%ED%8F%AC%EC%B2%9C%EC%95%84%ED%8A%B8%EB%B0%B8%EB%A6%AC&appname=kr.familytrip.misa",
+    "cat": "관람,체험",
+    "dr": 50.3,
+    "rating": 4.25,
+    "reviews": 630,
+    "score": 61.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/13221909"
+   },
+   "status": "active"
+  },
+  "trip:13491056": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 38.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13491056",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "동막해변",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "해안남로 1481",
+    "app": "nmap://navigation?dlat=37.5928394&dlng=126.4574631&dname=%EB%8F%99%EB%A7%89%ED%95%B4%EB%B3%80&appname=kr.familytrip.misa",
+    "cat": "해수욕장,해변",
+    "dr": 79.3,
+    "rating": 4.17,
+    "reviews": 1214,
+    "score": 38.8,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/13491056"
+   },
+   "status": "active"
+  },
+  "trip:13491272": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 43.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13491272",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "두물머리",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": null,
+    "app": "nmap://navigation?dlat=37.5334334&dlng=127.3158958&dname=%EB%91%90%EB%AC%BC%EB%A8%B8%EB%A6%AC&appname=kr.familytrip.misa",
+    "cat": "자연명소",
+    "dr": 22.5,
+    "rating": 4.16,
+    "reviews": 1289,
+    "score": 43.9,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/13491272"
+   },
+   "status": "active"
+  },
+  "trip:13542620": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 57.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "13542620",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "구리한강시민공원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "코스모스길14번길 249",
+    "app": "nmap://navigation?dlat=37.574801&dlng=127.1367976&dname=%EA%B5%AC%EB%A6%AC%ED%95%9C%EA%B0%95%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "시민공원",
+    "dr": 12.7,
+    "rating": 4.31,
+    "reviews": 3222,
+    "score": 57.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/13542620"
+   },
+   "status": "active"
+  },
+  "trip:1487924989": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 80점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1487924989",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "주렁주렁 동물원 동탄점",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "동탄대로5길 21 라크몽 B동 4층",
+    "app": "nmap://navigation?dlat=37.1665187&dlng=127.1051005&dname=%EC%A3%BC%EB%A0%81%EC%A3%BC%EB%A0%81%20%EB%8F%99%EB%AC%BC%EC%9B%90%20%EB%8F%99%ED%83%84%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "동물원",
+    "dr": 44.6,
+    "rating": 4.82,
+    "reviews": 11132,
+    "score": 80,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1487924989"
+   },
+   "status": "active"
+  },
+  "trip:1566642738": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 67.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1566642738",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "헤븐온어스 동물체험장",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "이원로1116번길 42-4 남용인ic 5분 거리",
+    "app": "nmap://navigation?dlat=37.1557245&dlng=127.3084647&dname=%ED%97%A4%EB%B8%90%EC%98%A8%EC%96%B4%EC%8A%A4%20%EB%8F%99%EB%AC%BC%EC%B2%B4%ED%97%98%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "관람,체험",
+    "dr": 45.2,
+    "rating": 4.75,
+    "reviews": 4996,
+    "score": 67.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/1566642738"
+   },
+   "status": "active"
+  },
+  "trip:1587308093": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 78점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1587308093",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "주렁주렁 동물원 하남점",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "하남유니온로 120",
+    "app": "nmap://navigation?dlat=37.5436277&dlng=127.2236163&dname=%EC%A3%BC%EB%A0%81%EC%A3%BC%EB%A0%81%20%EB%8F%99%EB%AC%BC%EC%9B%90%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "동물원",
+    "dr": 6.2,
+    "rating": 4.57,
+    "reviews": 25789,
+    "score": 78,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1587308093"
+   },
+   "status": "active"
+  },
+  "trip:1702474903": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 82.5점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1702474903",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "포레스트벨",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "맹리로 85-1 포레스트벨",
+    "app": "nmap://navigation?dlat=37.197332&dlng=127.3345887&dname=%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%EB%B2%A8&appname=kr.familytrip.misa",
+    "cat": "관람,체험",
+    "dr": 42.6,
+    "rating": 4.78,
+    "reviews": 6468,
+    "score": 82.5,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1702474903"
+   },
+   "status": "active"
+  },
+  "trip:1764442532": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 73.0점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1764442532",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "굼프로곤충체험학습농장",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "신복길 108",
+    "app": "nmap://navigation?dlat=37.5309578&dlng=127.466417&dname=%EA%B5%BC%ED%94%84%EB%A1%9C%EA%B3%A4%EC%B6%A9%EC%B2%B4%ED%97%98%ED%95%99%EC%8A%B5%EB%86%8D%EC%9E%A5&appname=kr.familytrip.misa",
+    "cat": "동물원",
+    "dr": 30.8,
+    "rating": 4.89,
+    "reviews": 3983,
+    "score": 73.0,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1764442532"
+   },
+   "status": "active"
+  },
+  "trip:1770068822": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 78점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1770068822",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "주렁주렁 동물원 영등포점",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "영중로 15 타임스퀘어 4층, 5층",
+    "app": "nmap://navigation?dlat=37.5170771&dlng=126.9043973&dname=%EC%A3%BC%EB%A0%81%EC%A3%BC%EB%A0%81%20%EB%8F%99%EB%AC%BC%EC%9B%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "동물원",
+    "dr": 29.8,
+    "rating": 4.53,
+    "reviews": 16305,
+    "score": 78,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1770068822"
+   },
+   "status": "active"
+  },
+  "trip:1932878505": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 70점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1932878505",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "서울식물원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "마곡동로 161 서울식물원",
+    "app": "nmap://navigation?dlat=37.5694189&dlng=126.8350312&dname=%EC%84%9C%EC%9A%B8%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 37.2,
+    "rating": 4.48,
+    "reviews": 9560,
+    "score": 70,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/1932878505"
+   },
+   "status": "active"
+  },
+  "trip:19713256": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 66.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "19713256",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "미사경정공원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": null,
+    "app": "nmap://navigation?dlat=37.5598353&dlng=127.2101284&dname=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "도시,테마공원",
+    "dr": 9.4,
+    "rating": 4.42,
+    "reviews": 4068,
+    "score": 66.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/19713256"
+   },
+   "status": "active"
+  },
+  "trip:19928010": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 70점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "19928010",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "제이드가든",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "햇골길 80",
+    "app": "nmap://navigation?dlat=37.8324653&dlng=127.542352&dname=%EC%A0%9C%EC%9D%B4%EB%93%9C%EA%B0%80%EB%93%A0&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 54.0,
+    "rating": 4.34,
+    "reviews": 25106,
+    "score": 70,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/19928010"
+   },
+   "status": "active"
+  },
+  "trip:20118926": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 49.4점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "20118926",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "송도 센트럴파크",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "컨벤시아대로 160",
+    "app": "nmap://navigation?dlat=37.3913127&dlng=126.6406007&dname=%EC%86%A1%EB%8F%84%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
+    "cat": "근린공원",
+    "dr": 58.0,
+    "rating": 4.39,
+    "reviews": 2021,
+    "score": 49.4,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/20118926"
+   },
+   "status": "active"
+  },
+  "trip:34301448": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 68점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "34301448",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "더그림",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "사나사길 175 더그림",
+    "app": "nmap://navigation?dlat=37.5290899&dlng=127.4970632&dname=%EB%8D%94%EA%B7%B8%EB%A6%BC&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 36.6,
+    "rating": 4.63,
+    "reviews": 22501,
+    "score": 68,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/34301448"
+   },
+   "status": "active"
+  },
+  "trip:34590112": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 60점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "34590112",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "아쿠아플라넷 일산",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "한류월드로 282 아쿠아플라넷 일산",
+    "app": "nmap://navigation?dlat=37.663938&dlng=126.7555543&dname=%EC%95%84%EC%BF%A0%EC%95%84%ED%94%8C%EB%9D%BC%EB%84%B7%20%EC%9D%BC%EC%82%B0&appname=kr.familytrip.misa",
+    "cat": "아쿠아리움",
+    "dr": 50.7,
+    "rating": 4.37,
+    "reviews": 19657,
+    "score": 60,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/34590112"
+   },
+   "status": "active"
+  },
+  "trip:35195643": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 57.8점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35195643",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "물향기수목원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "청학로 211",
+    "app": "nmap://navigation?dlat=37.1664666&dlng=127.0570465&dname=%EB%AC%BC%ED%96%A5%EA%B8%B0%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 50.3,
+    "rating": 4.45,
+    "reviews": 3131,
+    "score": 57.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/35195643"
+   },
+   "status": "active"
+  },
+  "trip:35407573": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 61.6점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35407573",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "유니스의정원 보타닉하우스",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "반월천북길 139-18",
+    "app": "nmap://navigation?dlat=37.3106786&dlng=126.8892697&dname=%EC%9C%A0%EB%8B%88%EC%8A%A4%EC%9D%98%EC%A0%95%EC%9B%90%20%EB%B3%B4%ED%83%80%EB%8B%89%ED%95%98%EC%9A%B0%EC%8A%A4&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 44.3,
+    "rating": 4.42,
+    "reviews": 7160,
+    "score": 61.6,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/35407573"
+   },
+   "status": "active"
+  },
+  "trip:35506762": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 59.9점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35506762",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "물의정원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "북한강로 398",
+    "app": "nmap://navigation?dlat=37.5567498&dlng=127.3152347&dname=%EB%AC%BC%EC%9D%98%EC%A0%95%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "자연공원",
+    "dr": 19.8,
+    "rating": 4.34,
+    "reviews": 416,
+    "score": 59.9,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/35506762"
+   },
+   "status": "active"
+  },
+  "trip:35708336": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 72점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "35708336",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "화담숲",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "도척윗로 278-1",
+    "app": "nmap://navigation?dlat=37.340776&dlng=127.2894272&dname=%ED%99%94%EB%8B%B4%EC%88%B2&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 33.9,
+    "rating": 4.49,
+    "reviews": 11137,
+    "score": 72,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/35708336"
+   },
+   "status": "active"
+  },
+  "trip:36480728": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 근거부족 49.7점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "36480728",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "소래습지생태공원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": null,
+    "app": "nmap://navigation?dlat=37.4134966&dlng=126.7475643&dname=%EC%86%8C%EB%9E%98%EC%8A%B5%EC%A7%80%EC%83%9D%ED%83%9C%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "자연,생태공원",
+    "dr": 51.3,
+    "rating": 4.31,
+    "reviews": 401,
+    "score": 49.7,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/36480728"
+   },
+   "status": "active"
+  },
+  "trip:36505156": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 추천 72점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "36505156",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "덕평공룡수목원",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "작촌로 282 덕평공룡수목원",
+    "app": "nmap://navigation?dlat=37.2314807&dlng=127.3379533&dname=%EB%8D%95%ED%8F%89%EA%B3%B5%EB%A3%A1%EC%88%98%EB%AA%A9%EC%9B%90&appname=kr.familytrip.misa",
+    "cat": "식물원,수목원",
+    "dr": 44.4,
+    "rating": 4.41,
+    "reviews": 13278,
+    "score": 72,
+    "tier": "추천",
+    "web": "https://map.naver.com/p/entry/place/36505156"
+   },
+   "status": "active"
+  },
+  "trip:38018698": {
+   "baseline": true,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "이력 기록 시작 — 조건부 67.2점",
+     "type": "baseline"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "38018698",
+   "kind": "attraction",
+   "last_seen": "2026-09-26",
+   "name": "용인곤충테마파크",
+   "names": [],
+   "scope": "trip",
+   "snap": {
+    "addr": "삼백로835번길 38",
+    "app": "nmap://navigation?dlat=37.1455484&dlng=127.3646764&dname=%EC%9A%A9%EC%9D%B8%EA%B3%A4%EC%B6%A9%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC&appname=kr.familytrip.misa",
+    "cat": "관광농원,팜스테이",
+    "dr": 50.4,
+    "rating": 4.55,
+    "reviews": 4807,
+    "score": 67.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/38018698"
+   },
+   "status": "active"
+  }
+ },
+ "seen": {
+  "camp:1006671704": "2026-09-26",
+  "camp:1014752858": "2026-09-26",
+  "camp:1017547877": "2026-09-26",
+  "camp:1022829340": "2026-09-26",
+  "camp:1029773706": "2026-09-26",
+  "camp:1033974787": "2026-09-26",
+  "camp:1036708960": "2026-09-26",
+  "camp:1038743214": "2026-09-26",
+  "camp:1044216623": "2026-09-26",
+  "camp:1051385237": "2026-09-26",
+  "camp:1051422575": "2026-09-26",
+  "camp:1053174218": "2026-09-26",
+  "camp:1054582666": "2026-09-26",
+  "camp:1060098042": "2026-09-26",
+  "camp:1085472116": "2026-09-26",
+  "camp:1085868644": "2026-09-26",
+  "camp:1094401553": "2026-09-26",
+  "camp:1113843414": "2026-09-26",
+  "camp:1117156601": "2026-09-26",
+  "camp:1127562774": "2026-09-26",
+  "camp:1130942596": "2026-09-26",
+  "camp:1132585541": "2026-09-26",
+  "camp:1137448421": "2026-09-26",
+  "camp:1139203207": "2026-09-26",
+  "camp:1146415957": "2026-09-26",
+  "camp:1147749363": "2026-09-26",
+  "camp:1150476165": "2026-09-26",
+  "camp:1155026392": "2026-09-26",
+  "camp:1158572896": "2026-09-26",
+  "camp:1159325521": "2026-09-26",
+  "camp:1162550635": "2026-09-26",
+  "camp:1183088888": "2026-09-26",
+  "camp:1202918454": "2026-09-26",
+  "camp:1203920209": "2026-09-26",
+  "camp:1205161049": "2026-09-26",
+  "camp:1230988615": "2026-09-26",
+  "camp:1233266255": "2026-09-26",
+  "camp:1240608222": "2026-09-26",
+  "camp:1244387771": "2026-09-26",
+  "camp:1244432882": "2026-09-26",
+  "camp:1250058888": "2026-09-26",
+  "camp:1256015084": "2026-09-26",
+  "camp:1264246458": "2026-09-26",
+  "camp:1264603691": "2026-09-26",
+  "camp:1277518395": "2026-09-26",
+  "camp:12792738": "2026-09-26",
+  "camp:1279287508": "2026-09-26",
+  "camp:1282631769": "2026-09-26",
+  "camp:1288980144": "2026-09-26",
+  "camp:12958117": "2026-09-26",
+  "camp:1296026747": "2026-09-26",
+  "camp:1297131878": "2026-09-26",
+  "camp:1301113624": "2026-09-26",
+  "camp:1314036092": "2026-09-26",
+  "camp:1316541824": "2026-09-26",
+  "camp:1318895155": "2026-09-26",
+  "camp:1321584266": "2026-09-26",
+  "camp:1323836602": "2026-09-26",
+  "camp:1325163293": "2026-09-26",
+  "camp:13271751": "2026-09-26",
+  "camp:13418422": "2026-09-26",
+  "camp:13419342": "2026-09-26",
+  "camp:13482276": "2026-09-26",
+  "camp:1373127391": "2026-09-26",
+  "camp:1377507590": "2026-09-26",
+  "camp:1377826866": "2026-09-26",
+  "camp:1379219555": "2026-09-26",
+  "camp:1382357777": "2026-09-26",
+  "camp:1401697528": "2026-09-26",
+  "camp:1415660783": "2026-09-26",
+  "camp:1432053301": "2026-09-26",
+  "camp:1432650165": "2026-09-26",
+  "camp:1446404857": "2026-09-26",
+  "camp:1453866558": "2026-09-26",
+  "camp:1465693112": "2026-09-26",
+  "camp:1469466921": "2026-09-26",
+  "camp:1470254174": "2026-09-26",
+  "camp:1493105303": "2026-09-26",
+  "camp:1511903785": "2026-09-26",
+  "camp:1515887691": "2026-09-26",
+  "camp:1525930137": "2026-09-26",
+  "camp:1528154068": "2026-09-26",
+  "camp:1529150207": "2026-09-26",
+  "camp:1530373862": "2026-09-26",
+  "camp:1532704522": "2026-09-26",
+  "camp:1537947342": "2026-09-26",
+  "camp:1578823608": "2026-09-26",
+  "camp:1587710265": "2026-09-26",
+  "camp:1592508396": "2026-09-26",
+  "camp:1598815483": "2026-09-26",
+  "camp:1601973825": "2026-09-26",
+  "camp:1623243501": "2026-09-26",
+  "camp:1623969168": "2026-09-26",
+  "camp:1630231934": "2026-09-26",
+  "camp:1635524020": "2026-09-26",
+  "camp:1644270895": "2026-09-26",
+  "camp:1644964251": "2026-09-26",
+  "camp:1653025595": "2026-09-26",
+  "camp:1654342273": "2026-09-26",
+  "camp:1674412966": "2026-09-26",
+  "camp:1675159931": "2026-09-26",
+  "camp:1677034868": "2026-09-26",
+  "camp:1678194441": "2026-09-26",
+  "camp:1678220844": "2026-09-26",
+  "camp:1689610384": "2026-09-26",
+  "camp:1696256521": "2026-09-26",
+  "camp:1707431471": "2026-09-26",
+  "camp:1710899492": "2026-09-26",
+  "camp:1719130464": "2026-09-26",
+  "camp:1719757260": "2026-09-26",
+  "camp:1728117296": "2026-09-26",
+  "camp:1736203149": "2026-09-26",
+  "camp:1749986835": "2026-09-26",
+  "camp:1765774738": "2026-09-26",
+  "camp:1768963533": "2026-09-26",
+  "camp:17888344": "2026-09-26",
+  "camp:1796679836": "2026-09-26",
+  "camp:1797622140": "2026-09-26",
+  "camp:1799180175": "2026-09-26",
+  "camp:1811373593": "2026-09-26",
+  "camp:1828184409": "2026-09-26",
+  "camp:1831235671": "2026-09-26",
+  "camp:1839186737": "2026-09-26",
+  "camp:1846704091": "2026-09-26",
+  "camp:1847361140": "2026-09-26",
+  "camp:18502005": "2026-09-26",
+  "camp:1858292095": "2026-09-26",
+  "camp:1878297071": "2026-09-26",
+  "camp:1884037137": "2026-09-26",
+  "camp:1886413330": "2026-09-26",
+  "camp:18894230": "2026-09-26",
+  "camp:1892959391": "2026-09-26",
+  "camp:1898125190": "2026-09-26",
+  "camp:1900996149": "2026-09-26",
+  "camp:1913604665": "2026-09-26",
+  "camp:1920188311": "2026-09-26",
+  "camp:1926319859": "2026-09-26",
+  "camp:19287096": "2026-09-26",
+  "camp:19314691": "2026-09-26",
+  "camp:1933639244": "2026-09-26",
+  "camp:19353699": "2026-09-26",
+  "camp:19365849": "2026-09-26",
+  "camp:1946819644": "2026-09-26",
+  "camp:1948442909": "2026-09-26",
+  "camp:1949529136": "2026-09-26",
+  "camp:1950062907": "2026-09-26",
+  "camp:1952578638": "2026-09-26",
+  "camp:1956354117": "2026-09-26",
+  "camp:1967170958": "2026-09-26",
+  "camp:1971443633": "2026-09-26",
+  "camp:1976094989": "2026-09-26",
+  "camp:1977762825": "2026-09-26",
+  "camp:1979503648": "2026-09-26",
+  "camp:1992277916": "2026-09-26",
+  "camp:1993566017": "2026-09-26",
+  "camp:1993875219": "2026-09-26",
+  "camp:1995246261": "2026-09-26",
+  "camp:2004344777": "2026-09-26",
+  "camp:2020057077": "2026-09-26",
+  "camp:2034694543": "2026-09-26",
+  "camp:2036512241": "2026-09-26",
+  "camp:20367750": "2026-09-26",
+  "camp:2049663418": "2026-09-26",
+  "camp:2050680949": "2026-09-26",
+  "camp:2052925486": "2026-09-26",
+  "camp:2052960632": "2026-09-26",
+  "camp:2053729902": "2026-09-26",
+  "camp:2056100680": "2026-09-26",
+  "camp:2067226439": "2026-09-26",
+  "camp:2067501329": "2026-09-26",
+  "camp:2072420773": "2026-09-26",
+  "camp:2077333239": "2026-09-26",
+  "camp:2077381440": "2026-09-26",
+  "camp:2093012237": "2026-09-26",
+  "camp:21021396": "2026-09-26",
+  "camp:21666742": "2026-09-26",
+  "camp:21868859": "2026-09-26",
+  "camp:30820901": "2026-09-26",
+  "camp:31492902": "2026-09-26",
+  "camp:31535788": "2026-09-26",
+  "camp:31936204": "2026-09-26",
+  "camp:32222877": "2026-09-26",
+  "camp:32473245": "2026-09-26",
+  "camp:32630490": "2026-09-26",
+  "camp:32721220": "2026-09-26",
+  "camp:32769748": "2026-09-26",
+  "camp:32769836": "2026-09-26",
+  "camp:32848710": "2026-09-26",
+  "camp:32891453": "2026-09-26",
+  "camp:32998920": "2026-09-26",
+  "camp:33040193": "2026-09-26",
+  "camp:33251422": "2026-09-26",
+  "camp:33270147": "2026-09-26",
+  "camp:335955355": "2026-09-26",
+  "camp:34778681": "2026-09-26",
+  "camp:35101413": "2026-09-26",
+  "camp:35142884": "2026-09-26",
+  "camp:35393944": "2026-09-26",
+  "camp:35412997": "2026-09-26",
+  "camp:35413727": "2026-09-26",
+  "camp:35494884": "2026-09-26",
+  "camp:35506768": "2026-09-26",
+  "camp:35516605": "2026-09-26",
+  "camp:35560271": "2026-09-26",
+  "camp:35637335": "2026-09-26",
+  "camp:35734987": "2026-09-26",
+  "camp:35751555": "2026-09-26",
+  "camp:35877977": "2026-09-26",
+  "camp:35906126": "2026-09-26",
+  "camp:35939874": "2026-09-26",
+  "camp:36252718": "2026-09-26",
+  "camp:36655086": "2026-09-26",
+  "camp:36859806": "2026-09-26",
+  "camp:36886548": "2026-09-26",
+  "camp:36920262": "2026-09-26",
+  "camp:36989936": "2026-09-26",
+  "camp:37221674": "2026-09-26",
+  "camp:37402517": "2026-09-26",
+  "camp:37486322": "2026-09-26",
+  "camp:37742530": "2026-09-26",
+  "camp:37755291": "2026-09-26",
+  "camp:37812355": "2026-09-26",
+  "camp:37848913": "2026-09-26",
+  "camp:38233790": "2026-09-26",
+  "camp:38259182": "2026-09-26",
+  "camp:38342314": "2026-09-26",
+  "camp:38342571": "2026-09-26",
+  "camp:38520994": "2026-09-26",
+  "camp:685322953": "2026-09-26",
+  "camp:783594478": "2026-09-26",
+  "camp:960835051": "2026-09-26",
+  "local:1000332564": "2026-09-26",
+  "local:1001529236": "2026-09-26",
+  "local:1005535845": "2026-09-26",
+  "local:1007349915": "2026-09-26",
+  "local:1011809427": "2026-09-26",
+  "local:1018349666": "2026-09-26",
+  "local:1018951730": "2026-09-26",
+  "local:1020728265": "2026-09-26",
+  "local:1024899267": "2026-09-26",
+  "local:1028441223": "2026-09-26",
+  "local:1037310209": "2026-09-26",
+  "local:1039762013": "2026-09-26",
+  "local:1040659426": "2026-09-26",
+  "local:1041190629": "2026-09-26",
+  "local:1041754233": "2026-09-26",
+  "local:1044109183": "2026-09-26",
+  "local:1059920621": "2026-09-26",
+  "local:1060392500": "2026-09-26",
+  "local:1062815227": "2026-09-26",
+  "local:1063431994": "2026-09-26",
+  "local:1069743509": "2026-09-26",
+  "local:1074722383": "2026-09-26",
+  "local:1076548739": "2026-09-26",
+  "local:1077504257": "2026-09-26",
+  "local:1083885273": "2026-09-26",
+  "local:1087486343": "2026-09-26",
+  "local:1094189395": "2026-09-26",
+  "local:1096159842": "2026-09-26",
+  "local:1104481808": "2026-09-26",
+  "local:1104698896": "2026-09-26",
+  "local:1105091339": "2026-09-26",
+  "local:1106035783": "2026-09-26",
+  "local:1106178082": "2026-09-26",
+  "local:1109126011": "2026-09-26",
+  "local:1119113894": "2026-09-26",
+  "local:1139682681": "2026-09-26",
+  "local:1139773178": "2026-09-26",
+  "local:1143004145": "2026-09-26",
+  "local:1143396269": "2026-09-26",
+  "local:1144155143": "2026-09-26",
+  "local:1144555054": "2026-09-26",
+  "local:1150151066": "2026-09-26",
+  "local:1151190494": "2026-09-26",
+  "local:1151700276": "2026-09-26",
+  "local:1156520917": "2026-09-26",
+  "local:1157934048": "2026-09-26",
+  "local:1158323607": "2026-09-26",
+  "local:1161643887": "2026-09-26",
+  "local:11730720": "2026-09-26",
+  "local:1180939197": "2026-09-26",
+  "local:1189623538": "2026-09-26",
+  "local:1192957945": "2026-09-26",
+  "local:1193403821": "2026-09-26",
+  "local:1193439622": "2026-09-26",
+  "local:1195373241": "2026-09-26",
+  "local:1199188506": "2026-09-26",
+  "local:12017864": "2026-09-26",
+  "local:1202799623": "2026-09-26",
+  "local:1203843285": "2026-09-26",
+  "local:1205008986": "2026-09-26",
+  "local:1205059113": "2026-09-26",
+  "local:1206414340": "2026-09-26",
+  "local:1207310030": "2026-09-26",
+  "local:1207374158": "2026-09-26",
+  "local:1207833705": "2026-09-26",
+  "local:1215241032": "2026-09-26",
+  "local:1227008180": "2026-09-26",
+  "local:1227754765": "2026-09-26",
+  "local:1227827066": "2026-09-26",
+  "local:1230180673": "2026-09-26",
+  "local:1230535115": "2026-09-26",
+  "local:1234133622": "2026-09-26",
+  "local:1239931618": "2026-09-26",
+  "local:1247509629": "2026-09-26",
+  "local:1251759553": "2026-09-26",
+  "local:1254594728": "2026-09-26",
+  "local:1259581797": "2026-09-26",
+  "local:1262886932": "2026-09-26",
+  "local:1263232397": "2026-09-26",
+  "local:1263869419": "2026-09-26",
+  "local:1273026125": "2026-09-26",
+  "local:1274458828": "2026-09-26",
+  "local:1277563533": "2026-09-26",
+  "local:1279306795": "2026-09-26",
+  "local:1281623979": "2026-09-26",
+  "local:1283596770": "2026-09-26",
+  "local:1284826169": "2026-09-26",
+  "local:1287143306": "2026-09-26",
+  "local:1287861104": "2026-09-26",
+  "local:1288353795": "2026-09-26",
+  "local:1291589362": "2026-09-26",
+  "local:1292965976": "2026-09-26",
+  "local:1318298866": "2026-09-26",
+  "local:1320107193": "2026-09-26",
+  "local:1331202395": "2026-09-26",
+  "local:1338071673": "2026-09-26",
+  "local:1338344965": "2026-09-26",
+  "local:1340048671": "2026-09-26",
+  "local:1359380890": "2026-09-26",
+  "local:1360222085": "2026-09-26",
+  "local:1363789338": "2026-09-26",
+  "local:1367889140": "2026-09-26",
+  "local:1368942617": "2026-09-26",
+  "local:1369451515": "2026-09-26",
+  "local:1369558964": "2026-09-26",
+  "local:1373929444": "2026-09-26",
+  "local:1375158358": "2026-09-26",
+  "local:1376545796": "2026-09-26",
+  "local:1393892938": "2026-09-26",
+  "local:1400170110": "2026-09-26",
+  "local:1413655187": "2026-09-26",
+  "local:1415524576": "2026-09-26",
+  "local:1417393324": "2026-09-26",
+  "local:1417457013": "2026-09-26",
+  "local:1425131103": "2026-09-26",
+  "local:1432634082": "2026-09-26",
+  "local:1447777910": "2026-09-26",
+  "local:1453678976": "2026-09-26",
+  "local:1454625896": "2026-09-26",
+  "local:1455573756": "2026-09-26",
+  "local:1463960322": "2026-09-26",
+  "local:1466283996": "2026-09-26",
+  "local:1469596809": "2026-09-26",
+  "local:1472111021": "2026-09-26",
+  "local:1473059790": "2026-09-26",
+  "local:1473608743": "2026-09-26",
+  "local:1476252890": "2026-09-26",
+  "local:1477127269": "2026-09-26",
+  "local:1478473500": "2026-09-26",
+  "local:1479537501": "2026-09-26",
+  "local:1479852202": "2026-09-26",
+  "local:1488821231": "2026-09-26",
+  "local:1491791988": "2026-09-26",
+  "local:1496123790": "2026-09-26",
+  "local:1497016952": "2026-09-26",
+  "local:1497839273": "2026-09-26",
+  "local:1505331555": "2026-09-26",
+  "local:1506096555": "2026-09-26",
+  "local:1514466982": "2026-09-26",
+  "local:1526549581": "2026-09-26",
+  "local:1527678703": "2026-09-26",
+  "local:1529201357": "2026-09-26",
+  "local:1529816899": "2026-09-26",
+  "local:1552121114": "2026-09-26",
+  "local:1563885983": "2026-09-26",
+  "local:1579087658": "2026-09-26",
+  "local:1580256552": "2026-09-26",
+  "local:1586023051": "2026-09-26",
+  "local:1586793046": "2026-09-26",
+  "local:1587520425": "2026-09-26",
+  "local:1594675706": "2026-09-26",
+  "local:1598434715": "2026-09-26",
+  "local:1612113670": "2026-09-26",
+  "local:1612215679": "2026-09-26",
+  "local:1615612986": "2026-09-26",
+  "local:1617061280": "2026-09-26",
+  "local:1617944125": "2026-09-26",
+  "local:1619528472": "2026-09-26",
+  "local:1620669074": "2026-09-26",
+  "local:1620847933": "2026-09-26",
+  "local:1622598197": "2026-09-26",
+  "local:1646874236": "2026-09-26",
+  "local:1650334537": "2026-09-26",
+  "local:1650858592": "2026-09-26",
+  "local:1656490803": "2026-09-26",
+  "local:1666306815": "2026-09-26",
+  "local:166792375": "2026-09-26",
+  "local:1680061275": "2026-09-26",
+  "local:1680923265": "2026-09-26",
+  "local:1691283192": "2026-09-26",
+  "local:1697831940": "2026-09-26",
+  "local:1700065393": "2026-09-26",
+  "local:1703616975": "2026-09-26",
+  "local:1709135240": "2026-09-26",
+  "local:1712388086": "2026-09-26",
+  "local:1719305022": "2026-09-26",
+  "local:1719463147": "2026-09-26",
+  "local:1733087990": "2026-09-26",
+  "local:1740085096": "2026-09-26",
+  "local:1746858301": "2026-09-26",
+  "local:1747040532": "2026-09-26",
+  "local:1748490944": "2026-09-26",
+  "local:1754816216": "2026-09-26",
+  "local:1755816816": "2026-09-26",
+  "local:1757890723": "2026-09-26",
+  "local:1760063012": "2026-09-26",
+  "local:1761654285": "2026-09-26",
+  "local:1767523824": "2026-09-26",
+  "local:1767850870": "2026-09-26",
+  "local:1786228412": "2026-09-26",
+  "local:1797147795": "2026-09-26",
+  "local:1800270322": "2026-09-26",
+  "local:1801277885": "2026-09-26",
+  "local:1808265094": "2026-09-26",
+  "local:1821166456": "2026-09-26",
+  "local:1828397686": "2026-09-26",
+  "local:1830141223": "2026-09-26",
+  "local:1832123818": "2026-09-26",
+  "local:1837083139": "2026-09-26",
+  "local:1838055451": "2026-09-26",
+  "local:1838756468": "2026-09-26",
+  "local:1840900286": "2026-09-26",
+  "local:1847580949": "2026-09-26",
+  "local:1851157698": "2026-09-26",
+  "local:1859007269": "2026-09-26",
+  "local:1860673425": "2026-09-26",
+  "local:1864360052": "2026-09-26",
+  "local:1866200354": "2026-09-26",
+  "local:1872795305": "2026-09-26",
+  "local:1875673615": "2026-09-26",
+  "local:1875957224": "2026-09-26",
+  "local:1878919783": "2026-09-26",
+  "local:1885173956": "2026-09-26",
+  "local:18896380": "2026-09-26",
+  "local:1891983883": "2026-09-26",
+  "local:19057824": "2026-09-26",
+  "local:19065167": "2026-09-26",
+  "local:19075779": "2026-09-26",
+  "local:1911122996": "2026-09-26",
+  "local:1915252502": "2026-09-26",
+  "local:1918347957": "2026-09-26",
+  "local:1919931479": "2026-09-26",
+  "local:1923339415": "2026-09-26",
+  "local:1925760808": "2026-09-26",
+  "local:1928203356": "2026-09-26",
+  "local:1939816988": "2026-09-26",
+  "local:1940108490": "2026-09-26",
+  "local:1942960054": "2026-09-26",
+  "local:1951780740": "2026-09-26",
+  "local:1959570492": "2026-09-26",
+  "local:1961522634": "2026-09-26",
+  "local:1962959644": "2026-09-26",
+  "local:1971019629": "2026-09-26",
+  "local:1973927320": "2026-09-26",
+  "local:1987389673": "2026-09-26",
+  "local:19882677": "2026-09-26",
+  "local:1993853125": "2026-09-26",
+  "local:1994044782": "2026-09-26",
+  "local:1994359615": "2026-09-26",
+  "local:19948885": "2026-09-26",
+  "local:1994948108": "2026-09-26",
+  "local:1999213770": "2026-09-26",
+  "local:2001657224": "2026-09-26",
+  "local:20037694": "2026-09-26",
+  "local:2005432005": "2026-09-26",
+  "local:2005896656": "2026-09-26",
+  "local:2006125625": "2026-09-26",
+  "local:2007925802": "2026-09-26",
+  "local:2008251252": "2026-09-26",
+  "local:2009865314": "2026-09-26",
+  "local:2012352955": "2026-09-26",
+  "local:2013158380": "2026-09-26",
+  "local:2015604890": "2026-09-26",
+  "local:2018063823": "2026-09-26",
+  "local:2023968384": "2026-09-26",
+  "local:2024033746": "2026-09-26",
+  "local:2027448690": "2026-09-26",
+  "local:2027597810": "2026-09-26",
+  "local:2029616756": "2026-09-26",
+  "local:2029728192": "2026-09-26",
+  "local:2032472223": "2026-09-26",
+  "local:2033423186": "2026-09-26",
+  "local:2033777001": "2026-09-26",
+  "local:2035384693": "2026-09-26",
+  "local:2038383900": "2026-09-26",
+  "local:2042956100": "2026-09-26",
+  "local:2043681800": "2026-09-26",
+  "local:2044181399": "2026-09-26",
+  "local:2044247765": "2026-09-26",
+  "local:2046515079": "2026-09-26",
+  "local:2048279923": "2026-09-26",
+  "local:2049463764": "2026-09-26",
+  "local:2050552185": "2026-09-26",
+  "local:2050945111": "2026-09-26",
+  "local:2052221255": "2026-09-26",
+  "local:2053479661": "2026-09-26",
+  "local:2054967491": "2026-09-26",
+  "local:2062839230": "2026-09-26",
+  "local:2063487555": "2026-09-26",
+  "local:2066943442": "2026-09-26",
+  "local:2069021328": "2026-09-26",
+  "local:2069190618": "2026-09-26",
+  "local:2069375730": "2026-09-26",
+  "local:2071407693": "2026-09-26",
+  "local:2078833490": "2026-09-26",
+  "local:2081410635": "2026-09-26",
+  "local:2086630299": "2026-09-26",
+  "local:2087385471": "2026-09-26",
+  "local:2087607417": "2026-09-26",
+  "local:2087611777": "2026-09-26",
+  "local:2087836642": "2026-09-26",
+  "local:2091772751": "2026-09-26",
+  "local:2093748009": "2026-09-26",
+  "local:2093888965": "2026-09-26",
+  "local:2097630295": "2026-09-26",
+  "local:30844028": "2026-09-26",
+  "local:30885668": "2026-09-26",
+  "local:31259350": "2026-09-26",
+  "local:34974697": "2026-09-26",
+  "local:356082650": "2026-09-26",
+  "local:36004567": "2026-09-26",
+  "local:36636441": "2026-09-26",
+  "local:36995028": "2026-09-26",
+  "local:37322409": "2026-09-26",
+  "local:37811302": "2026-09-26",
+  "local:37891768": "2026-09-26",
+  "local:37990182": "2026-09-26",
+  "local:38303162": "2026-09-26",
+  "local:38331804": "2026-09-26",
+  "local:38522467": "2026-09-26",
+  "local:38549788": "2026-09-26",
+  "local:39653518": "2026-09-26",
+  "local:475067576": "2026-09-26",
+  "local:480088953": "2026-09-26",
+  "local:496615652": "2026-09-26",
+  "local:530957248": "2026-09-26",
+  "local:868154744": "2026-09-26",
+  "trip:1014673366": "2026-09-26",
+  "trip:11626150": "2026-09-26",
+  "trip:12004621": "2026-09-26",
+  "trip:1211220664": "2026-09-26",
+  "trip:12820425": "2026-09-26",
+  "trip:13208339": "2026-09-26",
+  "trip:13471818": "2026-09-26",
+  "trip:1541845688": "2026-09-26",
+  "trip:1718574428": "2026-09-26",
+  "trip:1751677198": "2026-09-26",
+  "trip:1803293331": "2026-09-26",
+  "trip:1822184041": "2026-09-26",
+  "trip:1826290696": "2026-09-26",
+  "trip:1879138051": "2026-09-26",
+  "trip:18811482": "2026-09-26",
+  "trip:19535419": "2026-09-26",
+  "trip:19997144": "2026-09-26",
+  "trip:2022068283": "2026-09-26",
+  "trip:2029597799": "2026-09-26",
+  "trip:21033820": "2026-09-26",
+  "trip:30943701": "2026-09-26",
+  "trip:32581850": "2026-09-26",
+  "trip:36630992": "2026-09-26",
+  "trip:37562565": "2026-09-26",
+  "trip:38729299": "2026-09-26",
+  "trip:798966740": "2026-09-26"
+ },
+ "updated": "2026-09-26",
+ "version": 1
+}

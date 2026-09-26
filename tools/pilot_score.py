@@ -123,7 +123,9 @@ def score_place(p, yt, scope="local"):
     fac = k.get("facility_icons") or []  # 키가 있어도 None 일 수 있음(카카오 패널에 편의시설 없음)
     if "유아의자" in (nd.get("conveniences") or []) or any("유아" in (i or "") for i in fac):
         kids.add("유아의자")
-    mode_a = min(PS["mode_a_max"], 3 * len(kids & set(KIDS_LABELS)))
+    camp = kind == "camping"
+    CF = PS["camping_family"]
+    mode_a = min(CF["mode_a_max"] if camp else PS["mode_a_max"], 3 * len(kids & set(KIDS_LABELS)))
     pos = {e["label"] for e in ev["b_pos"]}
     if "주차" in (nd.get("conveniences") or []) or "주차가능" in fac:
         pos.add("주차")
@@ -132,7 +134,26 @@ def score_place(p, yt, scope="local"):
         neg.discard("웨이팅")  # 나들이 장소의 '대기번호'는 온라인 예약 대기(서 있는 부담 아님)
     b_raw = sum(B_WEIGHT.get(l, 0) for l in pos) - (5 if "좌식" in neg else 0) - (3 if "계단" in neg else 0) \
         - (3 if "엘리베이터 없음" in neg else 0) - (3 if "긴 보행" in neg else 0)
-    mode_b = max(0, min(PS["mode_b_max"], b_raw))
+    mode_b = max(0, min(CF["mode_b_max"] if camp else PS["mode_b_max"], b_raw))
+    # 캠핑: 화장실·샤워실 (개별 > 청결 > 온수, 아쉬움 언급은 감점)
+    bath_all = ev.get("bath", []) if camp else []
+    # 3년(1095일) 넘은 후기는 시설이 바뀌었을 수 있어 점수에 쓰지 않는다(날짜를 모르는 근거는 그대로 인정)
+    bath_ev = [e for e in bath_all if _d(e) is None or _d(e) <= 1095]
+    bath_stale = len(bath_all) - len(bath_ev)
+    bl = {e["label"] for e in bath_ev}
+    # 같은 글의 발췌(-excerpt)와 본문은 한 출처로 센다
+    bath_srcs = {e["src"].replace("naver-blog-excerpt:", "naver-blog:") for e in bath_ev if e["label"] == "화장실·샤워실 청결"}
+    bath_pts = 0
+    if camp:
+        if "개별 화장실·샤워실" in bl:
+            bath_pts = CF["bath_max"]
+        elif "화장실·샤워실 청결" in bl:
+            bath_pts = 5 + (2 if len(bath_srcs) >= 2 else 0)
+        if "온수 잘 나옴" in bl:
+            bath_pts += 1
+        if "화장실·샤워실 아쉬움" in bl:
+            bath_pts -= 4
+        bath_pts = max(0, min(CF["bath_max"], bath_pts))
     menu_names = " ".join((m.get("name") or "") for m in nd.get("menus") or [])
     soft = bool(SOFT_FOOD.search(menu_names + " " + (n.get("category") or ""))) and kind in ("restaurant", "cafe")
     hard_neg = {"좌식", "계단", "엘리베이터 없음", "긴 보행"} & neg
@@ -165,13 +186,18 @@ def score_place(p, yt, scope="local"):
             unknown.append("층·계단·엘리베이터")
     if "주차" not in pos:
         unknown.append("주차")
-    family = min(PS["family_fit_max"], mode_a + mode_b)
+    if camp and not ({"개별 화장실·샤워실", "화장실·샤워실 청결", "화장실·샤워실 아쉬움"} & bl):
+        unknown.append("화장실·샤워실 상태(개별 여부·청결)")
+    family = min(PS["family_fit_max"], mode_a + mode_b + bath_pts)
 
     # 실용성
     dm = (p.get("drive") or {}).get("min")
     drive_pts = pts_from(PS["drive_points"], dm, hi_is_good=False) if dm is not None else 0
     cost = est_admission(nd.get("menus")) if kind == "attraction" else est_camp(nd.get("menus")) if kind == "camping" else est_cost(nd.get("menus"))
-    if kind == "camping" and not cost and n.get("min_price"):
+    low_min_price = kind == "camping" and not cost and bool(n.get("min_price")) and int(n["min_price"]) < 20000
+    if low_min_price:
+        pass  # 1박 사이트 요금으로 보기 어려운 값(부대시설·당일권 가능) → 요금 미확인 처리, 아래에서 표시
+    elif kind == "camping" and not cost and n.get("min_price"):
         cost = {"krw": int(n["min_price"]), "basis": "네이버 예약 최저 사이트 요금(1박, 최저가 기준 — 성수기·주말은 더 높을 수 있음)", "sample": []}
     cost_pts = PS["cost_unknown_points"]
     if cost:
@@ -221,6 +247,17 @@ def score_place(p, yt, scope="local"):
         flags.append("웨이팅 언급(오래 서 있기 부담)")
     if "긴 보행" in neg:
         flags.append("걷는 거리 긺 언급")
+    if low_min_price:
+        flags.append(f"네이버 최저요금 {int(n['min_price']):,}원은 1박 요금으로 보기 어려워 제외 — 요금 미확인")
+    if camp:
+        if bath_stale and not bath_ev:
+            flags.append("화장실·샤워실 후기가 3년 이상 오래돼 점수에 반영 안 함 — 최근 상태 확인 필요")
+        if "개별 화장실·샤워실" in bl:
+            flags.append("🚿 개별(전용) 화장실·샤워실 언급")
+        if "화장실·샤워실 청결" in bl:
+            flags.append("🚿 화장실·샤워실 청결 언급")
+        if "화장실·샤워실 아쉬움" in bl:
+            flags.append("⚠️ 화장실·샤워실 아쉬움 언급 — 인용문 확인")
     if dm is not None and dm > CFG["scopes"][scope].get("preferred_drive_min", 10**6):
         flags.append(f"차량 {round(dm)}분(선호 {CFG['scopes'][scope]['preferred_drive_min']}분 초과)")
 
@@ -264,10 +301,11 @@ def score_place(p, yt, scope="local"):
         "drive": p.get("drive"), "walk": p.get("walk"),
         "price": {"est_meal_4p": cost, "menus_sample": (nd.get("menus") or [])[:6]},
         "family": {"mode_a": sorted(kids), "mode_b": {"positive": list(ev["b_pos"]), "negative": list(ev["b_neg"]),
-                                                      "verdict": verdict, "unknown": unknown, "soft_food": soft}},
+                                                      "verdict": verdict, "unknown": unknown, "soft_food": soft},
+                   "bath": [{k_: e.get(k_) for k_ in ("label", "quote", "src", "date")} for e in bath_ev][:5]},
         "sources": {"blogs": p.get("blogs_read", []), "youtube": [{"video_id": m["video_id"], "link": m["link"], "t": m["t"], "quote": m["quote"], "where": m["where"]} for m in ymentions]},
         "scores": {"total": total, "tier": tier, "breakdown": {"reputation": reputation, "evidence": round(evidence_pts, 1), "family_fit": family, "practicality": practical},
-                   "detail": {"rating_pts": rating_pts, "review_pts": round(review_pts, 1), "source_count": src_count, "mode_a": mode_a, "mode_b": mode_b, "drive_pts": drive_pts, "cost_pts": cost_pts},
+                   "detail": {"rating_pts": rating_pts, "review_pts": round(review_pts, 1), "source_count": src_count, "mode_a": mode_a, "mode_b": mode_b, "bath_pts": bath_pts, "drive_pts": drive_pts, "cost_pts": cost_pts},
                    "gates": {"pass": not fails, "failed": fails}},
         "flags": flags, "plan_notes": plan_notes[:4], "evidence_days_ago": ev_days, "verified_at": str(date.today()),
     }

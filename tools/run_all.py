@@ -28,6 +28,7 @@ steps = [
     [PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
      "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"],
     [PY, T("daytrip_courses.py"), "--n", "10"],
+    [PY, T("registry.py")],  # 이력 갱신(기준선이 없으면 지금 목록을 기준선으로)
     [PY, T("build_site.py")],
     [PY, T("verify.py")],
 ]

@@ -75,8 +75,42 @@ def build():
             text += "\n⚠️ 폐업 의심: " + ", ".join(c["name"][:8] for c in sl["closures"][:3])
         elif sl["changes"]:
             text += f"\n별점 변동 {len(sl['changes'])}곳 점검됨"
+    ch = week_changes()
+    if ch:
+        text += "\n🕘 " + ch + " (이력 탭)"
     text += "\n※ 휴관·예약은 가기 전 확인"
     return tpl_text(text)
+
+
+def week_changes(days=7):
+    """이번 주 이력 변화 한 줄 요약(새 후보·새로 목록에 오름·등급 변화·이름 변경·폐업). 없으면 ''."""
+    from datetime import date, timedelta
+    rp = os.path.join(ROOT, "data", "registry.json")
+    if not os.path.exists(rp):
+        return ""
+    try:
+        reg = json.load(open(rp, encoding="utf-8"))
+        since = str(date.today() - timedelta(days=days))
+        cnt = {}
+        for r in reg["places"].values():
+            for e in r["events"]:
+                if e["date"] >= since and e["type"] in ("new", "tier", "renamed", "closed", "reopened"):
+                    cnt[e["type"]] = cnt.get(e["type"], 0) + 1
+        newc = sum(1 for v in reg.get("pending", {}).values() if (v.get("first_found") or "") >= since)
+        parts = []
+        if newc:
+            parts.append(f"새 후보 {newc}")
+        if cnt.get("new"):
+            parts.append(f"새로 추가 {cnt['new']}")
+        if cnt.get("tier"):
+            parts.append(f"등급 변화 {cnt['tier']}")
+        if cnt.get("renamed"):
+            parts.append(f"이름 변경 {cnt['renamed']}")
+        if cnt.get("closed"):
+            parts.append(f"폐업 의심 {cnt['closed']}")
+        return " · ".join(parts)
+    except Exception:
+        return ""
 
 
 def send(tpl):

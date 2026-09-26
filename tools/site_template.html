@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>우리 동네 나들이 · 하남 미사</title>
 <meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2b7a57">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="나들이">
 <style>
   :root { --bg:#f6f4ef; --card:#fff; --ink:#1d2730; --muted:#5d6975; --line:#e4dfd5; --accent:#2b7a57; --accent-bg:#e3f2ea;
           --warn:#8a5300; --warn-bg:#fff2dc; --bad:#a3262a; --bad-bg:#fde8e8; --gray-bg:#eceae4; --link:#1a5fb4; }
@@ -56,6 +62,10 @@
   .near h4 { margin:0 0 4px; font-size:.86rem; }
   .near .it { display:flex; justify-content:space-between; gap:8px; align-items:center; margin:5px 0; }
   .near .it small { color:var(--muted); display:block; }
+  .pill.n { background:#e8f0ff; color:#1a4fa3; } @media (prefers-color-scheme: dark) { .pill.n { background:#1d2c4a; color:#9cc0ff; } }
+  .ev { font-size:.8rem; color:var(--muted); margin:3px 0; } .ev b { color:var(--ink); }
+  .hsec { margin:14px 0 6px; font-size:.95rem; } .hit { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 11px; margin:6px 0; font-size:.84rem; }
+  .hit small { color:var(--muted); display:block; }
   .mini { flex:none; font-size:.78rem; padding:5px 9px; border-radius:8px; border:1px solid var(--accent); color:var(--accent); text-decoration:none; background:transparent; cursor:pointer; }
 </style>
 </head>
@@ -65,7 +75,7 @@
   <p class="sub" id="sub"></p>
 </header>
 <div class="bar"><div class="bar-in">
-  <div class="seg" id="segTab"><button data-v="local" aria-pressed="true">동네 식당·카페</button><button data-v="trip" aria-pressed="false">당일 나들이</button><button data-v="camp" aria-pressed="false" id="tabCamp">키즈캠핑</button></div>
+  <div class="seg" id="segTab"><button data-v="local" aria-pressed="true">동네 식당·카페</button><button data-v="trip" aria-pressed="false">당일 나들이</button><button data-v="camp" aria-pressed="false" id="tabCamp">키즈캠핑</button><button data-v="hist" aria-pressed="false" id="tabHist">🕘 이력</button></div>
   <div class="seg" id="segKind"><button data-v="restaurant" aria-pressed="true">식당</button><button data-v="cafe" aria-pressed="false">카페</button></div>
   <div class="seg" id="segMode"><button data-v="a" aria-pressed="true">4인 가족</button><button data-v="b" aria-pressed="false">6인(부모님)</button></div>
   <div class="seg" id="segType" style="display:none"><button data-v="all" aria-pressed="true">전체</button><button data-v="auto" aria-pressed="false">오토캠핑</button><button data-v="glamp" aria-pressed="false">글램핑·카라반</button></div>
@@ -74,10 +84,17 @@
 <main>
   <div class="note" id="note"></div>
   <div id="list"></div>
+  <div id="histView" style="display:none"></div>
   <details id="weak"><summary>근거가 부족한 곳 (참고용)</summary><div id="weakList"></div></details>
   <details id="excl"><summary>기준에 못 미쳐 뺀 곳과 이유</summary><div id="exclList"></div></details>
 </main>
 <footer>
+  <details><summary>📱 폰에 앱처럼 설치하기 (홈 화면 아이콘)</summary>
+    <p>따로 앱스토어에서 받는 앱은 없고, 이 페이지를 <b>홈 화면에 추가</b>하면 앱 아이콘처럼 열려요(주소창 없이 전체 화면, 항상 최신 내용).</p>
+    <ul><li><b>아이폰(사파리)</b>: 아래 공유 버튼(□↑) → <b>홈 화면에 추가</b> → 추가. 크롬으로 열었다면 사파리로 다시 열어 주세요.</li>
+    <li><b>안드로이드(크롬)</b>: 오른쪽 위 ⋮ → <b>앱 설치</b>(또는 홈 화면에 추가) → 설치.</li>
+    <li>주소: <b>kimbap64-cell.github.io/family-trip</b></li></ul>
+  </details>
   별점·영업 상태는 표시된 확인일 기준이에요. 네이버 별점이 없는 곳은 카카오 별점에 +0.8을 보정해 쓰고 표시했어요(카카오가 평균 0.8점 낮아서).
   이동시간은 실시간 교통이 반영되지 않은 계산값이에요. 좌석 형태·계단 등 <b>"확인 필요"</b>는 방문 전 전화로 확인해 주세요.
   '네이버 내비 시작'은 폰의 네이버 지도 앱에서 열려요(안 열리면 '네이버 지도').
@@ -102,7 +119,7 @@ function setNote() {
   const t = st.tab === 'trip';
   if (st.tab === 'camp') {
     const c = D.ccounts;
-    document.getElementById('note').innerHTML = `키즈 오토캠핑장 후보 <b>${D.camps.length}곳</b>(편도 65분 이내)을 실제 후기·별점으로 검증했어요 (추천 ${c['추천']} · 조건부 ${c['조건부']} · 근거부족 ${c['근거부족']} · 제외 ${c['제외']}). <b>시범판</b>이고, 요금은 네이버에 등록된 가격의 추정치예요. 예약·이용 조건은 꼭 캠핑장에 확인하세요.`;
+    document.getElementById('note').innerHTML = `키즈 오토캠핑장 후보 <b>${D.camps.length}곳</b>(편도 65분 이내)을 실제 후기·별점으로 검증했어요 (추천 ${c['추천']} · 조건부 ${c['조건부']} · 근거부족 ${c['근거부족']} · 제외 ${c['제외']}). <b>시범판</b>이고, 요금은 네이버 예약에 등록된 <b>최저 사이트 요금</b>이라 주말·성수기엔 더 높을 수 있어요(‘캠핏 요금 검색’ 버튼으로 직접 비교). 화장실·샤워실은 후기에서 개별(전용)·청결 언급을 찾아 점수에 반영했어요. 예약·이용 조건은 꼭 캠핑장에 확인하세요.`;
     return;
   }
   const n = t ? D.trips.length : D.places.length, c = t ? D.tcounts : D.counts;
@@ -141,13 +158,22 @@ function card(p) {
   // '영업 중/오늘 휴무'는 수집 시점의 스냅샷이라 표시하지 않는다(가는 날 상태는 네이버 지도에서 확인). 폐업 신호만 표시.
   p.flags.filter(f => /웨이팅|폐업|입장료.*4인|걷는 거리|사전 예약|휴관/.test(f)).forEach(f => pills.push(`<span class="pill w">${esc(f)}</span>`));
   if (p.ctype) pills.unshift(`<span class="pill ${p.ctype === '오토캠핑' ? 'g' : ''}">${esc(p.ctype)}</span>`);
+  if (p.h && p.h.new) pills.unshift(`<span class="pill n">🆕 새로 추가 ${esc(p.h.fs)}</span>`);
+  if (p.h && p.h.tier_chg) pills.push(`<span class="pill n">등급 변화: ${esc(p.h.tier_chg)}</span>`);
   if (p.rp == null) pills.push('<span class="pill b">별점 확인 불가</span>');
   if (p.flags.some(f => /카카오 교차검증 실패/.test(f))) pills.push('<span class="pill w">카카오 미확인</span>');
   if (p.flags.some(f => /읽은 독립 출처 0/.test(f))) pills.push('<span class="pill w">근거 수집 부족</span>');
   const kids = st.mode === 'a' && p.kids.length ? `<p class="q">👶 아이 관련 근거: ${esc(p.kids.join(' · '))}</p>` : '';
   const isC = p.kind === 'camping';
   const isT = p.kind === 'attraction' || isC;
-  const cost = p.cost ? `<span title="${esc(p.costb || '')}">${isC ? '이용요금 약 ' : isT ? '입장료 4인 약 ' : '4인 약 '}${fmt(Math.round(p.cost / 1000) * 1000)}원 <small style="color:var(--muted)">(${isC ? '1박·등록가 추정' : isT ? '성인2·어린이2' : '메뉴판 추정'})</small></span>` : '';
+  const cost = p.cost ? `<span title="${esc(p.costb || '')}">${isC ? '1박 ' : isT ? '입장료 4인 약 ' : '4인 약 '}${fmt(Math.round(p.cost / 1000) * 1000)}원${isC ? '~' : ''} <small style="color:var(--muted)">(${isC ? (/네이버 예약/.test(p.costb || '') ? '네이버 예약 최저가' : '네이버 등록가 추정') : isT ? '성인2·어린이2' : '메뉴판 추정'})</small></span>`
+    : isC ? '<span style="color:var(--muted)">요금 미확인</span>' : '';
+  // 키즈캠핑: 화장실·샤워실 (사용자 핵심 기준) — 근거 인용 + 없으면 '확인 필요'
+  const bathBlk = isC ? (p.bath && p.bath.length
+    ? `<div class="plan" style="border-color:${p.bath.some(e => e.l.includes('아쉬움')) ? 'var(--warn,#c77b00)' : 'var(--ok,#2a8a4a)'}"><h4>🚿 화장실·샤워실 (${p.bp}/9점)</h4>` +
+      p.bath.slice(0, 3).map(e => `<p class="q">${e.l.includes('아쉬움') ? '⚠️' : '✅'} ${esc(e.l)} — “${esc(e.q)}” <span>(${esc(e.k)}${e.d ? ', ' + esc(e.d) : ''})</span></p>`).join('') + `</div>`
+    : `<p class="q">🚿 화장실·샤워실: 후기에서 근거를 못 찾았어요 — <b>예약 전 개별(전용) 여부·청결을 확인</b>하세요</p>`) : '';
+  const priceLnk = isC ? `<a class="btn" href="${esc(p.cf)}" target="_blank" rel="noopener">캠핏 요금 검색</a>` : '';
   const plan = (isT && p.plan && p.plan.length) ? `<div class="plan"><h4>📌 가기 전 확인 (후기 발췌 — 공식 사이트로 재확인)</h4>` +
     p.plan.slice(0, 3).map(e => `<p class="q">${esc(e.l)}: “${esc(e.q)}” <span>(${esc(e.k)}${e.d ? ', ' + esc(e.d) : ''})</span></p>`).join('') +
     (new Set(p.plan.filter(e => e.l === '휴관·휴무일').map(e => (e.q.match(/[월화수목금토일]요일/) || [''])[0])).size > 1 ? `<p class="q"><b>⚠️ 휴관 요일이 글마다 달라요. 꼭 공식 안내를 확인하세요.</b></p>` : '') + `</div>` : '';
@@ -164,11 +190,13 @@ function card(p) {
     <div class="row"><span>🚗 ${p.dr != null ? Math.round(p.dr) + '분' : '-'}</span>${p.wk != null ? `<span>🚶 ${Math.round(p.wk)}분</span>` : ''}${rate.map(r => `<span>${r}</span>`).join('')}${cost}</div>
     <div style="margin-top:6px">${pills.join('')}</div>
     ${plan}
+    ${bathBlk}
     ${st.mode === 'b' ? modeB(p) : kids}
     <div class="btns">
       <a class="btn pri" href="${esc(p.nav.app)}" onclick="go('${esc(p.nav.app)}','${esc(p.nav.web)}');return false;">🧭 네이버 내비 시작</a>
       <a class="btn" href="${esc(p.nav.web)}" target="_blank" rel="noopener">네이버 지도</a>
       ${p.nav.kakao ? `<a class="btn" href="${esc(p.nav.kakao)}" target="_blank" rel="noopener">카카오맵</a>` : ''}
+      ${priceLnk}
     </div>
     ${nearT}
     <details><summary>점수 근거·후기 링크</summary>
@@ -176,15 +204,41 @@ function card(p) {
       ${menus ? `<li>메뉴: ${menus}</li>` : ''}
       ${p.tel ? `<li>전화 <a href="tel:${esc(p.tel)}">${esc(p.tel)}</a></li>` : ''}
       ${src.join('')}${st.mode === 'a' ? '' : ''}</ul>
+      ${p.h && p.h.ev.length ? `<p class="q"><b>이력</b> (목록에 처음 오른 날 ${esc(p.h.fs)})</p>` + p.h.ev.map(e => `<p class="ev">${esc(e.d)} · ${esc(e.x)}</p>`).join('') : (p.h ? `<p class="q">이력: ${esc(p.h.fs)}부터 기록 중 · 아직 변화 없음</p>` : '')}
       ${st.mode === 'a' ? modeB(p) : ''}
     </details>
   </div>`;
 }
 
+const SC = {local: '동네', trip: '나들이', camp: '캠핑'};
+const EI = {new: '🆕', tier: '📈', rating: '⭐', closed: '⛔', reopened: '✅', renamed: '🔄', missing: '📤', back: '📥'};
+function renderHist() {
+  const H = D.hist;
+  const link = (x) => x.app ? `<a class="mini" href="${esc(x.app)}" onclick="go('${esc(x.app)}','${esc(x.web)}');return false;">내비</a>` : (x.web ? `<a class="mini" href="${esc(x.web)}" target="_blank" rel="noopener">지도</a>` : '');
+  if (!H) return '<div class="empty">이력은 다음 점검부터 쌓여요</div>';
+  let h = `<div class="note">추천 목록은 <b>지워지지 않고 쌓여요</b>. ${esc(H.since)}부터 ${H.total}곳의 변화(새로 추가·등급/별점 변화·이름 변경(리뉴얼)·폐업 의심·목록에서 빠짐)를 기록해요. 매주 자동 점검 때 갱신돼요.</div>`;
+  h += `<h3 class="hsec">최근 변화 (60일)</h3>`;
+  h += H.recent.length ? H.recent.map(e => `<div class="hit" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><div><b>${EI[e.t] || '•'} ${esc(e.n)}</b> <span style="color:var(--muted)">· ${SC[e.sc]}</span><small>${esc(e.d)} · ${esc(e.x)}</small></div>${link(e)}</div>`).join('') : `<div class="empty">아직 변화가 없어요 (${esc(H.since)}부터 기록 중)</div>`;
+  h += `<h3 class="hsec">🆕 새로 발견됐어요 — 아직 검증 전 (${H.pending.length}곳)</h3><p class="q">새로 문을 열었거나 리뷰 기준(식당·카페·나들이 300건, 캠핑 50건)을 새로 넘은 곳이에요. 후기를 읽고 점수화하기 전이라 <b>추천이 아니에요</b>.</p>`;
+  h += H.pending.length ? H.pending.map(x => `<div class="hit" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><div><b>${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]}</span><small>${esc(x.cat || '')} · 네이버 리뷰 ${fmt(x.rv)}${x.rt ? ' · ★' + x.rt : ''} · 집에서 직선 ${x.km}km · 발견 ${esc(x.ff)}</small></div>${link(x)}</div>`).join('') : '<div class="empty">없음</div>';
+  h += `<h3 class="hsec">목록에서 빠진 곳·문 닫은 곳 (이력 보관, ${H.archive.length}곳)</h3>`;
+  h += H.archive.length ? H.archive.map(x => `<div class="hit"><b>${x.st === 'closed' ? '⛔' : '📤'} ${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]} · 마지막 확인 ${esc(x.ls)} · 당시 ${esc(x.tier)} ${x.s}점</span><small>${esc(x.why)}</small></div>`).join('') : '<div class="empty">없음</div>';
+  h += `<p class="q">점검 후보 풀: 지금까지 본 후보 ${H.seen}곳 중 ${H.total}곳이 점수화돼 목록에 있어요${H.discovered ? ' · 새 장소 탐색 ' + esc(H.discovered) : ''}.</p>`;
+  return h;
+}
+
 function render() {
   setNote();
+  const isH = st.tab === 'hist';
+  document.getElementById('histView').style.display = isH ? '' : 'none';
+  for (const id of ['list', 'weak', 'excl']) document.getElementById(id).style.display = isH ? 'none' : '';
+  document.getElementById('sort').style.display = isH ? 'none' : '';
+  document.getElementById('segMode').style.display = isH ? 'none' : '';
+  document.getElementById('note').style.display = isH ? 'none' : '';
+  if (isH) { document.getElementById('segKind').style.display = 'none'; document.getElementById('segType').style.display = 'none'; document.getElementById('histView').innerHTML = renderHist(); return; }
   document.getElementById('segKind').style.display = st.tab === 'local' ? '' : 'none';
   document.getElementById('tabCamp').style.display = D.camps && D.camps.length ? '' : 'none';
+  document.getElementById('tabHist').style.display = D.hist ? '' : 'none';
   document.getElementById('segType').style.display = st.tab === 'camp' ? '' : 'none';
   let base = st.tab === 'trip' ? D.trips : st.tab === 'camp' ? (D.camps || []) : D.places.filter(p => p.kind === st.kind);
   if (st.tab === 'camp' && st.ctype !== 'all') base = base.filter(p => (p.ctype === '오토캠핑') === (st.ctype === 'auto'));
@@ -211,6 +265,7 @@ for (const [id, key] of [['segTab', 'tab'], ['segKind', 'kind'], ['segMode', 'mo
 }
 document.getElementById('sort').addEventListener('change', e => { st.sort = e.target.value; render(); });
 render();
+if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {})); }
 </script>
 </body>
 </html>
