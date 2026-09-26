@@ -108,7 +108,7 @@ def list_places(query, x=None, y=None):
             "visitor_review_score": _num(v.get("visitorReviewScore")),
             "blog_review_count": int(_num(v.get("blogCafeReviewCount")) or 0) if v.get("blogCafeReviewCount") else None,
             "business_status": bh.get("status"), "business_desc": bh.get("description"),
-            "distance": v.get("distance"),
+            "distance": v.get("distance"), "new_opening": bool(v.get("newOpening")),
         })
     # 캠핑·숙박 검색은 다른 형식(AccommodationSearchItem)으로 응답한다: 별점/리뷰/좌표/최저요금이 다른 필드명
     for k, v in st.items():
@@ -122,7 +122,7 @@ def list_places(query, x=None, y=None):
             # 캠핑 목록은 별점이 없으면 0.0 을 내려준다 -> 0 은 '없음'(None). 실제 별점은 상세 페이지(detail)에 있다.
             "visitor_review_count": int(rc) if rc else None, "visitor_review_score": (_num(v.get("placeReviewScore")) or None),
             "blog_review_count": int(_num(v.get("blogCafeReviewCount")) or 0) if v.get("blogCafeReviewCount") else None,
-            "business_status": None, "business_desc": None, "distance": v.get("distance"),
+            "business_status": None, "business_desc": None, "distance": v.get("distance"), "new_opening": bool(v.get("newOpening")),
             "min_price": int(_num(v.get("matchRoomMinPrice")) or 0) or None, "promo": v.get("promotionTitle"), "micro_review": v.get("microReview"),
         })
     return out

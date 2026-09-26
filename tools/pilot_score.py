@@ -12,6 +12,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import naver_place as npl
 from pilot_local import rel_days
+import registry as rg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CFG = json.load(open(os.path.join(ROOT, "config", "criteria.json"), encoding="utf-8"))
@@ -22,6 +23,8 @@ B_WEIGHT = {"입식/테이블": 4, "주차": 3, "엘리베이터/1층/평지": 3
 KIDS_LABELS = ["유아의자", "키즈메뉴", "놀이시설", "아이동반", "유모차", "체험·동물", "캠핑 키즈시설"]
 OUTDOOR = ("attraction", "camping")  # 야외 이동·경사·쉼터가 핵심인 종류
 SOFT_FOOD = re.compile(r"두부|순두부|죽|솥밥|찜|국밥|곰탕|설렁탕|칼국수|샤브|백숙|전골|수제비|국수|찌개|탕")
+REG_SCOPE = {"local": "local", "day_trip": "trip", "camping": "camp"}
+NEW_OPEN = rg.new_open_map()  # 네이버 '새로오픈' 표시를 본 장소 {키: 처음 본 날}
 KIND_TITLE = {"restaurant": "식당", "cafe": "카페", "attraction": "체험·나들이", "camping": "키즈캠핑"}
 
 
@@ -97,7 +100,13 @@ def score_place(p, yt, scope="local"):
     else:
         pooled, rate_n, rate_src = None, 0, None
     total_rev = nn + kn
-    prior, w = PS["bayes_prior_rating"], PS["bayes_prior_weight"]
+    # 신규 오픈: 표본이 작아 사전분포(4.2) 영향을 줄이고, 리뷰 하한을 낮춘다(설계: docs/UPDATE_PLAN.md '신규 오픈')
+    nos = NEW_OPEN.get(f"{REG_SCOPE.get(scope, scope)}:{n['id']}")
+    try:
+        is_new = bool(nos) and (date.today() - date.fromisoformat(nos)).days <= PS["new_open_days"]
+    except (TypeError, ValueError):
+        is_new = False
+    prior, w = PS["bayes_prior_rating"], PS["bayes_prior_weight_new_open"] if is_new else PS["bayes_prior_weight"]
     bayes = (pooled * rate_n + prior * w) / (rate_n + w) if pooled else None
     rating_pts = pts_from(PS["rating_points"], bayes) if bayes else 0
     review_pts = min(PS["review_scale_max"], 2.5 * math.log10(total_rev + 1))
@@ -125,7 +134,9 @@ def score_place(p, yt, scope="local"):
         kids.add("유아의자")
     camp = kind == "camping"
     CF = PS["camping_family"]
-    mode_a = min(CF["mode_a_max"] if camp else PS["mode_a_max"], 3 * len(kids & set(KIDS_LABELS)))
+    # 식당·카페는 '캠핑 키즈시설'(수영장·계곡·키즈존 등)·'체험·동물'이 의미가 없고(키즈존을 놀이시설과 이중 계산, '체험단'·'반려동물' 오탐), 나들이·캠핑에서만 센다
+    klabels = set(KIDS_LABELS) if kind in OUTDOOR else set(KIDS_LABELS) - {"캠핑 키즈시설", "체험·동물"}
+    mode_a = min(CF["mode_a_max"] if camp else PS["mode_a_max"], 3 * len(kids & klabels))
     pos = {e["label"] for e in ev["b_pos"]}
     if "주차" in (nd.get("conveniences") or []) or "주차가능" in fac:
         pos.add("주차")
@@ -226,8 +237,9 @@ def score_place(p, yt, scope="local"):
         flags.append("별점 없음(네이버·카카오 모두)")
     elif bayes is not None and bayes < min_rate - 0.05 and pooled < min_rate:
         fails.append(f"별점({rate_src}) {pooled:.2f} < {min_rate}")
-    if total_rev < G["min_review_count"].get(kind, 100):
-        fails.append(f"리뷰 {total_rev} < {G['min_review_count'].get(kind, 100)}")
+    min_rev = (G["min_review_count_new_open"] if is_new else G["min_review_count"]).get(kind, 100)
+    if total_rev < min_rev:
+        fails.append(f"리뷰 {total_rev} < {min_rev}" + (" (신규 오픈 기준)" if is_new else ""))
     if dm is None or dm > max_drive:
         fails.append(f"차량 {dm}분 > {max_drive}분")
     no_source = src_count < G["require_min_sources"]
@@ -241,6 +253,8 @@ def score_place(p, yt, scope="local"):
         flags.append(f"입장료만 4인 약 {cost['krw']:,}원")
     if pooled and pooled >= G["high_rating_badge"]:
         flags.append("고평점(≥4.5)")
+    if is_new:
+        flags.append(f"🌱 신규 오픈(네이버 '새로오픈' 표시, {nos} 확인) — 후기 표본이 적어요")
     if soft:
         flags.append("부드러운 음식 메뉴 있음")
     if "웨이팅" in neg and kind not in OUTDOOR:
@@ -283,6 +297,8 @@ def score_place(p, yt, scope="local"):
         tier = "조건부"  # 별점/교차검증이 빠졌으면 추천 상한 = 조건부
     if tier in ("추천", "조건부") and no_source:
         tier = "근거부족"  # 읽은 독립 출처가 없으면 추천/조건부로 올리지 않음(제외도 아님)
+    if tier == "추천" and is_new:
+        tier = "조건부"  # 신규 오픈은 표본이 작아 추천 상한 = 조건부(대신 화면 최상단 '새로 문 연 곳'에 노출)
     if tier == "추천" and kind == "attraction" and cost and cost["krw"] > 150000:
         tier = "조건부"  # 입장료 4인 15만원 초과는 예산 주의 -> 추천 상한 조건부
         flags.append("입장료 4인 15만원 초과 → 추천 상한 조건부")
@@ -294,13 +310,13 @@ def score_place(p, yt, scope="local"):
         "id": f"naver-{n['id']}", "name": n["name"], "kind": kind,
         "naver": {"place_id": n["id"], "category": n.get("category"), "road_address": n.get("road_address"),
                   "x": n.get("x"), "y": n.get("y"), "score": nr, "reviews": nn, "blog_reviews": n.get("blog_review_count"),
-                  "status": n.get("business_status"), "conveniences": nd.get("conveniences"), "phone": n.get("phone")},
+                  "status": n.get("business_status"), "new_open": is_new, "new_open_since": nos if is_new else None, "conveniences": nd.get("conveniences"), "phone": n.get("phone")},
         "kakao": {k_: k.get(k_) for k_ in ("found", "kakao_id", "kakao_url", "kakao_road_address", "rating", "review_count", "status", "dist_m", "facility_icons", "store_infos", "headline", "phone")},
         "rating": {"pooled": round(pooled, 2) if pooled else None, "bayes": round(bayes, 2) if bayes else None, "total_reviews": total_rev, "source": rate_src},
         "nav": npl.nav_links(n["name"], n["x"], n["y"], n["id"]),
         "drive": p.get("drive"), "walk": p.get("walk"),
         "price": {"est_meal_4p": cost, "menus_sample": (nd.get("menus") or [])[:6]},
-        "family": {"mode_a": sorted(kids), "mode_b": {"positive": list(ev["b_pos"]), "negative": list(ev["b_neg"]),
+        "family": {"mode_a": sorted(kids & klabels), "mode_b": {"positive": list(ev["b_pos"]), "negative": list(ev["b_neg"]),
                                                       "verdict": verdict, "unknown": unknown, "soft_food": soft},
                    "bath": [{k_: e.get(k_) for k_ in ("label", "quote", "src", "date")} for e in bath_ev][:5]},
         "sources": {"blogs": p.get("blogs_read", []), "youtube": [{"video_id": m["video_id"], "link": m["link"], "t": m["t"], "quote": m["quote"], "where": m["where"]} for m in ymentions]},

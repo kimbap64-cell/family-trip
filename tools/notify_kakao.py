@@ -75,11 +75,27 @@ def build():
             text += "\n⚠️ 폐업 의심: " + ", ".join(c["name"][:8] for c in sl["closures"][:3])
         elif sl["changes"]:
             text += f"\n별점 변동 {len(sl['changes'])}곳 점검됨"
+    nw = new_open_picks()
+    if nw:
+        text += "\n🌱 새로 문 연 곳: " + " · ".join(nw)
     ch = week_changes()
     if ch:
         text += "\n🕘 " + ch + " (이력 탭)"
     text += "\n※ 휴관·예약은 가기 전 확인"
     return tpl_text(text)
+
+
+def new_open_picks(n=2):
+    """네이버 '새로오픈' 표시가 붙은 추천·조건부 상위 n곳(이름 10자, 별점). 없으면 []."""
+    out = []
+    for rel in ("data/pilot/misa_places.json", "data/camping/places.json"):
+        fp = os.path.join(ROOT, rel)
+        if not os.path.exists(fp):
+            continue
+        for p in json.load(open(fp, encoding="utf-8"))["places"]:
+            if p["naver"].get("new_open") and p["scores"]["tier"] in ("추천", "조건부") and p["naver"].get("score"):
+                out.append((p["scores"]["total"], f"{p['name'][:8]}★{p['naver']['score']}"))
+    return [t for _, t in sorted(out, reverse=True)[:n]]
 
 
 def week_changes(days=7):

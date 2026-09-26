@@ -1,7 +1,44 @@
 {
  "baseline": "2026-09-26",
  "discovered": "2026-09-26",
- "pending": {},
+ "pending": {
+  "camp:1305810712": {
+   "addr": "경기 가평군 설악면 가마소길 17-500",
+   "app": "nmap://navigation?dlat=37.6335723&dlng=127.4751344&dname=%EC%BA%A0%ED%94%84%EC%8A%A4%ED%85%8C%EC%9D%B4&appname=kr.familytrip.misa",
+   "cand": {
+    "address": "천안리 714-1",
+    "blog_review_count": 112,
+    "business_desc": null,
+    "business_status": null,
+    "category": "캠핑,야영장",
+    "distance": "44km",
+    "id": "1305810712",
+    "micro_review": "관리 잘된 시설과 아름다운 계곡의 조화",
+    "min_price": 50000,
+    "name": "캠프스테이",
+    "new_opening": false,
+    "phone": null,
+    "promo": "",
+    "road_address": "경기 가평군 설악면 가마소길 17-500",
+    "visitor_review_count": 600,
+    "visitor_review_score": 4.87,
+    "x": 127.4751344,
+    "y": 37.6335723
+   },
+   "category": "캠핑,야영장",
+   "first_found": "2026-09-26",
+   "id": "1305810712",
+   "kind": "camping",
+   "km": 26.3,
+   "last_seen": "2026-09-26",
+   "name": "캠프스테이",
+   "new_open": false,
+   "rating": 4.87,
+   "reviews": 600,
+   "scope": "camp",
+   "web": "https://map.naver.com/p/entry/place/1305810712"
+  }
+ },
  "places": {
   "camp:1031240390": {
    "baseline": true,
@@ -84,7 +121,7 @@
     "dr": 44.7,
     "rating": 4.95,
     "reviews": 3772,
-    "score": 72.9,
+    "score": 84.9,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/1205002942"
    },
@@ -155,6 +192,11 @@
      "date": "2026-09-26",
      "text": "이력 기록 시작 — 추천 73.6점",
      "type": "baseline"
+    },
+    {
+     "date": "2026-09-26",
+     "text": "추천 → 조건부 (73.6→68.6점)",
+     "type": "tier"
     }
    ],
    "first_seen": "2026-09-26",
@@ -171,8 +213,8 @@
     "dr": 26.3,
     "rating": 4.71,
     "reviews": 2782,
-    "score": 73.6,
-    "tier": "추천",
+    "score": 68.6,
+    "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1459700349"
    },
    "status": "active"
@@ -467,6 +509,56 @@
    },
    "status": "active"
   },
+  "camp:2007947779": {
+   "baseline": false,
+   "cand": {
+    "address": "금왕리 28",
+    "blog_review_count": 2,
+    "business_desc": null,
+    "business_status": null,
+    "category": "캠핑,야영장",
+    "distance": "68km",
+    "id": "2007947779",
+    "micro_review": null,
+    "min_price": 10000,
+    "name": "명랑가출",
+    "new_opening": true,
+    "phone": "0507-1328-4906",
+    "promo": "",
+    "road_address": "경기 양평군 양동면 몰운고갯길 732-25 금왕리28",
+    "visitor_review_count": 11,
+    "visitor_review_score": 5.0,
+    "x": 127.7418317,
+    "y": 37.4931407
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 65.7점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2007947779",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "명랑가출",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 양평군 양동면 몰운고갯길 732-25 금왕리28",
+    "app": "nmap://navigation?dlat=37.4931407&dlng=127.7418317&dname=%EB%AA%85%EB%9E%91%EA%B0%80%EC%B6%9C&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 57.6,
+    "rating": 5,
+    "reviews": 11,
+    "score": 56.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2007947779"
+   },
+   "status": "active"
+  },
   "camp:2057370650": {
    "baseline": true,
    "events": [
@@ -493,6 +585,106 @@
     "score": 85.3,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/2057370650"
+   },
+   "status": "active"
+  },
+  "camp:2077381440": {
+   "baseline": false,
+   "cand": {
+    "address": "송촌동 604-5",
+    "blog_review_count": 440,
+    "business_desc": null,
+    "business_status": null,
+    "category": "캠핑,야영장",
+    "distance": "32km",
+    "id": "2077381440",
+    "micro_review": null,
+    "min_price": null,
+    "name": "한강캠핑",
+    "new_opening": true,
+    "phone": "0507-1383-2200",
+    "promo": "",
+    "road_address": "경기 파주시 소라지로 215",
+    "visitor_review_count": 219,
+    "visitor_review_score": null,
+    "x": 126.6916534,
+    "y": 37.741891
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 68.9점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2077381440",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "한강캠핑",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 파주시 소라지로 215",
+    "app": "nmap://navigation?dlat=37.741891&dlng=126.6916534&dname=%ED%95%9C%EA%B0%95%EC%BA%A0%ED%95%91&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 57.0,
+    "rating": 4.97,
+    "reviews": 219,
+    "score": 65.9,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2077381440"
+   },
+   "status": "active"
+  },
+  "camp:2087896252": {
+   "baseline": false,
+   "cand": {
+    "address": "탑동동 583-5",
+    "blog_review_count": 9,
+    "business_desc": null,
+    "business_status": null,
+    "category": "캠핑,야영장",
+    "distance": "36km",
+    "id": "2087896252",
+    "micro_review": null,
+    "min_price": null,
+    "name": "칠봉산캠프",
+    "new_opening": true,
+    "phone": "0507-1382-7076",
+    "promo": "",
+    "road_address": "경기 동두천시 천보산로 412-31 1층",
+    "visitor_review_count": 17,
+    "visitor_review_score": 5.0,
+    "x": 127.1078946,
+    "y": 37.8734333
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 근거부족 52.1점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2087896252",
+   "kind": "camping",
+   "last_seen": "2026-09-26",
+   "name": "칠봉산캠프",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "camp",
+   "snap": {
+    "addr": "경기 동두천시 천보산로 412-31 1층",
+    "app": "nmap://navigation?dlat=37.8734333&dlng=127.1078946&dname=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
+    "cat": "캠핑,야영장",
+    "dr": 43.5,
+    "rating": 5,
+    "reviews": 17,
+    "score": 52.1,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2087896252"
    },
    "status": "active"
   },
@@ -577,7 +769,7 @@
     "dr": 45.8,
     "rating": 4.57,
     "reviews": 2347,
-    "score": 66.4,
+    "score": 63.4,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/35854046"
    },
@@ -750,7 +942,7 @@
     "cat": "백반,가정식",
     "dr": 3.9,
     "rating": 4.3,
-    "reviews": 8393,
+    "reviews": 8391,
     "score": 49.8,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/1028388645"
@@ -778,9 +970,9 @@
     "app": "nmap://navigation?dlat=37.5873233&dlng=127.1760925&dname=%EC%B9%B4%ED%8E%98%20%EB%B7%B066%20%EB%AF%B8%ED%98%B8%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
     "cat": "브런치카페",
     "dr": 11.7,
-    "rating": 4.62,
-    "reviews": 14116,
-    "score": 68,
+    "rating": 4.63,
+    "reviews": 14159,
+    "score": 65,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1045452794"
    },
@@ -837,7 +1029,7 @@
     "cat": "육류,고기요리",
     "dr": 2.3,
     "rating": 4.8,
-    "reviews": 4154,
+    "reviews": 4165,
     "score": 73.1,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/1070507758"
@@ -866,10 +1058,39 @@
     "cat": "육류,고기요리",
     "dr": 1.6,
     "rating": 4.6,
-    "reviews": 3536,
+    "reviews": 3539,
     "score": 61.1,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1073361856"
+   },
+   "status": "active"
+  },
+  "local:1083885273": {
+   "baseline": false,
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "새로 목록에 들어옴 — 근거부족 46.2점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "1083885273",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "뽕사부 미사점",
+   "names": [],
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 572 1층",
+    "app": "nmap://navigation?dlat=37.5556647&dlng=127.2083497&dname=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "중식당",
+    "dr": 3.1,
+    "rating": 3.7,
+    "reviews": 4939,
+    "score": 46.2,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/1083885273"
    },
    "status": "active"
   },
@@ -895,7 +1116,7 @@
     "cat": "일식당",
     "dr": 1.5,
     "rating": 4.9,
-    "reviews": 4859,
+    "reviews": 4864,
     "score": 63.2,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1192492733"
@@ -924,7 +1145,7 @@
     "cat": "한정식",
     "dr": 10.8,
     "rating": 4.5,
-    "reviews": 4079,
+    "reviews": 4078,
     "score": 52.1,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/12056876"
@@ -953,7 +1174,7 @@
     "cat": "소고기구이",
     "dr": 1.6,
     "rating": null,
-    "reviews": 1326,
+    "reviews": 1327,
     "score": 38.8,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/1207307033"
@@ -982,8 +1203,8 @@
     "cat": "브런치",
     "dr": 1.6,
     "rating": 4.85,
-    "reviews": 4661,
-    "score": 74.2,
+    "reviews": 4694,
+    "score": 71.2,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/1241322191"
    },
@@ -1011,8 +1232,8 @@
     "cat": "육류,고기요리",
     "dr": 1.7,
     "rating": 5.0,
-    "reviews": 8946,
-    "score": 66.9,
+    "reviews": 8974,
+    "score": 63.9,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1257268837"
    },
@@ -1040,7 +1261,7 @@
     "cat": "카페,디저트",
     "dr": 3.7,
     "rating": null,
-    "reviews": 836,
+    "reviews": 837,
     "score": 38.3,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/1268607672"
@@ -1098,8 +1319,8 @@
     "cat": "육류,고기요리",
     "dr": 1.5,
     "rating": 4.85,
-    "reviews": 8155,
-    "score": 68.8,
+    "reviews": 8167,
+    "score": 65.8,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1292936852"
    },
@@ -1126,8 +1347,8 @@
     "app": "nmap://navigation?dlat=37.5869335&dlng=127.1756387&dname=%EB%B2%84%EB%93%9C%EB%82%98%EB%AC%B4%EC%A7%91%20%EB%82%A8%EC%96%91%EC%A3%BC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
     "cat": "해물,생선요리",
     "dr": 11.6,
-    "rating": 4.77,
-    "reviews": 3422,
+    "rating": 4.75,
+    "reviews": 3438,
     "score": 73.8,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/13272354"
@@ -1185,7 +1406,7 @@
     "cat": "카페,디저트",
     "dr": 4.3,
     "rating": 2.9,
-    "reviews": 4446,
+    "reviews": 4452,
     "score": 41.1,
     "tier": "제외",
     "web": "https://map.naver.com/p/entry/place/1339025515"
@@ -1213,8 +1434,8 @@
     "app": "nmap://navigation?dlat=37.5863789&dlng=127.1703955&dname=%EC%82%BC%EB%8C%80%EA%B3%A0%EB%93%B1%EC%96%B4%EB%AA%85%EC%9E%A5%20%EB%82%A8%EC%96%91%EC%A3%BC%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
     "cat": "생선구이",
     "dr": 10.4,
-    "rating": 4.58,
-    "reviews": 4958,
+    "rating": 4.57,
+    "reviews": 4961,
     "score": 64.3,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1339736890"
@@ -1243,7 +1464,7 @@
     "cat": "카페",
     "dr": 10.7,
     "rating": 3.4,
-    "reviews": 5096,
+    "reviews": 5094,
     "score": 47.3,
     "tier": "제외",
     "web": "https://map.naver.com/p/entry/place/1384451031"
@@ -1272,8 +1493,8 @@
     "cat": "해물,생선요리",
     "dr": 4.1,
     "rating": 4.86,
-    "reviews": 6414,
-    "score": 82.7,
+    "reviews": 6471,
+    "score": 79.7,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/1386170219"
    },
@@ -1330,7 +1551,7 @@
     "cat": "한정식",
     "dr": 2.1,
     "rating": 3.3,
-    "reviews": 2762,
+    "reviews": 2763,
     "score": 42.6,
     "tier": "제외",
     "web": "https://map.naver.com/p/entry/place/1469586789"
@@ -1359,8 +1580,8 @@
     "cat": "육류,고기요리",
     "dr": 1.5,
     "rating": 5.0,
-    "reviews": 4530,
-    "score": 55.1,
+    "reviews": 4549,
+    "score": 55.2,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1483001910"
    },
@@ -1388,7 +1609,7 @@
     "cat": "카페,디저트",
     "dr": 11.1,
     "rating": 4.1,
-    "reviews": 5480,
+    "reviews": 5482,
     "score": 40.4,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/1491718614"
@@ -1417,8 +1638,8 @@
     "cat": "돼지고기구이",
     "dr": 1.6,
     "rating": 4.86,
-    "reviews": 7680,
-    "score": 76.7,
+    "reviews": 7703,
+    "score": 73.7,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1504823470"
    },
@@ -1475,7 +1696,7 @@
     "cat": "칼국수,만두",
     "dr": 5.1,
     "rating": 4.84,
-    "reviews": 5342,
+    "reviews": 5350,
     "score": 76.3,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/1603270165"
@@ -1518,6 +1739,11 @@
      "date": "2026-09-26",
      "text": "이력 기록 시작 — 근거부족 47.2점",
      "type": "baseline"
+    },
+    {
+     "date": "2026-09-26",
+     "text": "이번 점검 목록에서 빠짐(후보 순위 밀림 등 — 폐업 뜻은 아님)",
+     "type": "missing"
     }
    ],
    "first_seen": "2026-09-26",
@@ -1538,7 +1764,7 @@
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/1868886901"
    },
-   "status": "active"
+   "status": "missing"
   },
   "local:1926712732": {
    "baseline": true,
@@ -1562,7 +1788,7 @@
     "cat": "카페,디저트",
     "dr": 10.0,
     "rating": 4.3,
-    "reviews": 6642,
+    "reviews": 6643,
     "score": 49.6,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/1926712732"
@@ -1591,10 +1817,57 @@
     "cat": "카페,디저트",
     "dr": 9.3,
     "rating": 4.3,
-    "reviews": 16656,
+    "reviews": 16726,
     "score": 63,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/1961461592"
+   },
+   "status": "active"
+  },
+  "local:2001657224": {
+   "baseline": false,
+   "cand": {
+    "address": "고덕동 693",
+    "blog_review_count": 1,
+    "business_desc": "20:00에 영업 종료",
+    "business_status": "영업 중",
+    "category": "카페",
+    "distance": "2.5km",
+    "id": "2001657224",
+    "name": "커스텀커피 고덕그라시움점",
+    "new_opening": true,
+    "phone": "070-4412-1040",
+    "road_address": "고덕로 353 고덕그라시움 에이동 104호",
+    "visitor_review_count": 333,
+    "visitor_review_score": null,
+    "x": 127.1644592,
+    "y": 37.5567657
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 55.3점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2001657224",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "커스텀커피 고덕그라시움점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "고덕로 353 고덕그라시움 에이동 104호",
+    "app": "nmap://navigation?dlat=37.5567657&dlng=127.1644592&dname=%EC%BB%A4%EC%8A%A4%ED%85%80%EC%BB%A4%ED%94%BC%20%EA%B3%A0%EB%8D%95%EA%B7%B8%EB%9D%BC%EC%8B%9C%EC%9B%80%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "카페",
+    "dr": 3.6,
+    "rating": 4.88,
+    "reviews": 333,
+    "score": 55.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2001657224"
    },
    "status": "active"
   },
@@ -1620,10 +1893,245 @@
     "cat": "일식당",
     "dr": 1.6,
     "rating": 5.0,
-    "reviews": 5443,
+    "reviews": 5459,
     "score": 76.3,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/2003229178"
+   },
+   "status": "active"
+  },
+  "local:2007667269": {
+   "baseline": false,
+   "cand": {
+    "address": "풍산동 546-2",
+    "blog_review_count": 6,
+    "business_desc": "21:00에 라스트오더",
+    "business_status": "영업 중",
+    "category": "샤브샤브",
+    "distance": "200m",
+    "id": "2007667269",
+    "name": "숲속에샤브",
+    "new_opening": true,
+    "phone": "0507-1335-0851",
+    "road_address": "미사강변중앙로111번길 51 1층",
+    "visitor_review_count": 103,
+    "visitor_review_score": null,
+    "x": 127.1903466,
+    "y": 37.558197
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 61.0점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2007667269",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "숲속에샤브",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로111번길 51 1층",
+    "app": "nmap://navigation?dlat=37.558197&dlng=127.1903466&dname=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "cat": "샤브샤브",
+    "dr": 0.8,
+    "rating": 4.98,
+    "reviews": 103,
+    "score": 61.0,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2007667269"
+   },
+   "status": "active"
+  },
+  "local:2011414401": {
+   "baseline": false,
+   "cand": {
+    "address": "덕풍동 762",
+    "blog_review_count": 14,
+    "business_desc": "추석 연휴 휴무",
+    "business_status": "오늘 휴무",
+    "category": "냉면",
+    "distance": "530m",
+    "id": "2011414401",
+    "name": "고향밀면 하남아이테코점",
+    "new_opening": true,
+    "phone": "0507-1391-6516",
+    "road_address": "조정대로 150 아이테코 지하1층 RB121호",
+    "visitor_review_count": 37,
+    "visitor_review_score": 4.82,
+    "x": 127.1946825,
+    "y": 37.5535298
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 61.0점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2011414401",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "고향밀면 하남아이테코점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "조정대로 150 아이테코 지하1층 RB121호",
+    "app": "nmap://navigation?dlat=37.5535298&dlng=127.1946825&dname=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "냉면",
+    "dr": 2.5,
+    "rating": 4.82,
+    "reviews": 37,
+    "score": 61.0,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2011414401"
+   },
+   "status": "active"
+  },
+  "local:2014999980": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1111",
+    "blog_review_count": 13,
+    "business_desc": "17:00에 영업 시작",
+    "business_status": "영업 전",
+    "category": "생선회",
+    "distance": "390m",
+    "id": "2014999980",
+    "name": "하나시2호점",
+    "new_opening": true,
+    "phone": "0507-1451-1888",
+    "road_address": "미사강변중앙로170번길 10 1층 105호",
+    "visitor_review_count": 105,
+    "visitor_review_score": null,
+    "x": 127.1918768,
+    "y": 37.5614202
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 61.1점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2014999980",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "하나시2호점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로170번길 10 1층 105호",
+    "app": "nmap://navigation?dlat=37.5614202&dlng=127.1918768&dname=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "생선회",
+    "dr": 1.7,
+    "rating": 4.86,
+    "reviews": 105,
+    "score": 61.1,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2014999980"
+   },
+   "status": "active"
+  },
+  "local:2015604890": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1143-1",
+    "blog_review_count": 332,
+    "business_desc": "11:30에 영업 시작",
+    "business_status": "곧 영업 시작",
+    "category": "육류,고기요리",
+    "distance": "1.1km",
+    "id": "2015604890",
+    "name": "한마음정육식당 하남미사점",
+    "new_opening": true,
+    "phone": "0507-1367-1101",
+    "road_address": "미사대로 410 3층 333, 334, 335호",
+    "visitor_review_count": 608,
+    "visitor_review_score": 4.9,
+    "x": 127.1977704,
+    "y": 37.5666509
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 76.0점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2015604890",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "한마음정육식당 하남미사점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 410 3층 333, 334, 335호",
+    "app": "nmap://navigation?dlat=37.5666509&dlng=127.1977704&dname=%ED%95%9C%EB%A7%88%EC%9D%8C%EC%A0%95%EC%9C%A1%EC%8B%9D%EB%8B%B9%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 3.5,
+    "rating": 4.9,
+    "reviews": 608,
+    "score": 81.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2015604890"
+   },
+   "status": "active"
+  },
+  "local:2017576235": {
+   "baseline": false,
+   "cand": {
+    "address": "풍산동 507",
+    "blog_review_count": 0,
+    "business_desc": "20:30에 영업 종료",
+    "business_status": "영업 중",
+    "category": "국수",
+    "distance": "400m",
+    "id": "2017576235",
+    "name": "면24 하남미사점",
+    "new_opening": true,
+    "phone": "0507-1348-8701",
+    "road_address": "미사강변대로34번길 100 109호",
+    "visitor_review_count": 36,
+    "visitor_review_score": null,
+    "x": 127.1882786,
+    "y": 37.556843
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 근거부족 36.9점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2017576235",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "면24 하남미사점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변대로34번길 100 109호",
+    "app": "nmap://navigation?dlat=37.556843&dlng=127.1882786&dname=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "국수",
+    "dr": 3.0,
+    "rating": 4.93,
+    "reviews": 36,
+    "score": 36.9,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2017576235"
    },
    "status": "active"
   },
@@ -1649,10 +2157,104 @@
     "cat": "오리요리",
     "dr": 1.7,
     "rating": 4.92,
-    "reviews": 16477,
+    "reviews": 16545,
     "score": 68,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/2018579107"
+   },
+   "status": "active"
+  },
+  "local:2027597810": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1106",
+    "blog_review_count": 18,
+    "business_desc": "18:00에 영업 종료",
+    "business_status": "영업 중",
+    "category": "베이커리",
+    "distance": "510m",
+    "id": "2027597810",
+    "name": "케이찹사라다 하남미사점",
+    "new_opening": true,
+    "phone": "0507-1339-7109",
+    "road_address": "미사강변동로 85 1층 110호",
+    "visitor_review_count": 1034,
+    "visitor_review_score": null,
+    "x": 127.1918814,
+    "y": 37.562532
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 63.5점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2027597810",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "케이찹사라다 하남미사점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변동로 85 1층 110호",
+    "app": "nmap://navigation?dlat=37.562532&dlng=127.1918814&dname=%EC%BC%80%EC%9D%B4%EC%B0%B9%EC%82%AC%EB%9D%BC%EB%8B%A4%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "베이커리",
+    "dr": 1.9,
+    "rating": 4.9,
+    "reviews": 1034,
+    "score": 63.5,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2027597810"
+   },
+   "status": "active"
+  },
+  "local:2029616756": {
+   "baseline": false,
+   "cand": {
+    "address": "덕풍동 65-3",
+    "blog_review_count": 745,
+    "business_desc": "21:00에 라스트오더",
+    "business_status": "영업 중",
+    "category": "정육식당",
+    "distance": "1.4km",
+    "id": "2029616756",
+    "name": "힘내라정육식당 미사점",
+    "new_opening": true,
+    "phone": "0507-1457-9290",
+    "road_address": "월호로 70 2층",
+    "visitor_review_count": 397,
+    "visitor_review_score": 4.9,
+    "x": 127.2077318,
+    "y": 37.5547759
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 81.5점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2029616756",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "힘내라정육식당 미사점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "월호로 70 2층",
+    "app": "nmap://navigation?dlat=37.5547759&dlng=127.2077318&dname=%ED%9E%98%EB%82%B4%EB%9D%BC%EC%A0%95%EC%9C%A1%EC%8B%9D%EB%8B%B9%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "정육식당",
+    "dr": 4.2,
+    "rating": 4.9,
+    "reviews": 397,
+    "score": 83.5,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2029616756"
    },
    "status": "active"
   },
@@ -1678,10 +2280,574 @@
     "cat": "한식",
     "dr": 3.5,
     "rating": 5.0,
-    "reviews": 4392,
+    "reviews": 4391,
     "score": 79.2,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/20388227"
+   },
+   "status": "active"
+  },
+  "local:2051835234": {
+   "baseline": false,
+   "cand": {
+    "address": "신장동 560-5",
+    "blog_review_count": 3,
+    "business_desc": "12:00에 영업 시작",
+    "business_status": "영업 전",
+    "category": "카페,디저트",
+    "distance": "2.6km",
+    "id": "2051835234",
+    "name": "소로키",
+    "new_opening": true,
+    "phone": "0507-1322-5062",
+    "road_address": "하남대로802번길 121 1층 소로키",
+    "visitor_review_count": 56,
+    "visitor_review_score": null,
+    "x": 127.2144211,
+    "y": 37.5420957
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 55.4점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2051835234",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "소로키",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "하남대로802번길 121 1층 소로키",
+    "app": "nmap://navigation?dlat=37.5420957&dlng=127.2144211&dname=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 5.5,
+    "rating": 4.96,
+    "reviews": 56,
+    "score": 55.4,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2051835234"
+   },
+   "status": "active"
+  },
+  "local:2055355404": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1143-1",
+    "blog_review_count": 43,
+    "business_desc": "09/26 휴무",
+    "business_status": "오늘 휴무",
+    "category": "육류,고기요리",
+    "distance": "1.1km",
+    "id": "2055355404",
+    "name": "미사백당",
+    "new_opening": true,
+    "phone": "0507-1443-2050",
+    "road_address": "미사대로 410 1층",
+    "visitor_review_count": 65,
+    "visitor_review_score": null,
+    "x": 127.1966556,
+    "y": 37.5669128
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 69.5점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2055355404",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "미사백당",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 410 1층",
+    "app": "nmap://navigation?dlat=37.5669128&dlng=127.1966556&dname=%EB%AF%B8%EC%82%AC%EB%B0%B1%EB%8B%B9&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 2.6,
+    "rating": 4.92,
+    "reviews": 65,
+    "score": 66.5,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2055355404"
+   },
+   "status": "active"
+  },
+  "local:2061189359": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1129-2",
+    "blog_review_count": 1,
+    "business_desc": "20:30에 라스트오더",
+    "business_status": "영업 중",
+    "category": "샤브샤브",
+    "distance": "590m",
+    "id": "2061189359",
+    "name": "담원:샤브",
+    "new_opening": true,
+    "phone": "0507-1366-0631",
+    "road_address": "미사강변동로84번길 29 1층 118호",
+    "visitor_review_count": 197,
+    "visitor_review_score": null,
+    "x": 127.1946778,
+    "y": 37.5630551
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 근거부족 54.7점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2061189359",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "담원:샤브",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변동로84번길 29 1층 118호",
+    "app": "nmap://navigation?dlat=37.5630551&dlng=127.1946778&dname=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "cat": "샤브샤브",
+    "dr": 2.5,
+    "rating": 4.99,
+    "reviews": 197,
+    "score": 54.7,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2061189359"
+   },
+   "status": "active"
+  },
+  "local:2066943442": {
+   "baseline": false,
+   "cand": {
+    "address": "삼패동 343-40",
+    "blog_review_count": 70,
+    "business_desc": "20:00에 라스트오더",
+    "business_status": "영업 중",
+    "category": "우동,소바",
+    "distance": "3.9km",
+    "id": "2066943442",
+    "name": "삼동소바 삼패점",
+    "new_opening": true,
+    "phone": "031-521-3533",
+    "road_address": "경강로 374 1동 1,2층",
+    "visitor_review_count": 523,
+    "visitor_review_score": null,
+    "x": 127.1987399,
+    "y": 37.5924652
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 68.8점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2066943442",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "삼동소바 삼패점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "경강로 374 1동 1,2층",
+    "app": "nmap://navigation?dlat=37.5924652&dlng=127.1987399&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "우동,소바",
+    "dr": 10.7,
+    "rating": 4.89,
+    "reviews": 523,
+    "score": 68.8,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2066943442"
+   },
+   "status": "active"
+  },
+  "local:2068008143": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1067",
+    "blog_review_count": 3,
+    "business_desc": "09/26 휴무",
+    "business_status": "오늘 휴무",
+    "category": "베이커리",
+    "distance": "550m",
+    "id": "2068008143",
+    "name": "빵수당",
+    "new_opening": true,
+    "phone": "0507-1381-9531",
+    "road_address": "미사강변남로 45 124호",
+    "visitor_review_count": 47,
+    "visitor_review_score": 4.83,
+    "x": 127.1870556,
+    "y": 37.5602597
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 55.3점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2068008143",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "빵수당",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변남로 45 124호",
+    "app": "nmap://navigation?dlat=37.5602597&dlng=127.1870556&dname=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
+    "cat": "베이커리",
+    "dr": 2.1,
+    "rating": 4.83,
+    "reviews": 47,
+    "score": 55.3,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2068008143"
+   },
+   "status": "active"
+  },
+  "local:2072148452": {
+   "baseline": false,
+   "cand": {
+    "address": "상일동 269-7",
+    "blog_review_count": 17,
+    "business_desc": "17:00에 영업 시작",
+    "business_status": "영업 전",
+    "category": "육류,고기요리",
+    "distance": "2.0km",
+    "id": "2072148452",
+    "name": "로스엔젤레스 로스구이",
+    "new_opening": true,
+    "phone": "070-5088-0604",
+    "road_address": "상일로5길 8 2층",
+    "visitor_review_count": 98,
+    "visitor_review_score": 4.95,
+    "x": 127.1725997,
+    "y": 37.5491255
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 61.0점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2072148452",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "로스엔젤레스 로스구이",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "상일로5길 8 2층",
+    "app": "nmap://navigation?dlat=37.5491255&dlng=127.1725997&dname=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
+    "cat": "육류,고기요리",
+    "dr": 3.7,
+    "rating": 4.95,
+    "reviews": 98,
+    "score": 61.0,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2072148452"
+   },
+   "status": "active"
+  },
+  "local:2074444187": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 1098-3",
+    "blog_review_count": 0,
+    "business_desc": "19:30에 라스트오더",
+    "business_status": "영업 중",
+    "category": "카페",
+    "distance": "560m",
+    "id": "2074444187",
+    "name": "유하커피하우스",
+    "new_opening": true,
+    "phone": "0507-1451-0609",
+    "road_address": "미사강변중앙로 181 더퍼스트테라스 2층 217호",
+    "visitor_review_count": 23,
+    "visitor_review_score": null,
+    "x": 127.1899641,
+    "y": 37.5625865
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 근거부족 36.5점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2074444187",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "유하커피하우스",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변중앙로 181 더퍼스트테라스 2층 217호",
+    "app": "nmap://navigation?dlat=37.5625865&dlng=127.1899641&dname=%EC%9C%A0%ED%95%98%EC%BB%A4%ED%94%BC%ED%95%98%EC%9A%B0%EC%8A%A4&appname=kr.familytrip.misa",
+    "cat": "카페",
+    "dr": 1.5,
+    "rating": 5,
+    "reviews": 23,
+    "score": 36.5,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2074444187"
+   },
+   "status": "active"
+  },
+  "local:2075394572": {
+   "baseline": false,
+   "cand": {
+    "address": "덕소리 141-92",
+    "blog_review_count": 42,
+    "business_desc": "12:00에 영업 시작",
+    "business_status": "영업 전",
+    "category": "해물,생선요리",
+    "distance": "4.0km",
+    "id": "2075394572",
+    "name": "남양주대하구이 덕소점",
+    "new_opening": true,
+    "phone": "0507-1398-1916",
+    "road_address": "수레로 48 1층",
+    "visitor_review_count": 118,
+    "visitor_review_score": null,
+    "x": 127.2170825,
+    "y": 37.5883291
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 64.2점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2075394572",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "남양주대하구이 덕소점",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "수레로 48 1층",
+    "app": "nmap://navigation?dlat=37.5883291&dlng=127.2170825&dname=%EB%82%A8%EC%96%91%EC%A3%BC%EB%8C%80%ED%95%98%EA%B5%AC%EC%9D%B4%20%EB%8D%95%EC%86%8C%EC%A0%90&appname=kr.familytrip.misa",
+    "cat": "해물,생선요리",
+    "dr": 10.1,
+    "rating": 4.97,
+    "reviews": 118,
+    "score": 61.2,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2075394572"
+   },
+   "status": "active"
+  },
+  "local:2075545048": {
+   "baseline": false,
+   "cand": {
+    "address": "덕풍동 831-1",
+    "blog_review_count": 7,
+    "business_desc": "추석 연휴 휴무",
+    "business_status": "오늘 휴무",
+    "category": "카페,디저트",
+    "distance": "1.1km",
+    "id": "2075545048",
+    "name": "정미당 브런치",
+    "new_opening": true,
+    "phone": "0507-1475-8838",
+    "road_address": "미사대로 520 D동 2층 253호, 254호",
+    "visitor_review_count": 29,
+    "visitor_review_score": 4.9,
+    "x": 127.2045806,
+    "y": 37.5588656
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 56.7점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2075545048",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "정미당 브런치",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사대로 520 D동 2층 253호, 254호",
+    "app": "nmap://navigation?dlat=37.5588656&dlng=127.2045806&dname=%EC%A0%95%EB%AF%B8%EB%8B%B9%20%EB%B8%8C%EB%9F%B0%EC%B9%98&appname=kr.familytrip.misa",
+    "cat": "카페,디저트",
+    "dr": 2.5,
+    "rating": 4.9,
+    "reviews": 29,
+    "score": 56.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2075545048"
+   },
+   "status": "active"
+  },
+  "local:2083798498": {
+   "baseline": false,
+   "cand": {
+    "address": "망월동 994",
+    "blog_review_count": 7,
+    "business_desc": "17:50에 라스트오더",
+    "business_status": "영업 중",
+    "category": "베이커리",
+    "distance": "1.5km",
+    "id": "2083798498",
+    "name": "아벨라 베이커리",
+    "new_opening": true,
+    "phone": "0507-1323-7403",
+    "road_address": "미사강변북로30번길 118 1층",
+    "visitor_review_count": 74,
+    "visitor_review_score": null,
+    "x": 127.1835712,
+    "y": 37.5691368
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 조건부 69.7점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2083798498",
+   "kind": "cafe",
+   "last_seen": "2026-09-26",
+   "name": "아벨라 베이커리",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변북로30번길 118 1층",
+    "app": "nmap://navigation?dlat=37.5691368&dlng=127.1835712&dname=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
+    "cat": "베이커리",
+    "dr": 3.2,
+    "rating": 4.97,
+    "reviews": 74,
+    "score": 66.7,
+    "tier": "조건부",
+    "web": "https://map.naver.com/p/entry/place/2083798498"
+   },
+   "status": "active"
+  },
+  "local:2089257808": {
+   "baseline": false,
+   "cand": {
+    "address": "덕풍동 743",
+    "blog_review_count": 2,
+    "business_desc": "16:30에 영업 시작",
+    "business_status": "영업 전",
+    "category": "돼지고기구이",
+    "distance": "1.6km",
+    "id": "2089257808",
+    "name": "멍석솥뚜껑삼겹살",
+    "new_opening": true,
+    "phone": "0507-1345-8216",
+    "road_address": "덕풍동로 111-10 111호, 112호",
+    "visitor_review_count": 143,
+    "visitor_review_score": 4.94,
+    "x": 127.2083815,
+    "y": 37.5516942
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 근거부족 54.4점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2089257808",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "멍석솥뚜껑삼겹살",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "덕풍동로 111-10 111호, 112호",
+    "app": "nmap://navigation?dlat=37.5516942&dlng=127.2083815&dname=%EB%A9%8D%EC%84%9D%EC%86%A5%EB%9A%9C%EA%BB%91%EC%82%BC%EA%B2%B9%EC%82%B4&appname=kr.familytrip.misa",
+    "cat": "돼지고기구이",
+    "dr": 3.7,
+    "rating": 4.94,
+    "reviews": 143,
+    "score": 54.4,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2089257808"
+   },
+   "status": "active"
+  },
+  "local:2092840673": {
+   "baseline": false,
+   "cand": {
+    "address": "풍산동 490-2",
+    "blog_review_count": 0,
+    "business_desc": "09/26 휴무",
+    "business_status": "오늘 휴무",
+    "category": "한식",
+    "distance": "980m",
+    "id": "2092840673",
+    "name": "오늘한그릇",
+    "new_opening": true,
+    "phone": "0507-1360-0711",
+    "road_address": "미사강변서로 16 지1층 RB156호",
+    "visitor_review_count": 76,
+    "visitor_review_score": 4.97,
+    "x": 127.1846913,
+    "y": 37.5517709
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "text": "🌱 새로 문 연 곳으로 목록에 들어옴 — 근거부족 42.7점",
+     "type": "new"
+    }
+   ],
+   "first_seen": "2026-09-26",
+   "id": "2092840673",
+   "kind": "restaurant",
+   "last_seen": "2026-09-26",
+   "name": "오늘한그릇",
+   "names": [],
+   "new_open_since": "2026-09-26",
+   "scope": "local",
+   "snap": {
+    "addr": "미사강변서로 16 지1층 RB156호",
+    "app": "nmap://navigation?dlat=37.5517709&dlng=127.1846913&dname=%EC%98%A4%EB%8A%98%ED%95%9C%EA%B7%B8%EB%A6%87&appname=kr.familytrip.misa",
+    "cat": "한식",
+    "dr": 2.5,
+    "rating": 4.97,
+    "reviews": 76,
+    "score": 42.7,
+    "tier": "근거부족",
+    "web": "https://map.naver.com/p/entry/place/2092840673"
    },
    "status": "active"
   },
@@ -1707,8 +2873,8 @@
     "cat": "양식",
     "dr": 4.1,
     "rating": 4.85,
-    "reviews": 6551,
-    "score": 76.5,
+    "reviews": 6631,
+    "score": 76.6,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/2094295419"
    },
@@ -1736,7 +2902,7 @@
     "cat": "양식",
     "dr": 2.2,
     "rating": 4.0,
-    "reviews": 5274,
+    "reviews": 5292,
     "score": 45.3,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/2094664339"
@@ -1765,8 +2931,8 @@
     "cat": "양식",
     "dr": 1.2,
     "rating": 4.89,
-    "reviews": 4826,
-    "score": 80.2,
+    "reviews": 4869,
+    "score": 77.2,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/2099748636"
    },
@@ -1823,7 +2989,7 @@
     "cat": "육류,고기요리",
     "dr": 3.6,
     "rating": 4.84,
-    "reviews": 6535,
+    "reviews": 6548,
     "score": 67.6,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/35116432"
@@ -1852,7 +3018,7 @@
     "cat": "돼지고기구이",
     "dr": 1.9,
     "rating": null,
-    "reviews": 4933,
+    "reviews": 4947,
     "score": 40.2,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/35720246"
@@ -1881,7 +3047,7 @@
     "cat": "소고기구이",
     "dr": 3.5,
     "rating": 4.6,
-    "reviews": 6846,
+    "reviews": 6857,
     "score": 70.6,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/36266336"
@@ -1895,6 +3061,11 @@
      "date": "2026-09-26",
      "text": "이력 기록 시작 — 추천 70점",
      "type": "baseline"
+    },
+    {
+     "date": "2026-09-26",
+     "text": "추천 → 조건부 (70→67점)",
+     "type": "tier"
     }
    ],
    "first_seen": "2026-09-26",
@@ -1910,9 +3081,9 @@
     "cat": "육류,고기요리",
     "dr": 3.5,
     "rating": 4.65,
-    "reviews": 14495,
-    "score": 70,
-    "tier": "추천",
+    "reviews": 14497,
+    "score": 67,
+    "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/36932172"
    },
    "status": "active"
@@ -1939,8 +3110,8 @@
     "cat": "한식",
     "dr": 3.9,
     "rating": 4.7,
-    "reviews": 8335,
-    "score": 74.8,
+    "reviews": 8337,
+    "score": 71.8,
     "tier": "추천",
     "web": "https://map.naver.com/p/entry/place/37568258"
    },
@@ -1968,7 +3139,7 @@
     "cat": "육류,고기요리",
     "dr": 3.8,
     "rating": null,
-    "reviews": 4641,
+    "reviews": 4647,
     "score": 51.2,
     "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/38222862"
@@ -1997,7 +3168,7 @@
     "cat": "이탈리아음식",
     "dr": 3.3,
     "rating": 5.0,
-    "reviews": 23911,
+    "reviews": 23973,
     "score": 69,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/410878135"
@@ -2026,7 +3197,7 @@
     "cat": "카페",
     "dr": 3.0,
     "rating": 4.6,
-    "reviews": 5546,
+    "reviews": 5545,
     "score": 56.3,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/822843515"
@@ -2201,7 +3372,7 @@
     "dr": 53.9,
     "rating": 4.08,
     "reviews": 1018,
-    "score": 51.6,
+    "score": 48.6,
     "tier": "제외",
     "web": "https://map.naver.com/p/entry/place/11583652"
    },
@@ -3013,7 +4184,7 @@
     "dr": 9.4,
     "rating": 4.42,
     "reviews": 4068,
-    "score": 66.4,
+    "score": 63.4,
     "tier": "조건부",
     "web": "https://map.naver.com/p/entry/place/19713256"
    },
@@ -3142,6 +4313,11 @@
      "date": "2026-09-26",
      "text": "이력 기록 시작 — 조건부 57.8점",
      "type": "baseline"
+    },
+    {
+     "date": "2026-09-26",
+     "text": "조건부 → 근거부족 (57.8→54.8점)",
+     "type": "tier"
     }
    ],
    "first_seen": "2026-09-26",
@@ -3158,8 +4334,8 @@
     "dr": 50.3,
     "rating": 4.45,
     "reviews": 3131,
-    "score": 57.8,
-    "tier": "조건부",
+    "score": 54.8,
+    "tier": "근거부족",
     "web": "https://map.naver.com/p/entry/place/35195643"
    },
    "status": "active"
@@ -3393,6 +4569,7 @@
   "camp:1296026747": "2026-09-26",
   "camp:1297131878": "2026-09-26",
   "camp:1301113624": "2026-09-26",
+  "camp:1305810712": "2026-09-26",
   "camp:1314036092": "2026-09-26",
   "camp:1316541824": "2026-09-26",
   "camp:1318895155": "2026-09-26",
@@ -3498,6 +4675,7 @@
   "camp:1993875219": "2026-09-26",
   "camp:1995246261": "2026-09-26",
   "camp:2004344777": "2026-09-26",
+  "camp:2007947779": "2026-09-26",
   "camp:2020057077": "2026-09-26",
   "camp:2034694543": "2026-09-26",
   "camp:2036512241": "2026-09-26",
@@ -3513,6 +4691,7 @@
   "camp:2072420773": "2026-09-26",
   "camp:2077333239": "2026-09-26",
   "camp:2077381440": "2026-09-26",
+  "camp:2087896252": "2026-09-26",
   "camp:2093012237": "2026-09-26",
   "camp:21021396": "2026-09-26",
   "camp:21666742": "2026-09-26",
@@ -3818,12 +4997,16 @@
   "local:2005432005": "2026-09-26",
   "local:2005896656": "2026-09-26",
   "local:2006125625": "2026-09-26",
+  "local:2007667269": "2026-09-26",
   "local:2007925802": "2026-09-26",
   "local:2008251252": "2026-09-26",
   "local:2009865314": "2026-09-26",
+  "local:2011414401": "2026-09-26",
   "local:2012352955": "2026-09-26",
   "local:2013158380": "2026-09-26",
+  "local:2014999980": "2026-09-26",
   "local:2015604890": "2026-09-26",
+  "local:2017576235": "2026-09-26",
   "local:2018063823": "2026-09-26",
   "local:2023968384": "2026-09-26",
   "local:2024033746": "2026-09-26",
@@ -3840,29 +5023,41 @@
   "local:2043681800": "2026-09-26",
   "local:2044181399": "2026-09-26",
   "local:2044247765": "2026-09-26",
+  "local:2046313788": "2026-09-26",
   "local:2046515079": "2026-09-26",
   "local:2048279923": "2026-09-26",
   "local:2049463764": "2026-09-26",
   "local:2050552185": "2026-09-26",
   "local:2050945111": "2026-09-26",
+  "local:2051835234": "2026-09-26",
   "local:2052221255": "2026-09-26",
   "local:2053479661": "2026-09-26",
   "local:2054967491": "2026-09-26",
+  "local:2055355404": "2026-09-26",
+  "local:2061189359": "2026-09-26",
   "local:2062839230": "2026-09-26",
   "local:2063487555": "2026-09-26",
   "local:2066943442": "2026-09-26",
+  "local:2068008143": "2026-09-26",
   "local:2069021328": "2026-09-26",
   "local:2069190618": "2026-09-26",
   "local:2069375730": "2026-09-26",
   "local:2071407693": "2026-09-26",
+  "local:2072148452": "2026-09-26",
+  "local:2074444187": "2026-09-26",
+  "local:2075394572": "2026-09-26",
+  "local:2075545048": "2026-09-26",
   "local:2078833490": "2026-09-26",
   "local:2081410635": "2026-09-26",
+  "local:2083798498": "2026-09-26",
   "local:2086630299": "2026-09-26",
   "local:2087385471": "2026-09-26",
   "local:2087607417": "2026-09-26",
   "local:2087611777": "2026-09-26",
   "local:2087836642": "2026-09-26",
+  "local:2089257808": "2026-09-26",
   "local:2091772751": "2026-09-26",
+  "local:2092840673": "2026-09-26",
   "local:2093748009": "2026-09-26",
   "local:2093888965": "2026-09-26",
   "local:2097630295": "2026-09-26",

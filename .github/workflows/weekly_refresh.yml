@@ -46,6 +46,7 @@ jobs:
           python tools/test_collect_rating.py
           python tools/test_bath.py
           python tools/test_registry.py
+          python tools/test_new_open.py
 
       - name: 카카오 토큰 준비 (Secrets 가 등록돼 있을 때만)
         env:

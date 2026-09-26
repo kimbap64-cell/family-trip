@@ -24,18 +24,19 @@ if "--notify-only" in sys.argv:  # 알림 경로만 검증할 때(점검·사이
     sys.exit(0)
 
 run([PY, T("refresh_status.py")], {2: 2})
+# 새 장소 발굴(목록 검색만) + 신규 오픈 검토 대기 장소 근거 수집(주 8곳). 막혀도(차단·캡) 점검·사이트 갱신은 계속한다.
+for _name, _args in (("discover_new.py", []), ("collect_new.py", ["--max", "8"])):
+    print("\n$", _name)
+    _r = subprocess.run([PY, T(_name)] + _args, cwd=ROOT)
+    if _r.returncode != 0:
+        print(f"::warning title=새 장소 {_name} 건너뜀::exit {_r.returncode} (차단·캡). 기존 이력·사이트는 그대로 갱신됩니다")
 run([PY, T("pilot_score.py")])
 run([PY, T("pilot_score.py"), "--raw", "data/daytrip/raw.json", "--yt", "data/daytrip/youtube.json", "--out", "data/daytrip/places.json",
      "--scope", "day_trip", "--kinds", "attraction", "--doc", "docs/DAYTRIP.md", "--title", "당일 나들이 시범"])
 if os.path.exists(os.path.join(ROOT, "data", "camping", "raw.json")):
     run([PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
          "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"])
-# 이력 갱신(새로 추가·등급/별점 변화·빠짐·폐업 기록) + 새 장소 발굴(목록 검색만). 발굴이 막혀도(차단·캡) 점검·사이트 갱신은 계속한다.
 run([PY, T("registry.py")])
-print("\n$ discover_new.py")
-_r = subprocess.run([PY, T("discover_new.py")], cwd=ROOT)
-if _r.returncode != 0:
-    print(f"::warning title=새 장소 발굴 건너뜀::discover_new.py exit {_r.returncode} (차단·캡·이력 없음). 기존 이력·사이트는 그대로 갱신됩니다")
 run([PY, T("build_site.py")])
 run([PY, T("verify.py")], {1: 3})
 if "--notify" in sys.argv:

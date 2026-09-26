@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26 10:41",
+ "generated": "2026-09-26 11:35",
  "home": [
   127.1925648,
   37.5580056
@@ -22,7 +22,8 @@
     "business_desc": "22:00에 영업 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -263,6 +264,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -430,7 +432,8 @@
     "business_desc": "22:00에 영업 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -587,6 +590,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -753,7 +757,8 @@
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -977,6 +982,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -1135,7 +1141,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -1228,6 +1235,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -1404,7 +1412,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -1548,6 +1557,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -1688,10 +1698,11 @@
     "visitor_review_score": 4.63,
     "blog_review_count": 3697,
     "business_status": "운영 중",
-    "business_desc": "18:00에 운영 종료",
+    "business_desc": "18:30에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -1711,12 +1722,6 @@
       "quote": "양평가볼만한곳 카페 더그림은 유명산과 용문산 자락이 병풍처럼 감싸고 있는 사나사 계곡으로 올라가는 조용한 길목에 자리하고 있었어요. 서울 근교에서 차로 1시간 거리라",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/withou122/224419461335",
       "date": "2일 전"
-     },
-     {
-      "label": "체험·동물",
-      "quote": "있음 이용방법 주차 후 매표소에서 입장권 구매 -티켓으로 음료 교환 편의사항 반려동물 동반 가능 남/녀 화장실 구분 단체 이용 가능 입장권 하나로 맛있는 커피와 디저",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/yungvely89/224421563928",
-      "date": "8시간 전"
      },
      {
       "label": "캠핑 키즈시설",
@@ -1807,6 +1812,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -1962,7 +1968,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -1994,12 +2001,6 @@
       "quote": ",000원 출처 - LG 보도자료ㅣ미디어 체험 프로그램 안내 화담숲에서는 다양한 체험 프로그램도 운영해요! 가을 성수기가 아니어도 이후 아이와 방문하게 된다면 한 번",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/yearimdang/224420745196",
       "date": "1일 전"
-     },
-     {
-      "label": "체험·동물",
-      "quote": "입장 가능합니다. ​ 4. 화담숲 전체 금연/금주 구역으로 지정!! ​ 5. 반려동물 입장 불가!! ​ ​ ​ 마지막 한마디 벤치같은 쉴수있는공간은 곳곳에 있으나,",
-      "src": "naver-blog:https://m.blog.naver.com/cseluv/224418592571",
-      "date": "3일 전"
      }
     ],
     "b_pos": [
@@ -2176,6 +2177,7 @@
       "date": "3일 전"
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -2320,7 +2322,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -2344,12 +2347,6 @@
       "quote": "그 위용이 느껴지더라고요. 출입구를 지나 제페토 골목에 들어서면 의상체험, 가면체험이 가능하고 엔티크 전시관까지 있어서 이탈리아 감성이 물씬 느껴져요. 이탈리아마을",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/wanny999/224411696000",
       "date": "2026.09.15."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "09:00 ~ 18:00 정기휴무 연중무휴 문의전화 031-584-8200 반려동물 출입 불가 운영시간과 주소는 공식 홈페이지를 통해 한번 더 체크해 보세요. 폐장",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/son018/224403281733",
-      "date": "2026.09.07."
      },
      {
       "label": "놀이시설",
@@ -2377,12 +2374,6 @@
      },
      {
       "label": "체험·동물",
-      "quote": "하면 부분 환불이 어렵다고 하니 일정이 확정된 뒤 구매하는 편이 좋더라고요. 반려동물은 입장이 제한되고, 상업 목적 촬영은 별도 허가가 필요할 수 있으니 참고하면 좋",
-      "src": "naver-blog-excerpt:https://m.cafe.naver.com/talktalknfo/1514?query=X%EC%84%B8%EB%8C%80%20%EB%9D%BC%EC%9D%B4%ED%94%84%EC%8A%A4%ED%83%80%EC%9D%BC",
-      "date": "2026.07.31."
-     },
-     {
-      "label": "체험·동물",
       "quote": "위용이 느껴지더라고요. ​ ​ ​ ​ 출입구를 지나 제페토 골목에 들어서면 의상체험, 가면체험이 가능하고 엔티크 전시관까지 있어서 이탈리아 감성이 물씬 느껴져요.",
       "src": "naver-blog:https://m.blog.naver.com/wanny999/224411696000",
       "date": "2026.09.15."
@@ -2396,12 +2387,6 @@
      {
       "label": "아이동반",
       "quote": "러보고 싶어요. ​ 커플이라면 이국적인 골목을 걸으며 사진 찍느 데이트 장소로, 아이와 함께라면 어린왕자와 전시, 오르골과 공연을 함께 즐기는 가평 놀거리로 코스를 계",
-      "src": "naver-blog:https://m.blog.naver.com/son018/224403281733",
-      "date": "2026.09.07."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "09:00 ~ 18:00 정기휴무 연중무휴 문의전화 031-584-8200 반려동물 출입 불가 운영시간과 주소는 공식 홈페이지를 통해 한번 더 체크해 보세요. 폐장",
       "src": "naver-blog:https://m.blog.naver.com/son018/224403281733",
       "date": "2026.09.07."
      },
@@ -2459,6 +2444,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -2578,7 +2564,8 @@
     "business_desc": "22:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -2747,6 +2734,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -2897,7 +2885,8 @@
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -3123,6 +3112,7 @@
       "date": "6일 전"
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -3285,7 +3275,8 @@
     "business_desc": "20:30에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -3497,6 +3488,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -3665,10 +3657,11 @@
     "visitor_review_score": 4.75,
     "blog_review_count": 1079,
     "business_status": "운영 중",
-    "business_desc": "22:00에 운영 종료",
+    "business_desc": "19:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -3869,6 +3862,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -4024,7 +4018,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -4193,6 +4188,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -4378,7 +4374,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -4416,12 +4413,6 @@
       "quote": "차장 바로 앞이 입구라 주차하고 한참 걸어갈 필요가 없어서 정말 편했어요. 어린 아이들과 함께 가는 가족 분들께 특히 추천드려요 :) 주요 관람 구역 & 추천 동선 벽초",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/6607144/224418063830",
       "date": "4일 전"
-     },
-     {
-      "label": "체험·동물",
-      "quote": "종이 있습니다. 운영시간 매일 09:00 ~ 18:00 연중무휴 주차 가능 반려동물 입장 불가 입장료 네이버 예약 온라인 입장권 예매 할인 (당일 예약 불가) 당일",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/jayooni/224418149397",
-      "date": "2일 전"
      },
      {
       "label": "체험·동물",
@@ -4573,6 +4564,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -4735,7 +4727,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -4766,6 +4759,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -4875,7 +4869,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -5053,6 +5048,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -5247,7 +5243,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -5376,6 +5373,7 @@
       "date": "2026.09.17."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -5585,7 +5583,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -5659,6 +5658,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -5828,7 +5828,8 @@
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -6077,6 +6078,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -6224,7 +6226,8 @@
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -6317,6 +6320,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -6456,7 +6460,8 @@
     "business_desc": "연중무휴",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -6637,6 +6642,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -6832,7 +6838,8 @@
     "business_desc": "연중무휴",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -6892,6 +6899,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -7025,7 +7033,8 @@
     "business_desc": "추석 연휴 휴무",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -7160,6 +7169,7 @@
       "date": "2026.09.12."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -7308,7 +7318,8 @@
     "business_desc": null,
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -7343,6 +7354,7 @@
     "b_pos": [],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -7485,7 +7497,8 @@
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -7673,6 +7686,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -7838,7 +7852,8 @@
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -7886,12 +7901,6 @@
       "quote": "천 이유 P4 트렁크 열고 차크닉 하기 좋은 호수 & 잔디 뷰 P1, P5 넓은 잔디밭 피크닉 & 아이나 애견 동반 추천 P2 매점 & 자전거 대여소 근처 P7, P",
       "src": "naver-blog:https://m.blog.naver.com/dmswl0930/224412111037",
       "date": "2026.09.15."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "플로랄향 강아지 똥봉투 1달 아키즈 AKITZ naver.me ​ 다섯째, 반려동물 동반 수칙 ​ 미사경정공원은 사랑하는 반려견과 함께 차크닉을 즐길 수 있는 곳입",
-      "src": "naver-blog:https://m.blog.naver.com/dmswl0930/224412111037",
-      "date": "2026.09.15."
      }
     ],
     "b_pos": [
@@ -7923,6 +7932,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -8052,7 +8062,8 @@
     "business_desc": "21:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -8090,12 +8101,6 @@
       "quote": "맑게 해주는 느낌이라 할까 가볍게 걷기 좋아요 지그재그 3층 높이 추억에 사진 만들기 좋습니다 카페에서 바라보면 어떤 느낌일까요 이런 느낌 실내 카페입니다 베이커리",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/chogap/224392874155",
       "date": "2026.08.28."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "마정원이었어요. 입장료가 있는데 후불제인 게 참고할만 합니다.  * 흡연 및 반려동물 동반 불가 * 퇴장 시 티켓 or 음료수로 입장료 결제, 재입장 불가 * 베이커",
-      "src": "kakao-review:13914956",
-      "date": "2025-10-11"
      },
      {
       "label": "체험·동물",
@@ -8175,6 +8180,7 @@
       "date": "2026.08.28."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -8302,7 +8308,8 @@
     "business_desc": null,
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -8398,6 +8405,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -8527,7 +8535,8 @@
     "business_desc": null,
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -8543,12 +8552,6 @@
    "evidence": {
     "kids": [
      {
-      "label": "체험·동물",
-      "quote": ". 입장 시 주의사항 식물채취 음식, 과일, 취사 금주/흡연 삼각대, 외다리 반려동물 돗자리, 음향기구, 악기 등 놀이, 운동기구 위에 해당하는 물건 및 행위는 금지",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/k-traveler-/224378983561",
-      "date": "2026.08.14."
-     },
-     {
       "label": "놀이시설",
       "quote": "온실 마저 덥다ㅎ ​ ​ ​ 그 길로 이어진 어린이정원에선 아이들이 좋아할만한 놀이터로 가득 했다. ​ 흔들다리와 통나무 건물, 정글 줄 사다리 등..! ​ 야외에서",
       "src": "naver-blog:https://m.blog.naver.com/k-traveler-/224378983561",
@@ -8563,12 +8566,6 @@
      {
       "label": "아이동반",
       "quote": "한 것들이 구비 돼있던 곳~! ​ 8월 말일부터 9월까지, 날씨가 선선 해질때쯤 아이랑 데이트 코스로도 좋을 듯^^ ​ ​ ​ ​ 8월 한여름에도 꽃들이 흐드러지게 핀",
-      "src": "naver-blog:https://m.blog.naver.com/k-traveler-/224378983561",
-      "date": "2026.08.14."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "입장 시 주의사항 ​ 식물채취 음식, 과일, 취사 금주/흡연 삼각대, 외다리 반려동물 돗자리, 음향기구, 악기 등 놀이, 운동기구 ​ 위에 해당하는 물건 및 행위는",
       "src": "naver-blog:https://m.blog.naver.com/k-traveler-/224378983561",
       "date": "2026.08.14."
      }
@@ -8589,6 +8586,14 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [
+     {
+      "label": "화장실·샤워실 아쉬움",
+      "quote": "입구부터 시작한 똥냄새가 식물원 전체에 가득 식물 관리 제로, 화장실도 더럽고 수생식물원엔 연꽃 한두송이가 끝 입장료 만원 돈 엄청 아까워요 여기 최악의 식",
+      "src": "kakao-review:10251589",
+      "date": "2024-06-02"
+     }
+    ],
     "closure": []
    },
    "notes": [],
@@ -8765,7 +8770,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -9007,6 +9013,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -9196,7 +9203,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -9224,12 +9232,6 @@
       "date": "2026.09.15."
      },
      {
-      "label": "체험·동물",
-      "quote": "매주 월요일, 추석, 설날, 1월1일 입장료 무료 주차장 유료 (아래 참조) 반려동물 애견동반 불가 현재 여름에서 가을로 넘어가는 시점이라서 여름꽃부터 가을꽃까지 구",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/soh109/224412258117",
-      "date": "2026.09.15."
-     },
-     {
       "label": "아이동반",
       "quote": "오산 가볼만한곳 10월 아이와 경기도 가을 여행지 물향기수목원 공원 글/사진 @오키야옹이 오산 아이와 가볼만한",
       "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
@@ -9238,12 +9240,6 @@
      {
       "label": "아이동반",
       "quote": "10월 아이와 경기도 가을 여행지 물향기수목원 공원 글/사진 @오키야옹이 오산 아이와 가볼만한곳 경기도 여행지 후기 ​ 가을 바람이 살랑살랑 불기 시작하면 괜히 초록",
-      "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
-      "date": "2026.09.15."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "매주 월요일, 추석, 설날, 1월1일 입장료 무료 주차장 유료 (아래 참조) 반려동물 애견동반 불가 물향기수목원 경기도 오산시 청학로 211 ​ ​ 현재 여름에서 가",
       "src": "naver-blog:https://m.blog.naver.com/soh109/224412258117",
       "date": "2026.09.15."
      }
@@ -9270,6 +9266,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -9405,7 +9402,8 @@
     "business_desc": "연중무휴",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -9473,6 +9471,7 @@
       "date": "2026.09.09."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -9591,7 +9590,8 @@
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -9791,6 +9791,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -9924,7 +9925,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -10070,6 +10072,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -10228,7 +10231,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -10512,6 +10516,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -10653,7 +10658,8 @@
     "business_desc": null,
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -10762,6 +10768,7 @@
       "date": "2026.09.15."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -10892,11 +10899,12 @@
     "visitor_review_count": 4807,
     "visitor_review_score": 4.55,
     "blog_review_count": 1280,
-    "business_status": "오늘 휴무",
-    "business_desc": "09/24 휴무",
+    "business_status": "운영 중",
+    "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -11096,6 +11104,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -11259,7 +11268,8 @@
     "business_desc": null,
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -11367,6 +11377,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -11483,7 +11494,8 @@
     "business_desc": "21:30에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -11552,6 +11564,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -11681,7 +11694,8 @@
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -11721,18 +11735,6 @@
      {
       "label": "아이동반",
       "quote": "고민이 되더라고요 게다가 둘째가 어려서 너무 멀리 갈 수가 없어서.서울 근교에 아이랑 가기 좋은 곳을 매주 찾아보고 있어요 이번 주말에 다녀온 곳은 포천 아트밸리인데",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/som1204/224407303936",
-      "date": "2026.09.10."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "월요일부터 일요일까지 09:00부터 18:00까지입니다 . 관광정보센터에는 반려동물 입장이 가능합니다. 반려동물과 함께 모레노일에 탑승하실 때는 반드시 케이지에 넣",
-      "src": "naver-blog-excerpt:https://m.blog.naver.com/som1204/224407303936",
-      "date": "2026.09.10."
-     },
-     {
-      "label": "체험·동물",
-      "quote": "00부터 18:00까지입니다 . 관광정보센터에는 반려동물 입장이 가능합니다. 반려동물과 함께 모레노일에 탑승하실 때는 반드시 케이지에 넣어야 합니다. 입장권을 구매하",
       "src": "naver-blog-excerpt:https://m.blog.naver.com/som1204/224407303936",
       "date": "2026.09.10."
      },
@@ -11934,6 +11936,7 @@
      }
     ],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -12130,7 +12133,8 @@
     "business_desc": "추석 연휴 휴무",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -12232,6 +12236,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -12393,7 +12398,8 @@
     "business_desc": "연중무휴",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -12539,6 +12545,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -12688,7 +12695,8 @@
     "business_desc": "17:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -12865,6 +12873,7 @@
       "date": "2026.07.15."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -13011,7 +13020,8 @@
     "business_desc": null,
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [
@@ -13082,13 +13092,13 @@
      },
      {
       "label": "체험·동물",
-      "quote": "주 넓기 때문에 걸어서 다 돌아보려면 족히 두시간은 걸리는 것 같아요.  * 반려동물 동반 가능 * 자전거 대여소 운영 (입구쪽) * 화장실 2개소 (주차장 및 전시",
+      "quote": "화장실 2개소 (주차장 및 전시관 내)  내부에는 생태전시관과 옛 소금창고, 염전체험을 할 수 있는 시범염전, 갯벌 체험공간, 한적함을 자아내는 습지 및 갈대밭 산책",
       "src": "kakao-review:10557470",
       "date": "2024-07-15"
      },
      {
       "label": "체험·동물",
-      "quote": "화장실 2개소 (주차장 및 전시관 내)  내부에는 생태전시관과 옛 소금창고, 염전체험을 할 수 있는 시범염전, 갯벌 체험공간, 한적함을 자아내는 습지 및 갈대밭 산책",
+      "quote": ")  내부에는 생태전시관과 옛 소금창고, 염전체험을 할 수 있는 시범염전, 갯벌 체험공간, 한적함을 자아내는 습지 및 갈대밭 산책로가 있습니다. 방문하시는 계절에 따",
       "src": "kakao-review:10557470",
       "date": "2024-07-15"
      },
@@ -13188,6 +13198,7 @@
       "date": "2026.09.06."
      }
     ],
+    "bath": [],
     "closure": []
    },
    "notes": [],
@@ -13311,7 +13322,8 @@
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
     "promo": null,
-    "micro_review": null
+    "micro_review": null,
+    "new_opening": false
    },
    "kind": "attraction",
    "queries": [],
@@ -13401,6 +13413,7 @@
     ],
     "b_neg": [],
     "plan": [],
+    "bath": [],
     "closure": []
    },
    "notes": [],

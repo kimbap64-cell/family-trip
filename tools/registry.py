@@ -50,6 +50,20 @@ def current():
     return out
 
 
+def new_open_map():
+    """{키: 신규오픈 표시를 처음 본 날} — 점수화가 리뷰 기준 완화·표시에 쓴다."""
+    reg = load()
+    out = {}
+    if reg:
+        for k, r in reg["places"].items():
+            if r.get("new_open_since"):
+                out[k] = r["new_open_since"]
+        for k, v in reg.get("pending", {}).items():
+            if v.get("new_open"):
+                out[k] = v.get("first_found")
+    return out
+
+
 def add_event(rec, day, typ, text):
     ev = {"date": day, "type": typ, "text": text}
     if not any(e["date"] == day and e["type"] == typ and e["text"] == text for e in rec["events"]):
@@ -78,7 +92,12 @@ def update(today=None):
             else:
                 add_event(rec, today, "new", f"새로 목록에 들어옴 — {c['snap']['tier']} {c['snap']['score']}점")
                 added += 1
-            reg["pending"].pop(key, None)
+            pv = reg["pending"].pop(key, None)
+            if pv and pv.get("new_open"):  # 검토 대기에서 승격 — 신규 오픈 표시·후보 정보(수집기가 raw 를 다시 만들어도 복원용) 유지
+                rec["new_open_since"] = pv.get("first_found") or today
+                rec["cand"] = pv.get("cand")
+                add_event(rec, today, "new", f"🌱 새로 문 연 곳으로 목록에 들어옴 — {c['snap']['tier']} {c['snap']['score']}점")
+                rec["events"] = [e for e in rec["events"] if not (e["type"] == "new" and e["date"] == today and "🌱" not in e["text"])]
             continue
         old = rec["snap"]
         new = c["snap"]

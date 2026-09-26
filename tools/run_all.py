@@ -11,12 +11,14 @@ T = lambda s: os.path.join(ROOT, "tools", s)
 steps = [
     [PY, T("pilot_local.py"), "--max-detail", "45", "--max-drive", "12"],
     [PY, T("daytrip_collect.py"), "--top", "45", "--blogs", "2"],
+    [PY, T("collect_new.py"), "--max", "0"],  # 수집기가 raw 를 새로 만들며 뺀 '새로 문 연 곳' 복원(캐시, 외부 호출 0)
     [PY, T("pilot_youtube.py")],
     [PY, T("pilot_youtube.py"), "--set", "daytrip", "--raw", "data/daytrip/raw.json", "--out", "data/daytrip/youtube.json", "--cache", "data/cache/yt_daytrip_raw.json"],
     [PY, T("pilot_score.py")],
     [PY, T("pilot_score.py"), "--raw", "data/daytrip/raw.json", "--yt", "data/daytrip/youtube.json", "--out", "data/daytrip/places.json",
      "--scope", "day_trip", "--kinds", "attraction", "--doc", "docs/DAYTRIP.md", "--title", "당일 나들이 시범"],
     [PY, T("camp_collect.py"), "--top", "25", "--blogs", "2"],
+    [PY, T("collect_new.py"), "--max", "0"],
     [PY, T("pilot_youtube.py"), "--set", "camping", "--raw", "data/camping/raw.json", "--out", "data/camping/youtube.json", "--cache", "data/cache/yt_camp_raw.json"],
     [PY, T("pilot_score.py"), "--raw", "data/camping/raw.json", "--yt", "data/camping/youtube.json", "--out", "data/camping/places.json",
      "--scope", "camping", "--kinds", "camping", "--doc", "docs/CAMPING.md", "--title", "키즈캠핑 시범"],

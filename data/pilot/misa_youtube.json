@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26 10:41",
+ "generated": "2026-09-26 11:35",
  "queries": [
   "하남 미사 맛집",
   "미사 카페 추천",
@@ -632,7 +632,7 @@
     "info_density": 3,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 12.7
+    "months_old": 12.8
    },
    "mentioned_places": []
   },
@@ -843,16 +843,18 @@
    "comments": 0,
    "subscribers": 10,
    "credibility": {
-    "total": 41.1,
+    "total": 45.1,
     "recency": 25,
     "engagement": 4.0,
     "channel": 3.2,
-    "info_density": 9,
+    "info_density": 13,
     "sponsor": 0,
     "sponsored_hint": [],
     "months_old": 1.5
    },
-   "mentioned_places": []
+   "mentioned_places": [
+    "2015604890"
+   ]
   },
   {
    "id": "bdNOt-pr0pA",
@@ -867,18 +869,20 @@
    "comments": 0,
    "subscribers": 10,
    "credibility": {
-    "total": 27.4,
+    "total": 31.4,
     "recency": 25,
     "engagement": 4.9,
     "channel": 4.5,
-    "info_density": 3,
+    "info_density": 7,
     "sponsor": -10,
     "sponsored_hint": [
      "협찬"
     ],
     "months_old": 0.1
    },
-   "mentioned_places": []
+   "mentioned_places": [
+    "2029616756"
+   ]
   },
   {
    "id": "iyekHJQQBl0",
@@ -1336,6 +1340,22 @@
    "t": null,
    "quote": "📍아빠찜 하남본점",
    "link": "https://www.youtube.com/watch?v=Cyz6dMUIPAQ",
+   "where": "description"
+  },
+  {
+   "place_id": "2015604890",
+   "video_id": "84OHndZQRSU",
+   "t": null,
+   "quote": "📍한마음정육식당 하남미사점",
+   "link": "https://www.youtube.com/watch?v=84OHndZQRSU",
+   "where": "description"
+  },
+  {
+   "place_id": "2029616756",
+   "video_id": "bdNOt-pr0pA",
+   "t": null,
+   "quote": "이번에 다녀온 곳은 힘내라정육식당 미사점이에요 :)",
+   "link": "https://www.youtube.com/watch?v=bdNOt-pr0pA",
    "where": "description"
   },
   {

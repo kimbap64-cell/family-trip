@@ -13,7 +13,7 @@ from pilot_local import COMPILED, extract, is_sponsored, rel_days
 def new_rec(c, kind):
     return {"naver": {k: c.get(k) for k in ("id", "name", "category", "road_address", "address", "x", "y", "phone",
                                           "visitor_review_count", "visitor_review_score", "blog_review_count", "business_status", "business_desc",
-                                          "min_price", "promo", "micro_review")},
+                                          "min_price", "promo", "micro_review", "new_opening")},
             "kind": kind, "queries": sorted(set(c.get("queries", []))), "straight_m": c.get("straight_m"),
             "drive": c.get("drive"), "walk": c.get("walk"), "evidence": {g: [] for g in COMPILED}, "notes": [], "seeds": c.get("seeds", [])}
 

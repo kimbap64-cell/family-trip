@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26 10:41",
+ "generated": "2026-09-26 11:35",
  "queries": [
   "경기도 키즈 오토캠핑장 추천",
   "하남 남양주 가평 양평 키즈캠핑",
@@ -271,7 +271,7 @@
     "info_density": 0,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 4.4
+    "months_old": 4.5
    },
    "mentioned_places": []
   },
@@ -1482,6 +1482,87 @@
    "via": "place-search"
   },
   {
+   "id": "viFk2EfJrzI",
+   "url": "https://www.youtube.com/watch?v=viFk2EfJrzI",
+   "title": "🏝️발리야? 한국이야! 1박 10만원대 5성급 풀램핑",
+   "channel": "찐캠퍼니 : 여행, 숙소, 캠핑, 핫플, 축제",
+   "channel_id": "UCD5KVjTk-9U7z3DTVviIZKA",
+   "published": "2026-05-28",
+   "duration_s": 14,
+   "views": 5071,
+   "likes": 33,
+   "comments": 0,
+   "subscribers": 15500,
+   "credibility": {
+    "total": 59.7,
+    "recency": 25,
+    "engagement": 7.7,
+    "channel": 17.0,
+    "info_density": 10,
+    "sponsor": 0,
+    "sponsored_hint": [],
+    "months_old": 3.9
+   },
+   "mentioned_places": [
+    "1779393568"
+   ],
+   "via": "place-search"
+  },
+  {
+   "id": "nUcJxtZrRt4",
+   "url": "https://www.youtube.com/watch?v=nUcJxtZrRt4",
+   "title": "경기도 가평 트라움풀빌라글램핑카라반, 여름 나들이 좋다. #가평풀빌라글램핑 #가평풀빌라카라반 #가평풀빌라 #가평글램핑 #가평카라반",
+   "channel": "익산반석",
+   "channel_id": "UCLKlN-el_Vy9lmmKY-cytiA",
+   "published": "2025-07-29",
+   "duration_s": 28,
+   "views": 723,
+   "likes": 2,
+   "comments": 0,
+   "subscribers": 545,
+   "credibility": {
+    "total": 36.0,
+    "recency": 12,
+    "engagement": 5.4,
+    "channel": 14.6,
+    "info_density": 4,
+    "sponsor": 0,
+    "sponsored_hint": [],
+    "months_old": 13.9
+   },
+   "mentioned_places": [
+    "1779393568"
+   ],
+   "via": "place-search"
+  },
+  {
+   "id": "ZR92p7U6fT0",
+   "url": "https://www.youtube.com/watch?v=ZR92p7U6fT0",
+   "title": "경기도 가평 풀빌라 글램핑, 카라반은 트라움풀빌라글램핑&카라반입니다. #가평풀빌라 #가평글램핑 #가평카라반",
+   "channel": "익산반석",
+   "channel_id": "UCLKlN-el_Vy9lmmKY-cytiA",
+   "published": "2025-08-24",
+   "duration_s": 42,
+   "views": 1527,
+   "likes": 12,
+   "comments": 0,
+   "subscribers": 545,
+   "credibility": {
+    "total": 37.7,
+    "recency": 12,
+    "engagement": 7.1,
+    "channel": 14.6,
+    "info_density": 4,
+    "sponsor": 0,
+    "sponsored_hint": [],
+    "months_old": 13.1
+   },
+   "mentioned_places": [
+    "1779393568"
+   ],
+   "via": "place-search"
+  },
+  {
    "id": "f_yPxhu6K3I",
    "url": "https://www.youtube.com/watch?v=f_yPxhu6K3I",
    "title": "가평 인더풀 글램핑｜여름에 꼭 가봐야 할 수영장 글램핑🏕️ 가족·커플 여행 추천 #가평글램핑 #가평카라반 #가족여행",
@@ -1771,7 +1852,7 @@
     "info_density": 7,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 15.6
+    "months_old": 15.7
    },
    "mentioned_places": [
     "37471628"
@@ -1806,245 +1887,83 @@
    "via": "place-search"
   },
   {
-   "id": "viFk2EfJrzI",
-   "url": "https://www.youtube.com/watch?v=viFk2EfJrzI",
-   "title": "🏝️발리야? 한국이야! 1박 10만원대 5성급 풀램핑",
-   "channel": "찐캠퍼니 : 여행, 숙소, 캠핑, 핫플, 축제",
-   "channel_id": "UCD5KVjTk-9U7z3DTVviIZKA",
-   "published": "2026-05-28",
-   "duration_s": 14,
-   "views": 5071,
-   "likes": 33,
-   "comments": 0,
-   "subscribers": 15500,
+   "id": "s4vovCHXeYM",
+   "url": "https://www.youtube.com/watch?v=s4vovCHXeYM",
+   "title": "바이올린글램핑&카라반가평남이섬부근 정민오사장이은경권사~",
+   "channel": "LJK리종기TV",
+   "channel_id": "UC38lllVWBmjvz2kdGhjvoeg",
+   "published": "2025-11-11",
+   "duration_s": 203,
+   "views": 340,
+   "likes": 13,
+   "comments": 6,
+   "subscribers": 2920,
    "credibility": {
-    "total": 59.7,
-    "recency": 25,
-    "engagement": 7.7,
-    "channel": 17.0,
-    "info_density": 10,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 3.9
-   },
-   "mentioned_places": [
-    "1779393568"
-   ],
-   "via": "place-search"
-  },
-  {
-   "id": "nUcJxtZrRt4",
-   "url": "https://www.youtube.com/watch?v=nUcJxtZrRt4",
-   "title": "경기도 가평 트라움풀빌라글램핑카라반, 여름 나들이 좋다. #가평풀빌라글램핑 #가평풀빌라카라반 #가평풀빌라 #가평글램핑 #가평카라반",
-   "channel": "익산반석",
-   "channel_id": "UCLKlN-el_Vy9lmmKY-cytiA",
-   "published": "2025-07-29",
-   "duration_s": 28,
-   "views": 723,
-   "likes": 2,
-   "comments": 0,
-   "subscribers": 545,
-   "credibility": {
-    "total": 36.0,
-    "recency": 12,
-    "engagement": 5.4,
-    "channel": 14.6,
+    "total": 51.2,
+    "recency": 20,
+    "engagement": 11.5,
+    "channel": 15.8,
     "info_density": 4,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 13.9
+    "months_old": 10.5
    },
    "mentioned_places": [
-    "1779393568"
+    "1205002942"
    ],
    "via": "place-search"
   },
   {
-   "id": "ZR92p7U6fT0",
-   "url": "https://www.youtube.com/watch?v=ZR92p7U6fT0",
-   "title": "경기도 가평 풀빌라 글램핑, 카라반은 트라움풀빌라글램핑&카라반입니다. #가평풀빌라 #가평글램핑 #가평카라반",
-   "channel": "익산반석",
-   "channel_id": "UCLKlN-el_Vy9lmmKY-cytiA",
-   "published": "2025-08-24",
-   "duration_s": 42,
-   "views": 1527,
-   "likes": 12,
-   "comments": 0,
-   "subscribers": 545,
+   "id": "0NRv_0bMRtk",
+   "url": "https://www.youtube.com/watch?v=0NRv_0bMRtk",
+   "title": "가평 바이올린 글램핑 카라반 숙소 10만원대 #가평숙소 #가평카라반 #가평가볼만한곳 #가평여행 #서울근교나들이 #서울근교카라반 #겨울카라반 #아이와가볼만한곳 #카라반숙소",
+   "channel": "턱걸이하지마",
+   "channel_id": "UCPtKtorKSozMX9tDHczxv0w",
+   "published": "2025-01-28",
+   "duration_s": 47,
+   "views": 1000,
+   "likes": 5,
+   "comments": 1,
+   "subscribers": 49,
    "credibility": {
-    "total": 37.7,
+    "total": 29.2,
     "recency": 12,
-    "engagement": 7.1,
-    "channel": 14.6,
+    "engagement": 6.2,
+    "channel": 7.0,
     "info_density": 4,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 13.1
+    "months_old": 19.9
    },
    "mentioned_places": [
-    "1779393568"
+    "1205002942"
    ],
    "via": "place-search"
   },
   {
-   "id": "cQ3UoXAZqC4",
-   "url": "https://www.youtube.com/watch?v=cQ3UoXAZqC4",
-   "title": "아이들도 좋아할 글램핑장 | 무수아취",
-   "channel": "HAHAHA하모니",
-   "channel_id": "UC1QZ4eNPQ_p3QVKu_Nd8egg",
-   "published": "2024-10-30",
-   "duration_s": 190,
-   "views": 735,
-   "likes": 10,
-   "comments": 3,
-   "subscribers": 374,
+   "id": "CARmLWy9Oxg",
+   "url": "https://www.youtube.com/watch?v=CARmLWy9Oxg",
+   "title": "가평 애견동반 리버뷰 숙소 바이올린 글램핑&카라반 #가평카라반 #국내여행 #애견동반펜션",
+   "channel": "1일1설탕",
+   "channel_id": "UCv4JpM-Igft1CB_hKiwLaEw",
+   "published": "2025-04-07",
+   "duration_s": 40,
+   "views": 592,
+   "likes": 3,
+   "comments": 0,
+   "subscribers": 60,
    "credibility": {
-    "total": 41.4,
+    "total": 32.8,
     "recency": 12,
-    "engagement": 8.1,
-    "channel": 14.3,
+    "engagement": 5.8,
+    "channel": 8.0,
     "info_density": 7,
     "sponsor": 0,
     "sponsored_hint": [],
-    "months_old": 22.9
+    "months_old": 17.6
    },
    "mentioned_places": [
-    "1459700349"
-   ],
-   "via": "place-search"
-  },
-  {
-   "id": "9OKpFLgu0p0",
-   "url": "https://www.youtube.com/watch?v=9OKpFLgu0p0",
-   "title": "빈손으로 가도 갓벽한 글램핑 즐길 수 있는 곳 ♡ • 🏕️ 무수아취ㅣ더 많은 정보는 댓글 확인 ✅ #글램핑장 #글램핑 #서울데이트 #무수아취 #seoullife #seoul",
-   "channel": "소식Sosikseoul",
-   "channel_id": "UC-knQzbQQhojb20UZsI9fqA",
-   "published": "2025-08-16",
-   "duration_s": 19,
-   "views": 3106,
-   "likes": 6,
-   "comments": 1,
-   "subscribers": 123,
-   "credibility": {
-    "total": 30.5,
-    "recency": 12,
-    "engagement": 6.3,
-    "channel": 8.1,
-    "info_density": 4,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 13.3
-   },
-   "mentioned_places": [
-    "1459700349"
-   ],
-   "via": "place-search"
-  },
-  {
-   "id": "xXuNREln4Sg",
-   "url": "https://www.youtube.com/watch?v=xXuNREln4Sg",
-   "title": "무수아취 글램핑장...무수골",
-   "channel": "국가대포",
-   "channel_id": "UC0NK-ZjQcRMb3oE6tPyiJoQ",
-   "published": "2026-07-30",
-   "duration_s": 52,
-   "views": 62,
-   "likes": 1,
-   "comments": 0,
-   "subscribers": 57,
-   "credibility": {
-    "total": 41.4,
-    "recency": 25,
-    "engagement": 6.8,
-    "channel": 5.6,
-    "info_density": 4,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 1.9
-   },
-   "mentioned_places": [
-    "1459700349"
-   ],
-   "via": "place-search"
-  },
-  {
-   "id": "i-TZ7x26VTI",
-   "url": "https://www.youtube.com/watch?v=i-TZ7x26VTI",
-   "title": "무수아취 바베큐장에서 인생샷과 맛있는 고기 한 번에..!!! 😋🙂 | 셀프 바베큐장 | 에어바운스 | 어린이와 함께 갈 만한 곳!",
-   "channel": "윈드블링",
-   "channel_id": "UCmQ6D6enxa7qwk6PrpsWn6Q",
-   "published": "2026-02-16",
-   "duration_s": 134,
-   "views": 148,
-   "likes": 6,
-   "comments": 0,
-   "subscribers": 283,
-   "credibility": {
-    "total": 48.7,
-    "recency": 20,
-    "engagement": 10.6,
-    "channel": 14.1,
-    "info_density": 4,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 7.3
-   },
-   "mentioned_places": [
-    "1459700349"
-   ],
-   "via": "place-search"
-  },
-  {
-   "id": "VibCDLHtobE",
-   "url": "https://www.youtube.com/watch?v=VibCDLHtobE",
-   "title": "[vlog] 25년 1~4월 모음 /  무수아취 글램핑 / 타코야끼 만들기 추천 !",
-   "channel": "킴어킴",
-   "channel_id": "UCECEITvc0MagMwuwkPhlkzw",
-   "published": "2025-05-03",
-   "duration_s": 204,
-   "views": 53,
-   "likes": 4,
-   "comments": 1,
-   "subscribers": 14,
-   "credibility": {
-    "total": 28.6,
-    "recency": 12,
-    "engagement": 9.9,
-    "channel": 2.7,
-    "info_density": 4,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 16.8
-   },
-   "mentioned_places": [
-    "1459700349"
-   ],
-   "via": "place-search"
-  },
-  {
-   "id": "Lgc9nh6pMJA",
-   "url": "https://www.youtube.com/watch?v=Lgc9nh6pMJA",
-   "title": "🇰🇷 EP486. 서울시 도봉구 '무수아취 캠핑장'👍#무수골#무수천#근심이없는곳이라#피크닉바베큐장#텐트#루프탑#바베큐#도봉산전망#주말농장#세종대왕후손#캠핑#korea#travel",
-   "channel": "Kingo",
-   "channel_id": "UCIYx__VCJyUMVYd9JSFN34Q",
-   "published": "2025-06-20",
-   "duration_s": 59,
-   "views": 910,
-   "likes": 5,
-   "comments": 0,
-   "subscribers": 233,
-   "credibility": {
-    "total": 36.2,
-    "recency": 12,
-    "engagement": 6.2,
-    "channel": 13.9,
-    "info_density": 4,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 15.2
-   },
-   "mentioned_places": [
-    "1459700349"
+    "1205002942"
    ],
    "via": "place-search"
   },
@@ -2184,6 +2103,34 @@
    "via": "place-search"
   },
   {
+   "id": "9sJnKflB1_Y",
+   "url": "https://www.youtube.com/watch?v=9sJnKflB1_Y",
+   "title": "인생 첫 글램핑 #49개월 #글램핑 #새연 카라반 글램핑 설악2호점 #캠핑 #계곡",
+   "channel": "우며들다",
+   "channel_id": "UC59iOF8HrlGZ_-vyKHgC2jw",
+   "published": "2026-07-31",
+   "duration_s": 56,
+   "views": 93,
+   "likes": 4,
+   "comments": 0,
+   "subscribers": 249,
+   "credibility": {
+    "total": 46.3,
+    "recency": 25,
+    "engagement": 10.3,
+    "channel": 7.0,
+    "info_density": 4,
+    "sponsor": 0,
+    "sponsored_hint": [],
+    "months_old": 1.9
+   },
+   "mentioned_places": [
+    "38010414",
+    "36516869"
+   ],
+   "via": "place-search"
+  },
+  {
    "id": "AzTaJK0Z8mo",
    "url": "https://www.youtube.com/watch?v=AzTaJK0Z8mo",
    "title": "서울근교 아이들과 함께 가볼만한곳 , 가평 원더풀 카라반 글램핑",
@@ -2263,34 +2210,6 @@
     "1358507181"
    ],
    "via": "place-search"
-  },
-  {
-   "id": "9sJnKflB1_Y",
-   "url": "https://www.youtube.com/watch?v=9sJnKflB1_Y",
-   "title": "인생 첫 글램핑 #49개월 #글램핑 #새연 카라반 글램핑 설악2호점 #캠핑 #계곡",
-   "channel": "우며들다",
-   "channel_id": "UC59iOF8HrlGZ_-vyKHgC2jw",
-   "published": "2026-07-31",
-   "duration_s": 56,
-   "views": 93,
-   "likes": 4,
-   "comments": 0,
-   "subscribers": 249,
-   "credibility": {
-    "total": 46.3,
-    "recency": 25,
-    "engagement": 10.3,
-    "channel": 7.0,
-    "info_density": 4,
-    "sponsor": 0,
-    "sponsored_hint": [],
-    "months_old": 1.9
-   },
-   "mentioned_places": [
-    "36516869",
-    "38010414"
-   ],
-   "via": "place-search"
   }
  ],
  "mentions": [
@@ -2351,6 +2270,30 @@
    "quote": "촌놈들이 이번에 방문한곳은 하남시에 위치한 히든백야드 캠핑장에 방문하였습니다!!",
    "where": "description",
    "link": "https://www.youtube.com/watch?v=eGyChyGqtmE"
+  },
+  {
+   "place_id": "1779393568",
+   "video_id": "viFk2EfJrzI",
+   "t": null,
+   "quote": "📍 트라움풀빌라글램핑 카라반 *제작지원",
+   "where": "description",
+   "link": "https://www.youtube.com/watch?v=viFk2EfJrzI"
+  },
+  {
+   "place_id": "1779393568",
+   "video_id": "nUcJxtZrRt4",
+   "t": null,
+   "quote": "(제목/설명에 언급)",
+   "where": "description",
+   "link": "https://www.youtube.com/watch?v=nUcJxtZrRt4"
+  },
+  {
+   "place_id": "1779393568",
+   "video_id": "ZR92p7U6fT0",
+   "t": null,
+   "quote": "(제목/설명에 언급)",
+   "where": "description",
+   "link": "https://www.youtube.com/watch?v=ZR92p7U6fT0"
   },
   {
    "place_id": "1861819247",
@@ -2449,76 +2392,28 @@
    "link": "https://www.youtube.com/watch?v=quhKc_1YBC4"
   },
   {
-   "place_id": "1779393568",
-   "video_id": "viFk2EfJrzI",
-   "t": null,
-   "quote": "📍 트라움풀빌라글램핑 카라반 *제작지원",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=viFk2EfJrzI"
-  },
-  {
-   "place_id": "1779393568",
-   "video_id": "nUcJxtZrRt4",
+   "place_id": "1205002942",
+   "video_id": "s4vovCHXeYM",
    "t": null,
    "quote": "(제목/설명에 언급)",
    "where": "description",
-   "link": "https://www.youtube.com/watch?v=nUcJxtZrRt4"
+   "link": "https://www.youtube.com/watch?v=s4vovCHXeYM"
   },
   {
-   "place_id": "1779393568",
-   "video_id": "ZR92p7U6fT0",
+   "place_id": "1205002942",
+   "video_id": "0NRv_0bMRtk",
    "t": null,
    "quote": "(제목/설명에 언급)",
    "where": "description",
-   "link": "https://www.youtube.com/watch?v=ZR92p7U6fT0"
+   "link": "https://www.youtube.com/watch?v=0NRv_0bMRtk"
   },
   {
-   "place_id": "1459700349",
-   "video_id": "cQ3UoXAZqC4",
+   "place_id": "1205002942",
+   "video_id": "CARmLWy9Oxg",
    "t": null,
-   "quote": "2024.10.28 서울 도봉구 무수아취 캠핑장에 놀러갔다.",
+   "quote": "바이올린 글램핑 & 카라반",
    "where": "description",
-   "link": "https://www.youtube.com/watch?v=cQ3UoXAZqC4"
-  },
-  {
-   "place_id": "1459700349",
-   "video_id": "9OKpFLgu0p0",
-   "t": null,
-   "quote": "(제목/설명에 언급)",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=9OKpFLgu0p0"
-  },
-  {
-   "place_id": "1459700349",
-   "video_id": "xXuNREln4Sg",
-   "t": null,
-   "quote": "(제목/설명에 언급)",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=xXuNREln4Sg"
-  },
-  {
-   "place_id": "1459700349",
-   "video_id": "i-TZ7x26VTI",
-   "t": null,
-   "quote": "이번 설날에는 할아버지할머니네랑 외삼촌네랑 같이 무수아취 라는 바베큐장에 가서 신나게 놀고 먹고 했답니다! 여기 너무 좋아요!!! 모두 해피설날!",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=i-TZ7x26VTI"
-  },
-  {
-   "place_id": "1459700349",
-   "video_id": "VibCDLHtobE",
-   "t": null,
-   "quote": "(제목/설명에 언급)",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=VibCDLHtobE"
-  },
-  {
-   "place_id": "1459700349",
-   "video_id": "Lgc9nh6pMJA",
-   "t": null,
-   "quote": "(제목/설명에 언급)",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=Lgc9nh6pMJA"
+   "link": "https://www.youtube.com/watch?v=CARmLWy9Oxg"
   },
   {
    "place_id": "1841805582",
@@ -2561,6 +2456,14 @@
    "link": "https://www.youtube.com/watch?v=AawT6BzkORQ"
   },
   {
+   "place_id": "38010414",
+   "video_id": "9sJnKflB1_Y",
+   "t": null,
+   "quote": "(제목/설명에 언급)",
+   "where": "description",
+   "link": "https://www.youtube.com/watch?v=9sJnKflB1_Y"
+  },
+  {
    "place_id": "1358507181",
    "video_id": "AzTaJK0Z8mo",
    "t": null,
@@ -2586,14 +2489,6 @@
   },
   {
    "place_id": "36516869",
-   "video_id": "9sJnKflB1_Y",
-   "t": null,
-   "quote": "(제목/설명에 언급)",
-   "where": "description",
-   "link": "https://www.youtube.com/watch?v=9sJnKflB1_Y"
-  },
-  {
-   "place_id": "38010414",
    "video_id": "9sJnKflB1_Y",
    "t": null,
    "quote": "(제목/설명에 언급)",

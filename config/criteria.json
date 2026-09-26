@@ -22,6 +22,8 @@
     "max_meal_cost_4p_krw": 100000,
     "require_open": true,
     "require_min_sources": 1,
+    "min_review_count_new_open": {"attraction": 20, "restaurant": 20, "cafe": 20, "camping": 10},
+    "_new_open_note": "네이버 '새로오픈' 표시(newOpening)가 붙은 곳(사용자 승인 2026-09-26)은 리뷰 하한을 낮춘다. 대신 표본이 작으므로 사전분포 가중을 줄이고(bayes_prior_weight_new_open) 등급 상한은 조건부, 후기 근거 1곳 이상은 그대로 필수",
     "stale_evidence_months": 24
   },
 
@@ -32,6 +34,8 @@
     "_kakao_note": "파일럿(미사 동네 14쌍) 측정: 네이버-카카오 별점 평균차 0.84·중앙값 0.79, 카카오 리뷰 중앙값 46건(네이버 5,342건). 네이버 별점이 없을 때만 카카오+0.8 로 보정하고 하한을 0.3 완화",
     "bayes_prior_rating": 4.2,
     "bayes_prior_weight": 100,
+    "bayes_prior_weight_new_open": 30,
+    "new_open_days": 180,
     "rating_points": [[4.7, 25], [4.5, 20], [4.3, 12], [4.2, 6]],
     "review_scale_max": 10,
     "evidence_max": 25,

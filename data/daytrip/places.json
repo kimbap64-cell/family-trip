@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26 10:41",
+ "generated": "2026-09-26 11:35",
  "scope": "day_trip",
  "places": [
   {
@@ -16,6 +16,8 @@
     "reviews": 8279,
     "blog_reviews": 2265,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "예약",
@@ -186,7 +188,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -234,6 +237,7 @@
      "source_count": 3,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -263,6 +267,8 @@
     "reviews": 6468,
     "blog_reviews": 1985,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "남/녀 화장실 구분",
      "유아의자",
@@ -406,7 +412,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -454,6 +461,7 @@
      "source_count": 3,
      "mode_a": 12,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -483,6 +491,8 @@
     "reviews": 1898,
     "blog_reviews": 2500,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "남/녀 화장실 구분",
@@ -710,7 +720,8 @@
      "verdict": "적합 근거",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -793,6 +804,7 @@
      "source_count": 8,
      "mode_a": 12,
      "mode_b": 10,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 7
     },
@@ -820,6 +832,8 @@
     "reviews": 11132,
     "blog_reviews": 2126,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "무선 인터넷",
      "단체 이용 가능",
@@ -940,7 +954,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -995,6 +1010,7 @@
      "source_count": 4,
      "mode_a": 12,
      "mode_b": 2,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -1024,6 +1040,8 @@
     "reviews": 15854,
     "blog_reviews": 1079,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "무선 인터넷",
      "남/녀 화장실 구분",
@@ -1148,7 +1166,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -1196,6 +1215,7 @@
      "source_count": 3,
      "mode_a": 12,
      "mode_b": 2,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -1225,6 +1245,8 @@
     "reviews": 25789,
     "blog_reviews": 3137,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "유아시설 (놀이방)",
      "무선 인터넷",
@@ -1357,7 +1379,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -1412,6 +1435,7 @@
      "source_count": 4,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
     },
@@ -1441,6 +1465,8 @@
     "reviews": 16305,
     "blog_reviews": 3368,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "유아시설 (놀이방)",
@@ -1558,7 +1584,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -1613,6 +1640,7 @@
      "source_count": 4,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
     },
@@ -1642,6 +1670,8 @@
     "reviews": 13636,
     "blog_reviews": 6373,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "남/녀 화장실 구분",
      "주차",
@@ -1867,7 +1897,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -1950,6 +1981,7 @@
      "source_count": 8,
      "mode_a": 12,
      "mode_b": 8,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -1977,6 +2009,8 @@
     "reviews": 68132,
     "blog_reviews": 57761,
     "status": "영업 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "예약",
@@ -2215,7 +2249,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -2417,6 +2452,7 @@
      "source_count": 3,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 0
     },
@@ -2448,6 +2484,8 @@
     "reviews": 10172,
     "blog_reviews": 15418,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "남/녀 화장실 구분",
      "주차"
@@ -2632,7 +2670,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -2736,6 +2775,7 @@
      "source_count": 11,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -2778,6 +2818,8 @@
     "reviews": 3983,
     "blog_reviews": 698,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "남/녀 화장실 구분",
@@ -2907,7 +2949,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -2947,6 +2990,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -2991,6 +3035,8 @@
     "reviews": 11137,
     "blog_reviews": 28390,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -3209,7 +3255,8 @@
      "verdict": "적합 근거",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -3299,6 +3346,7 @@
      "source_count": 9,
      "mode_a": 6,
      "mode_b": 8,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -3353,6 +3401,8 @@
     "reviews": 13278,
     "blog_reviews": 2163,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "남/녀 화장실 구분",
@@ -3512,7 +3562,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -3567,6 +3618,7 @@
      "source_count": 4,
      "mode_a": 12,
      "mode_b": 2,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -3594,6 +3646,8 @@
     "reviews": 8802,
     "blog_reviews": 6611,
     "status": "오늘 휴무",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -3733,7 +3787,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -3773,6 +3828,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -3829,6 +3885,8 @@
     "reviews": 25106,
     "blog_reviews": 5937,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차",
      "무선 인터넷",
@@ -4002,7 +4060,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -4042,6 +4101,7 @@
      "source_count": 2,
      "mode_a": 12,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -4069,6 +4129,8 @@
     "reviews": 9560,
     "blog_reviews": 24753,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차",
      "남/녀 화장실 구분",
@@ -4229,7 +4291,8 @@
      "verdict": "적합 근거",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -4269,6 +4332,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 8,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -4311,6 +4375,8 @@
     "reviews": 5784,
     "blog_reviews": 5295,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -4450,7 +4516,8 @@
      "verdict": "적합 근거",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -4498,6 +4565,7 @@
      "source_count": 3,
      "mode_a": 6,
      "mode_b": 10,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -4525,6 +4593,8 @@
     "reviews": 22501,
     "blog_reviews": 3697,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "남/녀 화장실 구분",
      "무선 인터넷",
@@ -4669,7 +4739,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -4718,6 +4789,7 @@
      "source_count": 1,
      "mode_a": 9,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -4747,6 +4819,8 @@
     "reviews": 4996,
     "blog_reviews": 1700,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "반려동물 동반",
@@ -4863,7 +4937,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -4903,6 +4978,7 @@
      "source_count": 1,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -4932,7 +5008,9 @@
     "score": 4.55,
     "reviews": 4807,
     "blog_reviews": 1280,
-    "status": "오늘 휴무",
+    "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -5065,7 +5143,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -5105,6 +5184,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -5121,180 +5201,6 @@
    "verified_at": "2026-09-26"
   },
   {
-   "id": "naver-19713256",
-   "name": "미사경정공원",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "19713256",
-    "category": "도시,테마공원",
-    "road_address": null,
-    "x": 127.2101284,
-    "y": 37.5598353,
-    "score": 4.42,
-    "reviews": 4068,
-    "blog_reviews": 5741,
-    "status": "운영 중",
-    "conveniences": [
-     "남/녀 화장실 구분",
-     "단체 이용 가능",
-     "주차"
-    ],
-    "phone": "031-790-8881"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "26369650",
-    "kakao_url": "http://place.map.kakao.com/26369650",
-    "kakao_road_address": "경기 하남시 미사대로 505",
-    "rating": 4.2,
-    "review_count": 95,
-    "status": "Y",
-    "dist_m": 280,
-    "facility_icons": [],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "미사경정공원 주차장 이용 가능, 평일 10분당 300원, 평일 및 공휴일 10분당 400원, 1일 최대 12,000원"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "031-790-8881"
-   },
-   "rating": {
-    "pooled": 4.42,
-    "bayes": 4.41,
-    "total_reviews": 4163,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5598353&dlng=127.2101284&dname=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5598353&dlng=127.2101284&dname=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5598353&lng=127.2101284&name=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/19713256",
-    "mobile_place": "https://m.place.naver.com/place/19713256/home"
-   },
-   "drive": {
-    "min": 9.4,
-    "km": 3.7,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "체험·동물",
-     "캠핑 키즈시설"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "아름다운 공원~ 하남풍산역에서 도보로 15분소요~ 버스는 112-5번 종점임~ 주차시설은 많음~",
-       "src": "kakao-review:15905912",
-       "date": "2026-07-04"
-      },
-      {
-       "label": "주차",
-       "quote": "미사경정공원 주차장 이용 가능, 평일 10분당 300원, 평일 및 공휴일 10분당 400원, 1일 최대 12,",
-       "src": "kakao-info:26369650",
-       "date": null
-      }
-     ],
-     "negative": [
-      {
-       "label": "웨이팅",
-       "quote": "풍경 하.하.하. 정말 웃.기.다 스타트 직전 이곳 저곳 부스가 많았는데 저는 줄 서는 게 귀찮기도 했고, 경품 받아도 놓아둘 곳이 없어서 저는 그냥 구경만 했습니다",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/tamaraciel/224417133277",
-       "date": "5일 전"
-      },
-      {
-       "label": "웨이팅",
-       "quote": "풍경 하.하.하. 정말 웃.기.다 스타트 직전 이곳 저곳 부스가 많았는데 저는 줄 서는 게 귀찮기도 했고, 경품 받아도 놓아둘 곳이 없어서 저는 그냥 구경만 했습니다",
-       "src": "naver-blog:https://m.blog.naver.com/tamaraciel/224417133277",
-       "date": "5일 전"
-      }
-     ],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "쉼터·벤치"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/psynara82/224418140398",
-      "title": "2026 한돈런 10km 참가 코스 기념품 후기 :: 하남 미사경정공원",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "애슐리",
-      "chars": 1921,
-      "sponsored": true
-     },
-     {
-      "url": "https://m.blog.naver.com/tamaraciel/224417133277",
-      "title": "경기도 하남시 미사 나들이 - T1 WISH RUN 그리고",
-      "date": "5일 전",
-      "days_ago": 5,
-      "author": "사막폭포",
-      "chars": 3813,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/dmswl0930/224412111037",
-      "title": "한강보다 좋은 서울 근교 피크닉 명소 하남 미사경정공원 차크닉",
-      "date": "2026.09.15.",
-      "days_ago": 11,
-      "author": "찌가리",
-      "chars": 2721,
-      "sponsored": false
-     }
-    ],
-    "youtube": [
-     {
-      "video_id": "kBEihWxDht8",
-      "link": "https://www.youtube.com/watch?v=kBEihWxDht8&t=751",
-      "t": 751,
-      "quote": "12:31. 하남 미사경정공원",
-      "where": "description"
-     }
-    ]
-   },
-   "scores": {
-    "total": 66.4,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 21.0,
-     "evidence": 23.4,
-     "family_fit": 12,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 12,
-     "review_pts": 9.0,
-     "source_count": 3,
-     "mode_a": 9,
-     "mode_b": 3,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [],
-   "plan_notes": [],
-   "evidence_days_ago": 5,
-   "verified_at": "2026-09-26"
-  },
-  {
    "id": "naver-13162124",
    "name": "세미원",
    "kind": "attraction",
@@ -5308,6 +5214,8 @@
     "reviews": 7751,
     "blog_reviews": 8048,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "남/녀 화장실 구분",
@@ -5463,7 +5371,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -5503,6 +5412,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 7
     },
@@ -5530,6 +5440,8 @@
     "reviews": 10662,
     "blog_reviews": 13527,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "주차",
@@ -5713,7 +5625,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -5775,6 +5688,7 @@
      "source_count": 5,
      "mode_a": 6,
      "mode_b": 0,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -5804,6 +5718,8 @@
     "reviews": 774,
     "blog_reviews": 4123,
     "status": "오늘 휴무",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "남/녀 화장실 구분",
      "무선 인터넷",
@@ -5942,7 +5858,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -5982,6 +5899,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -6009,6 +5927,8 @@
     "reviews": 13175,
     "blog_reviews": 3763,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "무선 인터넷",
      "반려동물 동반",
@@ -6079,7 +5999,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -6119,6 +6040,7 @@
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -6135,6 +6057,183 @@
    "verified_at": "2026-09-26"
   },
   {
+   "id": "naver-19713256",
+   "name": "미사경정공원",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "19713256",
+    "category": "도시,테마공원",
+    "road_address": null,
+    "x": 127.2101284,
+    "y": 37.5598353,
+    "score": 4.42,
+    "reviews": 4068,
+    "blog_reviews": 5741,
+    "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "남/녀 화장실 구분",
+     "단체 이용 가능",
+     "주차"
+    ],
+    "phone": "031-790-8881"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "26369650",
+    "kakao_url": "http://place.map.kakao.com/26369650",
+    "kakao_road_address": "경기 하남시 미사대로 505",
+    "rating": 4.2,
+    "review_count": 95,
+    "status": "Y",
+    "dist_m": 280,
+    "facility_icons": [],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "미사경정공원 주차장 이용 가능, 평일 10분당 300원, 평일 및 공휴일 10분당 400원, 1일 최대 12,000원"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "031-790-8881"
+   },
+   "rating": {
+    "pooled": 4.42,
+    "bayes": 4.41,
+    "total_reviews": 4163,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5598353&dlng=127.2101284&dname=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5598353&dlng=127.2101284&dname=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5598353&lng=127.2101284&name=%EB%AF%B8%EC%82%AC%EA%B2%BD%EC%A0%95%EA%B3%B5%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/19713256",
+    "mobile_place": "https://m.place.naver.com/place/19713256/home"
+   },
+   "drive": {
+    "min": 9.4,
+    "km": 3.7,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "캠핑 키즈시설"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "아름다운 공원~ 하남풍산역에서 도보로 15분소요~ 버스는 112-5번 종점임~ 주차시설은 많음~",
+       "src": "kakao-review:15905912",
+       "date": "2026-07-04"
+      },
+      {
+       "label": "주차",
+       "quote": "미사경정공원 주차장 이용 가능, 평일 10분당 300원, 평일 및 공휴일 10분당 400원, 1일 최대 12,",
+       "src": "kakao-info:26369650",
+       "date": null
+      }
+     ],
+     "negative": [
+      {
+       "label": "웨이팅",
+       "quote": "풍경 하.하.하. 정말 웃.기.다 스타트 직전 이곳 저곳 부스가 많았는데 저는 줄 서는 게 귀찮기도 했고, 경품 받아도 놓아둘 곳이 없어서 저는 그냥 구경만 했습니다",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/tamaraciel/224417133277",
+       "date": "5일 전"
+      },
+      {
+       "label": "웨이팅",
+       "quote": "풍경 하.하.하. 정말 웃.기.다 스타트 직전 이곳 저곳 부스가 많았는데 저는 줄 서는 게 귀찮기도 했고, 경품 받아도 놓아둘 곳이 없어서 저는 그냥 구경만 했습니다",
+       "src": "naver-blog:https://m.blog.naver.com/tamaraciel/224417133277",
+       "date": "5일 전"
+      }
+     ],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/psynara82/224418140398",
+      "title": "2026 한돈런 10km 참가 코스 기념품 후기 :: 하남 미사경정공원",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "애슐리",
+      "chars": 1921,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/tamaraciel/224417133277",
+      "title": "경기도 하남시 미사 나들이 - T1 WISH RUN 그리고",
+      "date": "5일 전",
+      "days_ago": 5,
+      "author": "사막폭포",
+      "chars": 3813,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/dmswl0930/224412111037",
+      "title": "한강보다 좋은 서울 근교 피크닉 명소 하남 미사경정공원 차크닉",
+      "date": "2026.09.15.",
+      "days_ago": 11,
+      "author": "찌가리",
+      "chars": 2721,
+      "sponsored": false
+     }
+    ],
+    "youtube": [
+     {
+      "video_id": "kBEihWxDht8",
+      "link": "https://www.youtube.com/watch?v=kBEihWxDht8&t=751",
+      "t": 751,
+      "quote": "12:31. 하남 미사경정공원",
+      "where": "description"
+     }
+    ]
+   },
+   "scores": {
+    "total": 63.4,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 21.0,
+     "evidence": 23.4,
+     "family_fit": 9,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 9.0,
+     "source_count": 3,
+     "mode_a": 6,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 5,
+   "verified_at": "2026-09-26"
+  },
+  {
    "id": "naver-11583237",
    "name": "서울랜드",
    "kind": "attraction",
@@ -6148,6 +6247,8 @@
     "reviews": 23275,
     "blog_reviews": 17231,
     "status": "영업 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -6332,7 +6433,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -6381,6 +6483,7 @@
      "source_count": 2,
      "mode_a": 12,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 0
     },
@@ -6410,6 +6513,8 @@
     "reviews": 808,
     "blog_reviews": 12349,
     "status": null,
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차",
      "남/녀 화장실 구분"
@@ -6517,7 +6622,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -6572,6 +6678,7 @@
      "source_count": 4,
      "mode_a": 6,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -6608,6 +6715,8 @@
     "reviews": 7160,
     "blog_reviews": 1333,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "포장",
@@ -6708,7 +6817,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -6748,6 +6858,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -6784,6 +6895,8 @@
     "reviews": 630,
     "blog_reviews": 7521,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -7071,7 +7184,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -7111,6 +7225,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 8,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -7138,6 +7253,8 @@
     "reviews": 1152,
     "blog_reviews": 34776,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -7222,7 +7339,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -7262,6 +7380,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
     },
@@ -7289,6 +7408,8 @@
     "reviews": 19657,
     "blog_reviews": 8080,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차",
      "남/녀 화장실 구분",
@@ -7375,7 +7496,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -7415,6 +7537,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -7442,6 +7565,8 @@
     "reviews": 416,
     "blog_reviews": 8418,
     "status": null,
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": null,
     "phone": null
    },
@@ -7567,7 +7692,8 @@
      "verdict": "적합 근거",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -7607,6 +7733,7 @@
      "source_count": 2,
      "mode_a": 3,
      "mode_b": 10,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
     },
@@ -7634,6 +7761,8 @@
     "reviews": 7595,
     "blog_reviews": 2376,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "무선 인터넷",
@@ -7750,7 +7879,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -7812,6 +7942,7 @@
      "source_count": 2,
      "mode_a": 12,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 7
     },
@@ -7839,6 +7970,8 @@
     "reviews": 2988,
     "blog_reviews": 9828,
     "status": "24시간 운영",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "주차"
     ],
@@ -7985,7 +8118,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -8025,6 +8159,7 @@
      "source_count": 2,
      "mode_a": 12,
      "mode_b": 6,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -8052,6 +8187,8 @@
     "reviews": 11602,
     "blog_reviews": 8260,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "단체 이용 가능",
@@ -8239,7 +8376,8 @@
      "verdict": "조건부(주의 근거)",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -8279,6 +8417,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 2,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 7
     },
@@ -8306,6 +8445,8 @@
     "reviews": 3222,
     "blog_reviews": 5721,
     "status": "24시간 운영",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": null,
     "phone": "031-550-3789"
    },
@@ -8391,7 +8532,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -8431,6 +8573,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
     },
@@ -8458,6 +8601,8 @@
     "reviews": 3131,
     "blog_reviews": 2705,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "단체 이용 가능",
      "남/녀 화장실 구분",
@@ -8511,8 +8656,7 @@
    },
    "family": {
     "mode_a": [
-     "아이동반",
-     "체험·동물"
+     "아이동반"
     ],
     "mode_b": {
      "positive": [
@@ -8541,7 +8685,8 @@
       "경사·계단·걷는 거리"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -8567,20 +8712,21 @@
     "youtube": []
    },
    "scores": {
-    "total": 57.8,
-    "tier": "조건부",
+    "total": 54.8,
+    "tier": "근거부족",
     "breakdown": {
      "reputation": 20.8,
      "evidence": 18,
-     "family_fit": 11,
+     "family_fit": 8,
      "practicality": 8
     },
     "detail": {
      "rating_pts": 12,
      "review_pts": 8.8,
      "source_count": 2,
-     "mode_a": 6,
+     "mode_a": 3,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -8608,6 +8754,8 @@
     "reviews": 13276,
     "blog_reviews": 6411,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "남/녀 화장실 구분",
@@ -8717,7 +8865,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -8772,6 +8921,7 @@
      "source_count": 4,
      "mode_a": 9,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -8799,6 +8949,8 @@
     "reviews": 401,
     "blog_reviews": 3124,
     "status": null,
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": null,
     "phone": "032-435-7076"
    },
@@ -8890,7 +9042,8 @@
       "주차"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -8930,6 +9083,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 5,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -8966,6 +9120,8 @@
     "reviews": 2021,
     "blog_reviews": 10613,
     "status": null,
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "예약",
      "남/녀 화장실 구분"
@@ -9031,7 +9187,8 @@
       "주차"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -9080,6 +9237,7 @@
      "source_count": 2,
      "mode_a": 3,
      "mode_b": 0,
+     "bath_pts": 0,
      "drive_pts": 6,
      "cost_pts": 2
     },
@@ -9107,6 +9265,8 @@
     "reviews": 242,
     "blog_reviews": 4106,
     "status": "운영 중",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": null,
     "phone": "031-834-3883"
    },
@@ -9220,7 +9380,8 @@
       "주차"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -9260,6 +9421,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 2,
      "cost_pts": 7
     },
@@ -9289,6 +9451,8 @@
     "reviews": 1289,
     "blog_reviews": 21116,
     "status": "24시간 운영",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": null,
     "phone": "031-775-8700"
    },
@@ -9387,7 +9551,8 @@
       "주차"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -9442,6 +9607,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 2,
+     "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
     },
@@ -9478,6 +9644,8 @@
     "reviews": 1214,
     "blog_reviews": 5498,
     "status": null,
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": null,
     "phone": "032-937-4445"
    },
@@ -9550,7 +9718,8 @@
       "쉼터·벤치"
      ],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -9590,6 +9759,7 @@
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 3,
+     "bath_pts": 0,
      "drive_pts": 2,
      "cost_pts": 2
     },
@@ -9606,222 +9776,6 @@
    "verified_at": "2026-09-26"
   },
   {
-   "id": "naver-11583652",
-   "name": "한택식물원",
-   "kind": "attraction",
-   "naver": {
-    "place_id": "11583652",
-    "category": "식물원,수목원",
-    "road_address": "한택로 2 한택식물원",
-    "x": 127.4074938,
-    "y": 37.0945874,
-    "score": 4.08,
-    "reviews": 1018,
-    "blog_reviews": 2021,
-    "status": null,
-    "conveniences": [
-     "주차",
-     "남/녀 화장실 구분",
-     "무선 인터넷"
-    ],
-    "phone": "031-333-3558"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "24063430",
-    "kakao_url": "http://place.map.kakao.com/24063430",
-    "kakao_road_address": "경기 용인시 처인구 백암면 한택로 2",
-    "rating": 2.8,
-    "review_count": 71,
-    "status": "Y",
-    "dist_m": 81,
-    "facility_icons": [],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "한택식물원 자체 넓은 무료 주차장 이용 가능"
-     }
-    ],
-    "headline": "영업 정보",
-    "phone": "031-333-3558"
-   },
-   "rating": {
-    "pooled": 4.08,
-    "bayes": 4.09,
-    "total_reviews": 1089,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.0945874&dlng=127.4074938&dname=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.0945874&dlng=127.4074938&dname=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.0945874&lng=127.4074938&name=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/11583652",
-    "mobile_place": "https://m.place.naver.com/place/11583652/home"
-   },
-   "drive": {
-    "min": 53.9,
-    "km": 70.18,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 26000,
-     "basis": "입장료 성인 7,000원 x2 + 어린이 6,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
-     "sample": [
-      [
-       "어린이/청소년 경로,장애인,국가유공자",
-       6000
-      ],
-      [
-       "어른 / 경로,장애인,국가유공자",
-       7000
-      ],
-      [
-       "어른",
-       10000
-      ],
-      [
-       "어린이 및 청소년",
-       7000
-      ],
-      [
-       "경로,장애인,국가유공자,인근면민",
-       7000
-      ]
-     ]
-    },
-    "menus_sample": [
-     {
-      "name": "어린이/청소년 경로,장애인,국가유공자",
-      "price": "6000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어른 / 경로,장애인,국가유공자",
-      "price": "7000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어른",
-      "price": "10000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "어린이 및 청소년",
-      "price": "7000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "경로,장애인,국가유공자,인근면민",
-      "price": "7000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "단체(어른 30인 이상)",
-      "price": "8000",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [
-     "놀이시설",
-     "아이동반",
-     "체험·동물"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "한택식물원 자체 넓은 무료 주차장 이용 가능",
-       "src": "kakao-info:24063430",
-       "date": null
-      },
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "어 있는 모습이 보고만 있어도 힐링되던..ㅎㅎ ​ ​ 6. 총평 ​ 중간에 잠시 쉬어갈 수 있게 만들어 놓은 캠핑 공간에서 숨 고르기! ​ 사실 의자가 하나뿐이라, 쉬어가",
-       "src": "naver-blog:https://m.blog.naver.com/k-traveler-/224378983561",
-       "date": "2026.08.14."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리"
-     ],
-     "soft_food": false
-    }
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/touryongin/224413654018",
-      "title": "희귀식물부터 바오밥나무까지, 한택식물원의 매력",
-      "date": "4일 전",
-      "days_ago": 4,
-      "author": "용인관광",
-      "chars": 1764,
-      "sponsored": true
-     },
-     {
-      "url": "https://m.blog.naver.com/k-traveler-/224378983561",
-      "title": "8월 9월 데이트 코스, 용인 한택식물원 20만 평 산책과 수련",
-      "date": "2026.08.14.",
-      "days_ago": 43,
-      "author": "여행쟁이",
-      "chars": 2910,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/manhoc2002/224346354514",
-      "title": "남아프리카의 꽃, 용인 한택식물원 아프리카식물관에서 만난 희귀한 꽃",
-      "date": "2026.07.14.",
-      "days_ago": 74,
-      "author": "청솔객 manhoc",
-      "chars": 1157,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 51.6,
-    "tier": "제외",
-    "breakdown": {
-     "reputation": 7.6,
-     "evidence": 17,
-     "family_fit": 14,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 7.6,
-     "source_count": 2,
-     "mode_a": 9,
-     "mode_b": 5,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": false,
-     "failed": [
-      "별점(네이버) 4.08 < 4.2"
-     ]
-    }
-   },
-   "flags": [],
-   "plan_notes": [],
-   "evidence_days_ago": 43,
-   "verified_at": "2026-09-26"
-  },
-  {
    "id": "naver-11491825",
    "name": "산정호수",
    "kind": "attraction",
@@ -9835,6 +9789,8 @@
     "reviews": 266,
     "blog_reviews": 8450,
     "status": "24시간 운영",
+    "new_open": false,
+    "new_open_since": null,
     "conveniences": [
      "남/녀 화장실 구분",
      "주차"
@@ -10013,7 +9969,8 @@
      "verdict": "적합 근거",
      "unknown": [],
      "soft_food": false
-    }
+    },
+    "bath": []
    },
    "sources": {
     "blogs": [
@@ -10053,6 +10010,7 @@
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 11,
+     "bath_pts": 0,
      "drive_pts": 2,
      "cost_pts": 2
     },
@@ -10068,6 +10026,225 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 15,
+   "verified_at": "2026-09-26"
+  },
+  {
+   "id": "naver-11583652",
+   "name": "한택식물원",
+   "kind": "attraction",
+   "naver": {
+    "place_id": "11583652",
+    "category": "식물원,수목원",
+    "road_address": "한택로 2 한택식물원",
+    "x": 127.4074938,
+    "y": 37.0945874,
+    "score": 4.08,
+    "reviews": 1018,
+    "blog_reviews": 2021,
+    "status": null,
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "주차",
+     "남/녀 화장실 구분",
+     "무선 인터넷"
+    ],
+    "phone": "031-333-3558"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "24063430",
+    "kakao_url": "http://place.map.kakao.com/24063430",
+    "kakao_road_address": "경기 용인시 처인구 백암면 한택로 2",
+    "rating": 2.8,
+    "review_count": 71,
+    "status": "Y",
+    "dist_m": 81,
+    "facility_icons": [],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "한택식물원 자체 넓은 무료 주차장 이용 가능"
+     }
+    ],
+    "headline": "영업 정보",
+    "phone": "031-333-3558"
+   },
+   "rating": {
+    "pooled": 4.08,
+    "bayes": 4.09,
+    "total_reviews": 1089,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.0945874&dlng=127.4074938&dname=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.0945874&dlng=127.4074938&dname=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.0945874&lng=127.4074938&name=%ED%95%9C%ED%83%9D%EC%8B%9D%EB%AC%BC%EC%9B%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/11583652",
+    "mobile_place": "https://m.place.naver.com/place/11583652/home"
+   },
+   "drive": {
+    "min": 53.9,
+    "km": 70.18,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": {
+     "krw": 26000,
+     "basis": "입장료 성인 7,000원 x2 + 어린이 6,000원 x2 (네이버 등록 가격, 체험·식사 별도)",
+     "sample": [
+      [
+       "어린이/청소년 경로,장애인,국가유공자",
+       6000
+      ],
+      [
+       "어른 / 경로,장애인,국가유공자",
+       7000
+      ],
+      [
+       "어른",
+       10000
+      ],
+      [
+       "어린이 및 청소년",
+       7000
+      ],
+      [
+       "경로,장애인,국가유공자,인근면민",
+       7000
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "어린이/청소년 경로,장애인,국가유공자",
+      "price": "6000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어른 / 경로,장애인,국가유공자",
+      "price": "7000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어른",
+      "price": "10000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "어린이 및 청소년",
+      "price": "7000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "경로,장애인,국가유공자,인근면민",
+      "price": "7000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "단체(어른 30인 이상)",
+      "price": "8000",
+      "description": "",
+      "recommend": false
+     }
+    ]
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설",
+     "아이동반"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "한택식물원 자체 넓은 무료 주차장 이용 가능",
+       "src": "kakao-info:24063430",
+       "date": null
+      },
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "어 있는 모습이 보고만 있어도 힐링되던..ㅎㅎ ​ ​ 6. 총평 ​ 중간에 잠시 쉬어갈 수 있게 만들어 놓은 캠핑 공간에서 숨 고르기! ​ 사실 의자가 하나뿐이라, 쉬어가",
+       "src": "naver-blog:https://m.blog.naver.com/k-traveler-/224378983561",
+       "date": "2026.08.14."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/touryongin/224413654018",
+      "title": "희귀식물부터 바오밥나무까지, 한택식물원의 매력",
+      "date": "4일 전",
+      "days_ago": 4,
+      "author": "용인관광",
+      "chars": 1764,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/k-traveler-/224378983561",
+      "title": "8월 9월 데이트 코스, 용인 한택식물원 20만 평 산책과 수련",
+      "date": "2026.08.14.",
+      "days_ago": 43,
+      "author": "여행쟁이",
+      "chars": 2910,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/manhoc2002/224346354514",
+      "title": "남아프리카의 꽃, 용인 한택식물원 아프리카식물관에서 만난 희귀한 꽃",
+      "date": "2026.07.14.",
+      "days_ago": 74,
+      "author": "청솔객 manhoc",
+      "chars": 1157,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 48.6,
+    "tier": "제외",
+    "breakdown": {
+     "reputation": 7.6,
+     "evidence": 17,
+     "family_fit": 11,
+     "practicality": 13
+    },
+    "detail": {
+     "rating_pts": 0,
+     "review_pts": 7.6,
+     "source_count": 2,
+     "mode_a": 6,
+     "mode_b": 5,
+     "bath_pts": 0,
+     "drive_pts": 6,
+     "cost_pts": 7
+    },
+    "gates": {
+     "pass": false,
+     "failed": [
+      "별점(네이버) 4.08 < 4.2"
+     ]
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 43,
    "verified_at": "2026-09-26"
   }
  ]

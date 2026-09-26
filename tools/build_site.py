@@ -41,7 +41,7 @@ def slim(p):
         "cost": ((p["price"]["est_meal_4p"] or {}).get("krw")), "menus": [(m.get("name"), m.get("price")) for m in p["price"]["menus_sample"][:4]],
         "st": p["naver"].get("status"), "kst": p["kakao"].get("status"), "hl": p["kakao"].get("headline"),
         "bv": fam["verdict"], "unk": fam["unknown"], "soft": fam["soft_food"], "pos": pos[:4], "neg": neg[:3],
-        "kids": p["family"]["mode_a"], "flags": p["flags"],
+        "kids": p["family"]["mode_a"], "flags": p["flags"], "nw": bool(p["naver"].get("new_open")), "nws": p["naver"].get("new_open_since"),
         "park": [i.get("summary") for i in (p["kakao"].get("store_infos") or []) if i.get("title") == "주차"][:1],
         "conv": p["naver"].get("conveniences") or [], "fac": p["kakao"].get("facility_icons") or [],
         "blogs": [{"t": b.get("title"), "u": b["url"], "d": b.get("date"), "a": b.get("author"), "sp": b["sponsored"]} for b in p["sources"]["blogs"]],
@@ -155,7 +155,7 @@ if REGD:
                             "addr": sn.get("addr"), "web": sn.get("web"), "why": next((e["text"] for e in reversed(r["events"]) if e["type"] in ("missing", "closed")), "")})
     for key, v in REGD.get("pending", {}).items():
         pending.append({"n": v["name"], "sc": v["scope"], "cat": v.get("category"), "addr": v.get("addr"), "rv": v.get("reviews"), "rt": v.get("rating"),
-                        "km": v.get("km"), "ff": v.get("first_found"), "web": v.get("web")})
+                        "km": v.get("km"), "ff": v.get("first_found"), "web": v.get("web"), "nw": bool(v.get("new_open"))})
     recent.sort(key=lambda e: e["d"], reverse=True)
     HIST = {"since": REGD["baseline"], "recent": recent[:60], "archive": archive, "pending": pending, "discovered": REGD.get("discovered"),
             "total": len(REGD["places"]), "seen": len(REGD.get("seen", {}))}

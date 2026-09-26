@@ -158,7 +158,8 @@ function card(p) {
   // '영업 중/오늘 휴무'는 수집 시점의 스냅샷이라 표시하지 않는다(가는 날 상태는 네이버 지도에서 확인). 폐업 신호만 표시.
   p.flags.filter(f => /웨이팅|폐업|입장료.*4인|걷는 거리|사전 예약|휴관/.test(f)).forEach(f => pills.push(`<span class="pill w">${esc(f)}</span>`));
   if (p.ctype) pills.unshift(`<span class="pill ${p.ctype === '오토캠핑' ? 'g' : ''}">${esc(p.ctype)}</span>`);
-  if (p.h && p.h.new) pills.unshift(`<span class="pill n">🆕 새로 추가 ${esc(p.h.fs)}</span>`);
+  if (p.nw) pills.unshift(`<span class="pill n">🌱 신규 오픈 · 후기가 아직 적어요</span>`);
+  if (p.h && p.h.new && !p.nw) pills.unshift(`<span class="pill n">🆕 새로 추가 ${esc(p.h.fs)}</span>`);
   if (p.h && p.h.tier_chg) pills.push(`<span class="pill n">등급 변화: ${esc(p.h.tier_chg)}</span>`);
   if (p.rp == null) pills.push('<span class="pill b">별점 확인 불가</span>');
   if (p.flags.some(f => /카카오 교차검증 실패/.test(f))) pills.push('<span class="pill w">카카오 미확인</span>');
@@ -211,7 +212,7 @@ function card(p) {
 }
 
 const SC = {local: '동네', trip: '나들이', camp: '캠핑'};
-const EI = {new: '🆕', tier: '📈', rating: '⭐', closed: '⛔', reopened: '✅', renamed: '🔄', missing: '📤', back: '📥'};
+const EI = {new_open: '🌱', new: '🆕', tier: '📈', rating: '⭐', closed: '⛔', reopened: '✅', renamed: '🔄', missing: '📤', back: '📥'};
 function renderHist() {
   const H = D.hist;
   const link = (x) => x.app ? `<a class="mini" href="${esc(x.app)}" onclick="go('${esc(x.app)}','${esc(x.web)}');return false;">내비</a>` : (x.web ? `<a class="mini" href="${esc(x.web)}" target="_blank" rel="noopener">지도</a>` : '');
@@ -219,8 +220,8 @@ function renderHist() {
   let h = `<div class="note">추천 목록은 <b>지워지지 않고 쌓여요</b>. ${esc(H.since)}부터 ${H.total}곳의 변화(새로 추가·등급/별점 변화·이름 변경(리뉴얼)·폐업 의심·목록에서 빠짐)를 기록해요. 매주 자동 점검 때 갱신돼요.</div>`;
   h += `<h3 class="hsec">최근 변화 (60일)</h3>`;
   h += H.recent.length ? H.recent.map(e => `<div class="hit" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><div><b>${EI[e.t] || '•'} ${esc(e.n)}</b> <span style="color:var(--muted)">· ${SC[e.sc]}</span><small>${esc(e.d)} · ${esc(e.x)}</small></div>${link(e)}</div>`).join('') : `<div class="empty">아직 변화가 없어요 (${esc(H.since)}부터 기록 중)</div>`;
-  h += `<h3 class="hsec">🆕 새로 발견됐어요 — 아직 검증 전 (${H.pending.length}곳)</h3><p class="q">새로 문을 열었거나 리뷰 기준(식당·카페·나들이 300건, 캠핑 50건)을 새로 넘은 곳이에요. 후기를 읽고 점수화하기 전이라 <b>추천이 아니에요</b>.</p>`;
-  h += H.pending.length ? H.pending.map(x => `<div class="hit" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><div><b>${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]}</span><small>${esc(x.cat || '')} · 네이버 리뷰 ${fmt(x.rv)}${x.rt ? ' · ★' + x.rt : ''} · 집에서 직선 ${x.km}km · 발견 ${esc(x.ff)}</small></div>${link(x)}</div>`).join('') : '<div class="empty">없음</div>';
+  h += `<h3 class="hsec">🆕 새로 발견됐어요 — 아직 검증 전 (${H.pending.length}곳)</h3><p class="q">새로 문을 열었거나(🌱 신규 오픈: 리뷰 20건·캠핑 10건부터) 리뷰 기준(식당·카페·나들이 300건, 캠핑 50건)을 새로 넘은 곳이에요. 후기를 읽고 점수화하기 전이라 <b>추천이 아니에요</b>.</p>`;
+  h += H.pending.length ? H.pending.map(x => `<div class="hit" style="display:flex;justify-content:space-between;gap:8px;align-items:center"><div><b>${x.nw ? '🌱 ' : ''}${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]}${x.nw ? ' · 신규 오픈' : ''}</span><small>${esc(x.cat || '')} · 네이버 리뷰 ${fmt(x.rv)}${x.rt ? ' · ★' + x.rt : ''} · 집에서 직선 ${x.km}km · 발견 ${esc(x.ff)}</small></div>${link(x)}</div>`).join('') : '<div class="empty">없음</div>';
   h += `<h3 class="hsec">목록에서 빠진 곳·문 닫은 곳 (이력 보관, ${H.archive.length}곳)</h3>`;
   h += H.archive.length ? H.archive.map(x => `<div class="hit"><b>${x.st === 'closed' ? '⛔' : '📤'} ${esc(x.n)}</b> <span style="color:var(--muted)">· ${SC[x.sc]} · 마지막 확인 ${esc(x.ls)} · 당시 ${esc(x.tier)} ${x.s}점</span><small>${esc(x.why)}</small></div>`).join('') : '<div class="empty">없음</div>';
   h += `<p class="q">점검 현황: 점수화돼 목록에 있는 ${H.total}곳 외에, 아직 점수화하지 않은 후보 ${H.seen}곳을 ‘이미 본 곳’으로 기록해 뒀어요(이 밖에서 새로 나타난 곳만 새 후보)${H.discovered ? ' · 새 장소 탐색 ' + esc(H.discovered) : ''}.</p>`;
@@ -249,7 +250,10 @@ function render() {
   const excl = base.filter(p => p.tier === '제외');
   const key = st.sort === 'dr' ? (a, b) => (a.dr ?? 99) - (b.dr ?? 99) : (a, b) => b.s - a.s;
   main.sort(key); weak.sort(key);
-  document.getElementById('list').innerHTML = main.length ? main.map(card).join('') : '<div class="empty">조건에 맞는 곳이 아직 없어요</div>';
+  // 새로 문 연 곳(네이버 '새로오픈' 표시) 중 추천·조건부는 목록 맨 위에 따로 모아 보여준다 — 신선한 곳을 먼저
+  const fresh = main.filter(p => p.nw), rest = main.filter(p => !p.nw);
+  const freshHtml = fresh.length ? `<h3 class="hsec">🌱 새로 문 연 곳 (${fresh.length}곳)</h3><p class="q">네이버에 ‘새로오픈’ 표시가 붙은 곳이에요. 리뷰가 적어(기준 완화: 식당·카페·나들이 20건, 캠핑 10건) <b>후기 표본이 작고 등급은 조건부까지</b>예요. 그래도 광고 아닌 실제 후기 글 1곳 이상과 별점 기준을 통과한 곳만 올렸어요.</p>` + fresh.map(card).join('') + `<h3 class="hsec">전체 추천·조건부</h3>` : '';
+  document.getElementById('list').innerHTML = main.length ? freshHtml + rest.map(card).join('') : '<div class="empty">조건에 맞는 곳이 아직 없어요</div>';
   document.getElementById('weakList').innerHTML = weak.map(card).join('') || '<div class="empty">없음</div>';
   document.getElementById('weak').style.display = weak.length ? '' : 'none';
   document.getElementById('exclList').innerHTML = '<ul>' + excl.map(p => `<li><b>${esc(p.n)}</b>: ${esc(p.fails.join(' / '))}</li>`).join('') + '</ul>';

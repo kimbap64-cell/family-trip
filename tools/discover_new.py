@@ -3,7 +3,8 @@
   python tools/discover_new.py
 
 - 동네·나들이·캠핑 각 발굴 검색어를 '새로 조회'(캐시 무시)해서 이력 저장소(data/registry.json)에 없는 장소를 찾는다.
-- 통과 기준(리뷰 수·거리·별점 하한)을 넘는 새 장소는 registry['pending'](검토 대기)에 넣는다. **추천으로 바로 올리지 않는다** —
+- 통과 기준(리뷰 수·거리·별점 하한)을 넘는 새 장소는 registry['pending'](검토 대기)에 넣는다.
+  네이버 '새로오픈' 표시(newOpening)가 붙은 곳은 리뷰 하한을 낮춰(gates.min_review_count_new_open) 이미 본 후보 목록과 무관하게 검토 대기에 올린다(new_open=True). **추천으로 바로 올리지 않는다** —
   다음 수집(run_all --fetch / Claude 세션)에서 블로그·카카오 근거를 읽고 점수화한 뒤에야 목록에 오른다.
 - 이미 이력에 있는 장소의 이름이 바뀌었으면 renamed 이벤트를 기록한다(리뉴얼·상호 변경).
 - 네이버 차단 신호(403/429/구조 변경)면 즉시 중단하고 종료코드 2 (이력은 그대로).
@@ -66,26 +67,33 @@ def main():
                     it, kind, max_m, sc = r
                     key = f"{sc}:{it['id']}"
                     rec = P.get(key)
-                    if rec:  # 이미 이력에 있음 -> 이름 변경만 확인
+                    if rec:  # 이미 이력에 있음 -> 이름 변경·신규오픈 표시만 확인
+                        if it.get("new_opening") and not rec.get("new_open_since"):
+                            rec["new_open_since"] = today
+                            rg.add_event(rec, today, "new_open", "🌱 네이버 '새로오픈' 표시가 붙음")
                         if it["name"] and it["name"] != rec["name"] and it["name"] not in rec.get("names", []):
                             rec["names"] = sorted(set(rec.get("names", []) + [rec["name"]]))
                             rg.add_event(rec, today, "renamed", f"이름이 '{rec['name']}' → '{it['name']}'(으)로 바뀜 — 리뉴얼·상호 변경일 수 있어요")
                             rec["name"] = it["name"]
                             renamed += 1
                         continue
+                    if key in reg.get("rejected", {}):
+                        continue  # 이미 검토해 범위 밖(차량 시간 초과 등)으로 정한 곳
                     if it.get("x") is None or it.get("y") is None:
                         continue
                     d = geo.haversine_m(hx, hy, it["x"], it["y"])
                     rv = it.get("visitor_review_count") or 0
-                    if d > max_m or rv < CFG["min_review_count"].get(kind, 300):
+                    is_new = bool(it.get("new_opening"))
+                    min_rv = (CFG["min_review_count_new_open"] if is_new else CFG["min_review_count"]).get(kind, 300)
+                    if d > max_m or rv < min_rv:
                         continue
                     sc_rate = it.get("visitor_review_score")
-                    if sc_rate and sc_rate < CFG["min_naver_rating"].get(kind, 4.2) - 0.3:
-                        continue  # 별점이 분명히 낮은 곳은 검토 대기에도 올리지 않는다
+                    if sc_rate and sc_rate < CFG["min_naver_rating"].get(kind, 4.2) - 0.3 and (rv >= 10 or not is_new):
+                        continue  # 별점이 분명히 낮은 곳은 검토 대기에도 올리지 않는다(리뷰 10건 미만 신규는 별점 표본이 무의미해 예외)
                     nav = npl.nav_links(it["name"], it["x"], it["y"], it["id"])
                     found[key] = {"scope": sc, "id": it["id"], "name": it["name"], "kind": kind, "category": it.get("category"),
                                   "addr": it.get("road_address"), "rating": sc_rate, "reviews": rv, "km": round(d / 1000, 1),
-                                  "app": nav["app_navigation"], "web": nav["web_place"]}
+                                  "app": nav["app_navigation"], "web": nav["web_place"], "new_open": is_new, "cand": it}
             print(f"  [{scope}] 검색 {len(queries)}건 완료 — 누적 새 후보 {sum(1 for k in found if k.startswith(scope))}", flush=True)
     except npl.NaverBlocked as e:
         print("[중단] 네이버 차단 신호 — 이번 발굴은 저장하지 않음:", e)
@@ -101,7 +109,7 @@ def main():
         print(f"[discover] 기준선: 점검 대상 밖의 미평가 후보 {len(found)}곳을 '이미 본 후보'로 기록 (다음 발굴부터 새로 나타난 곳만 새 후보)")
     else:
         for k, v in sorted(found.items(), key=lambda kv: -kv[1]["reviews"]):
-            if k not in reg["seen"] and sum(1 for x in pend.values() if x["scope"] == v["scope"]) < MAX_NEW:
+            if (k not in reg["seen"] or v["new_open"]) and k not in pend and sum(1 for x in pend.values() if x["scope"] == v["scope"]) < MAX_NEW:
                 v["first_found"] = today
                 v["last_seen"] = today
                 pend[k] = v
