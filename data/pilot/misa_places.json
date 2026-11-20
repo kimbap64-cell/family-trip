@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26 11:35",
+ "generated": "2026-11-20 04:06",
  "scope": "local",
  "places": [
   {
@@ -12,9 +12,9 @@
     "road_address": "월호로 70 2층",
     "x": 127.2077318,
     "y": 37.5547759,
-    "score": 4.9,
-    "reviews": 397,
-    "blog_reviews": 745,
+    "score": 4.89,
+    "reviews": 689,
+    "blog_reviews": 608,
     "status": "영업 중",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -25,6 +25,7 @@
      "대기공간",
      "남/녀 화장실 구분",
      "무선 인터넷",
+     "예약",
      "간편결제",
      "주차"
     ],
@@ -45,9 +46,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.9,
-    "bayes": 4.85,
-    "total_reviews": 397,
+    "pooled": 4.89,
+    "bayes": 4.86,
+    "total_reviews": 689,
     "source": "네이버"
    },
    "nav": {
@@ -188,17 +189,17 @@
     ]
    },
    "scores": {
-    "total": 83.5,
+    "total": 84.1,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 31.5,
+     "reputation": 32.1,
      "evidence": 23,
      "family_fit": 19,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 6.5,
+     "review_pts": 7.1,
      "source_count": 3,
      "mode_a": 9,
      "mode_b": 10,
@@ -218,7 +219,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2015604890",
@@ -230,9 +231,9 @@
     "road_address": "미사대로 410 3층 333, 334, 335호",
     "x": 127.1977704,
     "y": 37.5666509,
-    "score": 4.9,
-    "reviews": 608,
-    "blog_reviews": 332,
+    "score": 4.94,
+    "reviews": 1040,
+    "blog_reviews": 386,
     "status": "곧 영업 시작",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -260,7 +261,9 @@
     "status": "Y",
     "dist_m": 7,
     "facility_icons": [
-     "예약가능"
+     "반려견동반",
+     "예약가능",
+     "포장가능"
     ],
     "store_infos": [
      {
@@ -272,9 +275,9 @@
     "phone": "031-795-1101"
    },
    "rating": {
-    "pooled": 4.9,
-    "bayes": 4.87,
-    "total_reviews": 609,
+    "pooled": 4.94,
+    "bayes": 4.92,
+    "total_reviews": 1041,
     "source": "네이버"
    },
    "nav": {
@@ -374,17 +377,17 @@
     ]
    },
    "scores": {
-    "total": 81.3,
+    "total": 81.8,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 32.0,
+     "reputation": 32.5,
      "evidence": 22.3,
      "family_fit": 17,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 7.0,
+     "review_pts": 7.5,
      "source_count": 3,
      "mode_a": 12,
      "mode_b": 5,
@@ -402,8 +405,8 @@
     "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 29,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 84,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1386170219",
@@ -415,9 +418,9 @@
     "road_address": "월호로 70 3층 정성고등어",
     "x": 127.2077541,
     "y": 37.5548214,
-    "score": 4.86,
-    "reviews": 6471,
-    "blog_reviews": 582,
+    "score": 4.87,
+    "reviews": 7144,
+    "blog_reviews": 618,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -440,13 +443,13 @@
     "kakao_url": "http://place.map.kakao.com/782228919",
     "kakao_road_address": "경기 하남시 월호로 70",
     "rating": 4.9,
-    "review_count": 1228,
+    "review_count": 1404,
     "status": "Y",
     "dist_m": 11,
     "facility_icons": [
      "주차가능",
-     "예약가능",
-     "포장가능"
+     "포장가능",
+     "배달가능"
     ],
     "store_infos": [
      {
@@ -462,9 +465,9 @@
     "phone": "031-794-9290"
    },
    "rating": {
-    "pooled": 4.86,
-    "bayes": 4.85,
-    "total_reviews": 7699,
+    "pooled": 4.87,
+    "bayes": 4.86,
+    "total_reviews": 8548,
     "source": "네이버"
    },
    "nav": {
@@ -637,17 +640,17 @@
     ]
    },
    "scores": {
-    "total": 79.7,
+    "total": 79.8,
     "tier": "추천",
     "breakdown": {
-     "reputation": 34.7,
+     "reputation": 34.8,
      "evidence": 23,
      "family_fit": 12,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.7,
+     "review_pts": 9.8,
      "source_count": 3,
      "mode_a": 6,
      "mode_b": 6,
@@ -666,7 +669,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 5,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-20388227",
@@ -679,8 +682,8 @@
     "x": 127.2098246,
     "y": 37.5538854,
     "score": null,
-    "reviews": 4391,
-    "blog_reviews": 1445,
+    "reviews": 4408,
+    "blog_reviews": 1497,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -701,10 +704,11 @@
     "kakao_url": "http://place.map.kakao.com/13306246",
     "kakao_road_address": "경기 하남시 월호로 48-7",
     "rating": 4.4,
-    "review_count": 273,
+    "review_count": 283,
     "status": "Y",
     "dist_m": 6,
     "facility_icons": [
+     "주차가능",
      "반려견동반",
      "예약가능",
      "포장가능"
@@ -725,7 +729,7 @@
    "rating": {
     "pooled": 5.0,
     "bayes": 4.79,
-    "total_reviews": 4664,
+    "total_reviews": 4691,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -933,8 +937,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 14,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 69,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2099748636",
@@ -946,9 +950,9 @@
     "road_address": "미사강변중앙로 161 제1층 114호, 115호 건물뒷편 수변공원라인",
     "x": 127.1906183,
     "y": 37.5611436,
-    "score": 4.89,
-    "reviews": 4869,
-    "blog_reviews": 236,
+    "score": 4.9,
+    "reviews": 5662,
+    "blog_reviews": 256,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -977,9 +981,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.89,
-    "bayes": 4.88,
-    "total_reviews": 4869,
+    "pooled": 4.9,
+    "bayes": 4.89,
+    "total_reviews": 5662,
     "source": "네이버"
    },
    "nav": {
@@ -1093,17 +1097,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 77.2,
+    "total": 77.4,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 34.2,
+     "reputation": 34.4,
      "evidence": 18,
      "family_fit": 15,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.2,
+     "review_pts": 9.4,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 9,
@@ -1122,8 +1126,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 12,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 67,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2094295419",
@@ -1135,9 +1139,9 @@
     "road_address": "미사동로 66 스테이564 미사아일랜드",
     "x": 127.2026635,
     "y": 37.5726029,
-    "score": 4.85,
-    "reviews": 6631,
-    "blog_reviews": 452,
+    "score": 4.87,
+    "reviews": 7560,
+    "blog_reviews": 496,
     "status": "곧 영업 시작",
     "new_open": false,
     "new_open_since": null,
@@ -1159,11 +1163,12 @@
     "kakao_url": "http://place.map.kakao.com/1463972437",
     "kakao_road_address": "경기 하남시 미사동로 66",
     "rating": 3.4,
-    "review_count": 32,
+    "review_count": 35,
     "status": "Y",
     "dist_m": 2,
     "facility_icons": [
-     "예약가능"
+     "예약가능",
+     "포장가능"
     ],
     "store_infos": [
      {
@@ -1179,9 +1184,9 @@
     "phone": ""
    },
    "rating": {
-    "pooled": 4.85,
-    "bayes": 4.84,
-    "total_reviews": 6663,
+    "pooled": 4.87,
+    "bayes": 4.86,
+    "total_reviews": 7595,
     "source": "네이버"
    },
    "nav": {
@@ -1309,17 +1314,17 @@
     ]
    },
    "scores": {
-    "total": 76.6,
+    "total": 76.7,
     "tier": "추천",
     "breakdown": {
-     "reputation": 34.6,
+     "reputation": 34.7,
      "evidence": 23,
      "family_fit": 9,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.6,
+     "review_pts": 9.7,
      "source_count": 3,
      "mode_a": 3,
      "mode_b": 6,
@@ -1337,8 +1342,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 12,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 67,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2003229178",
@@ -1350,9 +1355,9 @@
     "road_address": "미사강변동로 100-1 1층 1018호, 1019호",
     "x": 127.1931705,
     "y": 37.563937,
-    "score": 5.0,
-    "reviews": 5459,
-    "blog_reviews": 148,
+    "score": 5,
+    "reviews": 5896,
+    "blog_reviews": 155,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -1379,9 +1384,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 5.0,
+    "pooled": 5,
     "bayes": 4.99,
-    "total_reviews": 5459,
+    "total_reviews": 5896,
     "source": "네이버"
    },
    "nav": {
@@ -1470,17 +1475,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 76.3,
+    "total": 76.4,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 34.3,
+     "reputation": 34.4,
      "evidence": 18,
      "family_fit": 14,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.3,
+     "review_pts": 9.4,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 8,
@@ -1499,7 +1504,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 7,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1603270165",
@@ -1511,9 +1516,9 @@
     "road_address": "미사강변한강로 135 스카이폴리스 다동 143호",
     "x": 127.1937643,
     "y": 37.5767812,
-    "score": 4.84,
-    "reviews": 5350,
-    "blog_reviews": 162,
+    "score": 4.87,
+    "reviews": 5625,
+    "blog_reviews": 170,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -1556,9 +1561,9 @@
     "phone": "031-699-2311"
    },
    "rating": {
-    "pooled": 4.84,
-    "bayes": 4.83,
-    "total_reviews": 5377,
+    "pooled": 4.87,
+    "bayes": 4.86,
+    "total_reviews": 5652,
     "source": "네이버"
    },
    "nav": {
@@ -1641,17 +1646,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 76.3,
+    "total": 76.4,
     "tier": "추천",
     "breakdown": {
-     "reputation": 34.3,
+     "reputation": 34.4,
      "evidence": 18,
      "family_fit": 14,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.3,
+     "review_pts": 9.4,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 8,
@@ -1669,8 +1674,8 @@
     "부드러운 음식 메뉴 있음"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 9,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 64,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-13272354",
@@ -1682,9 +1687,9 @@
     "road_address": "강변북로632번길 60 버드나무집",
     "x": 127.1756387,
     "y": 37.5869335,
-    "score": 4.75,
-    "reviews": 3438,
-    "blog_reviews": 1966,
+    "score": 4.79,
+    "reviews": 3583,
+    "blog_reviews": 1972,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -1714,9 +1719,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.75,
-    "bayes": 4.73,
-    "total_reviews": 3438,
+    "pooled": 4.79,
+    "bayes": 4.77,
+    "total_reviews": 3583,
     "source": "네이버"
    },
    "nav": {
@@ -1827,17 +1832,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 73.8,
+    "total": 73.9,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 33.8,
+     "reputation": 33.9,
      "evidence": 18,
      "family_fit": 12,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.8,
+     "review_pts": 8.9,
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 3,
@@ -1856,7 +1861,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1504823470",
@@ -1868,9 +1873,9 @@
     "road_address": "미사강변중앙로 185 골든타임 1층 소당깨 미사본점",
     "x": 127.1895898,
     "y": 37.5629082,
-    "score": 4.86,
-    "reviews": 7703,
-    "blog_reviews": 1034,
+    "score": 4.87,
+    "reviews": 8055,
+    "blog_reviews": 1052,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -1900,9 +1905,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.86,
-    "bayes": 4.85,
-    "total_reviews": 7703,
+    "pooled": 4.87,
+    "bayes": 4.86,
+    "total_reviews": 8055,
     "source": "네이버"
    },
    "nav": {
@@ -1987,17 +1992,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 73.7,
+    "total": 73.8,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 34.7,
+     "reputation": 34.8,
      "evidence": 18,
      "family_fit": 11,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.7,
+     "review_pts": 9.8,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 5,
@@ -2016,8 +2021,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 72,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 127,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1271052786",
@@ -2030,8 +2035,8 @@
     "x": 127.2164159,
     "y": 37.5493134,
     "score": null,
-    "reviews": 5982,
-    "blog_reviews": 1851,
+    "reviews": 6000,
+    "blog_reviews": 1892,
     "status": "오늘 휴무",
     "new_open": false,
     "new_open_since": null,
@@ -2044,7 +2049,7 @@
     "kakao_url": "http://place.map.kakao.com/462601",
     "kakao_road_address": "경기 하남시 미사대로 672",
     "rating": 4.2,
-    "review_count": 265,
+    "review_count": 269,
     "status": "Y",
     "dist_m": 9,
     "facility_icons": [
@@ -2063,7 +2068,7 @@
    "rating": {
     "pooled": 5.0,
     "bayes": 4.78,
-    "total_reviews": 6247,
+    "total_reviews": 6269,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -2216,7 +2221,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1070507758",
@@ -2228,9 +2233,9 @@
     "road_address": "미사강변중앙로 218 성산타워 엠씨티 2층.",
     "x": 127.1897332,
     "y": 37.5664362,
-    "score": 4.8,
-    "reviews": 4165,
-    "blog_reviews": 1501,
+    "score": 4.83,
+    "reviews": 4354,
+    "blog_reviews": 1698,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -2271,9 +2276,9 @@
     "phone": "031-793-7300"
    },
    "rating": {
-    "pooled": 4.8,
-    "bayes": 4.79,
-    "total_reviews": 4199,
+    "pooled": 4.83,
+    "bayes": 4.82,
+    "total_reviews": 4388,
     "source": "네이버"
    },
    "nav": {
@@ -2392,7 +2397,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 6,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-37568258",
@@ -2405,8 +2410,8 @@
     "x": 127.2081075,
     "y": 37.5522169,
     "score": 4.7,
-    "reviews": 8337,
-    "blog_reviews": 972,
+    "reviews": 8395,
+    "blog_reviews": 993,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -2449,7 +2454,7 @@
    "rating": {
     "pooled": 4.7,
     "bayes": 4.69,
-    "total_reviews": 8409,
+    "total_reviews": 8467,
     "source": "네이버"
    },
    "nav": {
@@ -2603,8 +2608,8 @@
      "date": "2026.08.01."
     }
    ],
-   "evidence_days_ago": 27,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 82,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1241322191",
@@ -2616,9 +2621,9 @@
     "road_address": "미사강변중앙로 193 3층 310호",
     "x": 127.189629,
     "y": 37.5637641,
-    "score": 4.85,
-    "reviews": 4694,
-    "blog_reviews": 925,
+    "score": 4.88,
+    "reviews": 5145,
+    "blog_reviews": 944,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -2660,9 +2665,9 @@
     "phone": ""
    },
    "rating": {
-    "pooled": 4.85,
-    "bayes": 4.84,
-    "total_reviews": 4694,
+    "pooled": 4.88,
+    "bayes": 4.87,
+    "total_reviews": 5145,
     "source": "네이버"
    },
    "nav": {
@@ -2746,17 +2751,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 71.2,
+    "total": 71.3,
     "tier": "추천",
     "breakdown": {
-     "reputation": 34.2,
+     "reputation": 34.3,
      "evidence": 18,
      "family_fit": 9,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.2,
+     "review_pts": 9.3,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 3,
@@ -2773,8 +2778,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 18,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 73,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-36266336",
@@ -2786,8 +2791,8 @@
     "road_address": "월호로 48-6",
     "x": 127.2098905,
     "y": 37.5535897,
-    "score": 4.6,
-    "reviews": 6857,
+    "score": 4.61,
+    "reviews": 6935,
     "blog_reviews": 1439,
     "status": "영업 중",
     "new_open": false,
@@ -2813,7 +2818,7 @@
     "kakao_url": "http://place.map.kakao.com/26471200",
     "kakao_road_address": "경기 하남시 월호로 48-6",
     "rating": 4.4,
-    "review_count": 184,
+    "review_count": 190,
     "status": "Y",
     "dist_m": 7,
     "facility_icons": [
@@ -2837,9 +2842,9 @@
     "phone": "0502-5551-1647"
    },
    "rating": {
-    "pooled": 4.6,
-    "bayes": 4.59,
-    "total_reviews": 7041,
+    "pooled": 4.61,
+    "bayes": 4.6,
+    "total_reviews": 7125,
     "source": "네이버"
    },
    "nav": {
@@ -2975,8 +2980,312 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 145,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 200,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-1054654907",
+   "name": "건강밥상심마니 하남점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "1054654907",
+    "category": "한정식",
+    "road_address": "아리수로 570 효성해링턴타워더퍼스트 102동 3층 3018호",
+    "x": 127.1905133,
+    "y": 37.5669532,
+    "score": 4.89,
+    "reviews": 12907,
+    "blog_reviews": 17442,
+    "status": "영업 중",
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "단체 이용 가능",
+     "주차",
+     "남/녀 화장실 구분",
+     "포장"
+    ],
+    "phone": "0507-1424-6226"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "260098451",
+    "kakao_url": "http://place.map.kakao.com/260098451",
+    "kakao_road_address": "경기 하남시 아리수로 570",
+    "rating": 3.3,
+    "review_count": 55,
+    "status": "Y",
+    "dist_m": 27,
+    "facility_icons": [
+     "주차가능",
+     "예약가능",
+     "포장가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "주차 가능"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "031-795-6226"
+   },
+   "rating": {
+    "pooled": 4.89,
+    "bayes": 4.88,
+    "total_reviews": 12962,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5669532&dlng=127.1905133&dname=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5669532&dlng=127.1905133&dname=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5669532&lng=127.1905133&name=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1054654907",
+    "mobile_place": "https://m.place.naver.com/place/1054654907/home"
+   },
+   "drive": {
+    "min": 2.5,
+    "km": 1.35,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 17.5,
+    "km": 1.31,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "주차 가능",
+       "src": "kakao-info:260098451",
+       "date": null
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/pej8976/224295286684",
+      "title": "어버이날 가족끼리 식사한끼 * 건강밥상 심마니 하남점 * 능이오리백숙, 갈비찜",
+      "date": "2026.05.24.",
+      "days_ago": 125,
+      "author": "그레이진",
+      "chars": 596,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/barhama/224222782207",
+      "title": "하남 미사 야끼니꾸 맛집 규화, 데이트 코스로 완벽했던 규화카세 후기",
+      "date": "2026.03.19.",
+      "days_ago": 191,
+      "author": "라하이맘",
+      "chars": 1877,
+      "sponsored": false
+     }
+    ],
+    "youtube": [
+     {
+      "video_id": "-AuQn-pLMGE",
+      "link": "https://www.youtube.com/watch?v=-AuQn-pLMGE",
+      "t": null,
+      "quote": "4️⃣ 건강밥상심마니 하남점",
+      "where": "description"
+     }
+    ]
+   },
+   "scores": {
+    "total": 70.5,
+    "tier": "추천",
+    "breakdown": {
+     "reputation": 35,
+     "evidence": 22.5,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 10,
+     "source_count": 3,
+     "mode_a": 0,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "고평점(≥4.5)"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": null,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2066943442",
+   "name": "삼동소바 삼패점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "2066943442",
+    "category": "우동,소바",
+    "road_address": "경강로 374 1동 1,2층",
+    "x": 127.1987399,
+    "y": 37.5924652,
+    "score": 4.92,
+    "reviews": 973,
+    "blog_reviews": 80,
+    "status": "영업 중",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "남/녀 화장실 구분",
+     "무선 인터넷",
+     "유아의자",
+     "대기공간",
+     "단체 이용 가능",
+     "주차"
+    ],
+    "phone": "031-521-3533"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.92,
+    "bayes": 4.9,
+    "total_reviews": 973,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5924652&dlng=127.1987399&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5924652&dlng=127.1987399&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5924652&lng=127.1987399&name=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2066943442",
+    "mobile_place": "https://m.place.naver.com/place/2066943442/home"
+   },
+   "drive": {
+    "min": 10.7,
+    "km": 8.7,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "유아의자"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "하게 주차했고 건물에 들어서 직원분의 안내로 2층으로 올라갔어요. 계단도 있지만 엘리베이터가 있어서 유아차나 휠체어, 노약자는 이동이 용이해보였어요. 2층에 도착했을 때 할머니",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/girl901/224404416347",
+       "date": "2026.09.08."
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "하게 주차했고 건물에 들어서 직원분의 안내로 2층으로 올라갔어요. 계단도 있지만 엘리베이터가 있어서 유아차나 휠체어, 노약자는 이동이 용이해보였어요. ​ ​ 2층에 도착했을 때",
+       "src": "naver-blog:https://m.blog.naver.com/girl901/224404416347",
+       "date": "2026.09.08."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/girl901/224404416347",
+      "title": "남양주맛집 인줄 알았더니 한강뷰까지 더한 삼동소바 삼패점",
+      "date": "2026.09.08.",
+      "days_ago": 18,
+      "author": "알알이",
+      "chars": 2237,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/minkme/224410000189",
+      "title": "지나가다가 들른 소바집, 삼동소바 삼패점",
+      "date": "2026.09.13.",
+      "days_ago": 13,
+      "author": "minkme",
+      "chars": 340,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 69.5,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 32.5,
+     "evidence": 18,
+     "family_fit": 9,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 7.5,
+     "source_count": 2,
+     "mode_a": 3,
+     "mode_b": 6,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 73,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-410878135",
@@ -2988,9 +3297,9 @@
     "road_address": "미사강변북로30번길 65 1층",
     "x": 127.183153,
     "y": 37.5690009,
-    "score": null,
-    "reviews": 23973,
-    "blog_reviews": 1557,
+    "score": 4.86,
+    "reviews": 25387,
+    "blog_reviews": 1604,
     "status": "곧 영업 시작",
     "new_open": false,
     "new_open_since": null,
@@ -3013,7 +3322,7 @@
     "kakao_url": "http://place.map.kakao.com/155987700",
     "kakao_road_address": "경기 하남시 미사강변북로30번길 65",
     "rating": 4.8,
-    "review_count": 592,
+    "review_count": 614,
     "status": "Y",
     "dist_m": 4,
     "facility_icons": [
@@ -3034,10 +3343,10 @@
     "phone": "0507-1355-1898"
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.88,
-    "total_reviews": 24565,
-    "source": "카카오(+0.8 보정)"
+    "pooled": 4.86,
+    "bayes": 4.86,
+    "total_reviews": 26001,
+    "source": "네이버"
    },
    "nav": {
     "app_navigation": "nmap://navigation?dlat=37.5690009&dlng=127.183153&dname=%EB%A6%AC%EA%BC%AC%20%ED%94%BC%EC%9E%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%20%EB%B3%B8%EC%A0%90&appname=kr.familytrip.misa",
@@ -3144,159 +3453,12 @@
     }
    },
    "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화",
     "고평점(≥4.5)",
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 41,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2066943442",
-   "name": "삼동소바 삼패점",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "2066943442",
-    "category": "우동,소바",
-    "road_address": "경강로 374 1동 1,2층",
-    "x": 127.1987399,
-    "y": 37.5924652,
-    "score": 4.89,
-    "reviews": 523,
-    "blog_reviews": 70,
-    "status": "영업 중",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "남/녀 화장실 구분",
-     "무선 인터넷",
-     "유아의자",
-     "대기공간",
-     "주차"
-    ],
-    "phone": "031-521-3533"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 4.89,
-    "bayes": 4.85,
-    "total_reviews": 523,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5924652&dlng=127.1987399&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5924652&dlng=127.1987399&dname=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5924652&lng=127.1987399&name=%EC%82%BC%EB%8F%99%EC%86%8C%EB%B0%94%20%EC%82%BC%ED%8C%A8%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2066943442",
-    "mobile_place": "https://m.place.naver.com/place/2066943442/home"
-   },
-   "drive": {
-    "min": 10.7,
-    "km": 8.7,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "유아의자"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "하게 주차했고 건물에 들어서 직원분의 안내로 2층으로 올라갔어요. 계단도 있지만 엘리베이터가 있어서 유아차나 휠체어, 노약자는 이동이 용이해보였어요. 2층에 도착했을 때 할머니",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/girl901/224404416347",
-       "date": "2026.09.08."
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "하게 주차했고 건물에 들어서 직원분의 안내로 2층으로 올라갔어요. 계단도 있지만 엘리베이터가 있어서 유아차나 휠체어, 노약자는 이동이 용이해보였어요. ​ ​ 2층에 도착했을 때",
-       "src": "naver-blog:https://m.blog.naver.com/girl901/224404416347",
-       "date": "2026.09.08."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/girl901/224404416347",
-      "title": "남양주맛집 인줄 알았더니 한강뷰까지 더한 삼동소바 삼패점",
-      "date": "2026.09.08.",
-      "days_ago": 18,
-      "author": "알알이",
-      "chars": 2237,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/minkme/224410000189",
-      "title": "지나가다가 들른 소바집, 삼동소바 삼패점",
-      "date": "2026.09.13.",
-      "days_ago": 13,
-      "author": "minkme",
-      "chars": 340,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 68.8,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 31.8,
-     "evidence": 18,
-     "family_fit": 9,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 6.8,
-     "source_count": 2,
-     "mode_a": 3,
-     "mode_b": 6,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 18,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 96,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2018579107",
@@ -3308,9 +3470,9 @@
     "road_address": "미사강변남로 99 104호, 105호, 106호",
     "x": 127.1926798,
     "y": 37.5609913,
-    "score": 4.92,
-    "reviews": 16545,
-    "blog_reviews": 311,
+    "score": 4.93,
+    "reviews": 17258,
+    "blog_reviews": 344,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -3351,9 +3513,9 @@
     "phone": "070-7576-3996"
    },
    "rating": {
-    "pooled": 4.92,
-    "bayes": 4.92,
-    "total_reviews": 16567,
+    "pooled": 4.93,
+    "bayes": 4.93,
+    "total_reviews": 17280,
     "source": "네이버"
    },
    "nav": {
@@ -3548,8 +3710,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 33,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 88,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-35116432",
@@ -3561,9 +3723,9 @@
     "road_address": "덕풍로65번길 25 102호",
     "x": 127.2071759,
     "y": 37.5506506,
-    "score": 4.84,
-    "reviews": 6548,
-    "blog_reviews": 1662,
+    "score": 4.86,
+    "reviews": 6808,
+    "blog_reviews": 1681,
     "status": "영업 전",
     "new_open": false,
     "new_open_since": null,
@@ -3605,9 +3767,9 @@
     "phone": "0507-1434-5592"
    },
    "rating": {
-    "pooled": 4.84,
-    "bayes": 4.83,
-    "total_reviews": 6634,
+    "pooled": 4.86,
+    "bayes": 4.85,
+    "total_reviews": 6894,
     "source": "네이버"
    },
    "nav": {
@@ -3761,8 +3923,190 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 33,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 88,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2083798498",
+   "name": "아벨라 베이커리",
+   "kind": "cafe",
+   "naver": {
+    "place_id": "2083798498",
+    "category": "베이커리",
+    "road_address": "미사강변북로30번길 118 1층",
+    "x": 127.1835712,
+    "y": 37.5691368,
+    "score": 4.97,
+    "reviews": 142,
+    "blog_reviews": 9,
+    "status": "영업 중",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "포장",
+     "무선 인터넷",
+     "유아의자",
+     "단체 이용 가능",
+     "간편결제",
+     "반려동물 동반"
+    ],
+    "phone": "0507-1323-7403"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1901875494",
+    "kakao_url": "http://place.map.kakao.com/1901875494",
+    "kakao_road_address": "경기 하남시 미사강변북로30번길 118",
+    "rating": 5.0,
+    "review_count": 2,
+    "status": "Y",
+    "dist_m": 0,
+    "facility_icons": [
+     "주차장없음",
+     "포장가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "매장 전용 주차 불가, 근처 유료주차장 이용 필요"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": ""
+   },
+   "rating": {
+    "pooled": 4.97,
+    "bayes": 4.84,
+    "total_reviews": 144,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5691368&dlng=127.1835712&dname=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5691368&dlng=127.1835712&dname=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5691368&lng=127.1835712&name=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2083798498",
+    "mobile_place": "https://m.place.naver.com/place/2083798498/home"
+   },
+   "drive": {
+    "min": 3.2,
+    "km": 1.84,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 22.7,
+    "km": 1.7,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "아이동반",
+     "유모차",
+     "유아의자"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "평탄·데크길",
+       "quote": "커피도 너무 맛있다ㅠㅠ 게다가 하머니 가능이라니!! 매장이 깔끔하고 넓은 편이라 유모차 이동이 수월했다. 반려동물 동반도 가능하다! 빵 나오는 시간이 있으니 체크해서 가면",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/yeoyu12/224387464266",
+       "date": "2026.08.23."
+      }
+     ],
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "단지에 위치해있다. 빵순이는 새로 오픈한 베이커리 카페는 못 참지!! ✨출입구에 경사로 있는 매장! 유모차로 방문하며 감동받았던 부분이다. 커피도 너무 맛있다ㅠㅠ 게다",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/yeoyu12/224387464266",
+       "date": "2026.08.23."
+      }
+     ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "주차"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/tjdghk821/224401819091",
+      "title": "하남 미사 신상 카페 베이커리 맛집 ‘아벨라 베이커리’스콘 구움과자",
+      "date": "2026.09.05.",
+      "days_ago": 21,
+      "author": "꼬복이",
+      "chars": 879,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/wjenny96/224403269993",
+      "title": "[하남 미사 카페] 스콘과 커피가 맛있는 애견동반 베이커리, 내돈내산 아벨라 베이커리 솔직 방문 후기!",
+      "date": "2026.09.07.",
+      "days_ago": 19,
+      "author": "우동가족",
+      "chars": 1096,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 67.4,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 30.4,
+     "evidence": 18,
+     "family_fit": 9,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 5.4,
+     "source_count": 2,
+     "mode_a": 9,
+     "mode_b": 0,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
+    "휴관·휴무일 언급 — 가기 전 확인"
+   ],
+   "plan_notes": [
+    {
+     "label": "휴관·휴무일",
+     "quote": "8:00 라스트오더 18:50, 17:50 매주 화요일 정기휴무 주차 불가(유료주차이용) bakery_ab",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/tjdghk821/224401819091",
+     "date": "2026.09.05."
+    },
+    {
+     "label": "휴관·휴무일",
+     "quote": "8:00 (라스트오더 17:50) 휴무일: 매주 화요일 정기휴무 아침 일찍 8시부터 오픈하는 곳이라 오전에",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/wjenny96/224403269993",
+     "date": "2026.09.07."
+    },
+    {
+     "label": "휴관·휴무일",
+     "quote": "​ 라스트오더 18:50, 17:50 ​ 매주 화요일 정기휴무 주차 불가(유료주차이용) 아벨라 베이커리",
+     "src": "naver-blog:https://m.blog.naver.com/tjdghk821/224401819091",
+     "date": "2026.09.05."
+    }
+   ],
+   "evidence_days_ago": 74,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-36932172",
@@ -3774,9 +4118,9 @@
     "road_address": "미사대로 584",
     "x": 127.2090788,
     "y": 37.5548793,
-    "score": 4.65,
-    "reviews": 14497,
-    "blog_reviews": 1102,
+    "score": 4.67,
+    "reviews": 14685,
+    "blog_reviews": 1133,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -3796,7 +4140,7 @@
     "kakao_url": "http://place.map.kakao.com/472433650",
     "kakao_road_address": "경기 하남시 미사대로 584",
     "rating": 4.0,
-    "review_count": 131,
+    "review_count": 134,
     "status": "Y",
     "dist_m": 2,
     "facility_icons": [
@@ -3819,9 +4163,9 @@
     "phone": "031-793-9663"
    },
    "rating": {
-    "pooled": 4.65,
-    "bayes": 4.65,
-    "total_reviews": 14628,
+    "pooled": 4.67,
+    "bayes": 4.67,
+    "total_reviews": 14819,
     "source": "네이버"
    },
    "nav": {
@@ -3995,189 +4339,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 26,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2083798498",
-   "name": "아벨라 베이커리",
-   "kind": "cafe",
-   "naver": {
-    "place_id": "2083798498",
-    "category": "베이커리",
-    "road_address": "미사강변북로30번길 118 1층",
-    "x": 127.1835712,
-    "y": 37.5691368,
-    "score": 4.97,
-    "reviews": 74,
-    "blog_reviews": 7,
-    "status": "영업 중",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "포장",
-     "무선 인터넷",
-     "유아의자",
-     "간편결제",
-     "반려동물 동반"
-    ],
-    "phone": "0507-1323-7403"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "1901875494",
-    "kakao_url": "http://place.map.kakao.com/1901875494",
-    "kakao_road_address": "경기 하남시 미사강변북로30번길 118",
-    "rating": 5.0,
-    "review_count": 2,
-    "status": "Y",
-    "dist_m": 0,
-    "facility_icons": [
-     "주차장없음",
-     "포장가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "매장 전용 주차 불가, 근처 유료주차장 이용 필요"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": ""
-   },
-   "rating": {
-    "pooled": 4.97,
-    "bayes": 4.75,
-    "total_reviews": 76,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5691368&dlng=127.1835712&dname=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5691368&dlng=127.1835712&dname=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5691368&lng=127.1835712&name=%EC%95%84%EB%B2%A8%EB%9D%BC%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2083798498",
-    "mobile_place": "https://m.place.naver.com/place/2083798498/home"
-   },
-   "drive": {
-    "min": 3.2,
-    "km": 1.84,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 22.7,
-    "km": 1.7,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "아이동반",
-     "유모차",
-     "유아의자"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "평탄·데크길",
-       "quote": "커피도 너무 맛있다ㅠㅠ 게다가 하머니 가능이라니!! 매장이 깔끔하고 넓은 편이라 유모차 이동이 수월했다. 반려동물 동반도 가능하다! 빵 나오는 시간이 있으니 체크해서 가면",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/yeoyu12/224387464266",
-       "date": "2026.08.23."
-      }
-     ],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "단지에 위치해있다. 빵순이는 새로 오픈한 베이커리 카페는 못 참지!! ✨출입구에 경사로 있는 매장! 유모차로 방문하며 감동받았던 부분이다. 커피도 너무 맛있다ㅠㅠ 게다",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/yeoyu12/224387464266",
-       "date": "2026.08.23."
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "주차"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/tjdghk821/224401819091",
-      "title": "하남 미사 신상 카페 베이커리 맛집 ‘아벨라 베이커리’스콘 구움과자",
-      "date": "2026.09.05.",
-      "days_ago": 21,
-      "author": "꼬복이",
-      "chars": 879,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/wjenny96/224403269993",
-      "title": "[하남 미사 카페] 스콘과 커피가 맛있는 애견동반 베이커리, 내돈내산 아벨라 베이커리 솔직 방문 후기!",
-      "date": "2026.09.07.",
-      "days_ago": 19,
-      "author": "우동가족",
-      "chars": 1096,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 66.7,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 29.7,
-     "evidence": 18,
-     "family_fit": 9,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 4.7,
-     "source_count": 2,
-     "mode_a": 9,
-     "mode_b": 0,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "휴관·휴무일 언급 — 가기 전 확인"
-   ],
-   "plan_notes": [
-    {
-     "label": "휴관·휴무일",
-     "quote": "8:00 라스트오더 18:50, 17:50 매주 화요일 정기휴무 주차 불가(유료주차이용) bakery_ab",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/tjdghk821/224401819091",
-     "date": "2026.09.05."
-    },
-    {
-     "label": "휴관·휴무일",
-     "quote": "8:00 (라스트오더 17:50) 휴무일: 매주 화요일 정기휴무 아침 일찍 8시부터 오픈하는 곳이라 오전에",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/wjenny96/224403269993",
-     "date": "2026.09.07."
-    },
-    {
-     "label": "휴관·휴무일",
-     "quote": "​ 라스트오더 18:50, 17:50 ​ 매주 화요일 정기휴무 주차 불가(유료주차이용) 아벨라 베이커리",
-     "src": "naver-blog:https://m.blog.naver.com/tjdghk821/224401819091",
-     "date": "2026.09.05."
-    }
-   ],
-   "evidence_days_ago": 19,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 81,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2055355404",
@@ -4190,8 +4353,8 @@
     "x": 127.1966556,
     "y": 37.5669128,
     "score": 4.92,
-    "reviews": 65,
-    "blog_reviews": 43,
+    "reviews": 68,
+    "blog_reviews": 45,
     "status": "오늘 휴무",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -4222,8 +4385,8 @@
    },
    "rating": {
     "pooled": 4.92,
-    "bayes": 4.69,
-    "total_reviews": 65,
+    "bayes": 4.7,
+    "total_reviews": 68,
     "source": "네이버"
    },
    "nav": {
@@ -4328,17 +4491,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 66.5,
+    "total": 66.6,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 24.5,
+     "reputation": 24.6,
      "evidence": 17,
      "family_fit": 15,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 20,
-     "review_pts": 4.5,
+     "review_pts": 4.6,
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 6,
@@ -4357,8 +4520,8 @@
     "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 50,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 105,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1292936852",
@@ -4370,9 +4533,9 @@
     "road_address": "미사강변중앙로170번길 10 신성프라자 1층 114~116호",
     "x": 127.1917483,
     "y": 37.5613315,
-    "score": 4.85,
-    "reviews": 8167,
-    "blog_reviews": 527,
+    "score": 4.88,
+    "reviews": 8475,
+    "blog_reviews": 537,
     "status": "영업 전",
     "new_open": false,
     "new_open_since": null,
@@ -4416,9 +4579,9 @@
     "phone": "031-792-3236"
    },
    "rating": {
-    "pooled": 4.85,
-    "bayes": 4.84,
-    "total_reviews": 8216,
+    "pooled": 4.88,
+    "bayes": 4.87,
+    "total_reviews": 8524,
     "source": "네이버"
    },
    "nav": {
@@ -4556,8 +4719,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 91,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 146,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1045452794",
@@ -4569,9 +4732,9 @@
     "road_address": "강변북로632번길 66 카페 뷰66 미호점",
     "x": 127.1760925,
     "y": 37.5873233,
-    "score": 4.63,
-    "reviews": 14159,
-    "blog_reviews": 1359,
+    "score": 4.66,
+    "reviews": 14429,
+    "blog_reviews": 1368,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -4612,9 +4775,9 @@
     "phone": "031-559-5550"
    },
    "rating": {
-    "pooled": 4.63,
-    "bayes": 4.63,
-    "total_reviews": 14250,
+    "pooled": 4.66,
+    "bayes": 4.66,
+    "total_reviews": 14520,
     "source": "네이버"
    },
    "nav": {
@@ -4733,7 +4896,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1544859838",
@@ -4745,9 +4908,9 @@
     "road_address": "강변북로632번길 16-13 남양주 한강체육공원 주차장",
     "x": 127.1711802,
     "y": 37.5856158,
-    "score": 4.76,
-    "reviews": 3340,
-    "blog_reviews": 1856,
+    "score": 4.79,
+    "reviews": 3607,
+    "blog_reviews": 1901,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -4765,8 +4928,8 @@
     "kakao_id": "651259534",
     "kakao_url": "http://place.map.kakao.com/651259534",
     "kakao_road_address": "경기 남양주시 강변북로632번길 16-13",
-    "rating": 3.7,
-    "review_count": 46,
+    "rating": 3.6,
+    "review_count": 48,
     "status": "Y",
     "dist_m": 1,
     "facility_icons": [
@@ -4787,9 +4950,9 @@
     "phone": "031-558-2396"
    },
    "rating": {
-    "pooled": 4.76,
-    "bayes": 4.74,
-    "total_reviews": 3386,
+    "pooled": 4.79,
+    "bayes": 4.77,
+    "total_reviews": 3655,
     "source": "네이버"
    },
    "nav": {
@@ -4867,17 +5030,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 64.8,
+    "total": 64.9,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 33.8,
+     "reputation": 33.9,
      "evidence": 11,
      "family_fit": 10,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.8,
+     "review_pts": 8.9,
      "source_count": 1,
      "mode_a": 3,
      "mode_b": 7,
@@ -4894,8 +5057,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 23,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 78,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1339736890",
@@ -4907,9 +5070,9 @@
     "road_address": "강변북로632번길 7 1, 2층",
     "x": 127.1703955,
     "y": 37.5863789,
-    "score": 4.57,
-    "reviews": 4961,
-    "blog_reviews": 808,
+    "score": 4.61,
+    "reviews": 5029,
+    "blog_reviews": 831,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -4929,7 +5092,7 @@
     "kakao_url": "http://place.map.kakao.com/630411235",
     "kakao_road_address": "경기 남양주시 강변북로632번길 7",
     "rating": 3.1,
-    "review_count": 57,
+    "review_count": 58,
     "status": "Y",
     "dist_m": 0,
     "facility_icons": [
@@ -4951,9 +5114,9 @@
     "phone": ""
    },
    "rating": {
-    "pooled": 4.57,
-    "bayes": 4.56,
-    "total_reviews": 5018,
+    "pooled": 4.61,
+    "bayes": 4.6,
+    "total_reviews": 5087,
     "source": "네이버"
    },
    "nav": {
@@ -5134,7 +5297,161 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 4,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-1207307033",
+   "name": "진대감 하남미사점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "1207307033",
+    "category": "소고기구이",
+    "road_address": "미사강변중앙로 185",
+    "x": 127.1898217,
+    "y": 37.5629356,
+    "score": 4.93,
+    "reviews": 1420,
+    "blog_reviews": 11386,
+    "status": "영업 중",
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "단체 이용 가능",
+     "예약",
+     "남/녀 화장실 구분",
+     "무선 인터넷",
+     "주차",
+     "반려동물 동반"
+    ],
+    "phone": "0507-1393-3969"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "71780498",
+    "kakao_url": "http://place.map.kakao.com/71780498",
+    "kakao_road_address": "경기 하남시 미사강변중앙로 185",
+    "rating": null,
+    "review_count": null,
+    "status": "Y",
+    "dist_m": 1,
+    "facility_icons": [
+     "반려견동반",
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "건물 지하 1층부터 3층까지 주차 가능, 지하주차장 2시간 무료 이용 가능"
+     },
+     {
+      "title": "기타",
+      "summary": "화장실 남녀분리"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "0507-1393-3969"
+   },
+   "rating": {
+    "pooled": 4.93,
+    "bayes": 4.88,
+    "total_reviews": 1420,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5629356&dlng=127.1898217&dname=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5629356&dlng=127.1898217&dname=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5629356&lng=127.1898217&name=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1207307033",
+    "mobile_place": "https://m.place.naver.com/place/1207307033/home"
+   },
+   "drive": {
+    "min": 1.6,
+    "km": 0.7,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 10.7,
+    "km": 0.8,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "건물 지하 1층부터 3층까지 주차 가능, 지하주차장 2시간 무료 이용 가능",
+       "src": "kakao-info:71780498",
+       "date": null
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/fn6jsnrn/224418633867",
+      "title": "진대감 하남미사점, 차돌삼합이 선사하는 미식의 즐거움",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "포근한포크",
+      "chars": 1892,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/yearnyou12/224421610391",
+      "title": "발길이 닿아 우연히 들어가 본 미사맛집 진대감 하남미사점",
+      "date": "3시간 전",
+      "days_ago": 0,
+      "author": "yearnyou12",
+      "chars": 1492,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 63.9,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 32.9,
+     "evidence": 18,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 7.9,
+     "source_count": 2,
+     "mode_a": 0,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "고평점(≥4.5)"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": null,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1257268837",
@@ -5147,8 +5464,8 @@
     "x": 127.1895149,
     "y": 37.5633807,
     "score": null,
-    "reviews": 8974,
-    "blog_reviews": 1499,
+    "reviews": 9389,
+    "blog_reviews": 1508,
     "status": "영업 전",
     "new_open": false,
     "new_open_since": null,
@@ -5170,7 +5487,7 @@
     "kakao_url": "http://place.map.kakao.com/289132733",
     "kakao_road_address": "경기 하남시 미사강변중앙로 189",
     "rating": 4.3,
-    "review_count": 89,
+    "review_count": 91,
     "status": "Y",
     "dist_m": 1,
     "facility_icons": [
@@ -5194,7 +5511,7 @@
    "rating": {
     "pooled": 5.0,
     "bayes": 4.58,
-    "total_reviews": 9063,
+    "total_reviews": 9480,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -5321,8 +5638,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 20,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 75,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2027597810",
@@ -5335,8 +5652,8 @@
     "x": 127.1918814,
     "y": 37.562532,
     "score": 4.9,
-    "reviews": 1034,
-    "blog_reviews": 18,
+    "reviews": 1056,
+    "blog_reviews": 32,
     "status": "영업 중",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -5365,7 +5682,7 @@
    "rating": {
     "pooled": 4.9,
     "bayes": 4.88,
-    "total_reviews": 1037,
+    "total_reviews": 1059,
     "source": "네이버"
    },
    "nav": {
@@ -5440,17 +5757,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 63.5,
+    "total": 63.6,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 32.5,
+     "reputation": 32.6,
      "evidence": 18,
      "family_fit": 3,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 7.5,
+     "review_pts": 7.6,
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 3,
@@ -5468,8 +5785,8 @@
     "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 7,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 62,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1192492733",
@@ -5481,9 +5798,9 @@
     "road_address": "미사강변남로 91 2층 213호",
     "x": 127.1922486,
     "y": 37.560894,
-    "score": 4.9,
-    "reviews": 4864,
-    "blog_reviews": 570,
+    "score": 4.91,
+    "reviews": 5102,
+    "blog_reviews": 580,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -5513,9 +5830,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.9,
-    "bayes": 4.89,
-    "total_reviews": 4864,
+    "pooled": 4.91,
+    "bayes": 4.9,
+    "total_reviews": 5102,
     "source": "네이버"
    },
    "nav": {
@@ -5590,17 +5907,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 63.2,
+    "total": 63.3,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 34.2,
+     "reputation": 34.3,
      "evidence": 16,
      "family_fit": 3,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 9.2,
+     "review_pts": 9.3,
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 3,
@@ -5618,8 +5935,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 129,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 184,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1961461592",
@@ -5632,8 +5949,8 @@
     "x": 127.1746004,
     "y": 37.5175308,
     "score": null,
-    "reviews": 16726,
-    "blog_reviews": 1062,
+    "reviews": 17640,
+    "blog_reviews": 1093,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -5658,7 +5975,6 @@
     "status": "Y",
     "dist_m": 1,
     "facility_icons": [
-     "주차가능",
      "예약가능",
      "포장가능"
     ],
@@ -5678,7 +5994,7 @@
    "rating": {
     "pooled": 4.3,
     "bayes": 4.23,
-    "total_reviews": 16775,
+    "total_reviews": 17689,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -5855,7 +6171,7 @@
     }
    ],
    "evidence_days_ago": 1,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2075394572",
@@ -5868,8 +6184,8 @@
     "x": 127.2170825,
     "y": 37.5883291,
     "score": 4.97,
-    "reviews": 118,
-    "blog_reviews": 42,
+    "reviews": 357,
+    "blog_reviews": 146,
     "status": "영업 전",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -5900,8 +6216,8 @@
    },
    "rating": {
     "pooled": 4.97,
-    "bayes": 4.81,
-    "total_reviews": 118,
+    "bayes": 4.91,
+    "total_reviews": 357,
     "source": "네이버"
    },
    "nav": {
@@ -5994,17 +6310,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 61.2,
+    "total": 62.4,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 30.2,
+     "reputation": 31.4,
      "evidence": 18,
      "family_fit": 3,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 5.2,
+     "review_pts": 6.4,
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 3,
@@ -6024,7 +6340,831 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 1,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2007667269",
+   "name": "숲속에샤브",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "2007667269",
+    "category": "샤브샤브",
+    "road_address": "미사강변중앙로111번길 51 1층",
+    "x": 127.1903466,
+    "y": 37.558197,
+    "score": 4.98,
+    "reviews": 215,
+    "blog_reviews": 12,
+    "status": "영업 중",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "단체 이용 가능",
+     "포장",
+     "배달",
+     "예약",
+     "무선 인터넷",
+     "남/녀 화장실 구분",
+     "간편결제",
+     "주차",
+     "반려동물 동반"
+    ],
+    "phone": "0507-1335-0851"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.98,
+    "bayes": 4.88,
+    "total_reviews": 215,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.558197&dlng=127.1903466&dname=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.558197&dlng=127.1903466&dname=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.558197&lng=127.1903466&name=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2007667269",
+    "mobile_place": "https://m.place.naver.com/place/2007667269/home"
+   },
+   "drive": {
+    "min": 0.8,
+    "km": 0.21,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 3.4,
+    "km": 0.26,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "수 있는 공간이 있어요. 동네 사람들도 많이 이용해서인지 평일 점심 방문했을 때 주차공간에 차가 없어 주차가 널널해 보였어요. 저녁과 주말가격은 10,900원 / 평일점",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/mommy_do/224405529028",
+       "date": "2026.09.09."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": true
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/linil/224421928645",
+      "title": "[미사] 창 밖을 보면서 즐기는 #숲속에 샤브",
+      "date": "2일 전",
+      "days_ago": 2,
+      "author": "하이제나",
+      "chars": 1123,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/osol_daily/224419933756",
+      "title": "하남미사_숲속에 샤브 |1인 샤브 가능",
+      "date": "4일 전",
+      "days_ago": 4,
+      "author": "오소리",
+      "chars": 751,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 61.8,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 30.8,
+     "evidence": 18,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 5.8,
+     "source_count": 2,
+     "mode_a": 0,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
+    "부드러운 음식 메뉴 있음"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 72,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2072148452",
+   "name": "로스엔젤레스 로스구이",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "2072148452",
+    "category": "육류,고기요리",
+    "road_address": "상일로5길 8 2층",
+    "x": 127.1725997,
+    "y": 37.5491255,
+    "score": 4.97,
+    "reviews": 179,
+    "blog_reviews": 23,
+    "status": "영업 전",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "단체 이용 가능",
+     "남/녀 화장실 구분",
+     "무선 인터넷",
+     "간편결제",
+     "주차"
+    ],
+    "phone": "070-5088-0604"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.97,
+    "bayes": 4.86,
+    "total_reviews": 179,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5491255&dlng=127.1725997&dname=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5491255&dlng=127.1725997&dname=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5491255&lng=127.1725997&name=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2072148452",
+    "mobile_place": "https://m.place.naver.com/place/2072148452/home"
+   },
+   "drive": {
+    "min": 3.7,
+    "km": 2.85,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 34.5,
+    "km": 2.59,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "아이동반"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "지 않은 위치였어요. 다만 매장 전용 주차장은 따로 없어서 차를 가져간다면 주변 주차 공간이나 인근 유료주차장을 이용해야 합니다. 주소 : 서울 강동구 상일로5길8 2층",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/dscy22/224413643912",
+       "date": "2026.09.16."
+      },
+      {
+       "label": "주차",
+       "quote": "건물 2층에 있는 상일동 고기집 맛집입니다! 오래된 건물이 많은 동네라 아쉽게도 주차 공간은 따로 마련되어 있지 않아요 주차가 꼭 필요하시다면 ⚠ 근처 공영주차장이나 건너",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/lola1052/224397388624",
+       "date": "2026.09.01."
+      },
+      {
+       "label": "주차",
+       "quote": "지 않은 위치였어요. 다만 매장 전용 주차장은 따로 없어서 차를 가져간다면 주변 주차 공간이나 인근 유료주차장을 이용해야 합니다. ​ 📍 주소 : 서울 강동구 상일로5길8",
+       "src": "naver-blog:https://m.blog.naver.com/dscy22/224413643912",
+       "date": "2026.09.16."
+      }
+     ],
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "편 삼성엔지니어링 유료 주차장을 이용하셔야 해요 ㅜ.ㅜ 가게 내부 ✅ 가게 내부 계단으로 2층에 올라가면 정면에 바로 출입구가 있구요 카운터 앞쪽 중앙에 6인석 테이블,",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/lola1052/224397388624",
+       "date": "2026.09.01."
+      }
+     ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [
+      "좌석 형태(입식/좌식)"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/dscy22/224413643912",
+      "title": "상일동 고기집 신상 맛집 로스엔젤레스 로스구이 아이와 직접 다녀온 후기",
+      "date": "2026.09.16.",
+      "days_ago": 10,
+      "author": "다온",
+      "chars": 2497,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/zzoenh/224401436402",
+      "title": "상일동 고기집 맛집 로스엔젤레스 로스구이 강추 후기",
+      "date": "2026.09.05.",
+      "days_ago": 21,
+      "author": "조이",
+      "chars": 2276,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 61.6,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 30.6,
+     "evidence": 18,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 5.6,
+     "source_count": 2,
+     "mode_a": 3,
+     "mode_b": 0,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 65,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2014999980",
+   "name": "하나시2호점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "2014999980",
+    "category": "생선회",
+    "road_address": "미사강변중앙로170번길 10 1층 105호",
+    "x": 127.1918768,
+    "y": 37.5614202,
+    "score": 4.9,
+    "reviews": 155,
+    "blog_reviews": 30,
+    "status": "영업 전",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "남/녀 화장실 구분",
+     "포장",
+     "주차",
+     "반려동물 동반"
+    ],
+    "phone": "0507-1451-1888"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 4.9,
+    "bayes": 4.79,
+    "total_reviews": 155,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5614202&dlng=127.1918768&dname=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5614202&dlng=127.1918768&dname=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5614202&lng=127.1918768&name=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2014999980",
+    "mobile_place": "https://m.place.naver.com/place/2014999980/home"
+   },
+   "drive": {
+    "min": 1.7,
+    "km": 0.55,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 7.8,
+    "km": 0.58,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "조 골목으로 걷다가, 삼백돈 돈까스에서 횡단보도 건너, 오른쪽의 신성츠라자 건물 1층에 있어요. 저는 집에서 가느라 반대쪽으로 올라갔는데요. 미사역 문화의 거리가 가로로",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/richsuin/224407000111",
+       "date": "2026.09.10."
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "조 골목으로 걷다가, 삼백돈 돈까스에서 횡단보도 건너, 오른쪽의 신성츠라자 건물 1층에 있어요. ​ ​ ​ 저는 집에서 가느라 반대쪽으로 올라갔는데요. 미사역 문화의 거리",
+       "src": "naver-blog:https://m.blog.naver.com/richsuin/224407000111",
+       "date": "2026.09.10."
+      }
+     ],
+     "negative": [
+      {
+       "label": "계단",
+       "quote": "정면에 주방이 있고요, 주방 앞에는 생새우가 얌전히 수조를 헤엄치고 있습니다. 계단이며 액자 벽시계, 자바라 옷걸이를 보니 레트로 감성을 제대로 연출 했네요. 양쪽으",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/richsuin/224407000111",
+       "date": "2026.09.10."
+      },
+      {
+       "label": "계단",
+       "quote": "면에 주방이 있고요, 주방 앞에는 생새우가 얌전히 수조를 헤엄치고 있습니다. ​ 계단이며 액자 벽시계, 자바라 옷걸이를 보니 레트로 감성을 제대로 연출 했네요. ​ ​",
+       "src": "naver-blog:https://m.blog.naver.com/richsuin/224407000111",
+       "date": "2026.09.10."
+      }
+     ],
+     "verdict": "조건부(주의 근거)",
+     "unknown": [
+      "좌석 형태(입식/좌식)"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/iyes012/224420255136",
+      "title": "하나시 2호점에서 펄떡거리는 대하 구이 먹고 왔어요~!",
+      "date": "4일 전",
+      "days_ago": 4,
+      "author": "부릉부릉",
+      "chars": 544,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/richsuin/224407000111",
+      "title": "미사 횟집 하나시 제철회 2호점, 가을 생새우 한상 먹어보니",
+      "date": "2026.09.10.",
+      "days_ago": 16,
+      "author": "제르미날",
+      "chars": 2270,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 61.5,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 30.5,
+     "evidence": 18,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 5.5,
+     "source_count": 2,
+     "mode_a": 0,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
+    "휴관·휴무일 언급 — 가기 전 확인"
+   ],
+   "plan_notes": [
+    {
+     "label": "휴관·휴무일",
+     "quote": "분 ~ 01시 금,토,일 16시 ~ 01시 매주 월요일 정기휴무 ️신성프라자1 주차장에 주차시 3시간 무료",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/richsuin/224407000111",
+     "date": "2026.09.10."
+    },
+    {
+     "label": "휴관·휴무일",
+     "quote": "~ 01시 금,토,일 16시 ~ 01시 ​ 매주 월요일 정기휴무 🅿️신성프라자1 주차장에 주차시 3시간 무",
+     "src": "naver-blog:https://m.blog.naver.com/richsuin/224407000111",
+     "date": "2026.09.10."
+    }
+   ],
+   "evidence_days_ago": 71,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2068008143",
+   "name": "빵수당",
+   "kind": "cafe",
+   "naver": {
+    "place_id": "2068008143",
+    "category": "베이커리",
+    "road_address": "미사강변남로 45 124호",
+    "x": 127.1870556,
+    "y": 37.5602597,
+    "score": 4.89,
+    "reviews": 144,
+    "blog_reviews": 5,
+    "status": "오늘 휴무",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "포장",
+     "주차"
+    ],
+    "phone": "0507-1381-9531"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "881378180",
+    "kakao_url": "http://place.map.kakao.com/881378180",
+    "kakao_road_address": "경기 하남시 미사강변남로 45",
+    "rating": 4.7,
+    "review_count": 6,
+    "status": "Y",
+    "dist_m": 40,
+    "facility_icons": [],
+    "store_infos": [],
+    "headline": "영업 중",
+    "phone": "0507-1381-9531"
+   },
+   "rating": {
+    "pooled": 4.89,
+    "bayes": 4.77,
+    "total_reviews": 150,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5602597&dlng=127.1870556&dname=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5602597&dlng=127.1870556&dname=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5602597&lng=127.1870556&name=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2068008143",
+    "mobile_place": "https://m.place.naver.com/place/2068008143/home"
+   },
+   "drive": {
+    "min": 2.1,
+    "km": 0.9,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 9.8,
+    "km": 0.74,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [],
+    "mode_b": {
+     "positive": [],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/linil/224417569880",
+      "title": "[미사] 마늘바게뜨가 자꾸 생각나는 #빵수당",
+      "date": "6일 전",
+      "days_ago": 6,
+      "author": "하이제나",
+      "chars": 567,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/jaenacon79/224412731239",
+      "title": "[하남/미사] 건강한 빵집 식사대용 사워도우 X 단호박감자 캉파뉴 맛집 담백해서 또 먹고싶다",
+      "date": "2026.09.15.",
+      "days_ago": 11,
+      "author": "myo",
+      "chars": 1620,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 61.4,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 30.4,
+     "evidence": 18,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 5.4,
+     "source_count": 2,
+     "mode_a": 0,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
+    "휴관·휴무일 언급 — 가기 전 확인"
+   ],
+   "plan_notes": [
+    {
+     "label": "휴관·휴무일",
+     "quote": "해보려고 합니다! (협찬 X, 광고X) - 일요일 정기 휴무 - 월-토 10:00 - 20:00 (빵",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/harumalguem/224343576617",
+     "date": "2026.07.11."
+    }
+   ],
+   "evidence_days_ago": 132,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2011414401",
+   "name": "고향밀면 하남아이테코점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "2011414401",
+    "category": "냉면",
+    "road_address": "조정대로 150 아이테코 지하1층 RB121호",
+    "x": 127.1946825,
+    "y": 37.5535298,
+    "score": 4.87,
+    "reviews": 49,
+    "blog_reviews": 25,
+    "status": "오늘 휴무",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "단체 이용 가능",
+     "포장",
+     "배달",
+     "무선 인터넷",
+     "남/녀 화장실 구분",
+     "유아의자",
+     "간편결제",
+     "주차"
+    ],
+    "phone": "0507-1391-6516"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1807541008",
+    "kakao_url": "http://place.map.kakao.com/1807541008",
+    "kakao_road_address": "경기 하남시 조정대로 150",
+    "rating": 5.0,
+    "review_count": 2,
+    "status": "Y",
+    "dist_m": 1,
+    "facility_icons": [
+     "예약가능",
+     "포장가능",
+     "배달가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "아이테코 그린존 지하 2·3층 주차 가능, 기본 1시간 무료, 식사 시 최대 3시간 무료"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": ""
+   },
+   "rating": {
+    "pooled": 4.87,
+    "bayes": 4.62,
+    "total_reviews": 51,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5535298&dlng=127.1946825&dname=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5535298&dlng=127.1946825&dname=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5535298&lng=127.1946825&name=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2011414401",
+    "mobile_place": "https://m.place.naver.com/place/2011414401/home"
+   },
+   "drive": {
+    "min": 2.5,
+    "km": 1.04,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 12.1,
+    "km": 0.9,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "유아의자"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "해 드리고 싶은 숨은 보석 같은 곳이랍니다ㅎㅎ 하남아이테코 건물 지하 또는 지상 주차 공간도 넉넉해서 차를 가지고 방문하기 정말 편리합니다. 건물 자체가 깔끔하고 관리가",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/juilky/224408623324",
+       "date": "2026.09.11."
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "로 생긴 경주 밀면 맛집 고향밀면 하남아이테코점 하남지식산업센터 하남아이테코 지하1층에 있어서 주변 직장인들도 점심시간에 밥 먹으러 많이 오는 것 같아요 주변 한식뷔페와",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/yourkiwi/224409227336",
+       "date": "2026.09.12."
+      },
+      {
+       "label": "주차",
+       "quote": "아이테코 그린존 지하 2·3층 주차 가능, 기본 1시간 무료, 식사 시 최대 3시간 무료",
+       "src": "kakao-info:1807541008",
+       "date": null
+      },
+      {
+       "label": "주차",
+       "quote": "드리고 싶은 숨은 보석 같은 곳이랍니다ㅎㅎ ​ 하남아이테코 건물 지하 또는 지상 주차 공간도 넉넉해서 차를 가지고 방문하기 정말 편리합니다. 건물 자체가 깔끔하고 관리가",
+       "src": "naver-blog:https://m.blog.naver.com/juilky/224408623324",
+       "date": "2026.09.11."
+      },
+      {
+       "label": "주차",
+       "quote": "왜 매일 점심마다 이곳으로 향하는지 온몸으로 고개가 끄덕여지는 순간이었습니다. 주차 편리하고, 맛 훌륭하고, 양까지 인심 좋게 퍼주는 곳이라 앞으로도 단골 삼아 자주",
+       "src": "naver-blog:https://m.blog.naver.com/juilky/224408623324",
+       "date": "2026.09.11."
+      },
+      {
+       "label": "엘리베이터/1층/평지",
+       "quote": "로 150 아이테코 지하1층 RB121호 ​ ​ 하남지식산업센터 하남아이테코 지하1층에 있어서 주변 직장인들도 점심시간에 밥 먹으러 많이 오는 것 같아요 ​ ​ 주변 한식",
+       "src": "naver-blog:https://m.blog.naver.com/yourkiwi/224409227336",
+       "date": "2026.09.12."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/juilky/224408623324",
+      "title": "하남 맛집으로 입소문이 단단히 난 곳 바로 덕풍동 고향밀면 하남아이테코점",
+      "date": "2026.09.11.",
+      "days_ago": 15,
+      "author": "공부하는 엄빠",
+      "chars": 2225,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/yourkiwi/224409227336",
+      "title": "점심 먹기 좋은 하남 맛집, 고향밀면 아이테코점",
+      "date": "2026.09.12.",
+      "days_ago": 14,
+      "author": "김키위",
+      "chars": 1864,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 61.3,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 24.3,
+     "evidence": 18,
+     "family_fit": 9,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 20,
+     "review_pts": 4.3,
+     "source_count": 2,
+     "mode_a": 3,
+     "mode_b": 6,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
+    "휴관·휴무일 언급 — 가기 전 확인"
+   ],
+   "plan_notes": [
+    {
+     "label": "휴관·휴무일",
+     "quote": "기 좋은 하남 맛집 고향밀면 하남아이테코점 매주 일요일 휴무이고 월화수목금토 11:00-15:00 점심",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/yourkiwi/224409227336",
+     "date": "2026.09.12."
+    },
+    {
+     "label": "휴관·휴무일",
+     "quote": "​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ 매주 일요일 휴무이고 월화수목금토 11:00-15:00 점심",
+     "src": "naver-blog:https://m.blog.naver.com/yourkiwi/224409227336",
+     "date": "2026.09.12."
+    }
+   ],
+   "evidence_days_ago": 69,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1073361856",
@@ -6037,8 +7177,8 @@
     "x": 127.1901817,
     "y": 37.5644627,
     "score": null,
-    "reviews": 3539,
-    "blog_reviews": 1595,
+    "reviews": 3615,
+    "blog_reviews": 1593,
     "status": "영업 전",
     "new_open": false,
     "new_open_since": null,
@@ -6082,7 +7222,7 @@
    "rating": {
     "pooled": 4.6,
     "bayes": 4.25,
-    "total_reviews": 3552,
+    "total_reviews": 3628,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -6225,248 +7365,70 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 66,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 121,
+   "verified_at": "2026-11-20"
   },
   {
-   "id": "naver-2014999980",
-   "name": "하나시2호점",
-   "kind": "restaurant",
+   "id": "naver-2051835234",
+   "name": "소로키",
+   "kind": "cafe",
    "naver": {
-    "place_id": "2014999980",
-    "category": "생선회",
-    "road_address": "미사강변중앙로170번길 10 1층 105호",
-    "x": 127.1918768,
-    "y": 37.5614202,
-    "score": 4.86,
-    "reviews": 105,
-    "blog_reviews": 13,
+    "place_id": "2051835234",
+    "category": "카페,디저트",
+    "road_address": "하남대로802번길 121 1층 소로키",
+    "x": 127.2144211,
+    "y": 37.5420957,
+    "score": 4.96,
+    "reviews": 71,
+    "blog_reviews": 4,
     "status": "영업 전",
     "new_open": true,
     "new_open_since": "2026-09-26",
     "conveniences": [
      "포장",
-     "예약",
-     "남/녀 화장실 구분",
-     "주차",
-     "반려동물 동반"
-    ],
-    "phone": "0507-1451-1888"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 4.86,
-    "bayes": 4.71,
-    "total_reviews": 105,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5614202&dlng=127.1918768&dname=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5614202&dlng=127.1918768&dname=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5614202&lng=127.1918768&name=%ED%95%98%EB%82%98%EC%8B%9C2%ED%98%B8%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2014999980",
-    "mobile_place": "https://m.place.naver.com/place/2014999980/home"
-   },
-   "drive": {
-    "min": 1.7,
-    "km": 0.55,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 7.8,
-    "km": 0.58,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "조 골목으로 걷다가, 삼백돈 돈까스에서 횡단보도 건너, 오른쪽의 신성츠라자 건물 1층에 있어요. 저는 집에서 가느라 반대쪽으로 올라갔는데요. 미사역 문화의 거리가 가로로",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/richsuin/224407000111",
-       "date": "2026.09.10."
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "조 골목으로 걷다가, 삼백돈 돈까스에서 횡단보도 건너, 오른쪽의 신성츠라자 건물 1층에 있어요. ​ ​ ​ 저는 집에서 가느라 반대쪽으로 올라갔는데요. 미사역 문화의 거리",
-       "src": "naver-blog:https://m.blog.naver.com/richsuin/224407000111",
-       "date": "2026.09.10."
-      }
-     ],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "정면에 주방이 있고요, 주방 앞에는 생새우가 얌전히 수조를 헤엄치고 있습니다. 계단이며 액자 벽시계, 자바라 옷걸이를 보니 레트로 감성을 제대로 연출 했네요. 양쪽으",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/richsuin/224407000111",
-       "date": "2026.09.10."
-      },
-      {
-       "label": "계단",
-       "quote": "면에 주방이 있고요, 주방 앞에는 생새우가 얌전히 수조를 헤엄치고 있습니다. ​ 계단이며 액자 벽시계, 자바라 옷걸이를 보니 레트로 감성을 제대로 연출 했네요. ​ ​",
-       "src": "naver-blog:https://m.blog.naver.com/richsuin/224407000111",
-       "date": "2026.09.10."
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [
-      "좌석 형태(입식/좌식)"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/iyes012/224420255136",
-      "title": "하나시 2호점에서 펄떡거리는 대하 구이 먹고 왔어요~!",
-      "date": "4일 전",
-      "days_ago": 4,
-      "author": "부릉부릉",
-      "chars": 544,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/richsuin/224407000111",
-      "title": "미사 횟집 하나시 제철회 2호점, 가을 생새우 한상 먹어보니",
-      "date": "2026.09.10.",
-      "days_ago": 16,
-      "author": "제르미날",
-      "chars": 2270,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 61.1,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 30.1,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 5.1,
-     "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "휴관·휴무일 언급 — 가기 전 확인"
-   ],
-   "plan_notes": [
-    {
-     "label": "휴관·휴무일",
-     "quote": "분 ~ 01시 금,토,일 16시 ~ 01시 매주 월요일 정기휴무 ️신성프라자1 주차장에 주차시 3시간 무료",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/richsuin/224407000111",
-     "date": "2026.09.10."
-    },
-    {
-     "label": "휴관·휴무일",
-     "quote": "~ 01시 금,토,일 16시 ~ 01시 ​ 매주 월요일 정기휴무 🅿️신성프라자1 주차장에 주차시 3시간 무",
-     "src": "naver-blog:https://m.blog.naver.com/richsuin/224407000111",
-     "date": "2026.09.10."
-    }
-   ],
-   "evidence_days_ago": 16,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2007667269",
-   "name": "숲속에샤브",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "2007667269",
-    "category": "샤브샤브",
-    "road_address": "미사강변중앙로111번길 51 1층",
-    "x": 127.1903466,
-    "y": 37.558197,
-    "score": 4.98,
-    "reviews": 103,
-    "blog_reviews": 6,
-    "status": "영업 중",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "단체 이용 가능",
-     "포장",
-     "배달",
-     "예약",
      "무선 인터넷",
      "남/녀 화장실 구분",
+     "대기공간",
      "간편결제",
-     "주차",
-     "반려동물 동반"
+     "주차"
     ],
-    "phone": "0507-1335-0851"
+    "phone": "0507-1322-5062"
    },
    "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
+    "found": true,
+    "kakao_id": "925222958",
+    "kakao_url": "http://place.map.kakao.com/925222958",
+    "kakao_road_address": "경기 하남시 하남대로802번길 121",
+    "rating": 0.0,
+    "review_count": 0,
+    "status": "Y",
+    "dist_m": 0,
+    "facility_icons": [],
+    "store_infos": [],
     "headline": null,
-    "phone": null
+    "phone": "0502-5554-5289"
    },
    "rating": {
-    "pooled": 4.98,
-    "bayes": 4.8,
-    "total_reviews": 103,
+    "pooled": 4.96,
+    "bayes": 4.73,
+    "total_reviews": 71,
     "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.558197&dlng=127.1903466&dname=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.558197&dlng=127.1903466&dname=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.558197&lng=127.1903466&name=%EC%88%B2%EC%86%8D%EC%97%90%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2007667269",
-    "mobile_place": "https://m.place.naver.com/place/2007667269/home"
+    "app_navigation": "nmap://navigation?dlat=37.5420957&dlng=127.2144211&dname=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5420957&dlng=127.2144211&dname=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5420957&lng=127.2144211&name=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2051835234",
+    "mobile_place": "https://m.place.naver.com/place/2051835234/home"
    },
    "drive": {
-    "min": 0.8,
-    "km": 0.21,
+    "min": 5.5,
+    "km": 3.82,
     "method": "OSRM(교통 미반영)"
    },
    "walk": {
-    "min": 3.4,
-    "km": 0.26,
+    "min": 42.3,
+    "km": 3.17,
     "method": "OSM foot"
    },
    "price": {
@@ -6479,9 +7441,15 @@
      "positive": [
       {
        "label": "주차",
-       "quote": "수 있는 공간이 있어요. 동네 사람들도 많이 이용해서인지 평일 점심 방문했을 때 주차공간에 차가 없어 주차가 널널해 보였어요. 저녁과 주말가격은 10,900원 / 평일점",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/mommy_do/224405529028",
-       "date": "2026.09.09."
+       "quote": "0/ 휴무일은 네이버플레이스 확인 ■ 주차: 에코타운3단지 사전 차량번호 등록후 주차 가능/ 매장에 전화 동네에 이런 카페가 많았으면 좋겠음. 매장 내부는 우리가 앉았던",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/immortal82/224350396027",
+       "date": "2026.07.30."
+      },
+      {
+       "label": "주차",
+       "quote": "0/ 휴무일은 네이버플레이스 확인 ■ 주차: 에코타운3단지 사전 차량번호 등록후 주차 가능/ 매장에 전화 동네에 이런 카페가 많았으면 좋겠음. ​ ​ ​ 매장 내부는 우리",
+       "src": "naver-blog:https://m.blog.naver.com/immortal82/224350396027",
+       "date": "2026.07.30."
       }
      ],
      "negative": [],
@@ -6490,193 +7458,6 @@
       "좌석 형태(입식/좌식)",
       "층·계단·엘리베이터"
      ],
-     "soft_food": true
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/linil/224421928645",
-      "title": "[미사] 창 밖을 보면서 즐기는 #숲속에 샤브",
-      "date": "2일 전",
-      "days_ago": 2,
-      "author": "하이제나",
-      "chars": 1123,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/osol_daily/224419933756",
-      "title": "하남미사_숲속에 샤브 |1인 샤브 가능",
-      "date": "4일 전",
-      "days_ago": 4,
-      "author": "오소리",
-      "chars": 751,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 61.0,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 30.0,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 5.0,
-     "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "부드러운 음식 메뉴 있음"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 17,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2011414401",
-   "name": "고향밀면 하남아이테코점",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "2011414401",
-    "category": "냉면",
-    "road_address": "조정대로 150 아이테코 지하1층 RB121호",
-    "x": 127.1946825,
-    "y": 37.5535298,
-    "score": 4.82,
-    "reviews": 37,
-    "blog_reviews": 14,
-    "status": "오늘 휴무",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "단체 이용 가능",
-     "포장",
-     "배달",
-     "무선 인터넷",
-     "남/녀 화장실 구분",
-     "유아의자",
-     "간편결제",
-     "주차"
-    ],
-    "phone": "0507-1391-6516"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "1807541008",
-    "kakao_url": "http://place.map.kakao.com/1807541008",
-    "kakao_road_address": "경기 하남시 조정대로 150",
-    "rating": 5.0,
-    "review_count": 1,
-    "status": "Y",
-    "dist_m": 1,
-    "facility_icons": [
-     "예약가능",
-     "포장가능",
-     "배달가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "아이테코 그린존 지하 2·3층 주차 가능, 기본 1시간 무료, 식사 시 최대 3시간 무료"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": ""
-   },
-   "rating": {
-    "pooled": 4.82,
-    "bayes": 4.54,
-    "total_reviews": 38,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5535298&dlng=127.1946825&dname=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5535298&dlng=127.1946825&dname=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5535298&lng=127.1946825&name=%EA%B3%A0%ED%96%A5%EB%B0%80%EB%A9%B4%20%ED%95%98%EB%82%A8%EC%95%84%EC%9D%B4%ED%85%8C%EC%BD%94%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2011414401",
-    "mobile_place": "https://m.place.naver.com/place/2011414401/home"
-   },
-   "drive": {
-    "min": 2.5,
-    "km": 1.04,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 12.1,
-    "km": 0.9,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "유아의자"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "해 드리고 싶은 숨은 보석 같은 곳이랍니다ㅎㅎ 하남아이테코 건물 지하 또는 지상 주차 공간도 넉넉해서 차를 가지고 방문하기 정말 편리합니다. 건물 자체가 깔끔하고 관리가",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/juilky/224408623324",
-       "date": "2026.09.11."
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "로 생긴 경주 밀면 맛집 고향밀면 하남아이테코점 하남지식산업센터 하남아이테코 지하1층에 있어서 주변 직장인들도 점심시간에 밥 먹으러 많이 오는 것 같아요 주변 한식뷔페와",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/yourkiwi/224409227336",
-       "date": "2026.09.12."
-      },
-      {
-       "label": "주차",
-       "quote": "아이테코 그린존 지하 2·3층 주차 가능, 기본 1시간 무료, 식사 시 최대 3시간 무료",
-       "src": "kakao-info:1807541008",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "드리고 싶은 숨은 보석 같은 곳이랍니다ㅎㅎ ​ 하남아이테코 건물 지하 또는 지상 주차 공간도 넉넉해서 차를 가지고 방문하기 정말 편리합니다. 건물 자체가 깔끔하고 관리가",
-       "src": "naver-blog:https://m.blog.naver.com/juilky/224408623324",
-       "date": "2026.09.11."
-      },
-      {
-       "label": "주차",
-       "quote": "왜 매일 점심마다 이곳으로 향하는지 온몸으로 고개가 끄덕여지는 순간이었습니다. 주차 편리하고, 맛 훌륭하고, 양까지 인심 좋게 퍼주는 곳이라 앞으로도 단골 삼아 자주",
-       "src": "naver-blog:https://m.blog.naver.com/juilky/224408623324",
-       "date": "2026.09.11."
-      },
-      {
-       "label": "엘리베이터/1층/평지",
-       "quote": "로 150 아이테코 지하1층 RB121호 ​ ​ 하남지식산업센터 하남아이테코 지하1층에 있어서 주변 직장인들도 점심시간에 밥 먹으러 많이 오는 것 같아요 ​ ​ 주변 한식",
-       "src": "naver-blog:https://m.blog.naver.com/yourkiwi/224409227336",
-       "date": "2026.09.12."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)"
-     ],
      "soft_food": false
     },
     "bath": []
@@ -6684,41 +7465,41 @@
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/juilky/224408623324",
-      "title": "하남 맛집으로 입소문이 단단히 난 곳 바로 덕풍동 고향밀면 하남아이테코점",
-      "date": "2026.09.11.",
-      "days_ago": 15,
-      "author": "공부하는 엄빠",
-      "chars": 2225,
+      "url": "https://m.blog.naver.com/eornrsayclub/224396084322",
+      "title": "하남시청역 카페 하남 콜드브루 오렌지 커피 디저트 맛집 소로키 내돈내산",
+      "date": "2026.08.31.",
+      "days_ago": 26,
+      "author": "디디앤나나",
+      "chars": 2937,
       "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/yourkiwi/224409227336",
-      "title": "점심 먹기 좋은 하남 맛집, 고향밀면 아이테코점",
-      "date": "2026.09.12.",
-      "days_ago": 14,
-      "author": "김키위",
-      "chars": 1864,
+      "url": "https://m.blog.naver.com/immortal82/224350396027",
+      "title": "하남시청카페 소로키 동네카페",
+      "date": "2026.07.30.",
+      "days_ago": 58,
+      "author": "사고뭉치",
+      "chars": 1082,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 61.0,
+    "total": 60.6,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 24.0,
+     "reputation": 29.6,
      "evidence": 18,
-     "family_fit": 9,
+     "family_fit": 3,
      "practicality": 10
     },
     "detail": {
-     "rating_pts": 20,
-     "review_pts": 4.0,
+     "rating_pts": 25,
+     "review_pts": 4.6,
      "source_count": 2,
-     "mode_a": 3,
-     "mode_b": 6,
+     "mode_a": 0,
+     "mode_b": 3,
      "bath_pts": 0,
      "drive_pts": 8,
      "cost_pts": 2
@@ -6736,182 +7517,13 @@
    "plan_notes": [
     {
      "label": "휴관·휴무일",
-     "quote": "기 좋은 하남 맛집 고향밀면 하남아이테코점 매주 일요일 휴무이고 월화수목금토 11:00-15:00 점심",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/yourkiwi/224409227336",
-     "date": "2026.09.12."
-    },
-    {
-     "label": "휴관·휴무일",
-     "quote": "​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ 매주 일요일 휴무이고 월화수목금토 11:00-15:00 점심",
-     "src": "naver-blog:https://m.blog.naver.com/yourkiwi/224409227336",
-     "date": "2026.09.12."
+     "quote": ":00~18:00 토 11:00~20:00 수요일 휴무 경기도 하남시 하남대로802번길 121 에",
+     "src": "naver-blog-excerpt:https://m.blog.naver.com/eornrsayclub/224396084322",
+     "date": "2026.08.31."
     }
    ],
-   "evidence_days_ago": 14,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2072148452",
-   "name": "로스엔젤레스 로스구이",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "2072148452",
-    "category": "육류,고기요리",
-    "road_address": "상일로5길 8 2층",
-    "x": 127.1725997,
-    "y": 37.5491255,
-    "score": 4.95,
-    "reviews": 98,
-    "blog_reviews": 17,
-    "status": "영업 전",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "단체 이용 가능",
-     "남/녀 화장실 구분",
-     "무선 인터넷",
-     "간편결제",
-     "주차"
-    ],
-    "phone": "070-5088-0604"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 4.95,
-    "bayes": 4.77,
-    "total_reviews": 98,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5491255&dlng=127.1725997&dname=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5491255&dlng=127.1725997&dname=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5491255&lng=127.1725997&name=%EB%A1%9C%EC%8A%A4%EC%97%94%EC%A0%A4%EB%A0%88%EC%8A%A4%20%EB%A1%9C%EC%8A%A4%EA%B5%AC%EC%9D%B4&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2072148452",
-    "mobile_place": "https://m.place.naver.com/place/2072148452/home"
-   },
-   "drive": {
-    "min": 3.7,
-    "km": 2.85,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 34.5,
-    "km": 2.59,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "아이동반"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "지 않은 위치였어요. 다만 매장 전용 주차장은 따로 없어서 차를 가져간다면 주변 주차 공간이나 인근 유료주차장을 이용해야 합니다. 주소 : 서울 강동구 상일로5길8 2층",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/dscy22/224413643912",
-       "date": "2026.09.16."
-      },
-      {
-       "label": "주차",
-       "quote": "건물 2층에 있는 상일동 고기집 맛집입니다! 오래된 건물이 많은 동네라 아쉽게도 주차 공간은 따로 마련되어 있지 않아요 주차가 꼭 필요하시다면 ⚠ 근처 공영주차장이나 건너",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/lola1052/224397388624",
-       "date": "2026.09.01."
-      },
-      {
-       "label": "주차",
-       "quote": "지 않은 위치였어요. 다만 매장 전용 주차장은 따로 없어서 차를 가져간다면 주변 주차 공간이나 인근 유료주차장을 이용해야 합니다. ​ 📍 주소 : 서울 강동구 상일로5길8",
-       "src": "naver-blog:https://m.blog.naver.com/dscy22/224413643912",
-       "date": "2026.09.16."
-      }
-     ],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "편 삼성엔지니어링 유료 주차장을 이용하셔야 해요 ㅜ.ㅜ 가게 내부 ✅ 가게 내부 계단으로 2층에 올라가면 정면에 바로 출입구가 있구요 카운터 앞쪽 중앙에 6인석 테이블,",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/lola1052/224397388624",
-       "date": "2026.09.01."
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [
-      "좌석 형태(입식/좌식)"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/dscy22/224413643912",
-      "title": "상일동 고기집 신상 맛집 로스엔젤레스 로스구이 아이와 직접 다녀온 후기",
-      "date": "2026.09.16.",
-      "days_ago": 10,
-      "author": "다온",
-      "chars": 2497,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/zzoenh/224401436402",
-      "title": "상일동 고기집 맛집 로스엔젤레스 로스구이 강추 후기",
-      "date": "2026.09.05.",
-      "days_ago": 21,
-      "author": "조이",
-      "chars": 2276,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 61.0,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 30.0,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 5.0,
-     "source_count": 2,
-     "mode_a": 3,
-     "mode_b": 0,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 10,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 81,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2075545048",
@@ -6923,9 +7535,9 @@
     "road_address": "미사대로 520 D동 2층 253호, 254호",
     "x": 127.2045806,
     "y": 37.5588656,
-    "score": 4.9,
-    "reviews": 29,
-    "blog_reviews": 7,
+    "score": 4.93,
+    "reviews": 51,
+    "blog_reviews": 8,
     "status": "오늘 휴무",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -6956,9 +7568,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.9,
-    "bayes": 4.54,
-    "total_reviews": 29,
+    "pooled": 4.93,
+    "bayes": 4.66,
+    "total_reviews": 51,
     "source": "네이버"
    },
    "nav": {
@@ -7033,17 +7645,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 56.7,
+    "total": 57.3,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 23.7,
+     "reputation": 24.3,
      "evidence": 18,
      "family_fit": 5,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 20,
-     "review_pts": 3.7,
+     "review_pts": 4.3,
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 5,
@@ -7063,7 +7675,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-822843515",
@@ -7076,8 +7688,8 @@
     "x": 127.183415,
     "y": 37.5696117,
     "score": null,
-    "reviews": 5545,
-    "blog_reviews": 141,
+    "reviews": 5543,
+    "blog_reviews": 142,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -7110,7 +7722,7 @@
    "rating": {
     "pooled": 4.6,
     "bayes": 4.31,
-    "total_reviews": 5581,
+    "total_reviews": 5579,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -7216,8 +7828,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 342,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 397,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1450872159",
@@ -7230,8 +7842,8 @@
     "x": 127.1814655,
     "y": 37.5700154,
     "score": null,
-    "reviews": 1390,
-    "blog_reviews": 3688,
+    "reviews": 1391,
+    "blog_reviews": 3655,
     "status": "곧 영업 시작",
     "new_open": false,
     "new_open_since": null,
@@ -7272,7 +7884,7 @@
    "rating": {
     "pooled": 4.7,
     "bayes": 4.36,
-    "total_reviews": 1436,
+    "total_reviews": 1437,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -7409,70 +8021,71 @@
      "date": "2025.04.02."
     }
    ],
-   "evidence_days_ago": 511,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 566,
+   "verified_at": "2026-11-20"
   },
   {
-   "id": "naver-2051835234",
-   "name": "소로키",
-   "kind": "cafe",
+   "id": "naver-2061189359",
+   "name": "담원:샤브",
+   "kind": "restaurant",
    "naver": {
-    "place_id": "2051835234",
-    "category": "카페,디저트",
-    "road_address": "하남대로802번길 121 1층 소로키",
-    "x": 127.2144211,
-    "y": 37.5420957,
-    "score": 4.96,
-    "reviews": 56,
+    "place_id": "2061189359",
+    "category": "샤브샤브",
+    "road_address": "미사강변동로84번길 29 1층 118호",
+    "x": 127.1946778,
+    "y": 37.5630551,
+    "score": 4.99,
+    "reviews": 397,
     "blog_reviews": 3,
-    "status": "영업 전",
+    "status": "영업 중",
     "new_open": true,
     "new_open_since": "2026-09-26",
     "conveniences": [
-     "포장",
+     "단체 이용 가능",
+     "예약",
      "무선 인터넷",
-     "남/녀 화장실 구분",
      "대기공간",
-     "간편결제",
+     "포장",
+     "남/녀 화장실 구분",
      "주차"
     ],
-    "phone": "0507-1322-5062"
+    "phone": "0507-1366-0631"
    },
    "kakao": {
-    "found": true,
-    "kakao_id": "925222958",
-    "kakao_url": "http://place.map.kakao.com/925222958",
-    "kakao_road_address": "경기 하남시 하남대로802번길 121",
-    "rating": 0.0,
-    "review_count": 0,
-    "status": "Y",
-    "dist_m": 0,
-    "facility_icons": [],
-    "store_infos": [],
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
     "headline": null,
-    "phone": "0502-5554-5289"
+    "phone": null
    },
    "rating": {
-    "pooled": 4.96,
-    "bayes": 4.69,
-    "total_reviews": 56,
+    "pooled": 4.99,
+    "bayes": 4.93,
+    "total_reviews": 397,
     "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5420957&dlng=127.2144211&dname=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5420957&dlng=127.2144211&dname=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5420957&lng=127.2144211&name=%EC%86%8C%EB%A1%9C%ED%82%A4&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2051835234",
-    "mobile_place": "https://m.place.naver.com/place/2051835234/home"
+    "app_navigation": "nmap://navigation?dlat=37.5630551&dlng=127.1946778&dname=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5630551&dlng=127.1946778&dname=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5630551&lng=127.1946778&name=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2061189359",
+    "mobile_place": "https://m.place.naver.com/place/2061189359/home"
    },
    "drive": {
-    "min": 5.5,
-    "km": 3.82,
+    "min": 2.5,
+    "km": 0.93,
     "method": "OSRM(교통 미반영)"
    },
    "walk": {
-    "min": 42.3,
-    "km": 3.17,
+    "min": 12.6,
+    "km": 0.94,
     "method": "OSM foot"
    },
    "price": {
@@ -7485,15 +8098,15 @@
      "positive": [
       {
        "label": "주차",
-       "quote": "0/ 휴무일은 네이버플레이스 확인 ■ 주차: 에코타운3단지 사전 차량번호 등록후 주차 가능/ 매장에 전화 동네에 이런 카페가 많았으면 좋겠음. 매장 내부는 우리가 앉았던",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/immortal82/224350396027",
-       "date": "2026.07.30."
+       "quote": "일은 네이버 확인하고 방문하세요. 전화번호 0507-1366-0631(스마트콜) 주차가능(무료) 담원 샤브 메뉴 & 가격 정보 선택한 메뉴/방문시간 1.고기샤브(3시까지",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/thankju-/224413029830",
+       "date": "2026.09.15."
       },
       {
        "label": "주차",
-       "quote": "0/ 휴무일은 네이버플레이스 확인 ■ 주차: 에코타운3단지 사전 차량번호 등록후 주차 가능/ 매장에 전화 동네에 이런 카페가 많았으면 좋겠음. ​ ​ ​ 매장 내부는 우리",
-       "src": "naver-blog:https://m.blog.naver.com/immortal82/224350396027",
-       "date": "2026.07.30."
+       "quote": "확인하고 방문하세요. ​ 📞전화번호 0507-1366-0631(스마트콜) ​ 🚗주차가능(무료) ​ 🥢담원 샤브 메뉴 & 가격 정보 ​ ​ 👉선택한 메뉴/방문시간 1.고",
+       "src": "naver-blog:https://m.blog.naver.com/thankju-/224413029830",
+       "date": "2026.09.15."
       }
      ],
      "negative": [],
@@ -7502,46 +8115,37 @@
       "좌석 형태(입식/좌식)",
       "층·계단·엘리베이터"
      ],
-     "soft_food": false
+     "soft_food": true
     },
     "bath": []
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/eornrsayclub/224396084322",
-      "title": "하남시청역 카페 하남 콜드브루 오렌지 커피 디저트 맛집 소로키 내돈내산",
-      "date": "2026.08.31.",
-      "days_ago": 26,
-      "author": "디디앤나나",
-      "chars": 2937,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/immortal82/224350396027",
-      "title": "하남시청카페 소로키 동네카페",
-      "date": "2026.07.30.",
-      "days_ago": 58,
-      "author": "사고뭉치",
-      "chars": 1082,
+      "url": "https://m.blog.naver.com/thankju-/224413029830",
+      "title": "[내돈내산] 샤브샤브 맛집 &#39;담원 샤브 미사점&#39; 방문 후기! 메뉴, 가격, 리뷰 이벤트 총정리",
+      "date": "2026.09.15.",
+      "days_ago": 11,
+      "author": "주주",
+      "chars": 749,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 55.4,
+    "total": 55.5,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 24.4,
-     "evidence": 18,
+     "reputation": 31.5,
+     "evidence": 11,
      "family_fit": 3,
      "practicality": 10
     },
     "detail": {
-     "rating_pts": 20,
-     "review_pts": 4.4,
-     "source_count": 2,
+     "rating_pts": 25,
+     "review_pts": 6.5,
+     "source_count": 1,
      "mode_a": 0,
      "mode_b": 3,
      "bath_pts": 0,
@@ -7554,20 +8158,14 @@
     }
    },
    "flags": [
+    "카카오 교차검증 실패(확인 필요)",
     "고평점(≥4.5)",
     "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "휴관·휴무일 언급 — 가기 전 확인"
+    "부드러운 음식 메뉴 있음"
    ],
-   "plan_notes": [
-    {
-     "label": "휴관·휴무일",
-     "quote": ":00~18:00 토 11:00~20:00 수요일 휴무 경기도 하남시 하남대로802번길 121 에",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/eornrsayclub/224396084322",
-     "date": "2026.08.31."
-    }
-   ],
-   "evidence_days_ago": 26,
-   "verified_at": "2026-09-26"
+   "plan_notes": [],
+   "evidence_days_ago": 66,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2001657224",
@@ -7580,8 +8178,8 @@
     "x": 127.1644592,
     "y": 37.5567657,
     "score": 4.88,
-    "reviews": 333,
-    "blog_reviews": 1,
+    "reviews": 337,
+    "blog_reviews": 2,
     "status": "영업 중",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -7600,8 +8198,8 @@
     "kakao_id": "1536256992",
     "kakao_url": "http://place.map.kakao.com/1536256992",
     "kakao_road_address": "서울 강동구 고덕로 353",
-    "rating": 0.0,
-    "review_count": 0,
+    "rating": 5.0,
+    "review_count": 1,
     "status": "Y",
     "dist_m": 14,
     "facility_icons": [],
@@ -7612,7 +8210,7 @@
    "rating": {
     "pooled": 4.88,
     "bayes": 4.82,
-    "total_reviews": 333,
+    "total_reviews": 338,
     "source": "네이버"
    },
    "nav": {
@@ -7694,147 +8292,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2068008143",
-   "name": "빵수당",
-   "kind": "cafe",
-   "naver": {
-    "place_id": "2068008143",
-    "category": "베이커리",
-    "road_address": "미사강변남로 45 124호",
-    "x": 127.1870556,
-    "y": 37.5602597,
-    "score": 4.83,
-    "reviews": 47,
-    "blog_reviews": 3,
-    "status": "오늘 휴무",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "포장",
-     "주차"
-    ],
-    "phone": "0507-1381-9531"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "881378180",
-    "kakao_url": "http://place.map.kakao.com/881378180",
-    "kakao_road_address": "경기 하남시 미사강변남로 45",
-    "rating": 4.6,
-    "review_count": 5,
-    "status": "Y",
-    "dist_m": 40,
-    "facility_icons": [],
-    "store_infos": [],
-    "headline": "영업 중",
-    "phone": "0507-1381-9531"
-   },
-   "rating": {
-    "pooled": 4.83,
-    "bayes": 4.58,
-    "total_reviews": 52,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5602597&dlng=127.1870556&dname=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5602597&dlng=127.1870556&dname=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5602597&lng=127.1870556&name=%EB%B9%B5%EC%88%98%EB%8B%B9&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2068008143",
-    "mobile_place": "https://m.place.naver.com/place/2068008143/home"
-   },
-   "drive": {
-    "min": 2.1,
-    "km": 0.9,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 9.8,
-    "km": 0.74,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/linil/224417569880",
-      "title": "[미사] 마늘바게뜨가 자꾸 생각나는 #빵수당",
-      "date": "6일 전",
-      "days_ago": 6,
-      "author": "하이제나",
-      "chars": 567,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/jaenacon79/224412731239",
-      "title": "[하남/미사] 건강한 빵집 식사대용 사워도우 X 단호박감자 캉파뉴 맛집 담백해서 또 먹고싶다",
-      "date": "2026.09.15.",
-      "days_ago": 11,
-      "author": "myo",
-      "chars": 1620,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 55.3,
-    "tier": "조건부",
-    "breakdown": {
-     "reputation": 24.3,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 20,
-     "review_pts": 4.3,
-     "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "휴관·휴무일 언급 — 가기 전 확인"
-   ],
-   "plan_notes": [
-    {
-     "label": "휴관·휴무일",
-     "quote": "해보려고 합니다! (협찬 X, 광고X) - 일요일 정기 휴무 - 월-토 10:00 - 20:00 (빵",
-     "src": "naver-blog-excerpt:https://m.blog.naver.com/harumalguem/224343576617",
-     "date": "2026.07.11."
-    }
-   ],
-   "evidence_days_ago": 77,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1483001910",
@@ -7847,8 +8305,8 @@
     "x": 127.1934202,
     "y": 37.5633999,
     "score": null,
-    "reviews": 4549,
-    "blog_reviews": 1584,
+    "reviews": 4680,
+    "blog_reviews": 1580,
     "status": "곧 영업 시작",
     "new_open": false,
     "new_open_since": null,
@@ -7862,8 +8320,8 @@
     "kakao_id": "1026252920",
     "kakao_url": "http://place.map.kakao.com/1026252920",
     "kakao_road_address": "경기 하남시 미사강변동로 100-1",
-    "rating": 4.2,
-    "review_count": 36,
+    "rating": 4.1,
+    "review_count": 38,
     "status": "Y",
     "dist_m": 11,
     "facility_icons": [
@@ -7879,9 +8337,9 @@
     "phone": "031-792-7140"
    },
    "rating": {
-    "pooled": 5.0,
-    "bayes": 4.41,
-    "total_reviews": 4585,
+    "pooled": 4.9,
+    "bayes": 4.39,
+    "total_reviews": 4718,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -8006,151 +8464,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 25,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2061189359",
-   "name": "담원:샤브",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "2061189359",
-    "category": "샤브샤브",
-    "road_address": "미사강변동로84번길 29 1층 118호",
-    "x": 127.1946778,
-    "y": 37.5630551,
-    "score": 4.99,
-    "reviews": 197,
-    "blog_reviews": 1,
-    "status": "영업 중",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "단체 이용 가능",
-     "예약",
-     "무선 인터넷",
-     "대기공간",
-     "포장",
-     "남/녀 화장실 구분",
-     "주차"
-    ],
-    "phone": "0507-1366-0631"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 4.99,
-    "bayes": 4.89,
-    "total_reviews": 197,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5630551&dlng=127.1946778&dname=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5630551&dlng=127.1946778&dname=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5630551&lng=127.1946778&name=%EB%8B%B4%EC%9B%90%3A%EC%83%A4%EB%B8%8C&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2061189359",
-    "mobile_place": "https://m.place.naver.com/place/2061189359/home"
-   },
-   "drive": {
-    "min": 2.5,
-    "km": 0.93,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 12.6,
-    "km": 0.94,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "일은 네이버 확인하고 방문하세요. 전화번호 0507-1366-0631(스마트콜) 주차가능(무료) 담원 샤브 메뉴 & 가격 정보 선택한 메뉴/방문시간 1.고기샤브(3시까지",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/thankju-/224413029830",
-       "date": "2026.09.15."
-      },
-      {
-       "label": "주차",
-       "quote": "확인하고 방문하세요. ​ 📞전화번호 0507-1366-0631(스마트콜) ​ 🚗주차가능(무료) ​ 🥢담원 샤브 메뉴 & 가격 정보 ​ ​ 👉선택한 메뉴/방문시간 1.고",
-       "src": "naver-blog:https://m.blog.naver.com/thankju-/224413029830",
-       "date": "2026.09.15."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": true
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/thankju-/224413029830",
-      "title": "[내돈내산] 샤브샤브 맛집 &#39;담원 샤브 미사점&#39; 방문 후기! 메뉴, 가격, 리뷰 이벤트 총정리",
-      "date": "2026.09.15.",
-      "days_ago": 11,
-      "author": "주주",
-      "chars": 749,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 54.7,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 30.7,
-     "evidence": 11,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 25,
-     "review_pts": 5.7,
-     "source_count": 1,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "부드러운 음식 메뉴 있음"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 11,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 80,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2089257808",
@@ -8162,9 +8477,9 @@
     "road_address": "덕풍동로 111-10 111호, 112호",
     "x": 127.2083815,
     "y": 37.5516942,
-    "score": 4.94,
-    "reviews": 143,
-    "blog_reviews": 2,
+    "score": 4.95,
+    "reviews": 219,
+    "blog_reviews": 4,
     "status": "영업 전",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -8191,9 +8506,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.94,
-    "bayes": 4.81,
-    "total_reviews": 143,
+    "pooled": 4.95,
+    "bayes": 4.86,
+    "total_reviews": 219,
     "source": "네이버"
    },
    "nav": {
@@ -8246,17 +8561,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 54.4,
+    "total": 54.9,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 30.4,
+     "reputation": 30.9,
      "evidence": 11,
      "family_fit": 3,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 5.4,
+     "review_pts": 5.9,
      "source_count": 1,
      "mode_a": 0,
      "mode_b": 3,
@@ -8276,7 +8591,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1650589759",
@@ -8289,8 +8604,8 @@
     "x": 127.192666,
     "y": 37.5626403,
     "score": 4.45,
-    "reviews": 5524,
-    "blog_reviews": 255,
+    "reviews": 5530,
+    "blog_reviews": 258,
     "status": "오늘 휴무",
     "new_open": false,
     "new_open_since": null,
@@ -8309,7 +8624,7 @@
     "kakao_url": "http://place.map.kakao.com/930392015",
     "kakao_road_address": "경기 하남시 미사강변동로 85",
     "rating": 3.4,
-    "review_count": 37,
+    "review_count": 38,
     "status": "Y",
     "dist_m": 50,
     "facility_icons": [
@@ -8332,7 +8647,7 @@
    "rating": {
     "pooled": 4.45,
     "bayes": 4.45,
-    "total_reviews": 5561,
+    "total_reviews": 5568,
     "source": "네이버"
    },
    "nav": {
@@ -8430,8 +8745,8 @@
     "부드러운 음식 메뉴 있음"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 434,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 489,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-12056876",
@@ -8444,8 +8759,8 @@
     "x": 127.1715759,
     "y": 37.5855983,
     "score": null,
-    "reviews": 4078,
-    "blog_reviews": 1450,
+    "reviews": 4079,
+    "blog_reviews": 1513,
     "status": "곧 영업 시작",
     "new_open": false,
     "new_open_since": null,
@@ -8464,10 +8779,11 @@
     "kakao_url": "http://place.map.kakao.com/205323430",
     "kakao_road_address": "경기 남양주시 강변북로632번길 6-45",
     "rating": 3.7,
-    "review_count": 171,
+    "review_count": 172,
     "status": "Y",
     "dist_m": 3,
     "facility_icons": [
+     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -8482,7 +8798,7 @@
    "rating": {
     "pooled": 4.5,
     "bayes": 4.39,
-    "total_reviews": 4249,
+    "total_reviews": 4251,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -8605,8 +8921,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 11,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 66,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-34443024",
@@ -8619,7 +8935,7 @@
     "x": 127.2171865,
     "y": 37.5486583,
     "score": null,
-    "reviews": 3107,
+    "reviews": 3112,
     "blog_reviews": 2532,
     "status": "영업 중",
     "new_open": false,
@@ -8643,7 +8959,7 @@
     "kakao_url": "http://place.map.kakao.com/22424960",
     "kakao_road_address": "경기 하남시 덕풍천서로 87",
     "rating": 3.9,
-    "review_count": 102,
+    "review_count": 103,
     "status": "Y",
     "dist_m": 1,
     "facility_icons": [
@@ -8663,7 +8979,7 @@
    "rating": {
     "pooled": 4.7,
     "bayes": 4.45,
-    "total_reviews": 3209,
+    "total_reviews": 3215,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -8789,8 +9105,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 119,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 174,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-38222862",
@@ -8803,8 +9119,8 @@
     "x": 127.1987428,
     "y": 37.5650019,
     "score": null,
-    "reviews": 4647,
-    "blog_reviews": 559,
+    "reviews": 4716,
+    "blog_reviews": 567,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -8849,7 +9165,7 @@
    "rating": {
     "pooled": null,
     "bayes": null,
-    "total_reviews": 4647,
+    "total_reviews": 4716,
     "source": null
    },
    "nav": {
@@ -9016,8 +9332,8 @@
     "별점 없음(네이버·카카오 모두)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 100,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 155,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1028388645",
@@ -9030,8 +9346,8 @@
     "x": 127.2085414,
     "y": 37.5543544,
     "score": null,
-    "reviews": 8391,
-    "blog_reviews": 1416,
+    "reviews": 9088,
+    "blog_reviews": 1501,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -9051,11 +9367,10 @@
     "kakao_url": "http://place.map.kakao.com/1968803072",
     "kakao_road_address": "경기 하남시 월호로 60",
     "rating": 3.5,
-    "review_count": 54,
+    "review_count": 55,
     "status": "Y",
     "dist_m": 3,
     "facility_icons": [
-     "주차가능",
      "예약가능",
      "포장가능",
      "배달가능"
@@ -9072,7 +9387,7 @@
    "rating": {
     "pooled": 4.3,
     "bayes": 4.24,
-    "total_reviews": 8445,
+    "total_reviews": 9143,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -9194,17 +9509,17 @@
     ]
    },
    "scores": {
-    "total": 49.8,
+    "total": 49.9,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 15.8,
+     "reputation": 15.9,
      "evidence": 18,
      "family_fit": 6,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 6,
-     "review_pts": 9.8,
+     "review_pts": 9.9,
      "source_count": 2,
      "mode_a": 3,
      "mode_b": 3,
@@ -9223,7 +9538,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 5,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1926712732",
@@ -9236,8 +9551,8 @@
     "x": 127.1882122,
     "y": 37.5216582,
     "score": null,
-    "reviews": 6643,
-    "blog_reviews": 1118,
+    "reviews": 6657,
+    "blog_reviews": 1143,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -9248,6 +9563,8 @@
      "포장",
      "남/녀 화장실 구분",
      "유아시설 (놀이방)",
+     "배달",
+     "간편결제",
      "주차"
     ],
     "phone": "031-795-1005"
@@ -9263,7 +9580,6 @@
     "dist_m": 1,
     "facility_icons": [
      "주차가능",
-     "예약가능",
      "포장가능"
     ],
     "store_infos": [
@@ -9282,7 +9598,7 @@
    "rating": {
     "pooled": 4.3,
     "bayes": 4.24,
-    "total_reviews": 6702,
+    "total_reviews": 6716,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -9409,8 +9725,207 @@
     "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 41,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 96,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-1083885273",
+   "name": "뽕사부 미사점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "1083885273",
+    "category": "중식당",
+    "road_address": "미사대로 572 1층",
+    "x": 127.2083497,
+    "y": 37.5556647,
+    "score": null,
+    "reviews": 5258,
+    "blog_reviews": 2062,
+    "status": "영업 중",
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "단체 이용 가능",
+     "포장",
+     "배달",
+     "예약",
+     "무선 인터넷",
+     "남/녀 화장실 구분",
+     "유아의자",
+     "주차"
+    ],
+    "phone": "0507-1484-5203"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "1748447998",
+    "kakao_url": "http://place.map.kakao.com/1748447998",
+    "kakao_road_address": "경기 하남시 미사대로 572",
+    "rating": 3.0,
+    "review_count": 49,
+    "status": "Y",
+    "dist_m": 11,
+    "facility_icons": [
+     "주차가능",
+     "예약가능",
+     "포장가능",
+     "배달가능"
+    ],
+    "store_infos": [
+     {
+      "title": "기타",
+      "summary": "화장실 남녀분리, 매장 내 화장실"
+     }
+    ],
+    "headline": "영업 중",
+    "phone": "031-796-5200"
+   },
+   "rating": {
+    "pooled": 3.8,
+    "bayes": 4.07,
+    "total_reviews": 5307,
+    "source": "카카오(+0.8 보정)"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5556647&dlng=127.2083497&dname=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5556647&dlng=127.2083497&dname=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5556647&lng=127.2083497&name=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1083885273",
+    "mobile_place": "https://m.place.naver.com/place/1083885273/home"
+   },
+   "drive": {
+    "min": 3.1,
+    "km": 2.42,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 25.4,
+    "km": 1.91,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "아이동반",
+     "유아의자"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 주차는 옆에 공가게국밥이랑 같이 쓰기 때문에 넓습니다!",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/anmats/224411785076",
+       "date": "2026.09.16."
+      },
+      {
+       "label": "넓고 여유",
+       "quote": "녀와서 포스팅해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 주차는 옆에 공가게국밥이랑 같이 쓰기 때문에",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/anmats/224411785076",
+       "date": "2026.09.16."
+      },
+      {
+       "label": "주차",
+       "quote": "미사점 경기 하남시 덕풍동 26-12 (미사대로 572) 031-796-5200 주차 가능 P.S. 수행 전 '일피노'에서 찍은 S90 B6 사진들입니다. 5.1미터에 달",
+       "src": "naver-blog-excerpt:https://m.cafe.naver.com/bimmerwerks/952731?query=%EB%B9%84%EB%A8%B8%EB%B2%A0%EB%A5%B4%ED%81%AC%20BMW%20%EB%8F%99%ED%98%B8%ED%9A%8C",
+       "date": "2024.05.31."
+      },
+      {
+       "label": "넓고 여유",
+       "quote": "맛집 뽕사부는 짬뽕으로 이름이 알려진 중식 프랜차이즈인데요 미사점은 그중에서도 매장 크기가 크고 넉넉한 편이에요. 무엇보다 주차가 널널하고 24시간 영업하는게 마음에",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/luvsjy850/224400752562",
+       "date": "2026.09.06."
+      },
+      {
+       "label": "화장실 가까움",
+       "quote": "화장실 남녀분리, 매장 내 화장실",
+       "src": "kakao-info:1748447998",
+       "date": null
+      },
+      {
+       "label": "주차",
+       "quote": "해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 뽕사부 미사점 경기도 하남시 미사대로 572 1층 주차는",
+       "src": "naver-blog:https://m.blog.naver.com/anmats/224411785076",
+       "date": "2026.09.16."
+      },
+      {
+       "label": "넓고 여유",
+       "quote": "녀와서 포스팅해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 뽕사부 미사점 경기도 하남시 미사대로 572",
+       "src": "naver-blog:https://m.blog.naver.com/anmats/224411785076",
+       "date": "2026.09.16."
+      },
+      {
+       "label": "넓고 여유",
+       "quote": "맛집 뽕사부는 짬뽕으로 이름이 알려진 중식 프랜차이즈인데요 미사점은 그중에서도 매장 크기가 크고 넉넉한 편이에요. 무엇보다 주차가 널널하고 24시간 영업하는게 마음에",
+       "src": "naver-blog:https://m.blog.naver.com/luvsjy850/224400752562",
+       "date": "2026.09.06."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/anmats/224411785076",
+      "title": "&lt;경기 하남&gt;&#39;뽕사부 미사점&#39; 주차도 편한 24시간 중식 맛집인데 소주가 3천원..?!쯔양이 먹은 맛집 중식당",
+      "date": "2026.09.16.",
+      "days_ago": 10,
+      "author": "안주소",
+      "chars": 1770,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/luvsjy850/224400752562",
+      "title": "하남 미사 맛집 뽕사부 짬뽕 : 24시간 언제나 짬뽕을 먹을 수 있어요",
+      "date": "2026.09.06.",
+      "days_ago": 20,
+      "author": "지롱",
+      "chars": 1492,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 49.3,
+    "tier": "근거부족",
+    "breakdown": {
+     "reputation": 9.3,
+     "evidence": 18,
+     "family_fit": 12,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 0,
+     "review_pts": 9.3,
+     "source_count": 2,
+     "mode_a": 6,
+     "mode_b": 6,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 65,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-13330268",
@@ -9423,8 +9938,8 @@
     "x": 127.2109484,
     "y": 37.5533051,
     "score": null,
-    "reviews": 5661,
-    "blog_reviews": 3363,
+    "reviews": 5659,
+    "blog_reviews": 3436,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -9454,7 +9969,7 @@
    "rating": {
     "pooled": 5.0,
     "bayes": 4.22,
-    "total_reviews": 5664,
+    "total_reviews": 5662,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -9583,362 +10098,8 @@
     "웨이팅 언급(오래 서 있기 부담)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 39,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-1083885273",
-   "name": "뽕사부 미사점",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "1083885273",
-    "category": "중식당",
-    "road_address": "미사대로 572 1층",
-    "x": 127.2083497,
-    "y": 37.5556647,
-    "score": null,
-    "reviews": 4939,
-    "blog_reviews": 2068,
-    "status": "영업 중",
-    "new_open": false,
-    "new_open_since": null,
-    "conveniences": [
-     "단체 이용 가능",
-     "포장",
-     "배달",
-     "예약",
-     "무선 인터넷",
-     "남/녀 화장실 구분",
-     "주차"
-    ],
-    "phone": "0507-1484-5203"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "1748447998",
-    "kakao_url": "http://place.map.kakao.com/1748447998",
-    "kakao_road_address": "경기 하남시 미사대로 572",
-    "rating": 2.9,
-    "review_count": 47,
-    "status": "Y",
-    "dist_m": 11,
-    "facility_icons": [
-     "반려견동반",
-     "예약가능",
-     "포장가능",
-     "배달가능"
-    ],
-    "store_infos": [
-     {
-      "title": "기타",
-      "summary": "화장실 남녀분리, 매장 내 화장실"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "031-796-5200"
-   },
-   "rating": {
-    "pooled": 3.7,
-    "bayes": 4.04,
-    "total_reviews": 4986,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5556647&dlng=127.2083497&dname=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5556647&dlng=127.2083497&dname=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5556647&lng=127.2083497&name=%EB%BD%95%EC%82%AC%EB%B6%80%20%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1083885273",
-    "mobile_place": "https://m.place.naver.com/place/1083885273/home"
-   },
-   "drive": {
-    "min": 3.1,
-    "km": 2.42,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 25.4,
-    "km": 1.91,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "아이동반"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 주차는 옆에 공가게국밥이랑 같이 쓰기 때문에 넓습니다!",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/anmats/224411785076",
-       "date": "2026.09.16."
-      },
-      {
-       "label": "넓고 여유",
-       "quote": "녀와서 포스팅해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 주차는 옆에 공가게국밥이랑 같이 쓰기 때문에",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/anmats/224411785076",
-       "date": "2026.09.16."
-      },
-      {
-       "label": "주차",
-       "quote": "미사점 경기 하남시 덕풍동 26-12 (미사대로 572) 031-796-5200 주차 가능 P.S. 수행 전 '일피노'에서 찍은 S90 B6 사진들입니다. 5.1미터에 달",
-       "src": "naver-blog-excerpt:https://m.cafe.naver.com/bimmerwerks/952731?query=%EB%B9%84%EB%A8%B8%EB%B2%A0%EB%A5%B4%ED%81%AC%20BMW%20%EB%8F%99%ED%98%B8%ED%9A%8C",
-       "date": "2024.05.31."
-      },
-      {
-       "label": "넓고 여유",
-       "quote": "맛집 뽕사부는 짬뽕으로 이름이 알려진 중식 프랜차이즈인데요 미사점은 그중에서도 매장 크기가 크고 넉넉한 편이에요. 무엇보다 주차가 널널하고 24시간 영업하는게 마음에",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/luvsjy850/224400752562",
-       "date": "2026.09.06."
-      },
-      {
-       "label": "화장실 가까움",
-       "quote": "화장실 남녀분리, 매장 내 화장실",
-       "src": "kakao-info:1748447998",
-       "date": null
-      },
-      {
-       "label": "주차",
-       "quote": "해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 뽕사부 미사점 경기도 하남시 미사대로 572 1층 주차는",
-       "src": "naver-blog:https://m.blog.naver.com/anmats/224411785076",
-       "date": "2026.09.16."
-      },
-      {
-       "label": "넓고 여유",
-       "quote": "녀와서 포스팅해 봐요! 영업시간 및 위치정보 가족 외식이나 단체 모임에도 적합한 넓은 매장과 주차 공간을 가진 24시간 중식당 뽕사부 미사점 경기도 하남시 미사대로 572",
-       "src": "naver-blog:https://m.blog.naver.com/anmats/224411785076",
-       "date": "2026.09.16."
-      },
-      {
-       "label": "넓고 여유",
-       "quote": "맛집 뽕사부는 짬뽕으로 이름이 알려진 중식 프랜차이즈인데요 미사점은 그중에서도 매장 크기가 크고 넉넉한 편이에요. 무엇보다 주차가 널널하고 24시간 영업하는게 마음에",
-       "src": "naver-blog:https://m.blog.naver.com/luvsjy850/224400752562",
-       "date": "2026.09.06."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/anmats/224411785076",
-      "title": "&lt;경기 하남&gt;&#39;뽕사부 미사점&#39; 주차도 편한 24시간 중식 맛집인데 소주가 3천원..?!쯔양이 먹은 맛집 중식당",
-      "date": "2026.09.16.",
-      "days_ago": 10,
-      "author": "안주소",
-      "chars": 1770,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/luvsjy850/224400752562",
-      "title": "하남 미사 맛집 뽕사부 짬뽕 : 24시간 언제나 짬뽕을 먹을 수 있어요",
-      "date": "2026.09.06.",
-      "days_ago": 20,
-      "author": "지롱",
-      "chars": 1492,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 46.2,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 9.2,
-     "evidence": 18,
-     "family_fit": 9,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 9.2,
-     "source_count": 2,
-     "mode_a": 3,
-     "mode_b": 6,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 10,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-1054654907",
-   "name": "건강밥상심마니 하남점",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "1054654907",
-    "category": "한정식",
-    "road_address": "아리수로 570 효성해링턴타워더퍼스트 102동 3층 3018호",
-    "x": 127.1905133,
-    "y": 37.5669532,
-    "score": null,
-    "reviews": 12735,
-    "blog_reviews": 17433,
-    "status": "영업 중",
-    "new_open": false,
-    "new_open_since": null,
-    "conveniences": [
-     "단체 이용 가능",
-     "주차",
-     "남/녀 화장실 구분",
-     "포장"
-    ],
-    "phone": "0507-1424-6226"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "260098451",
-    "kakao_url": "http://place.map.kakao.com/260098451",
-    "kakao_road_address": "경기 하남시 아리수로 570",
-    "rating": 3.3,
-    "review_count": 56,
-    "status": "Y",
-    "dist_m": 27,
-    "facility_icons": [
-     "주차가능",
-     "예약가능",
-     "포장가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "주차 가능"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "031-795-6226"
-   },
-   "rating": {
-    "pooled": 4.1,
-    "bayes": 4.16,
-    "total_reviews": 12791,
-    "source": "카카오(+0.8 보정)"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5669532&dlng=127.1905133&dname=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5669532&dlng=127.1905133&dname=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5669532&lng=127.1905133&name=%EA%B1%B4%EA%B0%95%EB%B0%A5%EC%83%81%EC%8B%AC%EB%A7%88%EB%8B%88%20%ED%95%98%EB%82%A8%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1054654907",
-    "mobile_place": "https://m.place.naver.com/place/1054654907/home"
-   },
-   "drive": {
-    "min": 2.5,
-    "km": 1.35,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 17.5,
-    "km": 1.31,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "주차 가능",
-       "src": "kakao-info:260098451",
-       "date": null
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/pej8976/224295286684",
-      "title": "어버이날 가족끼리 식사한끼 * 건강밥상 심마니 하남점 * 능이오리백숙, 갈비찜",
-      "date": "2026.05.24.",
-      "days_ago": 125,
-      "author": "그레이진",
-      "chars": 596,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/barhama/224222782207",
-      "title": "하남 미사 야끼니꾸 맛집 규화, 데이트 코스로 완벽했던 규화카세 후기",
-      "date": "2026.03.19.",
-      "days_ago": 191,
-      "author": "라하이맘",
-      "chars": 1877,
-      "sponsored": false
-     }
-    ],
-    "youtube": [
-     {
-      "video_id": "-AuQn-pLMGE",
-      "link": "https://www.youtube.com/watch?v=-AuQn-pLMGE",
-      "t": null,
-      "quote": "4️⃣ 건강밥상심마니 하남점",
-      "where": "description"
-     }
-    ]
-   },
-   "scores": {
-    "total": 45.5,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 10,
-     "evidence": 22.5,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 10,
-     "source_count": 3,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 94,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2094664339",
@@ -9951,8 +10112,8 @@
     "x": 127.2014249,
     "y": 37.560866,
     "score": null,
-    "reviews": 5292,
-    "blog_reviews": 392,
+    "reviews": 6253,
+    "blog_reviews": 460,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -9961,6 +10122,7 @@
      "무선 인터넷",
      "남/녀 화장실 구분",
      "유아의자",
+     "간편결제",
      "주차"
     ],
     "phone": "0507-1360-5695"
@@ -9970,8 +10132,8 @@
     "kakao_id": "1430217124",
     "kakao_url": "http://place.map.kakao.com/1430217124",
     "kakao_road_address": "경기 하남시 미사강변한강로 341",
-    "rating": 3.2,
-    "review_count": 22,
+    "rating": 3.1,
+    "review_count": 28,
     "status": "Y",
     "dist_m": 0,
     "facility_icons": [],
@@ -9989,9 +10151,9 @@
     "phone": "031-791-6683"
    },
    "rating": {
-    "pooled": 4.0,
-    "bayes": 4.16,
-    "total_reviews": 5314,
+    "pooled": 3.9,
+    "bayes": 4.13,
+    "total_reviews": 6281,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -10117,17 +10279,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 45.3,
+    "total": 45.5,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 9.3,
+     "reputation": 9.5,
      "evidence": 18,
      "family_fit": 8,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 0,
-     "review_pts": 9.3,
+     "review_pts": 9.5,
      "source_count": 2,
      "mode_a": 3,
      "mode_b": 5,
@@ -10146,7 +10308,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2092840673",
@@ -10158,9 +10320,9 @@
     "road_address": "미사강변서로 16 지1층 RB156호",
     "x": 127.1846913,
     "y": 37.5517709,
-    "score": 4.97,
-    "reviews": 76,
-    "blog_reviews": 0,
+    "score": 4.98,
+    "reviews": 117,
+    "blog_reviews": 1,
     "status": "오늘 휴무",
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -10188,9 +10350,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.97,
-    "bayes": 4.75,
-    "total_reviews": 76,
+    "pooled": 4.98,
+    "bayes": 4.82,
+    "total_reviews": 117,
     "source": "네이버"
    },
    "nav": {
@@ -10233,6 +10395,123 @@
     "youtube": []
    },
    "scores": {
+    "total": 43.2,
+    "tier": "근거부족",
+    "breakdown": {
+     "reputation": 30.2,
+     "evidence": 0.0,
+     "family_fit": 3,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 25,
+     "review_pts": 5.2,
+     "source_count": 0,
+     "mode_a": 0,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "읽은 독립 출처 0 — 근거 수집 부족(품질 문제 아님), 추가 수집 필요",
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": null,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2017576235",
+   "name": "면24 하남미사점",
+   "kind": "restaurant",
+   "naver": {
+    "place_id": "2017576235",
+    "category": "국수",
+    "road_address": "미사강변대로34번길 100 109호",
+    "x": 127.1882786,
+    "y": 37.556843,
+    "score": 4.93,
+    "reviews": 73,
+    "blog_reviews": 2,
+    "status": "영업 중",
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "포장",
+     "배달",
+     "간편결제",
+     "주차"
+    ],
+    "phone": "0507-1348-8701"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "579649028",
+    "kakao_url": "http://place.map.kakao.com/579649028",
+    "kakao_road_address": "경기 하남시 미사강변대로34번길 100",
+    "rating": 5.0,
+    "review_count": 2,
+    "status": "Y",
+    "dist_m": 14,
+    "facility_icons": [],
+    "store_infos": [],
+    "headline": "영업 중",
+    "phone": "031-8027-9024"
+   },
+   "rating": {
+    "pooled": 4.93,
+    "bayes": 4.72,
+    "total_reviews": 75,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.556843&dlng=127.1882786&dname=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.556843&dlng=127.1882786&dname=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.556843&lng=127.1882786&name=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2017576235",
+    "mobile_place": "https://m.place.naver.com/place/2017576235/home"
+   },
+   "drive": {
+    "min": 3.0,
+    "km": 1.51,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 9.5,
+    "km": 0.71,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [],
+    "mode_b": {
+     "positive": [],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": true
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [],
+    "youtube": []
+   },
+   "scores": {
     "total": 42.7,
     "tier": "근거부족",
     "breakdown": {
@@ -10258,13 +10537,176 @@
    },
    "flags": [
     "읽은 독립 출처 0 — 근거 수집 부족(품질 문제 아님), 추가 수집 필요",
-    "카카오 교차검증 실패(확인 필요)",
     "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
+    "부드러운 음식 메뉴 있음"
    ],
    "plan_notes": [],
    "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-1268607672",
+   "name": "flos",
+   "kind": "cafe",
+   "naver": {
+    "place_id": "1268607672",
+    "category": "카페,디저트",
+    "road_address": "월호로 56",
+    "x": 127.2088551,
+    "y": 37.5541059,
+    "score": null,
+    "reviews": 877,
+    "blog_reviews": 14625,
+    "status": "영업 중",
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "단체 이용 가능",
+     "무선 인터넷",
+     "남/녀 화장실 구분",
+     "유아의자",
+     "주차",
+     "반려동물 동반"
+    ],
+    "phone": "031-792-3788"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": "1477444969",
+    "kakao_url": "http://place.map.kakao.com/1477444969",
+    "kakao_road_address": "경기 하남시 월호로 56",
+    "rating": null,
+    "review_count": null,
+    "status": "Y",
+    "dist_m": 4,
+    "facility_icons": [],
+    "store_infos": null,
+    "headline": null,
+    "phone": "031-792-3788"
+   },
+   "rating": {
+    "pooled": null,
+    "bayes": null,
+    "total_reviews": 877,
+    "source": null
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.5541059&dlng=127.2088551&dname=flos&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.5541059&dlng=127.2088551&dname=flos&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.5541059&lng=127.2088551&name=flos&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/1268607672",
+    "mobile_place": "https://m.place.naver.com/place/1268607672/home"
+   },
+   "drive": {
+    "min": 3.7,
+    "km": 2.74,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": {
+    "min": 26.5,
+    "km": 1.99,
+    "method": "OSM foot"
+   },
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "유아의자"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "워서 데이트 코스로도 완벽합니다. 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. 하남 플로스 파트 2",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/shorty_/224391209802",
+       "date": "2026.08.28."
+      },
+      {
+       "label": "주차",
+       "quote": "합니다. 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. 하남 플로스 파트 2 전화번호 0507-1389",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/shorty_/224391209802",
+       "date": "2026.08.28."
+      },
+      {
+       "label": "주차",
+       "quote": "이트 코스로도 완벽합니다. ​ ​ 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. ​ 하남 플로스 파트",
+       "src": "naver-blog:https://m.blog.naver.com/shorty_/224391209802",
+       "date": "2026.08.28."
+      },
+      {
+       "label": "주차",
+       "quote": "​ ​ 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. ​ 하남 플로스 파트 2 ​ 전화번호 0507-",
+       "src": "naver-blog:https://m.blog.naver.com/shorty_/224391209802",
+       "date": "2026.08.28."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "좌석 형태(입식/좌식)",
+      "층·계단·엘리베이터"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/joy3345/223995553984",
+      "title": "하남 대형 카페 추천 24시 플로스 FLOS 솔직후기",
+      "date": "2025.09.05.",
+      "days_ago": 386,
+      "author": "매력홍",
+      "chars": 2135,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/shorty_/224391209802",
+      "title": "하남 24시간 카페 심야 드라이브 코스 플로스 파트 2",
+      "date": "2026.08.28.",
+      "days_ago": 29,
+      "author": "팡예지",
+      "chars": 1147,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 41.4,
+    "tier": "근거부족",
+    "breakdown": {
+     "reputation": 7.4,
+     "evidence": 18,
+     "family_fit": 6,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 0,
+     "review_pts": 7.4,
+     "source_count": 2,
+     "mode_a": 3,
+     "mode_b": 3,
+     "bath_pts": 0,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "별점 없음(네이버·카카오 모두)",
+    "카카오 교차검증 실패(확인 필요)"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 84,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1491718614",
@@ -10277,8 +10719,8 @@
     "x": 127.2363594,
     "y": 37.5564136,
     "score": null,
-    "reviews": 5482,
-    "blog_reviews": 3163,
+    "reviews": 5500,
+    "blog_reviews": 3274,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -10298,7 +10740,7 @@
     "kakao_url": "http://place.map.kakao.com/1950002781",
     "kakao_road_address": "경기 남양주시 와부읍 경강로926번길 8-7",
     "rating": 3.3,
-    "review_count": 135,
+    "review_count": 136,
     "status": "Y",
     "dist_m": 6,
     "facility_icons": [
@@ -10321,7 +10763,7 @@
    "rating": {
     "pooled": 4.1,
     "bayes": 4.14,
-    "total_reviews": 5617,
+    "total_reviews": 5636,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -10498,7 +10940,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 5,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-35720246",
@@ -10511,8 +10953,8 @@
     "x": 127.1930366,
     "y": 37.5509999,
     "score": null,
-    "reviews": 4947,
-    "blog_reviews": 476,
+    "reviews": 5192,
+    "blog_reviews": 495,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -10556,7 +10998,7 @@
    "rating": {
     "pooled": null,
     "bayes": null,
-    "total_reviews": 4947,
+    "total_reviews": 5192,
     "source": null
    },
    "nav": {
@@ -10643,17 +11085,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 40.2,
+    "total": 40.3,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 9.2,
+     "reputation": 9.3,
      "evidence": 17,
      "family_fit": 4,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 0,
-     "review_pts": 9.2,
+     "review_pts": 9.3,
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 4,
@@ -10670,438 +11112,8 @@
     "별점 없음(네이버·카카오 모두)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 234,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-1207307033",
-   "name": "진대감 하남미사점",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "1207307033",
-    "category": "소고기구이",
-    "road_address": "미사강변중앙로 185",
-    "x": 127.1898217,
-    "y": 37.5629356,
-    "score": null,
-    "reviews": 1327,
-    "blog_reviews": 11250,
-    "status": "영업 중",
-    "new_open": false,
-    "new_open_since": null,
-    "conveniences": [
-     "단체 이용 가능",
-     "예약",
-     "남/녀 화장실 구분",
-     "무선 인터넷",
-     "반려동물 동반",
-     "주차"
-    ],
-    "phone": "0507-1393-3969"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "71780498",
-    "kakao_url": "http://place.map.kakao.com/71780498",
-    "kakao_road_address": "경기 하남시 미사강변중앙로 185",
-    "rating": null,
-    "review_count": null,
-    "status": "Y",
-    "dist_m": 1,
-    "facility_icons": [
-     "반려견동반",
-     "예약가능"
-    ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "건물 지하 1층부터 3층까지 주차 가능, 지하주차장 2시간 무료 이용 가능"
-     },
-     {
-      "title": "기타",
-      "summary": "화장실 남녀분리"
-     }
-    ],
-    "headline": "영업 중",
-    "phone": "0507-1393-3969"
-   },
-   "rating": {
-    "pooled": null,
-    "bayes": null,
-    "total_reviews": 1327,
-    "source": null
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5629356&dlng=127.1898217&dname=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5629356&dlng=127.1898217&dname=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5629356&lng=127.1898217&name=%EC%A7%84%EB%8C%80%EA%B0%90%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1207307033",
-    "mobile_place": "https://m.place.naver.com/place/1207307033/home"
-   },
-   "drive": {
-    "min": 1.6,
-    "km": 0.7,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 10.7,
-    "km": 0.8,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "건물 지하 1층부터 3층까지 주차 가능, 지하주차장 2시간 무료 이용 가능",
-       "src": "kakao-info:71780498",
-       "date": null
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/fn6jsnrn/224418633867",
-      "title": "진대감 하남미사점, 차돌삼합이 선사하는 미식의 즐거움",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "포근한포크",
-      "chars": 1892,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/yearnyou12/224421610391",
-      "title": "발길이 닿아 우연히 들어가 본 미사맛집 진대감 하남미사점",
-      "date": "3시간 전",
-      "days_ago": 0,
-      "author": "yearnyou12",
-      "chars": 1492,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 38.8,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 7.8,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 7.8,
-     "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "별점 없음(네이버·카카오 모두)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-1268607672",
-   "name": "flos",
-   "kind": "cafe",
-   "naver": {
-    "place_id": "1268607672",
-    "category": "카페,디저트",
-    "road_address": "월호로 56",
-    "x": 127.2088551,
-    "y": 37.5541059,
-    "score": null,
-    "reviews": 837,
-    "blog_reviews": 14632,
-    "status": "영업 중",
-    "new_open": false,
-    "new_open_since": null,
-    "conveniences": [
-     "단체 이용 가능",
-     "주차",
-     "무선 인터넷",
-     "남/녀 화장실 구분"
-    ],
-    "phone": "031-792-3788"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": "1477444969",
-    "kakao_url": "http://place.map.kakao.com/1477444969",
-    "kakao_road_address": "경기 하남시 월호로 56",
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": 4,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": "031-792-3788"
-   },
-   "rating": {
-    "pooled": null,
-    "bayes": null,
-    "total_reviews": 837,
-    "source": null
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.5541059&dlng=127.2088551&dname=flos&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.5541059&dlng=127.2088551&dname=flos&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.5541059&lng=127.2088551&name=flos&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/1268607672",
-    "mobile_place": "https://m.place.naver.com/place/1268607672/home"
-   },
-   "drive": {
-    "min": 3.7,
-    "km": 2.74,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 26.5,
-    "km": 1.99,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "주차",
-       "quote": "워서 데이트 코스로도 완벽합니다. 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. 하남 플로스 파트 2",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/shorty_/224391209802",
-       "date": "2026.08.28."
-      },
-      {
-       "label": "주차",
-       "quote": "합니다. 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. 하남 플로스 파트 2 전화번호 0507-1389",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/shorty_/224391209802",
-       "date": "2026.08.28."
-      },
-      {
-       "label": "주차",
-       "quote": "이트 코스로도 완벽합니다. ​ ​ 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. ​ 하남 플로스 파트",
-       "src": "naver-blog:https://m.blog.naver.com/shorty_/224391209802",
-       "date": "2026.08.28."
-      },
-      {
-       "label": "주차",
-       "quote": "​ ​ 플로스 파트 2 카페 앞이 바로 주차장입니다. 주차공간이 생각보다 커서 주차 걱정은 없습니다. 모임하기에도 좋음. ​ 하남 플로스 파트 2 ​ 전화번호 0507-",
-       "src": "naver-blog:https://m.blog.naver.com/shorty_/224391209802",
-       "date": "2026.08.28."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/joy3345/223995553984",
-      "title": "하남 대형 카페 추천 24시 플로스 FLOS 솔직후기",
-      "date": "2025.09.05.",
-      "days_ago": 386,
-      "author": "매력홍",
-      "chars": 2135,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/shorty_/224391209802",
-      "title": "하남 24시간 카페 심야 드라이브 코스 플로스 파트 2",
-      "date": "2026.08.28.",
-      "days_ago": 29,
-      "author": "팡예지",
-      "chars": 1147,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 38.3,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 7.3,
-     "evidence": 18,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 0,
-     "review_pts": 7.3,
-     "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "별점 없음(네이버·카카오 모두)",
-    "카카오 교차검증 실패(확인 필요)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 29,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2017576235",
-   "name": "면24 하남미사점",
-   "kind": "restaurant",
-   "naver": {
-    "place_id": "2017576235",
-    "category": "국수",
-    "road_address": "미사강변대로34번길 100 109호",
-    "x": 127.1882786,
-    "y": 37.556843,
-    "score": 4.93,
-    "reviews": 36,
-    "blog_reviews": 0,
-    "status": "영업 중",
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "포장",
-     "배달",
-     "간편결제",
-     "주차"
-    ],
-    "phone": "0507-1348-8701"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "579649028",
-    "kakao_url": "http://place.map.kakao.com/579649028",
-    "kakao_road_address": "경기 하남시 미사강변대로34번길 100",
-    "rating": 0.0,
-    "review_count": 0,
-    "status": "Y",
-    "dist_m": 14,
-    "facility_icons": [],
-    "store_infos": [],
-    "headline": "영업 중",
-    "phone": "031-8027-9024"
-   },
-   "rating": {
-    "pooled": 4.93,
-    "bayes": 4.6,
-    "total_reviews": 36,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.556843&dlng=127.1882786&dname=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.556843&dlng=127.1882786&dname=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.556843&lng=127.1882786&name=%EB%A9%B424%20%ED%95%98%EB%82%A8%EB%AF%B8%EC%82%AC%EC%A0%90&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2017576235",
-    "mobile_place": "https://m.place.naver.com/place/2017576235/home"
-   },
-   "drive": {
-    "min": 3.0,
-    "km": 1.51,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": {
-    "min": 9.5,
-    "km": 0.71,
-    "method": "OSM foot"
-   },
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "좌석 형태(입식/좌식)",
-      "층·계단·엘리베이터"
-     ],
-     "soft_food": true
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [],
-    "youtube": []
-   },
-   "scores": {
-    "total": 36.9,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 23.9,
-     "evidence": 0.0,
-     "family_fit": 3,
-     "practicality": 10
-    },
-    "detail": {
-     "rating_pts": 20,
-     "review_pts": 3.9,
-     "source_count": 0,
-     "mode_a": 0,
-     "mode_b": 3,
-     "bath_pts": 0,
-     "drive_pts": 8,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "읽은 독립 출처 0 — 근거 수집 부족(품질 문제 아님), 추가 수집 필요",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요",
-    "부드러운 음식 메뉴 있음"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 289,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2074444187",
@@ -11114,7 +11126,7 @@
     "x": 127.1899641,
     "y": 37.5625865,
     "score": 5,
-    "reviews": 23,
+    "reviews": 40,
     "blog_reviews": 0,
     "status": "영업 중",
     "new_open": true,
@@ -11134,7 +11146,7 @@
     "kakao_url": "http://place.map.kakao.com/1991664341",
     "kakao_road_address": "경기 하남시 미사강변중앙로 181",
     "rating": 5.0,
-    "review_count": 1,
+    "review_count": 2,
     "status": "Y",
     "dist_m": 0,
     "facility_icons": [],
@@ -11144,8 +11156,8 @@
    },
    "rating": {
     "pooled": 5,
-    "bayes": 4.55,
-    "total_reviews": 24,
+    "bayes": 4.66,
+    "total_reviews": 42,
     "source": "네이버"
    },
    "nav": {
@@ -11188,17 +11200,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 36.5,
+    "total": 37.1,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 23.5,
+     "reputation": 24.1,
      "evidence": 0.0,
      "family_fit": 3,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 20,
-     "review_pts": 3.5,
+     "review_pts": 4.1,
      "source_count": 0,
      "mode_a": 0,
      "mode_b": 3,
@@ -11218,7 +11230,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": null,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1384451031",
@@ -11231,8 +11243,8 @@
     "x": 127.1696676,
     "y": 37.5858914,
     "score": null,
-    "reviews": 5094,
-    "blog_reviews": 608,
+    "reviews": 5102,
+    "blog_reviews": 620,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -11251,7 +11263,7 @@
     "kakao_url": "http://place.map.kakao.com/801136188",
     "kakao_road_address": "경기 남양주시 강변북로632번길 6-15",
     "rating": 2.6,
-    "review_count": 57,
+    "review_count": 59,
     "status": "Y",
     "dist_m": 1,
     "facility_icons": [
@@ -11273,8 +11285,8 @@
    },
    "rating": {
     "pooled": 3.4,
-    "bayes": 3.91,
-    "total_reviews": 5151,
+    "bayes": 3.9,
+    "total_reviews": 5161,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -11413,8 +11425,8 @@
     "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 88,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 143,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1469586789",
@@ -11427,8 +11439,8 @@
     "x": 127.1996908,
     "y": 37.5635547,
     "score": null,
-    "reviews": 2763,
-    "blog_reviews": 4560,
+    "reviews": 2744,
+    "blog_reviews": 4559,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -11442,8 +11454,8 @@
     "kakao_id": "967998007",
     "kakao_url": "http://place.map.kakao.com/967998007",
     "kakao_road_address": "경기 하남시 미사대로 456",
-    "rating": 2.5,
-    "review_count": 99,
+    "rating": 2.4,
+    "review_count": 100,
     "status": "Y",
     "dist_m": 0,
     "facility_icons": [
@@ -11464,9 +11476,9 @@
     "phone": "031-796-8123"
    },
    "rating": {
-    "pooled": 3.3,
-    "bayes": 3.75,
-    "total_reviews": 2862,
+    "pooled": 3.2,
+    "bayes": 3.7,
+    "total_reviews": 2844,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -11600,7 +11612,7 @@
     "gates": {
      "pass": false,
      "failed": [
-      "별점(카카오(+0.8 보정)) 3.30 < 4.0"
+      "별점(카카오(+0.8 보정)) 3.20 < 4.0"
      ]
     }
    },
@@ -11608,8 +11620,8 @@
     "네이버 별점 없음 → 카카오(+0.8 보정), 기준 4.0로 완화"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 134,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 189,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1339025515",
@@ -11622,8 +11634,8 @@
     "x": 127.203493,
     "y": 37.5678576,
     "score": null,
-    "reviews": 4452,
-    "blog_reviews": 1166,
+    "reviews": 4515,
+    "blog_reviews": 1190,
     "status": "영업 중",
     "new_open": false,
     "new_open_since": null,
@@ -11643,7 +11655,7 @@
     "kakao_url": "http://place.map.kakao.com/576775340",
     "kakao_road_address": "경기 하남시 미사동로40번길 74",
     "rating": 2.1,
-    "review_count": 88,
+    "review_count": 89,
     "status": "Y",
     "dist_m": 2,
     "facility_icons": [
@@ -11667,7 +11679,7 @@
    "rating": {
     "pooled": 2.9,
     "bayes": 3.59,
-    "total_reviews": 4540,
+    "total_reviews": 4604,
     "source": "카카오(+0.8 보정)"
    },
    "nav": {
@@ -11800,17 +11812,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 41.1,
+    "total": 41.2,
     "tier": "제외",
     "breakdown": {
-     "reputation": 9.1,
+     "reputation": 9.2,
      "evidence": 18,
      "family_fit": 4,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 0,
-     "review_pts": 9.1,
+     "review_pts": 9.2,
      "source_count": 2,
      "mode_a": 0,
      "mode_b": 4,
@@ -11830,7 +11842,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   }
  ]
 }

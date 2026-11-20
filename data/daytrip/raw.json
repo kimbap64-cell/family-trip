@@ -15,9 +15,9 @@
     "x": 127.2013221,
     "y": 37.2933272,
     "phone": "031-320-5000",
-    "visitor_review_count": 68132,
+    "visitor_review_count": 68342,
     "visitor_review_score": 4.56,
-    "blog_review_count": 57761,
+    "blog_review_count": 59806,
     "business_status": "영업 중",
     "business_desc": "22:00에 영업 종료",
     "min_price": null,
@@ -292,38 +292,38 @@
     "micro_reviews": null,
     "menus": [
      {
-      "name": "종일권_10/6~/31_소인/경로",
-      "price": "61000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "종일권_10/6~/31_대인/청소년",
+      "name": "10월 종일권 (대인/청소년)",
       "price": "71000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "종일권_10월5일까지_소인/경로",
-      "price": "58000",
+      "name": "10월 종일권 (소인/경로)",
+      "price": "61000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "종일권_10월5일까지_대인/청소년",
-      "price": "68000",
+      "name": "11월 종일권 (대인/청소년)",
+      "price": "65000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "종일권_9월_소인/경로",
-      "price": "52000",
+      "name": "11월 종일권 (소인/경로)",
+      "price": "55000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "종일권_9월_대인/청소년",
-      "price": "62000",
+      "name": "365스탠다드 정기권 (신규 대인)",
+      "price": "300000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "365스탠다드 정기권 (신규 소인)",
+      "price": "240000",
       "description": "",
       "recommend": false
      }
@@ -374,7 +374,7 @@
     "y": 37.293101115700345,
     "status": "Y",
     "rating": 4.4,
-    "review_count": 1230,
+    "review_count": 1271,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -425,9 +425,9 @@
     "x": 127.0190443,
     "y": 37.4338452,
     "phone": "02-509-6000",
-    "visitor_review_count": 23275,
-    "visitor_review_score": 4.46,
-    "blog_review_count": 17231,
+    "visitor_review_count": 23391,
+    "visitor_review_score": 4.47,
+    "blog_review_count": 18086,
     "business_status": "영업 중",
     "business_desc": "22:00에 영업 종료",
     "min_price": null,
@@ -691,7 +691,7 @@
     "y": 37.43390283191043,
     "status": "Y",
     "rating": 4.4,
-    "review_count": 472,
+    "review_count": 480,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -750,9 +750,9 @@
     "x": 127.2236163,
     "y": 37.5436277,
     "phone": "0507-1471-2010",
-    "visitor_review_count": 25789,
-    "visitor_review_score": 4.57,
-    "blog_review_count": 3137,
+    "visitor_review_count": 26904,
+    "visitor_review_score": 4.6,
+    "blog_review_count": 3211,
     "business_status": "운영 중",
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
@@ -1073,7 +1073,7 @@
     "y": 37.543628149745594,
     "status": "Y",
     "rating": 4.3,
-    "review_count": 162,
+    "review_count": 163,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -1134,9 +1134,9 @@
     "x": 127.542352,
     "y": 37.8324653,
     "phone": "033-260-8300",
-    "visitor_review_count": 25106,
+    "visitor_review_count": 25185,
     "visitor_review_score": 4.34,
-    "blog_review_count": 5937,
+    "blog_review_count": 6103,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -1349,7 +1349,7 @@
     "y": 37.83274730890742,
     "status": "Y",
     "rating": 3.9,
-    "review_count": 179,
+    "review_count": 183,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -1405,9 +1405,9 @@
     "x": 126.7555543,
     "y": 37.663938,
     "phone": "1833-7001",
-    "visitor_review_count": 19657,
+    "visitor_review_count": 19714,
     "visitor_review_score": 4.37,
-    "blog_review_count": 8080,
+    "blog_review_count": 8293,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -1629,7 +1629,7 @@
     "y": 37.6637875549962,
     "status": "Y",
     "rating": 4.0,
-    "review_count": 164,
+    "review_count": 168,
     "headline": "운영 중",
     "facility_icons": [
      "예약가능"
@@ -1694,9 +1694,9 @@
     "x": 127.4970632,
     "y": 37.5290899,
     "phone": "0507-1419-2210",
-    "visitor_review_count": 22501,
+    "visitor_review_count": 23042,
     "visitor_review_score": 4.63,
-    "blog_review_count": 3697,
+    "blog_review_count": 3823,
     "business_status": "운영 중",
     "business_desc": "18:30에 운영 종료",
     "min_price": null,
@@ -1894,7 +1894,7 @@
     "y": 37.52857816860982,
     "status": "Y",
     "rating": 4.3,
-    "review_count": 126,
+    "review_count": 128,
     "headline": "영업 중",
     "facility_icons": [
      "반려견동반",
@@ -1961,9 +1961,9 @@
     "x": 127.2894272,
     "y": 37.340776,
     "phone": "0507-1344-6669",
-    "visitor_review_count": 11137,
-    "visitor_review_score": 4.49,
-    "blog_review_count": 28390,
+    "visitor_review_count": 11202,
+    "visitor_review_score": 4.5,
+    "blog_review_count": 31428,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -2259,10 +2259,11 @@
     "x": 127.2891631211494,
     "y": 37.341367238805475,
     "status": "Y",
-    "rating": 4.1,
-    "review_count": 484,
+    "rating": 4.2,
+    "review_count": 547,
     "headline": "영업 중",
     "facility_icons": [
+     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -2315,9 +2316,9 @@
     "x": 127.49058,
     "y": 37.715629,
     "phone": "031-584-8200",
-    "visitor_review_count": 13276,
+    "visitor_review_count": 13428,
     "visitor_review_score": 4.18,
-    "blog_review_count": 6411,
+    "blog_review_count": 6580,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -2508,7 +2509,7 @@
     "y": 37.71499518010759,
     "status": "Y",
     "rating": 3.1,
-    "review_count": 143,
+    "review_count": 144,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -2557,9 +2558,9 @@
     "x": 127.1333352,
     "y": 37.9672025,
     "phone": "031-535-6494",
-    "visitor_review_count": 11602,
+    "visitor_review_count": 11694,
     "visitor_review_score": 4.24,
-    "blog_review_count": 8260,
+    "blog_review_count": 8502,
     "business_status": "운영 중",
     "business_desc": "22:00에 운영 종료",
     "min_price": null,
@@ -2828,8 +2829,8 @@
     "x": 127.1316718675441,
     "y": 37.965389078779694,
     "status": "Y",
-    "rating": 2.9,
-    "review_count": 217,
+    "rating": 2.8,
+    "review_count": 222,
     "headline": "영업 중",
     "facility_icons": [
      "반려견동반",
@@ -2878,9 +2879,9 @@
     "x": 127.352525,
     "y": 37.7427259,
     "phone": "1544-6703",
-    "visitor_review_count": 10172,
+    "visitor_review_count": 10186,
     "visitor_review_score": 4.43,
-    "blog_review_count": 15418,
+    "blog_review_count": 15871,
     "business_status": "운영 중",
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
@@ -3208,7 +3209,7 @@
     "y": 37.74300402014755,
     "status": "Y",
     "rating": 4.2,
-    "review_count": 356,
+    "review_count": 365,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -3268,9 +3269,9 @@
     "x": 126.9043973,
     "y": 37.5170771,
     "phone": "0507-1350-2406",
-    "visitor_review_count": 16305,
-    "visitor_review_score": 4.53,
-    "blog_review_count": 3368,
+    "visitor_review_count": 17152,
+    "visitor_review_score": 4.57,
+    "blog_review_count": 3466,
     "business_status": "운영 중",
     "business_desc": "20:30에 운영 종료",
     "min_price": null,
@@ -3593,7 +3594,7 @@
     "y": 37.51711057944,
     "status": "Y",
     "rating": 4.1,
-    "review_count": 184,
+    "review_count": 190,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -3653,9 +3654,9 @@
     "x": 127.3021333,
     "y": 37.1795499,
     "phone": "0507-1305-8751",
-    "visitor_review_count": 15854,
-    "visitor_review_score": 4.75,
-    "blog_review_count": 1079,
+    "visitor_review_count": 15893,
+    "visitor_review_score": 4.76,
+    "blog_review_count": 1087,
     "business_status": "운영 중",
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
@@ -3876,7 +3877,6 @@
      "주차"
     ],
     "payment": [
-     "지역화폐 (지류형)",
      "지역화폐 (카드형)",
      "지역화폐 (모바일형)"
     ],
@@ -4011,9 +4011,9 @@
     "x": 127.0198465,
     "y": 37.4264494,
     "phone": "02-500-7335",
-    "visitor_review_count": 10662,
+    "visitor_review_count": 10752,
     "visitor_review_score": 4.44,
-    "blog_review_count": 13527,
+    "blog_review_count": 14235,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -4367,9 +4367,9 @@
     "x": 126.8754409,
     "y": 37.8005109,
     "phone": "0507-1421-2022",
-    "visitor_review_count": 13636,
+    "visitor_review_count": 13670,
     "visitor_review_score": 4.35,
-    "blog_review_count": 6373,
+    "blog_review_count": 6571,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -4611,6 +4611,12 @@
       "price": "0",
       "description": "",
       "recommend": false
+     },
+     {
+      "name": "파주시민",
+      "price": "7000",
+      "description": "",
+      "recommend": false
      }
     ],
     "missing_info": {
@@ -4658,8 +4664,8 @@
     "x": 126.87425849188982,
     "y": 37.800770043447734,
     "status": "Y",
-    "rating": 3.2,
-    "review_count": 158,
+    "rating": 3.1,
+    "review_count": 163,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -4720,9 +4726,9 @@
     "x": 126.8013856,
     "y": 37.7795341,
     "phone": "0507-1381-8456",
-    "visitor_review_count": 13175,
-    "visitor_review_score": 4.76,
-    "blog_review_count": 3763,
+    "visitor_review_count": 13910,
+    "visitor_review_score": 4.79,
+    "blog_review_count": 3828,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -4862,9 +4868,9 @@
     "x": 127.3379533,
     "y": 37.2314807,
     "phone": "0507-1304-5029",
-    "visitor_review_count": 13278,
+    "visitor_review_count": 13292,
     "visitor_review_score": 4.41,
-    "blog_review_count": 2163,
+    "blog_review_count": 2225,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -5185,9 +5191,10 @@
     "y": 37.232318440296964,
     "status": "Y",
     "rating": 3.3,
-    "review_count": 53,
+    "review_count": 54,
     "headline": "영업 중",
     "facility_icons": [
+     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -5236,9 +5243,9 @@
     "x": 126.8350312,
     "y": 37.5694189,
     "phone": "02-2104-9716",
-    "visitor_review_count": 9560,
+    "visitor_review_count": 9572,
     "visitor_review_score": 4.48,
-    "blog_review_count": 24753,
+    "blog_review_count": 25496,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -5509,9 +5516,11 @@
     "y": 37.5693958477101,
     "status": "Y",
     "rating": 4.4,
-    "review_count": 677,
+    "review_count": 688,
     "headline": "영업 중",
-    "facility_icons": [],
+    "facility_icons": [
+     "예약가능"
+    ],
     "store_infos": [
      {
       "title": "주차",
@@ -5576,9 +5585,9 @@
     "x": 127.322095,
     "y": 37.5387311,
     "phone": "031-775-1835",
-    "visitor_review_count": 7751,
+    "visitor_review_count": 7760,
     "visitor_review_score": 4.32,
-    "blog_review_count": 8048,
+    "blog_review_count": 8258,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -5760,8 +5769,8 @@
     "x": 127.32396113333422,
     "y": 37.540938476636036,
     "status": "Y",
-    "rating": 3.8,
-    "review_count": 153,
+    "rating": 3.9,
+    "review_count": 152,
     "headline": "영업 중",
     "facility_icons": [],
     "store_infos": [
@@ -5821,9 +5830,9 @@
     "x": 127.1051005,
     "y": 37.1665187,
     "phone": "0507-1362-2068",
-    "visitor_review_count": 11132,
-    "visitor_review_score": 4.82,
-    "blog_review_count": 2126,
+    "visitor_review_count": 11863,
+    "visitor_review_score": 4.84,
+    "blog_review_count": 2202,
     "business_status": "운영 중",
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
@@ -6170,7 +6179,7 @@
     "y": 37.1668903832955,
     "status": "Y",
     "rating": 4.1,
-    "review_count": 142,
+    "review_count": 145,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -6219,9 +6228,9 @@
     "x": 127.0988395,
     "y": 37.6503945,
     "phone": "0507-1344-3252",
-    "visitor_review_count": 7595,
-    "visitor_review_score": 4.17,
-    "blog_review_count": 2376,
+    "visitor_review_count": 7647,
+    "visitor_review_score": 4.18,
+    "blog_review_count": 2452,
     "business_status": "운영 중",
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
@@ -6453,9 +6462,9 @@
     "x": 126.7811119,
     "y": 37.3909834,
     "phone": "031-488-6900",
-    "visitor_review_count": 2988,
-    "visitor_review_score": 4.3,
-    "blog_review_count": 9828,
+    "visitor_review_count": 3013,
+    "visitor_review_score": 4.32,
+    "blog_review_count": 10252,
     "business_status": "24시간 운영",
     "business_desc": "연중무휴",
     "min_price": null,
@@ -6777,7 +6786,7 @@
     "y": 37.3906904238162,
     "status": "Y",
     "rating": 4.4,
-    "review_count": 169,
+    "review_count": 182,
     "headline": null,
     "facility_icons": [
      "반려견동반",
@@ -6831,9 +6840,9 @@
     "x": 127.1367976,
     "y": 37.574801,
     "phone": "031-550-3789",
-    "visitor_review_count": 3222,
+    "visitor_review_count": 3255,
     "visitor_review_score": 4.31,
-    "blog_review_count": 5721,
+    "blog_review_count": 6228,
     "business_status": "24시간 운영",
     "business_desc": "연중무휴",
     "min_price": null,
@@ -6978,9 +6987,11 @@
     "y": 37.5756256414086,
     "status": "Y",
     "rating": 4.3,
-    "review_count": 45,
+    "review_count": 50,
     "headline": null,
-    "facility_icons": [],
+    "facility_icons": [
+     "반려견동반"
+    ],
     "store_infos": [
      {
       "title": "주차",
@@ -7026,9 +7037,9 @@
     "x": 127.1624865,
     "y": 37.7527189,
     "phone": "031-540-2000",
-    "visitor_review_count": 8802,
-    "visitor_review_score": 4.55,
-    "blog_review_count": 6611,
+    "visitor_review_count": 9008,
+    "visitor_review_score": 4.58,
+    "blog_review_count": 6999,
     "business_status": "오늘 휴무",
     "business_desc": "추석 연휴 휴무",
     "min_price": null,
@@ -7255,7 +7266,7 @@
     "y": 37.75139222602178,
     "status": "Y",
     "rating": 4.5,
-    "review_count": 209,
+    "review_count": 213,
     "headline": "휴무일",
     "facility_icons": [
      "예약가능"
@@ -7311,9 +7322,9 @@
     "x": 126.6406007,
     "y": 37.3913127,
     "phone": null,
-    "visitor_review_count": 2021,
+    "visitor_review_count": 2037,
     "visitor_review_score": 4.39,
-    "blog_review_count": 10613,
+    "blog_review_count": 10865,
     "business_status": null,
     "business_desc": null,
     "min_price": null,
@@ -7417,7 +7428,7 @@
     "y": 37.393063959939425,
     "status": "Y",
     "rating": 4.6,
-    "review_count": 300,
+    "review_count": 302,
     "headline": null,
     "facility_icons": [
      "반려견동반",
@@ -7490,9 +7501,9 @@
     "x": 126.7488999,
     "y": 37.4231681,
     "phone": "0507-1339-8118",
-    "visitor_review_count": 8279,
-    "visitor_review_score": 4.92,
-    "blog_review_count": 2265,
+    "visitor_review_count": 8652,
+    "visitor_review_score": 4.93,
+    "blog_review_count": 2478,
     "business_status": "운영 중",
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
@@ -7710,32 +7721,32 @@
     "micro_reviews": null,
     "menus": [
      {
-      "name": "평일_패키지(현장 구매만 가능)",
-      "price": "25900~29900",
+      "name": "[주말오픈런] 11시전 입장권",
+      "price": "10000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "휴일_성인입장료",
-      "price": "13000",
+      "name": "[고객감사제] 1인입장권",
+      "price": "12900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "휴일_어린이입장료(14세미만)",
-      "price": "17000",
+      "name": "온가족패키지(4인+먹이5종세트2개)",
+      "price": "59900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "평일_성인입장료",
-      "price": "12000",
+      "name": "먹이체험3종세트",
+      "price": "4900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "평일_어린이입장료(14세미만)",
-      "price": "15000",
+      "name": "먹이체험5종세트",
+      "price": "5900",
       "description": "",
       "recommend": false
      },
@@ -7747,7 +7758,7 @@
      },
      {
       "name": "단체 할인가(어린이집,유치원,학원)",
-      "price": "",
+      "price": "12000",
       "description": "",
       "recommend": false
      }
@@ -7797,8 +7808,8 @@
     "x": 126.748805864188,
     "y": 37.4232036575842,
     "status": "Y",
-    "rating": 3.6,
-    "review_count": 17,
+    "rating": 4.3,
+    "review_count": 34,
     "headline": "영업 중",
     "facility_icons": [
      "예약가능"
@@ -7845,9 +7856,9 @@
     "x": 127.2101284,
     "y": 37.5598353,
     "phone": "031-790-8881",
-    "visitor_review_count": 4068,
+    "visitor_review_count": 4092,
     "visitor_review_score": 4.42,
-    "blog_review_count": 5741,
+    "blog_review_count": 6265,
     "business_status": "운영 중",
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
@@ -7994,10 +8005,12 @@
     "x": 127.207022766767,
     "y": 37.5593159285618,
     "status": "Y",
-    "rating": 4.2,
-    "review_count": 95,
+    "rating": 4.3,
+    "review_count": 99,
     "headline": "영업 중",
-    "facility_icons": [],
+    "facility_icons": [
+     "반려견동반"
+    ],
     "store_infos": [
      {
       "title": "주차",
@@ -8055,9 +8068,9 @@
     "x": 126.8892697,
     "y": 37.3106786,
     "phone": "031-437-2525",
-    "visitor_review_count": 7160,
+    "visitor_review_count": 7319,
     "visitor_review_score": 4.42,
-    "blog_review_count": 1333,
+    "blog_review_count": 1376,
     "business_status": "운영 중",
     "business_desc": "21:00에 운영 종료",
     "min_price": null,
@@ -8251,9 +8264,10 @@
     "y": 37.310678699261,
     "status": "Y",
     "rating": 3.8,
-    "review_count": 56,
+    "review_count": 58,
     "headline": "휴무일",
     "facility_icons": [
+     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -8301,9 +8315,9 @@
     "x": 127.3152347,
     "y": 37.5567498,
     "phone": null,
-    "visitor_review_count": 416,
-    "visitor_review_score": 4.34,
-    "blog_review_count": 8418,
+    "visitor_review_count": 433,
+    "visitor_review_score": 4.39,
+    "blog_review_count": 8843,
     "business_status": null,
     "business_desc": null,
     "min_price": null,
@@ -8465,11 +8479,11 @@
     "y": 37.5568535870821,
     "status": "Y",
     "rating": 4.3,
-    "review_count": 178,
+    "review_count": 183,
     "headline": null,
     "facility_icons": [
-     "반려견동반",
-     "예약가능"
+     "주차가능",
+     "반려견동반"
     ],
     "store_infos": [
      {
@@ -8528,9 +8542,9 @@
     "x": 127.4074938,
     "y": 37.0945874,
     "phone": "031-333-3558",
-    "visitor_review_count": 1018,
-    "visitor_review_score": 4.08,
-    "blog_review_count": 2021,
+    "visitor_review_count": 1023,
+    "visitor_review_score": 4.06,
+    "blog_review_count": 2078,
     "business_status": null,
     "business_desc": null,
     "min_price": null,
@@ -8702,7 +8716,7 @@
     "y": 37.0945704852504,
     "status": "Y",
     "rating": 2.8,
-    "review_count": 71,
+    "review_count": 73,
     "headline": "영업 정보",
     "facility_icons": [],
     "store_infos": [
@@ -8763,9 +8777,9 @@
     "x": 127.3345887,
     "y": 37.197332,
     "phone": "0507-1381-8221",
-    "visitor_review_count": 6468,
-    "visitor_review_score": 4.78,
-    "blog_review_count": 1985,
+    "visitor_review_count": 6614,
+    "visitor_review_score": 4.81,
+    "blog_review_count": 2089,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -9038,67 +9052,61 @@
     "micro_reviews": null,
     "menus": [
      {
-      "name": "추석 연휴 조부모님 무료 *공지참고",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "1인 입장권 (18개월 이상 동일)",
-      "price": "11000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "18개월 미만",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
       "name": "단체 기관 및 어린이집 별도 문의",
       "price": "",
       "description": "",
       "recommend": false
      },
      {
-      "name": "⭐️예약제 아닙니다 예약없이방문가능!",
-      "price": "",
+      "name": "보호자 (웰컴 드링크 포함🍹)",
+      "price": "9900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "⭐️이용시간 제한 없습니다.",
-      "price": "",
+      "name": "어린이 (18개월 이상 모두 동일)",
+      "price": "12900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "⭐️외부 음식 반입 가능합니다.",
-      "price": "",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "동물 먹이주기 체험",
-      "price": "",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "농작물 수확 체험",
-      "price": "5000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "미꾸라지 잡기 체험",
+      "name": "18개월 미만 무료 (단체 미적용)",
       "price": "0",
       "description": "",
       "recommend": false
      },
      {
-      "name": "반려동물(리드줄 필수)",
+      "name": "🍓예약제 아닙니다 예약없이방문가능!",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🍓이용시간 제한 없습니다.",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🐰동물 먹이주기 체험",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🍠고구마 수확 체험",
+      "price": "5000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🎣미꾸라지 잡기 체험",
+      "price": "0",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🐶반려동물(리드줄 필수)",
       "price": "0",
       "description": "",
       "recommend": false
@@ -9196,9 +9204,9 @@
     "x": 127.0570465,
     "y": 37.1664666,
     "phone": "0507-1398-1456",
-    "visitor_review_count": 3131,
+    "visitor_review_count": 3157,
     "visitor_review_score": 4.45,
-    "blog_review_count": 2705,
+    "blog_review_count": 3029,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -9331,7 +9339,7 @@
     "y": 37.1663085028355,
     "status": "Y",
     "rating": 4.3,
-    "review_count": 184,
+    "review_count": 186,
     "headline": "영업 전",
     "facility_icons": [
      "예약가능"
@@ -9395,9 +9403,9 @@
     "x": 127.3158958,
     "y": 37.5334334,
     "phone": "031-775-8700",
-    "visitor_review_count": 1289,
-    "visitor_review_score": 4.16,
-    "blog_review_count": 21116,
+    "visitor_review_count": 1298,
+    "visitor_review_score": 4.17,
+    "blog_review_count": 21675,
     "business_status": "24시간 운영",
     "business_desc": "연중무휴",
     "min_price": null,
@@ -9537,9 +9545,12 @@
     "y": 37.5328127891601,
     "status": "Y",
     "rating": 4.3,
-    "review_count": 185,
+    "review_count": 190,
     "headline": "영업 정보",
-    "facility_icons": [],
+    "facility_icons": [
+     "반려견동반",
+     "예약가능"
+    ],
     "store_infos": [
      {
       "title": "주차",
@@ -9583,9 +9594,9 @@
     "x": 127.4737365,
     "y": 37.6438331,
     "phone": "0507-1359-1199",
-    "visitor_review_count": 5784,
-    "visitor_review_score": 4.45,
-    "blog_review_count": 5295,
+    "visitor_review_count": 6444,
+    "visitor_review_score": 4.54,
+    "blog_review_count": 5445,
     "business_status": "운영 중",
     "business_desc": "19:00에 운영 종료",
     "min_price": null,
@@ -9880,7 +9891,7 @@
     "y": 37.64361033731261,
     "status": "Y",
     "rating": 2.7,
-    "review_count": 70,
+    "review_count": 71,
     "headline": "영업 전",
     "facility_icons": [],
     "store_infos": [],
@@ -9918,9 +9929,9 @@
     "x": 127.3084647,
     "y": 37.1557245,
     "phone": "0507-1476-8221",
-    "visitor_review_count": 4996,
+    "visitor_review_count": 5135,
     "visitor_review_score": 4.75,
-    "blog_review_count": 1700,
+    "blog_review_count": 1784,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -10098,61 +10109,67 @@
     "micro_reviews": null,
     "menus": [
      {
-      "name": "추석 연휴 조부모님 무료 *공지참고",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "1인 입장권",
-      "price": "11000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "18개월 미만 1명(무료)",
-      "price": "0",
-      "description": "",
-      "recommend": false
-     },
-     {
       "name": "어린이집 별도문의(평일)",
       "price": "",
       "description": "",
       "recommend": false
      },
      {
-      "name": "❤️이용시간 제한 없습니다.",
-      "price": "",
+      "name": "보호자 [웰컴 드링크🍹]",
+      "price": "9900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "❤️외부 음식 반입 가능합니다.",
-      "price": "",
+      "name": "어린이 (18개월 이상 모두)",
+      "price": "12900",
       "description": "",
       "recommend": false
      },
      {
-      "name": "동물 먹이주기 체험",
-      "price": "",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "감자 무료 수확 체험(이벤트)",
+      "name": "18개월 미만",
       "price": "0",
       "description": "",
       "recommend": false
      },
      {
-      "name": "미꾸라지 잡기 체험",
+      "name": "🍓예약제 아닙니다 예약없이방문가능!",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🍓이용시간 제한 없습니다.",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🍓외부 음식 반입 가능합니다.",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🐰동물 먹이주기 체험",
+      "price": "",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🍠고구마 수확 체험",
+      "price": "5000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "🎣미꾸라지 잡기 체험",
       "price": "0",
       "description": "",
       "recommend": false
      },
      {
-      "name": "반려동물(리드줄 필수)",
+      "name": "🐶반려동물(리드줄 필수)",
       "price": "0",
       "description": "",
       "recommend": false
@@ -10224,9 +10241,9 @@
     "x": 127.2704721,
     "y": 37.4699278,
     "phone": "031-798-3119",
-    "visitor_review_count": 1898,
+    "visitor_review_count": 1903,
     "visitor_review_score": 4.49,
-    "blog_review_count": 2500,
+    "blog_review_count": 2529,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -10540,6 +10557,18 @@
       "recommend": false
      },
      {
+      "name": "12월부터 대인(음료교환권)",
+      "price": "7000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "12월부터 소인(레일썰매+음료교환권)",
+      "price": "7000",
+      "description": "",
+      "recommend": false
+     },
+     {
       "name": "* 반려견 동반 입장 불가",
       "price": "1004",
       "description": "",
@@ -10651,9 +10680,9 @@
     "x": 126.7609822,
     "y": 37.4573965,
     "phone": "032-466-7282",
-    "visitor_review_count": 808,
-    "visitor_review_score": 4.32,
-    "blog_review_count": 12349,
+    "visitor_review_count": 827,
+    "visitor_review_score": 4.37,
+    "blog_review_count": 12875,
     "business_status": null,
     "business_desc": null,
     "min_price": null,
@@ -10837,9 +10866,10 @@
     "y": 37.45659085797083,
     "status": "Y",
     "rating": 4.2,
-    "review_count": 215,
+    "review_count": 226,
     "headline": null,
     "facility_icons": [
+     "반려견동반",
      "예약가능"
     ],
     "store_infos": [
@@ -10896,9 +10926,9 @@
     "x": 127.3646764,
     "y": 37.1455484,
     "phone": "0507-1411-8090",
-    "visitor_review_count": 4807,
+    "visitor_review_count": 4808,
     "visitor_review_score": 4.55,
-    "blog_review_count": 1280,
+    "blog_review_count": 1324,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -11136,7 +11166,7 @@
       "recommend": false
      },
      {
-      "name": "곤충표본교실 (입장료 별도)",
+      "name": "곤충표본교실 (사전예약제)",
       "price": "18000",
       "description": "",
       "recommend": false
@@ -11261,9 +11291,9 @@
     "x": 126.4574631,
     "y": 37.5928394,
     "phone": "032-937-4445",
-    "visitor_review_count": 1214,
+    "visitor_review_count": 1217,
     "visitor_review_score": 4.17,
-    "blog_review_count": 5498,
+    "blog_review_count": 5613,
     "business_status": null,
     "business_desc": null,
     "min_price": null,
@@ -11436,9 +11466,11 @@
     "y": 37.5928960855472,
     "status": "Y",
     "rating": 4.0,
-    "review_count": 144,
+    "review_count": 146,
     "headline": null,
-    "facility_icons": [],
+    "facility_icons": [
+     "반려견동반"
+    ],
     "store_infos": [
      {
       "title": "주차",
@@ -11487,9 +11519,9 @@
     "x": 127.0385663,
     "y": 37.5419644,
     "phone": "02-460-2905",
-    "visitor_review_count": 1152,
-    "visitor_review_score": 4.47,
-    "blog_review_count": 34776,
+    "visitor_review_count": 1188,
+    "visitor_review_score": 4.49,
+    "blog_review_count": 35624,
     "business_status": "운영 중",
     "business_desc": "21:30에 운영 종료",
     "min_price": null,
@@ -11623,7 +11655,7 @@
     "y": 37.5443222301513,
     "status": "Y",
     "rating": 4.6,
-    "review_count": 576,
+    "review_count": 596,
     "headline": "영업 중",
     "facility_icons": [
      "주차가능",
@@ -11687,9 +11719,9 @@
     "x": 127.2372231,
     "y": 37.9232113,
     "phone": "1668-1035",
-    "visitor_review_count": 630,
-    "visitor_review_score": 4.25,
-    "blog_review_count": 7521,
+    "visitor_review_count": 636,
+    "visitor_review_score": 4.26,
+    "blog_review_count": 7858,
     "business_status": "운영 중",
     "business_desc": "20:00에 운영 종료",
     "min_price": null,
@@ -12072,7 +12104,7 @@
     "y": 37.92317414931059,
     "status": "Y",
     "rating": 3.8,
-    "review_count": 210,
+    "review_count": 215,
     "headline": "영업 전",
     "facility_icons": [
      "예약가능"
@@ -12128,7 +12160,7 @@
     "phone": "032-310-3090",
     "visitor_review_count": 774,
     "visitor_review_score": 4.39,
-    "blog_review_count": 4123,
+    "blog_review_count": 4217,
     "business_status": "오늘 휴무",
     "business_desc": "추석 연휴 휴무",
     "min_price": null,
@@ -12326,8 +12358,8 @@
     "x": 126.742139781118,
     "y": 37.5086301809277,
     "status": "Y",
-    "rating": 4.3,
-    "review_count": 63,
+    "rating": 4.4,
+    "review_count": 62,
     "headline": "휴무일",
     "facility_icons": [
      "예약가능"
@@ -12391,9 +12423,9 @@
     "x": 127.3203121,
     "y": 38.0704356,
     "phone": "0507-1409-6135",
-    "visitor_review_count": 266,
-    "visitor_review_score": 4.03,
-    "blog_review_count": 8450,
+    "visitor_review_count": 275,
+    "visitor_review_score": 4.23,
+    "blog_review_count": 8698,
     "business_status": "24시간 운영",
     "business_desc": "연중무휴",
     "min_price": null,
@@ -12636,9 +12668,10 @@
     "y": 38.07116115225556,
     "status": "Y",
     "rating": 4.2,
-    "review_count": 206,
+    "review_count": 209,
     "headline": null,
     "facility_icons": [
+     "반려견동반",
      "예약가능"
     ],
     "store_infos": [
@@ -12688,9 +12721,9 @@
     "x": 127.466417,
     "y": 37.5309578,
     "phone": "0507-1385-6675",
-    "visitor_review_count": 3983,
-    "visitor_review_score": 4.89,
-    "blog_review_count": 698,
+    "visitor_review_count": 4210,
+    "visitor_review_score": 4.91,
+    "blog_review_count": 725,
     "business_status": "운영 중",
     "business_desc": "17:00에 운영 종료",
     "min_price": null,
@@ -12884,6 +12917,9 @@
      "남/녀 화장실 구분",
      "무선 인터넷",
      "단체 이용 가능",
+     "유아시설 (놀이방)",
+     "유아의자",
+     "방문접수/출장",
      "주차"
     ],
     "payment": null,
@@ -12891,13 +12927,13 @@
     "micro_reviews": null,
     "menus": [
      {
-      "name": "어린이 1인 입장권(먹이바구니포함)",
+      "name": "어린이 입장권(먹이바구니 제공)",
       "price": "12000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "성인 1인 입장권(음료포함)",
+      "name": "성인 입장권(음료 제공)",
       "price": "10000",
       "description": "",
       "recommend": false
@@ -12909,19 +12945,25 @@
       "recommend": false
      },
      {
-      "name": "1인입장권+만들기체험",
+      "name": "평일 단체 1인 입장권 (20명이상)",
+      "price": "10000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "입장권 + 만들기 체험",
       "price": "15000~36000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "입장권 포함 패키지상품",
+      "name": "입장권 + 패키지 상품",
       "price": "19500~40000",
       "description": "",
       "recommend": false
      },
      {
-      "name": "입장권 포함+곤충사육세트",
+      "name": "입장권 + 곤충사육세트",
       "price": "47000~74000",
       "description": "",
       "recommend": false
@@ -13013,9 +13055,9 @@
     "x": 126.7475643,
     "y": 37.4134966,
     "phone": "032-435-7076",
-    "visitor_review_count": 401,
+    "visitor_review_count": 407,
     "visitor_review_score": 4.31,
-    "blog_review_count": 3124,
+    "blog_review_count": 3240,
     "business_status": null,
     "business_desc": null,
     "min_price": null,
@@ -13260,6 +13302,7 @@
     "review_count": 60,
     "headline": "영업 전",
     "facility_icons": [
+     "반려견동반",
      "예약가능"
     ],
     "store_infos": [
@@ -13315,9 +13358,9 @@
     "x": 127.1432502,
     "y": 38.0773466,
     "phone": "031-834-3883",
-    "visitor_review_count": 242,
-    "visitor_review_score": 4.15,
-    "blog_review_count": 4106,
+    "visitor_review_count": 269,
+    "visitor_review_score": 4.25,
+    "blog_review_count": 4241,
     "business_status": "운영 중",
     "business_desc": "18:00에 운영 종료",
     "min_price": null,
@@ -13484,8 +13527,8 @@
     "x": 127.1433657083957,
     "y": 38.07693251670516,
     "status": "Y",
-    "rating": 4.3,
-    "review_count": 197,
+    "rating": 4.2,
+    "review_count": 200,
     "headline": "영업 전",
     "facility_icons": [
      "반려견동반"

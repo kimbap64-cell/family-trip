@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26 11:35",
+ "generated": "2026-11-20 04:06",
  "scope": "camping",
  "places": [
   {
@@ -13,8 +13,8 @@
     "x": 127.2039756,
     "y": 37.5754092,
     "score": 4.97,
-    "reviews": 2138,
-    "blog_reviews": 361,
+    "reviews": 2635,
+    "blog_reviews": 415,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -48,7 +48,7 @@
    "rating": {
     "pooled": 4.97,
     "bayes": 4.94,
-    "total_reviews": 2145,
+    "total_reviews": 2642,
     "source": "네이버"
    },
    "nav": {
@@ -215,17 +215,17 @@
     ]
    },
    "scores": {
-    "total": 85.3,
+    "total": 85.6,
     "tier": "추천",
     "breakdown": {
-     "reputation": 33.3,
+     "reputation": 33.6,
      "evidence": 23.0,
      "family_fit": 19,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.3,
+     "review_pts": 8.6,
      "source_count": 8,
      "mode_a": 9,
      "mode_b": 5,
@@ -243,8 +243,8 @@
     "🚿 화장실·샤워실 청결 언급"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 14,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 69,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1205002942",
@@ -257,8 +257,8 @@
     "x": 127.5396739,
     "y": 37.7672092,
     "score": 4.95,
-    "reviews": 3772,
-    "blog_reviews": 2128,
+    "reviews": 4241,
+    "blog_reviews": 2124,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -273,7 +273,7 @@
     "kakao_url": "http://place.map.kakao.com/1647588493",
     "kakao_road_address": "경기 가평군 가평읍 북한강변로 443",
     "rating": 4.9,
-    "review_count": 19,
+    "review_count": 21,
     "status": "Y",
     "dist_m": 3,
     "facility_icons": [
@@ -292,7 +292,7 @@
    "rating": {
     "pooled": 4.95,
     "bayes": 4.93,
-    "total_reviews": 3791,
+    "total_reviews": 4262,
     "source": "네이버"
    },
    "nav": {
@@ -430,17 +430,17 @@
     ]
    },
    "scores": {
-    "total": 84.9,
+    "total": 85.1,
     "tier": "추천",
     "breakdown": {
-     "reputation": 33.9,
+     "reputation": 34.1,
      "evidence": 23,
      "family_fit": 17,
      "practicality": 11
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.9,
+     "review_pts": 9.1,
      "source_count": 4,
      "mode_a": 9,
      "mode_b": 0,
@@ -459,7 +459,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1779393568",
@@ -472,8 +472,8 @@
     "x": 127.3778758,
     "y": 37.7698305,
     "score": 4.97,
-    "reviews": 8423,
-    "blog_reviews": 402,
+    "reviews": 8524,
+    "blog_reviews": 405,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -506,7 +506,7 @@
    "rating": {
     "pooled": 4.97,
     "bayes": 4.96,
-    "total_reviews": 8435,
+    "total_reviews": 8536,
     "source": "네이버"
    },
    "nav": {
@@ -674,8 +674,8 @@
     "🚿 화장실·샤워실 청결 언급"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 199,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 254,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1841805582",
@@ -687,9 +687,9 @@
     "road_address": "경기 구리시 동구릉로459번길 181 사노리숲",
     "x": 127.1310079,
     "y": 37.6363024,
-    "score": 4.78,
-    "reviews": 3366,
-    "blog_reviews": 423,
+    "score": 4.81,
+    "reviews": 3843,
+    "blog_reviews": 431,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -713,9 +713,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.78,
-    "bayes": 4.76,
-    "total_reviews": 3366,
+    "pooled": 4.81,
+    "bayes": 4.79,
+    "total_reviews": 3843,
     "source": "네이버"
    },
    "nav": {
@@ -822,17 +822,17 @@
     ]
    },
    "scores": {
-    "total": 82.0,
+    "total": 82.2,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 33.8,
+     "reputation": 34.0,
      "evidence": 22.2,
      "family_fit": 16,
      "practicality": 10
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.8,
+     "review_pts": 9.0,
      "source_count": 7,
      "mode_a": 9,
      "mode_b": 7,
@@ -850,8 +850,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 83,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 138,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1861819247",
@@ -864,8 +864,8 @@
     "x": 127.3467722,
     "y": 37.89905,
     "score": 4.96,
-    "reviews": 3686,
-    "blog_reviews": 914,
+    "reviews": 3807,
+    "blog_reviews": 915,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -879,8 +879,8 @@
     "kakao_id": "326068705",
     "kakao_url": "http://place.map.kakao.com/326068705",
     "kakao_road_address": "경기 가평군 조종면 운악청계로 1038-9",
-    "rating": 5.0,
-    "review_count": 8,
+    "rating": 4.8,
+    "review_count": 9,
     "status": "Y",
     "dist_m": 3,
     "facility_icons": [
@@ -899,7 +899,7 @@
    "rating": {
     "pooled": 4.96,
     "bayes": 4.94,
-    "total_reviews": 3694,
+    "total_reviews": 3816,
     "source": "네이버"
    },
    "nav": {
@@ -1060,17 +1060,17 @@
     ]
    },
    "scores": {
-    "total": 81.3,
+    "total": 81.4,
     "tier": "추천",
     "breakdown": {
-     "reputation": 33.9,
+     "reputation": 34.0,
      "evidence": 22.4,
      "family_fit": 12,
      "practicality": 13
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.9,
+     "review_pts": 9.0,
      "source_count": 4,
      "mode_a": 9,
      "mode_b": 3,
@@ -1088,8 +1088,8 @@
     "차량 58분(선호 50분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 47,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 102,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-37471628",
@@ -1101,9 +1101,9 @@
     "road_address": "경기 가평군 상면 수목원로386번길 48-65",
     "x": 127.3484631,
     "y": 37.7471675,
-    "score": 4.6,
-    "reviews": 1945,
-    "blog_reviews": 785,
+    "score": 4.61,
+    "reviews": 1961,
+    "blog_reviews": 805,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -1118,7 +1118,7 @@
     "kakao_url": "http://place.map.kakao.com/27212865",
     "kakao_road_address": "경기 가평군 상면 수목원로386번길 48-65",
     "rating": 4.5,
-    "review_count": 21,
+    "review_count": 22,
     "status": "Y",
     "dist_m": 38,
     "facility_icons": [
@@ -1134,9 +1134,9 @@
     "phone": ""
    },
    "rating": {
-    "pooled": 4.6,
-    "bayes": 4.58,
-    "total_reviews": 1966,
+    "pooled": 4.61,
+    "bayes": 4.59,
+    "total_reviews": 1983,
     "source": "네이버"
    },
    "nav": {
@@ -1354,7 +1354,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 2,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-38010414",
@@ -1367,8 +1367,8 @@
     "x": 127.4704171,
     "y": 37.6834684,
     "score": 4.61,
-    "reviews": 5459,
-    "blog_reviews": 392,
+    "reviews": 5596,
+    "blog_reviews": 426,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -1394,7 +1394,7 @@
    "rating": {
     "pooled": 4.61,
     "bayes": 4.6,
-    "total_reviews": 5459,
+    "total_reviews": 5596,
     "source": "네이버"
    },
    "nav": {
@@ -1504,17 +1504,17 @@
     ]
    },
    "scores": {
-    "total": 80.3,
+    "total": 80.4,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 29.3,
+     "reputation": 29.4,
      "evidence": 23,
      "family_fit": 15,
      "practicality": 13
     },
     "detail": {
      "rating_pts": 20,
-     "review_pts": 9.3,
+     "review_pts": 9.4,
      "source_count": 3,
      "mode_a": 9,
      "mode_b": 5,
@@ -1533,7 +1533,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1973246258",
@@ -1546,8 +1546,8 @@
     "x": 126.9800313,
     "y": 37.7349975,
     "score": 4.84,
-    "reviews": 14959,
-    "blog_reviews": 1100,
+    "reviews": 15837,
+    "blog_reviews": 1150,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -1573,7 +1573,7 @@
    "rating": {
     "pooled": 4.84,
     "bayes": 4.84,
-    "total_reviews": 14959,
+    "total_reviews": 15837,
     "source": "네이버"
    },
    "nav": {
@@ -1762,8 +1762,8 @@
      "date": "2026.08.16."
     }
    ],
-   "evidence_days_ago": 17,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 72,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1358507181",
@@ -1776,8 +1776,8 @@
     "x": 127.3725464,
     "y": 37.7591409,
     "score": 4.96,
-    "reviews": 4715,
-    "blog_reviews": 472,
+    "reviews": 4771,
+    "blog_reviews": 493,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -1789,11 +1789,11 @@
     "kakao_id": "222673449",
     "kakao_url": "http://place.map.kakao.com/222673449",
     "kakao_road_address": "경기 가평군 상면 임초밤안골로 117-27",
-    "rating": null,
-    "review_count": null,
-    "status": null,
+    "rating": 1.0,
+    "review_count": 2,
+    "status": "Y",
     "dist_m": 3,
-    "facility_icons": null,
+    "facility_icons": [],
     "store_infos": null,
     "headline": null,
     "phone": "010-4405-8678"
@@ -1801,7 +1801,7 @@
    "rating": {
     "pooled": 4.96,
     "bayes": 4.94,
-    "total_reviews": 4715,
+    "total_reviews": 4773,
     "source": "네이버"
    },
    "nav": {
@@ -1941,8 +1941,8 @@
      "date": "2026.07.22."
     }
    ],
-   "evidence_days_ago": 65,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 120,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-36516869",
@@ -1954,9 +1954,9 @@
     "road_address": "경기 가평군 조종면 운악청계로333번길 86",
     "x": 127.3465517,
     "y": 37.846748,
-    "score": 4.58,
-    "reviews": 5640,
-    "blog_reviews": 534,
+    "score": 4.61,
+    "reviews": 5737,
+    "blog_reviews": 541,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -1980,9 +1980,9 @@
     "phone": null
    },
    "rating": {
-    "pooled": 4.58,
-    "bayes": 4.57,
-    "total_reviews": 5640,
+    "pooled": 4.61,
+    "bayes": 4.6,
+    "total_reviews": 5737,
     "source": "네이버"
    },
    "nav": {
@@ -2089,7 +2089,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1665394852",
@@ -2102,8 +2102,8 @@
     "x": 127.352229,
     "y": 37.8891034,
     "score": 4.87,
-    "reviews": 4805,
-    "blog_reviews": 534,
+    "reviews": 4864,
+    "blog_reviews": 541,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -2127,7 +2127,7 @@
    "rating": {
     "pooled": 4.87,
     "bayes": 4.86,
-    "total_reviews": 4805,
+    "total_reviews": 4864,
     "source": "네이버"
    },
    "nav": {
@@ -2237,8 +2237,8 @@
     "차량 56분(선호 50분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 81,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 136,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1963218572",
@@ -2250,9 +2250,9 @@
     "road_address": "경기 양주시 장흥면 권율로 327 캠프랩",
     "x": 126.9560547,
     "y": 37.7409497,
-    "score": 4.9,
-    "reviews": 1574,
-    "blog_reviews": 221,
+    "score": 4.91,
+    "reviews": 1699,
+    "blog_reviews": 234,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -2285,9 +2285,9 @@
     "phone": ""
    },
    "rating": {
-    "pooled": 4.9,
-    "bayes": 4.86,
-    "total_reviews": 1583,
+    "pooled": 4.91,
+    "bayes": 4.87,
+    "total_reviews": 1708,
     "source": "네이버"
    },
    "nav": {
@@ -2409,17 +2409,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 72.0,
+    "total": 72.1,
     "tier": "추천",
     "breakdown": {
-     "reputation": 33.0,
+     "reputation": 33.1,
      "evidence": 17,
      "family_fit": 9,
      "practicality": 13
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 8.0,
+     "review_pts": 8.1,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 3,
@@ -2436,8 +2436,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 38,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 93,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1603157357",
@@ -2450,8 +2450,8 @@
     "x": 127.3645183,
     "y": 38.0189834,
     "score": 4.93,
-    "reviews": 6208,
-    "blog_reviews": 934,
+    "reviews": 6315,
+    "blog_reviews": 950,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -2477,7 +2477,7 @@
    "rating": {
     "pooled": 4.93,
     "bayes": 4.92,
-    "total_reviews": 6208,
+    "total_reviews": 6315,
     "source": "네이버"
    },
    "nav": {
@@ -2598,8 +2598,8 @@
     "차량 64분(선호 50분 초과)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 9,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 64,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1459700349",
@@ -2612,8 +2612,8 @@
     "x": 127.0330822,
     "y": 37.6764256,
     "score": 4.71,
-    "reviews": 2782,
-    "blog_reviews": 1228,
+    "reviews": 2792,
+    "blog_reviews": 1239,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -2632,7 +2632,6 @@
     "status": "Y",
     "dist_m": 4,
     "facility_icons": [
-     "주차가능",
      "예약가능"
     ],
     "store_infos": [
@@ -2647,7 +2646,7 @@
    "rating": {
     "pooled": 4.71,
     "bayes": 4.69,
-    "total_reviews": 2810,
+    "total_reviews": 2820,
     "source": "네이버"
    },
    "nav": {
@@ -2777,7 +2776,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 3,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2077381440",
@@ -2790,8 +2789,8 @@
     "x": 126.6916534,
     "y": 37.741891,
     "score": 4.97,
-    "reviews": 219,
-    "blog_reviews": 440,
+    "reviews": 317,
+    "blog_reviews": 578,
     "status": null,
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -2819,8 +2818,8 @@
    },
    "rating": {
     "pooled": 4.97,
-    "bayes": 4.88,
-    "total_reviews": 219,
+    "bayes": 4.9,
+    "total_reviews": 317,
     "source": "네이버"
    },
    "nav": {
@@ -2882,17 +2881,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 65.9,
+    "total": 66.3,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 30.9,
+     "reputation": 31.3,
      "evidence": 18,
      "family_fit": 9,
      "practicality": 8
     },
     "detail": {
      "rating_pts": 25,
-     "review_pts": 5.9,
+     "review_pts": 6.3,
      "source_count": 2,
      "mode_a": 6,
      "mode_b": 3,
@@ -2912,7 +2911,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 0,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-35854046",
@@ -2925,8 +2924,8 @@
     "x": 127.2510903,
     "y": 37.8693511,
     "score": 4.57,
-    "reviews": 2347,
-    "blog_reviews": 950,
+    "reviews": 2365,
+    "blog_reviews": 968,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -2938,8 +2937,8 @@
     "kakao_id": "1776717273",
     "kakao_url": "http://place.map.kakao.com/1776717273",
     "kakao_road_address": "경기 포천시 군내면 청군로2864번길 22",
-    "rating": 1.5,
-    "review_count": 14,
+    "rating": 1.4,
+    "review_count": 16,
     "status": "Y",
     "dist_m": 3,
     "facility_icons": [
@@ -2958,7 +2957,7 @@
    "rating": {
     "pooled": 4.57,
     "bayes": 4.55,
-    "total_reviews": 2361,
+    "total_reviews": 2381,
     "source": "네이버"
    },
    "nav": {
@@ -3087,8 +3086,8 @@
     "고평점(≥4.5)"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 19,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 74,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-35559736",
@@ -3101,8 +3100,8 @@
     "x": 127.5168522,
     "y": 37.7019939,
     "score": 4.48,
-    "reviews": 4428,
-    "blog_reviews": 980,
+    "reviews": 4585,
+    "blog_reviews": 987,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -3128,7 +3127,7 @@
    "rating": {
     "pooled": 4.48,
     "bayes": 4.47,
-    "total_reviews": 4428,
+    "total_reviews": 4585,
     "source": "네이버"
    },
    "nav": {
@@ -3203,17 +3202,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 63.1,
+    "total": 63.2,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 21.1,
+     "reputation": 21.2,
      "evidence": 17,
      "family_fit": 17,
      "practicality": 8
     },
     "detail": {
      "rating_pts": 12,
-     "review_pts": 9.1,
+     "review_pts": 9.2,
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 3,
@@ -3232,8 +3231,8 @@
     "🚿 화장실·샤워실 청결 언급"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 74,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 129,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1031240390",
@@ -3246,8 +3245,8 @@
     "x": 127.2007362,
     "y": 37.3071241,
     "score": 4.47,
-    "reviews": 9634,
-    "blog_reviews": 211,
+    "reviews": 9628,
+    "blog_reviews": 231,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -3279,7 +3278,7 @@
    "rating": {
     "pooled": 4.47,
     "bayes": 4.47,
-    "total_reviews": 9639,
+    "total_reviews": 9633,
     "source": "네이버"
    },
    "nav": {
@@ -3407,8 +3406,8 @@
      "date": "2021.05.22."
     }
    ],
-   "evidence_days_ago": 386,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 441,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-33445436",
@@ -3421,8 +3420,8 @@
     "x": 127.2737431,
     "y": 37.7496494,
     "score": 4.3,
-    "reviews": 3386,
-    "blog_reviews": 708,
+    "reviews": 3405,
+    "blog_reviews": 733,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -3448,7 +3447,7 @@
    "rating": {
     "pooled": 4.3,
     "bayes": 4.3,
-    "total_reviews": 3386,
+    "total_reviews": 3405,
     "source": "네이버"
    },
    "nav": {
@@ -3615,8 +3614,146 @@
     "🚿 화장실·샤워실 청결 언급"
    ],
    "plan_notes": [],
-   "evidence_days_ago": 12,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 67,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-2087896252",
+   "name": "칠봉산캠프",
+   "kind": "camping",
+   "naver": {
+    "place_id": "2087896252",
+    "category": "캠핑,야영장",
+    "road_address": "경기 동두천시 천보산로 412-31 1층",
+    "x": 127.1078946,
+    "y": 37.8734333,
+    "score": 5,
+    "reviews": 44,
+    "blog_reviews": 15,
+    "status": null,
+    "new_open": true,
+    "new_open_since": "2026-09-26",
+    "conveniences": [
+     "주차"
+    ],
+    "phone": "0507-1382-7076"
+   },
+   "kakao": {
+    "found": false,
+    "kakao_id": null,
+    "kakao_url": null,
+    "kakao_road_address": null,
+    "rating": null,
+    "review_count": null,
+    "status": null,
+    "dist_m": null,
+    "facility_icons": null,
+    "store_infos": null,
+    "headline": null,
+    "phone": null
+   },
+   "rating": {
+    "pooled": 5,
+    "bayes": 4.68,
+    "total_reviews": 44,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.8734333&dlng=127.1078946&dname=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.8734333&dlng=127.1078946&dname=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.8734333&lng=127.1078946&name=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/2087896252",
+    "mobile_place": "https://m.place.naver.com/place/2087896252/home"
+   },
+   "drive": {
+    "min": 43.5,
+    "km": 48.32,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "체험·동물",
+     "캠핑 키즈시설"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "쉼터·벤치·그늘",
+       "quote": "음식 준비를 따로 하지 않아도 되고 ​ ​ 에어컨이 있는 실내 공간에서 편하게 쉴 수 있다는 점이 가장 큰 장점이었어요. ​ ​ 친구들과 가볍게 캠핑 분위기를 즐기고 싶",
+       "src": "naver-blog:https://m.blog.naver.com/girokstore2/224394216915",
+       "date": "2026.08.29."
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "화장실·샤워실 상태(개별 여부·청결)"
+     ],
+     "soft_food": false
+    },
+    "bath": []
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/dgcarot/224421025353",
+      "title": "동두천 칠봉산 캠프 바베큐 소풍 후기",
+      "date": "3일 전",
+      "days_ago": 3,
+      "author": "세심",
+      "chars": 1579,
+      "sponsored": false
+     },
+     {
+      "url": "https://m.blog.naver.com/girokstore2/224394216915",
+      "title": "칠봉산캠프 솔직후기, 몸만 가도 되는 양주바베큐 맛집",
+      "date": "2026.08.29.",
+      "days_ago": 28,
+      "author": "기록상점",
+      "chars": 2326,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 61.1,
+    "tier": "조건부",
+    "breakdown": {
+     "reputation": 24.1,
+     "evidence": 18,
+     "family_fit": 11,
+     "practicality": 8
+    },
+    "detail": {
+     "rating_pts": 20,
+     "review_pts": 4.1,
+     "source_count": 2,
+     "mode_a": 6,
+     "mode_b": 5,
+     "bath_pts": 0,
+     "drive_pts": 6,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [
+    "카카오 교차검증 실패(확인 필요)",
+    "고평점(≥4.5)",
+    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
+   ],
+   "plan_notes": [],
+   "evidence_days_ago": 83,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1126871443",
@@ -3629,8 +3766,8 @@
     "x": 126.8273577,
     "y": 37.3809488,
     "score": 4.34,
-    "reviews": 3023,
-    "blog_reviews": 553,
+    "reviews": 3042,
+    "blog_reviews": 563,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -3645,7 +3782,7 @@
     "kakao_url": "http://place.map.kakao.com/862550219",
     "kakao_road_address": "경기 시흥시 동서로 706-90",
     "rating": 2.2,
-    "review_count": 56,
+    "review_count": 57,
     "status": "Y",
     "dist_m": 161,
     "facility_icons": [
@@ -3663,7 +3800,7 @@
    "rating": {
     "pooled": 4.34,
     "bayes": 4.34,
-    "total_reviews": 3079,
+    "total_reviews": 3099,
     "source": "네이버"
    },
    "nav": {
@@ -3821,8 +3958,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 117,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 172,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-2007947779",
@@ -3835,8 +3972,8 @@
     "x": 127.7418317,
     "y": 37.4931407,
     "score": 5,
-    "reviews": 11,
-    "blog_reviews": 2,
+    "reviews": 14,
+    "blog_reviews": 4,
     "status": null,
     "new_open": true,
     "new_open_since": "2026-09-26",
@@ -3861,8 +3998,8 @@
    },
    "rating": {
     "pooled": 5,
-    "bayes": 4.41,
-    "total_reviews": 11,
+    "bayes": 4.45,
+    "total_reviews": 14,
     "source": "네이버"
    },
    "nav": {
@@ -3948,17 +4085,17 @@
     "youtube": []
    },
    "scores": {
-    "total": 56.7,
+    "total": 56.9,
     "tier": "조건부",
     "breakdown": {
-     "reputation": 14.7,
+     "reputation": 14.9,
      "evidence": 18,
      "family_fit": 16,
      "practicality": 8
     },
     "detail": {
      "rating_pts": 12,
-     "review_pts": 2.7,
+     "review_pts": 2.9,
      "source_count": 2,
      "mode_a": 9,
      "mode_b": 7,
@@ -3980,7 +4117,7 @@
    ],
    "plan_notes": [],
    "evidence_days_ago": 5,
-   "verified_at": "2026-09-26"
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1683482854",
@@ -3993,8 +4130,8 @@
     "x": 126.7726091,
     "y": 37.4568068,
     "score": 4.35,
-    "reviews": 1554,
-    "blog_reviews": 390,
+    "reviews": 1586,
+    "blog_reviews": 408,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -4020,7 +4157,7 @@
    "rating": {
     "pooled": 4.35,
     "bayes": 4.34,
-    "total_reviews": 1568,
+    "total_reviews": 1600,
     "source": "네이버"
    },
    "nav": {
@@ -4181,8 +4318,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 46,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 101,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-36630874",
@@ -4195,8 +4332,8 @@
     "x": 127.2640635,
     "y": 37.7017905,
     "score": 4.24,
-    "reviews": 2087,
-    "blog_reviews": 389,
+    "reviews": 2097,
+    "blog_reviews": 403,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -4229,7 +4366,7 @@
    "rating": {
     "pooled": 4.24,
     "bayes": 4.24,
-    "total_reviews": 2103,
+    "total_reviews": 2113,
     "source": "네이버"
    },
    "nav": {
@@ -4356,313 +4493,8 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 167,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-2087896252",
-   "name": "칠봉산캠프",
-   "kind": "camping",
-   "naver": {
-    "place_id": "2087896252",
-    "category": "캠핑,야영장",
-    "road_address": "경기 동두천시 천보산로 412-31 1층",
-    "x": 127.1078946,
-    "y": 37.8734333,
-    "score": 5,
-    "reviews": 17,
-    "blog_reviews": 9,
-    "status": null,
-    "new_open": true,
-    "new_open_since": "2026-09-26",
-    "conveniences": [
-     "주차"
-    ],
-    "phone": "0507-1382-7076"
-   },
-   "kakao": {
-    "found": false,
-    "kakao_id": null,
-    "kakao_url": null,
-    "kakao_road_address": null,
-    "rating": null,
-    "review_count": null,
-    "status": null,
-    "dist_m": null,
-    "facility_icons": null,
-    "store_infos": null,
-    "headline": null,
-    "phone": null
-   },
-   "rating": {
-    "pooled": 5,
-    "bayes": 4.49,
-    "total_reviews": 17,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.8734333&dlng=127.1078946&dname=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.8734333&dlng=127.1078946&dname=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.8734333&lng=127.1078946&name=%EC%B9%A0%EB%B4%89%EC%82%B0%EC%BA%A0%ED%94%84&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/2087896252",
-    "mobile_place": "https://m.place.naver.com/place/2087896252/home"
-   },
-   "drive": {
-    "min": 43.5,
-    "km": 48.32,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
-   },
-   "family": {
-    "mode_a": [
-     "체험·동물",
-     "캠핑 키즈시설"
-    ],
-    "mode_b": {
-     "positive": [
-      {
-       "label": "쉼터·벤치·그늘",
-       "quote": "음식 준비를 따로 하지 않아도 되고 ​ ​ 에어컨이 있는 실내 공간에서 편하게 쉴 수 있다는 점이 가장 큰 장점이었어요. ​ ​ 친구들과 가볍게 캠핑 분위기를 즐기고 싶",
-       "src": "naver-blog:https://m.blog.naver.com/girokstore2/224394216915",
-       "date": "2026.08.29."
-      }
-     ],
-     "negative": [],
-     "verdict": "확인 필요",
-     "unknown": [
-      "경사·계단·걷는 거리",
-      "화장실·샤워실 상태(개별 여부·청결)"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/dgcarot/224421025353",
-      "title": "동두천 칠봉산 캠프 바베큐 소풍 후기",
-      "date": "3일 전",
-      "days_ago": 3,
-      "author": "세심",
-      "chars": 1579,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/girokstore2/224394216915",
-      "title": "칠봉산캠프 솔직후기, 몸만 가도 되는 양주바베큐 맛집",
-      "date": "2026.08.29.",
-      "days_ago": 28,
-      "author": "기록상점",
-      "chars": 2326,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 52.1,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 15.1,
-     "evidence": 18,
-     "family_fit": 11,
-     "practicality": 8
-    },
-    "detail": {
-     "rating_pts": 12,
-     "review_pts": 3.1,
-     "source_count": 2,
-     "mode_a": 6,
-     "mode_b": 5,
-     "bath_pts": 0,
-     "drive_pts": 6,
-     "cost_pts": 2
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "카카오 교차검증 실패(확인 필요)",
-    "고평점(≥4.5)",
-    "🌱 신규 오픈(네이버 '새로오픈' 표시, 2026-09-26 확인) — 후기 표본이 적어요"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 28,
-   "verified_at": "2026-09-26"
-  },
-  {
-   "id": "naver-19998427",
-   "name": "유식물원캠핑장",
-   "kind": "camping",
-   "naver": {
-    "place_id": "19998427",
-    "category": "캠핑,야영장",
-    "road_address": "경기 포천시 신북면 간자동길 138-100",
-    "x": 127.1502571,
-    "y": 37.973174,
-    "score": 4.33,
-    "reviews": 2086,
-    "blog_reviews": 916,
-    "status": null,
-    "new_open": false,
-    "new_open_since": null,
-    "conveniences": null,
-    "phone": "0507-1387-4713"
-   },
-   "kakao": {
-    "found": true,
-    "kakao_id": "26624907",
-    "kakao_url": "http://place.map.kakao.com/26624907",
-    "kakao_road_address": "경기 포천시 신북면 간자동길 138-100",
-    "rating": 3.7,
-    "review_count": 16,
-    "status": "Y",
-    "dist_m": 95,
-    "facility_icons": [
-     "반려견동반",
-     "예약가능"
-    ],
-    "store_infos": [],
-    "headline": null,
-    "phone": "031-536-9922"
-   },
-   "rating": {
-    "pooled": 4.33,
-    "bayes": 4.32,
-    "total_reviews": 2102,
-    "source": "네이버"
-   },
-   "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.973174&dlng=127.1502571&dname=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.973174&dlng=127.1502571&dname=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.973174&lng=127.1502571&name=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/19998427",
-    "mobile_place": "https://m.place.naver.com/place/19998427/home"
-   },
-   "drive": {
-    "min": 59.4,
-    "km": 64.26,
-    "method": "OSRM(교통 미반영)"
-   },
-   "walk": null,
-   "price": {
-    "est_meal_4p": {
-     "krw": 45000,
-     "basis": "등록된 이용 요금 2개의 중앙값 (사이트·시설 요금 혼재 가능, 추정)",
-     "sample": [
-      [
-       "1박 4인(비수기)",
-       45000
-      ],
-      [
-       "1박 4인(성수기)",
-       45000
-      ]
-     ]
-    },
-    "menus_sample": [
-     {
-      "name": "1박 4인(비수기)",
-      "price": "45000",
-      "description": "",
-      "recommend": false
-     },
-     {
-      "name": "1박 4인(성수기)",
-      "price": "45000",
-      "description": "",
-      "recommend": false
-     }
-    ]
-   },
-   "family": {
-    "mode_a": [],
-    "mode_b": {
-     "positive": [],
-     "negative": [
-      {
-       "label": "계단",
-       "quote": "자리라고 말하는 항아리? 밑에 쪽입니다 그나마 화장실가 개수대가 가까워요 그래도 오르막길이라 힘들어요 안쪽이 사이트도 좀 넓고 뷰도 괜찮았어요 근데 여기 사이트가 3개",
-       "src": "naver-blog-excerpt:https://m.blog.naver.com/bombybom/224082362312",
-       "date": "2025.11.20."
-      },
-      {
-       "label": "계단",
-       "quote": "라고 말하는 항아리? 밑에 쪽입니다 ​ 그나마 화장실가 개수대가 가까워요 그래도 오르막길이라 힘들어요 ​ 안쪽이 사이트도 좀 넓고 뷰도 괜찮았어요 근데 여기 사이트가",
-       "src": "naver-blog:https://m.blog.naver.com/bombybom/224082362312",
-       "date": "2025.11.20."
-      }
-     ],
-     "verdict": "조건부(주의 근거)",
-     "unknown": [
-      "쉼터·벤치",
-      "주차",
-      "화장실·샤워실 상태(개별 여부·청결)"
-     ],
-     "soft_food": false
-    },
-    "bath": []
-   },
-   "sources": {
-    "blogs": [
-     {
-      "url": "https://m.blog.naver.com/8114as/224341776527",
-      "title": "포천 유식물원 캠핑장 2박 캠핑 내돈내산 / 아이두젠 아마데우스 이너텐트 후기",
-      "date": "2026.07.09.",
-      "days_ago": 79,
-      "author": "서뉴",
-      "chars": 2938,
-      "sponsored": false
-     },
-     {
-      "url": "https://m.blog.naver.com/bombybom/224082362312",
-      "title": "겨울 캠핑 유식물원캠핑장",
-      "date": "2025.11.20.",
-      "days_ago": 310,
-      "author": "박숫끼",
-      "chars": 1419,
-      "sponsored": false
-     }
-    ],
-    "youtube": []
-   },
-   "scores": {
-    "total": 50.3,
-    "tier": "근거부족",
-    "breakdown": {
-     "reputation": 20.3,
-     "evidence": 17,
-     "family_fit": 0,
-     "practicality": 13
-    },
-    "detail": {
-     "rating_pts": 12,
-     "review_pts": 8.3,
-     "source_count": 2,
-     "mode_a": 0,
-     "mode_b": 0,
-     "bath_pts": 0,
-     "drive_pts": 6,
-     "cost_pts": 7
-    },
-    "gates": {
-     "pass": true,
-     "failed": []
-    }
-   },
-   "flags": [
-    "차량 59분(선호 50분 초과)"
-   ],
-   "plan_notes": [],
-   "evidence_days_ago": 310,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 222,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-38590053",
@@ -4674,9 +4506,9 @@
     "road_address": "경기 용인시 기흥구 동탄기흥로785번길 21-5",
     "x": 127.1001071,
     "y": 37.2273882,
-    "score": 4.19,
-    "reviews": 1598,
-    "blog_reviews": 394,
+    "score": 4.17,
+    "reviews": 1602,
+    "blog_reviews": 397,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -4708,9 +4540,9 @@
     "phone": "010-2456-5390"
    },
    "rating": {
-    "pooled": 4.19,
-    "bayes": 4.19,
-    "total_reviews": 1598,
+    "pooled": 4.17,
+    "bayes": 4.17,
+    "total_reviews": 1602,
     "source": "네이버"
    },
    "nav": {
@@ -4833,8 +4665,162 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 247,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 302,
+   "verified_at": "2026-11-20"
+  },
+  {
+   "id": "naver-13466661",
+   "name": "중랑가족캠핑장",
+   "kind": "camping",
+   "naver": {
+    "place_id": "13466661",
+    "category": "캠핑,야영장",
+    "road_address": "서울 중랑구 망우로87길 110",
+    "x": 127.110393,
+    "y": 37.6046663,
+    "score": 4.31,
+    "reviews": 1893,
+    "blog_reviews": 1692,
+    "status": null,
+    "new_open": false,
+    "new_open_since": null,
+    "conveniences": [
+     "주차"
+    ],
+    "phone": "0507-1348-8138"
+   },
+   "kakao": {
+    "found": true,
+    "kakao_id": "2073358160",
+    "kakao_url": "http://place.map.kakao.com/2073358160",
+    "kakao_road_address": "서울 중랑구 망우로87길 110",
+    "rating": 3.0,
+    "review_count": 22,
+    "status": "Y",
+    "dist_m": 50,
+    "facility_icons": [
+     "예약가능"
+    ],
+    "store_infos": [
+     {
+      "title": "주차",
+      "summary": "사이트 바로 옆 1대 무료 주차 가능, 추가 차량은 방문자 주차장 1만원 유료 이용, 입구 근처 공용주차장 이용 가능"
+     }
+    ],
+    "headline": null,
+    "phone": "010-3316-8138"
+   },
+   "rating": {
+    "pooled": 4.31,
+    "bayes": 4.3,
+    "total_reviews": 1915,
+    "source": "네이버"
+   },
+   "nav": {
+    "app_navigation": "nmap://navigation?dlat=37.6046663&dlng=127.110393&dname=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.6046663&dlng=127.110393&dname=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.6046663&lng=127.110393&name=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/13466661",
+    "mobile_place": "https://m.place.naver.com/place/13466661/home"
+   },
+   "drive": {
+    "min": 14.0,
+    "km": 13.14,
+    "method": "OSRM(교통 미반영)"
+   },
+   "walk": null,
+   "price": {
+    "est_meal_4p": null,
+    "menus_sample": []
+   },
+   "family": {
+    "mode_a": [
+     "놀이시설"
+    ],
+    "mode_b": {
+     "positive": [
+      {
+       "label": "주차",
+       "quote": "사이트 바로 옆 1대 무료 주차 가능, 추가 차량은 방문자 주차장 1만원 유료 이용, 입구 근처 공용주차장 이용 가능",
+       "src": "kakao-info:2073358160",
+       "date": null
+      },
+      {
+       "label": "주차",
+       "quote": "무료 주차 가능, 추가 차량은 방문자 주차장 1만원 유료 이용, 입구 근처 공용주차장 이용 가능",
+       "src": "kakao-info:2073358160",
+       "date": null
+      }
+     ],
+     "negative": [],
+     "verdict": "확인 필요",
+     "unknown": [
+      "경사·계단·걷는 거리",
+      "쉼터·벤치",
+      "화장실·샤워실 상태(개별 여부·청결)"
+     ],
+     "soft_food": false
+    },
+    "bath": [
+     {
+      "label": "온수 잘 나옴",
+      "quote": "이번에 캠핑장 새로 리뉴얼되고 완전 호텔급이네여 ㅎㅎ매너타임도 잘 지켜지고 온수 콸콸 나오고 화장실 화장실 개수대 등등 서울 동쪽 최고 시설 시립 캠핑장이라 자부합니다",
+      "src": "kakao-review:11983023",
+      "date": "2025-01-25"
+     }
+    ]
+   },
+   "sources": {
+    "blogs": [
+     {
+      "url": "https://m.blog.naver.com/junghun_jo/224415806603",
+      "title": "중랑캠핑숲 바베큐장 12명 평일 저녁 이용 후기 | 양원역에서 걸어서 다녀온 도심 바베큐",
+      "date": "7일 전",
+      "days_ago": 7,
+      "author": "짠짜라짠짠",
+      "chars": 4284,
+      "sponsored": true
+     },
+     {
+      "url": "https://m.blog.naver.com/terryssam/224366540256",
+      "title": "미우새 조현아, 이상형 성시경 캠핑장 초대 사심가득한 1:1 팬미팅",
+      "date": "2026.08.03.",
+      "days_ago": 54,
+      "author": "정이님",
+      "chars": 1447,
+      "sponsored": false
+     }
+    ],
+    "youtube": []
+   },
+   "scores": {
+    "total": 47.2,
+    "tier": "근거부족",
+    "breakdown": {
+     "reputation": 20.2,
+     "evidence": 10,
+     "family_fit": 7,
+     "practicality": 10
+    },
+    "detail": {
+     "rating_pts": 12,
+     "review_pts": 8.2,
+     "source_count": 1,
+     "mode_a": 3,
+     "mode_b": 3,
+     "bath_pts": 1,
+     "drive_pts": 8,
+     "cost_pts": 2
+    },
+    "gates": {
+     "pass": true,
+     "failed": []
+    }
+   },
+   "flags": [],
+   "plan_notes": [],
+   "evidence_days_ago": 600,
+   "verified_at": "2026-11-20"
   },
   {
    "id": "naver-1896400137",
@@ -4847,8 +4833,8 @@
     "x": 126.7499966,
     "y": 37.4552648,
     "score": 4.28,
-    "reviews": 1539,
-    "blog_reviews": 457,
+    "reviews": 1543,
+    "blog_reviews": 477,
     "status": null,
     "new_open": false,
     "new_open_since": null,
@@ -4865,7 +4851,6 @@
     "status": "Y",
     "dist_m": 10,
     "facility_icons": [
-     "주차장없음",
      "예약가능"
     ],
     "store_infos": [
@@ -4880,7 +4865,7 @@
    "rating": {
     "pooled": 4.28,
     "bayes": 4.28,
-    "total_reviews": 1539,
+    "total_reviews": 1543,
     "source": "네이버"
    },
    "nav": {
@@ -4973,162 +4958,175 @@
    },
    "flags": [],
    "plan_notes": [],
-   "evidence_days_ago": 101,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 156,
+   "verified_at": "2026-11-20"
   },
   {
-   "id": "naver-13466661",
-   "name": "중랑가족캠핑장",
+   "id": "naver-19998427",
+   "name": "유식물원캠핑장",
    "kind": "camping",
    "naver": {
-    "place_id": "13466661",
+    "place_id": "19998427",
     "category": "캠핑,야영장",
-    "road_address": "서울 중랑구 망우로87길 110",
-    "x": 127.110393,
-    "y": 37.6046663,
-    "score": 4.3,
-    "reviews": 1860,
-    "blog_reviews": 1629,
+    "road_address": "경기 포천시 신북면 간자동길 138-100",
+    "x": 127.1502571,
+    "y": 37.973174,
+    "score": 4.26,
+    "reviews": 2092,
+    "blog_reviews": 923,
     "status": null,
     "new_open": false,
     "new_open_since": null,
-    "conveniences": [
-     "주차"
-    ],
-    "phone": "0507-1348-8138"
+    "conveniences": null,
+    "phone": "0507-1387-4713"
    },
    "kakao": {
     "found": true,
-    "kakao_id": "2073358160",
-    "kakao_url": "http://place.map.kakao.com/2073358160",
-    "kakao_road_address": "서울 중랑구 망우로87길 110",
-    "rating": 3.1,
-    "review_count": 21,
+    "kakao_id": "26624907",
+    "kakao_url": "http://place.map.kakao.com/26624907",
+    "kakao_road_address": "경기 포천시 신북면 간자동길 138-100",
+    "rating": 3.7,
+    "review_count": 16,
     "status": "Y",
-    "dist_m": 50,
+    "dist_m": 95,
     "facility_icons": [
+     "반려견동반",
      "예약가능"
     ],
-    "store_infos": [
-     {
-      "title": "주차",
-      "summary": "사이트 바로 옆 1대 무료 주차 가능, 추가 차량은 방문자 주차장 1만원 유료 이용, 입구 근처 공용주차장 이용 가능"
-     }
-    ],
+    "store_infos": [],
     "headline": null,
-    "phone": "010-3316-8138"
+    "phone": "031-536-9922"
    },
    "rating": {
-    "pooled": 4.3,
-    "bayes": 4.29,
-    "total_reviews": 1881,
+    "pooled": 4.26,
+    "bayes": 4.26,
+    "total_reviews": 2108,
     "source": "네이버"
    },
    "nav": {
-    "app_navigation": "nmap://navigation?dlat=37.6046663&dlng=127.110393&dname=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_route": "nmap://route/car?dlat=37.6046663&dlng=127.110393&dname=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "app_place": "nmap://place?lat=37.6046663&lng=127.110393&name=%EC%A4%91%EB%9E%91%EA%B0%80%EC%A1%B1%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
-    "web_place": "https://map.naver.com/p/entry/place/13466661",
-    "mobile_place": "https://m.place.naver.com/place/13466661/home"
+    "app_navigation": "nmap://navigation?dlat=37.973174&dlng=127.1502571&dname=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_route": "nmap://route/car?dlat=37.973174&dlng=127.1502571&dname=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "app_place": "nmap://place?lat=37.973174&lng=127.1502571&name=%EC%9C%A0%EC%8B%9D%EB%AC%BC%EC%9B%90%EC%BA%A0%ED%95%91%EC%9E%A5&appname=kr.familytrip.misa",
+    "web_place": "https://map.naver.com/p/entry/place/19998427",
+    "mobile_place": "https://m.place.naver.com/place/19998427/home"
    },
    "drive": {
-    "min": 14.0,
-    "km": 13.14,
+    "min": 59.4,
+    "km": 64.26,
     "method": "OSRM(교통 미반영)"
    },
    "walk": null,
    "price": {
-    "est_meal_4p": null,
-    "menus_sample": []
+    "est_meal_4p": {
+     "krw": 45000,
+     "basis": "등록된 이용 요금 2개의 중앙값 (사이트·시설 요금 혼재 가능, 추정)",
+     "sample": [
+      [
+       "1박 4인(비수기)",
+       45000
+      ],
+      [
+       "1박 4인(성수기)",
+       45000
+      ]
+     ]
+    },
+    "menus_sample": [
+     {
+      "name": "1박 4인(비수기)",
+      "price": "45000",
+      "description": "",
+      "recommend": false
+     },
+     {
+      "name": "1박 4인(성수기)",
+      "price": "45000",
+      "description": "",
+      "recommend": false
+     }
+    ]
    },
    "family": {
-    "mode_a": [
-     "놀이시설"
-    ],
+    "mode_a": [],
     "mode_b": {
-     "positive": [
+     "positive": [],
+     "negative": [
       {
-       "label": "주차",
-       "quote": "사이트 바로 옆 1대 무료 주차 가능, 추가 차량은 방문자 주차장 1만원 유료 이용, 입구 근처 공용주차장 이용 가능",
-       "src": "kakao-info:2073358160",
-       "date": null
+       "label": "계단",
+       "quote": "자리라고 말하는 항아리? 밑에 쪽입니다 그나마 화장실가 개수대가 가까워요 그래도 오르막길이라 힘들어요 안쪽이 사이트도 좀 넓고 뷰도 괜찮았어요 근데 여기 사이트가 3개",
+       "src": "naver-blog-excerpt:https://m.blog.naver.com/bombybom/224082362312",
+       "date": "2025.11.20."
       },
       {
-       "label": "주차",
-       "quote": "무료 주차 가능, 추가 차량은 방문자 주차장 1만원 유료 이용, 입구 근처 공용주차장 이용 가능",
-       "src": "kakao-info:2073358160",
-       "date": null
+       "label": "계단",
+       "quote": "라고 말하는 항아리? 밑에 쪽입니다 ​ 그나마 화장실가 개수대가 가까워요 그래도 오르막길이라 힘들어요 ​ 안쪽이 사이트도 좀 넓고 뷰도 괜찮았어요 근데 여기 사이트가",
+       "src": "naver-blog:https://m.blog.naver.com/bombybom/224082362312",
+       "date": "2025.11.20."
       }
      ],
-     "negative": [],
-     "verdict": "확인 필요",
+     "verdict": "조건부(주의 근거)",
      "unknown": [
-      "경사·계단·걷는 거리",
       "쉼터·벤치",
+      "주차",
       "화장실·샤워실 상태(개별 여부·청결)"
      ],
      "soft_food": false
     },
-    "bath": [
-     {
-      "label": "온수 잘 나옴",
-      "quote": "이번에 캠핑장 새로 리뉴얼되고 완전 호텔급이네여 ㅎㅎ매너타임도 잘 지켜지고 온수 콸콸 나오고 화장실 화장실 개수대 등등 서울 동쪽 최고 시설 시립 캠핑장이라 자부합니다",
-      "src": "kakao-review:11983023",
-      "date": "2025-01-25"
-     }
-    ]
+    "bath": []
    },
    "sources": {
     "blogs": [
      {
-      "url": "https://m.blog.naver.com/junghun_jo/224415806603",
-      "title": "중랑캠핑숲 바베큐장 12명 평일 저녁 이용 후기 | 양원역에서 걸어서 다녀온 도심 바베큐",
-      "date": "7일 전",
-      "days_ago": 7,
-      "author": "짠짜라짠짠",
-      "chars": 4284,
-      "sponsored": true
+      "url": "https://m.blog.naver.com/8114as/224341776527",
+      "title": "포천 유식물원 캠핑장 2박 캠핑 내돈내산 / 아이두젠 아마데우스 이너텐트 후기",
+      "date": "2026.07.09.",
+      "days_ago": 79,
+      "author": "서뉴",
+      "chars": 2938,
+      "sponsored": false
      },
      {
-      "url": "https://m.blog.naver.com/terryssam/224366540256",
-      "title": "미우새 조현아, 이상형 성시경 캠핑장 초대 사심가득한 1:1 팬미팅",
-      "date": "2026.08.03.",
-      "days_ago": 54,
-      "author": "정이님",
-      "chars": 1447,
+      "url": "https://m.blog.naver.com/bombybom/224082362312",
+      "title": "겨울 캠핑 유식물원캠핑장",
+      "date": "2025.11.20.",
+      "days_ago": 310,
+      "author": "박숫끼",
+      "chars": 1419,
       "sponsored": false
      }
     ],
     "youtube": []
    },
    "scores": {
-    "total": 41.2,
+    "total": 44.3,
     "tier": "근거부족",
     "breakdown": {
-     "reputation": 14.2,
-     "evidence": 10,
-     "family_fit": 7,
-     "practicality": 10
+     "reputation": 14.3,
+     "evidence": 17,
+     "family_fit": 0,
+     "practicality": 13
     },
     "detail": {
      "rating_pts": 6,
-     "review_pts": 8.2,
-     "source_count": 1,
-     "mode_a": 3,
-     "mode_b": 3,
-     "bath_pts": 1,
-     "drive_pts": 8,
-     "cost_pts": 2
+     "review_pts": 8.3,
+     "source_count": 2,
+     "mode_a": 0,
+     "mode_b": 0,
+     "bath_pts": 0,
+     "drive_pts": 6,
+     "cost_pts": 7
     },
     "gates": {
      "pass": true,
      "failed": []
     }
    },
-   "flags": [],
+   "flags": [
+    "차량 59분(선호 50분 초과)"
+   ],
    "plan_notes": [],
-   "evidence_days_ago": 545,
-   "verified_at": "2026-09-26"
+   "evidence_days_ago": 365,
+   "verified_at": "2026-11-20"
   }
  ]
 }
